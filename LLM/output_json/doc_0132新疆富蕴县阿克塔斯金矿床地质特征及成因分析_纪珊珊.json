@@ -1,0 +1,490 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0132",
+"title": "新疆富蕴县阿克塔斯金矿床地质特征及成因分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿克塔斯金矿床",
+"attributes": {
+"name": "阿克塔斯金矿床",
+"location": "新疆富蕴县阿克塔斯金矿区",
+"tectonic_position": "位于乌拉尔—蒙古造山带中部的碰撞造山地区，为西伯利亚板块与哈萨克斯坦板块接合部位，属于东准噶尔后碰撞深成岩浆活动范围",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体赋存在岩体与地层接触带中，蚀变片理化带（SB）为主要含矿构造带，断裂状构造的结合处及交汇部位、断裂转弯处和破碎挤压部位为成矿有利地段",
+"age_ma": "晚石炭世—早二叠世（330—265Ma），矿体形成年龄在斜长花岗岩侵位结晶年龄309.9±6.7Ma之后"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "乌拉尔—蒙古造山带",
+"attributes": {
+"name": "乌拉尔—蒙古造山带",
+"level": "造山带",
+"tectonic_setting": "碰撞造山带中部的典型碰撞造山地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "东准噶尔后碰撞深成岩浆活动范围",
+"attributes": {
+"name": "东准噶尔后碰撞深成岩浆活动范围",
+"level": "岩浆活动范围",
+"tectonic_setting": "后碰撞深成岩浆活动（330—265Ma）"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统北塔山组（D₂b）",
+"attributes": {
+"name": "中泥盆统北塔山组（D₂b）",
+"age": "中泥盆世",
+"dominant_lithology": "海相中性火山岩（主要为安山岩）及凝灰岩等喷发—沉积岩",
+"lithology_notes": "泥盆系因夹有较多火山岩普遍具有磁性，可引起较强条带状磁异常；阿克塔斯金矿容矿地层为中泥盆统北塔山组"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "岩体与地层接触带",
+"attributes": {
+"name": "岩体与地层接触带"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "斜长花岗岩体",
+"attributes": {
+"name": "斜长花岗岩体",
+"rock_type": "斜长花岗岩",
+"age": "309.9±6.7Ma",
+"relationship_to_ore": "斜长花岗岩与金矿化关系密切，矿体赋存在岩体与地层接触带中"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "蚀变片理化带（SB）",
+"attributes": {
+"name": "蚀变片理化带（SB）",
+"structure_type": "片理化带",
+"orientation": "总体走向NE50°—60°",
+"scale": "总长度约4600m，宽约50—100m",
+"ore_control_role": "本区主要含矿构造带"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "断裂状构造交汇及转弯破碎挤压部位",
+"attributes": {
+"name": "断裂状构造交汇及转弯破碎挤压部位",
+"structure_type": "断裂构造",
+"scale": "成矿带尺度",
+"ore_control_role": "为成矿有利地段，对进一步找矿具有重要指示意义"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育（脉状、细脉状—细网脉状产出）"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "绿帘石化",
+"attributes": {
+"name": "绿帘石化",
+"alteration_minerals": "绿帘石",
+"intensity": "发育（细脉状、不规则团状产出）"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "发育（细脉状、不规则团状产出）"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "发育（浸染状、团块状、星点状产出）"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "钾化",
+"attributes": {
+"name": "钾化",
+"alteration_minerals": "钾化矿物",
+"intensity": "发育（不规则团块状、斑点状及脉状产出）"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "发育（细脉状产出）"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "石榴子石化",
+"attributes": {
+"name": "石榴子石化",
+"alteration_minerals": "石榴子石",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物，与成矿物质来源讨论相关",
+"paragenesis": "与黄铜矿等共生"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "硫化物矿物，用于硫同位素与成矿物质来源研究",
+"paragenesis": "与黄铁矿共生"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Fluid",
+"name_zh": "阿克塔斯金矿成矿流体",
+"attributes": {
+"nature": "热液",
+"source": "深部来源为主，后期可能加入来自火山岩地层的硫"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ³⁴S",
+"value_range": "-0.1‰～-2.1‰（平均-1.1‰）"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Geophysics",
+"name_zh": "布格重力异常",
+"attributes": {
+"anomaly_type": "布格重力异常",
+"amplitude": "异常值约（-84～-168）×10⁻⁵m/s²；梯度最大约每千米1.8×10⁻⁵m/s²",
+"spatial_pattern": "区域场为北西向平行等值线，重力等值线从南西向北东逐渐降低，呈北西向梯度带及高、低异常分区分带"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Geophysics",
+"name_zh": "航磁ΔT异常",
+"attributes": {
+"anomaly_type": "航磁ΔT异常",
+"amplitude": "局部异常多在500nT，最高达1000nT",
+"spatial_pattern": "位于准噶尔北缘断裂异常带与额尔齐斯断裂异常带之间，走向北西向，由正、负相间的局部异常组成，多条带状异常带"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Geophysics",
+"name_zh": "阿克塔斯工作区磁异常",
+"attributes": {
+"anomaly_type": "磁异常",
+"amplitude": "背景0nT～-300nT；局部高磁异常中心值可达2736nT、2596nT、1624nT",
+"spatial_pattern": "磁异常总体呈NW-SE走向贯穿测区；中部以较强正磁异常为主，斜长花岗岩上显示低磁异常；高磁异常区面积大，局部呈带状或心状展布"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Geophysics",
+"name_zh": "激电异常",
+"attributes": {
+"anomaly_type": "激电异常",
+"amplitude": "极化率约1%（正常场约1.6%）；电阻率约400—500欧姆·米",
+"spatial_pattern": "南部异常东段与西段具低阻、高极化特征，中段具高阻、高极化特征；西北部激电异常具低阻、高极化特征并位于两高阻体之间的低阻带上"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Geochem",
+"name_zh": "金元素地球化学特征",
+"attributes": {
+"element": "金(Au)",
+"anomaly_pattern": "成矿元素Au明显低于地壳克拉克值，区域异常组合中出现Cu、Au、As组合异常"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Geochem",
+"name_zh": "铜元素地球化学特征",
+"attributes": {
+"element": "铜(Cu)",
+"anomaly_pattern": "异常以Cu元素为基础形成多套组合异常（如Cu、Au、As组合等）"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Geochem",
+"name_zh": "砷元素地球化学特征",
+"attributes": {
+"element": "砷(As)",
+"anomaly_pattern": "矿化剂元素As偏高，参与Cu、Au、As组合异常并受区域构造控制呈带状展布"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿克塔斯金矿床位于乌拉尔—蒙古造山带中部的碰撞造山地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "阿克塔斯金矿床属于东准噶尔后碰撞深成岩浆活动范围（330—265Ma）"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "阿克塔斯金矿床矿体赋存在岩体与地层接触带中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "岩体与地层接触带对应的容矿地层为中泥盆统北塔山组（D₂b）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "斜长花岗岩体与中泥盆统北塔山组（D₂b）地层接触并形成接触带"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "蚀变片理化带（SB）为本区主要含矿构造带，控制阿克塔斯金矿床成矿"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "断裂状构造的结合处及交汇部位、断裂转弯处和破碎挤压部位为阿克塔斯金矿床成矿有利地段"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "阿克塔斯金矿床常见蚀变之一为硅化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "阿克塔斯金矿床常见蚀变之一为绿帘石化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "阿克塔斯金矿床常见蚀变之一为绿泥石化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "阿克塔斯金矿床常见蚀变之一为黄铁矿化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "阿克塔斯金矿床常见蚀变之一为钾化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "伴随有",
+"description": "阿克塔斯金矿床常见蚀变之一为碳酸盐化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "伴随有",
+"description": "阿克塔斯金矿床蚀变组合中包括褐铁矿化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "伴随有",
+"description": "阿克塔斯金矿床蚀变组合中包括石榴子石化"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "阿克塔斯金矿床硫化物矿物中包括黄铁矿"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "阿克塔斯金矿床硫化物矿物中包括黄铜矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿克塔斯金矿床成矿作用以热液交代为主，对应成矿流体为热液"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E20",
+"to_entity_local_id": "E19",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铜矿及黄铁矿中δ³⁴S值指示硫源以深部地幔为主，并可能有来自火山岩地层硫的加入，从而约束成矿流体来源"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "显示",
+"description": "阿克塔斯金矿床所在工作区布格重力异常为负异常，等值线北西向平行展布并呈梯度带特征"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "显示",
+"description": "阿克塔斯金矿床所在区域航磁ΔT异常走向北西向，局部强度可达1000nT并形成带状异常带"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "显示",
+"description": "阿克塔斯工作区磁异常总体NW-SE走向贯穿测区，局部存在高磁异常并指示找矿靶区"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "伴随有",
+"description": "阿克塔斯工作区开展激电验证，局部异常带呈低阻高极化特征并具有找矿前景"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "显示",
+"description": "区域地球化学特征表明成矿元素金(Au)参与组合异常并具有找矿指示意义"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "显示",
+"description": "区域异常以铜(Cu)为基础形成多套组合异常，为找矿提供地球化学指示"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "显示",
+"description": "矿化剂元素砷(As)偏高并参与组合异常，其空间展布显示受区域构造控制"
+}
+]
+}

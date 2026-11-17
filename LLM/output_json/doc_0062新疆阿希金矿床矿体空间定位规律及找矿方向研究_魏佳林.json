@@ -1,0 +1,243 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0062",
+"title": "新疆阿希金矿床矿体空间定位规律及找矿方向研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆北部天山西段吐拉苏火山断陷盆地内",
+"tectonic_position": "位于新疆北部天山西段吐拉苏火山断陷盆地内，与晚古生代特别是早石炭世火山岩有关的浅成低温热液成矿系列中",
+"deposit_type": "浅成低温热液型金矿床",
+"resource_tonnage": "吐拉苏火山断陷盆地乃至西天山地区最大的浅成低温热液型金矿床",
+"ore_control_features": "矿体产于裂隙式火山喷发机构中，由近南北向F₂断裂构造及其派生的张性、走滑断裂和分支断裂所控制，矿体在平面上整体呈反“S”形，在剖面上呈上宽下窄的“胡萝卜状”，在16线～56线范围内矿体厚度最大、矿化最强，24线～44线为富矿柱集中区，矿体整体向北侧伏，侧伏角10°～15°，富矿柱局部侧伏角约70°～80°",
+"age_ma": "形成于晚古生代"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "吐拉苏火山断陷盆地",
+"attributes": {
+"name": "吐拉苏火山断陷盆地",
+"level": "火山断陷盆地",
+"tectonic_setting": "位于新疆北部天山西段，盆地内广泛分布晚古生代火山岩，是与早石炭世火山岩有关金矿成矿系列的含矿盆地"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "新疆北部天山西段",
+"attributes": {
+"name": "新疆北部天山西段",
+"level": "造山带分段",
+"tectonic_setting": "发育晚古生代火山岩和多处与早石炭世火山岩有关的浅成低温热液型金矿床"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "阿希－塔尔别克－阿庇因迪金矿区",
+"attributes": {
+"name": "阿希－塔尔别克－阿庇因迪金矿区",
+"level": "金矿区",
+"tectonic_setting": "受近南北向断裂与北西向、北东向两组深断裂共同控制，分布有不同古火山机构及浅成低温热液型与斑岩型等多类型金矿床"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "早石炭世火山岩",
+"attributes": {
+"name": "早石炭世火山岩",
+"age": "早石炭世",
+"dominant_lithology": "火山岩",
+"lithology_notes": "吐拉苏火山断陷盆地内广泛分布的早石炭世火山岩系，与西天山多个金矿床的成矿密切相关"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "阿希金矿床围岩火山岩单元",
+"attributes": {
+"name": "阿希金矿床围岩火山岩单元"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "F₂断裂构造",
+"attributes": {
+"name": "F₂断裂构造",
+"structure_type": "断裂",
+"orientation": "近南北向主断裂，沿走向呈反“S”形追踪启张特征，局部具有走滑与张性双重性质",
+"scale": "为区域近南北向深大断裂之一，贯穿阿希金矿区，是控制裂隙式火山喷发及矿体展布的主干构造",
+"ore_control_role": "控制了与阿希金矿床成矿关系密切的裂隙式火山喷发机构类型和火山喷发特征，限定了矿体位于反“S”形追踪启张范围内的空间分布；张性性质控制矿体垂向上上宽下窄并呈楔状向深部尖灭；走滑性质转换形成的断裂面凹凸变化处及陡缓转折处为富矿体优选部位，上盘分支断裂发育并控制1300m标高以上浅部支脉矿体产出"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "区域深大断裂系统",
+"attributes": {
+"name": "区域深大断裂系统",
+"structure_type": "断裂带",
+"orientation": "由近南北向断裂与北西向、北东向两组深断裂组成的交叉构造体系",
+"scale": "控制阿希－塔尔别克－阿庇因迪金矿区不同古火山机构和不同类型金矿床空间分布的区域性深大断裂系统",
+"ore_control_role": "奠定了阿希矿区裂隙式火山喷发和外围塔尔别克－阿庇因迪矿区中心式火山喷发的基本控矿构造格架，决定了浅成低温热液型金矿床与斑岩型金矿床的总体空间组合格局"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化蚀变带",
+"attributes": {
+"name": "黄铁绢英岩化蚀变带",
+"alteration_minerals": "以黄铁矿、绢云母等矿物为特征的黄铁绢英岩化蚀变组合",
+"intensity": "形成黄铁绢英岩化蚀变岩型矿体，是阿希金矿床深部和北段重要的成矿类型与找矿标志"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "硅化石英脉蚀变带",
+"attributes": {
+"name": "硅化石英脉蚀变带",
+"alteration_minerals": "强硅化石英及相关脉石矿物",
+"intensity": "形成硅化石英脉型矿体，是阿希金矿床浅部及北段重要的矿化类型和找矿目标"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Deposit",
+"name_zh": "塔尔别克金矿床",
+"attributes": {
+"name": "塔尔别克金矿床",
+"location": "阿希－塔尔别克－阿庇因迪地区",
+"tectonic_position": "位于区域深大断裂控制的中心式火山喷发机构附近",
+"ore_control_features": "与中心式火山喷发和深大断裂活动密切相关，在浅成低温热液型－斑岩型金矿床空间定位模式中处于较深部位"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Deposit",
+"name_zh": "阿庇因迪金矿床",
+"attributes": {
+"name": "阿庇因迪金矿床",
+"location": "阿希－塔尔别克－阿庇因迪地区",
+"tectonic_position": "位于塔尔别克－阿庇因迪地区中心式火山喷发机构及相关深大断裂附近",
+"ore_control_features": "与大规模中心式火山喷发及深部次火山岩相密切相关，是浅成低温热液－斑岩型金矿化垂向分带系列中深部斑岩型矿化代表"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于新疆北部天山西段的吐拉苏火山断陷盆地内，是该盆地内最重要的浅成低温热液型金矿床 "
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿希金矿床地处新疆北部天山西段这一晚古生代火山岩及金矿成矿系列发育的重要构造分段内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "阿希金矿床与塔尔别克、阿庇因迪等金矿床共同构成阿希－塔尔别克－阿庇因迪金矿区"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿床赋存于吐拉苏火山断陷盆地内的早石炭世火山岩围岩中，围岩可概括为阿希金矿床围岩火山岩单元"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "阿希金矿床围岩火山岩单元在地层上属于早石炭世火山岩系"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "近南北向的F₂断裂构造控制了裂隙式火山喷发机构的类型和火山喷发特征，为阿希金矿床矿体具体空间位置奠定了构造基础，并控制了矿体反“S”形和“胡萝卜状”的空间展布"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "区域内近南北向断裂与北西向、北东向两组深断裂构成的深大断裂系统共同控制了阿希金矿床及周边不同古火山机构和不同类型金矿床的空间分布"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿床深部及北段以黄铁绢英岩化蚀变岩型矿体为主要矿化类型，对应明显的黄铁绢英岩化蚀变带"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿床浅部广泛发育硅化石英脉型矿体，对应硅化石英脉蚀变带，是北段浅部重要的找矿方向"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "塔尔别克斑岩型金矿床是阿希－塔尔别克－阿庇因迪金矿区内与火山活动有关的斑岩型金矿床之一"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "阿庇因迪斑岩型金矿床与阿希浅成低温热液型金矿床在阿希－塔尔别克－阿庇因迪金矿区内共同构成浅成低温热液－斑岩型金矿床空间定位模式的重要组成部分"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "塔尔别克斑岩型金矿床位于新疆北部天山西段，与阿希金矿床同处一个成矿构造分段"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿庇因迪斑岩型金矿床同样位于新疆北部天山西段，与阿希金矿床在时空上具有密切联系"
+}
+]
+}

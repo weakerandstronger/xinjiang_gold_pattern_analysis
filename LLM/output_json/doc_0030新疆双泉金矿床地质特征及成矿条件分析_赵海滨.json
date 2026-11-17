@@ -1,0 +1,206 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0030",
+"title": "新疆双泉金矿床地质特征及成矿条件分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿床",
+"attributes": {
+"name": "双泉金矿床",
+"location": "新疆东准噶尔地区卡拉麦里成矿带中部",
+"tectonic_position": "西伯利亚板块与哈萨克斯坦—准噶尔板块缝合带西段",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "产于含金丰度较高的下石炭统南明水组浅变质岩系中，构造十分发育，清水—苏吉泉大断裂斜穿全区，其主断裂及次级断裂构成控矿构造和容矿空间，断裂带内岩石塑性变形明显，发育强烈片理化、糜棱岩化，具韧—脆性剪切变形特征，主构造控制矿带总体走向，多组羽状、树枝状张裂隙及破碎蚀变带控制矿床（矿脉）具体就位空间"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆东准噶尔地区",
+"attributes": {
+"name": "新疆东准噶尔地区",
+"level": "地区",
+"tectonic_setting": "新疆重要的金及多金属成矿区域，构造及地层演化长期而复杂"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带",
+"attributes": {
+"name": "卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "东准噶尔地区重要的金及多金属成矿带，形成于西伯利亚板块与哈萨克斯坦—准噶尔板块缝合带西段"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "清水—苏吉泉大断裂",
+"attributes": {
+"name": "清水—苏吉泉大断裂",
+"structure_type": "区域性大断裂",
+"orientation": "斜穿全区的断裂构造",
+"scale": "斜穿双泉金矿床所在矿区，贯穿成矿带与强应变构造带之间的狭长区域",
+"ore_control_role": "主断裂构成控矿构造骨架，控制矿带总体走向，为成矿流体运移和金富集提供主要通道及容矿空间"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "清水—苏吉泉大断裂次级断裂及张裂隙带",
+"attributes": {
+"name": "清水—苏吉泉大断裂次级断裂及张裂隙带",
+"structure_type": "次级断裂及张裂隙带",
+"orientation": "沿主断裂展布，发育多组羽状、树枝状张裂隙和脆性构造",
+"scale": "由多条小型次级断裂及其羽状、树枝状张裂隙组合而成的构造系统",
+"ore_control_role": "次级断裂及其多组羽状、树枝状张裂隙、脆性构造及破碎蚀变带多为容矿构造，控制矿床（矿脉）具体就位空间"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里强应变构造带",
+"attributes": {
+"name": "卡拉麦里强应变构造带",
+"structure_type": "强应变构造带",
+"orientation": "沿卡拉麦里成矿带与清水—苏吉泉大断裂之间呈狭长带状展布",
+"scale": "卡拉麦里成矿带与清水—苏吉泉大断裂之间的狭长区域",
+"ore_control_role": "双泉金矿床就位于该强应变构造带中，带内岩石均区域变质，韧、脆性剪切变形强烈，为成矿流体中金的活化、迁移和富集提供重要机制和动力"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组",
+"attributes": {
+"name": "下石炭统南明水组",
+"age": "下石炭统",
+"dominant_lithology": "浅变质岩系",
+"lithology_notes": "含金丰度值较高的浅变质岩系，为双泉金矿床的重要含金矿源层位和赋矿地层"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "下石炭统南明水组浅变质岩系围岩单元",
+"attributes": {
+"name": "下石炭统南明水组浅变质岩系围岩单元"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "破碎蚀变—糜棱岩化蚀变带",
+"attributes": {
+"name": "破碎蚀变—糜棱岩化蚀变带",
+"alteration_minerals": "破碎蚀变岩、蚀变糜棱岩及与之相关的蚀变物质",
+"intensity": "断裂带内岩石塑性变形明显，发育强烈片理化、糜棱岩化，随细脉状、透镜状石英脉和蚀变糜棱岩发育部位矿化富集明显"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "双泉金矿床成矿流体",
+"attributes": {
+"nature": "以变质流体为主的多源成矿流体",
+"source": "金具多源性，主要来自围岩中的变质流体，其次为少量壳幔混合源及大气降水"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "细脉状、透镜状石英脉与破碎蚀变岩和蚀变糜棱岩共生，在石英脉及蚀变糜棱岩发育部位金矿化富集明显"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "双泉金矿床位于新疆东准噶尔地区，是该地区重要金及多金属成矿区中的一座金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "双泉金矿床位于新疆东准噶尔地区重要的金及多金属成矿带——卡拉麦里成矿带中部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿床与清水—苏吉泉大断裂具有密切的时空关系及成因联系，主断裂构成控矿构造和容矿空间，控制矿带总体走向"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿床主要受清水—苏吉泉大断裂内的次级小型断裂及其多组羽状、树枝状张裂隙、脆性构造及破碎蚀变带控制，这些构造为主要容矿构造，控制矿床（矿脉）具体就位空间"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "位于",
+"description": "卡拉麦里成矿带与清水—苏吉泉大断裂之间的狭长区域共同组成卡拉麦里强应变构造带，双泉金矿床就位于该强应变构造带中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "双泉金矿床产于含金丰度值较高的下石炭统南明水组浅变质岩系围岩单元中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E7",
+"relation_label_zh": "属于",
+"description": "下石炭统南明水组浅变质岩系围岩单元在地层上属于下石炭统南明水组"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "双泉金矿床断裂带内岩石发育强烈片理化和糜棱岩化，形成破碎蚀变岩及蚀变糜棱岩等破碎蚀变—糜棱岩化蚀变带，在其发育部位金矿化富集明显"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "脉石矿物包括",
+"description": "双泉金矿床矿化随细脉状、透镜状石英脉发育部位而富集，石英为该矿床破碎蚀变岩夹石英脉型矿石的主要脉石矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "双泉金矿床成矿流体以围岩产生的变质流体为主，金主要来自围岩中的变质流体，其次为少量壳幔混合源及大气降水提供的流体成分"
+}
+]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "expected": {
+    "raw_rows": 355,
+    "unique_doc_ids": 355,
+    "name_groups": 76,
+    "features": 10,
+    "observed_cells": 555,
+    "unknown_cells": 205,
+    "singlevalue_cells": 161,
+    "multivalue_cells": 394,
+    "distinct_items": 1037,
+    "attribute_occurrences": 2364,
+    "patterns": 11963,
+    "pairs": 1398,
+    "triples": 10565
+  },
+  "topic_patterns": [
+    "P00001",
+    "P00055",
+    "P00335"
+  ]
+}

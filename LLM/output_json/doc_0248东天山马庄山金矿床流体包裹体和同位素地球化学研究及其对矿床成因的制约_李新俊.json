@@ -1,0 +1,236 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0248",
+"title": "东天山马庄山金矿床流体包裹体和同位素地球化学研究及其对矿床成因的制约_李新俊",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "马庄山金矿床",
+"attributes": {
+"name": "马庄山金矿床",
+"location": "新疆东天山马庄山地区",
+"tectonic_position": "北山裂谷北部，塔里木板块与西伯利亚板块的交界处",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿石品位平均6×10^-6～7×10^-6，最高可达258×10^-6",
+"resource_tonnage": "已探明金储量达大型规模",
+"ore_control_features": "已发现20多条金矿脉；矿脉走向北西或近东西向，其次为北北西向，倾向北—北东，倾角35°～71°；单条矿脉一般长110～400m，最长可达900m；矿脉厚度0.2～15.5m；围岩蚀变一般宽0.2～3m，围绕矿脉呈线状分布",
+"age_ma": "晚石炭世（石英流体包裹体Rb-Sr等时线年龄298±28Ma；石英斑岩Rb-Sr等时线年龄303±26Ma）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆东天山地区",
+"attributes": {
+"name": "新疆东天山地区",
+"level": "地区",
+"tectonic_setting": "北山裂谷北部，塔里木板块与西伯利亚板块交界处"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统白山组",
+"attributes": {
+"name": "下石炭统白山组",
+"age": "早石炭世",
+"dominant_lithology": "流纹岩、英安岩、英安质凝灰岩和安山岩等火山岩-火山碎屑岩组合",
+"lithology_notes": "上部为流纹岩、绢云母板岩夹凝灰质砂岩；下部为灰绿色英安岩、英安质凝灰岩和安山岩；地层呈倾向南东的单斜构造，倾角35°～50°"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "马庄山石英斑岩（次火山岩相）",
+"attributes": {
+"name": "马庄山石英斑岩（次火山岩相）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "北西向—近东西向断裂构造",
+"attributes": {
+"name": "北西向—近东西向断裂构造",
+"structure_type": "断裂构造",
+"orientation": "走向北西或近东西向（次为北北西向），倾向北—北东，倾角35°～71°",
+"scale": "矿区级",
+"ore_control_role": "与金矿脉的走向、倾向和倾角一致，控制主要金矿脉展布"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化—黄铁绢英岩化—绢云母化",
+"attributes": {
+"name": "硅化—黄铁绢英岩化—绢云母化",
+"alteration_minerals": "石英、黄铁矿、绢云母"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "呈粒状、树枝状、不规则状，以裂隙金、晶隙金和包体金形式赋存于黄铁矿、黄铜矿和石英中"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物",
+"paragenesis": "与石英共同组成石英-金属硫化物型矿石，并与自然金、黄铜矿、闪锌矿、方铅矿等共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Fluid",
+"name_zh": "马庄山金矿成矿流体",
+"attributes": {
+"nature": "中温、中低盐度流体；气相以H2O为主、其次为CO2，含CO、CH4、N2、C2H6、Ar、O2、H2S等；液相具富Na+、K+、Cl-特征，为Na+－K+/Cl-型",
+"source": "岩浆流体与大气降水来源的循环地下水发生混合作用形成成矿流体",
+"temperature_C_min": "220",
+"temperature_C_max": "270",
+"salinity_wtNaCl_min": "7.5",
+"salinity_wtNaCl_max": "16.2"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD（包裹体水）、δ18O（包裹体水）",
+"value_range": "δD=-93‰～-106‰；δ18O=1.1‰～2.4‰"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（黄铁矿）",
+"value_range": "4.5‰～6.5‰"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "铅同位素参数",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "206Pb/204Pb、207Pb/204Pb、208Pb/204Pb（黄铁矿）",
+"value_range": "206Pb/204Pb=17.896～18.449；207Pb/204Pb=15.256～15.760；208Pb/204Pb=37.076～38.711"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "矿石金元素品位数据",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "6×10^-6～7×10^-6",
+"anomaly_pattern": "最高可达258×10^-6"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "马庄山金矿床位于新疆东天山地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "次火山岩相的马庄山石英斑岩是马庄山金矿的主要赋矿围岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "沿…展布",
+"description": "马庄山金矿脉走向北西或近东西向，倾向北—北东，倾角35°～71°，与北西向—近东西向断裂构造一致"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "马庄山金矿围岩蚀变自矿体向外依次为硅化、黄铁绢英岩化、绢云母化"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要金矿物为",
+"description": "马庄山金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "马庄山金矿床共生金属硫化物矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "对应成矿流体为",
+"description": "马庄山金矿床对应成矿流体为中温、中低盐度、富H2O和CO2并富Na+、K+、Cl-的流体"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素表明成矿流体为岩浆水与大气水（循环地下水）混合来源"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿硫同位素δ34S集中于4.5‰～6.5‰，指示深部岩浆硫来源"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素组成范围宽且线性相关良好，反映成矿物质来源多元并具地壳—地幔储库混合趋势"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "马庄山金矿床矿石金品位平均6×10^-6～7×10^-6，最高可达258×10^-6"
+}
+]
+}

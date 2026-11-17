@@ -1,0 +1,230 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0098",
+"title": "新疆索尔巴斯陶金矿矿床地质特征及金的赋存状态",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "索尔巴斯陶金矿床",
+"attributes": {
+"name": "索尔巴斯陶金矿床",
+"location": "索尔巴斯陶金矿区",
+"ore_control_features": "受短轴背斜及其北东—南西向蚀变岩带控制，区内褶皱和断裂发育"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "索尔巴斯陶金矿区",
+"attributes": {
+"name": "索尔巴斯陶金矿区",
+"level": "矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统塔克尔巴斯陶组第二段",
+"attributes": {
+"name": "下石炭统塔克尔巴斯陶组第二段",
+"age": "下石炭世",
+"dominant_lithology": "凝灰质角砾岩、角砾凝灰岩、凝灰岩、沉凝灰岩",
+"lithology_notes": "含少量安山岩、玄武岩透镜体"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统塔克尔巴斯陶组第四段",
+"attributes": {
+"name": "下石炭统塔克尔巴斯陶组第四段",
+"age": "下石炭世",
+"dominant_lithology": "凝灰质角砾岩、凝灰质中细粒砾岩、凝灰质粉砂岩、凝灰质不等粒砂岩",
+"lithology_notes": "夹玄武岩、玄武安山岩、杏仁状安山岩、辉绿岩等"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "塔克尔巴斯陶组第二段火山碎屑岩围岩",
+"attributes": {
+"name": "塔克尔巴斯陶组第二段火山碎屑岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "塔克尔巴斯陶组第四段火山碎屑岩围岩",
+"attributes": {
+"name": "塔克尔巴斯陶组第四段火山碎屑岩围岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "短轴背斜",
+"attributes": {
+"name": "短轴背斜",
+"structure_type": "褶皱",
+"orientation": "褶皱轴呈北东—南西向",
+"scale": "展布长度约600m",
+"ore_control_role": "矿区重要控矿构造，金矿体分布受其核部蚀变岩带控制"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "北东—南西向蚀变岩带",
+"attributes": {
+"name": "北东—南西向蚀变岩带",
+"alteration_minerals": "绿泥石、绿帘石、绢云母、高岭石等",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金主要以独立矿物相存在，形成显微金"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "金矿物之一，以独立矿物形式存在"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金的载体矿物之一"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "金的载体矿物之一"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "金的载体矿物之一"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "索尔巴斯陶金矿床位于索尔巴斯陶金矿区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "索尔巴斯陶金矿床矿区主要出露并与矿化有关的围岩为塔克尔巴斯陶组第二段火山碎屑岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "索尔巴斯陶金矿床矿区主要出露并与矿化有关的围岩为塔克尔巴斯陶组第四段火山碎屑岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "塔克尔巴斯陶组第二段火山碎屑岩围岩属于下石炭统塔克尔巴斯陶组第二段"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "塔克尔巴斯陶组第四段火山碎屑岩围岩属于下石炭统塔克尔巴斯陶组第四段"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "索尔巴斯陶金矿床受短轴背斜控矿，金矿体分布受其核部蚀变岩带控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "索尔巴斯陶金矿床发育北东—南西向蚀变岩带，矿体分布受该蚀变岩带控制"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "索尔巴斯陶金矿床金矿物主要为自然金"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "索尔巴斯陶金矿床金矿物还包括银金矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "索尔巴斯陶金矿床中金的载体矿物主要为黄铁矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "索尔巴斯陶金矿床中金的载体矿物主要为毒砂"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "索尔巴斯陶金矿床中金的载体矿物主要为石英"
+}
+]
+}

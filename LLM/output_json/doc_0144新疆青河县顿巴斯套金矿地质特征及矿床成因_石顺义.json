@@ -1,0 +1,289 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0144",
+"title": "新疆青河县顿巴斯套金矿地质特征及矿床成因",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "顿巴斯套金矿床",
+"attributes": {
+"name": "顿巴斯套金矿床",
+"location": "新疆青河县",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受阿尔曼太断裂带影响形成两条较大的脆-韧性构造蚀变带控制，赋存于下石炭统姜巴斯套组脆-韧性构造蚀变带内"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔北缘",
+"attributes": {
+"name": "东准噶尔北缘",
+"level": "区域"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统姜巴斯套组",
+"attributes": {
+"name": "下石炭统姜巴斯套组",
+"age": "下石炭统",
+"dominant_lithology": "浅变质陆源正常碎屑岩建造",
+"lithology_notes": "强烈片理化的粉砂岩、岩屑砂岩和砂砾岩，以浅变质粉砂岩为主，粉砂岩与长石岩屑砂岩交替出现"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "阿尔曼太断裂带",
+"attributes": {
+"name": "阿尔曼太断裂带",
+"structure_type": "断裂带",
+"ore_control_role": "其影响形成两条较大的脆-韧性构造蚀变带并控制矿床赋存"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "NWW向脆韧性变形构造带",
+"attributes": {
+"name": "NWW向脆韧性变形构造带",
+"structure_type": "脆韧性变形构造带",
+"orientation": "NWW向",
+"ore_control_role": "带内发育大量次级断裂、裂隙、破碎带和挤压片理带，为成矿提供空间并控制矿化"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英闪长玢岩脉",
+"attributes": {
+"name": "石英闪长玢岩脉",
+"rock_type": "石英闪长玢岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "强烈发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强烈发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿",
+"intensity": "强烈发育"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "强烈发育"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "强烈发育"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "强烈发育"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "与金矿化密切相关的金属硫化物",
+"paragenesis": "与硅化、绢云母化等蚀变共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "金异常",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "浓集中心突出、异常分带完全且套合较好的Au-Sb-As-Hg综合化探异常"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "锑异常",
+"attributes": {
+"element": "Sb",
+"anomaly_pattern": "浓集中心突出、异常分带完全且套合较好的Au-Sb-As-Hg综合化探异常"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "砷异常",
+"attributes": {
+"element": "As",
+"anomaly_pattern": "浓集中心突出、异常分带完全且套合较好的Au-Sb-As-Hg综合化探异常"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geochem",
+"name_zh": "汞异常",
+"attributes": {
+"element": "Hg",
+"anomaly_pattern": "浓集中心突出、异常分带完全且套合较好的Au-Sb-As-Hg综合化探异常"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "顿巴斯套金矿床所在区域位于东准噶尔北缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "顿巴斯套金矿床受阿尔曼太断裂带影响形成的脆-韧性构造蚀变带控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "顿巴斯套金矿床赋存于NWW向脆韧性变形构造带内，带内次级断裂裂隙等为成矿提供空间并控制矿化"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "脆-韧性变形蚀变带内碎屑岩中黄铁矿化强烈发育并相互叠加"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "脆-韧性变形蚀变带内碎屑岩中硅化强烈发育并相互叠加"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "脆-韧性变形蚀变带内碎屑岩中褐铁矿化强烈发育并相互叠加"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "脆-韧性变形蚀变带内碎屑岩中绢云母化强烈发育并相互叠加"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "脆-韧性变形蚀变带内碎屑岩中绿泥石化强烈发育并相互叠加"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "脆-韧性变形蚀变带内碎屑岩中碳酸盐化强烈发育并相互叠加"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "顿巴斯套金矿床找矿标志中指出黄铁矿化强烈，表明黄铁矿与金矿化密切相关"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "顿巴斯套金矿床表现为Au-Sb-As-Hg综合化探异常，Au浓集中心突出且指示性较强"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "顿巴斯套金矿床表现为Au-Sb-As-Hg综合化探异常，Sb异常分带完全且套合较好"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "顿巴斯套金矿床表现为Au-Sb-As-Hg综合化探异常，As异常分带完全且套合较好"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "显示",
+"description": "顿巴斯套金矿床表现为Au-Sb-As-Hg综合化探异常，Hg异常分带完全且套合较好"
+}
+]
+}

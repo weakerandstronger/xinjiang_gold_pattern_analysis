@@ -1,0 +1,345 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0004",
+"title": "新疆卡拉麦里造山型金矿系统",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "卡拉麦里金矿带",
+"attributes": {
+"name": "卡拉麦里金矿带",
+"level": "金矿带",
+"tectonic_setting": "卡拉麦里构造带内的重要区域性金矿带，带内发育多个规模不等的金矿床与近百个金矿点和金矿化点"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "东准噶尔地区",
+"attributes": {
+"name": "东准噶尔地区",
+"level": "地区",
+"tectonic_setting": "卡拉麦里断裂带位于东准噶尔地区，沿卡拉麦里山、塔克扎勒山和莫钦乌拉山一线断续出露"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里构造带",
+"attributes": {
+"name": "卡拉麦里构造带",
+"structure_type": "大型断裂带",
+"orientation": "NW向展布",
+"scale": "新疆北部一条大型断裂带，高应变蛇绿混杂岩带",
+"ore_control_role": "控制卡拉麦里金矿带内多个金矿床与金矿点的分布，是重要的区域性金矿带基础构造"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里断裂带次级韧性剪切带",
+"attributes": {
+"name": "卡拉麦里断裂带次级NW向或近EW向韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "NW向或近EW向",
+"scale": "卡拉麦里断裂带内次一级剪切带",
+"ore_control_role": "矿体或矿化带的定位多受这些NW向或近EW向韧性剪切带或蚀变破碎带控制"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Deposit",
+"name_zh": "卡拉麦里一号金矿床",
+"attributes": {
+"name": "卡拉麦里一号金矿床",
+"location": "卡拉麦里构造带内卡拉麦里金矿带",
+"tectonic_position": "位于卡拉麦里断裂带内NW向高应变蛇绿混杂岩带中",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体定位多受卡拉麦里断裂带次一级NW向或近EW向韧性剪切带或蚀变破碎带控制，以含金石英脉或含金片理化蚀变岩为主要矿化样式"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Deposit",
+"name_zh": "金水泉金矿床",
+"attributes": {
+"name": "金水泉金矿床",
+"location": "卡拉麦里构造带内卡拉麦里金矿带",
+"tectonic_position": "位于卡拉麦里断裂带内NW向高应变蛇绿混杂岩带中",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体定位多受卡拉麦里断裂带次一级NW向或近EW向韧性剪切带或蚀变破碎带控制"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿床",
+"attributes": {
+"name": "双泉金矿床",
+"location": "卡拉麦里构造带内卡拉麦里金矿带",
+"tectonic_position": "位于卡拉麦里断裂带内NW向高应变蛇绿混杂岩带中",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体定位多受卡拉麦里断裂带次一级NW向或近EW向韧性剪切带或蚀变破碎带控制"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Deposit",
+"name_zh": "苏吉泉金矿床",
+"attributes": {
+"name": "苏吉泉金矿床",
+"location": "卡拉麦里构造带内卡拉麦里金矿带",
+"tectonic_position": "位于卡拉麦里断裂带内NW向高应变蛇绿混杂岩带中",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体定位多受卡拉麦里断裂带次一级NW向或近EW向韧性剪切带或蚀变破碎带控制"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿床",
+"attributes": {
+"name": "南明水金矿床",
+"location": "卡拉麦里构造带内卡拉麦里金矿带",
+"tectonic_position": "位于卡拉麦里断裂带内NW向高应变蛇绿混杂岩带中",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体定位多受卡拉麦里断裂带次一级NW向或近EW向韧性剪切带或蚀变破碎带控制"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Deposit",
+"name_zh": "红山金矿床",
+"attributes": {
+"name": "红山金矿床",
+"location": "卡拉麦里金矿带",
+"deposit_type": "造山型金矿床"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Deposit",
+"name_zh": "清水金矿床",
+"attributes": {
+"name": "清水金矿床",
+"location": "卡拉麦里金矿带",
+"deposit_type": "造山型金矿床"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Deposit",
+"name_zh": "苏吉泉东金矿床",
+"attributes": {
+"name": "苏吉泉东金矿床",
+"location": "卡拉麦里金矿带",
+"deposit_type": "造山型金矿床"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "HostRockUnit",
+"name_zh": "超基性岩和基性岩及硅泥质沉积容矿岩石",
+"attributes": {
+"name": "代表洋壳组分的超基性岩和基性岩及相伴的硅泥质沉积（蛇绿岩）容矿岩石"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "HostRockUnit",
+"name_zh": "弧前沉积岩系容矿岩石",
+"attributes": {
+"name": "弧前沉积岩系容矿岩石"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "HostRockUnit",
+"name_zh": "残余海盆沉积岩系容矿岩石",
+"attributes": {
+"name": "残余海盆沉积岩系容矿岩石"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "金（自然金）",
+"attributes": {
+"name": "金（自然金）",
+"role_in_ore": "主要金矿物",
+"paragenesis": "赋存于含金石英脉和含金片理化蚀变岩中"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物及载金矿物",
+"paragenesis": "构成含金石英脉（石英细脉、石英网脉）并与金共生"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Fluid",
+"name_zh": "卡拉麦里造山型金矿系统成矿流体",
+"attributes": {
+"nature": "C-O-H-N-S体系的中低温、低盐度变质流体",
+"source": "应以变质水为主，也兼具岩浆水、建造水或大气降水的痕迹",
+"temperature_C_min": "200",
+"temperature_C_max": "290",
+"salinity_wtNaCl_min": "3.55",
+"salinity_wtNaCl_max": "6.4"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡拉麦里一号金矿床位于卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金水泉金矿床位于卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "双泉金矿床位于卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "苏吉泉金矿床位于卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "南明水金矿床位于卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "红山金矿床位于卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "清水金矿床位于卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "苏吉泉东金矿床位于卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "卡拉麦里一号金矿床矿体定位多受卡拉麦里断裂带次一级NW向或近EW向韧性剪切带控制"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "金水泉金矿床矿体定位多受卡拉麦里断裂带次一级NW向或近EW向韧性剪切带控制"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿床矿体定位多受卡拉麦里断裂带次一级NW向或近EW向韧性剪切带控制"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉金矿床矿体定位多受卡拉麦里断裂带次一级NW向或近EW向韧性剪切带控制"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿床矿体定位多受卡拉麦里断裂带次一级NW向或近EW向韧性剪切带控制"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E19",
+"relation_label_zh": "对应成矿流体为",
+"description": "红山金矿床流体包裹体测温和盐度研究表明其成矿流体为中低温、低盐度变质流体"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E19",
+"relation_label_zh": "对应成矿流体为",
+"description": "南明水金矿床流体包裹体和成矿流体研究表明其成矿流体为C-O-H-N-S体系的中低温、低盐度流体"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E19",
+"relation_label_zh": "对应成矿流体为",
+"description": "清水金矿床流体包裹体测温和盐度研究表明其成矿流体为中低温、低盐度变质流体"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E19",
+"relation_label_zh": "对应成矿流体为",
+"description": "双泉金矿床成矿流体研究结果表明其成矿流体为C-O-H-N-S体系中低温、低盐度流体"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E19",
+"relation_label_zh": "对应成矿流体为",
+"description": "苏吉泉东金矿床成矿流体研究结果表明其成矿流体为C-O-H-N-S体系中低温、低盐度流体"
+}
+]
+}

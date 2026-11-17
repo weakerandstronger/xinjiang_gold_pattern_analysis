@@ -1,0 +1,370 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0097",
+"title": "新疆韧性剪切带型金矿床地质特征研究——以索尔巴斯陶金矿床与哈图金矿床为例",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "索尔巴斯陶金矿床",
+"attributes": {
+"name": "索尔巴斯陶金矿床",
+"location": "哈萨克斯坦—准格尔板块之准格尔构造区的哈尔里克晚古生代岛弧带与博格达晚古生代裂谷两个三级构造单元的结合部位",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿体严格受韧性剪切带控制，多分布在韧性剪切带的后期脆性断裂中；受短轴背斜及F1、F2、F7断裂控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "哈图金矿床",
+"attributes": {
+"name": "哈图金矿床",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体严格受韧性剪切带控制，多分布在韧性剪切带的后期脆性断裂中"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "准格尔构造区",
+"attributes": {
+"name": "准格尔构造区",
+"level": "构造区",
+"tectonic_setting": "哈萨克斯坦—准格尔板块之构造区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "哈尔里克晚古生代岛弧带",
+"attributes": {
+"name": "哈尔里克晚古生代岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "晚古生代岛弧构造环境"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "博格达晚古生代裂谷",
+"attributes": {
+"name": "博格达晚古生代裂谷",
+"level": "裂谷",
+"tectonic_setting": "晚古生代裂谷构造环境"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Region",
+"name_zh": "索尔巴斯陶Cu-Mo-Au成矿集中区",
+"attributes": {
+"name": "索尔巴斯陶Cu-Mo-Au成矿集中区",
+"level": "成矿集中区",
+"tectonic_setting": "北天山成矿带内的重要成矿集中区"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "韧性剪切带",
+"attributes": {
+"name": "韧性剪切带",
+"structure_type": "韧性剪切带",
+"ore_control_role": "矿体严格受韧性剪切带控制"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "后期脆性断裂",
+"attributes": {
+"name": "后期脆性断裂",
+"structure_type": "脆性断裂",
+"ore_control_role": "矿体多分布在韧性剪切带的后期脆性断裂中"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "短轴背斜",
+"attributes": {
+"name": "短轴背斜",
+"structure_type": "褶皱",
+"orientation": "蚀变体呈北东—南西向带状分布，方向与褶皱构造长轴方向基本一致",
+"ore_control_role": "背斜构造为矿区重要控矿构造"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "F1断裂",
+"attributes": {
+"name": "F1断裂",
+"structure_type": "正断层",
+"orientation": "走向290°～330°，倾向南西，倾角大于55°",
+"scale": "区内可见长度0.9km，断裂带宽5～50m",
+"ore_control_role": "与F2、F7共同控制背斜构造和金矿的成生与分布"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "F2断裂",
+"attributes": {
+"name": "F2断裂",
+"structure_type": "逆掩断层",
+"orientation": "走向北西—南东，倾向西或南西，倾角46°～78°",
+"scale": "区内可见长度0.80km，断裂带宽2～40m",
+"ore_control_role": "与F1、F7共同控制背斜构造和金矿的成生与分布"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "F7断裂",
+"attributes": {
+"name": "F7断裂",
+"structure_type": "平移断层",
+"orientation": "走向北北东",
+"scale": "区内可见长度0.84km，断裂带宽0.5～2m",
+"ore_control_role": "与F1、F2共同控制背斜构造和金矿的成生与分布"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "高岭土化",
+"attributes": {
+"name": "高岭土化",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金属硫化物主要矿物"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "少量金属硫化物"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物为主"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "少量金属氧化物"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "索尔巴斯陶金矿床位于准格尔构造区内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "索尔巴斯陶金矿床位于哈尔里克晚古生代岛弧带与博格达晚古生代裂谷结合部位"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "索尔巴斯陶金矿床位于博格达晚古生代裂谷与哈尔里克晚古生代岛弧带结合部位"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "隶属于",
+"description": "索尔巴斯陶金矿床属于索尔巴斯陶Cu-Mo-Au成矿集中区"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "索尔巴斯陶金矿床矿体严格受韧性剪切带控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "沿…展布",
+"description": "索尔巴斯陶金矿床矿体多分布在韧性剪切带的后期脆性断裂中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "索尔巴斯陶金矿床受短轴背斜控矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "F1断裂参与控制索尔巴斯陶金矿床及其背斜构造的成生与分布"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "F2断裂参与控制索尔巴斯陶金矿床及其背斜构造的成生与分布"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "F7断裂参与控制索尔巴斯陶金矿床及其背斜构造的成生与分布"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "索尔巴斯陶金矿床断裂两侧及破碎带中岩石普遍发生强烈褐铁矿化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "索尔巴斯陶金矿床断裂两侧及破碎带中岩石普遍发生强烈硅化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "索尔巴斯陶金矿床断裂两侧及破碎带中岩石普遍发生强烈绢云母化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "索尔巴斯陶金矿床断裂两侧及破碎带中岩石普遍发生强烈高岭土化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "索尔巴斯陶金矿床矿石中金属硫化物主要为黄铁矿"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "索尔巴斯陶金矿床矿石中含少量毒砂等金属硫化物"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "索尔巴斯陶金矿床脉石矿物以石英为主"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "索尔巴斯陶金矿床矿石中含少量褐铁矿等金属氧化物"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿床矿体严格受韧性剪切带控制"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E8",
+"relation_label_zh": "沿…展布",
+"description": "哈图金矿床矿体多分布在韧性剪切带的后期脆性断裂中"
+}
+]
+}

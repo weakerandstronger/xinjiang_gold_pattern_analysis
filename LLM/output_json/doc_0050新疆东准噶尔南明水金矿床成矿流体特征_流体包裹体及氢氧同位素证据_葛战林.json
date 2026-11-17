@@ -1,0 +1,154 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0050",
+"title": "新疆东准噶尔南明水金矿床成矿流体特征:流体包裹体及氢氧同位素证据",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿床",
+"attributes": {
+"name": "南明水金矿床",
+"location": "新疆东准噶尔地区",
+"tectonic_position": "位于卡拉麦里成矿带东段",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体受NW—NWW向韧－脆性断裂控制，赋矿围岩为下石炭统姜巴斯套组浅变质海相火山碎屑－沉积岩"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带",
+"attributes": {
+"name": "卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "位于新疆东准噶尔地区的金成矿带东段，为南明水金矿床所在的成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统姜巴斯套组",
+"attributes": {
+"name": "下石炭统姜巴斯套组",
+"age": "下石炭统",
+"dominant_lithology": "浅变质海相火山碎屑－沉积岩",
+"lithology_notes": "为南明水金矿床的赋矿地层，由浅变质海相火山碎屑－沉积岩组成"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "姜巴斯套组浅变质海相火山碎屑－沉积岩围岩单元",
+"attributes": {
+"name": "姜巴斯套组浅变质海相火山碎屑－沉积岩围岩单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "NW—NWW向韧－脆性断裂",
+"attributes": {
+"name": "NW—NWW向韧－脆性断裂",
+"structure_type": "韧－脆性断裂",
+"orientation": "NW—NWW向",
+"scale": "发育于南明水金矿区内的高角度断裂构造",
+"ore_control_role": "控制南明水金矿床矿体的产出和展布，是主要控矿构造"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Fluid",
+"name_zh": "南明水金矿床成矿流体",
+"attributes": {
+"nature": "早、中阶段为CO2－H2O－NaCl±CH4体系，晚阶段演化为贫CO2的H2O－NaCl体系，成矿温度和流体密度逐渐降低、盐度变化不大",
+"source": "主成矿阶段成矿流体主要来源于变质水",
+"temperature_C_min": "约174 ℃",
+"temperature_C_max": "约361 ℃",
+"pressure_MPa_min": "约214 MPa",
+"pressure_MPa_max": "约397 MPa",
+"salinity_wtNaCl_min": "约0.4% NaCl 当量",
+"salinity_wtNaCl_max": "约6.0% NaCl 当量"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Isotope",
+"name_zh": "氢、氧同位素参数",
+"attributes": {
+"system": "H-O",
+"parameter_name": "氢、氧同位素组成",
+"value_range": "氢、氧同位素研究表明主成矿阶段成矿流体主要来源于变质水"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物，发育大量原生流体包裹体",
+"paragenesis": "早、中、晚各阶段的石英中均发育CO2－H2O包裹体、水溶液包裹体和纯CO2包裹体等不同类型原生流体包裹体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "南明水金矿床位于新疆东准噶尔地区卡拉麦里成矿带东段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿床矿体受NW—NWW向韧－脆性断裂控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "南明水金矿床赋存于下石炭统姜巴斯套组浅变质海相火山碎屑－沉积岩围岩单元中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "姜巴斯套组浅变质海相火山碎屑－沉积岩围岩单元在地层上属于下石炭统姜巴斯套组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "对应成矿流体为",
+"description": "南明水金矿床的成矿流体由早、中阶段的CO2－H2O－NaCl±CH4体系演化为晚阶段贫CO2的H2O－NaCl体系"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "约束该流体来源",
+"description": "氢、氧同位素参数表明南明水金矿床主成矿阶段成矿流体主要来源于变质水"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "脉石矿物包括",
+"description": "南明水金矿床的成矿热液充填于石英中，石英为主要脉石矿物并发育大量原生流体包裹体"
+}
+]
+}

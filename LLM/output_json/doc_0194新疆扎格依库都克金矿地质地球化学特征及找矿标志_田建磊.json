@@ -1,0 +1,275 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0194",
+"title": "新疆扎格依库都克金矿地质地球化学特征及找矿标志_田建磊",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "扎格依库都克金矿床",
+"attributes": {
+"name": "扎格依库都克金矿床",
+"location": "新疆富蕴县乌尔腾萨依一带",
+"tectonic_position": "哈萨克斯坦-准噶尔板块东北缘、额尔齐斯构造带南部",
+"deposit_type": "造山型金矿床",
+"ore_grade": "Au1矿体平均品位14.59×10^-6，最高品位97.33×10^-6；Au2矿体平均品位13.15×10^-6，最高品位126.33×10^-6",
+"ore_control_features": "矿床受晚期NE向断裂控制，矿体严格受区内NE向构造控制呈雁列式分布；矿体与化探综合异常浓集中心相对应，Au、As、Pb等元素可作为金矿体的直接指示元素"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯金-铁成矿带",
+"attributes": {
+"name": "额尔齐斯金-铁成矿带",
+"level": "成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "萨吾尔—二台铜-稀土-煤成矿带",
+"attributes": {
+"name": "萨吾尔—二台铜-稀土-煤成矿带",
+"level": "成矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统黑山头组",
+"attributes": {
+"name": "下石炭统黑山头组",
+"age": "下石炭统",
+"dominant_lithology": "偏海相的海陆交互沉积-火山熔岩、火山碎屑岩沉积岩建造",
+"lithology_notes": "区域上划分为两个岩性段，矿区主要出露第一岩性段，岩性以安山岩、玄武岩为主，夹有部分凝灰岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "黑山头组第一岩性段安山岩-玄武岩围岩",
+"attributes": {
+"name": "黑山头组第一岩性段安山岩-玄武岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "晚石炭世辉绿岩",
+"attributes": {
+"name": "晚石炭世辉绿岩",
+"rock_type": "辉绿岩",
+"age": "晚石炭世",
+"relationship_to_ore": "侵入于黑山头组第二岩性段玄武安山岩及火山碎屑岩中，围岩角岩化，蚀变部分发育于侵入岩外接触带"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "NE向断裂",
+"attributes": {
+"name": "NE向断裂",
+"structure_type": "断裂",
+"orientation": "NE向（Ⅰ、Ⅱ号矿化蚀变带总体走向约45°）",
+"ore_control_role": "矿床受晚期NE向断裂控制，Ⅰ、Ⅱ号矿化蚀变带受NE向次级断裂控制，金矿（化）体严格受NE向构造控制并呈雁列式分布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "NW向断裂",
+"attributes": {
+"name": "NW向断裂",
+"structure_type": "断裂",
+"orientation": "NW向（Ⅲ号矿化蚀变带总体走向约130°）",
+"ore_control_role": "Ⅲ号矿化蚀变带规模较大，受NW向断裂控制"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化-绢云母化-黄铁矿化-碳酸盐化等蚀变",
+"attributes": {
+"name": "硅化-绢云母化-黄铁矿化-碳酸盐化等蚀变",
+"alteration_minerals": "石英、绢云母、黄铁矿、褐铁矿、方解石、绿泥石、高岭石",
+"intensity": "强烈（构造破碎带内最发育，矿体两侧围岩变形强烈、蚀变强烈）"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "以裂隙金为主，常赋存在石英、黄铁矿的微细裂隙中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "常与石英脉及金矿化蚀变带共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "少量金属矿物",
+"paragenesis": "与黄铁矿、石英等共生"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "Au地球化学异常（Hy-3、Hy-4）",
+"attributes": {
+"element": "Au",
+"value_ppm": "Hy-3综合异常Au异常强度平均45.029、最高1118；Hy-4综合异常Au异常强度平均41.961、最高507.8",
+"anomaly_pattern": "Hy-3综合异常近SN向展布（长约1760m、宽约540m），元素组合Au-As-Sb等，浓集中心圈出11条金矿（化）体且Au1、Au2位于其中；Hy-4综合异常近NW向展布（长约910m、宽约510m），元素组合Au-As-Sb等，浓集中心圈出7条金矿（化）体"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "As地球化学异常（Hy-3、Hy-4）",
+"attributes": {
+"element": "As",
+"value_ppm": "Hy-3综合异常As异常强度平均84.968、最高239.4；Hy-4综合异常As异常强度平均108.267、最高534",
+"anomaly_pattern": "As异常与Au异常在Hy-3、Hy-4综合异常中套合良好，可作为金矿体找矿标志"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "Sb地球化学异常（Hy-3、Hy-4）",
+"attributes": {
+"element": "Sb",
+"value_ppm": "Hy-3综合异常Sb异常强度平均1.026、最高9.25；Hy-4综合异常Sb异常强度平均0.85、最高1.7",
+"anomaly_pattern": "Sb异常与Au、As异常在综合异常中相互套合，构成Au-As-Sb异常组合并指示找矿远景"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "扎格依库都克金矿位于额尔齐斯金-铁成矿带与萨吾尔—二台铜-稀土-煤成矿带交汇部位"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "扎格依库都克金矿位于额尔齐斯金-铁成矿带与萨吾尔—二台铜-稀土-煤成矿带交汇部位"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "扎格依库都克金矿赋存于黑山头组第一岩性段安山岩、玄武岩等围岩中，石英脉多发育于破碎蚀变带内且对应较高金品位"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "黑山头组第一岩性段安山岩-玄武岩围岩属于下石炭统黑山头组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "晚石炭世辉绿岩侵入于下石炭统黑山头组（第二岩性段玄武安山岩及火山碎屑岩）"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "扎格依库都克金矿受晚期NE向断裂控制，Ⅰ、Ⅱ号矿化蚀变带及金矿（化）体受NE向次级断裂控制并呈雁列式展布"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "Ⅲ号矿化蚀变带规模较大，受NW向断裂控制并发育金矿化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变主要发育在构造破碎带内，主要包括硅化、绢云母化、碳酸盐化、泥石化、高岭土化、褐铁矿化、黄铁矿化等"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石主要金属矿物为自然金，自然金多以裂隙金形式赋存于石英、黄铁矿微细裂隙中"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中黄铁矿普遍发育，与石英脉及金矿化蚀变带共生"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中可见少量毒砂，与黄铁矿、石英等共生"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "矿区金矿体与化探综合异常浓集中心相对应，Hy-3与Hy-4综合异常中分别圈出11条与7条金矿（化）体，Au为直接指示元素"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "As异常与Au异常在Hy-3与Hy-4综合异常中套合良好，As可作为金矿体的直接指示元素之一"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "Sb异常与Au、As异常套合形成Au-As-Sb异常组合，是该类矿床的重要地球化学找矿标志"
+}
+]
+}

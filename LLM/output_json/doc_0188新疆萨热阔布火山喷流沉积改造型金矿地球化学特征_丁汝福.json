@@ -1,0 +1,284 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0188",
+"title": "新疆萨热阔布火山喷流沉积改造型金矿地球化学特征_丁汝福",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨热阔布金矿床",
+"attributes": {
+"name": "萨热阔布金矿床",
+"location": "新疆阿尔泰山南缘",
+"tectonic_position": "阿尔泰山南缘可可塔勒金、多金属成矿带内（西伯利亚古板块西南缘泥盆系拉张火山断陷带）",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿石金含量为2.80～109.90×10^-6（部分样品）",
+"ore_control_features": "受北西向阿巴宫断裂控制；矿体产于康布铁堡组上亚组第二岩性段内的容矿断裂中，容矿断裂呈右行雁行排列并具张裂性质，矿体顺地层展布",
+"age_ma": "320.4±6Ma（石英40Ar-39Ar等时线年龄，反映最终构造热液叠加成矿年龄）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "可可塔勒金、多金属成矿带",
+"attributes": {
+"name": "可可塔勒金、多金属成矿带",
+"level": "成矿带",
+"tectonic_setting": "西伯利亚古板块西南缘泥盆系拉张火山断陷带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "康布铁堡组上亚组第二岩性段（D1k2^2）",
+"attributes": {
+"name": "康布铁堡组上亚组第二岩性段（D1k2^2）",
+"age": "早泥盆世（下泥盆统）",
+"dominant_lithology": "火山碎屑岩与碳酸盐岩组合",
+"lithology_notes": "萨热阔布金矿体产于该岩性段内，与铅锌矿属同一含矿层位；相变为绿泥石黑云母石英片岩与变凝灰岩时金矿化增强"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "康布铁堡组火山碎屑岩围岩",
+"attributes": {
+"name": "康布铁堡组火山碎屑岩围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "阿巴宫断裂",
+"attributes": {
+"name": "阿巴宫断裂",
+"structure_type": "压剪性断层",
+"orientation": "北西向",
+"scale": "区域性",
+"ore_control_role": "为控矿构造，控制萨热阔布金矿床定位与矿体展布"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "容矿断裂（右行雁行张裂）",
+"attributes": {
+"name": "容矿断裂（右行雁行张裂）",
+"structure_type": "次级张裂断裂",
+"orientation": "与控矿断裂带成3°～15°小交角",
+"scale": "矿区",
+"ore_control_role": "为容矿构造，控制矿体透镜状或准脉状形态及右行雁行排列展布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "似矽卡岩化",
+"attributes": {
+"name": "似矽卡岩化",
+"alteration_minerals": "透闪石、阳起石、红柱石、黑云母、石榴子石",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "矿石中的金以自然金为主，少量银金矿；金矿物以单体游离金为主，常与石英及硫化物共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与毒砂、黄铜矿、闪锌矿、方铅矿等共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与黄铁矿、黄铜矿等共生"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "共生金属矿物",
+"paragenesis": "与黄铁矿、毒砂、闪锌矿、方铅矿等共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "萨热阔布金矿床成矿流体",
+"attributes": {
+"nature": "中温、中等盐度的成矿流体，流体包裹体含CO2多相组分，离子组成相对富Cl-",
+"source": "海水热液与火山热液循环叠加（多期多源），并与断裂作用有关",
+"temperature_C_min": "240",
+"temperature_C_max": "310",
+"pressure_MPa_min": "140",
+"pressure_MPa_max": "160",
+"salinity_wtNaCl_min": "11.20",
+"salinity_wtNaCl_max": "17.4"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "金（Au）多元素富集组合",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "2.80～109.90",
+"anomaly_pattern": "矿石富集Au、Ag、Cu、Pb、Zn、Bi、Mo、W等多种元素，表现为多元素组合异常"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床位于可可塔勒金、多金属成矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "萨热阔布金矿床赋存于康布铁堡组火山碎屑岩围岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "康布铁堡组火山碎屑岩围岩属于康布铁堡组上亚组第二岩性段（D1k2^2）"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床的控矿构造为阿巴宫断裂"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "沿…展布",
+"description": "萨热阔布金矿体沿右行雁行排列的容矿断裂赋存与展布"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "萨热阔布金矿床成矿热液蚀变以硅化为主"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "萨热阔布金矿床成矿热液蚀变以似矽卡岩化为主"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "萨热阔布金矿床成矿热液蚀变以绿泥石化为主"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "萨热阔布金矿床矿石中的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床矿石中的主要金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床矿石中的主要金属矿物包括毒砂"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床矿石中的共生金属矿物包括黄铜矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨热阔布金矿床成矿流体为中温（240～310℃）、中等盐度（11.20～17.4wt% NaCl）的流体，成矿压力约140～160MPa，离子组成相对富Cl-"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "萨热阔布金矿床矿石富集Au并伴随Ag、Cu、Pb、Zn、Bi、Mo、W等多元素组合异常"
+}
+]
+}

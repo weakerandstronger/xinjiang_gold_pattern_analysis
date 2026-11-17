@@ -1,0 +1,257 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0289",
+"title": "新疆托库孜巴依金矿床地质特征及成因_郑勇",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床",
+"attributes": {
+"name": "托库孜巴依金矿床",
+"location": "新疆阿勒泰地区哈巴河县托库孜巴依（原称赛都）",
+"tectonic_position": "南阿尔泰构造带南缘，玛尔卡库里断裂北侧韧性剪切带中",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿石平均品位约3.71～5.07 g/t（不同矿段）",
+"ore_control_features": "金矿化蚀变带呈北西—南东向展布，总长4.8 km、宽400～1200 m；矿体主要定位于韧性剪切带内的张性断裂、剪切裂隙及构造破碎带等脆性构造中，含金硫化物-石英脉充填形成主要矿化体；构造变形作用促使流体萃取阿勒泰组上亚组第二岩性段变质火山岩或火山沉积岩中的成矿元素，后期岩浆侵入活动为金的进一步富集提供热源和流体",
+"age_ma": "两期构造热事件与成矿：305～289 Ma（韧性剪切构造带形成期）与（272±19）～（250±20）Ma（斜长花岗岩侵位后叠加热液成矿）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "南阿尔泰构造带",
+"attributes": {
+"name": "南阿尔泰构造带",
+"level": "构造带",
+"tectonic_setting": "阿尔泰南缘区域构造单元，托库孜巴依金矿床位于其南缘并受玛尔卡库里断裂及韧性剪切带影响"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "额尔齐斯金矿带",
+"attributes": {
+"name": "额尔齐斯金矿带",
+"level": "金矿带",
+"tectonic_setting": "晚古生代板块碰撞造山后的陆内走滑—伸展构造活动区，与额尔齐斯剪切构造带相关"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统阿舍勒组下部",
+"attributes": {
+"name": "中泥盆统阿舍勒组下部",
+"age": "中泥盆统",
+"dominant_lithology": "变砂岩、绢云石英千枚岩、绿泥石英千枚岩",
+"lithology_notes": "地层单斜分布，倾向290～320°，倾角60～80°；夹少量火山岩薄层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "含矿蚀变糜棱岩带（韧性剪切带内）",
+"attributes": {
+"name": "含矿蚀变糜棱岩带（强糜棱岩带为主，叠加脆性破裂系统）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河花岗岩体",
+"attributes": {
+"name": "哈巴河花岗岩体",
+"rock_type": "斜长花岗岩为主（复式岩基）",
+"age": "276～289 Ma",
+"relationship_to_ore": "矿床位于其南侧构造接触带；斜长花岗质岩浆侵位及相关热液活动为金的进一步富集提供热源和部分流体"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里韧性剪切带",
+"attributes": {
+"name": "玛尔卡库里韧性剪切带",
+"structure_type": "韧性剪切带（叠加晚期脆性破裂系统）",
+"orientation": "总体北西—南东向（矿化蚀变带及矿体走向一致）",
+"scale": "中国境内长约50 km，宽0.5～5.0 km",
+"ore_control_role": "宏观上控制金矿床及矿点沿剪切带分布；矿体主要受剪切带内张性断裂、剪切裂隙及构造破碎带等浅部脆性构造控制，含金硫化物-石英脉充填其中形成主要矿化体"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绢云母化-绿泥石化-硅化-黄铁矿化",
+"attributes": {
+"name": "绢云母化-绿泥石化-硅化-黄铁矿化",
+"alteration_minerals": "绢云母、绿泥石、石英、黄铁矿（近地表可褐铁矿化）",
+"intensity": "矿区内广泛发育；硅化与黄铁矿化常伴生，是最直接的矿化标志之一，蚀变强度与韧性剪切变形强度密切相关"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "以它形粒状为主（0.002～0.080 mm），以粒间金、裂隙金及包裹金形式赋存；常见于黄铁矿、褐铁矿、石英等矿物的微裂隙与晶粒间或被其包裹"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物之一并与矿体规模、空间分布及品位密切相关",
+"paragenesis": "广泛分布于韧性剪切带及构造角砾岩发育地带，常与硅化伴生；近地表氧化带可发生褐铁矿化"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "托库孜巴依金矿成矿流体",
+"attributes": {
+"nature": "中—低盐度、还原性成矿热液；气相以H2O为主，CO2、CO很少；液相以Ca2+、Na+、K+、HCO3-、SO42-为主，pH平均约6.91",
+"source": "地下水（大气降水）、变质水与岩浆热水共同参与，属混合热液",
+"temperature_C_min": "191",
+"temperature_C_max": "324",
+"pressure_MPa_min": "18.5",
+"pressure_MPa_max": "39.7",
+"salinity_wtNaCl_min": "6.00",
+"salinity_wtNaCl_max": "9.44"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "含矿石英脉黄铁矿δ34S=-0.01‰～+5.95‰；围岩黄铁矿δ34S=-2.71‰～+5.60‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD、δ18O（流体）",
+"value_range": "δD=-126.3‰～-78.96‰；δ18O（流体）=-0.26‰～6.12‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "铅同位素参数",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "206Pb/204Pb、207Pb/204Pb、208Pb/204Pb",
+"value_range": "206Pb/204Pb=17.96～18.35；207Pb/204Pb=15.52～15.60；208Pb/204Pb=37.89～38.21"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿床位于南阿尔泰构造带南缘，玛尔卡库里断裂北侧的韧性剪切带中"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "托库孜巴依金矿床属于额尔齐斯金矿带相关的韧性剪切构造带成矿体系"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "托库孜巴依金矿床宏观上受玛尔卡库里韧性剪切带控制，矿体主要定位于剪切带内张性断裂、剪切裂隙及构造破碎带等脆性构造中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "托库孜巴依金矿床的主要矿化体为含金硫化物-石英脉与网脉群，主要赋存于韧性剪切带内的含矿蚀变糜棱岩带及其叠加脆性裂隙系统中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "托库孜巴依矿区出露并被剪切改造的围岩地层以中泥盆统阿舍勒组下部浅变质碎屑岩系为主，含矿蚀变糜棱岩带与该地层密切相关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "托库孜巴依金矿床与金矿化有关的蚀变主要为绢云母化、绿泥石化、硅化及黄铁矿化，其中硅化与黄铁矿化为直接矿化标志"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "托库孜巴依金矿床的金矿物以自然金为主，常赋存于黄铁矿、石英等矿物的微裂隙与晶粒间或被其包裹"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "托库孜巴依金矿床矿石中黄铁矿广泛发育，是主要载金矿物之一，其含量与分布范围直接影响矿体规模、空间分布及品位"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "托库孜巴依金矿床成矿流体为中—低盐度、还原性混合热液，均一温度约191～324℃、压力约18.5～39.7 MPa、盐度约6.00%～9.44%"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素显示含矿石英脉黄铁矿δ34S与围岩黄铁矿接近，表明成矿硫主要继承围岩硫特征并反映围岩硫具有上地幔来源成分"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "石英流体包裹体氢氧同位素落于大气降水线之下并位于变质水、岩浆水下部边缘，表明地下水（大气降水）、变质水与岩浆热水共同参与成矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素组成落在上地幔与造山带增长线之间偏造山带侧，用于约束成矿体系的物质来源特征"
+}
+]
+}

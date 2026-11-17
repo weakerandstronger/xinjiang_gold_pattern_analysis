@@ -1,0 +1,553 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0154",
+"title": "新疆包古图金矿四矿区 L7号脉中的特殊矿物组合及其成矿意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿四矿区七号脉",
+"attributes": {
+"name": "包古图金矿四矿区七号脉",
+"location": "新疆包古图金矿四矿区东部",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿脉地表出露约280米，地表以下向两端延伸；走向47°，倾角75～85°；目前控制斜深约700米；矿脉厚度不稳定，矿体与蚀变岩型矿体合计厚度一般小于30厘米，深部矿体厚约0.3～1.0米；辉锑矿-石英脉通常厚20～40厘米，局部段辉锑矿含量高达百分之九十"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "包古图金矿四矿区",
+"attributes": {
+"name": "包古图金矿四矿区",
+"level": "矿区",
+"tectonic_setting": "新疆"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "石英脉两侧蚀变岩型矿体（围岩）",
+"attributes": {
+"name": "石英脉两侧蚀变岩型矿体（围岩）"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "张性空间",
+"attributes": {
+"name": "张性空间",
+"structure_type": "张性空间",
+"ore_control_role": "成矿流体进入张性空间后发生压力释放并导致硫化氢大量丢失，促使硫逸度急剧降低，使含金或金-银络合物失稳而成矿"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "方解石化",
+"attributes": {
+"name": "方解石化",
+"alteration_minerals": "方解石"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "弱"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "毒砂化",
+"attributes": {
+"name": "毒砂化",
+"alteration_minerals": "毒砂"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "石英脉型矿石与方解石-石英细脉中常见"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "早期黄铁矿-毒砂阶段形成，并与围岩蚀变密切相关"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "早期黄铁矿-毒砂阶段形成，后期受富砷流体强烈交代改造"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "辉锑矿",
+"attributes": {
+"name": "辉锑矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "深部辉锑矿-石英脉型矿石与主要金矿化阶段常见"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "自然砷",
+"attributes": {
+"name": "自然砷",
+"role_in_ore": "伴生矿物",
+"paragenesis": "浅部自然砷-石英脉型矿石与主要金矿化阶段可见"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "自然锑",
+"attributes": {
+"name": "自然锑",
+"role_in_ore": "伴生矿物",
+"paragenesis": "主要金矿化阶段及晚期锑矿化阶段形成"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "含金矿物",
+"paragenesis": "主要金矿化阶段形成"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "含金矿物",
+"paragenesis": "主要金矿化阶段形成，并可交代辉锑矿"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "方锑金矿",
+"attributes": {
+"name": "方锑金矿",
+"role_in_ore": "含金矿物",
+"paragenesis": "主要金矿化阶段形成，并可交代辉锑矿"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "硫锑金银矿",
+"attributes": {
+"name": "硫锑金银矿",
+"role_in_ore": "含金矿物",
+"paragenesis": "主要金矿化阶段形成"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "辉锑银矿",
+"attributes": {
+"name": "辉锑银矿",
+"role_in_ore": "共生矿物",
+"paragenesis": "主要金矿化阶段矿物组合中出现"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "银锑黝铜矿",
+"attributes": {
+"name": "银锑黝铜矿",
+"role_in_ore": "共生矿物",
+"paragenesis": "主要金矿化阶段矿物组合中出现"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "斜方砷铁矿",
+"attributes": {
+"name": "斜方砷铁矿",
+"role_in_ore": "共生矿物",
+"paragenesis": "主要金矿化阶段矿物组合中出现，并与毒砂交代改造有关"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "硫铜锑矿",
+"attributes": {
+"name": "硫铜锑矿",
+"role_in_ore": "共生矿物",
+"paragenesis": "主要金矿化阶段矿物组合中出现"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "晚期锑矿化阶段与辉锑矿、自然锑等共生，方解石阶段形成方解石-石英细脉"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Mineral",
+"name_zh": "黝铜矿",
+"attributes": {
+"name": "黝铜矿",
+"role_in_ore": "共生矿物",
+"paragenesis": "蚀变岩型矿石中局部含微量"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "共生矿物",
+"paragenesis": "蚀变岩型矿石中局部含微量"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "共生矿物",
+"paragenesis": "蚀变岩型矿石中局部含微量"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Mineral",
+"name_zh": "自然铋",
+"attributes": {
+"name": "自然铋",
+"role_in_ore": "罕见伴生矿物",
+"paragenesis": "在矿石中被发现"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "Mineral",
+"name_zh": "帕科宁石",
+"attributes": {
+"name": "帕科宁石",
+"role_in_ore": "罕见砷-锑矿物",
+"paragenesis": "主要金矿化阶段形成，并可交代辉锑矿"
+}
+},
+{
+"entity_local_id": "E31",
+"entity_type": "Fluid",
+"name_zh": "包古图金矿成矿流体",
+"attributes": {
+"nature": "成矿热液流体；从早期到主要金矿化阶段，流体中砷、锑、金、银含量明显升高，并对早期矿物产生强烈交代改造；砷与锑的沉淀消耗大量硫化氢，叠加进入开放空间后的硫化氢丢失，引起硫逸度急剧降低，使含金或金-银络合物失稳而成矿"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "包古图金矿四矿区七号脉位于包古图金矿四矿区东部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "矿体由矿脉中部的辉锑矿-石英脉型矿石及两侧蚀变岩型矿石组成，蚀变岩型矿石以黄铁矿化和毒砂化为主"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "成矿流体进入张性空间后发生压力释放并导致硫化氢大量丢失，促使硫逸度急剧降低并使含金或金-银络合物失稳而成矿"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "伴随有",
+"description": "早期黄铁矿-毒砂阶段在围岩中形成大量毒砂和黄铁矿并伴随较强硅化"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "蚀变岩型矿石发育绢云母化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "蚀变岩型矿石发育方解石化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "蚀变岩型矿石发育弱绿泥石化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "蚀变岩型矿石以黄铁矿化为主"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "蚀变岩型矿石以毒砂化为主"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石类型主要为石英脉型，矿脉中广泛发育石英"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "石英、黄铁矿、毒砂和辉锑矿是主要载金矿物之一"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要金矿物为",
+"description": "石英、黄铁矿、毒砂和辉锑矿是主要载金矿物之一"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要金矿物为",
+"description": "深部辉锑矿-石英脉型矿石中辉锑矿为主要载金矿物之一"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "浅部矿体为自然砷-石英脉型矿石，矿脉中含自然砷"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "主要金矿化阶段形成辉锑矿-自然锑-自然砷等矿物组合，晚期锑矿化阶段也形成自然锑"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要金矿物为",
+"description": "主要金矿化阶段形成银金矿"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要金矿物为",
+"description": "主要金矿化阶段形成自然金，并可交代辉锑矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "矿脉中含方锑金矿等特殊矿物组合"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "矿脉中含硫锑金银矿等特殊矿物组合"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E30",
+"relation_label_zh": "共生矿物包括",
+"description": "矿脉中含罕见砷-锑矿物帕科宁石"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "主要金矿化阶段矿物组合中出现辉锑银矿"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "主要金矿化阶段矿物组合中出现银锑黝铜矿"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "毒砂受后期富砷流体交代形成富砷毒砂和斜方砷铁矿"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "主要金矿化阶段矿物组合中出现硫铜锑矿"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "共生矿物包括",
+"description": "晚期锑矿化阶段辉锑矿、自然锑与方解石共生，方解石阶段形成穿切矿体和围岩的方解石-石英细脉"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "共生矿物包括",
+"description": "蚀变岩型矿石局部含微量黝铜矿"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "共生矿物包括",
+"description": "蚀变岩型矿石局部含微量闪锌矿"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E28",
+"relation_label_zh": "共生矿物包括",
+"description": "蚀变岩型矿石局部含微量黄铜矿"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E29",
+"relation_label_zh": "共生矿物包括",
+"description": "近年来在矿石中发现了自然铋等罕见自然元素矿物"
+},
+{
+"relation_local_id": "R30",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E31",
+"relation_label_zh": "对应成矿流体为",
+"description": "成矿热液流体在主要金矿化阶段砷、锑、金、银含量升高并强烈交代早期矿物；砷与锑的沉淀消耗硫化氢，叠加进入开放空间后的硫化氢丢失导致硫逸度降低，使含金或金-银络合物失稳而成矿"
+}
+]
+}

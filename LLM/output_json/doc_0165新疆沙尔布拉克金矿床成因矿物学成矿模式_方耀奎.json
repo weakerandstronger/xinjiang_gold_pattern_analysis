@@ -1,0 +1,500 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0165",
+"title": "新疆沙尔布拉克金矿床成因矿物学成矿模式",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "沙尔布拉克金矿床",
+"attributes": {
+"name": "沙尔布拉克金矿床",
+"location": "沙尔布拉克—喀拉通克复向斜中",
+"tectonic_position": "额尔齐斯褶皱带与布尔津—二台褶皱带过渡地带的沙尔布拉克—喀拉通克复向斜中",
+"deposit_type": "造山型金矿床",
+"ore_grade": "金平均含量为2.06×10⁻⁶～5.82×10⁻⁶",
+"ore_control_features": "金矿化带赋存于长达20余公里的韧—脆性挤压剪切带内，主要控矿构造为该挤压剪切带及其内部断裂破碎带",
+"age_ma": "278.2～216.9Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯褶皱带",
+"attributes": {
+"name": "额尔齐斯褶皱带",
+"level": "褶皱带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "布尔津—二台褶皱带",
+"attributes": {
+"name": "布尔津—二台褶皱带",
+"level": "褶皱带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "沙尔布拉克—喀拉通克复向斜",
+"attributes": {
+"name": "沙尔布拉克—喀拉通克复向斜",
+"level": "复向斜"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "弧后盆地",
+"attributes": {
+"name": "弧后盆地",
+"level": "构造环境",
+"tectonic_setting": "深水—半深水陆棚火山碎屑岩和正常碎屑岩建造"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组",
+"attributes": {
+"name": "下石炭统南明水组",
+"age": "下石炭统",
+"dominant_lithology": "含炭粉砂岩、泥岩、岩屑砂岩、安山质凝灰岩、含炭条带状沉凝灰岩",
+"lithology_notes": "中部为含炭粉砂岩、岩屑砂岩、安山质凝灰岩，条带状含炭沉凝灰岩夹电气石岩，为主要赋矿层位"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "南明水组中部含炭粉砂岩—安山质凝灰岩—含炭条带状沉凝灰岩层位",
+"attributes": {
+"name": "南明水组中部含炭粉砂岩—安山质凝灰岩—含炭条带状沉凝灰岩层位"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "韧—脆性挤压剪切带",
+"attributes": {
+"name": "韧—脆性挤压剪切带",
+"structure_type": "挤压剪切带",
+"orientation": "近NW向（走向约290°～340°）",
+"scale": "长达20余公里",
+"ore_control_role": "金的主要控矿构造，金矿化带赋存于该带内的交切断层与破碎带等空间"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "近东西向平移断层",
+"attributes": {
+"name": "近东西向平移断层",
+"structure_type": "平移断层",
+"orientation": "近东西向",
+"ore_control_role": "切割主背斜两翼并控制弱金矿化"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "毒砂化",
+"attributes": {
+"name": "毒砂化"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "钠长石化",
+"attributes": {
+"name": "钠长石化"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "电气石化",
+"attributes": {
+"name": "电气石化"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "呈显微—超显微金主要产于浸染状毒砂、黄铁矿中"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "次要金矿物",
+"paragenesis": "与自然金一起呈显微—超显微金产于浸染状毒砂、黄铁矿中"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要矿石矿物与主要载金矿物之一",
+"paragenesis": "与黄铁矿、石英等形成石英—黄铁矿—毒砂标型矿物组合并含显微—超显微金"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要矿石矿物与主要载金矿物之一",
+"paragenesis": "可分沉积成岩期与热液期；热液期黄铁矿常与毒砂密切共生并形成标型矿物组合"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物与主要载金矿物之一",
+"paragenesis": "与金矿化有关的石英中发育原生包裹体并与黄铁矿、毒砂等组成标型矿物组合"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "白云石",
+"attributes": {
+"name": "白云石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "与金矿化有关的白云石中发育原生包裹体并用于测温"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Fluid",
+"name_zh": "地下热（卤）水成矿流体",
+"attributes": {
+"nature": "低盐度地下水为主体的地下热（卤）水成矿流体",
+"source": "地下水对流循环并从含碳、富硫的火山碎屑沉积岩中淋滤出金等矿质和盐类",
+"temperature_C_min": "130℃",
+"temperature_C_max": "300℃",
+"salinity_wtNaCl_min": "3.06%",
+"salinity_wtNaCl_max": "7.45%"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Isotope",
+"name_zh": "硫同位素（黄铁矿δ³⁴S）",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "黄铁矿δ³⁴S",
+"value_range": "－6.1‰～＋1.2‰"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Isotope",
+"name_zh": "硫同位素（毒砂δ³⁴S）",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "毒砂δ³⁴S",
+"value_range": "－3.2‰～－1.7‰"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Isotope",
+"name_zh": "氧同位素（石英δ¹⁸O）",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "石英δ¹⁸O",
+"value_range": "12.20‰～15.67‰"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Isotope",
+"name_zh": "氢同位素（包裹体δD）",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "包裹体δD",
+"value_range": "－126.2‰～－94.90‰"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Isotope",
+"name_zh": "铅同位素模式年龄",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "成矿模式年龄",
+"value_range": "278.2～216.9Ma"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "Geochem",
+"name_zh": "金（Au）含量范围",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "2.06～5.82",
+"anomaly_pattern": "金平均含量为2.06×10⁻⁶～5.82×10⁻⁶"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "沙尔布拉克金矿床位于沙尔布拉克—喀拉通克复向斜中"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "沙尔布拉克金矿床位于额尔齐斯褶皱带与布尔津—二台褶皱带过渡地带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "沙尔布拉克金矿床位于额尔齐斯褶皱带与布尔津—二台褶皱带过渡地带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "沙尔布拉克金矿床金矿化带赋存于韧—脆性挤压剪切带内，该剪切带为金的主要控矿构造"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "矿区近东西向平移断层切割主背斜两翼并控制弱金矿化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "沙尔布拉克金矿床金矿化带赋存于含炭粉砂岩、安山质凝灰岩及含炭条带状沉凝灰岩等围岩中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "主要赋矿围岩层位属于下石炭统南明水组中部"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "沙尔布拉克金矿床围岩热液蚀变作用包括毒砂化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "沙尔布拉克金矿床围岩热液蚀变作用包括黄铁矿化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "沙尔布拉克金矿床围岩热液蚀变作用包括硅化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "沙尔布拉克金矿床围岩热液蚀变作用包括钠长石化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "伴随有",
+"description": "沙尔布拉克金矿床围岩热液蚀变作用包括电气石化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "伴随有",
+"description": "沙尔布拉克金矿床围岩热液蚀变作用包括碳酸盐化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "伴随有",
+"description": "沙尔布拉克金矿床围岩热液蚀变作用包括绿泥石化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "伴随有",
+"description": "沙尔布拉克金矿床围岩热液蚀变作用包括绢云母化"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要金矿物为",
+"description": "沙尔布拉克金矿床主要金矿物为自然金"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "沙尔布拉克金矿床金矿物中银金矿为次要金矿物"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "沙尔布拉克金矿床主要矿石矿物包括毒砂"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "沙尔布拉克金矿床主要矿石矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "沙尔布拉克金矿床主要脉石矿物包括石英"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "沙尔布拉克金矿床脉石矿物包括白云石"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "对应成矿流体为",
+"description": "沙尔布拉克金矿床成矿溶液以低盐度地下水为主体，盐度ωNaCl为7.45%～3.06%，温度范围约300℃至130℃"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E27",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "石英δ¹⁸O数据指示含矿流体为与围岩发生同位素交换的大气降水型地下水"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E28",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "包裹体δD数值与河水及大气水接近，指示含矿流体以地下水为主体"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E30",
+"relation_label_zh": "显示",
+"description": "沙尔布拉克金矿床金平均含量为2.06×10⁻⁶～5.82×10⁻⁶"
+}
+]
+}

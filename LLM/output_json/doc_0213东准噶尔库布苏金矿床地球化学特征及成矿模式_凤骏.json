@@ -1,0 +1,273 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0213",
+"title": "东准噶尔库布苏金矿床地球化学特征及成矿模式_凤骏",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "库布苏金矿床",
+"attributes": {
+"name": "库布苏金矿床",
+"location": "新疆东准噶尔地区，东准噶尔褶皱带中部",
+"tectonic_position": "哈萨克斯坦-准噶尔板块东部准噶尔微板块东段，野马泉地块南缘晚古生代早期火山岩浆弧内",
+"deposit_type": "造山型金矿床",
+"ore_grade": "0.80×10^-6～8×10^-6",
+"ore_control_features": "金矿化主要受蚀变闪长玢岩脉及NWW向脆-韧性变形构造带两种因素控制，矿体多产于破碎蚀变带内",
+"age_ma": "晚石炭—早二叠世（约260～305 Ma）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "野马泉地块南缘火山岩浆弧带",
+"attributes": {
+"name": "野马泉地块南缘火山岩浆弧带",
+"level": "火山岩浆弧带",
+"tectonic_setting": "东准噶尔褶皱带中部，晚古生代后碰撞陆内挤压-伸展转变期"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "破碎蚀变闪长玢岩脉及边侧破碎蚀变带",
+"attributes": {
+"name": "破碎蚀变闪长玢岩脉及边侧破碎蚀变带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长玢岩脉",
+"attributes": {
+"name": "闪长玢岩脉",
+"rock_type": "闪长玢岩",
+"age": "晚石炭—早二叠世（约300 Ma左右）",
+"relationship_to_ore": "为本区最主要含矿岩石，矿体多产于其接触带及其内部破碎带中"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英钠长斑岩脉",
+"attributes": {
+"name": "石英钠长斑岩脉",
+"rock_type": "石英钠长斑岩",
+"relationship_to_ore": "多侵位于闪长玢岩脉两侧及内部，邻近部位金矿化较强，显示形成晚于闪长玢岩脉"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "库布苏强应变构造带（NWW向脆-韧性变形构造带）",
+"attributes": {
+"name": "库布苏强应变构造带（NWW向脆-韧性变形构造带）",
+"structure_type": "脆-韧性剪切变形构造带",
+"orientation": "走向NWW向",
+"scale": "宽2～5 km，长约150 km",
+"ore_control_role": "控制脉岩、矿体与矿化体的空间分布，提供导矿、容矿空间"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托让格库都克组",
+"attributes": {
+"name": "中泥盆统托让格库都克组",
+"age": "中泥盆世",
+"dominant_lithology": "浅变质火山碎屑岩",
+"lithology_notes": "主要为凝灰角砾岩、钙质砂岩及火山碎屑岩等条带状互层"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "StratUnit",
+"name_zh": "志留系库布苏群",
+"attributes": {
+"name": "志留系库布苏群",
+"age": "志留纪",
+"dominant_lithology": "硅质细碎屑岩",
+"lithology_notes": "以千枚岩、千枚岩化粉砂岩、粉砂岩、板岩为主，夹少量长石砂岩、硬砂岩薄层"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "毒砂-磁黄铁矿化",
+"attributes": {
+"name": "毒砂-磁黄铁矿化",
+"alteration_minerals": "毒砂、磁黄铁矿",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "中-强"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "以裂隙金和晶隙金为主，其次以包体金形式赋存于黄铁矿、石英、毒砂及褐铁矿等矿物中"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物",
+"paragenesis": "与毒砂等硫化物共生，为自然金包体及赋存载体之一"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "与黄铁矿等硫化物共生，自然金可作为包体赋存其中"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Fluid",
+"name_zh": "库布苏金矿成矿流体",
+"attributes": {
+"nature": "中高温、低盐度流体",
+"source": "以岩浆水为主，受后期断裂运动导致体系开放并与大气降水混合，同时具有一定变质成矿流体特征",
+"salinity_wtNaCl_max": "30"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD和δ18O",
+"value_range": "石英包裹体氢氧同位素数据点落入正常岩浆水范围"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "库布苏金矿床位于野马泉地块南缘火山岩浆弧带、东准噶尔褶皱带中部。"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "矿体主要产于破碎的蚀变闪长玢岩脉及其边侧破碎蚀变带中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "金矿化主要受NWW向脆-韧性变形构造带控制，构造带控制矿体与矿化体空间分布并提供导矿容矿空间"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "与成矿有关的主要蚀变之一为硅化，矿体中硅化较围岩更强"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿化最密切的蚀变之一为毒砂-磁黄铁矿化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿化最密切的蚀变之一为绿泥石化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "库布苏金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "库布苏金矿床共生金属矿物包括黄铁矿等硫化物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "库布苏金矿床共生金属矿物包括毒砂等"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "包裹体与同位素研究表明库布苏金矿主成矿阶段为中高温、低盐度流体，流体来源以岩浆水为主"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "石英包裹体氢氧同位素参数落入正常岩浆水范围，约束成矿流体以岩浆水为主要来源"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E8",
+"relation_label_zh": "侵入于",
+"description": "闪长玢岩脉侵位于志留系库布苏群中"
+}
+]
+}

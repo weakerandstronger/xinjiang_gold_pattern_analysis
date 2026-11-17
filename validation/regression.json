@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "csv_files": 22,
+  "csv_byte_identical": 22,
+  "atol": 1e-12,
+  "rtol": 1e-10,
+  "files": [
+    {
+      "path": "results/baseline/case_record_evidence.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/baseline/display_selection.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/baseline/entities.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/baseline/features.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/baseline/group_sources.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/baseline/items.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/baseline/label_map.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/baseline/pattern_members.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/baseline/patterns.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/order_decomposition/feature_reconciliation.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/order_decomposition/features_order2.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/order_decomposition/features_order3.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/order_decomposition/patterns_order2.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "results/order_decomposition/patterns_order3.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "tables/F3_match_overlap.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "tables/T1_dataset_statistics.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "tables/T2_analysis_settings.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "tables/T2_case_counts.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "tables/T3_topic_patterns.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "data/intermediate/F1.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "data/intermediate/F2.csv",
+      "match": true,
+      "byte_identical": true
+    },
+    {
+      "path": "data/intermediate/F3.csv",
+      "match": true,
+      "byte_identical": true
+    }
+  ],
+  "figures": [
+    {
+      "path": "figures/F1/feature_support_coverage.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/F2/feature_internal_support_v3.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/F3/high_order_pattern_forest_table.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/F4/feature_support_order2_order3.png",
+      "byte_identical": true
+    }
+  ],
+  "figure_note": "Font/platform-dependent image identity is reported separately from numerical regression."
+}

@@ -1,0 +1,305 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0293",
+"title": "新疆托库孜巴依金矿带中蚀变闪长岩型金矿体地质特征_刘诚",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床",
+"attributes": {
+"name": "托库孜巴依金矿床",
+"location": "新疆阿尔泰南缘哈巴河地区托库孜巴依金矿带",
+"tectonic_position": "西伯利亚古板块南缘阿尔泰陆缘活动带，克兰弧后盆地与哈巴河弧间盆地接壤处",
+"deposit_type": "造山型金矿床",
+"ore_grade": "典型矿体平均金品位5.45g/t与9.95g/t，最高品位95.96g/t",
+"ore_control_features": "金矿受玛尔卡库里韧性剪切带控制，发育于黄铁矿化、硅化闪长岩中；矿体主要赋存于韧性剪切带及其构造破碎部位，金品位与黄铁矿化、硅化及石英脉密度密切相关；区域内金矿（点）多产于哈巴河岩体内外接触带约500米范围内",
+"age_ma": "272-303.6Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "托库孜巴依金矿带",
+"attributes": {
+"name": "托库孜巴依金矿带",
+"level": "金矿带",
+"tectonic_setting": "西伯利亚古板块南缘阿尔泰陆缘活动带，克兰弧后盆地与哈巴河弧间盆地接壤处，位于中国阿尔泰多金属成矿带西南部"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统阿勒泰组",
+"attributes": {
+"name": "中泥盆统阿勒泰组",
+"age": "中泥盆统",
+"dominant_lithology": "沉积岩",
+"lithology_notes": "岩性以页岩、砂岩、杂砂岩为主，局部夹少量火山岩，是本区主要容矿围岩之一"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托克萨雷组",
+"attributes": {
+"name": "中泥盆统托克萨雷组",
+"age": "中泥盆统",
+"dominant_lithology": "沉积岩",
+"lithology_notes": "岩性以页岩、砂岩、杂砂岩为主，局部夹少量火山岩，是本区主要容矿围岩之一"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "中泥盆统沉积岩围岩（页岩、砂岩、杂砂岩）",
+"attributes": {
+"name": "中泥盆统阿勒泰组及托克萨雷组沉积岩围岩（页岩、砂岩、杂砂岩）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "黄铁矿化、硅化闪长岩（蚀变闪长岩脉）",
+"attributes": {
+"name": "黄铁矿化、硅化闪长岩（蚀变闪长岩脉）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河岩体",
+"attributes": {
+"name": "哈巴河岩体",
+"rock_type": "花岗岩岩基",
+"age": "275.87Ma",
+"relationship_to_ore": "区内最大岩体，矿床处于其内、外接触带；区域金矿（点）多产于其内外接触带约500米范围内，岩体侵位与金成矿关系密切，为成矿提供必要的动力与物质来源之一"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "早期闪长岩脉",
+"attributes": {
+"name": "早期闪长岩脉",
+"rock_type": "闪长岩",
+"relationship_to_ore": "蚀变强，挤压片理化及碎粒岩化发育，黄铁矿化、硅化、磁铁矿化、绿泥石化、绿帘石化较发育，含金性较好，平均含金13.5×10^-9，可单独构成规模较大的金矿体"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "晚期闪长岩脉",
+"attributes": {
+"name": "晚期闪长岩脉",
+"rock_type": "闪长岩",
+"relationship_to_ore": "蚀变较弱，主要为星点状黄铁矿，金矿化差，基本不含金"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里韧性剪切带",
+"attributes": {
+"name": "玛尔卡库里韧性剪切带",
+"structure_type": "韧性剪切带",
+"scale": "矿区主要构造格架之一，具长期性、复杂性",
+"ore_control_role": "控制矿区内金矿床（点）的空间分布；主要矿体发育于韧性剪切中晚期脆—韧性活动形成的密集劈理与构造破碎部位，并叠加于早期低品位金矿（化）体之上形成主要矿体"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化-硅化-绿泥石化-绢云母化-磁铁矿化-绿帘石化-碳酸盐化",
+"attributes": {
+"name": "黄铁矿化-硅化-绿泥石化-绢云母化-磁铁矿化-绿帘石化-碳酸盐化",
+"alteration_minerals": "黄铁矿、石英、绿泥石、绢云母、磁铁矿、绿帘石、方解石",
+"intensity": "矿区内广泛发育，黄铁矿化与硅化最为关键，为最直接矿化标志"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "以粒间金、包裹金与裂隙金形式赋存，常位于黄铁矿（褐铁矿）边缘与石英接触处、嵌布于石英等脉石颗粒之间或包裹于黄铁矿中"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "最主要的载金矿物与找矿指示矿物",
+"paragenesis": "在闪长岩脉中以浸染状为主，含量0.5%-5%（个别可达10%）；在石英脉中含量相对较少但可局部聚集成团；团块状、粗粒黄铁矿含金性好"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "碲金矿",
+"attributes": {
+"name": "碲金矿",
+"role_in_ore": "重要金矿物",
+"paragenesis": "主要见于硅化较强的石英脉类矿石中，常与自然金共生，在该类矿石中碲金矿含量可多于自然金"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "碲金银矿",
+"attributes": {
+"name": "碲金银矿",
+"role_in_ore": "碲化物金矿物",
+"paragenesis": "常与碲金矿密切共生，沿裂隙分布，个别分布于石英粒间或包裹于石英、黄铁矿中"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "少量铜矿化矿物",
+"paragenesis": "多呈它形晶粒状或细脉浸染状充填于黄铁矿或石英裂隙中，形成较晚，局部可交代黄铁矿与磁黄铁矿"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Fluid",
+"name_zh": "托库孜巴依金矿成矿热液",
+"attributes": {
+"nature": "成矿热液",
+"source": "大气降水为主"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "0.31-11.41%"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿带蚀变闪长岩型金矿体位于托库孜巴依金矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "金矿受玛尔卡库里韧性剪切带控制，矿体发育于剪切带及其构造破碎部位"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "矿体主要发育于黄铁矿化、硅化闪长岩（蚀变闪长岩脉）中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "矿区中泥盆统沉积岩（页岩、砂岩、杂砂岩）为主要容矿围岩之一"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "中泥盆统沉积岩围岩在地层上归属于中泥盆统阿勒泰组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "中泥盆统沉积岩围岩在地层上归属于中泥盆统托克萨雷组"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "矿体及其附近围岩蚀变以黄铁矿化、硅化、绿泥石化、绢云母化等为主，其中黄铁矿化与硅化为最直接矿化标志"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "矿体主要金矿物为自然金"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铁矿为最主要载金矿物，与金矿化关系十分密切，是最直接的找矿指示矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "矿体中可见碲金矿，主要见于硅化较强的石英脉类矿石中"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "矿体中可见碲金银矿，常与碲金矿密切共生并沿裂隙分布"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "矿体深部可见少量黄铜矿化，黄铜矿多呈细脉浸染状充填于黄铁矿或石英裂隙中"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "对应成矿流体为",
+"description": "根据石英包裹体中水的氢氧同位素组成判断，成矿流体中水的主要来源是大气降水"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E17",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素结果显示硫主要来源于地壳深部，具有深源岩浆硫特征，用于约束成矿热液的物质来源特征"
+}
+]
+}

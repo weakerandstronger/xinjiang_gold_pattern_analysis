@@ -1,0 +1,299 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0173",
+"title": "新疆鄯善县梧南金矿床成因及成矿条件",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "梧南金矿床",
+"attributes": {
+"name": "梧南金矿床",
+"tectonic_position": "位于塔里木、哈萨克斯坦两大板块之间，地处塔里木地块北缘的南天山晚古生代陆缘盆地",
+"deposit_type": "造山型金矿床",
+"ore_grade": "地表金平均品位14.05×10⁻⁶，钻孔金平均品位12.25×10⁻⁶",
+"ore_control_features": "矿体赋存于下石炭统甘草湖组第2岩性段第2层底部白云岩和砂屑白云岩中，受层位控制明显；矿区背斜偏北翼及韧、脆性变形带与北东、北西向构造叠加部位为最佳控矿、容矿场所；围岩热液蚀变发育，以硅化、黄铁矿化为主"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "塔里木板块",
+"attributes": {
+"name": "塔里木板块",
+"level": "板块"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "哈萨克斯坦板块",
+"attributes": {
+"name": "哈萨克斯坦板块",
+"level": "板块"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "南天山晚古生代陆缘盆地",
+"attributes": {
+"name": "南天山晚古生代陆缘盆地",
+"level": "盆地",
+"tectonic_setting": "塔里木地块北缘的晚古生代陆缘盆地"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统甘草湖组第2岩性段第2层",
+"attributes": {
+"name": "下石炭统甘草湖组第2岩性段第2层",
+"age": "下石炭统",
+"dominant_lithology": "陆屑砂屑白云岩、白云岩",
+"lithology_notes": "金矿床赋存于该层底部，受层位控制明显"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "不纯碳酸盐岩（白云岩及砂屑白云岩）",
+"attributes": {
+"name": "不纯碳酸盐岩（白云岩及砂屑白云岩）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "伊尔托古什布拉克韧、脆性剪切带",
+"attributes": {
+"name": "伊尔托古什布拉克韧、脆性剪切带",
+"structure_type": "韧、脆性剪切带",
+"orientation": "近东西向",
+"scale": "矿区南部",
+"ore_control_role": "甘草湖组中的韧、脆性变形带为最佳控矿、容矿场所，与褶皱核部及断裂叠加部位共同控制矿化"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "北西—南东向断裂",
+"attributes": {
+"name": "北西—南东向断裂",
+"structure_type": "断裂",
+"orientation": "北西—南东向",
+"scale": "矿区",
+"ore_control_role": "与韧、脆性变形带及褶皱核部叠加，为控矿、容矿有利部位"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "北东—南西向断裂",
+"attributes": {
+"name": "北东—南西向断裂",
+"structure_type": "断裂",
+"orientation": "北东—南西向",
+"scale": "矿区",
+"ore_control_role": "与韧、脆性变形带及褶皱核部叠加，为控矿、容矿有利部位"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "倒转同斜褶皱",
+"attributes": {
+"name": "倒转同斜褶皱",
+"structure_type": "褶皱",
+"scale": "矿区",
+"ore_control_role": "控矿褶皱多为不对称紧闭同斜倒转褶皱，矿体多位于背斜偏北翼；褶皱核部及其与断裂叠加部位为控矿、容矿场所"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "围岩蚀变发育且与金矿关系密切"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "围岩蚀变发育且与金矿关系密切"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "金主要以包裹金形式赋存于黄铁矿中"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金矿物",
+"paragenesis": "矿床发现的金矿物较单一，仅见自然金；多见于多金属硫化物脉型金矿石中，以粒状为主"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Fluid",
+"name_zh": "梧南金矿成矿流体",
+"attributes": {
+"nature": "中—低温热液",
+"source": "可能为变质热液与地下热（卤）水，围绕层位与构造有利部位发生交代、迁移富集并沉淀成矿",
+"temperature_C_min": "120",
+"temperature_C_max": "340",
+"pressure_MPa_min": "28",
+"pressure_MPa_max": "44"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "金（Au）品位特征",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "12.25×10⁻⁶～14.05×10⁻⁶",
+"anomaly_pattern": "地表金平均品位14.05×10⁻⁶，钻孔金平均品位12.25×10⁻⁶，金品位变化系数206%"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "梧南金矿床地处塔里木地块北缘的南天山晚古生代陆缘盆地"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "梧南金矿床位于塔里木板块与哈萨克斯坦板块之间"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "梧南金矿床位于塔里木板块与哈萨克斯坦板块之间"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "梧南金矿床容矿围岩为不纯碳酸盐岩（白云岩及砂屑白云岩）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "不纯碳酸盐岩（白云岩及砂屑白云岩）属于下石炭统甘草湖组第2岩性段第2层"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "伊尔托古什布拉克韧、脆性剪切带及其与褶皱核部、断裂叠加部位为梧南金矿床最佳控矿、容矿场所"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "北西—南东向断裂与韧、脆性变形带及褶皱核部叠加部位控制矿体产出与赋存"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "北东—南西向断裂与韧、脆性变形带及褶皱核部叠加部位控制矿体产出与赋存"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "倒转同斜褶皱核部及矿区背斜偏北翼为梧南金矿床控矿、容矿有利部位"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "梧南金矿床围岩热液蚀变以硅化为主且与金矿关系密切"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "梧南金矿床围岩热液蚀变以黄铁矿化为主且与金矿关系密切"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要金矿物为",
+"description": "梧南金矿床主要载金矿物为黄铁矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "梧南金矿床发现的金矿物较单一，仅见自然金"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "流体包裹体研究表明梧南金矿床主成矿期温度为120℃～340℃，成矿压力为28～44MPa"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "梧南金矿床地表与钻孔金品位平均值分别为14.05×10⁻⁶与12.25×10⁻⁶，金品位变化系数为206%"
+}
+]
+}

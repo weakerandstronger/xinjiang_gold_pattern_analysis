@@ -1,0 +1,236 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0190",
+"title": "新疆萨热阔布金矿床流体包裹体研究_赵兴展",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨热阔布金矿床",
+"attributes": {
+"name": "萨热阔布金矿床",
+"location": "新疆北部阿尔泰南缘克兰火山-沉积盆地内",
+"tectonic_position": "中亚造山带阿尔泰造山带南缘",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均品位3.68 g/t（1号矿体）",
+"ore_control_features": "受NW向阿巴宫断裂与克因宫断裂等压剪性断裂控制，矿体呈脉状产于韧性剪切带内并呈右行雁列展布",
+"age_ma": "213~212 Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "克兰火山-沉积盆地",
+"attributes": {
+"name": "克兰火山-沉积盆地",
+"level": "火山-沉积盆地",
+"tectonic_setting": "阿尔泰造山带南缘（中亚造山带）增生造山背景下的火山-沉积盆地"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "康布铁堡组上亚组第二岩性段",
+"attributes": {
+"name": "康布铁堡组上亚组第二岩性段",
+"age": "下泥盆统",
+"dominant_lithology": "海相中酸性火山-火山碎屑岩、陆源碎屑沉积岩-碳酸盐建造",
+"lithology_notes": "矿体呈脉状产于该岩性段中"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "铁锰质大理岩",
+"attributes": {
+"name": "铁锰质大理岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "绿泥石黑云母石英片岩",
+"attributes": {
+"name": "绿泥石黑云母石英片岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "阿巴宫断裂",
+"attributes": {
+"name": "阿巴宫断裂",
+"structure_type": "断裂",
+"orientation": "NW向",
+"scale": "区域性断裂",
+"ore_control_role": "控矿断裂，控制矿体脉状产出并发育于韧性剪切带内"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "克因宫断裂",
+"attributes": {
+"name": "克因宫断裂",
+"structure_type": "断裂",
+"orientation": "NW向",
+"scale": "区域性断裂",
+"ore_control_role": "控矿断裂，与阿巴宫断裂共同控制矿体雁列展布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "蚀变发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "蚀变发育"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与黄铁矿、黄铜矿、闪锌矿等共生于多金属硫化物-石英阶段"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "早期石英-黄铁矿阶段及多金属硫化物-石英阶段发育"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "NaCl-CO2-H2O体系成矿流体",
+"attributes": {
+"nature": "中-低温、低盐度、富CO2的热液流体（NaCl-CO2-H2O体系）",
+"source": "变质脱挥发形成的富CO2变质流体，运移过程中与浅部流体混合",
+"temperature_C_min": "140",
+"temperature_C_max": "480",
+"pressure_MPa_min": "100",
+"pressure_MPa_max": "400",
+"salinity_wtNaCl_min": "1.1",
+"salinity_wtNaCl_max": "15.2"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床位于克兰火山-沉积盆地内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "矿体呈脉状赋存于铁锰质大理岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "矿体呈脉状赋存于绿泥石黑云母石英片岩中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "铁锰质大理岩属于康布铁堡组上亚组第二岩性段的容矿围岩组成"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "绿泥石黑云母石英片岩属于康布铁堡组上亚组第二岩性段的容矿围岩组成"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床在构造上主要受NW向阿巴宫断裂控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床的控矿构造包括NW向克因宫断裂"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床围岩蚀变发育，主要蚀变之一为硅化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床围岩蚀变发育，主要蚀变之一为黄铁矿化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石金矿物包括自然金（并见银金矿）"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物中黄铁矿为主要硫化物矿物之一"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "矿床成矿流体以中-低温、低盐度、富CO2为特征，属于NaCl-CO2-H2O体系"
+}
+]
+}

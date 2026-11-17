@@ -1,0 +1,92 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0082",
+"title": "新疆西天山卡特巴阿苏金矿黄铁矿地球化学特征及地质意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "新疆西天山"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "金主要以自然金和显微-超显微包体金形式存在于黄铁矿中"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "沿裂隙充填矿物",
+"paragenesis": "沿裂隙充填黄铁矿形成网脉状结构"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金矿物",
+"paragenesis": "存在于黄铁矿中，具裂隙金、晶间金和包裹金等嵌布方式"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Fluid",
+"name_zh": "成矿热液",
+"attributes": {
+"nature": "热液",
+"source": "与岩浆热液关系密切，成矿物质来源具部分深源特征",
+"temperature_C_min": "中温",
+"temperature_C_max": "高温"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "共生矿物包括",
+"description": "卡特巴阿苏金矿床矿石中发育黄铁矿"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "共生矿物包括",
+"description": "卡特巴阿苏金矿床矿石中发育黄铜矿，沿裂隙充填形成网脉状结构"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要金矿物为",
+"description": "卡特巴阿苏金矿床金主要以自然金形式存在"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "对应成矿流体为",
+"description": "卡特巴阿苏金矿床成矿与中、高温岩浆热液作用关系密切，成矿物质来源具部分深源特征"
+}
+]
+}

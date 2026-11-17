@@ -1,0 +1,619 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0023",
+"title": "新疆卡拉麦里地区金成矿流体和 O、H、S 同位素地球化学特征",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿床",
+"attributes": {
+"name": "双泉金矿床",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿床",
+"attributes": {
+"name": "南明水金矿床",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Deposit",
+"name_zh": "苏吉泉东金矿床",
+"attributes": {
+"name": "苏吉泉东金矿床",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Deposit",
+"name_zh": "湘玉金矿床",
+"attributes": {
+"name": "湘玉金矿床",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Deposit",
+"name_zh": "金山沟金矿床",
+"attributes": {
+"name": "金山沟金矿床",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Deposit",
+"name_zh": "柳树泉金矿床",
+"attributes": {
+"name": "柳树泉金矿床",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Deposit",
+"name_zh": "库布苏金矿床",
+"attributes": {
+"name": "库布苏金矿床",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Deposit",
+"name_zh": "黄南金矿床",
+"attributes": {
+"name": "黄南金矿床",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Deposit",
+"name_zh": "清水金矿床",
+"attributes": {
+"name": "清水金矿床",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Deposit",
+"name_zh": "红柳沟6号矿点",
+"attributes": {
+"name": "红柳沟6号矿点",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Deposit",
+"name_zh": "大沙沟金矿床",
+"attributes": {
+"name": "大沙沟金矿床",
+"location": "新疆卡拉麦里金矿带",
+"tectonic_position": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里强应变构造带东段, 属东准噶尔古生代造山带的一部分"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Region",
+"name_zh": "卡拉麦里金矿带",
+"attributes": {
+"name": "卡拉麦里金矿带",
+"level": "成矿带",
+"tectonic_setting": "位于准噶尔盆地北缘和阿尔曼太至北塔山以南地区, 成矿带划分属卡拉麦里－达尔布特成矿带的卡拉麦里－莫钦乌拉成矿带"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Region",
+"name_zh": "卡拉麦里－达尔布特成矿带",
+"attributes": {
+"name": "卡拉麦里－达尔布特成矿带",
+"level": "Ⅲ级成矿带",
+"tectonic_setting": "位于西伯利亚板块与哈萨克斯坦－准噶尔板块缝合带卡拉麦里－达尔布特蛇绿岩带东段强应变构造带内"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Region",
+"name_zh": "卡拉麦里－莫钦乌拉成矿带",
+"attributes": {
+"name": "卡拉麦里－莫钦乌拉成矿带",
+"level": "Ⅳ级成矿带",
+"tectonic_setting": "卡拉麦里－达尔布特成矿带中的次一级金多金属成矿带"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Region",
+"name_zh": "东准噶尔古生代造山带",
+"attributes": {
+"name": "东准噶尔古生代造山带",
+"level": "造山带",
+"tectonic_setting": "包括准噶尔盆地东北缘和阿尔曼太至北塔山一线以南地区, 为研究区所在的大地构造单元"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里强应变构造带",
+"attributes": {
+"name": "卡拉麦里强应变构造带",
+"structure_type": "强应变构造带 / 韧性-韧脆性剪切带",
+"orientation": "走向北西, 西起金斯格库木南, 向东经清水、南明水、大加山之北延伸至莫钦乌拉山南侧",
+"scale": "出露长约300 km, 宽10～30 km",
+"ore_control_role": "形成于早古生代拉张、收缩及晚古生代闭合、焊接、碰撞造山过程, 是卡拉麦里金矿带及相关金属成矿作用的重要控矿构造背景"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组下亚组",
+"attributes": {
+"name": "下石炭统南明水组下亚组",
+"age": "下石炭统",
+"dominant_lithology": "富含碳质的火山碎屑岩",
+"lithology_notes": "为卡拉麦里地区部分金矿床矿体围岩, 在区域变质作用下有机质分解释放 CO2、H2O、CH4 和 N2 参与成矿流体"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "HostRockUnit",
+"name_zh": "南明水组下亚组富含碳质火山碎屑岩围岩单元",
+"attributes": {
+"name": "南明水组下亚组富含碳质火山碎屑岩围岩单元"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Fluid",
+"name_zh": "卡拉麦里地区其他金矿床成矿流体",
+"attributes": {
+"nature": "中低温、低盐度 C-O-H-N-S 变质热液体系",
+"source": "以变质水为主, 兼具有岩浆水、建造水和/或大气降水特征",
+"temperature_C_min": "200",
+"temperature_C_max": "288",
+"salinity_wtNaCl_min": "3.55",
+"salinity_wtNaCl_max": "4.5"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Fluid",
+"name_zh": "双泉金矿床主成矿期成矿流体",
+"attributes": {
+"nature": "中低温、低盐度 C-O-H-N-S 变质热液体系",
+"source": "以变质水为主, 兼具有岩浆水、建造水和/或大气降水特征",
+"temperature_C_min": "200",
+"temperature_C_max": "230",
+"salinity_wtNaCl_min": "3.55",
+"salinity_wtNaCl_max": "4.5"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Fluid",
+"name_zh": "南明水金矿床主成矿期成矿流体",
+"attributes": {
+"nature": "中低温 C-O-H-N-S 变质热液体系",
+"source": "以变质水为主, 兼具有岩浆水、建造水和/或大气降水特征",
+"temperature_C_min": "247",
+"temperature_C_max": "264"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Fluid",
+"name_zh": "苏吉泉东金矿床主成矿期成矿流体",
+"attributes": {
+"nature": "中低温 C-O-H-N-S 变质热液体系",
+"source": "以变质水为主, 兼具有岩浆水、建造水和/或大气降水特征",
+"temperature_C_min": "230",
+"temperature_C_max": "235"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Fluid",
+"name_zh": "湘玉金矿床主成矿期成矿流体",
+"attributes": {
+"nature": "中低温 C-O-H-N-S 变质热液体系",
+"source": "以变质水为主, 兼具有岩浆水、建造水和/或大气降水特征",
+"temperature_C_min": "255",
+"temperature_C_max": "288"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Fluid",
+"name_zh": "库布苏金矿床成矿流体",
+"attributes": {
+"nature": "C-O-H-N-S 岩浆—变质热液体系",
+"source": "成矿流体主要来自岩浆水, 变质水可能也参与成矿"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Isotope",
+"name_zh": "双泉、南明水、黄南、清水、红柳沟6号矿点、大沙沟金矿氢氧同位素",
+"attributes": {
+"system": "H-O",
+"parameter_name": "δD-δ18O",
+"value_range": "成矿流体以变质水为主, 也具有岩浆水、建造水和/或大气降水特征"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Isotope",
+"name_zh": "库布苏金矿氢氧同位素",
+"attributes": {
+"system": "H-O",
+"parameter_name": "δD-δ18O",
+"value_range": "成矿流体主要来自岩浆水, 变质水也可能参与成矿"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Isotope",
+"name_zh": "双泉、南明水金矿硫同位素",
+"attributes": {
+"system": "S",
+"parameter_name": "δ34S",
+"value_range": "硫主要来自变质的围岩, 可能有部分深源岩浆硫混入"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Isotope",
+"name_zh": "金山沟、柳树泉金矿硫同位素",
+"attributes": {
+"system": "S",
+"parameter_name": "δ34S",
+"value_range": "具有深源硫特征, 成矿与火山、次火山活动有关"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "双泉金矿床位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "南明水金矿床位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "苏吉泉东金矿床位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "湘玉金矿床位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "金山沟金矿床位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "柳树泉金矿床位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "库布苏金矿床位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "黄南金矿床位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "清水金矿床位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "红柳沟6号矿点位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "大沙沟金矿床位于新疆卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿床所在的卡拉麦里地区金矿床总体受卡拉麦里强应变构造带控制"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿床受卡拉麦里强应变构造带形成的韧性、韧脆性构造变形带控制"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉东金矿床位于卡拉麦里强应变构造带内, 受该带剪切构造变形控制"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "湘玉金矿床与卡拉麦里强应变构造带的韧性、韧脆性构造变形密切相关"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "金山沟金矿床赋存于卡拉麦里强应变构造带控制下的强变形带中"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "柳树泉金矿床与卡拉麦里强应变构造带形成的韧性、韧脆性剪切构造密切相关"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "库布苏金矿床位于卡拉麦里强应变构造带内, 受区域剪切构造控制"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "黄南金矿床赋存在卡拉麦里强应变构造带控制下的构造变形带中"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "清水金矿床发育在卡拉麦里强应变构造带内, 受强应变构造带控制"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "红柳沟6号矿点的形成与卡拉麦里强应变构造带的剪切构造变形密切相关"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "大沙沟金矿床的成矿受卡拉麦里强应变构造带控制"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E18",
+"relation_label_zh": "赋存于",
+"description": "南明水金矿床矿体围岩为富含碳质的下石炭统南明水组下亚组火山碎屑岩围岩单元"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E17",
+"relation_label_zh": "属于",
+"description": "南明水组下亚组富含碳质火山碎屑岩围岩单元属于下石炭统南明水组下亚组地层"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "双泉金矿床主成矿期温度为200～230℃, 盐度为3.55％～4.5％, 成矿流体为中低温、低盐度 C-O-H-N-S 变质热液体系"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E21",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "南明水金矿床主成矿期温度为247～264℃, 成矿流体为中低温 C-O-H-N-S 变质热液体系"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E22",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "苏吉泉东金矿床主成矿期温度为230～235℃, 成矿流体为中低温 C-O-H-N-S 变质热液体系"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E23",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "湘玉金矿床主成矿期温度为255～288℃, 成矿流体为中低温 C-O-H-N-S 变质热液体系"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "金山沟金矿床成矿流体总体为中低温、低盐度 C-O-H-N-S 变质热液体系"
+},
+{
+"relation_local_id": "R30",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "柳树泉金矿床成矿流体总体为中低温、低盐度 C-O-H-N-S 变质热液体系"
+},
+{
+"relation_local_id": "R31",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E24",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "库布苏金矿床成矿流体主要来自岩浆水, 属 C-O-H-N-S 岩浆—变质热液体系"
+},
+{
+"relation_local_id": "R32",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "黄南金矿床成矿流体总体为中低温、低盐度 C-O-H-N-S 变质热液体系"
+},
+{
+"relation_local_id": "R33",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "清水金矿床成矿流体总体为中低温、低盐度 C-O-H-N-S 变质热液体系"
+},
+{
+"relation_local_id": "R34",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "红柳沟6号矿点成矿流体总体为中低温、低盐度 C-O-H-N-S 变质热液体系"
+},
+{
+"relation_local_id": "R35",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "大沙沟金矿床成矿流体总体为中低温、低盐度 C-O-H-N-S 变质热液体系"
+},
+{
+"relation_local_id": "R36",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E25",
+"to_entity_local_id": "E19",
+"relation_label_zh": "约束该流体来源",
+"description": "双泉、南明水、黄南、清水、红柳沟6号矿点、大沙沟金矿的氢、氧同位素组成表明, 成矿流体以变质水为主, 也具有岩浆水、建造水和/或大气降水特征"
+},
+{
+"relation_local_id": "R37",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E26",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "库布苏金矿的氢、氧同位素组成表明, 成矿流体主要来自岩浆水, 变质水也可能参与成矿"
+},
+{
+"relation_local_id": "R38",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E27",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "双泉金矿的硫同位素组成表明硫主要来自变质的围岩, 可能有部分深源岩浆硫混入, 约束了其成矿流体硫源"
+},
+{
+"relation_local_id": "R39",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E27",
+"to_entity_local_id": "E21",
+"relation_label_zh": "约束该流体来源",
+"description": "南明水金矿的硫同位素组成表明硫主要来自变质的围岩, 可能有部分深源岩浆硫混入, 约束了其成矿流体硫源"
+},
+{
+"relation_local_id": "R40",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E28",
+"to_entity_local_id": "E19",
+"relation_label_zh": "约束该流体来源",
+"description": "金山沟、柳树泉金矿床的硫同位素组成具有深源硫特征, 成矿可能与火山、次火山活动有关, 约束了卡拉麦里地区部分金矿床成矿流体的深源硫贡献"
+}
+]
+}

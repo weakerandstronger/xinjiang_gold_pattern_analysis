@@ -1,0 +1,48 @@
+{
+  "mathematics": {
+    "status": "passed",
+    "atol": 1e-10,
+    "rtol": 1e-08,
+    "exhaustive_eligible_candidates": 13738,
+    "direct_set_counts_all_patterns": true,
+    "max_lift_error": 5.684341886080802e-14,
+    "max_evidence_error": 5.551115123125783e-17,
+    "max_single_pattern_allocation_error": 5.551115123125783e-17,
+    "feature_total_residual": 5.684341886080801e-13,
+    "item_total_residual": 5.684341886080802e-14,
+    "direct_feature_formula_max_residual": 7.531752999057062e-13,
+    "within_feature_normalization_residual": 9.103828801926284e-15,
+    "global_normalization_residual": 1.5543122344752192e-15
+  },
+  "feature_scope": {
+    "status": "passed",
+    "excluded": [
+      "Isotope"
+    ],
+    "included": [
+      "Alteration",
+      "Fluid",
+      "Geochem",
+      "Geophysics",
+      "HostRockUnit",
+      "IntrusiveBody",
+      "Mineral",
+      "Region",
+      "StratUnit",
+      "Structure"
+    ]
+  },
+  "input_immutability": {
+    "status": "passed",
+    "checked_files": 2
+  },
+  "case_trace": {
+    "status": "passed",
+    "cases": 3,
+    "all_matching_groups_accounted": true
+  },
+  "visual_review": {
+    "status": "not_run",
+    "reason": "Pending actual figure and HTML inspection"
+  }
+}

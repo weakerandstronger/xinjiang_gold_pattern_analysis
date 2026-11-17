@@ -1,0 +1,209 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0035",
+"title": "卡拉麦里成矿带双泉金矿与卡拉麦里Ⅰ号金矿地球化学特征对比研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿床",
+"attributes": {
+"name": "双泉金矿床",
+"location": "新疆东准噶尔地区卡拉麦里成矿带",
+"tectonic_position": "东准卡拉麦里构造带上",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "金矿化受断裂构造控制明显，矿体发育在断裂构造密集区及断裂附近部位"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "卡拉麦里Ⅰ号金矿床",
+"attributes": {
+"name": "卡拉麦里Ⅰ号金矿床",
+"location": "新疆东准噶尔地区卡拉麦里成矿带",
+"tectonic_position": "东准卡拉麦里构造带上",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "金矿化受断裂构造控制明显，矿体发育在断裂构造密集区及断裂附近部位"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "新疆东准噶尔地区",
+"attributes": {
+"name": "新疆东准噶尔地区",
+"level": "地区",
+"tectonic_setting": "中国重要的金成矿带之一"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带",
+"attributes": {
+"name": "卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "东准噶尔地区重要的金及多金属成矿带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "东准卡拉麦里构造带",
+"attributes": {
+"name": "东准卡拉麦里构造带",
+"level": "构造带",
+"tectonic_setting": "区内断裂褶皱发育，有利于成矿通道形成，深部热液易于上升并提供良好储矿空间"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "矿区断裂构造系统",
+"attributes": {
+"name": "矿区断裂构造系统",
+"structure_type": "断裂构造",
+"scale": "发育于断裂构造密集区及断裂附近部位",
+"ore_control_role": "控制金矿化的空间展布，金矿化发育在断裂构造密集区及断裂附近部位"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Fluid",
+"name_zh": "双泉金矿成矿流体",
+"attributes": {
+"nature": "壳幔混源成矿流体",
+"source": "成矿流体来源于壳幔混源体系"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Fluid",
+"name_zh": "卡拉麦里Ⅰ号金矿成矿流体",
+"attributes": {
+"nature": "幔源成矿流体",
+"source": "成矿流体来源于地幔深处，成矿物质来自深部幔源位置的原始地幔"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geochem",
+"name_zh": "双泉金矿地球化学特征",
+"attributes": {
+"element": "主量元素、微量元素及稀土元素",
+"value_ppm": "稀土元素总量高于卡拉麦里Ⅰ号金矿，轻稀土和重稀土具一定分馏作用，（La/Sm）N 值较（Gd/Yb）N 值大",
+"anomaly_pattern": "轻稀土富集，稀土元素具弱亏损的负 Eu、Ce 异常，轻稀土较重稀土呈右倾斜偏陡的分布曲线，说明岩浆具壳幔混熔特点；主量元素总体呈富 Ca、贫 Mg 特征，Nb 和 Ti 明显亏损，大离子亲石元素 Sr、K、Ba、Rb 明显富集，K、P、Ti 等元素明显亏损，Ba 相对 Rb、Th 亏损，为后碰撞岩浆活动的标志"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "卡拉麦里Ⅰ号金矿地球化学特征",
+"attributes": {
+"element": "主量元素、微量元素及稀土元素",
+"value_ppm": "轻稀土和重稀土的比值为 3.78～4.05，平均 3.95；LaN/YbN 值为 3.19～3.34，平均 3.28",
+"anomaly_pattern": "轻重稀土具一定分馏作用并呈轻稀土富集，样品元素曲线与下地壳元素曲线相一致，成矿物质为地幔柱型，物质来源于深部幔源原始地幔；主量元素总体呈富 Ca、贫 Mg 特征，Nb 和 Ti 明显亏损，大离子亲石元素 Sr、K、Ba、Rb 明显富集，K、P、Ti 等元素明显亏损，Ba 相对 Rb、Th 亏损，反映后碰撞岩浆活动特征"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "双泉金矿位于新疆东准噶尔地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "双泉金矿位于东准噶尔地区的卡拉麦里成矿带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "双泉金矿位于东准卡拉麦里构造带上"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡拉麦里Ⅰ号金矿位于新疆东准噶尔地区"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "卡拉麦里Ⅰ号金矿位于东准噶尔地区的卡拉麦里成矿带内"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "卡拉麦里Ⅰ号金矿位于东准卡拉麦里构造带上"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿金矿化受断裂构造控制明显，矿体发育在断裂构造密集区及断裂附近部位"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "卡拉麦里Ⅰ号金矿金矿化同样受断裂构造控制明显，矿体发育在断裂构造密集区及断裂附近部位"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "对应成矿流体为",
+"description": "双泉金矿成矿流体来源于壳幔混源体系，为壳幔混源成矿流体"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E8",
+"relation_label_zh": "对应成矿流体为",
+"description": "卡拉麦里Ⅰ号金矿成矿流体来源于地幔深处，为幔源成矿流体"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "双泉金矿地球化学特征显示主量元素总体富 Ca、贫 Mg，Nb 和 Ti 明显亏损，大离子亲石元素 Sr、K、Ba、Rb 明显富集，Ba 相对 Rb、Th 亏损，稀土元素轻稀土富集并具弱负 Eu、Ce 异常及右倾斜偏陡分布曲线，表明岩浆具壳幔混熔特点"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "卡拉麦里Ⅰ号金矿地球化学特征显示轻稀土和重稀土具一定分馏作用并呈轻稀土富集，轻重稀土比值 3.78～4.05，LaN/YbN 值 3.19～3.34，样品元素曲线与下地壳元素曲线相一致，反映成矿物质为地幔柱型，来源于深部幔源原始地幔，同时主量和微量元素也表现出富 Ca、贫 Mg、Nb 和 Ti 亏损及 Sr、K、Ba、Rb 富集、Ba 相对 Rb、Th 亏损等后碰撞岩浆活动特征"
+}
+]
+}

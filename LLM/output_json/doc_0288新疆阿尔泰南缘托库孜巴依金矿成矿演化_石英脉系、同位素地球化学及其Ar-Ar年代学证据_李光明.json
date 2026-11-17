@@ -1,0 +1,286 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0288",
+"title": "新疆阿尔泰南缘托库孜巴依金矿成矿演化_石英脉系、同位素地球化学及其Ar-Ar年代学证据_李光明",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床",
+"attributes": {
+"name": "托库孜巴依金矿床",
+"location": "新疆阿尔泰南缘（额尔齐斯成矿带西段哈巴河地区一带）",
+"tectonic_position": "中亚造山带阿尔泰南缘额尔齐斯构造成矿域（克兰弧后盆地西北部）",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体赋存于北西—南东向、向东北陡倾、宽约1000 m的玛尔卡库里大型韧性剪切带及其次级构造中；构造演化经历推覆挤压褶皱、左行走滑韧性剪切、脆-韧性剪切、伸展体制张性构造（伴多金属硫化物-石英脉充填与闪长岩脉贯入）及晚期多组压扭/张扭性次级断裂叠加；识别出两次主要成矿事件（含金黄铁矿-石英脉与含金多金属-石英脉）",
+"age_ma": "成矿事件约290Ma和约270Ma；糜棱岩黑云母Ar-Ar坪年龄（269.94±2.54）Ma，反等时线年龄（269.38±2.63）Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯成矿构造带",
+"attributes": {
+"name": "额尔齐斯成矿构造带",
+"level": "成矿构造带",
+"tectonic_setting": "中亚造山带阿尔泰南缘，受额尔齐斯深大断裂影响并派生次级构造的带状成矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "克兰弧后盆地",
+"attributes": {
+"name": "克兰弧后盆地",
+"level": "弧后盆地",
+"tectonic_setting": "额尔齐斯构造域的重要组成单元之一，托库孜巴依矿区位于其西北部"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中、下泥盆统绿片岩相变质岩",
+"attributes": {
+"name": "中、下泥盆统绿片岩相变质岩",
+"age": "中、下泥盆统",
+"dominant_lithology": "变质砂岩、千枚岩、凝灰岩等",
+"lithology_notes": "地层普遍遭受强烈动力变质，片理构造发育；被玛尔卡库里大型韧性剪切带及其次级构造切割"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "中、下泥盆统糜棱岩化围岩",
+"attributes": {
+"name": "中、下泥盆统糜棱岩化围岩（赋矿围岩）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河斜长花岗岩体",
+"attributes": {
+"name": "哈巴河斜长花岗岩体",
+"rock_type": "斜长花岗岩",
+"age": "华力西中期",
+"relationship_to_ore": "Ⅰ、Ⅱ、Ⅲ号矿床产于其外接触带；矿区内及外接触带发育闪长岩脉等脉岩并与矿化有关"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里大型韧性剪切带",
+"attributes": {
+"name": "玛尔卡库里大型韧性剪切带",
+"structure_type": "大型韧性剪切带（脆-韧性剪切带）",
+"orientation": "北西—南东向（NW-SE），向东北陡倾",
+"scale": "宽约1000 m（约1 km）",
+"ore_control_role": "为托库孜巴依金矿的主要控矿构造，矿体及含矿石英脉系赋存于剪切带及其次级构造内，受左行走滑与后期走滑-伸展转换构造演化控制"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化-绢云母化-硅化-黄铁矿化",
+"attributes": {
+"name": "绿泥石化-绢云母化-硅化-黄铁矿化",
+"alteration_minerals": "绿泥石、绢云母（及白云母）、石英、黄铁矿（局部褐铁矿化）",
+"intensity": "广泛发育；硅化构成强韧性剪切带核部并伴黄铁矿化，是最直接矿化标志"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物，与金矿化密切相关",
+"paragenesis": "与石英脉及硅化、绢云母化、绿泥石化等蚀变共生，常见碎裂及裂隙充填、交代等变形-热液特征"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "见于含金石英-硫化物脉中，与黄铁矿及多金属硫化物共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要多金属硫化物之一",
+"paragenesis": "常沿黄铁矿裂隙充填并交代黄铁矿，亦与方铅矿、闪锌矿共生于多金属硫化物-石英脉中"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "多金属硫化物脉中的重要金属矿物",
+"paragenesis": "与黄铜矿、闪锌矿等共生，局部可被黄铜矿沿边部和裂隙交代"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "多金属硫化物脉中的重要金属矿物",
+"paragenesis": "与黄铜矿、方铅矿、黄铁矿共生，局部可交代黄铜矿或与之共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "托库孜巴依金矿成矿流体",
+"attributes": {
+"nature": "成矿热液，早阶段与脆-韧性剪切相关，晚阶段与走滑-伸展转换体制相关",
+"source": "从早阶段向晚阶段由以变质热液为主向以大气降水为主的方向演化"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O水、δD水",
+"value_range": "δ18O水=-0.26‰~6.12‰；δD水=-78.96‰~-90.48‰"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（CDT）",
+"value_range": "δ34S=-2.71‰~5.60‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿位于阿尔泰南缘额尔齐斯成矿构造带西段的玛尔卡库里剪切带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿区位于泥盆纪－早石炭世克兰弧后盆地的西北部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "托库孜巴依金矿的矿体与含矿石英脉系受玛尔卡库里大型韧性剪切带及其次级构造控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "托库孜巴依金矿的矿体赋存于玛尔卡库里剪切带切割的中、下泥盆统糜棱岩化围岩中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "托库孜巴依金矿的赋矿围岩在地层上属于中、下泥盆统绿片岩相变质岩"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "托库孜巴依金矿与金矿化有关的主要蚀变为绿泥石化、绢云母化、硅化及黄铁矿化等"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "托库孜巴依金矿的主要金矿物为自然金，见于含金石英-硫化物脉中"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "托库孜巴依金矿的含金石英脉及多金属石英脉中普遍发育黄铁矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "托库孜巴依金矿的多金属硫化物-石英脉中常见黄铜矿，并可沿黄铁矿裂隙充填交代"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "托库孜巴依金矿的多金属硫化物-石英脉中常见方铅矿，与黄铜矿、闪锌矿等共生"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "托库孜巴依金矿的多金属硫化物-石英脉中常见闪锌矿，与黄铜矿、方铅矿及黄铁矿共生"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "托库孜巴依金矿的成矿流体由早阶段以变质热液为主向晚阶段以大气降水为主演化，并对应两次主要成矿事件"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素参数显示成矿流体从早阶段向晚阶段由变质热液向大气降水占优的方向演化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素总体显示深源硫特征，用以约束托库孜巴依金矿成矿流体与深部物质来源有关"
+}
+]
+}

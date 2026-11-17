@@ -1,0 +1,257 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0040",
+"title": "地球化学勘查在富蕴县金水泉金矿找矿中的应用",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金水泉金矿床",
+"attributes": {
+"name": "金水泉金矿床",
+"location": "新疆富蕴县金水泉-大沙沟一带",
+"tectonic_position": "东准卡拉麦里成矿带内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "以AR-26号Au、As、Sb、Mo、Ag、Cu低温热液元素综合异常为找矿线索，在异常浓集中心附近通过地质调查和工程揭露发现金矿化体和金水泉金矿床"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准卡拉麦里成矿带",
+"attributes": {
+"name": "东准卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "位于新疆东准噶尔地区的金成矿带，为金水泉金矿床所在的区域成矿带，本次找矿工作在该成矿带内取得找金新发现"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "金水泉-大沙沟一带",
+"attributes": {
+"name": "金水泉-大沙沟一带",
+"level": "找矿远景区",
+"tectonic_setting": "位于东准卡拉麦里成矿带内，1∶20万水系沉积物测量圈出的AR-26综合异常位于该区，是金水泉金矿床的直接找矿靶区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组上亚组",
+"attributes": {
+"name": "下石炭统南明水组上亚组",
+"age": "下石炭统",
+"dominant_lithology": "以南明水组上亚组地层为主（文中未具体描述岩性）",
+"lithology_notes": "AR-26综合异常区出露地层主要为下石炭统南明水组上亚组，该组地层含金背景值较高，是与金矿化相关的有利含金地层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "贝勒库都克NW向断裂",
+"attributes": {
+"name": "贝勒库都克NW向断裂",
+"structure_type": "断裂",
+"orientation": "NW向",
+"scale": "区域性NW向断裂构造",
+"ore_control_role": "AR-26综合异常位于贝勒库都克NW向断裂以西，为综合异常区的西侧边界构造，对异常及金矿化空间位置具有重要限定作用"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里深大断裂",
+"attributes": {
+"name": "卡拉麦里深大断裂",
+"structure_type": "深大断裂",
+"orientation": "近EW向展布",
+"scale": "区域性深大断裂",
+"ore_control_role": "AR-26综合异常位于卡拉麦里深大断裂附近，并与NW向断裂交汇归并，该深大断裂提供有利的成矿构造背景和通道，是金矿化异常形成的重要控制构造之一"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "清水-苏吉泉大断层",
+"attributes": {
+"name": "清水-苏吉泉大断层",
+"structure_type": "大断层",
+"orientation": "近EW向展布",
+"scale": "区域性大断层",
+"ore_control_role": "AR-26综合异常位于清水-苏吉泉大断层附近，并有NW向断裂与之交汇归并，该断层与卡拉麦里深大断裂共同构成低温热液元素综合异常集中的构造部位，对金矿化具有重要控矿作用"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "NW向断裂构造带",
+"attributes": {
+"name": "NW向断裂构造带",
+"structure_type": "断裂",
+"orientation": "NW向",
+"scale": "一组NW向断裂，在异常区内与卡拉麦里深大断裂和清水-苏吉泉大断层交汇归并",
+"ore_control_role": "NW向断裂在卡拉麦里深大断裂与清水-苏吉泉大断层附近与之交汇归并，构成AR-26综合异常及金矿化形成的构造交汇部位，为成矿流体运移和减压扩容提供通道和空间"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geochem",
+"name_zh": "AR-26 Au元素综合异常",
+"attributes": {
+"element": "Au",
+"value_ppm": "以2×10^-9为圈定下限，最高异常值分别为131.6×10^-9和171.3×10^-9",
+"anomaly_pattern": "AR-26综合异常面积约200 km²，其中以2×10^-9圈定的Au异常面积近100 km²，Au异常值较高，与As、Sb异常完全重叠，属Au、As、Sb、Mo、Ag、Cu低温热液元素综合异常，呈不规则长条状近EW向展布，异常区内Au、As、Sb异常浓集中心明显，具明显浓度分带特征，为典型的与金矿化有关的低温热液元素综合异常"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "AR-26 As元素异常",
+"attributes": {
+"element": "As",
+"value_ppm": "文中未给出具体As含量，仅指出与Au异常完全重叠",
+"anomaly_pattern": "As异常与Au异常空间上完全重叠，共同构成Au、As、Sb、Mo、Ag、Cu低温热液元素综合异常，浓集中心明显并具浓度分带，对与金矿化有关的低温热液成矿具有指示意义"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "AR-26 Sb元素异常",
+"attributes": {
+"element": "Sb",
+"value_ppm": "文中未给出具体Sb含量，仅指出与Au异常完全重叠",
+"anomaly_pattern": "Sb异常与Au、As异常共同浓集，空间上与Au异常完全重叠，是Au、As、Sb、Mo、Ag、Cu低温热液元素综合异常的重要组成部分，对金矿化异常具有共生指示意义"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "AR-26 Mo元素异常",
+"attributes": {
+"element": "Mo",
+"value_ppm": "文中未给出具体Mo含量，仅指出属于综合异常组分之一",
+"anomaly_pattern": "Mo异常参与组成Au、As、Sb、Mo、Ag、Cu低温热液元素综合异常，与Au等元素一起在AR-26区内形成多元素异常组合，反映低温热液成矿环境"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "AR-26 Ag元素异常",
+"attributes": {
+"element": "Ag",
+"value_ppm": "文中未给出具体Ag含量，仅指出属于综合异常组分之一",
+"anomaly_pattern": "Ag异常作为Au、As、Sb、Mo、Ag、Cu低温热液元素综合异常的一部分，与Au异常共同指示金矿化，有助于圈定金矿找矿有利部位"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "AR-26 Cu元素异常",
+"attributes": {
+"element": "Cu",
+"value_ppm": "文中未给出具体Cu含量，仅指出属于综合异常组分之一",
+"anomaly_pattern": "Cu异常与Au、As、Sb、Mo、Ag等元素共同组成低温热液元素综合异常，异常范围大、异常值较高，为金矿化提供多元素地球化学背景信息"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金水泉金矿床是在东准卡拉麦里成矿带内通过地球化学勘查取得的找金新发现"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "金水泉金矿床位于金水泉-大沙沟一带，是在该区地球化学异常基础上经地质调查和工程揭露发现的金矿床"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "承载金水泉金矿床的AR-26综合异常位于贝勒库都克NW向断裂以西，矿床的成矿部位受该NW向断裂西侧构造位置的约束"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "AR-26综合异常位于卡拉麦里深大断裂附近，并有NW向断裂与之交汇归并，金水泉金矿床形成于该深大断裂附近的有利构造部位，受深大断裂控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "AR-26综合异常位于清水-苏吉泉大断层附近，并有NW向断裂与之交汇归并，金水泉金矿床成矿空间与该大断层附近的构造交汇部位密切相关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "NW向断裂构造带在卡拉麦里深大断裂与清水-苏吉泉大断层附近与之交汇归并，构成低温热液元素综合异常和金矿化的构造交汇部位，对金水泉金矿床的位置起重要控矿作用"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "金水泉金矿床由AR-26 Au元素综合异常指导发现，Au异常面积大、异常值高，浓集中心与金矿化体空间赋存位置高度吻合"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "AR-26 As元素异常与Au异常完全重叠，As异常浓集中心与金水泉金矿化体位置对应，对金矿体具有重要地球化学指示作用"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "AR-26 Sb元素异常与Au、As异常共同浓集，是金水泉金矿床所在低温热液元素综合异常的重要组成部分，对金矿化具有共生指示意义"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "AR-26 Mo元素异常作为Au、As、Sb、Mo、Ag、Cu综合异常的一部分，与金水泉金矿床的低温热液金矿化环境相对应"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "AR-26 Ag元素异常与Au异常共同指示金矿化，Ag异常参与构成金水泉金矿床所在的多元素综合异常场"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "AR-26 Cu元素异常与Au、As、Sb、Mo、Ag等元素共同形成低温热液元素综合异常，为金水泉金矿床提供了铜元素的地球化学背景信息"
+}
+]
+}

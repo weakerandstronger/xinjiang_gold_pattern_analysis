@@ -1,0 +1,215 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0130",
+"title": "新疆阿克塔斯金矿床黑云母花岗岩锆石 U-Pb 和绢云母 ³⁹Ar/⁴⁰Ar 测年及地质意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿克塔斯金矿床",
+"attributes": {
+"name": "阿克塔斯金矿床",
+"location": "新疆阿尔泰造山带南缘",
+"tectonic_position": "新疆阿尔泰造山带南缘",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体赋存于黑云母花岗岩与中泥盆统北塔山组中性火山岩接触带，额尔齐斯断裂带右形剪切走滑作用控制金矿成矿过程",
+"age_ma": "约247.7±1.3百万年（早三叠世）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿尔泰造山带",
+"attributes": {
+"name": "阿尔泰造山带",
+"level": "造山带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "新疆阿尔泰造山带南缘",
+"attributes": {
+"name": "新疆阿尔泰造山带南缘",
+"level": "造山带南缘"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "黑云母花岗岩与北塔山组中性火山岩接触带",
+"attributes": {
+"name": "黑云母花岗岩与中泥盆统北塔山组中性火山岩接触带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统北塔山组",
+"attributes": {
+"name": "中泥盆统北塔山组",
+"age": "中泥盆世",
+"dominant_lithology": "中性火山岩",
+"lithology_notes": "北塔山组中性火山岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "黑云母花岗岩",
+"attributes": {
+"name": "黑云母花岗岩",
+"rock_type": "黑云母花岗岩",
+"age": "约329.5±1.8百万年（早石炭世）",
+"relationship_to_ore": "矿体赋存于黑云母花岗岩与中泥盆统北塔山组中性火山岩接触带"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "二长花岗岩",
+"attributes": {
+"name": "二长花岗岩",
+"rock_type": "二长花岗岩",
+"relationship_to_ore": "矿区中酸性侵入岩体之一"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "额尔齐斯断裂带",
+"attributes": {
+"name": "额尔齐斯断裂带",
+"structure_type": "断裂带",
+"ore_control_role": "右形剪切走滑作用控制金矿成矿过程"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主成矿期含金细脉中的主要硫化物矿物之一",
+"paragenesis": "与金、石英细脉共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "矿石类型主要为石英脉型的重要组成矿物",
+"paragenesis": "与金、黄铁矿共生于细脉中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "主成矿期金-黄铁矿-石英细脉中的矿物，用于成矿期测年",
+"paragenesis": "与金、黄铁矿、石英共生于细脉中"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "锆石铀-铅年龄",
+"attributes": {
+"system": "铀-铅",
+"parameter_name": "锆石年龄",
+"value_range": "约329.5±1.8百万年"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "绢云母氩-氩坪年龄",
+"attributes": {
+"system": "氩-氩",
+"parameter_name": "绢云母坪年龄",
+"value_range": "约247.7±1.3百万年"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "绢云母氩-氩等时线年龄",
+"attributes": {
+"system": "氩-氩",
+"parameter_name": "绢云母等时线年龄",
+"value_range": "约245.1±1.4百万年"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿克塔斯金矿床位于新疆阿尔泰造山带南缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "阿克塔斯金矿床隶属于阿尔泰造山带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "阿克塔斯金矿床矿体赋存于黑云母花岗岩与中泥盆统北塔山组中性火山岩接触带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E5",
+"relation_label_zh": "夹于",
+"description": "黑云母花岗岩与北塔山组中性火山岩接触带与中泥盆统北塔山组相关"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "额尔齐斯断裂带的右形剪切走滑作用控制阿克塔斯金矿床成矿过程"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "阿克塔斯金矿床主成矿期含金细脉中共生矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "阿克塔斯金矿床矿石类型主要为石英脉型，共生矿物包括石英"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "阿克塔斯金矿床主成矿期金-黄铁矿-石英细脉中共生矿物包括绢云母"
+}
+]
+}

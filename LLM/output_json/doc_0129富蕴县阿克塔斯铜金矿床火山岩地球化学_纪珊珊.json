@@ -1,0 +1,279 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0129",
+"title": "富蕴县阿克塔斯铜金矿床火山岩地球化学",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿克塔斯铜金矿床",
+"attributes": {
+"name": "阿克塔斯铜金矿床",
+"location": "新疆富蕴县，东准噶尔北部",
+"tectonic_position": "靠近阿尔泰与北准噶尔两个具有不同构造特征和演化历史的构造单元",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "阿克塔斯金铜矿体主要赋存于石英脉、斜长花岗岩、蚀变安山岩及接触带内的千枚岩破碎带中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆富蕴县",
+"attributes": {
+"name": "新疆富蕴县",
+"level": "县"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "东准噶尔北部",
+"attributes": {
+"name": "东准噶尔北部",
+"level": "地区",
+"tectonic_setting": "靠近阿尔泰与北准噶尔两个构造单元"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "阿尔泰构造单元",
+"attributes": {
+"name": "阿尔泰构造单元",
+"level": "构造单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "北准噶尔构造单元",
+"attributes": {
+"name": "北准噶尔构造单元",
+"level": "构造单元"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "石英脉",
+"attributes": {
+"name": "石英脉"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "斜长花岗岩",
+"attributes": {
+"name": "斜长花岗岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变安山岩",
+"attributes": {
+"name": "蚀变安山岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "千枚岩破碎带",
+"attributes": {
+"name": "千枚岩破碎带"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "含矿石英脉中常见硫化物矿物",
+"paragenesis": "与黄铜矿共生于含矿石英脉"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "含矿石英脉中常见硫化物矿物",
+"paragenesis": "与黄铁矿共生于含矿石英脉"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "岩浆热液成矿流体",
+"attributes": {
+"nature": "岩浆热液",
+"source": "地幔"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "黄铜矿硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（黄铜矿）",
+"value_range": "－2.3‰～－1.1‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "黄铁矿硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（黄铁矿）",
+"value_range": "0.73‰～1.4‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "金元素异常",
+"attributes": {
+"element": "金",
+"anomaly_pattern": "矿区区域地球化探异常发育，元素含量高、相关性好，并与火山—岩浆岩有密切空间关系"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "铜元素异常",
+"attributes": {
+"element": "铜",
+"anomaly_pattern": "矿区区域地球化探异常发育，元素含量高、相关性好，并与火山—岩浆岩有密切空间关系"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geochem",
+"name_zh": "砷元素异常",
+"attributes": {
+"element": "砷",
+"anomaly_pattern": "矿区区域地球化探异常发育，元素含量高、相关性好，并与火山—岩浆岩有密切空间关系"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿克塔斯铜金矿床位于新疆富蕴县内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿克塔斯铜金矿床矿区主体位于东准噶尔北部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "阿克塔斯金铜矿体主要赋存于石英脉中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "阿克塔斯金铜矿体主要赋存于斜长花岗岩中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "阿克塔斯金铜矿体主要赋存于蚀变安山岩中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "赋存于",
+"description": "阿克塔斯金铜矿体主要赋存于接触带内的千枚岩破碎带中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "含矿石英脉中含有黄铁矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "含矿石英脉中含有黄铜矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "硫同位素结果表明阿克塔斯铜金矿床成矿可能为岩浆热液成因"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铜矿δ34S值接近0‰，指示硫可能来源于地幔，从而约束岩浆热液成矿流体来源"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿δ34S值接近0‰，指示硫可能来源于地幔，从而约束岩浆热液成矿流体来源"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "阿克塔斯铜金矿区区域地球化探异常发育，金元素含量高、相关性好"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "阿克塔斯铜金矿区区域地球化探异常发育，铜元素含量高、相关性好"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "显示",
+"description": "阿克塔斯铜金矿区区域地球化探异常发育，砷元素含量高、相关性好"
+}
+]
+}

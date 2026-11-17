@@ -1,0 +1,246 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0003",
+"title": "新疆西昆仑阔克吉勒嘎金矿遥感地质特征及找矿预测",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔克吉勒嘎金矿床",
+"attributes": {
+"name": "阔克吉勒嘎金矿床",
+"location": "新疆阿克陶县木吉西一带",
+"deposit_type": "造山型金矿床",
+"ore_grade": "单工程金品位0.81～21.48 g/t",
+"ore_control_features": "赋矿地层为下志留统温泉沟群浅变质碎屑岩建造，夹于求鲁代北侧断裂和乌孜别里山口断裂之间，并与NW向韧-脆性剪切带密切相关"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆阿克陶县木吉西一带",
+"attributes": {
+"name": "新疆阿克陶县木吉西一带",
+"level": "矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阔克吉勒嘎金矿带",
+"attributes": {
+"name": "阔克吉勒嘎金矿带",
+"level": "金矿带",
+"tectonic_setting": "夹于求鲁代北侧断裂(F4)和乌孜别里山口断裂(F5)之间"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下志留统温泉沟群",
+"attributes": {
+"name": "下志留统温泉沟群",
+"age": "下志留统",
+"dominant_lithology": "浅变质碎屑岩建造，以绿泥绢云千枚岩、绿泥绢云石英千枚岩、绿泥石英片岩、变质砂岩为主，局部夹绢云千枚岩、含碳质板岩、绢云石英板岩等",
+"lithology_notes": "研究区主要赋矿层位，沉积环境为滨-浅海相"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "上白垩统铁龙滩群",
+"attributes": {
+"name": "上白垩统铁龙滩群",
+"age": "上白垩统"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "第四系",
+"attributes": {
+"name": "第四系",
+"age": "第四系"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "温泉沟群下段含碳酸盐硬绿泥石绢云千枚岩建造",
+"attributes": {
+"name": "温泉沟群下段含碳酸盐硬绿泥石绢云千枚岩建造"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "求鲁代北侧断裂(F4)",
+"attributes": {
+"name": "求鲁代北侧断裂(F4)",
+"structure_type": "主干断裂",
+"scale": "主干断裂",
+"ore_control_role": "控制区内金铜矿分布"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "乌孜别里山口断裂(F5)",
+"attributes": {
+"name": "乌孜别里山口断裂(F5)",
+"structure_type": "主干断裂",
+"scale": "主干断裂",
+"ore_control_role": "控制区内金铜矿分布"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "NW向韧-脆性剪切带",
+"attributes": {
+"name": "NW向韧-脆性剪切带",
+"structure_type": "韧-脆性剪切带",
+"orientation": "NW向展布",
+"scale": "带状构造",
+"ore_control_role": "与金矿床成因密切相关，含金热液沿剪切带上升并在有利部位沉淀成矿"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "矿化蚀变带",
+"attributes": {
+"name": "矿化蚀变带"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "阔克吉勒嘎成矿热液",
+"attributes": {
+"nature": "以变质水和大气降水混合为特征的成矿热液",
+"source": "变质水和大气降水的混合流体",
+"temperature_C_min": "",
+"temperature_C_max": "",
+"pressure_MPa_min": "",
+"pressure_MPa_max": "",
+"salinity_wtNaCl_min": "",
+"salinity_wtNaCl_max": "",
+"delta_fO2_buffer_min": "",
+"delta_fO2_buffer_max": "",
+"fO2_buffer": ""
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素",
+"attributes": {
+"system": "H-O",
+"parameter_name": "氢氧同位素组成",
+"value_range": "氢氧同位素研究显示成矿热液主要为变质水和大气降水的混合流体"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "硫同位素",
+"attributes": {
+"system": "S",
+"parameter_name": "硫同位素组成",
+"value_range": "硫同位素组成显示成矿物质源自中浅变质岩，来自中深层"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿床位于新疆阿克陶县木吉西一带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿床位于阔克吉勒嘎金矿带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "阔克吉勒嘎金矿床产于温泉沟群下段含碳酸盐硬绿泥石绢云千枚岩建造中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "温泉沟群下段含碳酸盐硬绿泥石绢云千枚岩建造属于下志留统温泉沟群的一部分"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "阔克吉勒嘎金矿床受求鲁代北侧断裂(F4)控制，区内金铜矿分布受其影响"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "阔克吉勒嘎金矿床受乌孜别里山口断裂(F5)控制，区内金铜矿分布受其影响"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "阔克吉勒嘎金矿床与NW向韧-脆性剪切带密切相关，含金热液沿剪切带运移并在有利部位沉淀成矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "研究区圈出矿化蚀变带15条，与阔克吉勒嘎金矿床金矿体分布密切相关"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "阔克吉勒嘎金矿床的成矿热液主要为变质水和大气降水的混合流体"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素研究约束阔克吉勒嘎金矿成矿热液主要为变质水和大气降水的混合流体"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素组成表明阔克吉勒嘎金矿成矿物质源自中浅变质岩，来自中深层，为成矿流体来源提供约束"
+}
+]
+}

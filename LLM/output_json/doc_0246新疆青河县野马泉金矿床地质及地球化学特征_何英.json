@@ -1,0 +1,331 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0246",
+"title": "新疆青河县野马泉金矿床地质及地球化学特征_何英",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "野马泉金矿床",
+"attributes": {
+"name": "野马泉金矿床",
+"location": "新疆青河县野马泉地区",
+"tectonic_position": "准噶尔微板块东段，东准噶尔晚古生代陆缘盆地南部，喀斯开尔索克坎大断裂西侧，哈萨坟复背斜轴部",
+"deposit_type": "造山型金矿床",
+"ore_grade": "金品位w(Au)=1.00×10^-6～96×10^-6，平均3.50×10^-6",
+"ore_control_features": "矿体呈脉状，主要赋存于蚀变闪长玢岩脉中及其内、外接触带；岩脉与矿体受NWW向断裂控制；矿床位于库布苏倒转背斜轴部"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "准噶尔微板块东段",
+"attributes": {
+"name": "准噶尔微板块东段",
+"level": "微板块",
+"tectonic_setting": "东准噶尔晚古生代陆缘盆地南部构造部位"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "志留系库布苏群下亚群",
+"attributes": {
+"name": "志留系库布苏群下亚群",
+"age": "志留系",
+"dominant_lithology": "粉砂质板岩、千枚岩化粉砂岩及凝灰岩、碎裂凝灰岩",
+"lithology_notes": "地层NW向展布，由南西向北东依次为粉砂质板岩、千枚岩化粉砂岩与凝灰岩、碎裂凝灰岩等"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变闪长玢岩脉及其接触带",
+"attributes": {
+"name": "蚀变闪长玢岩脉及其接触带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "粉砂质板岩、千枚岩化粉砂岩围岩",
+"attributes": {
+"name": "粉砂质板岩、千枚岩化粉砂岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长玢岩脉",
+"attributes": {
+"name": "闪长玢岩脉",
+"rock_type": "闪长玢岩",
+"relationship_to_ore": "沿断裂侵入志留系库布苏群下亚群地层，是主要赋矿岩石，矿体主要赋存于岩脉中部及接触带"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英钠长斑岩脉",
+"attributes": {
+"name": "石英钠长斑岩脉",
+"rock_type": "石英钠长斑岩",
+"relationship_to_ore": "形成晚于闪长玢岩脉，为另一种赋矿岩石，局部赋存工业矿体"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "库布苏倒转背斜",
+"attributes": {
+"name": "库布苏倒转背斜",
+"structure_type": "倒转背斜",
+"orientation": "轴向290°～300°",
+"scale": "紧密线状背斜",
+"ore_control_role": "野马泉金矿床位于倒转背斜轴部"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "NWW向压扭性断裂（被闪长玢岩充填）",
+"attributes": {
+"name": "NWW向压扭性断裂（被闪长玢岩充填）",
+"structure_type": "断裂",
+"orientation": "总体走向290°～300°，倾角80°～85°（局部近直立）",
+"scale": "矿区主要断裂构造之一",
+"ore_control_role": "控制闪长玢岩脉侵位及矿体赋存"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "以裂隙金、晶隙金为主，部分为包裹体金，常赋存于黄铁矿、石英、毒砂等矿物中"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物与载金矿物",
+"paragenesis": "可分早期细粒状与晚期微细浸染状两期，晚期常沿裂隙分布并易氧化"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "金属矿物之一",
+"paragenesis": "与自然金、黄铁矿、石英等共生，部分自然金以包裹体形式赋存于毒砂中"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Fluid",
+"name_zh": "次火山热液-变质（混合）热液成矿流体",
+"attributes": {
+"nature": "含金石英脉石英富含流体包裹体，以液体包裹体为主，少量含液相二氧化碳包裹体及含子矿物包裹体，气液比约3%～8%",
+"source": "成矿流体以次火山热液为主，变质（混合）热液为次",
+"temperature_C_min": "243",
+"temperature_C_max": "334"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "成矿热液氢氧同位素",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD、δ18O_H2O",
+"value_range": "δD=-94.4‰～-62.1‰；δ18O_H2O=5.38‰～8.47‰"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geochem",
+"name_zh": "金含量",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "1.05～22.95",
+"anomaly_pattern": "矿石有用组分为金，金含量范围1.05×10^-6～22.95×10^-6，平均3.47×10^-6"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "野马泉金矿床位于准噶尔微板块东段的构造部位"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "野马泉金矿床矿体主要赋存于蚀变闪长玢岩脉及其内、外接触带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "蚀变闪长玢岩脉围岩为粉砂质板岩、千枚岩化粉砂岩等"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "粉砂质板岩、千枚岩化粉砂岩围岩属于志留系库布苏群下亚群"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "闪长玢岩脉沿断裂侵入志留系库布苏群下亚群地层"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "石英钠长斑岩脉赋存于志留系库布苏群下亚群地层中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "位于",
+"description": "野马泉金矿床位于库布苏倒转背斜轴部"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "野马泉金矿床的赋矿岩脉与矿体受NWW向压扭性断裂控制"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "野马泉金矿床金矿体及近矿围岩普遍发育硅化且与成矿关系密切"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "野马泉金矿床金矿体及近矿围岩普遍发育绢云母化且与成矿关系密切"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "野马泉金矿床金矿体及近矿围岩普遍发育黄铁矿化且与成矿关系密切"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要金矿物为",
+"description": "野马泉金矿床金矿物主要为自然金，以裂隙金和晶隙金为主"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "野马泉金矿床主要金属矿物包括黄铁矿，且黄铁矿为重要载金矿物"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "野马泉金矿床金属矿物包括毒砂，部分自然金以包裹体形式赋存于毒砂中"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "野马泉金矿床成矿流体以次火山热液为主，并叠加变质（混合）热液"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E16",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素特征约束野马泉金矿床成矿流体来源以次火山热液为主并有变质（混合）热液参与"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "显示",
+"description": "野马泉金矿床矿石金含量范围为1.05×10^-6～22.95×10^-6，平均3.47×10^-6"
+}
+]
+}

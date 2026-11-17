@@ -1,0 +1,288 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0242",
+"title": "新疆康古尔糜棱岩带蚀变岩型金矿床地质特征及成因_曾章仁",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "康古尔金矿床",
+"attributes": {
+"name": "康古尔金矿床",
+"location": "新疆鄯善县境内",
+"tectonic_position": "塔里木板块北部古生代岛弧—海沟系，产于阿齐山—雅满苏岛弧带北缘，北以康古尔塔格超壳深断裂为界与准噶尔板块相邻",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床赋存于晚古生代中性—中酸性火山岩系中，受韧性剪切带控制；矿田范围内存在三条韧性剪切带（强片理化蚀变糜棱岩带），走向北东东，北倾，倾角70°～75°；金矿化蚀变带赋存在糜棱岩带中，矿体产状与剪切带基本一致，矿体呈板状与透镜状；矿化蚀变带及矿体中普遍叠加黄铁矿石英脉、多金属硫化物石英脉及碳酸盐石英脉等多期脉体"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东天山康古尔塔格金成矿带",
+"attributes": {
+"name": "东天山康古尔塔格金成矿带",
+"level": "成矿带",
+"tectonic_setting": "塔里木板块北部古生代岛弧—海沟系北缘构造环境"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统阿齐山组",
+"attributes": {
+"name": "下石炭统阿齐山组",
+"age": "下石炭世",
+"dominant_lithology": "安山岩、英安岩、粗安岩、流纹岩、凝灰岩、凝灰质砂岩及生物灰岩",
+"lithology_notes": "下部为灰岩、砂岩段；上部为火山岩段；火山岩属钙碱性系列，具岛弧环境火山岩特征，岩相可分为爆发相、喷溢相、喷发—沉积相及潜火山岩相"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变千糜岩与糜棱岩化火山岩",
+"attributes": {
+"name": "蚀变千糜岩与糜棱岩化火山岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "韧性剪切带（强片理化蚀变糜棱岩带）",
+"attributes": {
+"name": "韧性剪切带（强片理化蚀变糜棱岩带）",
+"structure_type": "韧性剪切带",
+"orientation": "走向北东东，北倾，倾角70°～75°",
+"scale": "矿田级（三条）",
+"ore_control_role": "矿体赋存于剪切带中，矿体产状与剪切带基本一致，剪切带为矿化蚀变带与石英脉（及多金属硫化物石英脉、碳酸盐石英脉）提供主要容矿空间与导矿通道"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化—绢云母化—绿泥石化—黄铁矿化—碳酸盐化",
+"attributes": {
+"name": "硅化—绢云母化—绿泥石化—黄铁矿化—碳酸盐化",
+"alteration_minerals": "石英、绢云母、绿泥石、黄铁矿、方解石/白云石",
+"intensity": "围岩蚀变发育，不同矿化阶段蚀变在空间上常叠加并表现出分带性"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物与载金矿物之一",
+"paragenesis": "与石英、绢云母、绿泥石等共生，出现多期世代；可呈浸染状分布于蚀变岩中或充填于片理裂隙形成黄铁矿石英细脉"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "与自然金、绿泥石、黄铁矿、石英等共生，形成磁铁矿—绿泥石蚀变岩型矿石的重要矿物组合"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "多呈粒状或叶片状，被包裹于黄铁矿中或分布于其裂隙中，更普遍为粒间金赋存于黄铁矿、绿泥石与石英等矿物粒间"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "混合热液成矿流体",
+"attributes": {
+"nature": "混合热液体系",
+"source": "由变质水（包括部分深源流体）、岩浆水和大气降水组成的混合热液体系，成矿晚期大气降水比例增大",
+"temperature_C_min": "98",
+"temperature_C_max": "320"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "氢同位素δD",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD",
+"value_range": "-61‰～-54‰"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O（H2O）",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O（H2O）",
+"value_range": "-7.65‰～2.59‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "铅同位素（方铅矿）",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "206Pb/204Pb、207Pb/204Pb、208Pb/204Pb",
+"value_range": "206Pb/204Pb为18.158～18.166；207Pb/204Pb为15.534～15.546；208Pb/204Pb为37.930～37.963"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "-0.9‰～3.3‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "IntrusiveBody",
+"name_zh": "英云闪长岩体",
+"attributes": {
+"name": "英云闪长岩体",
+"rock_type": "英云闪长岩",
+"age": "236Ma",
+"relationship_to_ore": "距矿区西北约4km出露，侵入于中石炭统地层，为矿区附近岩浆活动的重要岩体之一"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "StratUnit",
+"name_zh": "中石炭统",
+"attributes": {
+"name": "中石炭统",
+"age": "中石炭世",
+"dominant_lithology": "火山—沉积建造",
+"lithology_notes": "为矿区附近英云闪长岩体的侵入围岩地层"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "康古尔金矿床位于东天山康古尔塔格金成矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "康古尔金矿床金矿化蚀变带赋存在糜棱岩带中，容矿岩石及矿体顶底板为蚀变千糜岩与糜棱岩化火山岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "蚀变千糜岩与糜棱岩化火山岩的原岩为中酸性火山岩，赋存于下石炭统阿齐山组火山—沉积建造中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床受韧性剪切带（强片理化蚀变糜棱岩带）控制，矿体产状与剪切带基本一致"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "康古尔金矿床围岩蚀变主要为硅化、绢云母化、绿泥石化、黄铁矿化与碳酸盐化，并具有分带性"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床主要金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床主要金属矿物包括磁铁矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "康古尔金矿床含金矿物以自然金为主"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "康古尔金矿床成矿溶液为变质水（含部分深源流体）、岩浆水与大气降水组成的混合热液体系，成矿晚期大气降水比例增大"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体δD为-61‰～-54‰，显示成矿溶液位于变质水/岩浆水与大气降水之间并向大气降水方向漂移"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体δ18O（H2O）为-7.65‰～2.59‰，指示成矿溶液为混合热液并随成矿晚期大气降水比例增大而变化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "方铅矿铅同位素206Pb/204Pb、207Pb/204Pb、208Pb/204Pb变化范围小，反映铅源相对单一，用于约束成矿物质来源"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "金属硫化物δ34S为-0.9‰～3.3‰且变化小，用于约束成矿热液体系中硫的来源相对单一"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E16",
+"relation_label_zh": "侵入于",
+"description": "英云闪长岩体侵入于中石炭统地层中"
+}
+]
+}

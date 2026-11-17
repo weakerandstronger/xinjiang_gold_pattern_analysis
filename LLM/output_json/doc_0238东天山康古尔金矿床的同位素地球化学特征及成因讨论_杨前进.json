@@ -1,0 +1,276 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0238",
+"title": "东天山康古尔金矿床的同位素地球化学特征及成因讨论_杨前进",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "康古尔金矿床",
+"attributes": {
+"name": "康古尔金矿床",
+"location": "新疆东天山阿奇山—雅满苏岛弧北缘",
+"tectonic_position": "阿奇山—雅满苏岛弧北缘，北邻黄山—秋格明塔什海沟系强韧性变形带，岛弧—海沟系北侧以康古尔塔格超壳断裂为界与准噶尔板块相邻",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿区火山岩地层中出现三条脆—韧性剪切带，金矿体分别赋存于三条脆—韧性剪切带内；容矿岩石及矿体顶底板为蚀变糜棱岩和糜棱岩化火山岩；围岩蚀变强烈且分带明显"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿奇山—雅满苏岛弧北缘",
+"attributes": {
+"name": "阿奇山—雅满苏岛弧北缘",
+"level": "岛弧北缘",
+"tectonic_setting": "古生代岛弧—海沟系北缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统阿奇山组",
+"attributes": {
+"name": "下石炭统阿奇山组",
+"age": "下石炭世",
+"dominant_lithology": "中—酸性火山岩、火山碎屑岩夹正常沉积岩",
+"lithology_notes": "海相—海陆交互相火山—沉积建造，含喷发相、喷溢相、侵入相及喷发沉积相"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变糜棱岩与糜棱岩化火山岩",
+"attributes": {
+"name": "蚀变糜棱岩与糜棱岩化火山岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "脆—韧性剪切带",
+"attributes": {
+"name": "脆—韧性剪切带",
+"structure_type": "脆—韧性剪切带",
+"scale": "矿区级（共三条）",
+"ore_control_role": "矿体分别赋存于三条脆—韧性剪切带中，剪切带内岩石劈理发育并具绿片岩相变质矿物组合"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "康古尔塔格超壳断裂",
+"attributes": {
+"name": "康古尔塔格超壳断裂",
+"structure_type": "断裂",
+"scale": "区域性",
+"ore_control_role": "岛弧—海沟系北侧以该断裂为界与准噶尔板块相邻"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化—绿泥石化—黄铁矿化—磁铁矿化—黄铁绢英岩化—绢云母化—青磐岩化（分带）",
+"attributes": {
+"name": "硅化—绿泥石化—黄铁矿化—磁铁矿化—黄铁绢英岩化—绢云母化—青磐岩化（分带）",
+"alteration_minerals": "石英、绿泥石、黄铁矿、磁铁矿、绢云母",
+"intensity": "围岩蚀变强烈且分带明显"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "与石英、绿泥石、绢云母等脉石矿物共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "与黄铁矿、绿泥石、石英等共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "与黄铁矿、磁铁矿及石英等共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "成矿热液（变质水为主、晚期大气降水参与的混合热液）",
+"attributes": {
+"nature": "成矿热液",
+"source": "主矿化阶段以变质水为主，晚期以大气降水为主；总体表现为下部上升流体与浅部大气降水混合成矿，并有深源岩浆水参与",
+"temperature_C_min": "125",
+"temperature_C_max": "250"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "氢同位素δD（H2O）",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD（H2O）",
+"value_range": "-66‰～-45‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O（H2O）",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O（H2O）",
+"value_range": "-8.34‰～2.98‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S（硫化物）",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（硫化物）",
+"value_range": "-3.12‰～3.30‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "碳同位素δ13C",
+"attributes": {
+"system": "碳同位素",
+"parameter_name": "δ13C",
+"value_range": "-4.4‰（方解石）；+2.8‰（石灰岩全岩）"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "康古尔金矿床位于阿奇山—雅满苏岛弧北缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床矿体分别赋存于三条脆—韧性剪切带中，受剪切带控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "岛弧—海沟系北侧以康古尔塔格超壳断裂为界与准噶尔板块相邻，区域构造背景受该断裂制约"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "康古尔金矿体容矿岩石及矿体顶底板均为蚀变糜棱岩和糜棱岩化火山岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "蚀变糜棱岩与糜棱岩化火山岩形成于下石炭统阿奇山组火山—沉积建造中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "康古尔金矿床围岩蚀变强烈，从矿体中心向外侧出现硅化、绿泥石化—黄铁矿化、磁铁矿化等明显分带"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "康古尔金矿床金属矿物主要为黄铁矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床金属矿物主要为磁铁矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床金属矿物主要为自然金"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "康古尔金矿床主矿化阶段成矿流体以变质水为主，晚期以大气降水为主，总体表现为混合热液成矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体δD（H2O）为-66‰～-45‰，用于约束康古尔金矿成矿热液来源与演化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体δ18O（H2O）为-8.34‰～2.98‰，显示主矿化阶段与晚期流体来源差异并指示混合成矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "硫化物δ34S为-3.12‰～3.30‰，整体接近陨石硫特征，用于约束成矿流体中硫的来源"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "方解石δ13C为-4.4‰（石灰岩全岩为+2.8‰），用于示踪成矿热液系统碳的来源与混入特征"
+}
+]
+}

@@ -1,0 +1,304 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0297",
+"title": "综合物探及多地球物理场联合反演在新疆托库孜巴依金矿的应用_樊晋鹏",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床",
+"attributes": {
+"name": "托库孜巴依金矿床",
+"location": "新疆哈巴河县城北偏东区域（哈巴河地区）",
+"tectonic_position": "西伯利亚古板块南缘，阿尔泰陆缘活动带克兰弧后盆地与哈巴河弧间盆地接壤处，为阿尔泰多金属成矿带东延部分",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "泥盆系海相火山岩及正常沉积地层为控矿层位；以玛尔卡库里大断裂为界，北东侧出露下泥盆统康布铁堡组与中泥盆统阿勒泰组，南西侧出露中泥盆统托克萨雷组；综合物探显示矿体赋存状态与断裂构造及蚀变带密切相关"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "金坝金矿床",
+"attributes": {
+"name": "金坝金矿床",
+"location": "新疆哈巴河地区（哈巴河金矿带内）",
+"tectonic_position": "西伯利亚古板块南缘阿尔泰陆缘活动带相关构造域内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "位于哈巴河金矿带内，与托库孜巴依金矿共同构成研究区主要金矿床之一"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "哈巴河金矿带",
+"attributes": {
+"name": "哈巴河金矿带",
+"level": "金矿带",
+"tectonic_setting": "位于西伯利亚古板块南缘阿尔泰陆缘活动带内，邻接克兰弧后盆地与哈巴河弧间盆地"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "阿尔泰多金属成矿带",
+"attributes": {
+"name": "阿尔泰多金属成矿带",
+"level": "成矿带",
+"tectonic_setting": "研究区位于阿尔泰多金属成矿带东延部分"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "克兰弧后盆地",
+"attributes": {
+"name": "克兰弧后盆地",
+"level": "弧后盆地",
+"tectonic_setting": "阿尔泰陆缘活动带内的弧后盆地单元，矿区位于其与哈巴河弧间盆地接壤处"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Region",
+"name_zh": "哈巴河弧间盆地",
+"attributes": {
+"name": "哈巴河弧间盆地",
+"level": "弧间盆地",
+"tectonic_setting": "阿尔泰陆缘活动带内的弧间盆地单元，矿区位于其与克兰弧后盆地接壤处"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统阿勒泰组",
+"attributes": {
+"name": "中泥盆统阿勒泰组",
+"age": "中泥盆统",
+"dominant_lithology": "泥盆系海相火山岩及正常沉积地层（控矿层位组成之一）",
+"lithology_notes": "以玛尔卡库里大断裂为界，北东侧出露中泥盆统阿勒泰组（与下泥盆统康布铁堡组共伴出露）"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托克萨雷组",
+"attributes": {
+"name": "中泥盆统托克萨雷组",
+"age": "中泥盆统",
+"dominant_lithology": "泥盆系海相火山岩及正常沉积地层（控矿层位组成之一）",
+"lithology_notes": "以玛尔卡库里大断裂为界，南西侧出露中泥盆统托克萨雷组"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "阿勒泰组围岩",
+"attributes": {
+"name": "阿勒泰组相关围岩（泥盆系控矿层位之一）"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "HostRockUnit",
+"name_zh": "托克萨雷组围岩",
+"attributes": {
+"name": "托克萨雷组相关围岩（泥盆系控矿层位之一）"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河斜长花岗岩基",
+"attributes": {
+"name": "哈巴河斜长花岗岩基",
+"rock_type": "斜长花岗岩基",
+"relationship_to_ore": "紧靠玛尔卡库里剪切带北部出露，与矿区构造格架及围岩分布关系密切"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里大断裂",
+"attributes": {
+"name": "玛尔卡库里大断裂",
+"structure_type": "深大断裂",
+"ore_control_role": "控制泥盆系地层分区出露，并与矿体赋存状态及构造特征识别密切相关"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Structure",
+"name_zh": "断裂F",
+"attributes": {
+"name": "断裂F",
+"structure_type": "断裂",
+"ore_control_role": "综合物探反演剖面推断存在该断裂，倾向南西并向深部延伸"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Structure",
+"name_zh": "FW-3断层",
+"attributes": {
+"name": "FW-3断层",
+"structure_type": "断层",
+"ore_control_role": "联合反演结果显示在剖面右侧除FW-3断层外还可能存在千枚岩体，指示复杂构造-岩性组合"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geophysics",
+"name_zh": "激电异常E2",
+"attributes": {
+"anomaly_type": "激电极化率异常（相对低阻高极化，局部相对低磁）",
+"amplitude": "极化率一般为2.5%至7%，最大值为10.2%；电阻率一般为200至400欧姆·米",
+"spatial_pattern": "异常沿北西走向呈带状展布，局部向南西陡立并向深部延伸未闭合，可用于指示深部矿化或硫化物富集带"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geophysics",
+"name_zh": "激电异常E3",
+"attributes": {
+"anomaly_type": "综合异常（相对高阻、相对高极化、相对低磁，深部相对低阻体）",
+"amplitude": "激电极化率曲线出现大于2%的宽缓相对高极化异常",
+"spatial_pattern": "深部相对低阻体埋深约500米且产状缓，磁法为宽缓低磁或负磁，指示构造带与深部破碎带；近地表推测存在高阻地质体"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geophysics",
+"name_zh": "闪长岩型金矿物探异常组合",
+"attributes": {
+"anomaly_type": "综合物探异常组合",
+"amplitude": "表现为激电中梯高阻与相对高极化、磁法尖峰状高磁并叠加电磁高阻响应",
+"spatial_pattern": "在剖面局部区段集中出现，反映闪长岩型金矿化相关地质体及其构造蚀变带特征"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geophysics",
+"name_zh": "联合反演低电阻率破碎带异常",
+"attributes": {
+"anomaly_type": "联合反演电阻率异常（低电阻率破碎带）",
+"amplitude": "低电阻率概率尖峰集中于约70欧姆·米，过渡带电阻率概率尖峰集中于约200欧姆·米",
+"spatial_pattern": "低电阻率异常指示富水破碎带或强风化层，200欧姆·米异常多分布于破碎带周缘并反映围岩过渡带，二者共同指示破碎带及其周围结构单元"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿位于哈巴河金矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "金坝金矿位于哈巴河金矿带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿位于阿尔泰多金属成矿带东延部分"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿位于克兰弧后盆地相关构造域内"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿位于哈巴河弧间盆地附近，并处于其与克兰弧后盆地的接壤部位"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "托库孜巴依金矿区以玛尔卡库里大断裂为界发生地层分区出露，综合物探与反演用于识别矿体赋存状态及相关构造特征"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "赋存于",
+"description": "托库孜巴依金矿的控矿层位包括中泥盆统阿勒泰组相关围岩"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "赋存于",
+"description": "托库孜巴依金矿的控矿层位包括中泥盆统托克萨雷组相关围岩"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E7",
+"relation_label_zh": "属于",
+"description": "阿勒泰组围岩在地层上归属于中泥盆统阿勒泰组"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E8",
+"relation_label_zh": "属于",
+"description": "托克萨雷组围岩在地层上归属于中泥盆统托克萨雷组"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "托库孜巴依金矿综合物探在剖面局部识别出激电异常E2，表现为相对低阻高极化特征，可用于指示深部矿化或硫化物富集带"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "托库孜巴依金矿综合物探在剖面局部识别出激电异常E3，表现为深部相对低阻体与宽缓高极化、相对低磁组合特征，指示构造带与深部破碎带"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "显示",
+"description": "托库孜巴依金矿综合物探在剖面局部识别出闪长岩型金矿物探异常组合，可用于指示闪长岩型金矿化相关地质体及其构造蚀变带特征"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "显示",
+"description": "托库孜巴依金矿物性参数库约束的联合反演显示低电阻率破碎带及其围岩过渡带的电阻率结构特征，可用于识别破碎带与潜在赋矿空间"
+}
+]
+}

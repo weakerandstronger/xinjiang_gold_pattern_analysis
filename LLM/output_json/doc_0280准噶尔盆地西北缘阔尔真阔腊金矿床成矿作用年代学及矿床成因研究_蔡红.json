@@ -1,0 +1,316 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0280",
+"title": "准噶尔盆地西北缘阔尔真阔腊金矿床成矿作用年代学及矿床成因研究_蔡红",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔尔真阔腊金矿床",
+"attributes": {
+"name": "阔尔真阔腊金矿床",
+"location": "准噶尔盆地北西缘，吉木乃县城东南67km",
+"tectonic_position": "准噶尔盆地北西缘（西准噶尔）",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿区断裂构造发育，可分为NWW向与NEE向两组；NWW向断裂为主要容矿断裂，金矿化发育于断层角砾岩及其两侧节理带中，并可沿派生节理、断层发育，矿化在剖面和平面上均有分枝复合现象；NEE向断裂呈雁列式排列且具尖灭再现特征，该组断裂中亦发育金矿化；围岩蚀变包括泥化、黄铁矿化、硅化、钾化等，其中泥化、黄铁矿化、钾化和硅化与金矿化有关，并组成5条金矿化蚀变带（Ⅰ～Ⅴ-Ⅵ号）",
+"age_ma": "含金石英脉Rb-Sr等时线年龄（341±30）Ma（代表金矿形成下限年龄）；成矿时代为晚泥盆世—早中石炭世"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔",
+"attributes": {
+"name": "西准噶尔",
+"level": "地区",
+"tectonic_setting": "准噶尔盆地北西缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统萨吾尔山组第二岩性段",
+"attributes": {
+"name": "中泥盆统萨吾尔山组第二岩性段",
+"age": "中泥盆统",
+"dominant_lithology": "火山岩及火山碎屑岩（爆发相至溢流相）",
+"lithology_notes": "下部主要为海相安山质熔结角砾岩、熔结集块岩夹安山岩、安山玢岩和安山质熔结凝灰岩；上部为安山质角砾熔岩；顶部为气孔杏仁状安山岩夹安山质凝灰岩和安山质角砾岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "萨吾尔山组第二岩性段安山质火山岩—火山碎屑岩",
+"attributes": {
+"name": "萨吾尔山组第二岩性段安山质火山岩—火山碎屑岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "钠长斑岩脉",
+"attributes": {
+"name": "钠长斑岩脉",
+"rock_type": "钠长斑岩",
+"age": "K-Ar年龄240Ma（氩保存年龄）",
+"relationship_to_ore": "直接控制矿体的空间展布"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉石安山玢岩",
+"attributes": {
+"name": "辉石安山玢岩",
+"rock_type": "辉石安山玢岩",
+"age": "K-Ar年龄281Ma（氩保存年龄）",
+"relationship_to_ore": "为区内火山—潜火山岩浆活动产物，与矿区岩浆—热液活动背景相关"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "NWW向断裂",
+"attributes": {
+"name": "NWW向断裂",
+"structure_type": "断裂",
+"orientation": "倾向200°±，倾角57°～71°",
+"scale": "矿区级",
+"ore_control_role": "区内主要容矿断裂；金矿化发育于断层角砾岩及其两侧节理带中，并可沿派生节理、断层发育，矿化具分枝复合特征"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "NEE向断裂",
+"attributes": {
+"name": "NEE向断裂",
+"structure_type": "断裂",
+"orientation": "断层面倾向165°～175°，倾角65°±5°",
+"scale": "矿区级",
+"ore_control_role": "呈雁列式排列并具尖灭再现特征；断裂中发育断层角砾岩并发育金矿化，矿化强度随角砾岩中硅泥质胶结物增多而增强"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "辉石安山质隐爆角砾岩筒（火山机构）",
+"attributes": {
+"name": "辉石安山质隐爆角砾岩筒（火山机构）",
+"structure_type": "隐爆角砾岩筒",
+"scale": "矿区级",
+"ore_control_role": "为直接控制该地区金矿化蚀变作用的火山机构"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "泥化",
+"attributes": {
+"name": "泥化",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "钾化",
+"attributes": {
+"name": "钾化",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "含金石英脉与硅化石英岩型矿体的主要矿物组成",
+"paragenesis": "与硅化作用及金矿化密切相关"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "与金矿化有关的硫化物矿物",
+"paragenesis": "常与断层角砾岩中的硅泥质胶结物共同出现"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Fluid",
+"name_zh": "浅成低温热液（地下水热液循环）",
+"attributes": {
+"nature": "浅成低温热液",
+"source": "地下水在高热系统下沿张性断裂、裂隙循环并与火山—潜火山岩浆作用有关"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "Rb-Sr等时线年龄",
+"attributes": {
+"system": "Rb-Sr同位素",
+"parameter_name": "Rb-Sr等时线年龄",
+"value_range": "（341±30）Ma"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "锶同位素初始比值",
+"attributes": {
+"system": "Sr同位素",
+"parameter_name": "87Sr/86Sr初始比值",
+"value_range": "0.70305±0.00009"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔尔真阔腊金矿位于西准噶尔的准噶尔盆地北西缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "矿区出露地层主要为中泥盆统萨吾尔山组第二岩性段，金矿化发育于断层角砾岩及其两侧节理带并与该火山—火山碎屑岩围岩密切相关"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "萨吾尔山组第二岩性段安山质火山岩—火山碎屑岩属于中泥盆统萨吾尔山组第二岩性段"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "钠长斑岩脉侵入中泥盆统萨吾尔山组地层"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "辉石安山玢岩侵入中泥盆统萨吾尔山组地层"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "NWW向断裂为区内主要容矿断裂，金矿化发育于断层角砾岩及其两侧节理带中并具分枝复合特征"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "NEE向断裂呈雁列式排列并具尖灭再现特征，该组断裂中亦发育金矿化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "辉石安山质隐爆角砾岩筒为直接控制该地区金矿化蚀变作用的火山机构"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变发育，泥化与金矿化有关，并构成金矿化蚀变带的重要组成"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区黄铁矿化发育，与金矿化有关并构成金矿化蚀变带的重要组成"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "硅化作用与金矿形成密切相关，硅化石英岩本身为含金矿石"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "钾化与金矿化有关，并与泥化、黄铁矿化、硅化共同组成金矿化蚀变带"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "Ⅰ号矿体中采集的含金石英脉矿石以石英为主要组成，硅化石英岩型矿体为含金矿石"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "矿区断层角砾岩中发育黄铁矿及硅泥质胶结物，黄铁矿化与金矿化有关"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "对应成矿流体为",
+"description": "矿床为近地表古热泉系统形成的浅成低温热液金矿床，地下水在高热系统下循环加热并淬取火山—潜火山岩中的矿质，沿断裂上升沉淀成矿"
+}
+]
+}

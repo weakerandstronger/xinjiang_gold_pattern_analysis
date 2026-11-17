@@ -1,0 +1,178 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0084",
+"title": "新源县卡特巴阿苏金铜矿床矿体原生晕特征",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "那拉提北缘断裂以南",
+"tectonic_position": "位于伊犁微板块与那拉提—红柳河缝合带接合部位",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受花岗岩体内断裂构造及上部地层中的断层—裂隙系统控制，成矿结构面为那拉提大断裂附近的次级构造"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "那拉提—巴伦台铜镍、金、钨、铁、铂族、铅、锌、银、白云母、玉石成矿带",
+"attributes": {
+"name": "那拉提—巴伦台铜镍、金、钨、铁、铂族、铅、锌、银、白云母、玉石成矿带",
+"level": "成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "伊犁微板块",
+"attributes": {
+"name": "伊犁微板块",
+"level": "微板块",
+"tectonic_setting": "与那拉提—红柳河缝合带接合"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "那拉提—红柳河缝合带",
+"attributes": {
+"name": "那拉提—红柳河缝合带",
+"level": "缝合带",
+"tectonic_setting": "与伊犁微板块接合"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "那拉提北缘断裂",
+"attributes": {
+"name": "那拉提北缘断裂",
+"structure_type": "断裂",
+"ore_control_role": "矿床位于其以南，为成矿构造背景与控矿要素之一"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "花岗岩体内断裂构造",
+"attributes": {
+"name": "花岗岩体内断裂构造",
+"structure_type": "断裂构造",
+"ore_control_role": "为成矿构造，控制矿体赋存"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "上部地层断层—裂隙系统",
+"attributes": {
+"name": "上部地层断层—裂隙系统",
+"structure_type": "断层—裂隙系统",
+"ore_control_role": "为成矿构造，控制矿体赋存"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "二长花岗岩",
+"attributes": {
+"name": "二长花岗岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长岩",
+"attributes": {
+"name": "闪长岩"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "岩浆期后热液",
+"attributes": {
+"nature": "岩浆期后热液",
+"source": "与岩浆期后热液作用有关"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于那拉提—巴伦台成矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于伊犁微板块与那拉提—红柳河缝合带的接合部位"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于伊犁微板块与那拉提—红柳河缝合带的接合部位"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "卡特巴阿苏金铜矿床位于那拉提北缘断裂以南，受其构造背景影响"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "卡特巴阿苏金铜矿床的成矿构造为花岗岩体内断裂构造"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "卡特巴阿苏金铜矿床的成矿构造包括上部地层中的断层—裂隙系统"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "卡特巴阿苏金铜矿床成矿地质体为二长花岗岩"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要围岩为",
+"description": "卡特巴阿苏金铜矿床成矿地质体为闪长岩"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "卡特巴阿苏金铜矿床成矿作用与岩浆期后热液作用有关"
+}
+]
+}

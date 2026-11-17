@@ -1,0 +1,200 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0068",
+"title": "探讨新疆阿希金矿矿床地质特征及矿床成因",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "吐拉苏盆地中",
+"tectonic_position": "位于伊犁－中天山板块北缘博罗霍洛岛弧带的吐拉苏盆地中，南北分别以 NWW 向的伊犁盆地北缘断裂和科古琴山南坡断裂为界",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "主要赋存于下石炭统大哈拉军山组中酸性火山岩系，尤其是英安质角砾熔岩富矿层位，矿体在成矿早期由 F2 断裂控制充填含金石英脉，成矿后期 F2 断裂转变为压扭性破碎带并改造早期含金石英脉"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "伊犁－中天山板块北缘博罗霍洛岛弧带",
+"attributes": {
+"name": "伊犁－中天山板块北缘博罗霍洛岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "伊犁－中天山板块北缘的岛弧构造带，控制吐拉苏盆地及阿希金矿的构造－岩浆背景"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "吐拉苏盆地",
+"attributes": {
+"name": "吐拉苏盆地",
+"level": "盆地",
+"tectonic_setting": "位于伊犁－中天山板块北缘博罗霍洛岛弧带中，南北分别以 NWW 向的伊犁盆地北缘断裂和科古琴山南坡断裂为界，是阿希金矿所在的火山盆地"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组第五岩性段",
+"attributes": {
+"name": "下石炭统大哈拉军山组第五岩性段",
+"age": "下石炭统",
+"dominant_lithology": "中酸性火山岩系，主要为英安质角砾熔岩",
+"lithology_notes": "大哈拉军山组中广泛发育中酸性火山岩系－英安质角砾熔岩，其中英安质角砾熔岩为主要富矿层位"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统阿恰勒河组第一岩性段",
+"attributes": {
+"name": "下石炭统阿恰勒河组第一岩性段",
+"age": "下石炭统"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "大哈拉军山组中酸性火山岩围岩单元",
+"attributes": {
+"name": "大哈拉军山组中酸性火山岩围岩单元"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "F2 断裂",
+"attributes": {
+"name": "F2 断裂",
+"structure_type": "断裂",
+"orientation": "与火山管道壁呈一致的走向展布特征",
+"scale": "矿区内重要断裂构造，对含金石英脉分布及后期改造影响显著",
+"ore_control_role": "成矿早期表现为控矿断裂，充填大量含金石英脉；成矿之后转变为压扭性断裂，沿早期断裂底板形成破碎带并破坏早期含金石英脉，在断裂底部又充填不含金石英碳酸岩脉"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "伊犁盆地北缘断裂",
+"attributes": {
+"name": "伊犁盆地北缘断裂",
+"structure_type": "断裂",
+"orientation": "NWW 向",
+"scale": "为吐拉苏盆地北界的区域性边界断裂",
+"ore_control_role": "作为盆地边界构造限定了阿希金矿所在吐拉苏盆地的北界"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "科古琴山南坡断裂",
+"attributes": {
+"name": "科古琴山南坡断裂",
+"structure_type": "断裂",
+"orientation": "NWW 向",
+"scale": "为吐拉苏盆地南界的区域性边界断裂",
+"ore_control_role": "作为盆地边界构造限定了阿希金矿所在吐拉苏盆地的南界"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化蚀变带",
+"attributes": {
+"name": "黄铁绢英岩化蚀变带",
+"alteration_minerals": "以黄铁矿、绢云母及石英等组成的黄铁绢英岩化蚀变组合，局部可见明显“红化带”现象",
+"intensity": "为区内重要蚀变带类型，为金矿寻找提供有利方向，特别是红化带的出现对寻找此类矿体意义重大"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geophysics",
+"name_zh": "阿希金矿近矿地球物理异常",
+"attributes": {
+"anomaly_type": "高电阻率、高密度、高极化率异常",
+"amplitude": "近矿围岩与蚀变岩型金矿石和含金石英等表现为明显高阻、高密度及高极化率响应",
+"spatial_pattern": "异常主要对应近矿围岩、蚀变岩型金矿石及含金石英脉分布部位，可用于判断矿体产出位置"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "在成矿早期充填 F2 控制的含金石英脉和金矿化石英脉，在成矿后期 F2 底部又充填不含金的石英碳酸岩脉，是阿希金矿中最重要的脉石矿物之一"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿位于伊犁－中天山板块北缘博罗霍洛岛弧带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿希金矿位于吐拉苏盆地中，为该盆地内的重要金矿床"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿主要赋存于下石炭统大哈拉军山组中酸性火山岩系，尤其偏酸性的英安质角砾熔岩层位，可概括为大哈拉军山组中酸性火山岩围岩单元"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "大哈拉军山组中酸性火山岩围岩单元在地层上属于下石炭统大哈拉军山组第五岩性段"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "F2 断裂在成矿早期为控矿断裂，控制含金石英脉的充填与展布，是阿希金矿形成的主要控矿构造；成矿后期 F2 转变为压扭性破碎带并改造早期含金石英脉"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿区发育黄铁绢英岩化蚀变带及局部红化带，为寻找金矿体提供重要蚀变标志"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "阿希金矿近矿围岩及蚀变岩型金矿石和含金石英脉区具有明显高电阻率、高密度和高极化率等地球物理异常，可用于指示矿体产出部位"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "脉石矿物包括",
+"description": "阿希金矿中成矿早期以含金石英脉充填 F2 控制的断裂，成矿后期在 F2 底部又发育不含金石英碳酸岩脉，表明石英是该矿床最重要的脉石矿物"
+}
+]
+}

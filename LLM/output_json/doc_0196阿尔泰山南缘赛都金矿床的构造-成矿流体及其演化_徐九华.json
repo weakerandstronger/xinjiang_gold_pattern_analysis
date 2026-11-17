@@ -1,0 +1,207 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0196",
+"title": "阿尔泰山南缘赛都金矿床的构造-成矿流体及其演化_徐九华",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "赛都金矿床",
+"attributes": {
+"name": "赛都金矿床",
+"location": "新疆阿尔泰哈巴河县，额尔齐斯构造带北西段",
+"tectonic_position": "额尔齐斯构造-成矿带西北段，额尔齐斯深断裂北西段玛尔卡库里断裂带（剪切带）",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体受韧性剪切构造带控制，赋存于玛尔卡库里巨型剪切带内的蚀变糜棱岩带中；矿脉群总体呈SE-NW向分布，与糜棱岩蚀变带分布一致",
+"age_ma": "294.7±3.5～316.5±3.2Ma（含矿蚀变岩黑云母/白云母K-Ar）；289.2Ma（含金构造岩绢云母Ar-Ar）；269.94±2.54Ma（早期石英脉伴生黑云母Ar-Ar）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯构造-成矿带",
+"attributes": {
+"name": "额尔齐斯构造-成矿带",
+"level": "构造-成矿带",
+"tectonic_setting": "阿尔泰山南缘NW向深断裂控制的构造-成矿带（额尔齐斯深断裂总体走向NW310°）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里巨型剪切带",
+"attributes": {
+"name": "玛尔卡库里巨型剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "总体走向NW310°",
+"scale": "巨型剪切带",
+"ore_control_role": "控制赛都金矿矿体展布，矿体赋存于其内部蚀变糜棱岩带中"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变糜棱岩带",
+"attributes": {
+"name": "蚀变糜棱岩带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中下泥盆统托克萨雷组",
+"attributes": {
+"name": "中下泥盆统托克萨雷组",
+"age": "中下泥盆统",
+"dominant_lithology": "沉积岩系（局部夹少量火山岩）",
+"lithology_notes": "变形变质后岩石以石英绢云千枚岩、变砂岩等为主"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河斜长花岗岩体",
+"attributes": {
+"name": "哈巴河斜长花岗岩体",
+"rock_type": "斜长花岗岩",
+"age": "284.4～277.3Ma（全岩K-Ar）；297±11Ma（Rb-Sr等时线）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化-黄铁绢英岩化蚀变",
+"attributes": {
+"name": "硅化-黄铁绢英岩化蚀变",
+"alteration_minerals": "石英、黄铁矿、绢云母",
+"intensity": "强烈（剪切构造带中心糜棱岩及石英脉中发育）"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物之一",
+"paragenesis": "浸染状黄铁矿-乳白色石英阶段与多金属硫化物-烟灰色石英阶段均发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "多金属硫化物-烟灰色石英阶段金矿化最强，形成自然金及多种金的碲化物"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "赛都金矿构造-成矿流体",
+"attributes": {
+"nature": "早期为中高温、富CO2-N2等挥发分流体；中期以CO2-H2O流体为主；中晚期演化为中低温、中低盐度的盐水溶液体系",
+"source": "硫铅同位素指示成矿物质来源深部富集，造山作用过程中由深部岩石经热液萃取获得",
+"temperature_C_min": "120.0",
+"temperature_C_max": "408.0"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "黄铁矿硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "3.53‰～5.88‰"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "铅同位素参数",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "206Pb/204Pb、207Pb/204Pb、208Pb/204Pb",
+"value_range": "206Pb/204Pb=18.0997～18.3585；207Pb/204Pb=15.4877～15.5790；208Pb/204Pb=38.1116～38.3551"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "赛都金矿床位于额尔齐斯构造-成矿带西北段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "赛都金矿床矿体受玛尔卡库里巨型韧性剪切构造带控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "赛都金矿床矿体赋存于玛尔卡库里巨型剪切带内的蚀变糜棱岩带中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "赛都金矿床剪切构造带内热液蚀变以强烈硅化-黄铁绢英岩化为主，并向外过渡为绢云母化、绿泥石化和碳酸盐化"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "赛都金矿床矿石硫化物以黄铁矿最为常见，黄铁矿为主要载金矿物之一"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "赛都金矿床中晚期多金属硫化物-烟灰色石英阶段金矿化最强，形成自然金及金的碲化物"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "赛都金矿床构造-成矿流体由早期中高温富CO2-N2挥发分流体，经中期CO2-H2O流体，演化为中晚期中低温中低盐度盐水溶液体系"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿硫同位素δ34S为3.53‰～5.88‰，用于约束赛都金矿构造-成矿流体及其成矿物质来源"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素比值范围（206Pb/204Pb、207Pb/204Pb、208Pb/204Pb）与硫同位素共同指示成矿物质来源深部富集并经热液萃取进入成矿流体"
+}
+]
+}

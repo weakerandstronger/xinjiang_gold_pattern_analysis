@@ -1,0 +1,158 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0185",
+"title": "新疆萨热阔布金矿Ar-Ar定年及其地质意义_秦雅静",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨热阔布金矿床",
+"attributes": {
+"name": "萨热阔布金矿床",
+"location": "新疆阿尔泰山南缘阿巴宫断裂带内",
+"tectonic_position": "中亚造山带阿尔泰山南缘，晚二叠世—三叠纪古亚洲洋闭合与板块碰撞背景，碰撞由挤压向伸展转变期",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床定位于阿巴宫断裂带内，矿体呈脉状；与成矿关系紧密的石英脉分为早阶段石英角砾、中阶段主成矿阶段含金黑云母多金属石英脉、晚阶段含萤石石英脉",
+"age_ma": "213.54±2.29Ma（晚三叠世）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿尔泰山南缘",
+"attributes": {
+"name": "阿尔泰山南缘",
+"level": "造山带南缘",
+"tectonic_setting": "中亚造山带阿尔泰造山带南缘，晚二叠世—三叠纪古亚洲洋闭合与板块碰撞作用区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "阿巴宫断裂带",
+"attributes": {
+"name": "阿巴宫断裂带",
+"structure_type": "断裂带",
+"scale": "区域性",
+"ore_control_role": "矿床定位于该断裂带内，控制脉状矿体赋存与展布"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "康布铁堡组上亚组第二岩性段（D1k2）",
+"attributes": {
+"name": "康布铁堡组上亚组第二岩性段（D1k2）",
+"age": "早泥盆世（下泥盆统）",
+"dominant_lithology": "变凝灰岩、绿泥黑云母石英片岩、大理岩、变钙质砂岩",
+"lithology_notes": "为萨热阔布金矿床主要容矿围岩层位"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "康布铁堡组上亚组第二岩性段围岩",
+"attributes": {
+"name": "康布铁堡组上亚组第二岩性段围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "黑云母",
+"attributes": {
+"name": "黑云母",
+"role_in_ore": "主成矿阶段脉石矿物（定年对象）",
+"paragenesis": "主成矿阶段含金黑云母多金属石英脉中发育"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "萤石",
+"attributes": {
+"name": "萤石",
+"role_in_ore": "晚阶段脉石矿物",
+"paragenesis": "晚阶段含萤石石英脉中发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Fluid",
+"name_zh": "萨热阔布金矿床成矿流体",
+"attributes": {
+"nature": "中低盐度、低密度的二氧化碳流体",
+"source": "具有明显造山型金矿成矿流体特征，与区域动力学过程密切相关"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Isotope",
+"name_zh": "黑云母40Ar/39Ar同位素年龄参数",
+"attributes": {
+"system": "氩-氩",
+"parameter_name": "黑云母40Ar/39Ar年龄",
+"value_range": "213.54±2.29Ma（坪年龄）；212.38±2.16Ma（等时线）；212.47±2.16Ma（反等时线）"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床位于阿尔泰山南缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床定位于阿巴宫断裂带内，矿体呈脉状并受其控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "萨热阔布金矿床主要容矿围岩为康布铁堡组上亚组第二岩性段围岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "康布铁堡组上亚组第二岩性段围岩在地层归属上属于康布铁堡组上亚组第二岩性段（D1k2）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床主成矿阶段含金黑云母多金属石英脉中发育黑云母"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床晚阶段含萤石石英脉中发育萤石"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨热阔布金矿床成矿流体为中低盐度、低密度的二氧化碳流体，具有造山型金矿成矿流体特征"
+}
+]
+}

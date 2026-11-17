@@ -1,0 +1,176 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0072",
+"title": "阿希金矿控矿构造、矿体特征及成因探讨",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "吐拉苏断陷盆地阿希地区",
+"tectonic_position": "破火山口边缘弧形张性断裂控矿带内",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "受破火山口边缘弧形张性断裂控制，成矿构造具明显脉动性，含金热液沿断裂和裂隙沉淀形成石英脉矿体及部分渗入围岩形成蚀变岩型矿体"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿希地区",
+"attributes": {
+"name": "阿希地区",
+"level": "矿区",
+"tectonic_setting": "位于吐拉苏断陷盆地内的金矿集中区，是阿希金矿等金矿床所在的矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "吐拉苏断陷盆地",
+"attributes": {
+"name": "吐拉苏断陷盆地",
+"level": "断陷盆地",
+"tectonic_setting": "华力西中期构造运动强烈切割下志留统尼勒克河组火山岩形成的火山断陷盆地，后期经历剧烈火山活动"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下志留统尼勒克河组",
+"attributes": {
+"name": "下志留统尼勒克河组",
+"age": "下志留统",
+"dominant_lithology": "火山岩",
+"lithology_notes": "在华力西中期构造运动中遭受强烈切割，为吐拉苏断陷盆地的基底火山岩层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "尼勒克河组火山岩围岩单元",
+"attributes": {
+"name": "尼勒克河组火山岩围岩单元"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "自变质作用蚀变带",
+"attributes": {
+"name": "自变质作用蚀变带",
+"alteration_minerals": "绿泥石化、碳酸盐化等面型蚀变矿物组合",
+"intensity": "矿区广泛发育的面型绿泥石化、碳酸盐化等自变质蚀变，与金矿化无关"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "近矿蚀变作用蚀变带",
+"attributes": {
+"name": "近矿蚀变作用蚀变带",
+"alteration_minerals": "硅化、绢英岩化、粘土化及绿泥石化、碳酸盐化等线型近矿蚀变矿物组合",
+"intensity": "表现为沿构造的线型强烈近矿蚀变作用，与成矿热液有关，与金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物，以石英脉形式承载金矿化",
+"paragenesis": "硅质碱性热水溶液向地壳上部低压部位移动并渗流至裂隙中，以石英脉形式沉淀形成矿脉，成矿后期又形成不含矿的石英碳酸盐脉"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿成矿流体",
+"attributes": {
+"nature": "中－低温硅质碱性热水溶液，成矿构造具脉动性，经历早期中温热液期和晚期低温热液期，含金热液多期沉淀形成不同矿物时代",
+"source": "成矿期富挥发分熔融岩浆沿断裂向上部低压部位运移，在结晶过程中挥发组分不断析出形成气液流体，并与围岩发生水岩反应而演化为具强溶金能力和迁移能力的硅质碱性热水溶液"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "破火山口边缘弧形张性断裂",
+"attributes": {
+"name": "破火山口边缘弧形张性断裂",
+"structure_type": "断裂",
+"orientation": "沿破火山口边缘呈弧形展布的张性断裂",
+"scale": "控制吐拉苏断陷盆地内破火山口边缘的主要构造带",
+"ore_control_role": "阿希金矿具有典型的破火山口边缘弧形张性断裂控矿特征，熔融岩浆和硅质碱性热水溶液沿该断裂运移并在裂隙中沉淀形成石英脉及蚀变岩型金矿体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿为阿希地区的金矿床，是文中讨论的阿希地区金矿床的代表"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿希金矿位于华力西中期构造运动形成的吐拉苏断陷盆地之中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "华力西中期构造运动强烈切割下志留统尼勒克河组火山岩并形成吐拉苏断陷盆地，成矿期部分成矿溶液渗入围岩形成蚀变岩型矿体，阿希金矿矿体赋存于尼勒克河组火山岩围岩单元中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "尼勒克河组火山岩围岩单元在地层上属于下志留统尼勒克河组火山岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "阿希金矿具有典型的破火山口边缘弧形张性断裂控矿特征，矿体受该弧形张性断裂控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿近矿区发育硅化、绢英岩化、粘土化及绿泥石化、碳酸盐化等线型近矿蚀变作用，与火山期后成矿热液有关并与金矿化关系密切"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "硅质碱性热水溶液在裂隙中以石英脉形式沉淀形成阿希金矿的矿脉，石英为主要共生脉石矿物"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希金矿对应的成矿流体为由富挥发分熔融岩浆结晶分异及挥发分逸出形成并经水岩反应演化的中－低温硅质碱性热水溶液，具有多期脉动成矿特征"
+}
+]
+}

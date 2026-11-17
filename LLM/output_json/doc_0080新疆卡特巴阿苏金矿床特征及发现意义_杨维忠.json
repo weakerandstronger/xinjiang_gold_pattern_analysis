@@ -1,0 +1,509 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0080",
+"title": "新疆卡特巴阿苏金矿床特征及发现意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "新疆西天山那拉提山中段，那拉提北缘断裂南侧",
+"tectonic_position": "那拉提中天山构造带北缘；属那拉提Cu-Ni-Au-Fe-白云母-玉石成矿带",
+"deposit_type": "造山型金矿床",
+"ore_grade": "Au品位大于2.5×10⁻⁶圈定金矿体；Au品位大于1.0×10⁻⁶小于2.5×10⁻⁶圈定低品位金矿体",
+"ore_control_features": "矿床受那拉提北缘断裂控制，位于那拉提北缘断裂南侧次级断裂内；矿体呈似层状、脉状或透镜状，受NE向断裂控制，矿体总体呈NEE走向，倾向160°~190°，倾角20°~65°；地表控制断续矿化蚀变带东西长约3.0 km，南北宽约200~400 m；容矿围岩主要为二长花岗岩，次为花岗闪长岩和闪长玢岩脉，强蚀变带中赋存金铜矿体"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西天山那拉提山中段",
+"attributes": {
+"name": "新疆西天山那拉提山中段",
+"level": "区域",
+"tectonic_setting": "新疆西天山那拉提山中段"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "那拉提中天山构造带",
+"attributes": {
+"name": "那拉提中天山构造带",
+"level": "构造带",
+"tectonic_setting": "那拉提中天山构造带北缘"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "那拉提Cu-Ni-Au-Fe-白云母-玉石成矿带",
+"attributes": {
+"name": "那拉提Cu-Ni-Au-Fe-白云母-玉石成矿带",
+"level": "成矿带",
+"tectonic_setting": "那拉提北缘断裂南侧"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "上志留统巴音布鲁克组",
+"attributes": {
+"name": "上志留统巴音布鲁克组",
+"age": "上志留统",
+"dominant_lithology": "灰岩",
+"lithology_notes": "浅海相岩石组合，以灰岩为主夹少量薄层状凝灰岩；组内灰岩普遍大理岩化"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "二长花岗岩",
+"attributes": {
+"name": "二长花岗岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "花岗闪长岩",
+"attributes": {
+"name": "花岗闪长岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长玢岩脉",
+"attributes": {
+"name": "闪长玢岩脉"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "石炭纪花岗岩",
+"attributes": {
+"name": "石炭纪花岗岩",
+"rock_type": "花岗岩",
+"age": "石炭纪",
+"relationship_to_ore": "地层受石炭纪花岗岩侵入同化作用影响"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "那拉提北缘断裂",
+"attributes": {
+"name": "那拉提北缘断裂",
+"structure_type": "断裂",
+"scale": "区域",
+"ore_control_role": "控制矿床，矿床位于其南侧"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "那拉提北缘断裂南侧次级断裂",
+"attributes": {
+"name": "那拉提北缘断裂南侧次级断裂",
+"structure_type": "次级断裂",
+"scale": "次级",
+"ore_control_role": "矿床就位于该次级断裂内"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "NE向断裂",
+"attributes": {
+"name": "NE向断裂",
+"structure_type": "断裂",
+"orientation": "NE向",
+"ore_control_role": "控制矿体展布"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "黄钾铁钒化",
+"attributes": {
+"name": "黄钾铁钒化",
+"alteration_minerals": "黄钾铁钒",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "钾化",
+"attributes": {
+"name": "钾化",
+"alteration_minerals": "钾长石",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "高岭土化",
+"attributes": {
+"name": "高岭土化",
+"alteration_minerals": "高岭土",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿",
+"intensity": "弱"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "矿石矿物"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "矿石矿物"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "矿石矿物"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "矿石矿物"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "矿石矿物"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Mineral",
+"name_zh": "孔雀石",
+"attributes": {
+"name": "孔雀石",
+"role_in_ore": "氧化矿物"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Mineral",
+"name_zh": "蓝铜矿",
+"attributes": {
+"name": "蓝铜矿",
+"role_in_ore": "氧化矿物"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "氧化矿物"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Fluid",
+"name_zh": "气水热液与热液活动",
+"attributes": {
+"nature": "气水热液蚀变叠加富集；侵入脉岩形成的热液活动再次叠加富集",
+"source": "中期构造破碎带活动与气水热液蚀变作用；晚期侵入脉岩形成的热液活动"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于新疆西天山那拉提山中段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于那拉提中天山构造带北缘"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "卡特巴阿苏金铜矿床属那拉提Cu-Ni-Au-Fe-白云母-玉石成矿带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "卡特巴阿苏金铜矿床受那拉提北缘断裂控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "矿床就位于那拉提北缘断裂南侧次级断裂内并受其控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "矿体受NE向断裂控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "容矿围岩主要为二长花岗岩"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要围岩为",
+"description": "容矿围岩次为花岗闪长岩"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "容矿围岩次为闪长玢岩脉"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "石炭纪花岗岩侵入同化作用影响上志留统巴音布鲁克组地层"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区强蚀变带主要发育黄铁矿化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区强蚀变带主要发育硅化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区强蚀变带主要发育黄钾铁钒化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区强蚀变带主要发育钾化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区强蚀变带次要发育高岭土化"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区强蚀变带次要发育绢云母化"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区强蚀变带次要发育绿泥石化"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区外带以星点状褐铁矿化为主并具有弱金矿化"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物主要有黄铁矿"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物主要有黄铜矿"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物包含少量磁铁矿"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物包含闪锌矿"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物包含方铅矿"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "共生矿物包括",
+"description": "氧化矿物有孔雀石"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "共生矿物包括",
+"description": "氧化矿物有蓝铜矿"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E28",
+"relation_label_zh": "共生矿物包括",
+"description": "氧化矿物有褐铁矿"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E29",
+"relation_label_zh": "对应成矿流体为",
+"description": "矿床中期构造破碎带活动叠加气水热液蚀变富集，晚期侵入脉岩形成的热液活动使成矿物质再次叠加富集"
+}
+]
+}

@@ -1,0 +1,172 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0153",
+"title": "新疆包古图金矿床特征及其成因",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床",
+"attributes": {
+"name": "包古图金矿床",
+"location": "新疆准噶尔西部托里县境内，东北距克拉玛依市约60km，位于达拉布特深断裂东南、包古图河西侧一带",
+"tectonic_position": "新疆西准噶尔地区达拉布特深断裂东南部",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿脉分布受北东向裂隙控制，侧向与纵向均呈平行排列并成群出现"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "包古图地区",
+"attributes": {
+"name": "包古图地区",
+"level": "地区",
+"tectonic_setting": "新疆西准噶尔地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "北东向裂隙",
+"attributes": {
+"name": "北东向裂隙",
+"structure_type": "裂隙",
+"orientation": "北东向",
+"ore_control_role": "控制石英脉—网脉型矿脉的分布与展布"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Fluid",
+"name_zh": "包古图金矿成矿流体",
+"attributes": {
+"nature": "还原、酸性环境下的岩浆热液—大气降水混合流体",
+"source": "岩浆热液与大气降水",
+"temperature_C_min": "170",
+"temperature_C_max": "305"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "含金矿物",
+"paragenesis": "与石英、黄铁矿等共生"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "含金矿物",
+"paragenesis": "与石英、黄铁矿等共生"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "与黄铁矿及含金矿物共生，形成石英脉—网脉"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "共生矿物",
+"paragenesis": "与石英及含金矿物共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "海西期闪长质小岩体群",
+"attributes": {
+"name": "海西期闪长质小岩体群",
+"rock_type": "闪长质",
+"age": "海西期",
+"relationship_to_ore": "与包古图地区金矿床和矿点有密切的成因联系"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "IntrusiveBody",
+"name_zh": "海西期脉岩群",
+"attributes": {
+"name": "海西期脉岩群",
+"rock_type": "脉岩",
+"age": "海西期",
+"relationship_to_ore": "与包古图地区金矿床和矿点有密切的成因联系"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "包古图金矿床位于新疆西准噶尔包古图地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "包古图金矿床的石英脉—网脉型矿脉分布受北东向裂隙控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿床的含金矿物之一为自然金"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿床的含金矿物之一为银金矿"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿床石英脉—网脉中共生矿物包括石英"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿床中共生矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "对应成矿流体为",
+"description": "包古图金矿床成矿流体主要为岩浆热液与大气降水组成的混合流体，矿化温度为170～305℃"
+}
+]
+}

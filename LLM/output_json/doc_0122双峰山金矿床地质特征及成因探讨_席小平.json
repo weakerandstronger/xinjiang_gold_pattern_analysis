@@ -1,0 +1,308 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0122",
+"title": "双峰山金矿床地质特征及成因探讨",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双峰山金矿床",
+"attributes": {
+"name": "双峰山金矿床",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "金矿产于双峰山背斜核部下石炭统巴塔玛依内山组第二亚组陆相火山岩内，金矿化赋存于次生石英岩及蚀变安山岩中，与硅化、黄铁矿化关系密切；具有Au、Ag、As、Sb、Hg等元素组合异常，异常具有明显受断裂控制的特点"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Structure",
+"name_zh": "双峰山背斜",
+"attributes": {
+"name": "双峰山背斜",
+"structure_type": "背斜",
+"ore_control_role": "金矿产于背斜核部"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "断裂带",
+"attributes": {
+"name": "断裂带",
+"structure_type": "断裂",
+"ore_control_role": "控制金矿体及元素组合异常与低阻异常的展布"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统巴塔玛依内山组第二亚组",
+"attributes": {
+"name": "下石炭统巴塔玛依内山组第二亚组",
+"age": "下石炭统",
+"dominant_lithology": "陆相火山岩",
+"lithology_notes": "双峰山金矿产于该组第二亚组陆相火山岩内"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "次生石英岩",
+"attributes": {
+"name": "次生石英岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变安山岩",
+"attributes": {
+"name": "蚀变安山岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "与金矿化密切相关"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "冰长石",
+"attributes": {
+"name": "冰长石",
+"role_in_ore": "冰长石—绢云母型浅成低温热液矿化指示矿物"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "冰长石—绢云母型浅成低温热液矿化指示矿物"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "金(Au)组合异常",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "50×10⁻⁹",
+"anomaly_pattern": "低温热液元素组合异常中心，受断裂控制明显，EW向延伸大于800m，宽50~100m，与砷和锑强相关"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "银(Ag)组合异常",
+"attributes": {
+"element": "银(Ag)",
+"value_ppm": "1050×10⁻⁹",
+"anomaly_pattern": "低温热液元素组合异常中心，受断裂控制明显，EW向延伸大于800m，宽50~100m"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "砷(As)组合异常",
+"attributes": {
+"element": "砷(As)",
+"value_ppm": "＞200×10⁻⁶",
+"anomaly_pattern": "低温热液元素组合异常中心，受断裂控制明显，EW向延伸大于800m，宽50~100m，与金异常强相关"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "锑(Sb)组合异常",
+"attributes": {
+"element": "锑(Sb)",
+"value_ppm": "88×10⁻⁶",
+"anomaly_pattern": "低温热液元素组合异常中心，受断裂控制明显，EW向延伸大于800m，宽50~100m，与金异常强相关"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "汞(Hg)组合异常",
+"attributes": {
+"element": "汞(Hg)",
+"value_ppm": "＞5000×10⁻⁹",
+"anomaly_pattern": "低温热液元素组合异常中心，受断裂控制明显，EW向延伸大于800m，宽50~100m"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geophysics",
+"name_zh": "激电中梯低阻异常",
+"attributes": {
+"anomaly_type": "激电中梯电阻率低阻异常",
+"amplitude": "低阻异常",
+"spatial_pattern": "在已知金矿体上和断裂带上表现为低阻异常，低阻异常形态、走向、位置与金矿体和断裂重合"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "受…控制",
+"description": "双峰山金矿产于双峰山背斜核部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "双峰山金矿体上方组合异常与低阻异常具有明显受断裂控制的特点"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "金矿化赋存于次生石英岩中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "金矿化赋存于蚀变安山岩中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "次生石英岩赋存于下石炭统巴塔玛依内山组第二亚组陆相火山岩内"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "蚀变安山岩赋存于下石炭统巴塔玛依内山组第二亚组陆相火山岩内"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山金矿化与硅化关系密切"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山金矿化与黄铁矿化关系密切"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铁矿化表明黄铁矿与双峰山金矿化密切相关"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "矿床为冰长石—绢云母金矿亚型，指示冰长石为重要共生矿物"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "矿床为冰长石—绢云母金矿亚型，指示绢云母为重要共生矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "双峰山金矿体上方存在金(Au)低温热液元素组合异常，峰值为50×10⁻⁹"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "双峰山金矿体上方存在银(Ag)低温热液元素组合异常，峰值为1050×10⁻⁹"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "双峰山金矿体上方存在砷(As)低温热液元素组合异常，峰值大于200×10⁻⁶"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "双峰山金矿体上方存在锑(Sb)低温热液元素组合异常，峰值为88×10⁻⁶"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "双峰山金矿体上方存在汞(Hg)低温热液元素组合异常，峰值大于5000×10⁻⁹"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "显示",
+"description": "已知金矿体上和断裂带上表现为低阻异常，且低阻异常形态、走向、位置与金矿体和断裂重合"
+}
+]
+}

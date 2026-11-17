@@ -1,0 +1,239 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0055",
+"title": "卡拉麦里 1号金矿地球化学特征及意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡拉麦里1号金矿",
+"attributes": {
+"name": "卡拉麦里1号金矿",
+"location": "新疆卡拉麦里成矿带卡拉麦里山西段北麓",
+"tectonic_position": "位于东准噶尔褶皱带内，受卡拉麦里大断裂及其派生高角度断裂构造控制",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受卡拉麦里大断裂和F1～F4高角度断裂构造共同控制，断裂破碎带中充填大量石英脉，并伴随硅化、黄铁矿化、褐铁矿化、赤铁矿化及绢云母化等蚀变现象"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带",
+"attributes": {
+"name": "卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "卡拉麦里地区的重要金成矿带，卡拉麦里1号金矿是其中新发现的大型金矿床之一"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "东准噶尔褶皱带",
+"attributes": {
+"name": "东准噶尔褶皱带",
+"level": "褶皱带",
+"tectonic_setting": "卡拉麦里山西段北麓的区域性褶皱构造带，是卡拉麦里1号金矿所在的大地构造单元"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里大断裂",
+"attributes": {
+"name": "卡拉麦里大断裂",
+"structure_type": "大断裂",
+"orientation": "区域性深大断裂，方向与矿区主要构造线基本一致",
+"scale": "控制矿区范围和主要断裂系统展布的区域性大断裂构造",
+"ore_control_role": "为卡拉麦里1号金矿的一级控矿构造，控制区内断裂构造发育及岩层形变"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "F1～F4高角度断裂带",
+"attributes": {
+"name": "F1～F4高角度断裂带",
+"structure_type": "断裂构造",
+"orientation": "断面倾角50°～75°，倾向157°～180°，多伴随破碎带发育",
+"scale": "研究区内4条主要断裂构造F1、F2、F3、F4组成的断裂带",
+"ore_control_role": "为研究区直接控制石英脉充填和蚀变发育的主控矿构造，破碎带内广泛发育含金石英脉及蚀变带"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化-黄铁矿化-褐铁矿化-赤铁矿化及伴生蚀变组合",
+"attributes": {
+"name": "硅化-黄铁矿化-褐铁矿化-赤铁矿化及伴生蚀变组合",
+"alteration_minerals": "硅化、黄铁矿化、褐铁矿化、赤铁矿化，以及绢云母化、绿泥石化、碳酸盐化、绿帘石化等蚀变类型",
+"intensity": "近矿围岩中含金石英脉和蚀变现象非常发育，矿体及围岩中均见较强的硅化，多呈细脉状、网脉状分布于裂隙面、层面及岩石碎块周围，是矿区主要蚀变现象之一"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物，构成含金石英脉并充填断裂破碎带",
+"paragenesis": "广泛发育于F1～F4断裂破碎带中，与硅化、黄铁矿化等蚀变作用共生，是矿区石英脉及蚀变带的主要组成矿物"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "重要含金硫化物矿物及蚀变标志矿物",
+"paragenesis": "以黄铁矿化形式广泛出现，与石英脉及褐铁矿化、赤铁矿化、绢云母化等蚀变组合共生，集中分布于近矿围岩及断裂破碎带中"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "赤铁矿",
+"attributes": {
+"name": "赤铁矿",
+"role_in_ore": "重要铁氧化物矿物，在赤铁矿化蚀变中出现",
+"paragenesis": "与黄铁矿化、褐铁矿化等共同构成铁质蚀变带，产于断裂破碎带及近矿围岩蚀变带中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "氧化铁矿物，反映强烈氧化蚀变和风化作用",
+"paragenesis": "以褐铁矿化形式出现，与赤铁矿化、黄铁矿化等共生，常见于断裂破碎带上部及近矿围岩蚀变带中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "卡拉麦里1号金矿成矿热液流体",
+"attributes": {
+"nature": "中低温热液蚀变型成矿流体，形成于还原环境下",
+"source": "热液流体来源于幔源，深部岩浆活动将Au等金属由深部带入浅部及地表"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "石英脉及火山岩稀土与微量元素地球化学特征",
+"attributes": {
+"element": "稀土元素（Eu、Ce）及U、Nb、Sr、Zr、Y、Ta、La、Nd、Hf、Yb等微量元素",
+"value_ppm": "Eu呈正异常（δEu＞1），Ce呈负异常（δCe＜1），Co/Ni、Hf/Sm、Nb/La、Th/La值较低，平均值均小于1",
+"anomaly_pattern": "轻稀土相对富集，稀土元素配分模式整体平坦右倾，与下地壳稀土元素曲线相似，富集U、Nb、Sr、Zr、Y等元素而Ta、La、Nd、Hf、Yb等元素相对亏损，指示成矿物质来源于幔源"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "HostRockUnit",
+"name_zh": "卡拉麦里1号金矿近矿围岩单元",
+"attributes": {
+"name": "卡拉麦里1号金矿近矿围岩单元"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡拉麦里1号金矿是卡拉麦里成矿带新发现的大型金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡拉麦里1号金矿位于卡拉麦里山西段北麓的东准噶尔褶皱带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "卡拉麦里1号金矿受卡拉麦里大断裂控制，区内断裂构造在其影响下发育并引起一系列岩层形变"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "研究区主要由4条高角度断裂构造F1、F2、F3、F4控制，其周围破碎带中发育含金石英脉和蚀变带，是卡拉麦里1号金矿的直接控矿构造"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "赋存于",
+"description": "卡拉麦里1号金矿矿体赋存于近矿围岩单元中，近矿围岩中含金石英脉和蚀变现象非常发育"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "伴随有",
+"description": "卡拉麦里1号金矿与硅化、黄铁矿化、褐铁矿化、赤铁矿化及绢云母化、绿泥石化、碳酸盐化、绿帘石化等蚀变关系密切，矿体及围岩中均见强烈蚀变"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "脉石矿物包括",
+"description": "卡拉麦里1号金矿的含金石英脉大量充填于断裂破碎带中，石英为主要脉石矿物"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "卡拉麦里1号金矿区广泛发育黄铁矿化，黄铁矿为重要含金硫化物矿物并与石英脉及多种蚀变组合共生"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "卡拉麦里1号金矿区发育赤铁矿化，赤铁矿与黄铁矿化、褐铁矿化等共同组成铁质蚀变带"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "卡拉麦里1号金矿区发育褐铁矿化，褐铁矿与赤铁矿化、黄铁矿化等共生，反映矿区强烈氧化蚀变环境"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "从地质及地球化学特征可判断卡拉麦里1号金矿为还原环境下形成的中低温热液蚀变型金矿床，其成矿热液流体来源于幔源"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "卡拉麦里1号金矿区石英脉及火山岩稀土和微量元素地球化学表现为Eu正异常、Ce负异常、轻稀土相对富集、富集U、Nb、Sr、Zr、Y而Ta、La、Nd、Hf、Yb相对亏损等特征，指示成矿物质来源于幔源"
+}
+]
+}

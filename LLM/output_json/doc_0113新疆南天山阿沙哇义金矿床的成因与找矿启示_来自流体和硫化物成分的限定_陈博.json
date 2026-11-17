@@ -1,0 +1,220 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0113",
+"title": "新疆南天山阿沙哇义金矿床的成因与找矿启示:来自流体和硫化物成分的限定",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿沙哇义金矿床",
+"attributes": {
+"name": "阿沙哇义金矿床",
+"location": "中国新疆南天山造山带",
+"tectonic_position": "中亚南天山锑-汞-金成矿带的东延部分（南天山造山带）",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体严格受韧脆性剪切带与断裂所控制，以浸染状黄铁矿化、毒砂化为特征；断层阀作用控制的断层愈合-破裂导致流体不混溶作用是金富集沉淀的最重要机制，流体混合机制亦发挥作用"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "中亚成矿域",
+"attributes": {
+"name": "中亚成矿域",
+"level": "成矿域",
+"tectonic_setting": "中亚成矿域"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "新疆南天山造山带",
+"attributes": {
+"name": "新疆南天山造山带",
+"level": "造山带",
+"tectonic_setting": "南天山造山带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "中亚南天山锑-汞-金成矿带",
+"attributes": {
+"name": "中亚南天山锑-汞-金成矿带",
+"level": "成矿带",
+"tectonic_setting": "该成矿带的东延部分"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "韧脆性剪切带",
+"attributes": {
+"name": "韧脆性剪切带",
+"structure_type": "韧脆性剪切带",
+"scale": "矿区",
+"ore_control_role": "矿体严格受韧脆性剪切带控制，断裂所控制的成矿空间与通道促使流体作用并引起金富集沉淀"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "浸染状"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "毒砂化",
+"attributes": {
+"name": "毒砂化",
+"alteration_minerals": "毒砂",
+"intensity": "浸染状"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "重要载金矿物",
+"paragenesis": "中期石英多金属硫化物阶段"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "重要载金矿物",
+"paragenesis": "中期石英多金属硫化物阶段"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "早期无矿或贫矿石英阶段、中期石英多金属硫化物阶段、晚期石英-碳酸盐阶段"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "NaCl-H2O-CO2体系低盐度富CO2成矿流体",
+"attributes": {
+"nature": "NaCl-H2O-CO2体系成矿流体，总体低盐度、富CO2；气相以H2O为主（75%~93%），其次为CO2（6%~25%），其余为CH4、C2H6、H2S、N2和Ar；液相阳离子以Na+为主、含少量K+、Ca2+，阴离子以Cl-为主、SO42-次之",
+"temperature_C_min": "180",
+"temperature_C_max": "360"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "金(Au)与流体及硫化物含量特征",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "矿石Au含量与流体CO2含量呈反相关，与K+含量呈正相关；黄铁矿Au含量为0~0.09%，平均0.03%；毒砂Au含量为0~0.28%，平均0.07%；环带状黄铁矿较均质结构黄铁矿具有更高Au含量"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "阿沙哇义金矿属于中亚成矿域范围内的金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿沙哇义金矿位于中国新疆南天山造山带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "阿沙哇义金矿属于中亚南天山锑-汞-金成矿带的东延部分"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿的矿体严格受韧脆性剪切带与断裂所控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "阿沙哇义金矿以浸染状黄铁矿化为主要矿化蚀变特征之一"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "阿沙哇义金矿以浸染状毒砂化为主要矿化蚀变特征之一"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "围岩地层和矿石中的黄铁矿是重要的载金矿物"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "围岩地层和矿石中的毒砂是重要的载金矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "阿沙哇义金矿的矿化阶段包含石英阶段，石英为重要共生/脉石矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿沙哇义金矿对应的成矿流体为NaCl-H2O-CO2体系低盐度富CO2流体，成矿温度为180~360℃（主成矿阶段温度集中在220~250℃）"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "阿沙哇义金矿显示Au与流体组分及硫化物成分存在相关性，黄铁矿与毒砂中Au含量具有明确范围并可作为找矿判别依据"
+}
+]
+}

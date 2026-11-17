@@ -1,0 +1,282 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0281",
+"title": "东天山马头滩韧性剪切带型金矿地质特征及成因_张连昌",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "马头滩金矿床",
+"attributes": {
+"name": "马头滩金矿床",
+"location": "新疆东天山康古尔金矿田东部马头滩地区",
+"tectonic_position": "塔里木板块北部晚古生代阿齐山-雅满苏岛弧带北缘",
+"deposit_type": "造山型金矿床",
+"ore_grade": "含金（1.45～72.0）×10^-6",
+"ore_control_features": "矿体严格受脆韧性剪切带（糜棱岩带）控制，矿体形态呈板状且产状与糜棱岩面理一致；主要由相互平行的4条含金蚀变带组成，总体走向NE80°，矿体长200～400米、宽1～6米，工业矿体与蚀变围岩呈渐变过渡关系",
+"age_ma": "290～282Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "康古尔塔格金矿带",
+"attributes": {
+"name": "康古尔塔格金矿带",
+"level": "成矿带",
+"tectonic_setting": "东天山晚古生代岛弧带北缘脆韧性剪切转换带发育区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "康古尔金矿田",
+"attributes": {
+"name": "康古尔金矿田",
+"level": "矿田",
+"tectonic_setting": "位于阿齐山-雅满苏晚古生代岛弧带北缘，脆韧性剪切断裂发育并控矿明显"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统阿齐山组",
+"attributes": {
+"name": "下石炭统阿齐山组",
+"age": "下石炭统",
+"dominant_lithology": "中酸性火山碎屑岩及火山熔岩",
+"lithology_notes": "主要岩性包括安山岩、英安质火山角砾岩、凝灰岩及沉积碎屑岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "阿齐山组中酸性火山岩（糜棱岩化安山岩、火山角砾岩等）",
+"attributes": {
+"name": "阿齐山组中酸性火山岩（糜棱岩化安山岩、火山角砾岩等）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "中部糜棱岩带（脆韧性剪切带）",
+"attributes": {
+"name": "中部糜棱岩带（脆韧性剪切带）",
+"structure_type": "糜棱岩带/脆韧性剪切带",
+"orientation": "近EW－NEE向展布，矿化带总体走向NE80°",
+"scale": "矿区级",
+"ore_control_role": "马头滩金矿主矿体赋存于该糜棱岩带内；糜棱岩化-蚀变-矿化之间呈正比关系，矿体为含金剪切带的矿化富集部位"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石（并常与磁铁矿、黄铁矿、石英共生）",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英（并伴生黄铁矿，可见微粒金）",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "青盘岩化",
+"attributes": {
+"name": "青盘岩化",
+"alteration_minerals": "绿泥石、方解石、黄铁矿等",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "以粒间金为主，次为裂隙金及包体金；可见巨粒明金分布于石英晶洞中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "常呈浸染状-稠密浸染状分布，集合体可呈细脉状；与石英、绿泥石及磁铁矿等共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "细脉状、浸染状分布于绿泥石、石英及白云母集合体中，常见自然金薄膜状分布于磁铁矿表面"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "次要金属矿物（伴生铜矿化）",
+"paragenesis": "可交代黄铁矿，与黄铁矿、石英等共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "混合热液成矿流体",
+"attributes": {
+"nature": "中低温、低盐度热液",
+"source": "变质水与大气降水组成的混合热液",
+"temperature_C_min": "130",
+"temperature_C_max": "252",
+"pressure_MPa_min": "30",
+"pressure_MPa_max": "50",
+"salinity_wtNaCl_min": "6.3",
+"salinity_wtNaCl_max": "11.3"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢-氧同位素",
+"parameter_name": "δD水、δ18O水",
+"value_range": "δD水=－45×10^-3；δ18O水=2.64×10^-3"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "马头滩金矿床位于东天山康古尔塔格金矿带上"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "马头滩金矿床位于康古尔金矿田东部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "马头滩金矿床赋存于阿齐山组中酸性火山岩（糜棱岩化安山岩、火山角砾岩等）中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "矿床赋矿围岩阿齐山组中酸性火山岩属于下石炭统阿齐山组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "马头滩金矿床主矿体赋存于中部糜棱岩带中，矿体产状与糜棱岩面理一致并受脆韧性剪切带控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床主要矿石类型为含金黄铁矿-绿泥石-石英蚀变岩型，绿泥石化与金矿化关系密切"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "硅化与金矿化关系密切，石英脉及不同期次硅化作用与含金矿化叠加"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "矿体围岩蚀变发育，青盘岩化为与金矿有关的重要蚀变之一"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "马头滩金矿床矿石金属矿物以自然金为主"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铁矿为主要载金矿物，常呈浸染状-稠密浸染状分布并与金矿化密切相关"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "磁铁矿为主要金属矿物之一，常见自然金薄膜状分布于磁铁矿表面"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铜矿为次要金属矿物并与矿床的伴生铜矿化有关"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "成矿流体为由变质水和大气降水组成的混合热液，具中低温、低盐度与中-低压特征"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素组成（δD水与δ18O水）指示成矿流体位于变质水区与大气降水线之间，为变质水与大气降水的混合热液"
+}
+]
+}

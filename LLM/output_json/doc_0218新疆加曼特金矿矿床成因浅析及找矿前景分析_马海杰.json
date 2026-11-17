@@ -1,0 +1,371 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0218",
+"title": "新疆加曼特金矿矿床成因浅析及找矿前景分析_马海杰",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "加曼特金矿床",
+"attributes": {
+"name": "加曼特金矿床",
+"location": "伊犁亚板块博罗霍洛古生代岛弧区也列莫顿石炭纪火山盆地内",
+"tectonic_position": "伊犁亚板块博罗霍洛古生代岛弧区（也列莫顿石炭纪火山盆地）",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "1.00~5.60 g/t（石英脉型主矿体常见），最高达18.75 g/t（火山角砾岩型矿体）",
+"ore_control_features": "矿体主要产于北北西向F5与北北东向F7构造破碎带内；近东西向构造与北北西向、北北东向构造交汇部位矿化增强；含矿构造带由石英脉、硅帽与火山角砾岩等组成"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "也列莫顿石炭纪火山盆地",
+"attributes": {
+"name": "也列莫顿石炭纪火山盆地",
+"level": "火山盆地",
+"tectonic_setting": "伊犁亚板块博罗霍洛古生代岛弧区内的石炭纪火山盆地"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "吐拉苏-也列莫顿成矿带",
+"attributes": {
+"name": "吐拉苏-也列莫顿成矿带",
+"level": "成矿带",
+"tectonic_setting": "北西西向展布的吐拉苏-也列莫顿火山岩带所对应的成矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组上亚组",
+"attributes": {
+"name": "下石炭统大哈拉军山组上亚组",
+"age": "下石炭统",
+"dominant_lithology": "中酸性火山岩及火山碎屑岩",
+"lithology_notes": "赋矿层位为一套中酸性火山岩及火山碎屑岩；矿区出露岩性包括含砾岩屑晶屑凝灰熔岩等"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "凝灰熔岩",
+"attributes": {
+"name": "凝灰熔岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "石英钠长斑岩",
+"attributes": {
+"name": "石英钠长斑岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变岩",
+"attributes": {
+"name": "蚀变岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "火山角砾岩",
+"attributes": {
+"name": "火山角砾岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "F5断裂",
+"attributes": {
+"name": "F5断裂",
+"structure_type": "断裂",
+"orientation": "北北西向（总体呈南东-北西走向），向西陡倾",
+"scale": "矿区级",
+"ore_control_role": "重要控矿容矿构造，控制石英脉型主矿体的产出与展布"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "F7断裂",
+"attributes": {
+"name": "F7断裂",
+"structure_type": "断裂",
+"orientation": "北北东向，向东南倾斜",
+"scale": "矿区级",
+"ore_control_role": "控矿断裂，控制矿体产出于构造破碎带内"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "中低温热液矿化阶段（金属硫化物型组合）"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "中低温热液矿化阶段（金属硫化物型组合）"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "中低温热液矿化阶段（金属硫化物型组合）"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物（石英脉、硅帽的重要组成）",
+"paragenesis": "石英脉型与硅化阶段"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "热液成矿相关阶段"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Fluid",
+"name_zh": "加曼特金矿成矿流体",
+"attributes": {
+"nature": "构造活动引发的中低温热液流体上侵",
+"temperature_C_min": "80",
+"temperature_C_max": "450",
+"pressure_MPa_min": "12.8",
+"pressure_MPa_max": "21.09"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Geochem",
+"name_zh": "金元素含量范围（矿体品位）",
+"attributes": {
+"element": "Au",
+"value_ppm": "1.00~18.75",
+"anomaly_pattern": "矿体金含量（ppm，折算为g/t）总体为1.00~5.60，局部火山角砾岩型矿体可达18.75"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英钠长斑岩（岩株-岩脉）",
+"attributes": {
+"name": "石英钠长斑岩（岩株-岩脉）",
+"rock_type": "石英钠长斑岩（次火山岩）",
+"relationship_to_ore": "与成矿关系密切，次火山岩中金丰度值普遍较高，为成矿提供重要矿质来源"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "加曼特金矿区在区域上位于也列莫顿石炭纪火山盆地内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "区域上加曼特金矿位于吐拉苏-也列莫顿成矿带东部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "加曼特金矿赋矿围岩主要为大哈拉军山组第一岩性段凝灰熔岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "加曼特金矿赋矿围岩还包括石英钠长斑岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "矿区发育蚀变岩型矿体，矿体赋存于蚀变岩中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "矿区发育火山角砾岩型矿体，矿体赋存于火山角砾岩中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "赋矿围岩凝灰熔岩属于下石炭统大哈拉军山组上亚组的中酸性火山岩-火山碎屑岩建造"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "石英脉型主矿体赋存于F5断裂带内，矿体展布受F5断裂控制"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "矿体产于F7断裂构造破碎带内，矿化受F7断裂控制"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区发育硅化带，硅化带分布于矿体上下盘及接触带上"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区叠加热液活动，表现为黄铁矿化等蚀变"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区叠加热液活动，表现为绢云母化等蚀变"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要金矿物为",
+"description": "加曼特金矿矿石矿物成分以金属硫化物型组合为主，其中黄铁矿为主要金属矿物之一"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "加曼特金矿金属矿物组合包括方铅矿等多金属硫化物"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "加曼特金矿金属矿物组合包括闪锌矿等多金属硫化物"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "石英为矿区石英脉与硅化带的重要组成，是主要脉石矿物"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "加曼特金矿脉石矿物包括方解石等"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "对应成矿流体为",
+"description": "石英包裹体均一温度80~450℃并具多峰特征，指示加曼特金矿成矿流体为中低温热液流体上侵"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "显示",
+"description": "矿体金品位（ppm，折算为g/t）在不同类型矿体中变化，整体表现为1.00~5.60，局部可达18.75"
+}
+]
+}

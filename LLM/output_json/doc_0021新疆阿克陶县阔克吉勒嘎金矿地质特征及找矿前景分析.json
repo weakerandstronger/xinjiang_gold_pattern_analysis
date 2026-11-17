@@ -1,0 +1,251 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0021",
+"title": "新疆阿克陶县阔克吉勒嘎金矿地质特征及找矿前景分析 ",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔克吉勒嘎金矿床",
+"attributes": {
+"name": "阔克吉勒嘎金矿床",
+"location": "新疆阿克陶县木吉一带，位于西昆仑西北端",
+"tectonic_position": "位于西藏三江造山系—羌塘弧盆系—塔什库尔干～甜水海地块之早古生代陆缘盆地构造单元，处于印度板块与欧亚板块碰撞带前缘挤压应力最强烈地带",
+"deposit_type": "造山型金矿床",
+"ore_grade": "钻孔控制矿带斜深约229 m，真厚度约7.02 m，Au单样品位0.07～7.13×10^-6，平均品位约2.58×10^-6，金砷呈正相关关系",
+"resource_tonnage": "初步估算（334）矿石量约64.28万吨，金金属量约4265千克",
+"ore_control_features": "矿体赋存于下志留统温泉沟群碎裂状绿灰色硬绿泥（褐铁矿化、菱铁矿）绢云千枚岩中，受韧性剪切带及近北西—南东向断裂破碎带和次级断裂综合控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西昆仑西北端地区",
+"attributes": {
+"name": "西昆仑西北端地区",
+"level": "造山带分段",
+"tectonic_setting": "位于西昆南带，为羌塘地块的一部分，是西昆仑造山带西北端的重要成矿有利区段"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "羌塘地块",
+"attributes": {
+"name": "羌塘地块",
+"level": "地块",
+"tectonic_setting": "隶属巴颜喀拉—羌塘构造体系，在构造分区上该区被划属西昆南带，为羌塘地块的一部分"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "公格尔地层小区",
+"attributes": {
+"name": "公格尔地层小区",
+"level": "地层小区",
+"tectonic_setting": "区域地层属巴颜喀拉—羌塘地层大区北羌塘地层分区公格尔地层小区，岩浆活动整体较弱，火山岩较少"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "塔什库尔干～甜水海早古生代陆缘盆地构造单元",
+"attributes": {
+"name": "塔什库尔干～甜水海早古生代陆缘盆地构造单元",
+"level": "构造单元",
+"tectonic_setting": "大地构造位置处于西藏三江造山系—羌塘弧盆系—塔什库尔干～甜水海地块早古生代陆缘盆地构造单元，是区内最主要的成矿有利地段"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下志留统温泉沟群",
+"attributes": {
+"name": "下志留统温泉沟群",
+"age": "下志留统",
+"dominant_lithology": "浊流沉积建造的黑色岩系，以绿灰色硬绿泥绢云千枚岩等陆缘碎屑岩为主",
+"lithology_notes": "为一套区域低温动力变质作用类型的低绿片岩相变质黑色岩系，与造山型金矿床关系密切，是区内主要含金地层和成矿有利层位"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "S1W1-2碎裂状绿灰色硬绿泥（褐铁矿化、菱铁矿）绢云千枚岩围岩单元",
+"attributes": {
+"name": "下志留统温泉沟群第一岩性段第二亚段（S1W1-2）碎裂状绿灰色硬绿泥（褐铁矿化、菱铁矿）绢云千枚岩围岩单元"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "韧性剪切带",
+"attributes": {
+"name": "韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "在含金层位中沿层位及构造走向展布，可与地层近似顺层或与岩层斜交",
+"scale": "成矿区带内连续分布，为成矿区带内主要构造变形带",
+"ore_control_role": "绿灰色硬绿泥绢云千枚岩在韧性剪切带作用下极易成矿，形成韧性剪切带型金矿，是阔克吉勒嘎金矿的关键控矿构造"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "近北西—南东向断裂破碎带",
+"attributes": {
+"name": "近北西—南东向断裂破碎带",
+"structure_type": "断裂破碎带及逆冲断层系统",
+"orientation": "断裂走向整体为近北西—南东向，多为逆冲断层，局部与地层产状斜交",
+"scale": "在矿区范围内广泛分布，构成主要构造格架",
+"ore_control_role": "断裂破碎带及其上、下盘岩石矿化蚀变强烈，为矿体和蚀变带的主要赋存部位，对阔克吉勒嘎金矿具有明显构造控矿作用"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化-菱铁矿化-绢云母化蚀变带",
+"attributes": {
+"name": "褐铁矿化-菱铁矿化-绢云母化蚀变带",
+"alteration_minerals": "褐铁矿、菱铁矿、硬绿泥石、绢云母等矿物组合构成的蚀变带",
+"intensity": "断裂破碎带及上、下盘千枚岩类岩石矿化蚀变强烈，在韧性剪切带及破碎带中连续成带分布"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "在区域自然重砂中为主要有意义重矿物，与伴生矿物共同指示Au为区内主要成矿元素，并在韧性剪切带内含金蚀变碎裂岩中富集"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "IntrusiveBody",
+"name_zh": "温泉沟群内石英脉脉岩",
+"attributes": {
+"name": "温泉沟群内石英脉脉岩",
+"rock_type": "石英脉",
+"relationship_to_ore": "脉岩发育，主要为石英脉，顺构造走向成群成带发育，侵入于下志留统温泉沟群第一岩性段第二亚段中，与含金层位及矿体关系密切"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "阔克吉勒嘎金矿地球化学异常",
+"attributes": {
+"element": "Au及多种金属元素",
+"value_ppm": "区域1∶20万地球化学特征显示Au为区内主要成矿元素，具体含量未给出",
+"anomaly_pattern": "区域化探成果在该地段效果极佳，在韧性剪切带内多数元素形成明显高背景，多形成面积大、强度高、浓度分带明显的元素异常，圈定出乌孜别里金、铜、多金属找矿靶区"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿位于新疆阿克陶县木吉一带的西昆仑西北端地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "在构造分区上，该区被划属西昆南带，为羌塘地块的一部分，阔克吉勒嘎金矿隶属羌塘地块构造单元"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "阔克吉勒嘎金矿所在区域地层属巴颜喀拉—羌塘地层大区北羌塘地层分区公格尔地层小区"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿大地构造位置处于西藏三江造山系—羌塘弧盆系—塔什库尔干～甜水海地块之早古生代陆缘盆地构造单元，是区内最主要的成矿有利地段"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "阔克吉勒嘎金矿矿体赋存于下志留统温泉沟群第一岩性段第二亚段（S1W1-2）碎裂状绿灰色硬绿泥（褐铁矿化、菱铁矿）绢云千枚岩围岩单元中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "S1W1-2碎裂状绿灰色硬绿泥（褐铁矿化、菱铁矿）绢云千枚岩围岩单元属于下志留统温泉沟群地层的一部分"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "绿灰色硬绿泥绢云千枚岩在韧性剪切带作用下极易成矿，形成韧性剪切带型金矿，阔克吉勒嘎金矿的含金层位和矿体受韧性剪切带强烈控制"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "矿区褶皱、断裂发育，近北西—南东向断裂破碎带及其上、下盘岩石矿化蚀变强烈，阔克吉勒嘎金矿矿带主要产于这些断裂破碎带中，构造控矿特征明显"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "阔克吉勒嘎金矿区断裂破碎带及其围岩中发育褐铁矿化、菱铁矿化、绢云母化等强烈矿化蚀变，形成褐铁矿化-菱铁矿化-绢云母化蚀变带，与金矿化密切伴生"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "区域1∶20万自然重砂特征表明，自然金及其伴生矿物是区内有意义的重矿物，说明阔克吉勒嘎一带以自然金为主要金矿物"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "阔克吉勒嘎金矿形成于区域低温动力变质及韧性剪切带作用条件下，成矿过程与韧性剪切带内的低温动力变质流体密切相关"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "区域1∶20万地球化学特征显示Au是区内主要成矿元素，成矿区带内韧性剪切带内多数元素形成明显高背景及大面积强烈元素异常，阔克吉勒嘎金矿所在地段化探效果极佳，找矿潜力较大"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E6",
+"relation_label_zh": "侵入于",
+"description": "温泉沟群内石英脉脉岩顺构造走向成群成带发育，侵入于下志留统温泉沟群第一岩性段第二亚段中，与阔克吉勒嘎金矿含金层位关系密切"
+}
+]
+}

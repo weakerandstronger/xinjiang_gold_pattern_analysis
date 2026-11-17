@@ -1,0 +1,30 @@
+{
+  "executable": "python.exe",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "run_time": "2026-11-16T23:28:52.442202+08:00",
+  "mode": "single_full_data_descriptive",
+  "disabled": [
+    "baselines",
+    "ablation",
+    "holdout",
+    "permutation",
+    "bootstrap",
+    "subsampling",
+    "mask_perturbation",
+    "entity_deletion",
+    "threshold_sweep",
+    "prediction",
+    "semantic_standardization"
+  ],
+  "input_sha256": "090ab0ba13b6ce86eb81fc0b8d9a9228a7cb189c3025c81ba0a90cd9d4ed90c2",
+  "config_sha256": "91db271953f6d3d87d5eea847f6d6efca765a3fd7ad01f4bdf828faa18c6bbc6",
+  "code_hashes": {
+    "decompose_orders.py": "f99493cdaa0dcde1455f72c55ca75cb6a4a57438ab6f2ada8340059e8085ebc1",
+    "export_paper_tables.py": "c6a9bc7a5ac53989c533817e98f2b99d1d5d16a0197e303cd4935998a370e9d0",
+    "io_records.py": "c379b0c6dd0bf03a7a3922be713fc79302878f696758bc850eb9587bcd78eba9",
+    "mine_support.py": "7695c2b1efd250172b2f7fe5d626cb494ef7b34981f542f970ab35c75f2600db",
+    "runtime_env.py": "7823b374a1929ca93b3403af267e65520ce972b5de0f8e81dc6b407d33942f4a",
+    "run_analysis.py": "0624bd9f8336f1e0b58505471e33b6d55bb52a5e54161042efc291b668aa7adc"
+  },
+  "definition": "Method equations 2-11; explicit positive low-order proxy, fixed pattern game"
+}

@@ -1,0 +1,273 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0247",
+"title": "新疆东准噶尔野马泉构造蚀变脉岩型金矿床_王京彬",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "野马泉金矿床",
+"attributes": {
+"name": "野马泉金矿床",
+"location": "新疆东准噶尔野马泉兵站南16km处",
+"tectonic_position": "东准噶尔野马泉断块（野马泉深断裂北侧）",
+"deposit_type": "造山型金矿床",
+"ore_grade": "金品位1×10^-6~19×10^-6（约1~19克/吨）",
+"ore_control_features": "矿化受F2断裂带控制，主要赋存于破碎蚀变闪长玢岩脉及其剪切接触带含碳质围岩中；北矿化带岩脉已知长15km、宽3~20m，走向290°、倾向南西、倾角50°~70°",
+"age_ma": "254.5±0.9Ma和252.5±1.8Ma（二叠纪晚期）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔野马泉断块",
+"attributes": {
+"name": "东准噶尔野马泉断块",
+"level": "断块",
+"tectonic_setting": "新疆东准噶尔地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "破碎蚀变闪长玢岩脉体",
+"attributes": {
+"name": "破碎蚀变闪长玢岩脉体"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "接触带含碳质围岩",
+"attributes": {
+"name": "接触带含碳质围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "志留系库普斯群",
+"attributes": {
+"name": "志留系库普斯群",
+"age": "志留纪",
+"dominant_lithology": "低级变质含碳质细碎屑岩系",
+"lithology_notes": "以变质砂岩、粉砂质板岩、千枚岩为主，夹薄层硅质粉砂岩和含碳质板岩；黑色板岩和硅质粉砂岩中常见星散状黄铁矿"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下泥盆统托让格布都组",
+"attributes": {
+"name": "下泥盆统托让格布都组",
+"age": "早泥盆世",
+"dominant_lithology": "浅变质火山碎屑岩",
+"lithology_notes": "以长英质为主的火山碎屑岩类"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "F2断裂带（野马泉深断裂）",
+"attributes": {
+"name": "F2断裂带（野马泉深断裂）",
+"structure_type": "断裂带",
+"orientation": "走向290°，倾向南西，倾角50°~70°",
+"scale": "矿区级",
+"ore_control_role": "控制闪长玢岩脉及金矿体展布，矿化带长达15km"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化-绢云母化及砷黄铁矿化-黄铁矿化",
+"attributes": {
+"name": "硅化-绢云母化及砷黄铁矿化-黄铁矿化",
+"alteration_minerals": "石英、绢云母、砷黄铁矿、黄铁矿",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "主要产于破碎蚀变闪长玢岩及石英脉中，与黄铁矿等硫化物伴生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "与硅化、绢云母化及砷黄铁矿化共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "砷黄铁矿",
+"attributes": {
+"name": "砷黄铁矿",
+"role_in_ore": "主要含砷硫化物矿物",
+"paragenesis": "与黄铁矿、硅化绢云母化共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "野马泉金矿成矿流体",
+"attributes": {
+"nature": "H2O-NaCl-CO2体系流体，以H2O为主（约85%~89%），含较高CO2（约3%~6%），并含少量N2、CH4、C2H6等",
+"source": "主要来源于岩浆分异作用释放的含金流体，并混入不同程度的大气降水；与含碳质围岩作用密切",
+"temperature_C_min": "76",
+"temperature_C_max": "396",
+"pressure_MPa_min": "20",
+"pressure_MPa_max": "20",
+"salinity_wtNaCl_min": "4.65",
+"salinity_wtNaCl_max": "6.45"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O_H2O、δD_H2O",
+"value_range": "δ18O_H2O=7.92‰~10.93‰；δD_H2O=-112.18‰~-63‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "碳同位素参数",
+"attributes": {
+"system": "碳同位素",
+"parameter_name": "δ13C",
+"value_range": "包裹体气相CO2：-16.405‰~-15.381‰；包裹体气相CH4：-29.83‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "金元素异常",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "1×10^-6~19×10^-6",
+"anomaly_pattern": "北矿化带闪长玢岩脉长800m范围内圈出4条矿体，其中1号矿体长约500m、厚0.8~2.2m"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "野马泉金矿床位于新疆东准噶尔野马泉断块内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "野马泉金矿床矿化带沿F2断裂带展布，矿体与断裂带控制的破碎蚀变带密切相关"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "矿体主要赋存于破碎蚀变的闪长玢岩脉体中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "矿化也发育于闪长玢岩脉的剪切接触带含碳质围岩中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "接触带含碳质围岩属于志留系库普斯群"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "野马泉金矿床与硅化、绢云母化及砷黄铁矿化-黄铁矿化等蚀变组合密切共生"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "野马泉金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "野马泉金矿床共生硫化物矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "野马泉金矿床共生矿物包括砷黄铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "野马泉金矿床对应成矿流体为H2O-NaCl-CO2体系、富CO2的中温中低盐度流体"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素显示成矿流体以岩浆水为主，并混入不同程度的大气降水"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "碳同位素结果表明包裹体CO2的碳同位素组成与含碳质围岩相近，指示流体碳主要来源于围岩有机碳"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "野马泉金矿床在北矿化带闪长玢岩蚀变破碎段显示显著金元素富集，金品位达1×10^-6~19×10^-6"
+}
+]
+}

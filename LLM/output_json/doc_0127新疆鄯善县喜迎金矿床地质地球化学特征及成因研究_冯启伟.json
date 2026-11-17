@@ -1,0 +1,440 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0127",
+"title": "新疆鄯善县喜迎金矿床地质地球化学特征及成因研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "喜迎金矿床",
+"attributes": {
+"name": "喜迎金矿床",
+"location": "新疆鄯善县南天山地区",
+"tectonic_position": "塔里木、哈萨克斯坦两大板块之间的塔里木北缘活动带南天山晚古生代陆缘盆地",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "赋矿地层为下石炭统甘草胡组；矿脉分布于伊尔托古什布拉克韧-脆性剪切带北侧同一条矿化蚀变带内；金矿床展布受大型韧-脆性剪切带控制，具体产出于次级断裂系统中",
+"age_ma": "海西晚期至印支早期"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "亚洲金腰带",
+"attributes": {
+"name": "亚洲金腰带",
+"level": "巨型金成矿带",
+"tectonic_setting": "从中亚乌拉尔山脉经咸海向南东到扎拉夫尚山脉再向东到中国新疆南天山的巨型金成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "新疆南天山山脉",
+"attributes": {
+"name": "新疆南天山山脉",
+"level": "山脉",
+"tectonic_setting": "属于亚洲金腰带的重要组成部分，发育巨型金成矿带并产出多处金矿床"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "塔里木北缘活动带",
+"attributes": {
+"name": "塔里木北缘活动带",
+"level": "活动带",
+"tectonic_setting": "位于塔里木与哈萨克斯坦两大板块之间的构造活动带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "南天山晚古生代陆缘盆地",
+"attributes": {
+"name": "南天山晚古生代陆缘盆地",
+"level": "陆缘盆地",
+"tectonic_setting": "与海西中期板块碰撞造山作用及海西晚期碰撞后伸展作用相关"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统甘草胡组",
+"attributes": {
+"name": "下石炭统甘草胡组",
+"age": "下石炭统",
+"dominant_lithology": "碎屑岩-碳酸盐沉积建造",
+"lithology_notes": "具有区域性的Au高背景含量，文中给出岩石Au平均含量为7.47×10^-9，为成矿提供良好物质基础"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "甘草胡组围岩",
+"attributes": {
+"name": "甘草胡组围岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "伊尔托古什布拉克韧-脆性剪切带",
+"attributes": {
+"name": "伊尔托古什布拉克韧-脆性剪切带",
+"structure_type": "韧-脆性剪切带",
+"scale": "大型",
+"ore_control_role": "各矿脉分布于其北侧同一条矿化蚀变带内，矿床展布受其控制"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "次级断裂系统",
+"attributes": {
+"name": "次级断裂系统",
+"structure_type": "断裂系统",
+"ore_control_role": "矿床具体产出于次级断裂系统中并受其控制"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "成矿流体（CO2-H2O-NaCl体系）",
+"attributes": {
+"nature": "CO2-H2O-NaCl体系成矿流体",
+"source": "以岩浆水为主，混有不同程度的变质水；成矿物质具有以幔源为主的幔壳混合源特征",
+"temperature_C_min": "150",
+"temperature_C_max": "390",
+"salinity_wtNaCl_min": "3",
+"salinity_wtNaCl_max": "13"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "-1.36‰～12.70‰"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "铅同位素比值",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "208Pb/204Pb、207Pb/204Pb、206Pb/204Pb",
+"value_range": "208Pb/204Pb为38.057～38.756；207Pb/204Pb为15.526～15.599；206Pb/204Pb为17.721～18.962"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "碳同位素δ13C",
+"attributes": {
+"system": "碳同位素",
+"parameter_name": "δ13C（V-PDB）",
+"value_range": "-6.49～1.61‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "氢同位素δD",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD",
+"value_range": "-98‰～-70‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O_H2O",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O_H2O",
+"value_range": "-1.47‰～13.58‰"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Alteration",
+"name_zh": "黄铜矿化",
+"attributes": {
+"name": "黄铜矿化",
+"alteration_minerals": "黄铜矿",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Alteration",
+"name_zh": "黄绢岩化",
+"attributes": {
+"name": "黄绢岩化",
+"alteration_minerals": "绢云母",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "矿区发现的金矿物较单一，仅见自然金",
+"paragenesis": "与石英脉及硫化物共生"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "黄铁矿为主要的载金矿物",
+"paragenesis": "与石英脉及自然金共生"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "矿石类型中提及含铜黄铁矿石英脉型金矿石，黄铜矿化与金矿化关系密切",
+"paragenesis": "与黄铁矿、石英脉伴生"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "喜迎金矿床作为亚洲金腰带的有机组成部分"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "喜迎金矿床位于新疆南天山山脉区域"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "喜迎金矿床位于塔里木北缘活动带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "喜迎金矿床位于南天山晚古生代陆缘盆地"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "喜迎金矿床赋矿地层为下石炭统甘草胡组，对应围岩为甘草胡组围岩"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "甘草胡组围岩属于下石炭统甘草胡组地层单元"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "喜迎金矿床各矿脉分布于伊尔托古什布拉克韧-脆性剪切带北侧矿化蚀变带内，矿床展布受该剪切带控制"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "产出于",
+"description": "喜迎金矿床具体产出于次级断裂系统中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "喜迎金矿床成矿流体为以岩浆水为主并混有变质水的CO2-H2O-NaCl体系流体"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "喜迎金矿床围岩蚀变主要包括硅化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要蚀变为",
+"description": "喜迎金矿床围岩蚀变主要包括黄铁矿化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要蚀变为",
+"description": "喜迎金矿床围岩蚀变主要包括黄铜矿化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要蚀变为",
+"description": "喜迎金矿床围岩蚀变主要包括碳酸盐化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "主要蚀变为",
+"description": "喜迎金矿床围岩蚀变主要包括黄绢岩化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "主要蚀变为",
+"description": "喜迎金矿床围岩蚀变主要包括绿泥石化"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "主要金矿物为",
+"description": "喜迎金矿床发现的金矿物较单一，仅见自然金"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "喜迎金矿床中黄铁矿为主要载金矿物"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "喜迎金矿床围岩黄铜矿化与金矿化关系密切"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S范围及分组特征指示硫来源具有非单一成因特征并与深源贡献相关"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素比值稳定并结合区域背景用于约束成矿物质来源"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "碳同位素δ13C显示地幔来源与地层来源并存，用于约束成矿流体与成矿物质来源"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "氢同位素δD范围较窄表明成矿过程中流体氢同位素组成基本稳定，指示流体来源特征"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "计算得到的δ18O_H2O范围较宽并出现漂移现象，可能与大气降水参与水-岩反应或不同来源流体混合有关"
+}
+]
+}

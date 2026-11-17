@@ -1,0 +1,339 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0220",
+"title": "新疆西天山加曼特金矿床赋矿围岩年代学、地球化学及地质意义_郑少华",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "加曼特金矿床",
+"attributes": {
+"name": "加曼特金矿床",
+"location": "新疆尼勒克县以北，距尼勒克县城约38 km，也列莫顿火山断陷盆地内",
+"tectonic_position": "西天山北支地块构造位置位于哈萨克斯坦板块、伊犁—中天山板块北缘博罗科努古生代岛弧带的上叠晚古生代火山岩区",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "石英脉型矿石品位多为1.0～5.6 g/t（平均2.3 g/t，个别可达20.5 g/t）；火山角砾岩型矿石品位多为1.0～4.2 g/t（平均2.3 g/t，个别可达23.1 g/t）；蚀变岩型矿石品位多为1.0～3.8 g/t（平均2.2 g/t，个别可达18.1 g/t）",
+"ore_control_features": "矿床赋存于大哈拉军山组岩屑晶屑凝灰岩和花岗斑岩中；矿区发育北北西向F5及北东向F6、F7断裂，断裂及伴生断裂为矿物质运移的主要通道和容矿构造，控制金矿体产出；矿石类型包括石英脉型、角砾岩型和蚀变岩型",
+"age_ma": "362～331Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西天山博罗科努铜、钼、金多金属成矿带",
+"attributes": {
+"name": "西天山博罗科努铜、钼、金多金属成矿带",
+"level": "成矿带",
+"tectonic_setting": "中亚造山带西南缘西天山北支晚古生代岩浆岩发育区，是我国重要铜、铅、锌、金等金属矿产富集区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿希矿集区",
+"attributes": {
+"name": "阿希矿集区",
+"level": "矿集区",
+"tectonic_setting": "西天山北支地块构造位置位于哈萨克斯坦板块、伊犁—中天山板块北缘博罗科努古生代岛弧带的上叠晚古生代火山岩区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "也列莫顿火山断陷盆地",
+"attributes": {
+"name": "也列莫顿火山断陷盆地",
+"level": "火山断陷盆地",
+"tectonic_setting": "阿希矿集区东部火山断陷盆地，与吐拉苏火山断陷盆地并列分布"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "大哈拉军山组",
+"attributes": {
+"name": "大哈拉军山组",
+"age": "晚泥盆世（岩屑晶屑凝灰岩成岩时代(365.9±3.0)Ma，花岗斑岩成岩时代(362.3±4.3)Ma）",
+"dominant_lithology": "酸性火山岩及火山碎屑岩",
+"lithology_notes": "自下而上可分为角砾岩段、酸性凝灰岩段、下安山岩段、安山质角砾岩段和上安山岩段"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "岩屑晶屑凝灰岩",
+"attributes": {
+"name": "岩屑晶屑凝灰岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "花岗斑岩",
+"attributes": {
+"name": "花岗斑岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "F5断裂",
+"attributes": {
+"name": "F5断裂",
+"structure_type": "断裂",
+"orientation": "北北西向",
+"scale": "矿区级",
+"ore_control_role": "为矿物质运移的主要通道和容矿构造，控制金矿体产出"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "F6、F7断裂",
+"attributes": {
+"name": "F6、F7断裂",
+"structure_type": "断裂",
+"orientation": "北东向",
+"scale": "矿区级",
+"ore_control_role": "为矿物质运移的主要通道和容矿构造，控制金矿体产出"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "绢英岩化",
+"attributes": {
+"name": "绢英岩化",
+"alteration_minerals": "绢云母、石英"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要非金属矿物"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "主要非金属矿物"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geochem",
+"name_zh": "赋矿围岩地球化学特征",
+"attributes": {
+"element": "Rb",
+"anomaly_pattern": "赋矿围岩为高钾钙碱性系列岩石；富集轻稀土、Th和大离子亲石元素（Rb、K）；亏损Sr、Ba及高场强元素（Nb、Ta、Ti、P）和重稀土元素"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "加曼特金矿床是西天山博罗科努铜、钼、金多金属成矿带中的浅成低温热液金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "加曼特金矿床位于阿希矿集区内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "加曼特金矿床位于也列莫顿火山断陷盆地内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "加曼特金矿床矿体赋存于岩屑晶屑凝灰岩中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "加曼特金矿床矿体赋存于花岗斑岩中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "岩屑晶屑凝灰岩为大哈拉军山组的一部分"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "矿区北北西向F5断裂及伴生断裂为矿物质运移通道和容矿构造，控制金矿体产出"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "矿区北东向F6、F7断裂及伴生断裂为矿物质运移通道和容矿构造，控制金矿体产出"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变包括硅化，其中硅化与金矿化关系密切"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变包括黄铁矿化，其中黄铁矿化与金矿化关系密切"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变包括绢英岩化，其中绢英岩化与金矿化关系密切"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要金属矿物包括方铅矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要金属矿物包括黄铜矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要金属矿物包括闪锌矿"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要非金属矿物包括石英"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要非金属矿物包括方解石"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "显示",
+"description": "加曼特金矿床赋矿围岩地球化学显示高钾钙碱性系列特征，富集轻稀土、Th及大离子亲石元素（Rb、K），亏损Sr、Ba及Nb、Ta、Ti、P等高场强元素与重稀土元素"
+}
+]
+}

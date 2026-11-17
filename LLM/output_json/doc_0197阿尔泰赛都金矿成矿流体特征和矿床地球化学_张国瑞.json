@@ -1,0 +1,231 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0197",
+"title": "阿尔泰赛都金矿成矿流体特征和矿床地球化学_张国瑞",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "赛都金矿床",
+"attributes": {
+"name": "赛都金矿床",
+"location": "新疆阿尔泰地区哈巴河县城北东约18km（中哈边境一带）",
+"tectonic_position": "西伯利亚板块南缘邻近缝合带的“矿区阿尔泰”岛弧（克兰弧后盆地西端）",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿石平均品位约3.71×10^-6（折合约3.71 g/t）",
+"ore_control_features": "严格受NW向巨型玛尔卡库里韧性剪切构造带控制；主矿段位于玛尔卡库里剪切带及其衍生的托库孜巴依剪切带分叉处；矿体多赋存于构造破碎带或剪切作用形成的韧-脆性扩容构造带中心，并与糜棱岩化强变形带空间一致",
+"age_ma": "约300Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿尔泰南缘",
+"attributes": {
+"name": "阿尔泰南缘",
+"level": "成矿带",
+"tectonic_setting": "中亚巨型构造成矿带组成部分（阿尔泰造山带南缘）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中下泥盆统托克萨雷组",
+"attributes": {
+"name": "中下泥盆统托克萨雷组",
+"age": "中下泥盆世",
+"dominant_lithology": "以沉积岩为主的变质碎屑岩建造，局部夹少量火山岩",
+"lithology_notes": "主要由石英绢云千枚岩、变砂岩等组成；沉积岩以页岩、砂岩、杂砂岩为主"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "托克萨雷组变质碎屑岩围岩（石英绢云千枚岩、变砂岩等）",
+"attributes": {
+"name": "托克萨雷组变质碎屑岩围岩（石英绢云千枚岩、变砂岩等）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里巨型韧性剪切构造带",
+"attributes": {
+"name": "玛尔卡库里巨型韧性剪切构造带",
+"structure_type": "韧性剪切带",
+"orientation": "NW向",
+"scale": "长度百余公里，宽约1-3km",
+"ore_control_role": "控制矿体分布与产状，主矿段位于其与托库孜巴依剪切带分叉部位，矿体多赋存于剪切构造破碎带及韧-脆性扩容带中心"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "托库孜巴依剪切构造带",
+"attributes": {
+"name": "托库孜巴依剪切构造带",
+"structure_type": "剪切带",
+"orientation": "NW向",
+"scale": "玛尔卡库里剪切带的衍生剪切构造带",
+"ore_control_role": "与玛尔卡库里剪切带交汇分叉处控制主矿段展布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化-硫化物化-碱交代蚀变",
+"attributes": {
+"name": "硅化-硫化物化-碱交代蚀变",
+"alteration_minerals": "石英、硫化物（以黄铁矿为主）、绢云母、绿泥石、碳酸盐矿物",
+"intensity": "矿床中心部位蚀变最强（硅化+硫化物化+碱交代），向两侧硅化与硫化物化减弱，绿泥石化与碳酸盐化增强"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "矿区最常见硫化物之一，为主要载金矿物之一",
+"paragenesis": "与石英脉及硫化物化蚀变共生，广泛分布于地层、岩浆岩及蚀变带/矿化带"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Fluid",
+"name_zh": "赛都金矿成矿流体",
+"attributes": {
+"nature": "中低温、中低盐度、较低密度的盐水体系；早阶段富二氧化碳与氮等挥发分，晚期以富水为主；流体由二氧化碳流体向水溶液流体转变",
+"source": "成矿早期以岩浆水为主，晚期向大气降水演化",
+"temperature_C_min": "160",
+"temperature_C_max": "200",
+"salinity_wtNaCl_min": "0.35",
+"salinity_wtNaCl_max": "9.86"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Isotope",
+"name_zh": "赛都金矿氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O_H2O、δD",
+"value_range": "δ18O_H2O=-5.60‰～8.09‰（平均-0.49‰）；δD=-66.15‰～-60.10‰（平均-62.54‰）"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "赛都金矿硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "δ34S=3.53‰～5.88‰（平均4.86‰）"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "赛都金矿铅同位素参数",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "206Pb/204Pb、207Pb/204Pb、208Pb/204Pb",
+"value_range": "206Pb/204Pb=18.0997～18.3585；207Pb/204Pb=15.4877～15.5790；208Pb/204Pb=38.1116～38.3551"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河斜长花岗岩体",
+"attributes": {
+"name": "哈巴河斜长花岗岩体",
+"rock_type": "斜长花岗岩",
+"age": "K-Ar法年龄284.4～277.3Ma；Rb-Sr等时线年龄297±11Ma",
+"relationship_to_ore": "侵入作用与剪切构造活动及金矿化密切相关，岩浆活动为金成矿提供能量、水热介质及部分矿源"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "赛都金矿床位于阿尔泰南缘成矿带范围内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "赛都金矿床矿体主要赋存于托克萨雷组变质碎屑岩围岩中，并与强糜棱岩化带空间一致"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "托克萨雷组变质碎屑岩围岩属于中下泥盆统托克萨雷组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "赛都金矿床严格受玛尔卡库里巨型韧性剪切构造带控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "赛都金矿床主矿段受托库孜巴依剪切构造带与玛尔卡库里剪切带分叉交汇部位控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "赛都金矿床围岩蚀变以硅化、硫化物化及碱交代为主，向两侧过渡为绿泥石化与碳酸盐化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "赛都金矿床矿化阶段常见硫化物矿物黄铁矿，为主要载金矿物之一"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "对应成矿流体为",
+"description": "赛都金矿床对应的成矿流体为中低温、中低盐度盐水体系，早期富挥发分，晚期富水"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素参数约束赛都金矿成矿流体由早期岩浆水向晚期大气降水演化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "哈巴河斜长花岗岩体侵入托克萨雷组地层并在区域上广泛出露"
+}
+]
+}

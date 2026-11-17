@@ -1,0 +1,543 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0045",
+"title": "新疆东准噶尔南明水金矿床地质地球化学特征及成因",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿床",
+"attributes": {
+"name": "南明水金矿床",
+"location": "新疆东准噶尔奇台县苏吉泉附近",
+"tectonic_position": "夹持于NW-NWW向卡拉麦里深大断裂与清水-苏吉泉大断裂之间，属于卡拉麦里成矿带东段",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体由石英脉/石英-电气石脉和蚀变岩组成，呈脉状或透镜状，受NWW-NW向次级左行韧脆性断裂控制，赋矿围岩为下石炭统姜巴斯套组浅变质海相火山碎屑-沉积岩，围岩硅化及毒砂-黄铁矿化与金成矿关系最为密切",
+"age_ma": "约314Ma（含金石英脉热液锆石206Pb/238U加权平均年龄314.1±3.0Ma，成矿年龄范围约339~311Ma）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带",
+"attributes": {
+"name": "卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "位于新疆东准噶尔地区的造山型金成矿带，南明水金矿床位于其东段"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "新疆东准噶尔地区",
+"attributes": {
+"name": "新疆东准噶尔地区",
+"level": "区域",
+"tectonic_setting": "位于新疆东北部的造山带与活动大陆边缘地区，包含卡拉麦里成矿带等金成矿区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统姜巴斯套组",
+"attributes": {
+"name": "下石炭统姜巴斯套组",
+"age": "下石炭统",
+"dominant_lithology": "凝灰质砂岩与玄武岩为主的一套浅变质（绿纤石-葡萄石相）海相火山碎屑-沉积岩",
+"lithology_notes": "赋矿围岩为下石炭统姜巴斯套组凝灰质砂岩与玄武岩，属浅变质海相火山碎屑-沉积岩系"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "姜巴斯套组凝灰质砂岩围岩单元",
+"attributes": {
+"name": "姜巴斯套组凝灰质砂岩围岩单元"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "姜巴斯套组玄武岩围岩单元",
+"attributes": {
+"name": "姜巴斯套组玄武岩围岩单元"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里深大断裂",
+"attributes": {
+"name": "卡拉麦里深大断裂",
+"structure_type": "深大断裂",
+"orientation": "总体NW-NWW向展布",
+"scale": "区域性深大断裂构造",
+"ore_control_role": "与清水-苏吉泉大断裂共同夹持南明水金矿床所在的构造带，是矿床的重要区域控矿构造之一"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "清水-苏吉泉大断裂",
+"attributes": {
+"name": "清水-苏吉泉大断裂",
+"structure_type": "大断裂",
+"orientation": "总体近东西向展布（局部受NW-NWW向构造影响）",
+"scale": "区域性大断裂构造",
+"ore_control_role": "与卡拉麦里深大断裂共同构成夹持南明水金矿床的深大断裂边界，对矿床空间位置具有重要控制作用"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "NWW-NW向次级左行韧脆性断裂",
+"attributes": {
+"name": "NWW-NW向次级左行韧脆性断裂",
+"structure_type": "次级韧脆性断裂",
+"orientation": "NWW-NW向，高角度左行走滑",
+"scale": "发育于卡拉麦里深大断裂与清水-苏吉泉大断裂之间的次级断裂带内",
+"ore_control_role": "矿体呈脉状或透镜体状受NWW-NW向次级左行韧脆性断裂控制，是南明水金矿床的直接控矿构造"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "硅化-毒砂/黄铁矿化-绢云母化-碳酸盐化-绿泥石/绿帘石化蚀变组合",
+"attributes": {
+"name": "硅化-毒砂/黄铁矿化-绢云母化-碳酸盐化-绿泥石/绿帘石化蚀变组合",
+"alteration_minerals": "石英、毒砂、黄铁矿、绢云母、碳酸盐矿物、绿泥石、绿帘石等",
+"intensity": "围岩蚀变水平分带明显，以含金石英脉为中心对称分布，由内向外依次为硅化-毒砂/黄铁矿化-绢云母化带和绢云母化-碳酸盐化-绿泥石/绿帘石化带，其中硅化及毒砂-黄铁矿化带与金成矿关系最为密切"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "含量较少，主要以包体金形式赋存于毒砂和石英中，与毒砂、黄铁矿、黄铜矿、黝铜矿及少量褐铁矿、赤铁矿等共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要含金金属硫化物矿物",
+"paragenesis": "为矿石中金属矿物的主要组成之一，与黄铁矿共为主要金属硫化物，同时与自然金、黄铜矿、黝铜矿等共生，集中于硅化-毒砂/黄铁矿化带中"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要含金金属硫化物矿物",
+"paragenesis": "与毒砂共同构成矿石中主要金属硫化物矿物，含量小于5%，与自然金、黄铜矿、黝铜矿、褐铁矿、赤铁矿等共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "次要金属硫化物矿物",
+"paragenesis": "在矿石中为次要金属矿物，与毒砂、黄铁矿、黝铜矿及少量自然金等共生"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黝铜矿",
+"attributes": {
+"name": "黝铜矿",
+"role_in_ore": "次要金属硫化物矿物",
+"paragenesis": "含量较少，与黄铜矿、毒砂、黄铁矿等共生，为南明水金矿床多金属硫化物组合的一部分"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "次要金属矿物，多为黄铁矿等氧化后的产物",
+"paragenesis": "在矿石中含量较少，与自然金、黄铁矿、赤铁矿等共生，部分为黄铁矿等氧化形成"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "赤铁矿",
+"attributes": {
+"name": "赤铁矿",
+"role_in_ore": "次要金属矿物",
+"paragenesis": "在矿石中为少量金属矿物，与褐铁矿、黄铁矿等共生，出现于氧化较强的部位"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "为石英脉型金矿石的主要脉石，乳白色石英及石英-电气石脉广泛发育，自然金多以包体形式产于石英和硫化物中"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "电气石",
+"attributes": {
+"name": "电气石",
+"role_in_ore": "重要非金属矿物，与含金石英脉密切相关",
+"paragenesis": "石英-电气石脉是中阶段主成矿阶段的重要脉体类型之一，电气石与石英、自然金及多金属硫化物共生"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "围岩及矿石中的重要蚀变矿物",
+"paragenesis": "为非金属矿物中的主要组成之一，在绢云母化带及石英-方解石-绢云母阶段中发育，与石英、碳酸盐矿物、绿泥石等共生"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "重要碳酸盐类脉石矿物",
+"paragenesis": "在晚阶段石英-方解石-绢云母阶段中大量充填，与石英、绢云母等共生，部分方解石记录了成矿流体C-O同位素特征"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "绿泥石",
+"attributes": {
+"name": "绿泥石",
+"role_in_ore": "低温蚀变矿物",
+"paragenesis": "为围岩及矿石中的非金属矿物之一，在绢云母化-碳酸盐化-绿泥石/绿帘石化带中发育，与绢云母、碳酸盐矿物等共生"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "绿帘石",
+"attributes": {
+"name": "绿帘石",
+"role_in_ore": "次要非金属矿物",
+"paragenesis": "在外带绢云母化-碳酸盐化-绿泥石/绿帘石化带中出现，与绿泥石等共生，为中低温蚀变产物之一"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Fluid",
+"name_zh": "南明水金矿床成矿流体",
+"attributes": {
+"nature": "中高温、低盐度、中低密度的CO2-H2O-NaCl±CH4体系成矿流体，早中阶段含大量CO2，晚阶段演化为贫CO2的H2O-NaCl体系",
+"source": "主体为区域变质过程中由下石炭统姜巴斯套组等地层脱流体形成的变质水，成矿过程中与富有机质围岩发生水-岩反应",
+"temperature_C_min": "约174",
+"temperature_C_max": "约361",
+"pressure_MPa_min": "约214",
+"pressure_MPa_max": "约397",
+"salinity_wtNaCl_min": "约0.4",
+"salinity_wtNaCl_max": "约6.0"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Isotope",
+"name_zh": "成矿流体氢氧同位素参数",
+"attributes": {
+"system": "H-O",
+"parameter_name": "δ18OH2O与δDV-SMOW",
+"value_range": "δ18OH2O值为3.9‰~10.9‰，基本落于变质水范围；δDV-SMOW值为-99‰~-62.9‰，低于典型变质水和岩浆水"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Isotope",
+"name_zh": "热液方解石C-O同位素参数",
+"attributes": {
+"system": "C-O",
+"parameter_name": "δ13CPDB与δ18OSMOW",
+"value_range": "热液方解石δ13CPDB为3.5‰，δ18OSMOW为17.9‰，与金水泉矿区灰岩C-O同位素组成相似"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Isotope",
+"name_zh": "硫化物硫同位素参数",
+"attributes": {
+"system": "S",
+"parameter_name": "δ34S",
+"value_range": "矿石中硫化物δ34S值为1.8‰~4.0‰，平均约3.3‰，接近深源硫但反映为赋矿地层与玄武岩（蛇绿岩成分）的混合硫"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Isotope",
+"name_zh": "矿石铅同位素参数",
+"attributes": {
+"system": "Pb",
+"parameter_name": "铅同位素组成",
+"value_range": "矿石铅表现为造山带与地幔混合源铅特征，指示部分成矿物质来源于矿区玄武岩及深源物质"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Isotope",
+"name_zh": "热液锆石U-Pb年龄参数",
+"attributes": {
+"system": "U-Pb",
+"parameter_name": "206Pb/238U加权平均年龄",
+"value_range": "含金石英脉中热液锆石LA-ICP-MS 206Pb/238U加权平均年龄为314.1±3.0Ma，与根据地质特征限定的成矿年龄339~311Ma相吻合"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "南明水金矿床属于卡拉麦里成矿带东段，是该成矿带内的重要造山型金矿床之一"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "南明水金矿床位于新疆东准噶尔地区奇台县苏吉泉附近"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿床夹持于NW-NWW向卡拉麦里深大断裂与清水-苏吉泉大断裂之间，卡拉麦里深大断裂为矿床的区域控矿构造之一"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "清水-苏吉泉大断裂与卡拉麦里深大断裂共同构成南明水金矿床所在的深大断裂边界，对矿床空间位置具有重要控制作用"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿床的矿体呈脉状或透镜体状，受NWW-NW向次级左行韧脆性断裂控制，是矿体赋存的直接控矿构造"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "南明水金矿床矿体主要赋存于下石炭统姜巴斯套组的凝灰质砂岩围岩单元中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "部分矿体赋存于下石炭统姜巴斯套组玄武岩围岩单元中，与玄武岩有关的热液活动提供了成矿物质来源之一"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "姜巴斯套组凝灰质砂岩围岩单元在地层上属于下石炭统姜巴斯套组"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "姜巴斯套组玄武岩围岩单元在地层上亦属于下石炭统姜巴斯套组"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "南明水金矿床围岩蚀变以硅化、毒砂-黄铁矿化、绢云母化、碳酸盐化及绿泥石/绿帘石化为主，围绕含金石英脉呈水平分带分布，其中硅化和毒砂-黄铁矿化带与金成矿关系最为密切"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "南明水金矿床的主要金矿物为自然金，自然金主要以包体形式赋存于毒砂和石英中"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "毒砂为矿石中最主要的金属硫化物矿物之一，与黄铁矿共同构成主要金属矿物，并与自然金、黄铜矿、黝铜矿等共生"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铁矿与毒砂一起为南明水金矿床的主要金属硫化物矿物，并与自然金、黄铜矿、黝铜矿及少量褐铁矿、赤铁矿等共生"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铜矿在矿石中含量较少，为次要金属硫化物矿物，与毒砂、黄铁矿、黝铜矿及自然金等共生"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "黝铜矿为次要金属硫化物矿物，在多金属硫化物阶段与黄铜矿、毒砂、黄铁矿等共生"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "褐铁矿为次要金属矿物，多为黄铁矿等氧化后的产物，与自然金、黄铁矿、赤铁矿等共生"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "赤铁矿在南明水金矿石中为少量金属矿物，与褐铁矿、黄铁矿等共生，反映局部氧化环境"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "脉石矿物包括",
+"description": "石英为南明水金矿床的主要脉石矿物，乳白色石英及石英-电气石脉广泛发育，是石英脉型金矿石的主要载体"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "脉石矿物包括",
+"description": "电气石为重要非金属矿物，广泛产于石英-电气石脉中，与自然金及多金属硫化物共生"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "绢云母为围岩及矿石中的重要蚀变矿物，在绢云母化及石英-方解石-绢云母阶段中广泛发育"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "脉石矿物包括",
+"description": "方解石为晚阶段石英-方解石-绢云母阶段的主要碳酸盐脉石矿物之一，并记录了成矿流体的C-O同位素信息"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "绿泥石为中低温蚀变矿物，在绢云母化-碳酸盐化-绿泥石/绿帘石化带中出现，与绢云母、碳酸盐矿物等共生"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "绿帘石为次要非金属矿物，在外带绢云母化-碳酸盐化-绿泥石/绿帘石化带中出现，与绿泥石等共同组成蚀变矿物组合"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "对应成矿流体为",
+"description": "流体包裹体研究表明南明水金矿床成矿流体为中高温（174~361℃）、低盐度（≤6.0wt%）、中低密度（0.69~1.01g/cm3）的CO2-H2O-NaCl±CH4体系，成矿深度为中深成（约8.1~15.0km），早中阶段富CO2，晚阶段演化为贫CO2的H2O-NaCl体系"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E25",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体氢氧同位素参数表明δ18OH2O为3.9‰~10.9‰、δDV-SMOW为-99‰~-62.9‰，总体落于变质水范围且明显低于典型岩浆水，指示成矿流体主要来源于变质水并与富有机质围岩发生水-岩反应"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E26",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "热液方解石C-O同位素组成（δ13CPDB为3.5‰，δ18OSMOW为17.9‰）与金水泉矿区灰岩相似，暗示成矿流体中的碳主要来源于海相碳酸盐岩的溶解或去碳酸作用"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E27",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "硫化物δ34S值为1.8‰~4.0‰，平均约3.3‰，接近深源硫范围，结合玄武岩背景认为成矿流体中的硫为赋矿地层与玄武岩（蛇绿岩成分）的混合硫"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E28",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "矿石铅同位素表现为造山带与地幔混合源铅特征，表明成矿流体中部分成矿物质（包括金属元素）来源于矿区玄武岩及深部地幔物质"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E29",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "含金石英脉中热液锆石206Pb/238U加权平均年龄314.1±3.0Ma确定了南明水金矿床成矿流体活动及成矿事件发生于晚石炭世碰撞造山向伸展环境构造体制转换时期"
+}
+]
+}

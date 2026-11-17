@@ -1,0 +1,271 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0088",
+"title": "新疆新源县卡特巴阿苏金矿地质特征及成因分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "新疆新源县卡特巴阿苏矿区",
+"tectonic_position": "尼古拉耶夫带在国内的延伸那拉提-红柳河构造带，伊犁微板块与中天山板块碰撞相关区域",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体受断裂构造控制，主要赋存于近东西向构造蚀变带中，呈脉状、透镜状产出；成矿流体沿次级断裂充填蚀变并在有利构造部位沉积成矿"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "尼古拉耶夫带",
+"attributes": {
+"name": "尼古拉耶夫带",
+"level": "成矿带",
+"tectonic_setting": "中亚重要的金成矿带，被称为中亚金腰带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "那拉提-红柳河构造带",
+"attributes": {
+"name": "那拉提-红柳河构造带",
+"level": "构造带",
+"tectonic_setting": "尼古拉耶夫带在国内的延伸，为新疆重要的铁、铜、金、多金属成矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "近东西向断裂构造",
+"attributes": {
+"name": "近东西向断裂构造",
+"structure_type": "断裂",
+"orientation": "近东西向",
+"scale": "矿区",
+"ore_control_role": "控制矿体赋存与展布"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "北东东向韧脆性走滑断裂",
+"attributes": {
+"name": "北东东向韧脆性走滑断裂",
+"structure_type": "韧脆性走滑断裂",
+"orientation": "北东东向",
+"scale": "矿区",
+"ore_control_role": "为次级断裂，利于成矿流体充填蚀变并沉积成矿"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "北西西向韧脆性走滑断裂",
+"attributes": {
+"name": "北西西向韧脆性走滑断裂",
+"structure_type": "韧脆性走滑断裂",
+"orientation": "北西西向",
+"scale": "矿区",
+"ore_control_role": "为次级断裂，利于成矿流体充填蚀变并沉积成矿"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "近东西向构造蚀变带",
+"attributes": {
+"name": "近东西向构造蚀变带"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化",
+"attributes": {
+"name": "黄铁绢英岩化"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "钾化",
+"attributes": {
+"name": "钾化"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "绢英岩化",
+"attributes": {
+"name": "绢英岩化",
+"intensity": "弱"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "矿区金主要的载体矿物",
+"paragenesis": "石英-黄铁矿脉型；金-石英-黄铁矿阶段"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "成矿脉体主要矿物之一",
+"paragenesis": "石英-黄铁矿脉型"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "成矿流体"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "IntrusiveBody",
+"name_zh": "二长花岗岩",
+"attributes": {
+"name": "二长花岗岩",
+"rock_type": "二长花岗岩（过铝、碱性，高钾钙碱性系列，S型）",
+"relationship_to_ore": "卡特巴阿苏金矿区花岗岩类岩石之一"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "IntrusiveBody",
+"name_zh": "花岗类侵入岩",
+"attributes": {
+"name": "花岗类侵入岩",
+"rock_type": "花岗岩类侵入岩",
+"relationship_to_ore": "为矿区“矿源层”"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "新源县卡特巴阿苏金矿位于那拉提-红柳河构造带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金矿位于尼古拉耶夫带所对应的中亚金腰带区域体系内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "矿体受近东西向断裂构造控制，主要赋存于近东西向构造蚀变带中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "北东东向韧脆性走滑断裂作用使岩体破碎并为成矿流体运移提供通道"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "北西西向韧脆性走滑断裂作用使岩体破碎并为成矿流体运移提供通道"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "矿体主要赋存于近东西向构造蚀变带中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "硅化蚀变与金成矿关系密切"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "黄铁绢英岩化蚀变与金成矿关系密切"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "围岩蚀变分带中发育钾化蚀变"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "围岩蚀变分带中发育弱绢英岩化蚀变"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "细粒它形及粉末状黄铁矿是矿区金主要的载体矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "矿床为石英-黄铁矿脉型，石英与黄铁矿共生出现"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "成矿流体沿次级断裂充填蚀变并在有利构造部位沉积成矿"
+}
+]
+}

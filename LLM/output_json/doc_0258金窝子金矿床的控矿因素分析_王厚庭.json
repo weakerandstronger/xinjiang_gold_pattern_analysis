@@ -1,0 +1,239 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0258",
+"title": "金窝子金矿床的控矿因素分析_王厚庭",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金窝子金矿床（北矿区）",
+"attributes": {
+"name": "金窝子金矿床（北矿区）",
+"location": "甘新北山地区金窝子矿田北矿区（金窝子花岗闪长岩体内及接触带附近）",
+"tectonic_position": "中朝—塔里木板块与哈萨克斯坦板块俯冲碰撞带南缘的甘新北山中带东段，塔里木板块东北部北山裂谷中部",
+"deposit_type": "造山型金矿床",
+"ore_grade": "金品位＞8×10^-6",
+"ore_control_features": "含金石英脉型矿体产于金窝子花岗闪长岩体内及接触带附近，矿体多为脉状、透镜状，分枝复合、膨胀狭缩，连续性较好；单脉长20～500m，宽0.5～数m（平均0.8m），脉间距20～100m；脉体多受近南北向（NNW）高角度张性—张扭性断层控制，倾向225°～275°，倾角65°～80°"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "甘新北山中带东段",
+"attributes": {
+"name": "甘新北山中带东段",
+"level": "地区",
+"tectonic_setting": "西伯利亚—哈萨克斯坦—准噶尔与塔里木板块交汇部位的塔里木板块东北部北山裂谷中部"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "照壁山—破城山贵金属金成矿带",
+"attributes": {
+"name": "照壁山—破城山贵金属金成矿带",
+"level": "成矿带",
+"tectonic_setting": "甘新北山地区中成矿带内的重要贵金属金成矿带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统金窝子组",
+"attributes": {
+"name": "上泥盆统金窝子组",
+"age": "晚泥盆世",
+"dominant_lithology": "凝灰质砂岩、碳质板岩、钙质砂岩",
+"lithology_notes": "夹少量碳酸盐岩和中酸性火山岩及中基性火山岩；岩石已发生中—浅变质作用，多为片岩相和千枚岩相"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "金窝子花岗闪长岩体内及接触带附近断裂破碎带",
+"attributes": {
+"name": "金窝子花岗闪长岩体内及接触带附近断裂破碎带"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "金窝子组凝灰质砂岩蚀变破碎带",
+"attributes": {
+"name": "金窝子组凝灰质砂岩蚀变破碎带"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "金窝子花岗闪长岩体",
+"attributes": {
+"name": "金窝子花岗闪长岩体",
+"rock_type": "花岗闪长岩",
+"age": "358.6Ma（U-Pb同位素年龄）；354±31Ma（全岩Rb-Sr等时线年龄）",
+"relationship_to_ore": "北矿区石英脉型金矿化产于岩体内及接触带附近，含金石英脉主要充填于岩体内断裂破碎带"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "北东向与北东东向断裂",
+"attributes": {
+"name": "北东向与北东东向断裂",
+"structure_type": "断裂",
+"orientation": "北东向、北东东向",
+"scale": "矿田级",
+"ore_control_role": "为矿田内主要控矿、容矿构造，控制矿化在断裂破碎带中的分布"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "高角度张性—张扭性断层（近南北向或北北西向）",
+"attributes": {
+"name": "高角度张性—张扭性断层（近南北向或北北西向）",
+"structure_type": "张性—张扭性断层",
+"orientation": "走向近南北向或北北西向，倾角70°～90°或近于直立",
+"scale": "矿田级",
+"ore_control_role": "控制石英大脉型金矿化，石英脉显示充填结晶特征；矿床范围内发育40余条石英脉型金矿脉"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "北东东向韧脆性低角度逆冲断层",
+"attributes": {
+"name": "北东东向韧脆性低角度逆冲断层",
+"structure_type": "低角度逆冲断层",
+"orientation": "北东东向、低角度",
+"scale": "矿田级",
+"ore_control_role": "为210金矿床碎裂蚀变岩型（蚀变糜棱岩型为主）矿体的重要且唯一控矿构造"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化—硅化—绢云母化",
+"attributes": {
+"name": "黄铁矿化—硅化—绢云母化",
+"alteration_minerals": "黄铁矿、石英、绢云母",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化—绢云母化—硅化—碳酸盐化",
+"attributes": {
+"name": "黄铁矿化—绢云母化—硅化—碳酸盐化",
+"alteration_minerals": "黄铁矿、绢云母、石英、方解石",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "见于石英脉型矿石中，与硫化物共生"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物",
+"paragenesis": "与自然金、黄铜矿、方铅矿、闪锌矿等共生"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "金窝子组金含量数据",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "（7.2～17.7）×10^-9",
+"anomaly_pattern": "金窝子组地层金元素含量明显高于地壳平均丰度值（富集系数2.4）"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "金窝子金矿（北矿区）位于甘新北山中带东段的北山裂谷中部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "金窝子金矿（北矿区）属于照壁山—破城山贵金属金成矿带的重要组成部分"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "北矿区石英脉型矿体主要赋存于金窝子花岗闪长岩体内及接触带附近的断裂破碎带中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "金窝子组凝灰质砂岩蚀变破碎带属于上泥盆统金窝子组"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "金窝子花岗闪长岩体侵入上泥盆统金窝子组火山岩—沉积碎屑岩中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "北矿区石英脉型金矿化受近南北向或北北西向高角度张性—张扭性断层控制"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "北矿区石英脉型金矿近矿围岩主要蚀变为黄铁矿化、硅化和绢云母化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要金矿物为",
+"description": "北矿区石英脉型金矿矿石矿物主要包含自然金"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "北矿区石英脉型金矿共生金属硫化物矿物包括黄铁矿"
+}
+]
+}

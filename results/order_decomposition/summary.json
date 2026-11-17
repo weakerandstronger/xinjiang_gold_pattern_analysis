@@ -1,0 +1,33 @@
+{
+  "patterns_order2": 1398,
+  "patterns_order3": 10565,
+  "evidence_order2": 32.02149805956291,
+  "evidence_order3": 356.7790810252513,
+  "evidence_total": 388.8005790848142,
+  "weight_order2": 0.0823596974442202,
+  "weight_order3": 0.9176403025557798,
+  "max_score_error": 7.531752999057062e-13,
+  "max_share_error": 1.942890293094024e-15,
+  "max_pattern_metric_error": 0.0,
+  "max_item_group_error": 1.7763568394002505e-15,
+  "pair_only_mining_matches": true,
+  "within_order_share_sums": {
+    "2": 1.0,
+    "3": 1.0
+  },
+  "mathematics": {
+    "status": "passed",
+    "atol": 1e-10,
+    "rtol": 1e-08,
+    "exhaustive_eligible_candidates": 13738,
+    "direct_set_counts_all_patterns": true,
+    "max_lift_error": 5.684341886080802e-14,
+    "max_evidence_error": 5.551115123125783e-17,
+    "max_single_pattern_allocation_error": 5.551115123125783e-17,
+    "feature_total_residual": 5.684341886080801e-13,
+    "item_total_residual": 5.684341886080802e-14,
+    "direct_feature_formula_max_residual": 7.531752999057062e-13,
+    "within_feature_normalization_residual": 9.103828801926284e-15,
+    "global_normalization_residual": 1.5543122344752192e-15
+  }
+}

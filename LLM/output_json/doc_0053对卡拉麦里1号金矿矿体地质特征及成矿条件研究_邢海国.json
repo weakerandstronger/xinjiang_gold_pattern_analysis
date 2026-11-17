@@ -1,0 +1,66 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0053",
+"title": "对卡拉麦里 1 号金矿矿体地质特征及成矿条件研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡拉麦里1号金矿",
+"attributes": {
+"name": "卡拉麦里1号金矿",
+"location": "新疆富蕴县卡拉麦里地区卡拉麦里山西段北麓",
+"tectonic_position": "位于卡拉麦里山西段北麓东准噶尔褶皱带内，大地构造位置属天山内蒙区东准噶尔界山分区及准噶尔盆地分区交汇部位"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "卡拉麦里地区",
+"attributes": {
+"name": "卡拉麦里地区",
+"level": "矿区",
+"tectonic_setting": "位于新疆富蕴县境内，海拔约1200～1400m，为蕴含丰富金矿、找矿前景良好的有利成矿区域"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "东准噶尔褶皱带",
+"attributes": {
+"name": "东准噶尔褶皱带",
+"level": "褶皱带",
+"tectonic_setting": "位于卡拉麦里山西段北麓，属天山内蒙区东准噶尔界山分区范围内，褶皱、断层发育，为卡拉麦里1号金矿普查区所在的构造单元"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "东准噶尔盆地",
+"attributes": {
+"name": "东准噶尔盆地",
+"level": "盆地",
+"tectonic_setting": "卡拉麦里山为东准噶尔盆地的界山，区域横跨多个二级构造单元，构造活动强烈"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡拉麦里1号金矿位于新疆富蕴县卡拉麦里地区，是该地区重要的金矿床之一"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡拉麦里1号金矿普查区位于卡拉麦里山西段北麓的东准噶尔褶皱带内"
+}
+]
+}

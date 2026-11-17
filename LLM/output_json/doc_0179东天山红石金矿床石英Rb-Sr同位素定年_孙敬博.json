@@ -1,0 +1,208 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0179",
+"title": "东天山红石金矿床石英Rb-Sr同位素定年_孙敬博",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "红石金矿床",
+"attributes": {
+"name": "红石金矿床",
+"location": "新疆东天山地区",
+"tectonic_position": "秋格明塔什—黄山韧性剪切带南缘、阿奇山—雅满苏火山岩带北缘",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均品位约4～6克/吨",
+"ore_control_features": "成矿作用主要受秋格明塔什—黄山韧性剪切带控制，矿体沿近东西向构造带呈雁列式展布",
+"age_ma": "257±4百万年（石英流体包裹体铷-锶等时线），主成矿期为254～259百万年"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "康古尔塔格金矿带",
+"attributes": {
+"name": "康古尔塔格金矿带",
+"level": "金矿带",
+"tectonic_setting": "东天山晚古生代构造带（康古尔塔格构造带）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "秋格明塔什—黄山韧性剪切带",
+"attributes": {
+"name": "秋格明塔什—黄山韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "近东西向",
+"scale": "区域性",
+"ore_control_role": "控制红石金矿床成矿作用及矿体展布"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "干墩组",
+"attributes": {
+"name": "干墩组",
+"age": "石炭纪",
+"dominant_lithology": "深海细碎屑岩与类复理石杂砂岩建造",
+"lithology_notes": "以沉凝灰岩、含炭硅质岩、硅质凝灰岩、粉砂岩等为主，夹少量流纹岩及薄层灰岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "干墩组围岩",
+"attributes": {
+"name": "干墩组围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与石英及硫化物共生，产于主成矿阶段矿石中"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "阶段Ⅰ石英—黄铁矿阶段及后续阶段中发育"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "红石金矿床成矿流体",
+"attributes": {
+"nature": "H2O—CO2体系流体，整体表现为中低温、低盐度、中低密度并富CO2",
+"source": "可能来自深部，成矿演化过程中大气水参与显著增加",
+"temperature_C_min": "219",
+"temperature_C_max": "257",
+"salinity_wtNaCl_min": "1.05",
+"salinity_wtNaCl_max": "10.73"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "石英流体包裹体铷-锶同位素参数",
+"attributes": {
+"system": "铷-锶",
+"parameter_name": "初始锶同位素比值(87Sr/86Sr)",
+"value_range": "0.70997±0.00016"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "红石金矿床产于康古尔塔格金矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "红石金矿床成矿作用主要受秋格明塔什—黄山韧性剪切带控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "红石金矿床的赋矿地层为干墩组，矿体主要赋存于干墩组围岩中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "干墩组围岩在地层归属上属于干墩组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "红石金矿床近矿围岩蚀变主要包括硅化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "红石金矿床近矿围岩蚀变主要包括绢云母化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "红石金矿床矿石中的主要金属矿物包括自然金"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "红石金矿床矿石中的主要金属矿物与共生硫化物包括黄铁矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "红石金矿床主成矿阶段对应的成矿流体为富CO2的H2O—CO2体系中低温低盐度流体"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "石英流体包裹体铷-锶同位素初始87Sr/86Sr为0.70997±0.00016，用于约束成矿流体来源"
+}
+]
+}

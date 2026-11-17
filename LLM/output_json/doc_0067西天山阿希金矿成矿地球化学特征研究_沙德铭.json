@@ -1,0 +1,242 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0067",
+"title": "西天山阿希金矿成矿地球化学特征研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆西天山地区",
+"tectonic_position": "产于晚古生代陆相火山岩中",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "赋存于下石炭统大哈拉军山组中基性—中酸性火山岩中，容矿岩、近矿蚀变岩和矿石皆富集Au、Ag、As、Sb、Bi等低温组合元素"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西天山",
+"attributes": {
+"name": "西天山",
+"level": "造山带分段",
+"tectonic_setting": "新疆西天山造山带的一部分，为晚古生代陆相火山岩及大型金矿床发育区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组",
+"attributes": {
+"name": "下石炭统大哈拉军山组",
+"age": "下石炭统",
+"dominant_lithology": "中基性—中酸性火山岩",
+"lithology_notes": "以钙碱性为主，少量碱性系列岩石，整体具有富硅、富钠、贫铝、贫钾、贫镁、贫钙以及里特曼指数偏高等特征"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "阿希金矿容矿火山岩单元",
+"attributes": {
+"name": "阿希金矿容矿火山岩单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "近矿蚀变岩蚀变带",
+"attributes": {
+"name": "近矿蚀变岩蚀变带",
+"alteration_minerals": "与容矿火山岩相似并富集Au、Ag、As、Sb、Bi等低温组合元素的蚀变岩矿物组合",
+"intensity": "近矿蚀变岩及矿石中低温组合元素较容矿岩表现出渐进富集特征"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要含金硫化物及载硫矿物",
+"paragenesis": "产于含金矿石中，黄铁矿δ34S值为0.95‰~10.51‰，以深源火山成因硫为主"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿成矿流体",
+"attributes": {
+"nature": "K⁺[Na⁺]-SO₄²⁻[Cl⁻]型成矿流体，具有低温、低压、低盐度、富含CO₂、N₂、O₂及还原性气体的浅成低温热液特征",
+"source": "氢氧和锶同位素表明成矿流体以大气降水为主，并与区内容矿火山岩系具有密切成因联系",
+"temperature_C_min": "120",
+"temperature_C_max": "180",
+"pressure_MPa_min": "7.2",
+"pressure_MPa_max": "21.8",
+"salinity_wtNaCl_min": "2.4",
+"salinity_wtNaCl_max": "4.5"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Isotope",
+"name_zh": "阿希金矿铅同位素参数",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "矿区岩石及矿石铅同位素组成",
+"value_range": "矿区铅同位素组成206Pb/204Pb为17.5269~18.6644，207Pb/204Pb为15.1073~16.0108，208Pb/204Pb为37.3670~38.1958，数据点在构造模式图上显示壳幔混合源特征"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Isotope",
+"name_zh": "阿希金矿硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "黄铁矿δ34S",
+"value_range": "含金矿石中黄铁矿δ34S值为0.95‰~10.51‰，平均约4.93‰，峰值域4‰~6‰，整体为重硫型并以深源火山成因硫为主"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Isotope",
+"name_zh": "阿希金矿氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "成矿流体δ18O和δD",
+"value_range": "成矿流体δ18OH2O值为−9‰~-2‰，δDH2O值为−59‰~-115‰，与全球陆相火山岩区浅成低温金矿相似，指示成矿流体主要来源于大气降水"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "阿希金矿锶同位素参数",
+"attributes": {
+"system": "铷锶同位素",
+"parameter_name": "含金石英脉87Sr/86Sr初始比值",
+"value_range": "阿希金矿不同阶段含金石英脉锶同位素(87Sr/86Sr)i初始比值十分接近，约为0.706，且与区内容矿火山岩及矿化有关蚀变矿物87Sr/86Sr初始值相近，整体小于0.709而大于0.705"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "阿希金矿容矿火山岩地球化学特征",
+"attributes": {
+"element": "稀土元素及K、Rb、Ba、Th、Ti、Y、Yb、Sc等微量元素",
+"value_ppm": "岩石稀土元素含量中等，属于轻稀土富集型，分馏程度较高",
+"anomaly_pattern": "容矿火山岩以K、Rb、Ba、Th等大离子亲石元素富集和Ti、Y、Yb、Sc等高场强元素亏损为特征，稀土配分曲线表现为轻稀土富集、分馏明显，整体接近板内过渡型玄武岩系列"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "阿希金矿矿石及蚀变岩低温元素组合地球化学",
+"attributes": {
+"element": "Au、Ag、As、Sb、Bi等低温组合元素",
+"value_ppm": "容矿岩、近矿蚀变岩和矿石中Au、Ag、As、Sb、Bi含量依次升高，呈渐进富集趋势",
+"anomaly_pattern": "低温组合元素在容矿火山岩、近矿蚀变岩和矿石中由弱到强逐步富集，反映出成矿过程中金及伴生元素由围岩向矿体富集迁移的地球化学演化规律"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿是1990年代在西天山发现的产于晚古生代陆相火山岩中的大型金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿的容矿围岩为下石炭统大哈拉军山组中一套中基性—中酸性火山岩，可概括为阿希金矿容矿火山岩单元"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "阿希金矿容矿火山岩单元在地层上隶属于下石炭统大哈拉军山组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "伴随有",
+"description": "阿希金矿周围广泛发育近矿蚀变岩，蚀变岩中Au、Ag、As、Sb、Bi等低温组合元素相对于容矿岩进一步富集"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿含金矿石中发育大量黄铁矿，黄铁矿是主要含金硫化物，并记录了成矿硫同位素组成"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希金矿对应的成矿流体为K⁺[Na⁺]-SO₄²⁻[Cl⁻]型浅成低温热液流体，具有120~180℃低温、7.2~21.8 MPa低压、2.4%~4.5% NaCl低盐度并富含CO₂、N₂、O₂等气体的特征"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "阿希金矿容矿火山岩地球化学特征表现为稀土元素中等含量、轻稀土富集及K、Rb、Ba、Th等大离子亲石元素富集、Ti、Y、Yb、Sc等高场强元素亏损等特征"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "阿希金矿容矿岩、近矿蚀变岩和矿石中Au、Ag、As、Sb、Bi等低温组合元素由弱到强渐进富集，体现出典型浅成低温热液成矿的地球化学演化特征"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素组成显示阿希矿区岩浆活动和成矿作用具有壳幔混合源特征，表明成矿流体及金属物质与深部幔源和壳源物质均有成因联系"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿硫同位素δ34S值整体为重硫型且以深源火山成因硫为主，说明成矿流体中的硫主要来自深部火山—岩浆体系"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体氢氧同位素组成与全球陆相火山岩区浅成低温金矿相似，表明阿希金矿成矿流体以大气降水为主"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "含金石英脉锶同位素初始比值与区内容矿火山岩及蚀变矿物十分接近，指示成矿物质主要来源于区内火山岩和次火山岩"
+}
+]
+}

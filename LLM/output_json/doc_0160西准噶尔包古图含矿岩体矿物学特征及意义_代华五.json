@@ -1,0 +1,180 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0160",
+"title": "西准噶尔包古图含矿岩体矿物学特征及意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "包古图II号脉状铜金矿床",
+"attributes": {
+"name": "包古图II号脉状铜金矿床",
+"location": "包古图河东侧II号岩体西南部接触带",
+"ore_control_features": "II号岩体西南部接触带发育3条含金石英脉及1条含铜石英脉"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床",
+"attributes": {
+"name": "包古图金矿床",
+"location": "包古图地区",
+"ore_control_features": "产出于岩体外围，岩体及外围中基性岩脉发育"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "西准噶尔",
+"attributes": {
+"name": "西准噶尔",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "包古图铜金矿带",
+"attributes": {
+"name": "包古图铜金矿带",
+"level": "矿带",
+"tectonic_setting": "位于达拉布特岛弧南部，位于达拉布特断裂以南，与俯冲作用有关"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "包古图含矿岩体",
+"attributes": {
+"name": "包古图含矿岩体",
+"rock_type": "中性斑岩体（以闪长岩和石英闪长岩为主，次为花岗闪长斑岩）",
+"relationship_to_ore": "铜矿化及同期金矿化主要赋存于该岩体及其附近围岩中"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "包古图II号岩体",
+"attributes": {
+"name": "包古图II号岩体",
+"rock_type": "细晶闪长岩、石英闪长岩",
+"relationship_to_ore": "西南部接触带发育含金石英脉和含铜石英脉，构成II号脉状铜金矿床"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "V号岩体",
+"attributes": {
+"name": "V号岩体",
+"rock_type": "似斑状闪长岩、闪长玢岩、石英闪长玢岩",
+"relationship_to_ore": "包古图含矿岩体中以V号岩体矿化最好"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "III号岩体",
+"attributes": {
+"name": "III号岩体",
+"rock_type": "闪长岩、石英闪长岩",
+"relationship_to_ore": "与IV号岩体相邻，岩体外围为包古图金矿产出部位之一"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统希贝库拉斯组",
+"attributes": {
+"name": "下石炭统希贝库拉斯组",
+"age": "下石炭统"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "StratUnit",
+"name_zh": "包古图组",
+"attributes": {
+"name": "包古图组",
+"dominant_lithology": "凝灰岩、凝灰质粉砂岩",
+"lithology_notes": "III号岩体侵位于包古图组凝灰岩和凝灰质粉砂岩中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "HostRockUnit",
+"name_zh": "II号岩体西南部接触带",
+"attributes": {
+"name": "II号岩体西南部接触带"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "HostRockUnit",
+"name_zh": "岩体外围",
+"attributes": {
+"name": "岩体外围"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "包古图II号脉状铜金矿床位于西准噶尔包古图地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "包古图II号脉状铜金矿床为包古图铜金矿带内的脉状铜金矿床"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "赋存于",
+"description": "包古图II号脉状铜金矿床赋存于II号岩体西南部接触带发育的含金石英脉及含铜石英脉中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "包古图金矿位于西准噶尔包古图地区"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E12",
+"relation_label_zh": "赋存于",
+"description": "包古图金矿产出于岩体外围"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E9",
+"relation_label_zh": "侵入于",
+"description": "包古图II号岩体呈岩株形式侵位于下石炭统希贝库拉斯组"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E10",
+"relation_label_zh": "侵入于",
+"description": "III号岩体侵位于包古图组凝灰岩和凝灰质粉砂岩中"
+}
+]
+}

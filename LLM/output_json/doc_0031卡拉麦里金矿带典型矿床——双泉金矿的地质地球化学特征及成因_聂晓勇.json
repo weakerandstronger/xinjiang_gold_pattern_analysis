@@ -1,0 +1,203 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0031",
+"title": "卡拉麦里金矿带典型矿床———双泉金矿的地质地球化学特征及成因",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿床",
+"attributes": {
+"name": "双泉金矿床",
+"location": "东准噶尔卡拉麦里金矿带",
+"tectonic_position": "东准噶尔卡拉麦里金矿带中部的脆-韧性剪切带内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床产于韧性剪切带中，赋矿地层为下石炭统南明水组地层，矿石类型主要为蚀变岩型；韧性剪切带既为导矿构造又为容矿构造，构造作用及围岩蚀变共同控制金的活化、迁移和富集"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔卡拉麦里金矿带",
+"attributes": {
+"name": "东准噶尔卡拉麦里金矿带",
+"level": "金矿带",
+"tectonic_setting": "卡拉麦里带为碰撞造山后陆内逆掩运动环境下形成的脆-韧性剪切带，是东准噶尔地区重要的金成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "双泉矿区韧性剪切带",
+"attributes": {
+"name": "双泉矿区韧性剪切带",
+"structure_type": "韧性剪切带",
+"scale": "发育于东准噶尔卡拉麦里金矿带内的区域性脆-韧性剪切构造带",
+"ore_control_role": "双泉金矿为与韧性剪切带有关的变质热液金矿床，韧性剪切带既是导矿构造也是容矿构造，为成矿流体运移和金矿体赋存提供主要构造通道和空间"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组",
+"attributes": {
+"name": "下石炭统南明水组",
+"age": "下石炭统",
+"dominant_lithology": "火山岩和火山碎屑岩为主的含金地层",
+"lithology_notes": "成矿物质主要来源于下石炭统南明水组地层中的火山岩和火山碎屑岩，是双泉金矿的赋矿地层和重要含金矿源层位"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "下石炭统南明水组赋矿围岩单元",
+"attributes": {
+"name": "下石炭统南明水组赋矿围岩单元"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Fluid",
+"name_zh": "双泉金矿成矿流体",
+"attributes": {
+"nature": "变质热液成矿流体",
+"source": "成矿流体同位素值初始投影于变质水与岩浆水之间，经以主要矿化阶段平均温度 375℃ 重新计算后，氢氧同位素投影点主要落入变质水水-岩反应模拟曲线范围内，表明成矿流体最可能为变质水通过水-岩反应而来，局部混入少量岩浆水和大气水",
+"temperature_C_min": "300",
+"temperature_C_max": "450"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Isotope",
+"name_zh": "双泉金矿氢氧同位素参数",
+"attributes": {
+"system": "H-O",
+"parameter_name": "δD-δ18O",
+"value_range": "含金石英脉中成矿流体 δD 为 -86‰～-99‰，石英 δ18O 为 13.3‰～17.5‰；以主要矿化阶段平均温度 375℃ 重新计算后成矿流体 δ18O 为 8.7‰～12.9‰，氢氧同位素投影点主要落入变质水水-岩反应模拟曲线范围内"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物",
+"paragenesis": "出现在黄铁矿-毒砂阶段以及金-石英-毒砂-黄铁矿阶段，为双泉金矿主要矿化阶段中的重要金属硫化物"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属硫化物矿物",
+"paragenesis": "为主要矿化阶段中的热液矿物之一，参与黄铁矿-毒砂阶段和金-石英-毒砂-黄铁矿阶段的共生组合"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "金",
+"attributes": {
+"name": "金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "主要产于金-石英-毒砂-黄铁矿阶段，为双泉金矿的主要赋存阶段和成矿金属"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "含金石英脉为主要矿体类型之一，石英参与金-石英-毒砂-黄铁矿阶段和石英-多金属硫化物阶段的矿物组合，是成矿流体包裹体和同位素研究的重要载体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "双泉金矿是东准噶尔卡拉麦里金矿带中新近发现的一个中型构造蚀变岩型金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿产于韧性剪切带中，为与韧性剪切带有关的变质热液金矿床，韧性剪切带既是导矿构造也是容矿构造"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "双泉金矿的赋矿地层为下石炭统南明水组地层，矿石类型主要为蚀变岩型，矿体赋存于南明水组浅变质火山岩及火山碎屑岩围岩中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "下石炭统南明水组赋矿围岩单元在地层上属于下石炭统南明水组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "根据共生金属硫化物稳定温度范围及流体包裹体研究，双泉金矿主要矿化阶段成矿温度为 300～450℃，平均温度约 375℃，对应的成矿流体为以变质水为主的变质热液成矿流体"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "约束该流体来源",
+"description": "双泉金矿氢氧同位素数据（δD 为 -86‰～-99‰，经 375℃ 修正后成矿流体 δ18O 为 8.7‰～12.9‰）在 δD-δ18O 图上主要落入变质水水-岩反应模拟曲线范围内，仅少量接近岩浆水曲线，表明成矿流体主要为变质水通过水-岩反应形成"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "双泉金矿矿化阶段中存在黄铁矿-毒砂阶段以及金-石英-毒砂-黄铁矿阶段，黄铁矿为主要金属硫化物矿物之一"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "毒砂为双泉金矿主要矿化阶段中的热液金属硫化物矿物，与黄铁矿、金和石英等共生"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "双泉金矿的矿化阶段中，金-石英-毒砂-黄铁矿阶段是主要成矿阶段之一，金为该阶段的主要金矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "脉石矿物包括",
+"description": "双泉金矿的含金石英脉为主要含金矿体形式之一，石英参与多个矿化阶段，是成矿流体包裹体和同位素研究的主要脉石矿物"
+}
+]
+}

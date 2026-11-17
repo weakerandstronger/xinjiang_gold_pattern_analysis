@@ -1,0 +1,278 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0278",
+"title": "新疆阔尔真阔腊金矿床地质特征及找矿方向_孙国成",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔尔真阔腊金矿床",
+"attributes": {
+"name": "阔尔真阔腊金矿床",
+"location": "新疆和布克赛尔蒙古自治县东北部",
+"tectonic_position": "新疆准噶尔盆地西北缘萨吾尔晚古生代岛弧区，属准噶尔—北天山褶皱系北东准噶尔优地槽褶皱带内的萨吾尔复向斜",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "Ⅰ-1#矿体金品位（1.91～4.89）×10^-6；Ⅰ-2#矿体平均品位2.97×10^-6",
+"ore_control_features": "矿床形成于海西晚期岛弧构造环境；矿体赋存于中泥盆统萨吾尔山组并受构造控制明显，主矿体形态以脉状为主且主要呈近东西向展布；矿床划分为6个成矿带、13条矿体（其中隐伏矿体3条），成矿带东西长约1000米、南北宽约400米；矿石类型包括氧化粉末状、氧化致密块状、氧化角砾状、原生块状及原生脉状矿石"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "萨吾尔晚古生代岛弧区",
+"attributes": {
+"name": "萨吾尔晚古生代岛弧区",
+"level": "岛弧区",
+"tectonic_setting": "海西晚期岛弧构造环境"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统萨吾尔山组",
+"attributes": {
+"name": "中泥盆统萨吾尔山组",
+"age": "中泥盆统",
+"dominant_lithology": "安山岩、安山玢岩、角砾安山岩",
+"lithology_notes": "为矿区出露最老地层，分布于矿区中部阔尔真阔腊一带；与上覆上泥盆统塔尔巴哈台组不整合接触；岩性以灰黑色、灰绿色块状安山岩、安山玢岩、角砾安山岩为主，局部夹少量紫红色安山岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统塔尔巴哈台组",
+"attributes": {
+"name": "上泥盆统塔尔巴哈台组",
+"age": "上泥盆统",
+"dominant_lithology": "硅质粉砂岩、泥质粉砂岩、凝灰质粉砂岩",
+"lithology_notes": "出露于矿区东北角和南侧，为阔尔真阔腊背斜两翼；背斜南翼主要为灰黑色、灰绿色硅质、泥质粉砂岩夹少量紫红色粉砂岩；背斜北翼主要为凝灰质粉砂岩、含砾沉凝灰岩、泥质粉砂岩互层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "萨吾尔山组安山岩",
+"attributes": {
+"name": "萨吾尔山组安山岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "阔尔真阔腊断裂",
+"attributes": {
+"name": "阔尔真阔腊断裂",
+"structure_type": "断裂",
+"orientation": "走向近东西，倾角50°～70°",
+"scale": "矿区级",
+"ore_control_role": "为矿区近东西向主干断裂构造，属于主要控矿、容矿构造，是主矿体的主要赋矿构造并控制主矿体近东西向展布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "似环状控矿断裂系统",
+"attributes": {
+"name": "似环状控矿断裂系统",
+"structure_type": "断裂系统",
+"scale": "矿区级",
+"ore_control_role": "位于矿区西部，为深部浅成岩株上拱应力形成的断裂组合叠加追踪改造近东西向断裂系统所形成，控制矿区西部矿化蚀变带"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "钾长闪长岩",
+"attributes": {
+"name": "钾长闪长岩",
+"rock_type": "钾长闪长岩",
+"relationship_to_ore": "与成矿关系密切，部分矿化体直接产于钾长闪长岩中部或边部"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿、褐铁矿（局部交代黄铁矿）",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英、胶状硅铁物质",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "钾化",
+"attributes": {
+"name": "钾化",
+"alteration_minerals": "钾长石、绢云母",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与黄铁矿、石英等共生，常见裂隙金、包裹金和粒间金"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "与石英脉及硫化物共生，裂隙处可见金矿物分布"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "伴生有益组分矿物",
+"paragenesis": "与黄铁矿、磁黄铁矿等共生"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geophysics",
+"name_zh": "重力低与强磁异常地段",
+"attributes": {
+"anomaly_type": "重力低异常、强磁异常",
+"spatial_pattern": "矿床位于区域黑山头近东西向梯度带上的重力低、强磁异常地段"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "Au等综合地球化学异常",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "区内与金成矿有关的Au、Ag、As、Bi、S综合地球化学异常明显"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔尔真阔腊金矿床位于萨吾尔晚古生代岛弧区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "矿体主要赋存于萨吾尔山组安山岩等中性火山—次火山岩建造中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "萨吾尔山组安山岩属于中泥盆统萨吾尔山组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "矿区东部主要矿化带受近东西向阔尔真阔腊断裂带控制，主矿体主要呈近东西向展布"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "矿区西部矿化蚀变带受似环状控矿断裂系统控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床发育黄铁矿化蚀变，断裂带内及其两侧大量产出黄铁矿化并与金矿化密切相关"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床发育强硅化蚀变，交代型硅化、胶状硅铁脉体及烟灰色石英脉与矿体关系密切"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "矿床发育钾化蚀变，以钾长石化和绢云母化为主，与金矿体有关"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石中的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物中黄铁矿与金矿物关系密切，为金的主要载体"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中伴生有益组分包括黄铜矿等，可进行综合回收"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "伴随有",
+"description": "阔尔真阔腊金矿床位于黑山头近东西向梯度带的重力低、强磁异常地段"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "矿区与金成矿有关的Au、Ag、As、Bi、S综合地球化学异常明显"
+}
+]
+}

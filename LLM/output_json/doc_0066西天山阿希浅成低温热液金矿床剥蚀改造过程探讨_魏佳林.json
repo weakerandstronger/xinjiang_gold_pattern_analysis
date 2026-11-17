@@ -1,0 +1,203 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0066",
+"title": "西天山阿希浅成低温热液金矿床剥蚀改造过程探讨",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆西天山成矿带吐拉苏断陷盆地早石炭世火山岩带",
+"tectonic_position": "位于吐拉苏断陷盆地早石炭世火山岩带内，属于新疆西天山成矿带的一部分",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "热液成因金矿体主要产于阿希古火山机构管道相中，明显受近南北向F₂断裂构造控制，并遭受不同程度的剥蚀改造，矿体具有向北侧伏特征，南段剥蚀程度高于北段",
+"age_ma": "晚古生代早石炭世"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西天山成矿带",
+"attributes": {
+"name": "新疆西天山成矿带",
+"level": "成矿带",
+"tectonic_setting": "位于新疆西天山造山带内，与晚古生代火山岩有关的金矿成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "吐拉苏断陷盆地早石炭世火山岩带",
+"attributes": {
+"name": "吐拉苏断陷盆地早石炭世火山岩带",
+"level": "火山岩带",
+"tectonic_setting": "吐拉苏断陷盆地内早石炭世火山岩发育区，为阿希金矿床的赋矿火山带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组第五岩性段",
+"attributes": {
+"name": "下石炭统大哈拉军山组第五岩性段",
+"age": "下石炭统",
+"dominant_lithology": "喷发-喷溢相火山集块岩、集块岩层、杏仁状安山岩、安山质英安岩、凝灰岩和管道相英安质角砾熔岩",
+"lithology_notes": "为阿希金矿床主要含矿层位，前四种岩相围绕管道相呈弧形带状分布，总体向北倾，倾角10～30°，彼此为切割关系"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统阿恰勒河组第一岩性段",
+"attributes": {
+"name": "下石炭统阿恰勒河组第一岩性段",
+"age": "下石炭统",
+"dominant_lithology": "浅海相碎屑岩-碳酸盐岩建造，包括凝灰质砾岩、岩屑砂岩、细砂岩夹灰岩层",
+"lithology_notes": "总体倾向北或北东，倾角10～15°，以角度不整合方式覆盖于大哈拉军山组之上"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "阿希古火山机构管道相围岩单元",
+"attributes": {
+"name": "阿希古火山机构管道相围岩单元"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "阿恰勒河组沉积底砾岩围岩单元",
+"attributes": {
+"name": "阿恰勒河组沉积底砾岩围岩单元"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "F₂断裂构造",
+"attributes": {
+"name": "F₂断裂构造",
+"structure_type": "断裂",
+"orientation": "总体近南北向，走向约NNE10°，向东倾，倾角在70°以上，局部近直立，呈近南北向反S形展布",
+"scale": "由一组近南北向断裂带组成并向南延伸至阿庇因迪一带，为矿区内主要深大断裂之一",
+"ore_control_role": "阿希金矿床的主控矿断裂，既是导矿构造又是容矿构造，控制阿希古火山机构管道相及热液成因金矿体的形成与展布"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物及热电性标型矿物",
+"paragenesis": "产于热液成因金矿体中，其热电性标型特征反映阿希金矿床南北段剥蚀程度的差异"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "热液成因金矿体中形成含金石英脉及其角砾，沉积底砾岩型金矿体中的含金石英脉砾石为热液成因金矿体剥蚀后的再沉积产物"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "阿希金矿稀土元素地球化学特征",
+"attributes": {
+"element": "稀土元素",
+"value_ppm": "文中未给出具体稀土元素含量数值",
+"anomaly_pattern": "沉积底砾岩型金矿体的稀土元素分布特征与热液型矿体基本一致，表明砾石物质来源于热液成因金矿体的剥蚀产物"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿床是新疆西天山成矿带上与晚古生代火山岩有关的典型浅成低温热液型金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于吐拉苏断陷盆地早石炭世火山岩带中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿床的热液成因金矿体主要产于阿希古火山机构管道相围岩单元中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "阿希古火山机构管道相围岩单元在地层上属于下石炭统大哈拉军山组第五岩性段"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "沉积底砾岩型金矿体角度不整合于热液成因矿体之上，赋存于阿恰勒河组沉积底砾岩围岩单元中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "阿恰勒河组沉积底砾岩围岩单元在地层上属于下石炭统阿恰勒河组第一岩性段"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "阿希金矿床的热液成因金矿体明显受近南北向F₂断裂构造直接控制，F₂断裂既是导矿构造又是容矿构造"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床热液成因金矿体中发育黄铁矿，黄铁矿的热电性标型特征显示矿床南段比北段剥蚀程度高"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "脉石矿物包括",
+"description": "阿希金矿床中含金石英脉角砾和阿恰勒河组中的含金石英脉砾石均来源于热液成因金矿体，表明石英为主要含金脉石矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "沉积底砾岩型金矿体的稀土元素分布特征与热液型矿体基本一致，指示其为热液成因主矿体经历后期剥蚀并在阿恰勒河组地层中沉积形成的产物"
+}
+]
+}

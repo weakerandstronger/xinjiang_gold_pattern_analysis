@@ -1,0 +1,388 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0051",
+"title": "新疆奇台县苏吉泉金矿成矿地质条件与控矿因素分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "苏吉泉金矿床",
+"attributes": {
+"name": "苏吉泉金矿床",
+"location": "新疆东准噶尔地区卡拉麦里成矿带中部",
+"tectonic_position": "位于东准噶尔优地槽褶皱带北塔山复背斜南翼，卡拉麦里深断裂以北、清水—苏吉泉大断裂以南的构造部位",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均品位6.06 g/t，单样最高品位167.38 g/t，单工程最高品位14.44 g/t",
+"ore_control_features": "矿床类型为碎裂蚀变岩型、石英脉型，矿体严格受NE、NEE向断裂构造及其分支控制，赋存于中泥盆统平顶山组火山碎屑岩中，黄铁矿化和毒砂化强，伴随硅化、绢云母化、绿泥石化及地表氧化铁帽等蚀变"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆东准噶尔地区",
+"attributes": {
+"name": "新疆东准噶尔地区",
+"level": "区域",
+"tectonic_setting": "发育石炭、泥盆纪地层及重要的金及多金属成矿带，是苏吉泉金矿床所在的大地质单元"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带",
+"attributes": {
+"name": "卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "新疆东准噶尔地区重要的金及多金属成矿带，区域岩浆活动频繁、断裂构造发育，是苏吉泉金矿床所在的成矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统平顶山组",
+"attributes": {
+"name": "中泥盆统平顶山组",
+"age": "中泥盆统",
+"dominant_lithology": "一套火山碎屑岩，岩性以暗灰绿、灰绿、浅灰绿色凝灰质粉砂岩、晶屑玻屑凝灰岩、火山凝灰岩夹少量玄武玢岩、安山玢岩为主",
+"lithology_notes": "呈NW向单斜展布，倾向SW，倾角50°～70°，出露厚度1500～2200 m，是矿区主要含矿层位并严格控制Au矿化范围"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "泥盆系坪原组",
+"attributes": {
+"name": "泥盆系坪原组",
+"age": "泥盆系",
+"dominant_lithology": "以火山碎屑岩为主的地层",
+"lithology_notes": "区域性苏吉泉大断裂使坪原组地层中火山碎屑岩变形强烈，为含矿热流中金活化、迁移提供了动力和空间"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "平顶山组火山碎屑岩围岩单元",
+"attributes": {
+"name": "平顶山组火山碎屑岩围岩单元"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "坪原组火山碎屑岩围岩单元",
+"attributes": {
+"name": "坪原组火山碎屑岩围岩单元"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "华力西中期钾质花岗岩体",
+"attributes": {
+"name": "华力西中期钾质花岗岩体",
+"rock_type": "钾质花岗岩",
+"age": "华力西中期",
+"relationship_to_ore": "侵入于中泥盆统平顶山组地层中，外接触带形成500～2000 m角岩化带，局部形成具工业价值的石墨矿床和锡矿床，并伴有Yb、Y、Ga高含量带，与金矿化较为密切"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里深断裂",
+"attributes": {
+"name": "卡拉麦里深断裂",
+"structure_type": "深大断裂",
+"scale": "区域性深大断裂，为苏吉泉金矿区北部边界构造",
+"ore_control_role": "作为北界大断裂，与清水—苏吉泉大断裂共同限定卡拉麦里成矿带中部的构造格局，间接控制苏吉泉金矿床的赋存位置"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "清水—苏吉泉大断裂",
+"attributes": {
+"name": "清水—苏吉泉大断裂",
+"structure_type": "大断裂",
+"scale": "区域性大断裂，为苏吉泉金矿区南部边界构造",
+"ore_control_role": "活动使区内泥盆系坪原组地层中火山碎屑岩变形强烈，为含矿热流中金活化、迁移提供强大动力和空间，是重要控矿构造"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "NE向断裂构造",
+"attributes": {
+"name": "NE向断裂构造",
+"structure_type": "断裂构造",
+"orientation": "NE向，走向约55°～85°，倾向NE，倾角65°～85°",
+"scale": "长300～900 m，宽0.2～2.0 m不等，构造岩为含金石英脉及含金硅化、绿泥石化、黄铁矿化碎裂岩",
+"ore_control_role": "为矿区主体控矿断裂之一，苏吉泉金矿金矿化严格受该组断裂控制"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "NEE向断裂构造",
+"attributes": {
+"name": "NEE向断裂构造",
+"structure_type": "断裂构造",
+"orientation": "NEE向，走向约55°～85°，倾向NE，倾角65°～85°",
+"scale": "长300～900 m，宽0.2～2.0 m不等，构造岩为含金石英脉及含金硅化、绿泥石化、黄铁矿化碎裂岩",
+"ore_control_role": "为矿区另一组控矿断裂，矿脉均受NE、NEE向断裂控制并赋存在其内"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "硅化-绢云母化-绿泥石化蚀变带",
+"attributes": {
+"name": "硅化-绢云母化-绿泥石化蚀变带",
+"alteration_minerals": "硅化、绢云母化、绿泥石化等蚀变矿物组合",
+"intensity": "蚀变主要为硅化、绢云母化、绿泥石化，蚀变越强矿脉含Au性越好，反映热液蚀变作用强烈"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化-毒砂化蚀变带",
+"attributes": {
+"name": "黄铁矿化-毒砂化蚀变带",
+"alteration_minerals": "黄铁矿、毒砂为主的含金硫化物蚀变",
+"intensity": "黄铁矿化、毒砂化越强，Au品位越高，是寻找高品位矿体的重要矿物蚀变标志"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金属矿物中含量最高的重要含金硫化物矿物和指示矿物",
+"paragenesis": "在矿石中含量约71.63%，与白铁矿、赤铁矿、褐铁矿等共生，产于破碎蚀变岩及含金石英脉中"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "白铁矿",
+"attributes": {
+"name": "白铁矿",
+"role_in_ore": "重要铁氧化物矿物之一",
+"paragenesis": "在矿石中含量约16.13%，与黄铁矿、赤铁矿、褐铁矿等共生"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "重要含金砷硫化物矿物",
+"paragenesis": "多见于含金碎裂蚀变岩和石英脉中，与黄铁矿以及硅化、绢云母化、绿泥石化等蚀变组合共生"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物，金以自然金形式产出",
+"paragenesis": "赋存在矿石中金属矿物及石英脉内，表面清洁，呈亮黄色，反光色纯正"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物，构成含金石英脉和破碎蚀变岩中的石英脉",
+"paragenesis": "与黄铁矿、白铁矿、毒砂等金属矿物共生，地表氧化带石英常呈乳白—浅肉红色"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Fluid",
+"name_zh": "苏吉泉金矿成矿热液",
+"attributes": {
+"nature": "含金热液，伴随强烈碎裂蚀变和硅化、绢云母化、绿泥石化等热液蚀变作用",
+"source": "北部岩浆活动和区域性苏吉泉大断裂活动形成的含矿热流，为含金热液中金的活化、迁移提供动力和通道",
+"temperature_C_min": "",
+"temperature_C_max": "",
+"pressure_MPa_min": "",
+"pressure_MPa_max": "",
+"salinity_wtNaCl_min": "",
+"salinity_wtNaCl_max": "",
+"delta_fO2_buffer_min": "",
+"delta_fO2_buffer_max": "",
+"fO2_buffer": ""
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Geochem",
+"name_zh": "北塔山牧场Au-4综合异常",
+"attributes": {
+"element": "Au、Sb、As、Bi",
+"value_ppm": "异常区Au平均含量7.2×10^-9，最高含量11.1×10^-9，Au与As呈明显正相关",
+"anomaly_pattern": "异常面积约1.56 km²，由Au、Sb、As、Bi元素组成，空间上与矿区含金蚀变岩带分布吻合程度较好，呈NE向不规则展布，与总体构造线方向一致，是苏吉泉金矿找金的地球化学标志"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "苏吉泉金矿床位于新疆东准噶尔地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "苏吉泉金矿床位于新疆东准噶尔地区重要的金及多金属成矿带——卡拉麦里成矿带中部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "苏吉泉金矿床的矿体赋存于中泥盆统平顶山组火山碎屑岩围岩单元中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "平顶山组火山碎屑岩围岩单元在地层上属于中泥盆统平顶山组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "坪原组火山碎屑岩围岩单元在地层上属于泥盆系坪原组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉金矿位于卡拉麦里深断裂以北，深大断裂对矿区构造格局和金矿赋存位置具有重要控制作用"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉金矿位于清水—苏吉泉大断裂以北，该大断裂使泥盆系坪原组火山碎屑岩强烈变形，为含矿热流中金的活化和迁移提供动力和空间，对成矿具有重要控制作用"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉金矿区内金矿化严格受NE向断裂构造控制，含金石英脉及含金碎裂蚀变岩赋存于NE向断裂及其分支断裂中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉金矿区内金矿化严格受NEE向断裂构造控制，矿脉均受NE、NEE向断裂控制并赋存在其内"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "苏吉泉金矿床蚀变主要为硅化、绢云母化、绿泥石化，蚀变越强矿脉含Au性越好，表明金矿化受强烈热液蚀变作用控制"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "伴随有",
+"description": "苏吉泉金矿床中黄铁矿化、毒砂化越强，Au品位越高，黄铁矿化和毒砂化是该区找金的重要矿物标志"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "苏吉泉金矿石中金属矿物主要为黄铁矿，含量约71.63%，是重要的含金硫化物和指示矿物"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "苏吉泉金矿石中含少量白铁矿，与黄铁矿等共生"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "苏吉泉金矿中毒砂化较强，毒砂为重要含金砷硫化物矿物，与黄铁矿等共生"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要金矿物为",
+"description": "苏吉泉金矿中Au以自然金形式产出，自然金表面清洁、呈亮黄色、反光色纯正"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "脉石矿物包括",
+"description": "苏吉泉金矿石中非金属矿物以石英为主，构成含金石英脉和破碎蚀变岩中的石英脉"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "对应成矿流体为",
+"description": "苏吉泉金矿为含金热液成矿，成矿流体为沿断裂上升并在碎裂蚀变岩中沉淀金的含金热液"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "显示",
+"description": "苏吉泉金矿区分布在北塔山牧场Au-4综合异常区中部，该异常由Au、Sb、As、Bi元素组成，Au与As呈明显正相关，异常在空间上与矿区含金蚀变岩带分布吻合程度较好，是该区重要的找金地球化学标志"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "华力西中期钾质花岗岩体侵入于中泥盆统平顶山组地层中，外接触带形成角岩化带并与矿区金矿化关系密切"
+}
+]
+}

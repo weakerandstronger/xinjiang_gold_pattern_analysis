@@ -1,0 +1,239 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0266",
+"title": "新疆伊宁县伊尔曼德金矿床地球化学特征_翟伟",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "伊尔曼德金矿床",
+"attributes": {
+"name": "伊尔曼德金矿床",
+"location": "新疆伊宁县吐拉苏断陷盆地",
+"tectonic_position": "天山地槽褶皱系博罗科努加里东冒地槽褶皱带的次一级构造单元——吐拉苏断陷盆地",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "金品位多为1.0×10^-6～3.0×10^-6（一般小于5.0×10^-6，约折合1～3 g/t，小于5 g/t）",
+"ore_control_features": "矿体呈层状、似层状、透镜状产出，主要赋存于下石炭统大哈拉军山组第二岩性段矿源层中，受热液硅化交代蚀变作用控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "吐拉苏断陷盆地",
+"attributes": {
+"name": "吐拉苏断陷盆地",
+"level": "断陷盆地",
+"tectonic_setting": "天山地槽褶皱系博罗科努加里东冒地槽褶皱带内的次一级构造单元"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组第二岩性段",
+"attributes": {
+"name": "下石炭统大哈拉军山组第二岩性段",
+"age": "下石炭统",
+"dominant_lithology": "酸性凝灰岩",
+"lithology_notes": "大哈拉军山组为陆相中酸性火山岩—火山碎屑岩建造，第二岩性段（C1d2）为形成金矿床的重要矿源层与储矿层"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "大哈拉军山组第二岩性段凝灰质沉积岩—沉火山碎屑岩围岩",
+"attributes": {
+"name": "大哈拉军山组第二岩性段凝灰质沉积岩—沉火山碎屑岩围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "毒砂黄铁矿化",
+"attributes": {
+"name": "毒砂黄铁矿化",
+"alteration_minerals": "毒砂、黄铁矿",
+"intensity": "中等至强"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与黄铁矿、自然金等共生"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与毒砂、自然金等共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要含金矿物",
+"paragenesis": "与毒砂、黄铁矿等共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "与硅化蚀变密切相关"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "成矿流体（循环地下水热液）",
+"attributes": {
+"nature": "低盐度水溶液（以H2O为主，气相以CO2和CO为主）",
+"source": "以大气降水为主的循环地下水热液",
+"salinity_wtNaCl_min": "0.03",
+"salinity_wtNaCl_max": "0.39"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "金（Au）地球化学特征",
+"attributes": {
+"element": "Au",
+"value_ppm": "约1～3（多为1.0×10^-6～3.0×10^-6）",
+"anomaly_pattern": "矿体（矿石）金品位总体较低但与硅化蚀变程度呈正相关，硅化越强含金品位越高"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "砷（As）地球化学特征",
+"attributes": {
+"element": "As",
+"value_ppm": "约214（矿石平均值约213.8×10^-6）",
+"anomaly_pattern": "矿石富集As、Sb、Hg、Bi等伴生元素，这些元素与金呈正相关；而Cu、Zn、Ba等相对贫化"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "伊尔曼德金矿床位于天山地槽褶皱系博罗科努加里东冒地槽褶皱带内的吐拉苏断陷盆地"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "伊尔曼德金矿床矿体主要赋存于大哈拉军山组第二岩性段的凝灰质沉积岩—沉火山碎屑岩围岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "围岩单元属于下石炭统大哈拉军山组第二岩性段（C1d2）"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要蚀变为",
+"description": "伊尔曼德金矿床以强烈硅化蚀变为主要特征，硅化越强含金品位越高"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "伴随有",
+"description": "伊尔曼德金矿床伴随毒砂黄铁矿化蚀变，形成毒砂—黄铁矿化型矿石"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要金矿物为",
+"description": "伊尔曼德金矿床矿石中毒砂为主要金属矿物之一"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "伊尔曼德金矿床矿石中黄铁矿与毒砂等共生"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "伊尔曼德金矿床矿石中可见自然金，为主要含金矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "伊尔曼德金矿床矿石中石英为主要脉石矿物，与硅化蚀变密切相关"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "伊尔曼德金矿床成矿流体以循环地下水热液为主，盐度低，来源以大气降水为主"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "伊尔曼德金矿床金（Au）品位总体较低但与硅化蚀变程度呈正相关"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "伊尔曼德金矿床矿石富集As等伴生元素，As与金呈正相关"
+}
+]
+}

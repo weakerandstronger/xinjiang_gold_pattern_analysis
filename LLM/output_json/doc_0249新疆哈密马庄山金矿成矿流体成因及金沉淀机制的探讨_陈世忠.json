@@ -1,0 +1,256 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0249",
+"title": "新疆哈密马庄山金矿成矿流体成因及金沉淀机制的探讨_陈世忠",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "马庄山金矿床",
+"attributes": {
+"name": "马庄山金矿床",
+"location": "新疆哈密马庄山地区（阿齐克库都克东部）",
+"tectonic_position": "北山北部，塔里木板块与西伯利亚板块的交界处",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿石平均品位6.4×10^-6（约6.4克/吨）",
+"ore_control_features": "矿区分布中-晚石炭世中酸性火山岩及相应次火山岩，已探明超过20条矿体；矿体以石英脉型及硅化蚀变带组成，呈脉状产出，受张性断裂与构造减压扩容带等构造通道控制",
+"age_ma": "298±28Ma（中-晚石炭世）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿齐克库都克岛弧带东延部",
+"attributes": {
+"name": "阿齐克库都克岛弧带东延部",
+"level": "岛弧带",
+"tectonic_setting": "活动大陆边缘（大陆边缘俯冲带）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "上石炭统马庄山组",
+"attributes": {
+"name": "上石炭统马庄山组",
+"age": "晚石炭世",
+"dominant_lithology": "中、酸性火山碎屑岩和中、基性熔岩",
+"lithology_notes": "局部夹灰岩透镜体，含海百茎化石，为海相火山喷发沉积产物"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "马庄山组火山岩及相应次火山岩围岩",
+"attributes": {
+"name": "马庄山组火山岩及相应次火山岩围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英斑岩体",
+"attributes": {
+"name": "石英斑岩体",
+"rock_type": "石英斑岩",
+"age": "中-晚石炭世",
+"relationship_to_ore": "与金矿在空间与成因上关系密切，指示岩浆作用为成矿流体与成矿物质的重要来源"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "张性断裂与构造减压扩容带",
+"attributes": {
+"name": "张性断裂与构造减压扩容带",
+"structure_type": "断裂构造",
+"scale": "矿区级",
+"ore_control_role": "为成矿流体上升运移通道，促使减压扩容与温压下降，触发黄铁矿化、硅化、绢云母化及金沉淀"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化-硅化-绢云母化",
+"attributes": {
+"name": "黄铁矿化-硅化-绢云母化",
+"alteration_minerals": "黄铁矿、石英、绢云母",
+"intensity": "广泛"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "产于石英脉及硅化蚀变带中，与硫化物共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "碎裂定向明显，金多沿裂隙分布；常被晚期铁闪锌矿、方铅矿等交代"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "马庄山金矿成矿流体",
+"attributes": {
+"nature": "中（低）温、中低盐度流体；气体以H2O为主，其次为CO2、CO；液相中阳离子以Ca2+、Mg2+、Na+、K+为主，阴离子以SO4^2-、HCO3^-、Cl^-、F^-为主；pH为5.8～7.4，属中性偏碱性，还原环境（Eh约-0.6eV）",
+"source": "成矿流体以地下水为主，混入部分岩浆水；成矿物质与围岩岩浆岩关系密切",
+"temperature_C_min": "120",
+"temperature_C_max": "340",
+"pressure_MPa_min": "47.2",
+"pressure_MPa_max": "68.8",
+"salinity_wtNaCl_min": "6.2",
+"salinity_wtNaCl_max": "21"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O_SiO2、δ18O_H2O、δD",
+"value_range": "石英δ18O_SiO2=4.52‰～18.13‰；石英平衡水δ18O_H2O=-7.3‰～8.4‰；δD=-124‰～-71‰"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "流体δ34S=+3.94‰～+4.98‰；黄铁矿δ34S约+3.9‰～+5.0‰（平均约+4.5‰）"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "铅同位素参数",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "206Pb/204Pb、207Pb/204Pb、208Pb/204Pb",
+"value_range": "黄铜矿和方铅矿：206Pb/204Pb=18.269～18.352；207Pb/204Pb=15.550～15.633；208Pb/204Pb=38.077～38.355"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "石英斑岩金含量",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "600×10^-9",
+"anomaly_pattern": "石英斑岩金含量较高（28个样品平均600×10^-9），指示晚石炭世火山-次火山活动提供丰富金源"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "马庄山金矿床位于阿齐克库都克岛弧带东延部的活动大陆边缘构造背景中"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "马庄山金矿床矿体主要产于马庄山组火山岩及相应次火山岩围岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "马庄山组火山岩及相应次火山岩围岩属于上石炭统马庄山组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "马庄山金矿床成矿流体沿张性断裂与构造减压扩容带运移，上升过程中减压降温促使矿质沉淀"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "马庄山金矿床围岩蚀变以黄铁矿化、硅化和绢云母化为主"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "马庄山金矿床的主要金属矿物之一为自然金"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "马庄山金矿床共生硫化物矿物以黄铁矿为主，且黄铁矿为主要载金矿物"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "马庄山金矿床对应成矿流体为中（低）温、中低盐度、以H2O为主并含CO2的弱还原流体"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素表明成矿流体与原生岩浆水有所偏离，整体向大气水靠近，指示以地下水为主并混入部分岩浆水"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S接近陨石硫特征，指示成矿流体与斑岩体关系密切"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素比值变化幅度小且集中分布于造山带来源范围内，指示成矿物质与岩浆岩来源密切相关"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "马庄山金矿区石英斑岩金含量较高，支持晚石炭世火山-次火山活动为成矿提供金源"
+}
+]
+}

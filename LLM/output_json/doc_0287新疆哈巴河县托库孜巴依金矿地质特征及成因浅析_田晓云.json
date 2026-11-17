@@ -1,0 +1,228 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0287",
+"title": "新疆哈巴河县托库孜巴依金矿地质特征及成因浅析_田晓云",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床",
+"attributes": {
+"name": "托库孜巴依金矿床",
+"location": "新疆阿勒泰地区哈巴河县城北东18 km",
+"tectonic_position": "西伯利亚古板块南缘阿尔泰陆缘活动带克兰弧后盆地西段（阿尔泰山西段南缘）",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿体平均品位3.71×10^-6~5.07×10^-6",
+"ore_control_features": "产于哈巴河斜长花岗岩体外接触带，明显受玛尔卡库里深大断裂及其派生次一级断裂构造控制，金矿化带呈NW向展布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "克兰弧后盆地",
+"attributes": {
+"name": "克兰弧后盆地",
+"level": "弧后盆地",
+"tectonic_setting": "西伯利亚古板块南缘阿尔泰陆缘活动带西段"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统阿勒泰组上亚组",
+"attributes": {
+"name": "中泥盆统阿勒泰组上亚组",
+"age": "中泥盆统",
+"dominant_lithology": "海相杂砂岩建造",
+"lithology_notes": "地层沿走向变化较大，可见变砂岩、绢云石英千枚岩等岩性组合"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "阿勒泰组上亚组海相杂砂岩围岩",
+"attributes": {
+"name": "阿勒泰组上亚组海相杂砂岩建造（赋矿围岩）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河斜长花岗岩体",
+"attributes": {
+"name": "哈巴河斜长花岗岩体",
+"rock_type": "斜长花岗岩",
+"age": "华力西期",
+"relationship_to_ore": "矿床产于其外接触带，侵位提供热能并与成矿过程有关"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里深大断裂",
+"attributes": {
+"name": "玛尔卡库里深大断裂",
+"structure_type": "韧性剪切变形带（深大断裂）",
+"orientation": "NW向展布",
+"scale": "长度数千米",
+"ore_control_role": "控制区内金矿化带与矿体分布，为含矿热液运移提供通道和容矿空间"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "绢云母化-绿泥石化-硅化-黄铁矿化",
+"attributes": {
+"name": "绢云母化-绿泥石化-硅化-黄铁矿化",
+"alteration_minerals": "绢云母、绿泥石、石英、黄铁矿",
+"intensity": "广泛发育，硅化与黄铁矿化等为直接矿化标志"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "以裂隙金、粒间金或包裹金形式赋存在石英-硫化物建造中"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物，与矿化关系密切",
+"paragenesis": "与硅化、绢云母化等低温热液蚀变共生，近地表可褐铁矿化"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "托库孜巴依金矿成矿流体",
+"attributes": {
+"nature": "低盐度成矿热液，气相以H2O为主并含CO2，pH均值约6.91",
+"source": "以大气降水为主，成矿物质具有深源性并主要来源于地层岩石和岩浆岩",
+"temperature_C_min": "200",
+"temperature_C_max": "250",
+"pressure_MPa_min": "18.5",
+"pressure_MPa_max": "39.7",
+"salinity_wtNaCl_min": "6.00‰",
+"salinity_wtNaCl_max": "9.44‰"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD、δ18O(H2O)",
+"value_range": "δD=-126.3‰~-107.0‰；δ18OH2O=-0.02‰~6.27‰"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S(黄铁矿)",
+"value_range": "0.31‰~11.41‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿位于阿尔泰山西段南缘克兰弧后盆地内。 "
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "托库孜巴依金矿赋矿岩性为中泥盆统阿勒泰组上亚组海相杂砂岩建造"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "赋矿围岩单元在地层上归属于中泥盆统阿勒泰组上亚组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "托库孜巴依金矿明显受玛尔卡库里深大断裂及其派生次一级断裂构造控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区与金矿化有关的低温热液蚀变主要为绢云母化、绿泥石化、硅化和黄铁矿化等"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石中主要金属矿物包括自然金等"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要硫化物矿物为黄铁矿，并与矿体规模、空间分布及品位密切相关"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "托库孜巴依金矿对应的成矿流体以大气降水为主，具低盐度特征，成矿温度集中于200~250℃、压力约18.5~39.7 MPa"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素参数（δD、δ18O(H2O)）显示样品投点位于大气降水范围内，约束成矿流体介质水以大气降水为主"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素参数（黄铁矿δ34S=0.31‰~11.41‰）表明硫主要来源于地壳深部并具有深源岩浆硫特征，从同位素角度约束成矿流体与深部来源有关"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "哈巴河斜长花岗岩体与中泥盆统阿勒泰组上亚组接触，矿床位于其外接触带"
+}
+]
+}

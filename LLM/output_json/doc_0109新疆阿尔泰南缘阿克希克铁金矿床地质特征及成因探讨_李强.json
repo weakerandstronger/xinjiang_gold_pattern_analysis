@@ -1,0 +1,560 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0109",
+"title": "新疆阿尔泰南缘阿克希克铁金矿床地质特征及成因探讨",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿克希克铁金矿床",
+"attributes": {
+"name": "阿克希克铁金矿床",
+"location": "阿尔泰造山带与准噶尔造山带接合部位的额尔齐斯断裂带北侧，阿尔泰南缘加波萨尔古生代岛弧带内",
+"tectonic_position": "阿尔泰造山带与准噶尔造山带接合部位，额尔齐斯断裂带北侧，阿尔泰南缘加波萨尔古生代岛弧带内",
+"deposit_type": "造山型金矿床",
+"ore_grade": "全铁品位25.0%~53.1%，伴生金平均品位0.36~1.19 g/t",
+"ore_control_features": "矿体赋存于南明水组下部、中部火山熔岩与凝灰岩接触带，受EW向横向断裂及其破碎蚀变带控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿尔泰造山带",
+"attributes": {
+"name": "阿尔泰造山带",
+"level": "造山带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "准噶尔造山带",
+"attributes": {
+"name": "准噶尔造山带",
+"level": "造山带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "阿尔泰南缘加波萨尔古生代岛弧带",
+"attributes": {
+"name": "阿尔泰南缘加波萨尔古生代岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "古生代岛弧带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组",
+"attributes": {
+"name": "下石炭统南明水组",
+"age": "下石炭统",
+"dominant_lithology": "滨海-浅海相火山碎屑岩、陆源碎屑岩及碳酸盐岩",
+"lithology_notes": "厚度大于1300 m，自下而上划分为下、中、上三部分"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "南明水组火山熔岩与凝灰岩接触带",
+"attributes": {
+"name": "南明水组火山熔岩与凝灰岩接触带"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "EW向横向断裂",
+"attributes": {
+"name": "EW向横向断裂",
+"structure_type": "断裂",
+"orientation": "EW向",
+"scale": "矿区",
+"ore_control_role": "主要控矿、容矿断裂，沿断裂发育破碎蚀变带并控制矿体空间分布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "额尔齐斯断裂带",
+"attributes": {
+"name": "额尔齐斯断裂带",
+"structure_type": "断裂带",
+"scale": "区域",
+"ore_control_role": "矿区位于其北侧，为区域构造背景"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "玄武岩脉",
+"attributes": {
+"name": "玄武岩脉",
+"rock_type": "玄武岩",
+"relationship_to_ore": "矿区内仅见少量呈脉状出露"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "IntrusiveBody",
+"name_zh": "安山玄武岩脉",
+"attributes": {
+"name": "安山玄武岩脉",
+"rock_type": "安山玄武岩",
+"relationship_to_ore": "矿区内仅见少量呈脉状出露"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "较弱"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "较弱"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "较弱"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "较弱"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "较弱"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "赤铁矿",
+"attributes": {
+"name": "赤铁矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "斜长石",
+"attributes": {
+"name": "斜长石",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "角闪石",
+"attributes": {
+"name": "角闪石",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "黑云母",
+"attributes": {
+"name": "黑云母",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "高岭土",
+"attributes": {
+"name": "高岭土",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "透闪石",
+"attributes": {
+"name": "透闪石",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Mineral",
+"name_zh": "阳起石",
+"attributes": {
+"name": "阳起石",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Fluid",
+"name_zh": "火山沉积期成矿流体",
+"attributes": {
+"nature": "以NaCl-H₂O型流体为主，含一定量CO₂及极少量CH₄、SO₂",
+"source": "海水与岩浆水的混合",
+"temperature_C_min": "180",
+"temperature_C_max": "320",
+"salinity_wtNaCl_min": "6",
+"salinity_wtNaCl_max": "10"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Fluid",
+"name_zh": "热液期成矿流体",
+"attributes": {
+"nature": "发育CO₂-NaCl-H₂O型包裹体和碳质（CH₄和C₄H₆）流体包裹体",
+"source": "变质水混合深循环的大气降水",
+"temperature_C_min": "220",
+"temperature_C_max": "320",
+"salinity_wtNaCl_min": "2",
+"salinity_wtNaCl_max": "10"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Isotope",
+"name_zh": "火山沉积期氢同位素δD",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD_SMOW",
+"value_range": "-129.9‰~-97.9‰"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "Isotope",
+"name_zh": "火山沉积期氧同位素δ¹⁸O",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ¹⁸O_H₂O",
+"value_range": "-2.6‰~4.4‰"
+}
+},
+{
+"entity_local_id": "E31",
+"entity_type": "Isotope",
+"name_zh": "热液期氢同位素δD",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD_SMOW",
+"value_range": "-129.8‰~-102.6‰"
+}
+},
+{
+"entity_local_id": "E32",
+"entity_type": "Isotope",
+"name_zh": "热液期氧同位素δ¹⁸O",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ¹⁸O_H₂O",
+"value_range": "3.1‰~7.4‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "阿克希克铁金矿床位于阿尔泰南缘加波萨尔古生代岛弧带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿克希克铁金矿床位于阿尔泰造山带与准噶尔造山带接合部位"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿克希克铁金矿床位于阿尔泰造山带与准噶尔造山带接合部位"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "矿区EW向横向断裂为主要控矿、容矿断裂，控制矿体空间分布"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "位于",
+"description": "阿克希克铁金矿床位于额尔齐斯断裂带北侧"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "矿体赋存于南明水组下部、中部火山熔岩与凝灰岩接触带"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "南明水组火山熔岩与凝灰岩接触带属于下石炭统南明水组"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变较弱，主要见硅化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变较弱，主要见绢云母化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变较弱，主要见绿泥石化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变较弱，主要见黄铁矿化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变较弱，主要见碳酸盐化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石中主要金矿物为自然金"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中金属矿物主要包括磁铁矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中金属矿物主要包括赤铁矿"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中金属矿物主要包括黄铁矿"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要包括石英"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要包括斜长石"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要包括角闪石"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要包括黑云母"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要包括高岭土"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要包括透闪石"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要包括阳起石"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "对应成矿流体为",
+"description": "火山沉积期成矿流体以NaCl-H₂O型为主，温度集中于180~320℃，盐度集中于6%~10%"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E28",
+"relation_label_zh": "对应成矿流体为",
+"description": "热液期成矿流体为CO₂-NaCl-H₂O型及碳质流体，温度集中于220~320℃，盐度集中于2%~10%"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E29",
+"to_entity_local_id": "E27",
+"relation_label_zh": "约束该流体来源",
+"description": "火山沉积期δD_SMOW范围约束该期流体可能为海水与岩浆水的混合"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E30",
+"to_entity_local_id": "E27",
+"relation_label_zh": "约束该流体来源",
+"description": "火山沉积期δ¹⁸O_H₂O范围约束该期流体可能为海水与岩浆水的混合"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E31",
+"to_entity_local_id": "E28",
+"relation_label_zh": "约束该流体来源",
+"description": "热液期δD_SMOW范围约束该期流体主要为变质水混合深循环的大气降水"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E32",
+"to_entity_local_id": "E28",
+"relation_label_zh": "约束该流体来源",
+"description": "热液期δ¹⁸O_H₂O范围约束该期流体主要为变质水混合深循环的大气降水"
+}
+]
+}

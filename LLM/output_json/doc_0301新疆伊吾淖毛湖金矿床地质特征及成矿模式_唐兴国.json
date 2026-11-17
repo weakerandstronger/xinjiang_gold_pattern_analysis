@@ -1,0 +1,258 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0301",
+"title": "新疆伊吾淖毛湖金矿床地质特征及成矿模式_唐兴国",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "淖毛湖金矿床",
+"attributes": {
+"name": "淖毛湖金矿床",
+"location": "新疆伊吾县淖毛湖一带",
+"tectonic_position": "卡拉麦里成矿带东段琼河坝晚古生代岛弧带（西伯利亚与哈萨克斯坦两板块缝合带西段）",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "Au平均品位2.53 g/t",
+"ore_control_features": "金矿化蚀变破碎带受断裂控制，呈放射状、环状分布；沿构造蚀变带出露的黄铁绢英岩地段往往为金矿体产出地段"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带东段（琼河坝岛弧带）",
+"attributes": {
+"name": "卡拉麦里成矿带东段（琼河坝岛弧带）",
+"level": "成矿带",
+"tectonic_setting": "位于西伯利亚与哈萨克斯坦两板块缝合带西段，区域构造线以北西西向为主，断裂切割深且具控岩控矿作用"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下泥盆统托让格库都克组第二岩性段",
+"attributes": {
+"name": "下泥盆统托让格库都克组第二岩性段",
+"age": "下泥盆世",
+"dominant_lithology": "浅海环境火山碎屑岩、火山碎屑沉积岩，夹少量灰岩及中性—基性火山熔岩",
+"lithology_notes": "下部以玄武岩、安山岩及玄武质晶屑凝灰岩为主；中部以英安质岩晶屑凝灰岩、角砾凝灰岩夹安山岩为主；上部以安山质晶屑凝灰岩夹灰岩为主"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "黄铁绢英岩（构造蚀变带内）",
+"attributes": {
+"name": "黄铁绢英岩（构造蚀变带内）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "华力西中期闪长岩—闪长玢岩浅成侵入体",
+"attributes": {
+"name": "华力西中期闪长岩—闪长玢岩浅成侵入体",
+"rock_type": "闪长岩、石英闪长岩、闪长玢岩等中酸性浅成侵入体",
+"age": "华力西中期",
+"relationship_to_ore": "与成矿作用关系密切，侵入过程中携带大量成矿物质，为矿区成矿母岩并提供中—低温含矿热液"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "F1断裂",
+"attributes": {
+"name": "F1断裂",
+"structure_type": "断裂",
+"scale": "矿区级",
+"ore_control_role": "金矿化蚀变破碎带多分布于F1断裂以西，断裂及其相关裂隙带对矿化具有控制作用"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "环状—放射状断裂及构造蚀变带",
+"attributes": {
+"name": "环状—放射状断裂及构造蚀变带",
+"structure_type": "断裂—构造蚀变带",
+"orientation": "以北东向、北西向为主，次为近南北向与近东西向",
+"scale": "矿区级",
+"ore_control_role": "构造蚀变带（含金矿化蚀变破碎带）是矿体赋存与展布的主要控矿构造"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化（硅化—黄铁矿化—绢云母化）",
+"attributes": {
+"name": "黄铁绢英岩化（硅化—黄铁矿化—绢云母化）",
+"alteration_minerals": "石英、黄铁矿、绢云母",
+"intensity": "强烈发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与石英、黄铁矿及多金属硫化物共生，可出现于石英脉型、黄铁绢英岩型等矿石类型中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物与重要载金硫化物",
+"paragenesis": "与石英、绢云母等共生，是黄铁绢英岩化的关键矿物组合之一"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物之一（硫砷化物）",
+"paragenesis": "与黄铁矿、黄铜矿、闪锌矿、方铅矿等多金属硫化物密切共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "中—低温含矿热液",
+"attributes": {
+"nature": "中—低温含矿热液",
+"source": "与火山—岩浆及构造活动关系密切，成矿物质主要来自地壳深部，少部分来源于围岩；华力西中期侵入岩浆期后热液与后期构造运动形成的变质热液共同参与成矿"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geophysics",
+"name_zh": "激电低阻中高极化异常区带",
+"attributes": {
+"anomaly_type": "激电异常",
+"amplitude": "低阻中高极化",
+"spatial_pattern": "异常区带与矿化分布范围对应，可作为间接找矿标志"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "Au综合地球化学异常",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "与Ag、As、Co、Cu、Zn等综合异常共同指示矿化分布范围，为间接找矿标志"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "淖毛湖金矿床位于卡拉麦里成矿带东段琼河坝岛弧带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "淖毛湖金矿体主要产出在沿构造蚀变带形成的黄铁绢英岩出露与发育地段"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "黄铁绢英岩主要形成于下泥盆统托让格库都克组第二岩性段相关的断裂破碎带及其附近构造裂隙中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "淖毛湖矿区金矿化蚀变破碎带多分布于F1断裂以西，矿化受断裂及其裂隙带控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "淖毛湖金矿化蚀变破碎带受多组断裂控制，整体呈环状与放射状分布"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "华力西中期闪长岩—闪长玢岩等中酸性浅成侵入体沿火山通道侵入矿区火山岩地层（托让格库都克组第二岩性段）"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "与淖毛湖金矿化最为密切的蚀变为黄铁绢英岩化（硅化、黄铁矿化、绢云母化强烈发育）"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "淖毛湖矿石中主要金矿物包括自然金"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "淖毛湖矿石中金属矿物常见黄铁矿等硫化物，与矿化密切相关"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "淖毛湖原生矿石中毒砂与黄铁矿等多金属硫化物密切共生，指示矿体发育部位"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "淖毛湖金矿床成矿以中—低温含矿热液为主，热液沿构造向上运移并在有利构造部位富集成矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "激电测量显示低阻中高极化异常区带，与淖毛湖矿区矿化分布范围对应"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "岩屑化探显示Au及伴生元素综合异常分布范围指示淖毛湖矿化分布范围"
+}
+]
+}

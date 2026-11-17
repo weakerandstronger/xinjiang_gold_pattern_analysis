@@ -1,0 +1,422 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0060",
+"title": "新疆阿希低硫型金矿床流体地球化学特征与成矿机制",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆西天山",
+"tectonic_position": "赋存于古生代陆相火山岩中",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿体呈脉状产出，产于古火山机构外围的环形F2断裂带中，严格受环形及放射状断裂带控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西天山",
+"attributes": {
+"name": "新疆西天山",
+"level": "区域",
+"tectonic_setting": "新疆西天山地区，为阿希金矿床所在的构造—成矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组第五岩性段",
+"attributes": {
+"name": "下石炭统大哈拉军山组第五岩性段",
+"age": "下石炭统",
+"dominant_lithology": "安山岩、英安岩、含集块角砾岩、角砾岩及火山通道相英安质角砾熔岩",
+"lithology_notes": "为阿希金矿床的赋矿地层，属古生代陆相火山岩建造"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "下石炭统大哈拉军山组第五岩性段围岩单元",
+"attributes": {
+"name": "下石炭统大哈拉军山组第五岩性段围岩单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "古火山机构外围环形F2断裂带",
+"attributes": {
+"name": "古火山机构外围环形F2断裂带",
+"structure_type": "环形断裂",
+"orientation": "环绕古火山机构展布，矿体倾向东－北东，倾角60°～80°",
+"scale": "矿带地表出露长度大于1280m，单个矿体最大长度大于1000m，最大斜深约450m，厚度一般11～15m",
+"ore_control_role": "阿希金矿体呈脉状产于环形F2断裂中，严格受该断裂带控制，为主要控矿构造"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "冰长石－绢云母蚀变带",
+"attributes": {
+"name": "冰长石－绢云母蚀变带",
+"alteration_minerals": "冰长石、绢云母等",
+"intensity": "形成蚀变岩型矿石，是阿希低硫型浅成低温热液金矿床的典型蚀变特征"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿成矿流体",
+"attributes": {
+"nature": "低硫型浅成低温热液成矿流体，流体包裹体类型以液相水溶液包裹体和富液相气液两相水溶液包裹体为主，三类包裹体共生，流体发生明显沸腾，蚀变岩型成矿以水岩交代反应为主且处于近中性pH环境",
+"source": "主要为循环的大气降水，成矿物质主要来自赋矿围岩火山岩及基底岩石",
+"temperature_C_min": "121",
+"temperature_C_max": "335",
+"salinity_wtNaCl_min": "0.48",
+"salinity_wtNaCl_max": "3.75"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Isotope",
+"name_zh": "阿希金矿成矿流体同位素参数",
+"attributes": {
+"system": "H-O-C-S 同位素体系",
+"parameter_name": "氢、氧、碳、硫同位素组成",
+"value_range": "δD_SMOW,H2O＝－98‰～－116‰，δ18O_SMOW,H2O＝－0.55‰～1.65‰；δ13C_PDB,方解石＝2.6‰～4.9‰；δ34S_CDT＝－4.0‰～3.1‰，平均值约－0.45‰"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "多呈微粒状，自然金或银金矿一般呈包体状赋存于石英和硫化物中或赋存于石英、硫化物的粒间及裂隙中，粒径约0.002～0.016mm"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "重要金银矿物",
+"paragenesis": "与自然金及多种硫化物共生，多呈包体状赋存于石英和硫化物中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物",
+"paragenesis": "与自然金、银金矿、白铁矿、毒砂等共生，是含金矿石中最重要的硫化物之一"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "白铁矿",
+"attributes": {
+"name": "白铁矿",
+"role_in_ore": "常见金属硫化物矿物",
+"paragenesis": "与黄铁矿、毒砂等共生，产于含金硫化物组合中"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "含砷硫化物矿物",
+"paragenesis": "与黄铁矿、白铁矿等共生，构成含砷金矿化的主要硫化物之一"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "赤铁矿",
+"attributes": {
+"name": "赤铁矿",
+"role_in_ore": "金属氧化物矿物",
+"paragenesis": "与褐铁矿等共生，见于矿体及氧化带中，反映上部氧化作用"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "金属氧化物矿物",
+"paragenesis": "与赤铁矿等共生，常见于矿石及风化氧化带中"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "微量金属硫化物矿物",
+"paragenesis": "以微量形式产于含金矿石中，与黄铁矿等硫化物共生"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "微量金属硫化物矿物",
+"paragenesis": "微量出现于矿石中，与黄铁矿、毒砂等金属硫化物共生"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "微量金属硫化物矿物",
+"paragenesis": "以微量形式见于矿石中，与闪锌矿、黄铜矿等共生"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "磁黄铁矿",
+"attributes": {
+"name": "磁黄铁矿",
+"role_in_ore": "微量金属硫化物矿物",
+"paragenesis": "微量出现，与其他硫化物共同组成金属矿物组合"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "浓红银矿",
+"attributes": {
+"name": "浓红银矿",
+"role_in_ore": "微量银矿物",
+"paragenesis": "与硒银矿等银矿物以及自然金、银金矿共生于含金矿石中"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "硒银矿",
+"attributes": {
+"name": "硒银矿",
+"role_in_ore": "微量银矿物",
+"paragenesis": "与浓红银矿及其他银矿物一起，以极少量出现于含金矿石中"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "构成石英脉型矿石，含金石英脉中可见叶片状石英和含硫化物集合体，自然金或银金矿多赋存于石英中"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "冰长石",
+"attributes": {
+"name": "冰长石",
+"role_in_ore": "重要脉石及蚀变矿物",
+"paragenesis": "含金石英脉中可见冰长石，与叶片状石英和硫化物集合体共生，是冰长石－绢云母型低硫成矿系统的重要组成"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于新疆西天山地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿床赋存于下石炭统大哈拉军山组第五岩性段围岩单元中，其围岩为安山质火山岩和火山碎屑岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "下石炭统大哈拉军山组第五岩性段围岩单元在地层上属于下石炭统大哈拉军山组第五岩性段"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "阿希金矿体呈脉状产于古火山机构外围环形F2断裂中，严格受环形F2断裂带及其相关断裂控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿床为冰长石－绢云母型低硫型浅成低温热液金矿床，发育冰长石－绢云母蚀变并形成蚀变岩型矿石"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希金矿床的成矿流体为低盐度中低温热液流体，流体包裹体均一温度121～335℃，盐度约0.48％～3.75％NaCleq，成矿深度小于700m，沸腾作用显著"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "阿希金矿成矿流体氢、氧、碳、硫同位素组成表明成矿流体主要为循环大气降水，成矿物质主要来自围岩及基底岩石"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "阿希金矿床的主要金矿物为自然金，自然金多呈微粒状产于石英及硫化物中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床中自然金或银金矿一般呈包体状赋存于石英和硫化物中或粒间与裂隙中"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床含金矿石中常见黄铁矿，为主要金属硫化物矿物"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床矿石中常见白铁矿，与黄铁矿等硫化物共生"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床含砷矿化中发育毒砂，与黄铁矿、白铁矿等共生"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床氧化带中常见赤铁矿，与褐铁矿共生"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床矿石中常见褐铁矿，为上部氧化带的重要氧化物矿物"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床矿石中可见微量闪锌矿，与其他硫化物共生"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床矿石中含有微量黄铜矿，与硫化物组合共生"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床矿石中可见少量方铅矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床矿石中含有微量磁黄铁矿，与其他硫化物共生"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床矿石中含有浓红银矿等微量银矿物"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床矿石中可见硒银矿等银矿物，与自然金、银金矿共生"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "脉石矿物包括",
+"description": "阿希金矿床的石英脉型矿石以石英为主要脉石矿物，含金石英脉中可见叶片状石英"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "脉石矿物包括",
+"description": "阿希金矿床含金石英脉中可见冰长石，与叶片状石英和硫化物集合体共生，反映冰长石－绢云母型低硫成矿特征"
+}
+]
+}

@@ -1,0 +1,320 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0193",
+"title": "新疆富蕴县扎格依库都克金矿地质及地球化学特征_胡可扬",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "扎格依库都克金矿床",
+"attributes": {
+"name": "扎格依库都克金矿床",
+"location": "新疆富蕴县（准噶尔盆地北东缘）",
+"tectonic_position": "喀拉通克岛弧带（额尔齐斯构造带中段南侧）",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "Au品位0.89×10^-6~148.38×10^-6（Au-Ⅰ平均22.37×10^-6；Au-Ⅱ平均17.46×10^-6）",
+"ore_control_features": "矿体与矿化蚀变带明显受构造断裂控制：SN向断裂与成矿关系密切；F6错断F3且交汇部位北东向次级断裂发育并控制多条金矿（化）体；F5断裂西侧伴随Au、As、Sb异常，F5与F4交汇处发育含金破碎蚀变带",
+"age_ma": "晚石炭世末—早二叠世（推测）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "喀拉通克岛弧带",
+"attributes": {
+"name": "喀拉通克岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "准噶尔盆地北东缘岛弧构造环境"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "额尔齐斯构造带",
+"attributes": {
+"name": "额尔齐斯构造带",
+"level": "构造带",
+"tectonic_setting": "晚古生代俯冲—碰撞及碰撞后板内拉张伸展、走滑剪切背景下形成的大型多金属成矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统黑山头组",
+"attributes": {
+"name": "下石炭统黑山头组",
+"age": "早石炭世（约343~339Ma）",
+"dominant_lithology": "火山熔岩与火山碎屑岩建造（英安岩、安山岩、玄武岩及火山碎屑沉积岩等）",
+"lithology_notes": "总体为海陆过渡相火山-火山碎屑岩沉积建造，矿区主要出露并可分为两个岩性段"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "玄武岩围岩",
+"attributes": {
+"name": "玄武岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长岩围岩",
+"attributes": {
+"name": "闪长岩围岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉绿岩小岩体",
+"attributes": {
+"name": "辉绿岩小岩体",
+"rock_type": "辉绿岩",
+"relationship_to_ore": "浅层侵入黑山头组第二岩性段玄武安山岩及火山碎屑岩中，矿区矿化蚀变带发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "F3断裂",
+"attributes": {
+"name": "F3断裂",
+"structure_type": "断裂",
+"orientation": "走向130°",
+"scale": "区内出露长度约1.2km",
+"ore_control_role": "总体受F3断裂控制的矿化蚀变带内发育石英脉与金矿（化）体"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "F6断裂",
+"attributes": {
+"name": "F6断裂",
+"structure_type": "断裂",
+"orientation": "走向0°",
+"scale": "区内出露长度约1.9km",
+"ore_control_role": "错断F3断裂，交汇部位北东向次级断裂发育并控制多条金矿（化）体呈雁列式排列"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "F5断裂",
+"attributes": {
+"name": "F5断裂",
+"structure_type": "断裂",
+"orientation": "走向70°",
+"scale": "区内出露长度近7.1km",
+"ore_control_role": "断裂西侧分布Au、As、Sb异常，F5与F4交汇部位发育含金破碎蚀变带并圈出金矿化体"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "以硅化、黄铁矿化和碳酸盐化为主的蚀变",
+"attributes": {
+"name": "以硅化、黄铁矿化和碳酸盐化为主的蚀变",
+"alteration_minerals": "石英、黄铁矿、褐铁矿、绢云母、方解石（碳酸盐类）、绿帘石、绿泥石",
+"intensity": "较强（矿化蚀变带内普遍发育）"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物（与金矿化密切相关）",
+"paragenesis": "Ⅰ阶段石英-黄铁矿化阶段及Ⅱ阶段黄铁矿-毒砂-石英阶段均发育"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物（主成矿阶段常见）",
+"paragenesis": "Ⅱ阶段黄铁矿-毒砂-石英阶段为主"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "扎格依库都克金矿成矿流体",
+"attributes": {
+"nature": "NaCl-H2O低温、低压、低盐度水溶液流体（以水溶液包裹体为主，缺乏富CO2包裹体）",
+"source": "早期为岩浆水与大气降水混合流体，中后期以大气降水为主",
+"temperature_C_min": "180",
+"temperature_C_max": "270",
+"pressure_MPa_min": "8.93",
+"pressure_MPa_max": "13.52",
+"salinity_wtNaCl_min": "6",
+"salinity_wtNaCl_max": "12"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢-氧同位素",
+"parameter_name": "δD_SMOW、δ18O_SMOW、δ18O_H2O",
+"value_range": "Ⅰ阶段：δD_SMOW=-118.3‰，δ18O_SMOW=11.2‰，δ18O_H2O=-3.1‰；Ⅱ阶段：δD_SMOW=-126.7~-131.9‰，δ18O_SMOW=10~12.4‰，δ18O_H2O=-17.4~-18.5‰"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S_V-CDT",
+"value_range": "Ⅰ阶段δ34S=1.4‰；Ⅱ阶段δ34S=2.0~2.9‰（两阶段变化较小，与幔源硫特征一致）"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geochem",
+"name_zh": "金（Au）地球化学特征",
+"attributes": {
+"element": "Au",
+"value_ppm": "0.08×10^-6~148.38×10^-6",
+"anomaly_pattern": "矿石与蚀变围岩成矿元素值整体较高，Au与Ag、Cu、Pb、As、S等成矿元素关系密切；沿F5断裂西侧分布Au异常并与含金破碎蚀变带对应"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "扎格依库都克金矿床位于准噶尔盆地北东缘喀拉通克岛弧带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "扎格依库都克金矿床位于额尔齐斯构造带中段南侧"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "矿床围岩以玄武岩为主，矿体产于破碎蚀变玄武岩中并以含硫化物石英脉为主要容矿地质体"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "矿床围岩包括闪长岩，部分矿体产于破碎蚀变闪长岩中并与石英脉矿化密切相关"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "玄武岩围岩属于下石炭统黑山头组火山-火山碎屑岩建造"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "辉绿岩小岩体浅层侵入下石炭统黑山头组玄武安山岩及火山碎屑岩中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "矿化蚀变带及金矿（化）体总体受F3断裂控制"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "F6断裂错断F3并在交汇部位发育次级断裂，控制多条金矿（化）体呈雁列式排列"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "F5断裂西侧分布Au、As、Sb异常且在F5与F4交汇部位发育含金破碎蚀变带并圈出金矿化体"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区矿化蚀变带普遍发育硅化、黄铁矿化与碳酸盐化等蚀变"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石主要金属矿物之一为黄铁矿，广泛发育于早期与主成矿阶段石英脉中"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石主要金属矿物之一为毒砂，主要发育于Ⅱ阶段黄铁矿-毒砂-石英阶段"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "扎格依库都克金矿床成矿流体为NaCl-H2O体系低温、低压、低盐度水溶液流体"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "显示",
+"description": "扎格依库都克金矿床显示明显Au地球化学富集与异常特征，并与断裂构造及矿化蚀变带对应"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素特征指示成矿流体早期为岩浆水与大气降水混合，中后期以大气降水为主"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S值接近幔源硫特征，指示成矿流体硫来源较为集中并可能与深部岩浆作用有关"
+}
+]
+}

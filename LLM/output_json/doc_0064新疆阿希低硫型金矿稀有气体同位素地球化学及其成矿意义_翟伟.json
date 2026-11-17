@@ -1,0 +1,75 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0064",
+"title": "新疆阿希低硫型金矿稀有气体同位素地球化学及其成矿意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆西天山地区",
+"tectonic_position": "赋存在新疆西天山古生代陆相火山岩中",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿体赋存在古生代陆相火山岩中，属于低硫型浅成低温热液成矿系统"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西天山地区",
+"attributes": {
+"name": "新疆西天山地区",
+"level": "区域",
+"tectonic_setting": "古生代陆相火山岩广泛出露的西天山造山带一部分，为阿希低硫型金矿床的成矿区域"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿成矿流体",
+"attributes": {
+"nature": "低硫型浅成低温热液成矿体系中的成矿流体，稀有气体同位素特征显示成矿过程中曾发生沸腾作用",
+"source": "成矿流体主要为循环的大气降水，流体中不含幔源He，含壳源放射性成因⁴⁰Ar以及大量大气Ar"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Isotope",
+"name_zh": "阿希金矿稀有气体同位素参数",
+"attributes": {
+"system": "稀有气体同位素体系（He－Ar－Ne－Kr－Xe）",
+"parameter_name": "He、Ar、Ne、Kr、Xe 同位素组成及相关参数",
+"value_range": "流体包裹体³He/⁴He＝0.0218～0.138Rₐ（平均0.044Rₐ），⁴⁰Ar/³⁶Ar＝317.7～866.0（平均467.3），略高于大气值295.5；²⁰Ne/²²Ne＝8.08～13.00，²¹Ne/²²Ne＝0.028～0.063；⁸²Kr/⁸⁴Kr＝0.159～0.278，⁸³Kr/⁸⁴Kr＝0.171～0.238，⁸⁶Kr/⁸⁴Kr＝0.280～0.348；¹²⁹Xe/¹³²Xe＝0.96～1.017，¹³⁴Xe/¹³²Xe＝0.401～0.443。放射性成因⁴⁰Ar含量为7.0%～65.9%（平均29.0%），大气⁴⁰Ar贡献为43.0%～93.0%（平均71.0%），F⁸⁴Kr和F¹²⁹Xe指示成矿流体曾发生沸腾作用"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于新疆西天山地区古生代陆相火山岩发育带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希低硫型（冰长石－绢云母型）浅成低温热液金矿床对应的成矿流体为循环的大气降水形成的热液流体，成矿过程中曾发生沸腾作用"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "约束该流体来源",
+"description": "稀有气体同位素参数显示成矿流体³He/⁴He为壳源特征、不含幔源He，⁴⁰Ar/³⁶Ar略高于大气且大气⁴⁰Ar贡献较大，综合表明阿希金矿成矿流体为循环的大气降水并混入壳源放射性成因气体，且成矿过程中经历沸腾"
+}
+]
+}

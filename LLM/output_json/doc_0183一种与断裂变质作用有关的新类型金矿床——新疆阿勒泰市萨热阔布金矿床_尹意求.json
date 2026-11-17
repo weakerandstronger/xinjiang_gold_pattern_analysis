@@ -1,0 +1,164 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0183",
+"title": "一种与断裂变质作用有关的新类型金矿床——新疆阿勒泰市萨热阔布金矿床_尹意求",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨热阔布金矿床",
+"attributes": {
+"name": "萨热阔布金矿床",
+"location": "新疆阿勒泰市东约10千米，阿尔泰山南缘中部山区",
+"tectonic_position": "西伯利亚板块阿尔泰晚古生代活动陆缘克兰陆内裂谷盆地中部北东缘，阿勒泰倒转紧闭复式向斜北东翼",
+"deposit_type": "造山型金矿床",
+"ore_grade": "主要矿体金平均品位约7.67～10.46克/吨（I—1号矿体7.67克/吨，I—2号矿体10.46克/吨）",
+"resource_tonnage": "远景储量可达大中型规模",
+"ore_control_features": "矿体与围岩呈断裂变质分带特征，矿体两侧线性分布含硅线石、红柱石等低压型高温变质矿物的黑云粗晶片岩；金矿石以石英为主体且韧性剪切变形甚弱",
+"age_ma": "320±6百万年（含金黑云石英脉石英单矿物40Ar-39Ar等时线年龄）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "克兰陆内裂谷盆地",
+"attributes": {
+"name": "克兰陆内裂谷盆地",
+"level": "陆内裂谷盆地",
+"tectonic_setting": "西伯利亚板块阿尔泰晚古生代活动陆缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下泥盆统康布铁堡组上亚组第二岩性段",
+"attributes": {
+"name": "下泥盆统康布铁堡组上亚组第二岩性段",
+"age": "早泥盆世（下泥盆统）",
+"dominant_lithology": "黑云微晶片岩、石英黑云微晶片岩、变余石英晶屑黑云石英微晶片岩等（并夹大理岩、铁锰质大理岩、石英岩、层状似矽卡岩等）",
+"lithology_notes": "为萨热阔布金矿床赋矿地层；第二岩性段中部为5号矿体含矿岩系，上部为I—1号和I—2号矿体含矿岩系"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "黑云微晶片岩与变余石英晶屑黑云石英微晶片岩围岩",
+"attributes": {
+"name": "黑云微晶片岩与变余石英晶屑黑云石英微晶片岩围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "断裂前进变质作用（线性变质蚀变）",
+"attributes": {
+"name": "断裂前进变质作用（线性变质蚀变）",
+"alteration_minerals": "硅线石、红柱石、粗晶黑云母、角闪石",
+"intensity": "线性发育"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "以单体游离金为主，多赋存于黄铁矿、石英等矿物间隙中，在黄铁矿中未见包裹金"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "原生矿石中主要金属矿物之一，与磁黄铁矿、黄铜矿等共生"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Fluid",
+"name_zh": "萨热阔布金矿床成矿流体",
+"attributes": {
+"nature": "富Na+、Ca2+、Cl-、CO2的中等盐度流体",
+"temperature_C_min": "240",
+"temperature_C_max": "310",
+"pressure_MPa_min": "140",
+"pressure_MPa_max": "160",
+"salinity_wtNaCl_min": "11.20",
+"salinity_wtNaCl_max": "17.4"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Isotope",
+"name_zh": "石英单矿物40Ar-39Ar同位素年龄参数",
+"attributes": {
+"system": "氩-氩",
+"parameter_name": "石英单矿物等时线年龄",
+"value_range": "320.4±6百万年"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床产于克兰陆内裂谷盆地北东缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "萨热阔布金矿床容矿围岩主要为黑云微晶片岩与变余石英晶屑黑云石英微晶片岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "黑云微晶片岩与变余石英晶屑黑云石英微晶片岩围岩属于下泥盆统康布铁堡组上亚组第二岩性段"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要蚀变为",
+"description": "萨热阔布金矿床围岩蚀变表现为线性的断裂前进变质作用，形成硅线石、红柱石等低压型高温变质矿物"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要金矿物为",
+"description": "萨热阔布金矿床金以自然金为主"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床原生矿石中主要金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "对应成矿流体为",
+"description": "含金石英脉石英流体包裹体指示成矿流体形成温度为240～310℃、压力约140～160MPa、盐度为11.20～17.4wt% NaCl，流体富Na+、Ca2+、Cl-、CO2"
+}
+]
+}

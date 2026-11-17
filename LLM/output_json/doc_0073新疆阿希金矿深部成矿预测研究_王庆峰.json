@@ -1,0 +1,125 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0073",
+"title": "新疆阿希金矿深部成矿预测研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆",
+"ore_control_features": "阿希金矿化类型以硅化石英脉型和黄铁绢英蚀变岩型为主，金矿体产出和分布受 F2 断裂和火山管道相英安质角砾熔岩二元因素联合控制。F2 断裂在成矿期表现为引张性构造应力性质，这种应力机制决定了控矿断裂局部启张空间的形成和大小，使控矿断裂构造规模和强度向深部及南北两端延伸减弱、收敛尖灭。矿体规模和矿化强度整体上浅强深弱，1300 m 标高附近为矿体由厚大转为变窄的转折部位，向深部矿体厚度逐渐变小，南北两端矿化强度小于中部，矿体厚度及品位从浅部向深部、由中部向南北两端减小。成矿断裂最大控矿深度南段约 800 m、北段约 700 m，结合剥蚀及侧伏规律推断南段矿体垂深底部约在 1000 m 标高、北段约在 900 m 标高，南段矿体剥蚀程度高于北段，但在 1300 m 标高以上仍存在一定找矿增储空间。"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆",
+"attributes": {
+"name": "新疆"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "F2 断裂",
+"attributes": {
+"name": "F2 断裂",
+"structure_type": "断裂",
+"scale": "阿希金矿区主控矿构造之一，对金矿体产出和分布具有决定性影响",
+"ore_control_role": "在成矿期表现为引张性构造应力性质，控制金矿体产出和分布，决定控矿断裂局部启张空间的形成和大小，使控矿断裂规模和强度向深部及南北两端延伸减弱、收敛尖灭，从而控制矿体规模及空间展布"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "火山管道相英安质角砾熔岩围岩单元",
+"attributes": {
+"name": "火山管道相英安质角砾熔岩围岩单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "硅化石英脉型矿化",
+"attributes": {
+"name": "硅化石英脉型矿化",
+"alteration_minerals": "以硅化和石英脉为主的蚀变矿物组合",
+"intensity": "该类型矿化主要分布在靠近主断裂面一定距离范围之内的断裂裂隙发育部位，为阿希金矿主要矿化类型之一"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英蚀变岩型矿化",
+"attributes": {
+"name": "黄铁绢英蚀变岩型矿化",
+"alteration_minerals": "以黄铁矿和绢云母为特征的黄铁绢英蚀变岩组合",
+"intensity": "该类型矿化主要出现于距离主断裂面上盘相对较远的破碎带中，为阿希金矿另一主要矿化类型"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Geochem",
+"name_zh": "阿希金矿深部微量元素地球化学特征",
+"attributes": {
+"element": "成矿主元素及矿化指示元素 Ag 等",
+"value_ppm": "文中未给出具体含量，仅指出成矿主元素和矿化指示元素 Ag 等的含量变化趋势",
+"anomaly_pattern": "微量元素化学分析显示，成矿主元素和矿化指示元素 Ag 等向深部含量降低，分布范围减小，指示矿体深部矿化强度减弱、找矿前景相对变差"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿位于新疆境内，是文中进行深部成矿预测研究的金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "阿希金矿金矿体产出和分布受 F2 断裂控制，F2 断裂在成矿期为引张性控矿构造，其规模和强度向深部及南北两端延伸减弱、收敛尖灭，从而控制矿体的规模、厚度及空间展布"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿金矿体的产出和分布受火山管道相英安质角砾熔岩这一围岩单元控制，该岩相为金矿体重要赋矿围岩，与 F2 断裂共同构成二元控矿因素"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿化类型之一为硅化石英脉型矿化，主要分布在靠近主断裂面一定距离范围内的断裂裂隙发育部位"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿化类型之一为黄铁绢英蚀变岩型矿化，主要出现于距离主断裂面上盘相对较远的破碎带中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "显示",
+"description": "微量元素化学分析表明，阿希金矿成矿主元素和矿化指示元素 Ag 等在深部含量降低、分布范围减小，显示矿体深部矿化减弱的变化趋势"
+}
+]
+}

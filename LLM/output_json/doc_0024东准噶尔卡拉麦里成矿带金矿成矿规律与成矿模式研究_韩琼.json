@@ -1,0 +1,517 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0024",
+"title": "东准噶尔卡拉麦里成矿带金矿成矿规律与成矿模式研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Region",
+"name_zh": "东准噶尔卡拉麦里成矿带",
+"attributes": {
+"name": "东准噶尔卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "位于西伯利亚板块和哈萨克斯坦板块交汇部位，是中亚造山带的重要组成部分，在成矿区带上属于卡拉麦里-莫钦乌拉成矿带（Ⅳ级），金矿成矿条件十分优越，资源潜力巨大，是我国重要的金-多金属成矿带之一"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "卡拉麦里-莫钦乌拉成矿带",
+"attributes": {
+"name": "卡拉麦里-莫钦乌拉成矿带",
+"level": "Ⅳ级成矿带",
+"tectonic_setting": "东准噶尔卡拉麦里成矿带在成矿区带上的所属单元，为金-多金属成矿带的重要组成部分"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "东准噶尔金矿带",
+"attributes": {
+"name": "东准噶尔金矿带",
+"level": "金矿带",
+"tectonic_setting": "位于东准噶尔地区，在碰撞造山理论背景下建立区域成矿模式和成矿系列的金矿成矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿亚带",
+"attributes": {
+"name": "卡拉麦里成矿亚带",
+"level": "成矿亚带",
+"tectonic_setting": "东准噶尔卡拉麦里成矿带中的一个成矿亚带，是研究区重要的金矿成矿亚带之一"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "库布苏-库普成矿亚带",
+"attributes": {
+"name": "库布苏-库普成矿亚带",
+"level": "成矿亚带",
+"tectonic_setting": "东准噶尔卡拉麦里成矿带中的一个成矿亚带，是研究对象之一"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Region",
+"name_zh": "金山沟成矿亚带",
+"attributes": {
+"name": "金山沟成矿亚带",
+"level": "成矿亚带",
+"tectonic_setting": "东准噶尔卡拉麦里成矿带中的一个成矿亚带，是研究对象之一"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组",
+"attributes": {
+"name": "下石炭统南明水组",
+"age": "下石炭统",
+"lithology_notes": "与金成矿成矿密切相关的含矿地层之一"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统清水组",
+"attributes": {
+"name": "下石炭统清水组",
+"age": "下石炭统",
+"lithology_notes": "与金成矿成矿密切相关的含矿地层之一"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统巴塔玛依内山组",
+"attributes": {
+"name": "下石炭统巴塔玛依内山组",
+"age": "下石炭统",
+"lithology_notes": "与金成矿成矿密切相关的含矿地层之一"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "StratUnit",
+"name_zh": "下泥盆统托让格库都克下亚组",
+"attributes": {
+"name": "下泥盆统托让格库都克下亚组",
+"age": "下泥盆统",
+"lithology_notes": "与金成矿成矿密切相关的含矿地层之一"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统北塔山岩组",
+"attributes": {
+"name": "中泥盆统北塔山岩组",
+"age": "中泥盆统",
+"lithology_notes": "与金成矿成矿密切相关的含矿地层之一"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "StratUnit",
+"name_zh": "志留系库布苏群",
+"attributes": {
+"name": "志留系库布苏群",
+"age": "志留系",
+"lithology_notes": "与金成矿成矿密切相关的含矿地层之一"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Deposit",
+"name_zh": "金山沟金矿床",
+"attributes": {
+"name": "金山沟金矿床",
+"location": "新疆东准噶尔卡拉麦里成矿带",
+"tectonic_position": "位于西伯利亚板块和哈萨克斯坦板块交汇部位的中亚造山带东准噶尔地区",
+"ore_control_features": "受NW-NWW向与NE-NEE向组成的“X”型共轭断裂系统及其次级断裂共同控制，线性构造越密集的地段内生金属矿床越多",
+"age_ma": "成矿时代以早石炭世中晚期为主，泥盆纪和志留纪金矿床较少"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Deposit",
+"name_zh": "卡拉麦里Ⅰ号金矿床",
+"attributes": {
+"name": "卡拉麦里Ⅰ号金矿床",
+"location": "新疆东准噶尔卡拉麦里成矿带",
+"tectonic_position": "位于西伯利亚板块和哈萨克斯坦板块交汇部位的中亚造山带东准噶尔地区",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受NW-NWW向与NE-NEE向组成的“X”型共轭断裂系统及其次级断裂共同控制，线性构造越密集的地段内生金属矿床越多",
+"age_ma": "成矿时代以早石炭世中晚期为主，泥盆纪和志留纪金矿床较少"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Deposit",
+"name_zh": "库布苏金矿床",
+"attributes": {
+"name": "库布苏金矿床",
+"location": "新疆东准噶尔卡拉麦里成矿带",
+"tectonic_position": "位于西伯利亚板块和哈萨克斯坦板块交汇部位的中亚造山带东准噶尔地区",
+"ore_control_features": "受NW-NWW向与NE-NEE向组成的“X”型共轭断裂系统及其次级断裂共同控制，线性构造越密集的地段内生金属矿床越多",
+"age_ma": "成矿时代以早石炭世中晚期为主，泥盆纪和志留纪金矿床较少"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Deposit",
+"name_zh": "金水泉金矿床",
+"attributes": {
+"name": "金水泉金矿床",
+"location": "新疆东准噶尔卡拉麦里成矿带",
+"tectonic_position": "位于西伯利亚板块和哈萨克斯坦板块交汇部位的中亚造山带东准噶尔地区",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受NW-NWW向与NE-NEE向组成的“X”型共轭断裂系统及其次级断裂共同控制，并与卡拉麦里蛇绿混杂岩带在成因上具有相关性",
+"age_ma": "成矿时代以早石炭世中晚期为主，泥盆纪和志留纪金矿床较少"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Deposit",
+"name_zh": "黄羊山金矿床",
+"attributes": {
+"name": "黄羊山金矿床",
+"location": "新疆东准噶尔卡拉麦里成矿带",
+"tectonic_position": "位于西伯利亚板块和哈萨克斯坦板块交汇部位的中亚造山带东准噶尔地区",
+"ore_control_features": "受NW-NWW向与NE-NEE向组成的“X”型共轭断裂系统及其次级断裂共同控制，并与黄羊山花岗岩系列在成因上存在联系",
+"age_ma": "成矿时代以早石炭世中晚期为主，泥盆纪和志留纪金矿床较少"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Deposit",
+"name_zh": "苏吉泉金矿床",
+"attributes": {
+"name": "苏吉泉金矿床",
+"location": "新疆东准噶尔卡拉麦里成矿带",
+"tectonic_position": "位于西伯利亚板块和哈萨克斯坦板块交汇部位的中亚造山带东准噶尔地区",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受NW-NWW向与NE-NEE向组成的“X”型共轭断裂系统及其次级断裂共同控制，并与苏吉泉花岗岩岩体在成因上关系密切",
+"age_ma": "成矿时代以早石炭世中晚期为主，泥盆纪和志留纪金矿床较少"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Deposit",
+"name_zh": "苏吉泉金矿床",
+"attributes": {
+"name": "苏吉泉金矿床",
+"location": "新疆东准噶尔卡拉麦里成矿带",
+"tectonic_position": "位于西伯利亚板块和哈萨克斯坦板块交汇部位的中亚造山带东准噶尔地区",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受NW-NWW向与NE-NEE向组成的“X”型共轭断裂系统及其次级断裂共同控制，并与苏吉泉花岗岩岩体在成因上关系密切",
+"age_ma": "成矿时代以早石炭世中晚期为主，泥盆纪和志留纪金矿床较少"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿床",
+"attributes": {
+"name": "南明水金矿床",
+"location": "新疆东准噶尔卡拉麦里成矿带",
+"tectonic_position": "位于西伯利亚板块和哈萨克斯坦板块交汇部位的中亚造山带东准噶尔地区",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受NW-NWW向与NE-NEE向组成的“X”型共轭断裂系统及其次级断裂共同控制，并与卡拉麦里蛇绿混杂岩带在成因上具有相关性",
+"age_ma": "成矿时代以早石炭世中晚期为主，泥盆纪和志留纪金矿床较少"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "IntrusiveBody",
+"name_zh": "黄羊山系列花岗岩岩体",
+"attributes": {
+"name": "黄羊山系列花岗岩岩体",
+"rock_type": "花岗岩",
+"age": "约305Ma",
+"relationship_to_ore": "在成矿带上已经确定与黄羊山金矿在成因上存在联系"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "IntrusiveBody",
+"name_zh": "库布苏南系列花岗岩岩体",
+"attributes": {
+"name": "库布苏南系列花岗岩岩体",
+"rock_type": "花岗岩",
+"age": "约287±2Ma",
+"relationship_to_ore": "成矿带内重要花岗岩系列，与金矿成矿具有时空演化上的对应关系"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "IntrusiveBody",
+"name_zh": "贝勒库都克系列花岗岩岩体",
+"attributes": {
+"name": "贝勒库都克系列花岗岩岩体",
+"rock_type": "花岗岩",
+"age": "约283±2Ma",
+"relationship_to_ore": "成矿带内重要花岗岩系列之一，与区域金成矿作用在时间上具有继承性"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "IntrusiveBody",
+"name_zh": "锡矿北斑岩系列岩体",
+"attributes": {
+"name": "锡矿北斑岩系列岩体",
+"rock_type": "斑岩",
+"age": "约277±11Ma",
+"relationship_to_ore": "为成矿带内较晚期的斑岩系列岩体，与金矿成矿在空间上存在一定指示意义"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "IntrusiveBody",
+"name_zh": "苏吉泉花岗岩岩体",
+"attributes": {
+"name": "苏吉泉花岗岩岩体",
+"rock_type": "花岗岩",
+"relationship_to_ore": "苏吉泉、苏吉泉东金矿在成因上与该花岗岩岩体关系密切"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Structure",
+"name_zh": "NW-NWW与NE-NEE“X”型共轭断裂系统",
+"attributes": {
+"name": "NW-NWW与NE-NEE“X”型共轭断裂系统",
+"structure_type": "共轭断裂系统",
+"orientation": "由NW-NWW向和NE-NEE向断裂组成，构成“X”型构造格局",
+"scale": "控制金矿矿带总体方向的区域性断裂系统，构造线密集地段发育多条断裂",
+"ore_control_role": "“X”型共轭断裂控制了金矿矿带的总体方向，次级断裂控制矿床和矿点的具体部位，线性构造越密集的地段内生金属矿床越多"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里蛇绿混杂岩带",
+"attributes": {
+"name": "卡拉麦里蛇绿混杂岩带",
+"structure_type": "蛇绿混杂岩带",
+"orientation": "沿成矿带展布的线性构造岩带",
+"scale": "区域性大型蛇绿混杂岩构造带",
+"ore_control_role": "金水泉金矿和南明水金矿与该蛇绿混杂岩带在成因上具有相关性，对金成矿具有重要构造背景作用"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "金山沟金矿位于新疆东准噶尔卡拉麦里成矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "卡拉麦里Ⅰ号金矿位于新疆东准噶尔卡拉麦里成矿带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "库布苏金矿位于新疆东准噶尔卡拉麦里成矿带内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "金水泉金矿位于新疆东准噶尔卡拉麦里成矿带内"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "黄羊山金矿位于新疆东准噶尔卡拉麦里成矿带内"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "苏吉泉金矿位于新疆东准噶尔卡拉麦里成矿带内"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E19",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "苏吉泉东金矿位于新疆东准噶尔卡拉麦里成矿带内"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E20",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "南明水金矿位于新疆东准噶尔卡拉麦里成矿带内"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "金山沟金矿隶属于东准噶尔金矿带，是建立区域成矿系列和成矿模式的重要典型矿床之一"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "卡拉麦里Ⅰ号金矿隶属于东准噶尔金矿带，是破碎蚀变岩型金矿的代表之一"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "库布苏金矿隶属于东准噶尔金矿带，是浅成中低温热液蚀变岩型金矿的代表矿床"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "金水泉金矿隶属于东准噶尔金矿带，是韧性剪切带型金矿的代表矿床"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "黄羊山金矿隶属于东准噶尔金矿带，是与花岗岩在成因上存在联系的重要金矿床"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "苏吉泉金矿隶属于东准噶尔金矿带，在建立东准噶尔金矿带成矿系列中具有代表性"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E19",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "苏吉泉东金矿隶属于东准噶尔金矿带，与苏吉泉金矿共同约束成矿系列"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E20",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "南明水金矿隶属于东准噶尔金矿带，是研究成矿规律和成矿模式的重要金矿床"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E26",
+"relation_label_zh": "受…控制",
+"description": "金山沟金矿的矿带总体方向及矿体部位受NW-NWW向与NE-NEE向组成的“X”型共轭断裂及其次级断裂控制"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E26",
+"relation_label_zh": "受…控制",
+"description": "卡拉麦里Ⅰ号金矿矿带及矿床部位受NW-NWW向与NE-NEE向“X”型共轭断裂系统及次级断裂控制"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E26",
+"relation_label_zh": "受…控制",
+"description": "库布苏金矿矿带总体方向和矿体位置受“X”型共轭断裂及其次级断裂控制，线性构造密集区成矿更为发育"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E26",
+"relation_label_zh": "受…控制",
+"description": "金水泉金矿的成矿带受NW-NWW向与NE-NEE向共轭断裂系统控制，次级断裂对矿床具体部位具有控矿作用"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E26",
+"relation_label_zh": "受…控制",
+"description": "黄羊山金矿所在金矿带总体展布方向和矿化集中区与“X”型共轭断裂系统和线性构造密度密切相关"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E26",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉金矿的成矿位置受NW-NWW向与NE-NEE向共轭断裂系统控制，处于线性构造较为密集的地段"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E19",
+"to_entity_local_id": "E26",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉东金矿的矿体赋存与“X”型共轭断裂及其次级断裂密切相关，表现为线性构造密集段内的内生金矿床"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E20",
+"to_entity_local_id": "E26",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿在空间上受NW-NWW向与NE-NEE向共轭断裂系统及次级断裂的联合控矿作用"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E27",
+"relation_label_zh": "受…控制",
+"description": "金水泉金矿与卡拉麦里蛇绿混杂岩带在成因上具有相关性，表明该蛇绿混杂岩带为其重要成矿构造背景"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E20",
+"to_entity_local_id": "E27",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿与卡拉麦里蛇绿混杂岩带在成因上具有相关性，说明该蛇绿混杂岩构造带对金成矿具有重要控制作用"
+}
+]
+}

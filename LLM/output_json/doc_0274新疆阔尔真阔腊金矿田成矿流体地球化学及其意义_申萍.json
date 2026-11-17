@@ -1,0 +1,441 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0274",
+"title": "新疆阔尔真阔腊金矿田成矿流体地球化学及其意义_申萍",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔尔真阔腊金矿床",
+"attributes": {
+"name": "阔尔真阔腊金矿床",
+"location": "新疆北部吉木乃县东约68千米的阔尔真阔腊金矿田内",
+"tectonic_position": "西伯利亚板块与哈萨克斯坦-准噶尔板块结合部位的喀拉通克岛弧带（沟-弧-盆体系的活动大陆边缘）",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "位于火山机构内，火山机构环状、放射状断裂系发育，并叠加近东西向断裂；火山晚期热液交代浸染状及脉状矿化发育，形成硫化物型矿石；围岩蚀变以硅化、黄铁矿化等为主",
+"age_ma": "332±2.02Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "布尔克斯岱金矿床",
+"attributes": {
+"name": "布尔克斯岱金矿床",
+"location": "新疆北部吉木乃县东约68千米的阔尔真阔腊金矿田内",
+"tectonic_position": "西伯利亚板块与哈萨克斯坦-准噶尔板块结合部位的喀拉通克岛弧带（沟-弧-盆体系的活动大陆边缘）",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "与阔尔真阔腊金矿床同处同一火山机构内，受火山机构环状、放射状断裂系及叠加的近东西向断裂控制；火山晚期热液交代浸染状及脉状矿化发育，形成硫化物型矿石；围岩蚀变以硅化、黄铁矿化等为主",
+"age_ma": "336±0.50Ma～335±1.19Ma"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "萨吾尔金矿带",
+"attributes": {
+"name": "萨吾尔金矿带",
+"level": "成矿带",
+"tectonic_setting": "哈萨克斯坦扎尔马-萨吾尔铜金成矿带东段的重要组成部分；准噶尔洋壳北向俯冲形成的活动大陆边缘沟-弧-盆体系中的喀拉通克岛弧带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统黑山头组",
+"attributes": {
+"name": "下石炭统黑山头组",
+"age": "下石炭世（早石炭世）",
+"dominant_lithology": "钙碱性安山质熔岩、安山质熔角砾岩、安山质凝灰岩",
+"lithology_notes": "阔尔真阔腊金矿床与布尔克斯岱金矿床位于同一火山机构内，容矿围岩为同一火山活动旋回的安山岩、安山质熔角砾岩及安山质凝灰岩，地层对比归属下石炭统黑山头组"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "安山岩—安山质熔角砾岩—安山质凝灰岩（黑山头组）",
+"attributes": {
+"name": "安山岩—安山质熔角砾岩—安山质凝灰岩（黑山头组）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "钠长斑岩及粉砂质凝灰岩（黑山头组）",
+"attributes": {
+"name": "钠长斑岩及粉砂质凝灰岩（黑山头组）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "火山机构环状、放射状断裂系",
+"attributes": {
+"name": "火山机构环状、放射状断裂系",
+"structure_type": "断裂系",
+"orientation": "环状、放射状",
+"scale": "矿田尺度",
+"ore_control_role": "控制矿体分布，为矿田控矿构造系统的重要组成"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "近东西向断裂",
+"attributes": {
+"name": "近东西向断裂",
+"structure_type": "断裂",
+"orientation": "近东西向",
+"scale": "区域—矿田尺度",
+"ore_control_role": "叠加于火山机构断裂系之上，控制矿体分布"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要热液硫化物矿物",
+"paragenesis": "与石英共生，出现在硅化黄铁矿化阶段及后续黄铁矿-硫化物阶段"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "阔尔真阔腊金矿床成矿流体",
+"attributes": {
+"nature": "Na+—HS−—Cl−—H2O型流体，富含CO2、N2，含少量CH4、C2H6、H2S，为中低温热液流体",
+"source": "以具壳幔混合性质的幔源流体为主，混入少量壳源流体；水以岩浆水为主并混入少量大气降水",
+"temperature_C_min": "90",
+"temperature_C_max": "396",
+"pressure_MPa_min": "10",
+"pressure_MPa_max": "49",
+"salinity_wtNaCl_min": "4.49",
+"salinity_wtNaCl_max": "8.14"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Fluid",
+"name_zh": "布尔克斯岱金矿床成矿流体",
+"attributes": {
+"nature": "Na+—HS−—Cl−—F−—H2O型流体，为中低温热液流体",
+"source": "以具壳幔混合性质的幔源流体为主，混入少量壳源流体；水以岩浆水为主并混入少量大气降水",
+"temperature_C_min": "170",
+"temperature_C_max": "419"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "阔尔真阔腊氢同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD(‰)",
+"value_range": "−84‰～−89‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "阔尔真阔腊氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O(成矿流体)(‰)",
+"value_range": "1.8‰～3.2‰"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "布尔克斯岱氢同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD(‰)",
+"value_range": "−97‰～−98‰"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "布尔克斯岱氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O(成矿流体)(‰)",
+"value_range": "4.9‰～5.6‰"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "阔尔真阔腊氦同位素参数",
+"attributes": {
+"system": "氦同位素",
+"parameter_name": "3He/4He(R/Ra)",
+"value_range": "0.64～4.25Ra"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Isotope",
+"name_zh": "布尔克斯岱氦同位素参数",
+"attributes": {
+"system": "氦同位素",
+"parameter_name": "3He/4He(R/Ra)",
+"value_range": "1.16～9.48Ra"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Isotope",
+"name_zh": "阔尔真阔腊硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S(黄铁矿)(‰)",
+"value_range": "0.317‰～2.442‰"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Isotope",
+"name_zh": "布尔克斯岱硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S(黄铁矿)(‰)",
+"value_range": "0.437‰～2.853‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阔尔真阔腊金矿床位于萨吾尔金矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "布尔克斯岱金矿床位于萨吾尔金矿带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "阔尔真阔腊金矿床容矿围岩为安山岩—安山质熔角砾岩—安山质凝灰岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "布尔克斯岱金矿床容矿围岩包括钠长斑岩及粉砂质凝灰岩等"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "安山岩—安山质熔角砾岩—安山质凝灰岩归属下石炭统黑山头组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "钠长斑岩及粉砂质凝灰岩与矿田容矿围岩地层对比归属下石炭统黑山头组"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "阔尔真阔腊金矿床矿体分布受火山机构环状、放射状断裂系控制"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "布尔克斯岱金矿床矿体分布受火山机构环状、放射状断裂系控制"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "阔尔真阔腊金矿床矿体分布受近东西向断裂叠加控制"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "布尔克斯岱金矿床矿体分布受近东西向断裂叠加控制"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "阔尔真阔腊金矿床围岩蚀变主要表现为硅化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "布尔克斯岱金矿床围岩蚀变主要表现为硅化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "阔尔真阔腊金矿床围岩蚀变伴随黄铁矿化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "布尔克斯岱金矿床围岩蚀变伴随黄铁矿化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "阔尔真阔腊金矿床硫化物型矿石中主要硫化物矿物为黄铁矿"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "布尔克斯岱金矿床硫化物型矿石中主要硫化物矿物为黄铁矿"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "阔尔真阔腊金矿床对应Na+—HS−—Cl−—H2O型中低温热液成矿流体"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E13",
+"relation_label_zh": "对应成矿流体为",
+"description": "布尔克斯岱金矿床对应Na+—HS−—Cl−—F−—H2O型中低温热液成矿流体"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "阔尔真阔腊成矿流体δD值指示成矿流体以岩浆水为主并混入少量大气降水"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "阔尔真阔腊成矿流体δ18O值指示成矿流体以岩浆水为主并混入少量大气降水"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E13",
+"relation_label_zh": "约束该流体来源",
+"description": "布尔克斯岱成矿流体δD值指示成矿流体以岩浆水为主并混入少量大气降水"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E13",
+"relation_label_zh": "约束该流体来源",
+"description": "布尔克斯岱成矿流体δ18O值指示成矿流体以岩浆水为主并混入少量大气降水"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "阔尔真阔腊黄铁矿流体包裹体氦同位素表明成矿流体具有显著幔源组分并混入少量大气降水"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E19",
+"to_entity_local_id": "E13",
+"relation_label_zh": "约束该流体来源",
+"description": "布尔克斯岱黄铁矿流体包裹体氦同位素表明成矿流体主要为幔源组分"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E20",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "阔尔真阔腊黄铁矿硫同位素组成接近陨石硫，指示矿化剂硫以幔源硫为主并混入少量壳源硫"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E21",
+"to_entity_local_id": "E13",
+"relation_label_zh": "约束该流体来源",
+"description": "布尔克斯岱黄铁矿硫同位素组成接近陨石硫，指示矿化剂硫以幔源硫为主并混入少量壳源硫"
+}
+]
+}

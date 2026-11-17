@@ -1,0 +1,17 @@
+{
+  "fonts": [
+    "Microsoft YaHei",
+    "Arial"
+  ],
+  "bar_color": "#3F6F8E",
+  "figsize_inches": [
+    9,
+    5
+  ],
+  "png_dpi": 600,
+  "normalization": "Each order independently sums to 1",
+  "row_order": "Original combined F1 feature ranking, shared across panels",
+  "rounding": "Decimal ROUND_HALF_UP, 1 decimal; display only",
+  "geometry_checks": "passed",
+  "visual_review": "passed: both panels, titles, values and axes inspected"
+}

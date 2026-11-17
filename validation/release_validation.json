@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "2.1.3",
+    "matplotlib": "3.10.0",
+    "Pillow": "11.1.0"
+  },
+  "commands": [
+    "python -m unittest discover -s tests -v",
+    "python scripts/reproduce.py --output <new-run-directory>",
+    "python scripts/verify.py --run <new-run-directory>"
+  ],
+  "method_tests_passed": 2,
+  "csv_files_matched": 22,
+  "csv_files_byte_identical": 22,
+  "png_files_byte_identical": 4,
+  "remote_ci": "configured_not_run",
+  "source_paths": "relative project identifiers only",
+  "release_date": "2026-11-16",
+  "figure_update": {
+    "label": "赋矿岩性",
+    "field": "HostRockUnit",
+    "redrawn_and_inspected": [
+      "F1",
+      "F2",
+      "F4"
+    ],
+    "f3_regenerated_png_identical_to_previous_version": true
+  },
+  "data_comparison_to_previous_release": {
+    "processed_input_identical": true,
+    "numerical_data_identical_after_display_label_update": true,
+    "files_with_label_only_changes": [
+      "data/intermediate/F1.csv",
+      "data/intermediate/F2.csv",
+      "figures/F1/display_data.csv",
+      "figures/F1/plot_data.csv",
+      "figures/F2/plot_data.csv",
+      "figures/F4/display_data.csv",
+      "results/baseline/cases.json",
+      "results/baseline/features.csv",
+      "results/baseline/items.csv",
+      "results/order_decomposition/feature_reconciliation.csv",
+      "results/order_decomposition/features_order2.csv",
+      "results/order_decomposition/features_order3.csv",
+      "tables/T2_case_counts.csv"
+    ]
+  }
+}

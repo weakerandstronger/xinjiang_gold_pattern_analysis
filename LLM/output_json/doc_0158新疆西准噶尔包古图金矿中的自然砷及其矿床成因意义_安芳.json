@@ -1,0 +1,216 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0158",
+"title": "新疆西准噶尔包古图金矿中的自然砷及其矿床成因意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床",
+"attributes": {
+"name": "包古图金矿床",
+"location": "新疆西准噶尔地区包古图"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔",
+"attributes": {
+"name": "西准噶尔",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Mineral",
+"name_zh": "自然砷",
+"attributes": {
+"name": "自然砷",
+"role_in_ore": "包古图金矿主要的载金矿物",
+"paragenesis": "形成于主要金矿化阶段（阶段II），与梳状石英、辉锑矿和银金矿等共生"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "包古图金矿最主要的含金矿物",
+"paragenesis": "显微粒状存在于自然砷中或与自然砷、辉锑矿和梳状石英共生，主要见于主要金矿化阶段（阶段II）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "辉锑矿",
+"attributes": {
+"name": "辉锑矿",
+"role_in_ore": "主要金矿化阶段的共生矿物",
+"paragenesis": "与自然砷、银金矿和梳状石英等共生，主要金矿化阶段（阶段II）矿物组合成员"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "梳状石英",
+"attributes": {
+"name": "梳状石英",
+"role_in_ore": "与金矿化共生的脉石矿物",
+"paragenesis": "与自然砷、辉锑矿和银金矿等共生"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金矿化阶段的共生矿物",
+"paragenesis": "主要金矿化阶段（阶段II）矿物组合成员"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "辉锑银矿",
+"attributes": {
+"name": "辉锑银矿",
+"role_in_ore": "主要金矿化阶段的共生矿物",
+"paragenesis": "主要金矿化阶段（阶段II）矿物组合成员"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "银黝铜矿",
+"attributes": {
+"name": "银黝铜矿",
+"role_in_ore": "主要金矿化阶段的共生矿物",
+"paragenesis": "主要金矿化阶段（阶段II）矿物组合成员"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "磁黄铁矿",
+"attributes": {
+"name": "磁黄铁矿",
+"role_in_ore": "主要金矿化阶段的共生矿物",
+"paragenesis": "主要金矿化阶段（阶段II）矿物组合成员"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金矿化阶段的共生矿物",
+"paragenesis": "主要金矿化阶段（阶段II）矿物组合成员"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "主要金矿化阶段热液",
+"attributes": {
+"nature": "热液成矿流体（主要金矿化阶段）",
+"temperature_C_min": "170℃",
+"temperature_C_max": "230℃"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "包古图金矿位于新疆西准噶尔地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "主要金矿物为",
+"description": "自然砷在包古图金矿中大量发育，是主要的载金矿物"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要金矿物为",
+"description": "银金矿是包古图金矿中最主要的含金矿物，常与自然砷及辉锑矿、梳状石英共生"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿主要金矿化阶段矿物组合包含辉锑矿"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "自然砷与梳状石英在包古图金矿中共生"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿主要金矿化阶段矿物组合包含毒砂"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿主要金矿化阶段矿物组合包含辉锑银矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿主要金矿化阶段矿物组合包含银黝铜矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿主要金矿化阶段矿物组合包含磁黄铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿主要金矿化阶段矿物组合包含黄铁矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "根据自然砷及其共生矿物组合推断，包古图金矿主要金矿化阶段对应的热液成矿流体温度为230℃至170℃"
+}
+]
+}

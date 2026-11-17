@@ -1,0 +1,292 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0092",
+"title": "新疆金坝金矿床地质地球化学特征及找矿标志",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金坝金矿床",
+"attributes": {
+"name": "金坝金矿床",
+"location": "克兰弧后盆地与哈巴河弧间盆地接壤处",
+"tectonic_position": "西伯利亚古板块南缘阿尔泰陆源活动带",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均金品位1.07g/t~6.32g/t",
+"ore_control_features": "受玛尔卡库里大断裂及其次级断裂严格控制，矿体沿次级断裂走向呈近等距分布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "克兰弧后盆地与哈巴河弧间盆地接壤区",
+"attributes": {
+"name": "克兰弧后盆地与哈巴河弧间盆地接壤区",
+"level": "盆地接壤区",
+"tectonic_setting": "西伯利亚古板块南缘阿尔泰陆源活动带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "哈、中、蒙阿尔泰多金属成矿带",
+"attributes": {
+"name": "哈、中、蒙阿尔泰多金属成矿带",
+"level": "成矿带",
+"tectonic_setting": "阿尔泰陆源活动带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统阿勒泰组上亚组第二岩性段（D₂a₂²）",
+"attributes": {
+"name": "中泥盆统阿勒泰组上亚组第二岩性段（D₂a₂²）",
+"age": "中泥盆世",
+"dominant_lithology": "变砂岩、变石英砂岩、绢云石英千枚岩及结晶灰岩",
+"lithology_notes": "为本区主要赋矿地层，呈北西-南东向带状分布"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "托克萨雷组上亚组（D₂t₂）",
+"attributes": {
+"name": "托克萨雷组上亚组（D₂t₂）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "第三系上新统独山子组（N₂d）",
+"attributes": {
+"name": "第三系上新统独山子组（N₂d）",
+"age": "上新世"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "D₂a₂²赋矿地层",
+"attributes": {
+"name": "D₂a₂²赋矿地层"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "哈巴河斜长花岗岩内外接触带附近",
+"attributes": {
+"name": "哈巴河斜长花岗岩内外接触带附近"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河斜长花岗岩",
+"attributes": {
+"name": "哈巴河斜长花岗岩",
+"rock_type": "斜长花岗岩",
+"relationship_to_ore": "矿体产于其内、外接触带附近"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "IntrusiveBody",
+"name_zh": "花岗斑岩",
+"attributes": {
+"name": "花岗斑岩",
+"rock_type": "花岗斑岩",
+"relationship_to_ore": "华力西中期第三侵入期次的岩浆活动为成矿提供热动力"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里大断裂",
+"attributes": {
+"name": "玛尔卡库里大断裂",
+"structure_type": "韧性剪切变形带",
+"orientation": "走向300°~340°，倾向北东，倾角65°~85°",
+"scale": "区域性深大断裂，总长1000km（中国境内长约100km），宽1.5km~2.0km",
+"ore_control_role": "为成矿提供容矿空间并严格控制矿体产出"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "北西-南东向次级断裂",
+"attributes": {
+"name": "北西-南东向次级断裂",
+"structure_type": "次级断裂",
+"orientation": "北西-南东走向",
+"scale": "长5km~10km以上",
+"ore_control_role": "控制主矿带分布，矿体沿该组断裂走向呈近等距分布"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "与硅化、绿泥石化等蚀变伴生"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "非金属矿物",
+"paragenesis": "常见于含金石英脉，与黄铁矿化伴生"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "绿泥石",
+"attributes": {
+"name": "绿泥石",
+"role_in_ore": "非金属矿物",
+"paragenesis": "为主要蚀变矿物之一，与硅化、黄铁矿化伴生"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金坝金矿床位于克兰弧后盆地与哈巴河弧间盆地接壤区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "金坝金矿床属哈、中、蒙阿尔泰多金属成矿带的东延部分"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "金坝金矿床矿体产于哈巴河斜长花岗岩内、外接触带附近"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "D₂a₂²为本区主要赋矿地层，可作为金坝金矿床的重要赋矿围岩单元"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "D₂a₂²赋矿地层属于中泥盆统阿勒泰组上亚组第二岩性段（D₂a₂²）"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "金坝金矿床受玛尔卡库里大断裂早期韧性剪切活动及其断裂带控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "与矿化有关的北西-南东向次级断裂控制主矿带分布及矿体近等距展布"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "金坝金矿床围岩蚀变较普遍，与金矿化关系密切的蚀变类型包括硅化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "金坝金矿床与金矿化关系密切的蚀变类型包括绿泥石化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "金坝金矿床与金矿化关系密切的蚀变类型包括黄铁矿化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "金坝金矿床矿石金属矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "金坝金矿床矿石中非金属矿物包括石英"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "金坝金矿床矿石中非金属矿物包括绿泥石"
+}
+]
+}

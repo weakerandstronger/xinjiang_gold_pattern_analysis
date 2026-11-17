@@ -1,0 +1,129 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0018",
+"title": "新疆西天山萨瓦亚尔顿金成矿过程：来自硫化物矿物世代及其EMPA、LA-ICP-MS和FESEM分析的约束",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨瓦亚尔顿造山型金矿床",
+"attributes": {
+"name": "萨瓦亚尔顿造山型金矿床",
+"location": "新疆西天山地区",
+"tectonic_position": "位于西天山造山带内，与塔里木板块和中天山地块晚石炭世碰撞造山事件有关",
+"deposit_type": "造山型金矿床",
+"resource_tonnage": "探明金储量127 t，远景资源量350 t",
+"ore_control_features": "矿石中发育成岩期黄铁矿（Py0）及两期热液黄铁矿（Py1、Py2），与炭质板岩围岩、石英脉及蚀变岩石密切相关，显示多期成矿作用和复杂微量元素分带特征",
+"age_ma": "晚石炭世至晚/后碰撞阶段"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西天山",
+"attributes": {
+"name": "西天山",
+"level": "造山带/构造带",
+"tectonic_setting": "中天山地块与塔里木板块晚石炭世碰撞造山带的一部分"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "萨瓦亚尔顿金矿床的主要载金矿物",
+"paragenesis": "萨瓦亚尔顿金矿床中载金黄铁矿发育成岩期黄铁矿（Py0）及两期热液黄铁矿（Py1、Py2）：球丛状黄铁矿（Py0）呈稀疏浸染状分布于炭质板岩围岩中，局部富含金并富集Ag、As、Bi、Ni、Cu、Pb、Sb等微量元素；他形黄铁矿（Py1）多呈浸染状产于硅化围岩及强烈变形石英脉和蚀变岩石中，与他形毒砂（Apy1）伴生，富集Co、Mn、Zn等微量元素，电子探针平均金含量约0.050%；自形—半自形黄铁矿（Py2）在矿体中分布最广，产于未变形石英脉中，与自形毒砂（Apy2）共生，电子探针平均金含量约0.052%，微量元素相对Py0和Py1整体亏损"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "重要载金硫化物矿物",
+"paragenesis": "萨瓦亚尔顿金矿石中可见金之外的“不可见金”主要以固溶体（Au+）形式赋存于毒砂与黄铁矿中，毒砂以他形毒砂（Apy1）和自形毒砂（Apy2）形式分别与黄铁矿Py1、Py2密切共生，是成矿过程中重要的载金矿物"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Fluid",
+"name_zh": "成矿变质流体",
+"attributes": {
+"nature": "以变质流体为主的成矿流体，属于多期造山作用相关的热液体系",
+"source": "赋矿地层在沉积成岩及后期变质过程中发生变质脱水作用形成的变质流体，是萨瓦亚尔顿金矿床的主要成矿流体，并可能叠加晚/后碰撞阶段的成矿作用"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "炭质板岩围岩",
+"attributes": {
+"name": "炭质板岩围岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Geochem",
+"name_zh": "萨瓦亚尔顿黄铁矿微量元素组合",
+"attributes": {
+"element": "Au、Ag、As、Bi、Ni、Cu、Pb、Sb、Co、Mn、Zn等微量元素",
+"value_ppm": "电子探针分析显示黄铁矿Py1的平均金含量约0.050%，Py2的平均金含量约0.052%，体现出金与多种微量元素的协同富集特征",
+"anomaly_pattern": "Py0局部富金并富集Ag、As、Bi、Ni、Cu、Pb、Sb等微量元素；Py1富集Co、Mn、Zn等微量元素；Py2相对于Py0和Py1在微量元素上整体亏损，反映出多期成矿作用下的微量元素分带和演化特征"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨瓦亚尔顿造山型金矿床位于新疆西天山造山带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "萨瓦亚尔顿金矿床的成岩期载金黄铁矿（Py0）主要浸染分布于炭质板岩围岩中，表明炭质板岩为重要赋矿地层和围岩单元"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "主要金矿物为",
+"description": "萨瓦亚尔顿金矿床的主要载金矿物为多期黄铁矿，包括成岩期黄铁矿（Py0）及两期热液黄铁矿（Py1、Py2）"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿石中毒砂与多期黄铁矿密切共生，是“不可见金”的重要赋存矿物之一"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨瓦亚尔顿金矿床的主要成矿流体为赋矿地层变质脱水作用形成的变质流体，属多期造山作用相关的成矿流体体系"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "显示",
+"description": "萨瓦亚尔顿金矿床黄铁矿的微量元素组合显示Py0富集Ag、As、Bi、Ni、Cu、Pb、Sb等，Py1富集Co、Mn、Zn等，Py2相对亏损，反映矿床经历多期成矿和复杂微量元素分带演化"
+}
+]
+}

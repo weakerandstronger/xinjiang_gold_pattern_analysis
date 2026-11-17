@@ -1,0 +1,347 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0056",
+"title": "新疆卡拉麦里地区 1 号金矿成矿机理浅析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡拉麦里地区1号金矿",
+"attributes": {
+"name": "卡拉麦里地区1号金矿",
+"location": "新疆卡拉麦里地区",
+"tectonic_position": "位于准噶尔弧陆碰撞带上",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体产于下石炭统清水组中，由F1～F4层间断层形成的构造破碎带控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆卡拉麦里地区",
+"attributes": {
+"name": "新疆卡拉麦里地区",
+"level": "地区",
+"tectonic_setting": "位于准噶尔弧陆碰撞带上的金矿集中区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "准噶尔弧陆碰撞带",
+"attributes": {
+"name": "准噶尔弧陆碰撞带",
+"level": "构造带",
+"tectonic_setting": "挤压地球动力学背景下形成的弧陆碰撞带，为研究区断裂和褶皱发育的构造单元"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统清水组",
+"attributes": {
+"name": "下石炭统清水组",
+"age": "下石炭统",
+"dominant_lithology": "下石炭统地层",
+"lithology_notes": "金矿区南部出露的地层主要为下石炭统清水组，矿脉产出于该组地层中"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "清水组围岩单元",
+"attributes": {
+"name": "清水组围岩单元"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "F1～F4层间断层组",
+"attributes": {
+"name": "F1～F4层间断层组",
+"structure_type": "层间断层",
+"orientation": "矿区地层总体向南倾斜，倾向170°～180°，倾角50°～75°，矿脉走向为北东东—南西西，脉体倾角58°～76°",
+"scale": "研究区内发育的4条主要断裂构造F1、F2、F3、F4，均属层间断层",
+"ore_control_role": "由F1～F4层间断层形成的构造破碎带控制Ⅰ、Ⅱ、Ⅲ号含金破碎蚀变带（矿脉）的产出"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "含金破碎蚀变带",
+"attributes": {
+"name": "含金破碎蚀变带",
+"alteration_minerals": "以次生石英、绢云母等为主的破碎蚀变岩",
+"intensity": "构造破碎带内破碎蚀变强烈，可初步划分为Ⅰ、Ⅱ、Ⅲ号含金破碎蚀变带"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "矿石中主要金属硫化物",
+"paragenesis": "产于含金破碎蚀变带和矿脉中，与少量黄铜矿以及褐铁矿、磁铁矿等矿物共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "次要金属硫化物矿物",
+"paragenesis": "少量出现于矿石中，与黄铁矿等硫化物矿物共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "主要金属氧化物矿物之一",
+"paragenesis": "与磁铁矿等氧化物矿物共生，产于矿石及构造破碎带上部氧化带中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "主要金属氧化物矿物之一",
+"paragenesis": "与褐铁矿等共生，出现于矿石中"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与黄铁矿等金属矿物及次生石英共生，产于矿脉及孔洞充填状构造中"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "重要金银类贵金属矿物",
+"paragenesis": "与自然金、自然银等共生于矿石中"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "自然银",
+"attributes": {
+"name": "自然银",
+"role_in_ore": "贵金属矿物",
+"paragenesis": "与自然金、银金矿共生，产于含金矿石中"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "次生石英",
+"attributes": {
+"name": "次生石英",
+"role_in_ore": "主要非金属脉石矿物",
+"paragenesis": "大量充填于构造破碎带和矿脉中，与黄铁矿等金属矿物共生"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "斜长石",
+"attributes": {
+"name": "斜长石",
+"role_in_ore": "次要非金属矿物",
+"paragenesis": "与次生石英、绢云母等共生，出现于矿石和围岩中"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "蚀变产物和非金属矿物",
+"paragenesis": "与次生石英、斜长石等共生，反映围岩绢云母化蚀变"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "绿帘石",
+"attributes": {
+"name": "绿帘石",
+"role_in_ore": "少量非金属矿物",
+"paragenesis": "少量出现于矿脉及围岩中，与碳酸盐等共生"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "碳酸盐矿物",
+"attributes": {
+"name": "碳酸盐矿物",
+"role_in_ore": "少量非金属矿物",
+"paragenesis": "与次生石英、绿帘石等共生，见于矿石和围岩中"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡拉麦里地区1号金矿位于新疆卡拉麦里地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡拉麦里地区1号金矿位于准噶尔弧陆碰撞带上"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "卡拉麦里地区1号金矿的矿脉和含金破碎蚀变带赋存于下石炭统清水组围岩单元中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "清水组围岩单元在地层上属于下石炭统清水组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "卡拉麦里地区1号金矿的Ⅰ、Ⅱ、Ⅲ号含金破碎蚀变带（矿脉）由F1～F4层间断层形成的构造破碎带所控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "卡拉麦里地区1号金矿可初步划分为Ⅰ、Ⅱ、Ⅲ号含金破碎蚀变带，构造破碎带内破碎蚀变强烈"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "卡拉麦里地区1号金矿矿石中金属硫化物主要为黄铁矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "卡拉麦里地区1号金矿矿石中含少量黄铜矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "卡拉麦里地区1号金矿矿石中金属氧化物主要为褐铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "卡拉麦里地区1号金矿矿石中金属氧化物还包括磁铁矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "卡拉麦里地区1号金矿的贵金属矿物中自然金为主要金矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "卡拉麦里地区1号金矿的贵金属矿物还包括银金矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "卡拉麦里地区1号金矿的贵金属矿物中还见有自然银"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "脉石矿物包括",
+"description": "卡拉麦里地区1号金矿非金属矿物主要为次生石英，为矿脉和破碎蚀变带中的主要脉石矿物"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "脉石矿物包括",
+"description": "卡拉麦里地区1号金矿非金属矿物中含有斜长石"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "脉石矿物包括",
+"description": "卡拉麦里地区1号金矿非金属矿物中含有绢云母，反映绢云母化蚀变"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "脉石矿物包括",
+"description": "卡拉麦里地区1号金矿矿石中还见有少量绿帘石"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "脉石矿物包括",
+"description": "卡拉麦里地区1号金矿矿石中含有少量碳酸盐矿物"
+}
+]
+}

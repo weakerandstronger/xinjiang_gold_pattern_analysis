@@ -1,0 +1,436 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0094",
+"title": "新疆萨日达拉金矿床成矿流体特征及地质意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨日达拉金矿床",
+"attributes": {
+"name": "萨日达拉金矿床",
+"location": "新疆乌鲁木齐市西南约150km处",
+"tectonic_position": "西天山东段中天山轴北缘（冰达坂断裂南侧）",
+"deposit_type": "造山型金矿床",
+"resource_tonnage": "规模达到中型",
+"ore_control_features": "矿床产于胜利达坂韧性剪切带内，矿体产出严格受韧性剪切带控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西天山东段",
+"attributes": {
+"name": "西天山东段",
+"level": "构造分区",
+"tectonic_setting": "西天山造山带东段"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "中天山轴北缘",
+"attributes": {
+"name": "中天山轴北缘",
+"level": "构造位置",
+"tectonic_setting": "中天山轴北缘（冰达坂断裂南侧）"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "望峰金矿带",
+"attributes": {
+"name": "望峰金矿带",
+"level": "成矿带",
+"tectonic_setting": "西天山东段中天山轴北缘"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中新元古界",
+"attributes": {
+"name": "中新元古界",
+"age": "中新元古代",
+"dominant_lithology": "变质基底",
+"lithology_notes": "少数矿体产于中新元古界的变质基底中"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "前寒武纪绢云石英千糜岩",
+"attributes": {
+"name": "前寒武纪绢云石英千糜岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "早古生代花岗岩类",
+"attributes": {
+"name": "早古生代花岗岩类"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "加里东晚期花岗岩类",
+"attributes": {
+"name": "加里东晚期花岗岩类"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "中新元古界变质基底",
+"attributes": {
+"name": "中新元古界变质基底"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "胜利达坂韧性剪切带",
+"attributes": {
+"name": "胜利达坂韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "北西西-南东东向",
+"ore_control_role": "控制金矿体产出与分布"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "广泛发育"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "广泛发育"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "广泛发育"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "钠长石化",
+"attributes": {
+"name": "钠长石化",
+"alteration_minerals": "钠长石",
+"intensity": "广泛发育"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "方解石",
+"intensity": "广泛发育"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "少量发育"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金矿物",
+"paragenesis": "矿石矿物为自然金"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "金属矿物之一，围岩普遍发育黄铁矿化"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "磁黄铁矿",
+"attributes": {
+"name": "磁黄铁矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "金属矿物之一"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "金属矿物之一"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "金属矿物之一"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "金属矿物之一"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "部分地表矿石含褐铁矿"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Fluid",
+"name_zh": "萨日达拉金矿成矿流体",
+"attributes": {
+"nature": "初始流体具有中高温、富二氧化碳、低盐度特征；晚成矿阶段演化为低温、低盐度水溶液流体；主成矿期发生不混溶或减压沸腾作用",
+"source": "变质流体",
+"temperature_C_min": "146.2",
+"temperature_C_max": "491.4",
+"pressure_MPa_min": "115.1",
+"pressure_MPa_max": "307.5",
+"salinity_wtNaCl_min": "0.43",
+"salinity_wtNaCl_max": "15.58"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨日达拉金矿位于西天山东段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "萨日达拉金矿位于中天山轴北缘"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "萨日达拉金矿是望峰金矿带新发现的金矿床"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "萨日达拉金矿床的形成与矿体产出明显受到胜利达坂韧性剪切带控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "萨日达拉金矿床的直接赋矿围岩包括前寒武纪绢云石英千糜岩"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要围岩为",
+"description": "萨日达拉金矿床的直接赋矿围岩包括早古生代花岗岩类"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "矿体的直接围岩主要为加里东晚期的花岗岩类"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "赋存于",
+"description": "少数矿体产于中新元古界的变质基底中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "中新元古界变质基底属于中新元古界地层单元"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "萨日达拉金矿床围岩普遍遭受黄铁矿化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "萨日达拉金矿床围岩普遍遭受绢云母化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "萨日达拉金矿床围岩普遍遭受硅化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "萨日达拉金矿床围岩普遍遭受钠长石化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "萨日达拉金矿床广泛发育碳酸盐化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "伴随有",
+"description": "萨日达拉金矿床围岩发育少量绿泥石化"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要金矿物为",
+"description": "萨日达拉金矿床矿石矿物为自然金"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "萨日达拉金矿床金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "萨日达拉金矿床金属矿物包括磁黄铁矿"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "萨日达拉金矿床金属矿物包括黄铜矿"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "萨日达拉金矿床金属矿物包括闪锌矿"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "萨日达拉金矿床金属矿物包括方铅矿"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "部分地表矿石含褐铁矿"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨日达拉金矿床成矿流体初始为中高温富二氧化碳低盐度流体，晚期演化为低温低盐度水溶液流体"
+}
+]
+}

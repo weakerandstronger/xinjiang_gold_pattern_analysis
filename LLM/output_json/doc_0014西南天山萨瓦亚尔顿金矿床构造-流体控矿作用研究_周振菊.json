@@ -1,0 +1,196 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0014",
+"title": "西南天山萨瓦亚尔顿金矿床构造-流体控矿作用研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨瓦亚尔顿金矿床",
+"attributes": {
+"name": "萨瓦亚尔顿金矿床",
+"location": "西南天山地区伊犁—伊塞克湖微板块与塔里木北缘活动带交接一带",
+"tectonic_position": "位于伊犁—伊塞克湖微板块与塔里木北缘活动带交接部位的西南天山造山带内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "成矿主要受晚古生代挤压向走滑伸展转换过程中形成的脆-韧性变形带及断裂作用控制，成矿集中于第二期脆-韧性变形期"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西南天山地区",
+"attributes": {
+"name": "西南天山地区",
+"level": "地区",
+"tectonic_setting": "位于西南天山造山带内，为造山型金矿床重要集中区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "伊犁—伊塞克湖微板块—塔里木北缘活动带交接部位",
+"attributes": {
+"name": "伊犁—伊塞克湖微板块—塔里木北缘活动带交接部位",
+"level": "构造交接带",
+"tectonic_setting": "伊犁—伊塞克湖微板块与塔里木北缘活动带交接的构造活动区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Fluid",
+"name_zh": "萨瓦亚尔顿金矿主成矿流体",
+"attributes": {
+"nature": "中温、低盐度、富CO2的H2O-NaCl-CO2成矿流体体系",
+"source": "由深源变质热液与大气降水热液混合形成的成矿流体系统",
+"temperature_C_min": "204",
+"temperature_C_max": "386",
+"pressure_MPa_min": "208",
+"pressure_MPa_max": "253",
+"salinity_wtNaCl_min": "0.5",
+"salinity_wtNaCl_max": "16.6"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Fluid",
+"name_zh": "萨瓦亚尔顿金矿早期变质流体",
+"attributes": {
+"nature": "富CO2、低盐度的中温变质流体，为H2O-NaCl-CO2体系",
+"source": "早期NW-SE向挤压作用下赋矿地层古生代碎屑岩-碳酸盐岩建造变质脱水产生的变质流体",
+"temperature_C_min": "237",
+"temperature_C_max": "386",
+"pressure_MPa_min": "267",
+"pressure_MPa_max": "267",
+"salinity_wtNaCl_min": "1.4",
+"salinity_wtNaCl_max": "9.2"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Fluid",
+"name_zh": "萨瓦亚尔顿金矿晚期大气降水热液",
+"attributes": {
+"nature": "中低温、低盐度的大气降水热液为主的水溶液型流体",
+"source": "晚期区域伸展变形阶段大量大气降水加入造山带流体系统形成的热液",
+"temperature_C_min": "125",
+"temperature_C_max": "235",
+"salinity_wtNaCl_min": "0.2",
+"salinity_wtNaCl_max": "10.6"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Isotope",
+"name_zh": "萨瓦亚尔顿金矿H-O同位素参数",
+"attributes": {
+"system": "H-O 同位素",
+"parameter_name": "δD-δ18O组合特征",
+"value_range": "显示初始变质热液被后期大气降水叠加和改造的同位素特征"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Isotope",
+"name_zh": "萨瓦亚尔顿金矿C-S同位素参数",
+"attributes": {
+"system": "C-S 同位素",
+"parameter_name": "δ13C-δ34S组合特征",
+"value_range": "表明成矿物质主要来源于赋矿地层古生代碎屑岩-碳酸盐岩建造"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "StratUnit",
+"name_zh": "古生代碎屑岩-碳酸盐岩建造",
+"attributes": {
+"name": "古生代碎屑岩-碳酸盐岩建造",
+"age": "古生代",
+"dominant_lithology": "以碎屑岩与碳酸盐岩互层为主的岩性组合",
+"lithology_notes": "为萨瓦亚尔顿金矿床的赋矿地层，是成矿物质的主要来源"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "HostRockUnit",
+"name_zh": "古生代碎屑岩-碳酸盐岩围岩单元",
+"attributes": {
+"name": "古生代碎屑岩-碳酸盐岩围岩单元"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨瓦亚尔顿金矿床位于西南天山地区，是该区规模较大的造山型金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "萨瓦亚尔顿金矿床处于伊犁—伊塞克湖微板块与塔里木北缘活动带的交接部位"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "赋存于",
+"description": "萨瓦亚尔顿金矿床赋存于古生代碎屑岩-碳酸盐岩围岩单元中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E9",
+"relation_label_zh": "属于",
+"description": "古生代碎屑岩-碳酸盐岩围岩单元属于古生代碎屑岩-碳酸盐岩建造地层"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "萨瓦亚尔顿金矿床主成矿阶段对应的成矿流体为中温低盐度富CO2的H2O-NaCl-CO2体系，温度约204至386℃，压力约208至253 MPa"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨瓦亚尔顿金矿床早期挤压变形阶段产生大量富CO2、低盐度的变质流体，为后期成矿提供成矿物质和流体基础"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨瓦亚尔顿金矿床晚期成矿流体中大量加入中低温低盐度的大气降水热液，参与主成矿期成矿物质沉淀"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E4",
+"relation_label_zh": "约束该流体来源",
+"description": "H-O同位素参数表明萨瓦亚尔顿金矿床主成矿流体由初始变质热液被后期大气降水叠加和改造而成"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E5",
+"relation_label_zh": "约束该流体来源",
+"description": "C-S同位素参数表明早期富CO2变质流体及其成矿物质主要来源于赋矿地层古生代碎屑岩-碳酸盐岩建造"
+}
+]
+}

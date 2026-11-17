@@ -1,0 +1,434 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0125",
+"title": "新疆小黄山金矿地质特征及成矿条件分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "小黄山金矿床",
+"attributes": {
+"name": "小黄山金矿床",
+"location": "新疆东准噶尔地区",
+"tectonic_position": "准噶尔盆地东北缘西伯利亚板块与准噶尔-哈萨克斯坦板块的缝合带卡拉麦里-达尔布特蛇绿岩带西段，卡拉麦里强应变构造带内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "产于含金丰度值较高的中石炭统巴塔玛依内山组；卡拉麦里大断裂及其内次级小型断裂对矿体起控矿和容矿作用；岩浆侵入提供“热机”作用并经历构造-热液活动，成矿元素主要来自地层、少量来自深部，Au、As、Sb等富集于石英脉边缘"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带",
+"attributes": {
+"name": "卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "新疆东准噶尔地区重要的金成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "卡拉麦里-达尔布特金成矿带",
+"attributes": {
+"name": "卡拉麦里-达尔布特金成矿带",
+"level": "Ⅲ级成矿带",
+"tectonic_setting": "准噶尔盆地东北缘缝合带卡拉麦里-达尔布特蛇绿岩带西段"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "卡拉麦里-莫钦乌拉成矿带",
+"attributes": {
+"name": "卡拉麦里-莫钦乌拉成矿带",
+"level": "Ⅳ级成矿带",
+"tectonic_setting": "卡拉麦里-达尔布特金成矿带西部"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "卡拉麦里过渡带",
+"attributes": {
+"name": "卡拉麦里过渡带",
+"level": "过渡带",
+"tectonic_setting": "东准地槽褶皱带和卡拉麦里过渡带上"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Region",
+"name_zh": "卡拉麦里强应变构造带",
+"attributes": {
+"name": "卡拉麦里强应变构造带",
+"level": "构造带",
+"tectonic_setting": "卡拉麦里强应变构造带内"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "中石炭统巴塔玛依内山组",
+"attributes": {
+"name": "中石炭统巴塔玛依内山组",
+"age": "中石炭统",
+"dominant_lithology": "安山岩和流纹岩",
+"lithology_notes": "含金丰度值较高"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "StratUnit",
+"name_zh": "中侏罗统三工河组",
+"attributes": {
+"name": "中侏罗统三工河组",
+"age": "中侏罗统",
+"dominant_lithology": "砾岩和砂岩",
+"lithology_notes": "分布于矿区南西角，与巴塔玛依内山组为不整合接触"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "中石炭统巴塔玛依内山组地层",
+"attributes": {
+"name": "中石炭统巴塔玛依内山组地层"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "HostRockUnit",
+"name_zh": "含石英脉强褐铁矿化流纹岩",
+"attributes": {
+"name": "含石英脉强褐铁矿化流纹岩"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "IntrusiveBody",
+"name_zh": "测区北中部侵入岩",
+"attributes": {
+"name": "测区北中部侵入岩",
+"rock_type": "正长岩、正长斑岩和辉绿玢岩",
+"relationship_to_ore": "岩体侵入提供“热机”作用，使地层中的矿化元素发生活化、迁移，有利于富集成矿元素并形成“预矿化”"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "IntrusiveBody",
+"name_zh": "流纹斑岩",
+"attributes": {
+"name": "流纹斑岩",
+"rock_type": "流纹斑岩",
+"relationship_to_ore": "Mo、W、Sn等异常的一个浓集中心由流纹斑岩引起"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里大断裂",
+"attributes": {
+"name": "卡拉麦里大断裂",
+"structure_type": "大断裂",
+"scale": "区域尺度",
+"ore_control_role": "在测区北部通过，控制矿体空间分布并起控矿和容矿作用"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Structure",
+"name_zh": "测区次级断裂",
+"attributes": {
+"name": "测区次级断裂",
+"structure_type": "平移断层（左型）",
+"orientation": "总体北东向-南西向穿过测区，主要构造走向为290°~310°",
+"scale": "测区尺度",
+"ore_control_role": "对矿体起控矿和容矿作用，断裂带内塑性变形明显，发育强烈片理化、糜棱岩化"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿",
+"intensity": "为主"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "局部少量"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "局部少量"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "局部少量"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "与石英脉相关，Au、As、Sb等富集于石英脉边缘"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Fluid",
+"name_zh": "含矿热液流体",
+"attributes": {
+"nature": "含矿热液",
+"source": "成矿元素主要来自地层、少量来自深部；侵入活动提供热机作用并伴随构造-热液活动"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Geochem",
+"name_zh": "金（Au）地球化学异常",
+"attributes": {
+"element": "Au",
+"value_ppm": "最大值20.86×10⁻⁹（原文单位）；地化剖面最高49.67×10⁻⁹（原文单位）",
+"anomaly_pattern": "浓集中心明显、浓度分带较好，与As、Sb、Hg吻合较好；主要集中在含石英脉强褐铁矿化流纹岩中，Au富集于石英脉边缘"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Geochem",
+"name_zh": "银（Ag）地球化学异常",
+"attributes": {
+"element": "Ag",
+"anomaly_pattern": "异常组合包含Ag，与Au、Hg、As、Sb有一定吻合，可作为Au的伴生指示元素"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Geochem",
+"name_zh": "砷（As）地球化学异常",
+"attributes": {
+"element": "As",
+"value_ppm": "4个值>200×10⁻⁶（原文单位）",
+"anomaly_pattern": "与Au异常吻合较好，分布在Au外围，为主要成矿指示元素"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）地球化学异常",
+"attributes": {
+"element": "Sb",
+"anomaly_pattern": "与Au异常吻合较好，分布在Au外围，为主要成矿指示元素"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Geochem",
+"name_zh": "汞（Hg）地球化学异常",
+"attributes": {
+"element": "Hg",
+"anomaly_pattern": "与Au异常吻合较好，分布在Au外围，为主要成矿指示元素"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "小黄山金矿位于卡拉麦里成矿带南侧"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "小黄山金矿位于卡拉麦里-达尔布特金成矿带（Ⅲ级成矿带）内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "小黄山金矿位于卡拉麦里-莫钦乌拉成矿带（Ⅳ级成矿带）西部"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "小黄山金矿主要分布在卡拉麦里过渡带南部"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "位于",
+"description": "小黄山金矿位于卡拉麦里强应变构造带内"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "赋存于",
+"description": "小黄山金矿产于中石炭统巴塔玛依内山组地层中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E7",
+"relation_label_zh": "属于",
+"description": "中石炭统巴塔玛依内山组地层属于中石炭统巴塔玛依内山组"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "赋存于",
+"description": "地化剖面显示金异常主要集中在含石英脉强褐铁矿化流纹岩中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E7",
+"relation_label_zh": "属于",
+"description": "含石英脉强褐铁矿化流纹岩为巴塔玛依内山组地层中流纹岩相关围岩"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "受…控制",
+"description": "卡拉麦里大断裂在测区北部通过，对矿体起控矿和容矿作用并控制矿体空间分布"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "受…控制",
+"description": "测区次级断裂发育，在该区起控矿和容矿作用"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "小黄山金矿点蚀变以褐铁矿化为主"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "伴随有",
+"description": "小黄山金矿点局部发育少量硅化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "伴随有",
+"description": "小黄山金矿点局部发育少量碳酸盐化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "伴随有",
+"description": "小黄山金矿点局部发育少量绿泥石化"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "小黄山金矿与石英脉相关，Au、As、Sb等富集于石英脉边缘"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "对应成矿流体为",
+"description": "小黄山金矿成矿过程中发生构造-热液活动，含矿热液上升并在后期石英脉中聚集成矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "显示",
+"description": "小黄山金矿位于综合异常区内并显示Au地球化学异常，最大值20.86×10⁻⁹（原文单位），剖面最高49.67×10⁻⁹（原文单位）"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "显示",
+"description": "小黄山金矿地球化学异常组合包含Ag，且与Au等元素有一定吻合"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "显示",
+"description": "小黄山金矿地球化学异常中As与Au异常吻合较好，部分样品As值>200×10⁻⁶（原文单位）"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "显示",
+"description": "小黄山金矿地球化学异常中Sb与Au异常吻合较好，为主要成矿指示元素之一"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "显示",
+"description": "小黄山金矿地球化学异常中Hg与Au异常吻合较好，为主要成矿指示元素之一"
+}
+]
+}

@@ -1,0 +1,300 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0182",
+"title": "新疆萨热阔布金矿黑云母~(40)Ar_~(39)Ar年龄及矿床成因启示_郑义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨热阔布金矿床",
+"attributes": {
+"name": "萨热阔布金矿床",
+"location": "新疆阿尔泰造山带南缘克兰火山—沉积盆地内",
+"tectonic_position": "阿尔泰造山带南缘克兰火山—沉积盆地（西伯利亚板块阿尔泰南缘晚古生代活动陆缘弧后拉张盆地）",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均品位3.86克/吨；1-1号矿体平均品位3.68克/吨；1-2号矿体平均品位4.28克/吨",
+"ore_control_features": "矿体常呈北西向脉状产出；矿体产状与阿巴宫大断裂及铁木尔特断裂基本一致；受阿巴宫断裂次级断裂及相关韧性剪切带控制",
+"age_ma": "213.5±2.3Ma（黑云母40Ar/39Ar坪年龄）；等时线年龄212.4±2.2Ma；反等时线年龄212.5±2.2Ma；成矿年龄约212Ma（三叠纪）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "克兰火山—沉积盆地",
+"attributes": {
+"name": "克兰火山—沉积盆地",
+"level": "火山—沉积盆地",
+"tectonic_setting": "西伯利亚板块阿尔泰南缘晚古生代活动陆缘弧后拉张盆地"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿巴宫多金属成矿带",
+"attributes": {
+"name": "阿巴宫多金属成矿带",
+"level": "成矿带",
+"tectonic_setting": "阿尔泰造山带南缘北西向断裂构造发育区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下泥盆统康布铁堡组上亚组第二岩性段",
+"attributes": {
+"name": "下泥盆统康布铁堡组上亚组第二岩性段",
+"age": "早泥盆世（约400Ma）",
+"dominant_lithology": "流纹质晶屑凝灰岩、火山碎屑岩夹碳酸盐岩建造（绿片岩相变质）",
+"lithology_notes": "康布铁堡组由下而上可分为3个岩性段；萨热阔布金矿床赋矿层位为上亚组第二岩性段，主矿体位于大理岩及其上下盘的绿泥石黑云母石英片岩、铁锰质大理岩和变钙质砂岩中"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "铁锰质大理岩与绿泥石黑云母石英片岩围岩",
+"attributes": {
+"name": "铁锰质大理岩与绿泥石黑云母石英片岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "阿巴宫断裂",
+"attributes": {
+"name": "阿巴宫断裂",
+"structure_type": "断裂",
+"orientation": "北西向",
+"scale": "区域性",
+"ore_control_role": "控制萨热阔布金矿床及其邻区多金属矿床的空间分布，并控制矿体脉状产出与展布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "铁木尔特断裂",
+"attributes": {
+"name": "铁木尔特断裂",
+"structure_type": "断裂",
+"orientation": "北西向",
+"scale": "区域性",
+"ore_control_role": "矿体产状与其基本一致，对矿体展布具有控制作用"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "相关韧性剪切带",
+"attributes": {
+"name": "相关韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "与北西向断裂一致",
+"scale": "矿区",
+"ore_control_role": "与断裂次级构造共同控制脉状矿体产出空间"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "贯穿整个成矿过程"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "萤石化",
+"attributes": {
+"name": "萤石化",
+"alteration_minerals": "萤石",
+"intensity": "发育（第三阶段脉体标志）"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "第一阶段石英脉中硫化物含量可达40%以内；第二阶段石英脉中为主要硫化物之一；第三阶段黄铁矿—萤石—石英脉中亦常见"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "磁黄铁矿",
+"attributes": {
+"name": "磁黄铁矿",
+"role_in_ore": "共生硫化物",
+"paragenesis": "第二阶段网脉状石英脉中与黄铁矿、黄铜矿共生（硫化物约5%～15%）"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "共生硫化物",
+"paragenesis": "第二阶段网脉状石英脉中与黄铁矿、磁黄铁矿共生（硫化物约5%～15%）"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "明金",
+"attributes": {
+"name": "明金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "第三阶段黄铁矿—萤石—石英脉中含有大量肉眼或放大镜下可观察到的明金"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Fluid",
+"name_zh": "萨热阔布金矿床成矿流体",
+"attributes": {
+"nature": "中温、低盐度、富CO2特征的成矿流体",
+"source": "与造山作用相关的变质流体，可能伴随浅成流体混合",
+"temperature_C_min": "230",
+"temperature_C_max": "374"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床位于克兰火山—沉积盆地内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床位于阿巴宫多金属成矿带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "萨热阔布金矿床直接容矿围岩为铁锰质大理岩与绿泥石黑云母石英片岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "铁锰质大理岩与绿泥石黑云母石英片岩围岩属于下泥盆统康布铁堡组上亚组第二岩性段"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床矿体呈北西向脉状产出，受阿巴宫断裂及其次级断裂控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床矿体产状与铁木尔特断裂基本一致，受其控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床受次级断裂和相关韧性剪切带共同控制，矿体呈脉状产出"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "萨热阔布金矿床围岩蚀变主要包括硅化，且贯穿整个成矿过程"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床围岩蚀变伴随绿泥石化发育"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床成矿晚阶段发育萤石化，为第三阶段脉体的重要标志"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床石英脉中主要硫化物包括黄铁矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床第二阶段网脉状石英脉中共生硫化物包括磁黄铁矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床第二阶段网脉状石英脉中共生硫化物包括黄铜矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要金矿物为",
+"description": "萨热阔布金矿床第三阶段黄铁矿—萤石—石英脉中含有大量明金"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "对应成矿流体为",
+"description": "与矿石共生石英中流体包裹体均一温度为230～374℃，指示萨热阔布金矿床成矿流体具有中温、低盐度、富CO2特征"
+}
+]
+}

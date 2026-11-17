@@ -1,0 +1,84 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0231",
+"title": "新疆多拉纳萨依金矿床赋矿岩体锆石U-Pb年龄及其地球化学特征_李巽",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "多拉纳萨依金矿床",
+"attributes": {
+"name": "多拉纳萨依金矿床",
+"location": "新疆阿尔泰西南额尔齐斯金矿带",
+"tectonic_position": "西伯利亚板块西南缘额尔齐斯构造—岩浆成矿域西南部、额尔齐斯挤压带西北段，玛尔卡库里大断裂西侧",
+"ore_control_features": "金矿一带出露萨热乌增、柯立巴依和东格勒等中酸性侵入岩体，其中东格勒岩体为赋矿岩体（含矿花岗闪长岩）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯金矿带",
+"attributes": {
+"name": "额尔齐斯金矿带",
+"level": "金矿带",
+"tectonic_setting": "阿尔泰西南额尔齐斯构造—岩浆成矿域西南部"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "额尔齐斯挤压带西北段",
+"attributes": {
+"name": "额尔齐斯挤压带西北段",
+"level": "挤压带",
+"tectonic_setting": "西伯利亚板块西南缘构造—岩浆成矿域西南部的重要构造带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "IntrusiveBody",
+"name_zh": "东格勒岩体",
+"attributes": {
+"name": "东格勒岩体",
+"rock_type": "花岗闪长岩（少量石英闪长岩）",
+"age": "299.5±1.4 Ma（锆石U-Pb谐和年龄）",
+"relationship_to_ore": "为多拉纳萨依金矿床东部赋矿岩体（含矿花岗闪长岩）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "萨热乌增岩体",
+"attributes": {
+"name": "萨热乌增岩体"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "柯立巴依岩体",
+"attributes": {
+"name": "柯立巴依岩体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于阿尔泰西南的额尔齐斯金矿带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于额尔齐斯挤压带西北段"
+}
+]
+}

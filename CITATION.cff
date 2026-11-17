@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "使用本项目的数据、代码或结果时，请引用曹颖的相关研究。"
+type: software
+title: "基于多阶段大语言模型的新疆金矿床勘查标识知识图谱构建与关联挖掘"
+authors:
+  - family-names: "曹"
+    given-names: "颖"
+abstract: "新疆金矿床处理后数据的关联挖掘、分组证据分配、二项与三项模式分解及四张结果图复现。"
+keywords:
+  - 新疆金矿床
+  - 关联挖掘
+  - Group-Lift
+  - 特征支撑份额

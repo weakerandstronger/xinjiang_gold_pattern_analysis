@@ -1,0 +1,185 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0215",
+"title": "东准噶尔库布苏金矿床岩脉与金矿成因关系的研究_高怀忠",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "库布苏金矿床",
+"attributes": {
+"name": "库布苏金矿床",
+"location": "新疆东准噶尔地区库布苏矿区，小红山花岗岩基西侧",
+"tectonic_position": "库布苏强应变构造带内（具韧性剪切性质），该构造带形成于野马泉地块南缘晚古生代早期火山岩浆弧内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿化与岩脉空间关系密切，矿化与岩脉均受北西向次级断裂控制，矿化主要限于岩脉内的断裂破碎带内"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔金成矿带（库布苏强应变构造带）",
+"attributes": {
+"name": "东准噶尔金成矿带（库布苏强应变构造带）",
+"level": "成矿带",
+"tectonic_setting": "野马泉地块南缘晚古生代早期火山岩浆弧内，北西向展布，宽一般2～5km，长达150km"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "北西向次级断裂（挤压—右行剪切）",
+"attributes": {
+"name": "北西向次级断裂（挤压—右行剪切）",
+"structure_type": "断裂",
+"orientation": "北西向",
+"ore_control_role": "控制岩脉与矿体分布，矿化主要产于岩脉内断裂破碎带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长玢岩与花岗闪长斑岩岩脉（及其破碎蚀变带）",
+"attributes": {
+"name": "闪长玢岩与花岗闪长斑岩岩脉（及其破碎蚀变带）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "含金石英脉主要脉石矿物（用于流体包裹体与同位素研究）",
+"paragenesis": "北矿带矿化阶段可分为电气石石英脉、烟灰色石英脉、含长石石英脉三个阶段；中矿带含金石英脉可被晚期石英—碳酸盐脉穿插"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Fluid",
+"name_zh": "库布苏金矿成矿流体",
+"attributes": {
+"nature": "高-中温、低盐度、富CO2的还原性流体，具变质成矿流体特征",
+"source": "变质成因流体（变质分泌水/变质流体）",
+"temperature_C_min": "275",
+"temperature_C_max": "350",
+"pressure_MPa_min": "68",
+"pressure_MPa_max": "83",
+"salinity_wtNaCl_min": "2.3",
+"salinity_wtNaCl_max": "5.6"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Isotope",
+"name_zh": "含金石英脉流体包裹体H2O氢氧同位素",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD、δ18O(H2O)",
+"value_range": "δD=-94.4‰～-63.0‰；δ18O(H2O)=7.29‰～8.47‰"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Geochem",
+"name_zh": "砷（As）地球化学信息",
+"attributes": {
+"element": "砷（As）",
+"anomaly_pattern": "与金矿化关系密切，为矿化带入组分之一"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geochem",
+"name_zh": "钨（W）地球化学信息",
+"attributes": {
+"element": "钨（W）",
+"anomaly_pattern": "与金矿化关系密切，为矿化带入组分之一"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）地球化学信息",
+"attributes": {
+"element": "锑（Sb）",
+"anomaly_pattern": "与金矿化关系密切，为矿化带入组分之一"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "库布苏金矿床位于东准噶尔金成矿带中的库布苏强应变构造带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "库布苏金矿床矿化与岩脉均受北西向次级断裂控制，矿化主要限于岩脉内的断裂破碎带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "库布苏金矿床三条金矿带均产于闪长玢岩与花岗闪长斑岩等岩脉内部及其破碎蚀变带中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "共生矿物包括",
+"description": "库布苏金矿床发育含金石英脉，石英为主要脉石矿物并保存成矿流体包裹体信息"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "对应成矿流体为",
+"description": "库布苏金矿床成矿流体为高-中温、低盐度、富CO2的还原性流体，具变质成因流体特征"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "约束该流体来源",
+"description": "含金石英脉流体包裹体H2O氢氧同位素组成落入变质分泌水范围内，用于约束成矿流体来源"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "显示",
+"description": "库布苏金矿床矿化过程中砷（As）为与金矿化关系密切的带入组分"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "库布苏金矿床矿化过程中钨（W）为与金矿化关系密切的带入组分"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "库布苏金矿床矿化过程中锑（Sb）为与金矿化关系密切的带入组分"
+}
+]
+}

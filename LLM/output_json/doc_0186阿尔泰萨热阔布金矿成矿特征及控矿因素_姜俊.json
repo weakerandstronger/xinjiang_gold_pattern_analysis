@@ -1,0 +1,257 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0186",
+"title": "阿尔泰萨热阔布金矿成矿特征及控矿因素_姜俊",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨热阔布金矿床",
+"attributes": {
+"name": "萨热阔布金矿床",
+"location": "新疆阿勒泰市东北约10千米",
+"tectonic_position": "西伯利亚板块与哈萨克斯坦板块准噶尔地块接合带，阿勒泰山南缘多金属金成矿带中部",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受特定层位与沉积相控制，并受后期构造—岩浆作用叠加改造；工业矿体产于火山—热水沉积建造中的断裂变形带内，尤其是高钾岩体附近断裂带或层间滑动带中，富厚矿体受构造蚀变带局部扩容部位及有利岩性共同控制，矿体多呈透镜状、脉状右行斜列分布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿勒泰山南缘多金属金成矿带",
+"attributes": {
+"name": "阿勒泰山南缘多金属金成矿带",
+"level": "成矿带",
+"tectonic_setting": "西伯利亚板块与哈萨克斯坦板块准噶尔地块接合带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "铁米尔特多金属矿田",
+"attributes": {
+"name": "铁米尔特多金属矿田",
+"level": "矿田",
+"tectonic_setting": "麦兹—冲乎尔构造—建造带内"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下泥盆统康布铁堡组上亚组第二岩性段（D1kb2）",
+"attributes": {
+"name": "下泥盆统康布铁堡组上亚组第二岩性段（D1kb2）",
+"age": "下泥盆世（下泥盆统）",
+"dominant_lithology": "绿泥石片岩、酸性晶屑凝灰岩、变钙质粉砂岩",
+"lithology_notes": "为萨热阔布金矿床主要赋矿层位，与铁米尔特块状硫化物矿床容矿层相同"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "D1kb2绿泥石片岩—酸性晶屑凝灰岩—变钙质粉砂岩围岩组合",
+"attributes": {
+"name": "D1kb2绿泥石片岩—酸性晶屑凝灰岩—变钙质粉砂岩围岩组合"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "阿巴宫大断裂（逆冲断裂系）",
+"attributes": {
+"name": "阿巴宫大断裂（逆冲断裂系）",
+"structure_type": "断裂系",
+"orientation": "走向NW320°～330°，倾向NE",
+"scale": "区域性",
+"ore_control_role": "为一级控矿构造或导矿构造，控制萨热阔布金矿脉与工业矿体的定位与展布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "层间滑动—右行剪切容矿构造带",
+"attributes": {
+"name": "层间滑动—右行剪切容矿构造带",
+"structure_type": "层间滑动带与走滑剪切构造带",
+"scale": "矿区",
+"ore_control_role": "矿脉多产于不同岩性层接触面附近（尤其晶屑凝灰岩与片岩接触面），层间滑动与右行剪切共同形成容矿构造系并控制矿体右行斜列分布与侧伏"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育（矿脉部位常为不规则糖粒状石英脉）"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "普遍"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "似矽卡岩化",
+"attributes": {
+"name": "似矽卡岩化",
+"alteration_minerals": "透闪石、阳起石、红柱石、黑云母、石榴子石",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "为矿石矿物组成之一，与硫化物及脉石矿物共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "矿石中常见硫化物之一，亦对应黄铁矿化蚀变"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "共生金属矿物",
+"paragenesis": "矿石中与黄铁矿、方铅矿、闪锌矿、磁黄铁矿等共生出现"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "金（Au）富集特征（D1kb2）",
+"attributes": {
+"element": "金(Au)",
+"anomaly_pattern": "下泥盆统康布铁堡组上亚组第二岩性段金丰度值达15.4×10^-9，变化系数达138.9%"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床位于阿勒泰山南缘多金属金成矿带中部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "产于",
+"description": "萨热阔布金矿床产于铁米尔特多金属矿田中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "萨热阔布金矿床赋矿围岩为D1kb2绿泥石片岩、酸性晶屑凝灰岩及变钙质粉砂岩等组成的围岩组合"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "D1kb2绿泥石片岩—酸性晶屑凝灰岩—变钙质粉砂岩围岩组合属于下泥盆统康布铁堡组上亚组第二岩性段（D1kb2）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床产于阿巴宫大断裂上盘，阿巴宫逆冲断裂系为一级控矿或导矿构造"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿脉受层间滑动带与右行走滑剪切的双重控制，工业矿体多呈右行斜列分布"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "萨热阔布金矿床围岩蚀变主要表现为硅化（不规则糖粒状石英脉）"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床黄铁矿化为一种普遍的蚀变类型"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床在变钙质粉砂岩和千枚岩围岩中常发育似矽卡岩化（透闪石、阳起石、红柱石、黑云母、石榴子石组合）"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "萨热阔布金矿床矿石矿物主要包括自然金"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床矿石矿物主要包括黄铁矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床矿石矿物主要包括黄铜矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "地质地球化学剖面测定结果显示直接容矿的D1kb2地层金丰度高且变化系数大，指示金活化富集显著"
+}
+]
+}

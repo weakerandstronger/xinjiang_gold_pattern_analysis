@@ -1,0 +1,219 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0017",
+"title": "新疆乌恰萨瓦亚尔顿金矿基因特性研究及选矿试验",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨瓦亚尔顿金矿床",
+"attributes": {
+"name": "萨瓦亚尔顿金矿床",
+"location": "新疆乌恰地区",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿石中含碳、硫、砷等对浸出有害元素，金主要以硫化物包裹金和自然金形式存在，自然金粒度小于0.01 mm，约30.40%的金为自然金，约69.60%的金被硫化物和硅酸盐等矿物包裹，需通过磨矿工艺提高金的解离度"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Mineral",
+"name_zh": "金",
+"attributes": {
+"name": "金",
+"role_in_ore": "主要目的矿物",
+"paragenesis": "金主要以硫化物包裹金和自然金形态存在，部分为裸露或半裸露金，另有部分被碳酸盐矿物、难溶性硅酸盐和黄铁矿、褐铁矿等矿物包裹，可见金粒度微细"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Mineral",
+"name_zh": "银",
+"attributes": {
+"name": "银",
+"role_in_ore": "主要目的矿物",
+"paragenesis": "与金共生，为萨瓦亚尔顿金矿的主要目的矿物之一"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "伴生硫化矿物",
+"paragenesis": "作为伴生硫化矿出现，含量偏低，经济利用价值有限"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "伴生硫化矿物",
+"paragenesis": "与黄铜矿等一起作为伴生硫化矿出现，含量过低，难以回收利用"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "为主要脉石矿物之一，与金矿化共生，部分作为硅酸盐矿物包裹金"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "云母",
+"attributes": {
+"name": "云母",
+"role_in_ore": "脉石矿物",
+"paragenesis": "与石英和方解石共同构成脉石矿物组合，对金浸出有一定影响"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "为主要脉石矿物之一，部分碳酸盐矿物可包裹金，影响金的解离与浸出"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金硫化物矿物",
+"paragenesis": "为金的主要载体矿物之一，粒度最粗，包裹金较多，金平均含量约为0.021%，属硫化物包裹金的重要矿物形态"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要载金硫化物矿物",
+"paragenesis": "为金的主要载体矿物之一，粒度次于黄铁矿，金平均含量约为0.017%，与黄铁矿和辉锑铁矿共同承载金"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "辉锑铁矿",
+"attributes": {
+"name": "辉锑铁矿",
+"role_in_ore": "主要载金硫化物矿物",
+"paragenesis": "为金的主要载体矿物之一，粒度最细，金平均含量约为0.018%，参与硫化物包裹金的形成"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "少量包裹金矿物",
+"paragenesis": "少量以褐铁矿包裹金形式出现，对金的赋存状态和浸出行为有一定影响"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "主要目的矿物为",
+"description": "萨瓦亚尔顿金矿的主要目的矿物为金"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "主要目的矿物为",
+"description": "萨瓦亚尔顿金矿的主要目的矿物还包括银"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "伴生硫化矿包括",
+"description": "萨瓦亚尔顿金矿中伴生硫化矿包括黄铜矿，但其含量过低，无法利用"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "伴生硫化矿包括",
+"description": "萨瓦亚尔顿金矿中伴生硫化矿还包括闪锌矿，含量同样较低，难以综合利用"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿的脉石矿物主要为石英，与金矿化共生，部分硅酸盐石英矿物包裹金"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿的脉石矿物中包含云母，对金矿石的工艺性质有一定影响"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿的脉石矿物还包括方解石，部分碳酸盐矿物可包裹金"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要载体矿物为",
+"description": "萨瓦亚尔顿金矿中金的主要载体矿物之一为黄铁矿，粒度最粗，金平均含量约0.021%"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要载体矿物为",
+"description": "萨瓦亚尔顿金矿中金的主要载体矿物之一为毒砂，粒度次之，金平均含量约0.017%"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要载体矿物为",
+"description": "萨瓦亚尔顿金矿中金的主要载体矿物之一为辉锑铁矿，粒度最细，金平均含量约0.018%"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "包裹金矿物包括",
+"description": "萨瓦亚尔顿金矿中少量金以褐铁矿包裹金的形态存在"
+}
+]
+}

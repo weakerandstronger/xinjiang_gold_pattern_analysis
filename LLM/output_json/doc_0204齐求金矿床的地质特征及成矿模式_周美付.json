@@ -1,0 +1,311 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0204",
+"title": "齐求金矿床的地质特征及成矿模式_周美付",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床",
+"attributes": {
+"name": "齐求金矿床",
+"location": "新疆托里县齐求地区（准噶尔盆地西北缘）",
+"tectonic_position": "准噶尔盆地西北缘弧后构造环境（晚石炭世弧后扩张作用相关）",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体受断裂构造控制，沿断裂破碎带分布；齐矿区位于安齐断裂北侧，齐亚矿区位于断裂南侧；矿体主要赋存于玄武岩中，少数赋存于火山碎屑沉积岩中；含金石英脉多呈透镜状、豆荚状，尖灭再现现象普遍；金矿化与热液蚀变关系密切",
+"age_ma": "晚石炭世"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "托里金矿田",
+"attributes": {
+"name": "托里金矿田",
+"level": "矿田",
+"tectonic_setting": "准噶尔盆地西北缘弧后构造带，发育北东—北北东向区域断裂构造骨架"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统太勒古拉组",
+"attributes": {
+"name": "下石炭统太勒古拉组",
+"age": "下石炭世",
+"dominant_lithology": "硅质凝灰岩、凝灰质粉砂岩、含砾凝灰岩",
+"lithology_notes": "主要分布于哈图断裂与安齐断裂之间"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统包古图组",
+"attributes": {
+"name": "下石炭统包古图组",
+"age": "下石炭世",
+"dominant_lithology": "凝灰质细砂岩、粉砂岩",
+"lithology_notes": "夹生物灰岩，主要分布于安齐断裂以南"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统库鲁木迪组",
+"attributes": {
+"name": "中泥盆统库鲁木迪组",
+"age": "中泥盆世",
+"dominant_lithology": "凝灰质砂岩、硅质泥岩、硅质岩",
+"lithology_notes": "主要分布于哈图断裂以北"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "玄武岩围岩",
+"attributes": {
+"name": "玄武岩围岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "安齐断裂",
+"attributes": {
+"name": "安齐断裂",
+"structure_type": "逆掩性断裂",
+"orientation": "北东—北北东向",
+"scale": "区域性主要断裂",
+"ore_control_role": "矿区重要控矿构造之一，齐矿区位于其北侧，玄武岩构造碎块沿其出露并与金矿床成因联系密切"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "哈图断裂",
+"attributes": {
+"name": "哈图断裂",
+"structure_type": "逆掩性断裂",
+"orientation": "北东—北北东向",
+"scale": "区域性主要断裂",
+"ore_control_role": "与安齐断裂共同构成区域主要构造骨架，并控制相关地层展布与矿区构造格局"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化-碳酸盐化-绢云母化-绿泥石化-绿帘石化-黄铁矿化-毒砂化蚀变",
+"attributes": {
+"name": "硅化-碳酸盐化-绢云母化-绿泥石化-绿帘石化-黄铁矿化-毒砂化蚀变",
+"alteration_minerals": "石英、方解石、绢云母、绿泥石、绿帘石、黄铁矿、毒砂",
+"intensity": "矿体周围普遍发育围岩蚀变，金矿化与热液蚀变关系密切"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与毒砂、黄铜矿、自然金等共生，常伴随黄铁矿化蚀变出现"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "常呈浸染状分布于蚀变岩型矿石中，与黄铁矿、石英等共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要含金矿物",
+"paragenesis": "石英脉型矿石中含自然金并与硫化物共生，粒径多为细粒"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "具有多期性，为石英脉型矿石的主要组成矿物，并普遍含有流体包裹体"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "与石英共生，常与碳酸盐化蚀变有关"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Fluid",
+"name_zh": "齐求金矿床成矿流体",
+"attributes": {
+"nature": "石英中发育以原生包裹体为主的气液两相流体包裹体，以液相为主，气液比约为1:10；均一温度约300～340℃，指示成矿温度为高中温",
+"source": "海水与岩浆水混合形成的热液循环流体（与洋壳内对流热液成因一致）",
+"temperature_C_min": "300",
+"temperature_C_max": "340"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "齐求金矿床硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "黄铁矿与毒砂δ34S=+0.3‰～+3.07‰（平均+1.60‰）"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "齐求金矿床石英氧同位素参数",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O",
+"value_range": "石英δ18O=+11.93‰～+16.39‰（平均+14.13‰）"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "齐求金矿床包裹体水氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD、δ18O",
+"value_range": "石英包裹体水δD=-79.16‰，δ18O=-0.80‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "齐求金矿床是托里金矿田的重要组成部分"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "齐求金矿床金矿体主要赋存于玄武岩围岩中，少数赋存于火山碎屑沉积岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "齐求金矿床矿体沿断裂破碎带分布，与安齐断裂密切相关"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "齐求地区区域构造骨架中哈图断裂对矿区地层与构造格局具有重要控制作用"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "齐求金矿床矿体周围围岩普遍发生硅化、碳酸盐化、绢云母化、绿泥石化、绿帘石化、黄铁矿化和毒砂化等蚀变"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求金矿床金属矿物主要包括黄铁矿"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求金矿床金属矿物主要包括毒砂"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "齐求金矿床石英脉型矿石中含自然金"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求金矿床脉石矿物主要为石英，具多期性并含流体包裹体"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求金矿床脉石矿物除石英外还包括方解石，与碳酸盐化蚀变有关"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "对应成矿流体为",
+"description": "齐求金矿床成矿流体表现为以液相为主的气液两相包裹体体系，均一温度约300～340℃"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素仅具较小正向偏离，指示慢源硫特征并与玄武岩硫源一致，约束成矿流体与基性火山岩作用有关"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "石英氧同位素显示变质作用特征，约束成矿流体与对流热液过程相关"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "包裹体水氢氧同位素投影于变质水区间内，指示成矿流体为海水与岩浆水混合形成的热液循环流体"
+}
+]
+}

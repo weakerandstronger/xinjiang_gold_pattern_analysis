@@ -1,0 +1,393 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0152",
+"title": "新疆西天山大山口金矿地质及成矿流体包裹体地球化学",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "大山口金矿床",
+"attributes": {
+"name": "大山口金矿床",
+"location": "新疆和静县大山口",
+"tectonic_position": "南天山成矿带东段、哈萨克斯坦—伊犁板块与塔里木板块缝合带附近",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿石金品位一般为（1～2.2）×10⁻⁶，最高达53.48×10⁻⁶",
+"ore_control_features": "矿床处在萨恨托尕—大山口脆韧性剪切带（脆韧性变形带）中，矿体局限在变形带内，呈彼此平行的板状、透镜状矿体群或矿带，矿区石英脉多成群成带分布，走向NWW"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西天山",
+"attributes": {
+"name": "新疆西天山",
+"level": "区域"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "新疆和静县",
+"attributes": {
+"name": "新疆和静县",
+"level": "县"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "南天山成矿带东段",
+"attributes": {
+"name": "南天山成矿带东段",
+"level": "成矿带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "哈萨克斯坦—伊犁板块与塔里木板块缝合带",
+"attributes": {
+"name": "哈萨克斯坦—伊犁板块与塔里木板块缝合带",
+"level": "缝合带",
+"tectonic_setting": "板块缝合带"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "上志留—下泥盆统大山口组",
+"attributes": {
+"name": "上志留—下泥盆统大山口组",
+"age": "上志留纪—下泥盆纪",
+"dominant_lithology": "细碎屑岩",
+"lithology_notes": "地层发生脆韧性变形"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "萨恨托尕—大山口脆韧性剪切带",
+"attributes": {
+"name": "萨恨托尕—大山口脆韧性剪切带",
+"structure_type": "脆韧性剪切带",
+"orientation": "NWW走向",
+"scale": "区域级",
+"ore_control_role": "矿体局限在脆韧性变形带中，矿体群平行展布并呈板状、透镜状"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "大山口组细碎屑岩",
+"attributes": {
+"name": "大山口组细碎屑岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长玢岩",
+"attributes": {
+"name": "闪长玢岩"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "HostRockUnit",
+"name_zh": "英安斑岩",
+"attributes": {
+"name": "英安斑岩"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "常见"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "常见"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "常见"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "铁白云石、菱铁矿",
+"intensity": "常见"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "高岭土化",
+"attributes": {
+"name": "高岭土化",
+"alteration_minerals": "高岭土",
+"intensity": "常见"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "石英脉型金矿石的主要脉石矿物，含金脉石英中捕获流体包裹体"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "矿石中含少量黄铁矿，主要呈浸染状分布于石英脉及近脉围岩中"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "铁白云石",
+"attributes": {
+"name": "铁白云石",
+"role_in_ore": "石英脉型金矿石中少量出现，为碳酸盐化热液新生矿物之一"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "矿石中极少量出现的金属矿物"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "自然金（粒间金）",
+"attributes": {
+"name": "自然金（粒间金）",
+"role_in_ore": "金主要以粒间金形式产于黄铁矿或石英晶粒间"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "菱铁矿",
+"attributes": {
+"name": "菱铁矿",
+"role_in_ore": "碳酸盐化热液新生矿物之一"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Fluid",
+"name_zh": "H₂O-NaCl体系含CO₂的中温低盐度热液",
+"attributes": {
+"nature": "H₂O-NaCl体系并含CO₂的中温、低盐度、低密度热液",
+"temperature_C_min": "260",
+"temperature_C_max": "320",
+"pressure_MPa_min": "37.33",
+"pressure_MPa_max": "109.77",
+"salinity_wtNaCl_min": "5.0",
+"salinity_wtNaCl_max": "8.5"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "大山口金矿床位于新疆西天山"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "大山口金矿床位于新疆和静县"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "大山口金矿床位于南天山成矿带东段"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "大山口金矿床位于哈萨克斯坦—伊犁板块与塔里木板块缝合带附近"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "大山口金矿床矿体局限并受控于萨恨托尕—大山口脆韧性剪切带（脆韧性变形带）"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "大山口金矿床矿体主要以脆韧性变形的大山口组细碎屑岩为主岩"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要围岩为",
+"description": "大山口金矿床矿体主要以闪长玢岩为主岩之一"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要围岩为",
+"description": "大山口金矿床矿体主要以英安斑岩为主岩之一"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "大山口组细碎屑岩属于上志留—下泥盆统大山口组"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "大山口金矿床矿石及围岩常见硅化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "大山口金矿床矿石及围岩常见黄铁矿化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "大山口金矿床矿石及围岩常见绢云母化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "大山口金矿床矿石及围岩常见碳酸盐化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "大山口金矿床矿石及围岩常见高岭土化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "大山口金矿床石英脉型矿石中矿物以石英为主"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "大山口金矿床矿石中含少量黄铁矿"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "大山口金矿床石英脉型矿石中有少量铁白云石"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "大山口金矿床矿石中出现极少量黄铜矿"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "大山口金矿床金主要以粒间金形式产于黄铁矿或石英晶粒间"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "大山口金矿床碳酸盐化表现为铁白云石、菱铁矿等热液新生矿物"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "对应成矿流体为",
+"description": "大山口金矿床成矿流体为H₂O-NaCl体系并含CO₂的中温、低盐度热液，温度260～320℃、盐度5.0%～8.5%NaCleq、压力37.33～109.77MPa"
+}
+]
+}

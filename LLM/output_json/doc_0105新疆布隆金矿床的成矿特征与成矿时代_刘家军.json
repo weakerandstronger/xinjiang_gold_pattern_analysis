@@ -1,0 +1,218 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0105",
+"title": "新疆布隆金矿床的成矿特征与成矿时代",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "布隆金矿床",
+"attributes": {
+"name": "布隆金矿床",
+"location": "新疆西南天山地区",
+"tectonic_position": "西南天山",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿化明显受层间构造破碎带的控制",
+"age_ma": "212.18±0.83 Ma（约209.40±1.99 Ma，含金石英脉形成时代，相当于印支晚期）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西南天山",
+"attributes": {
+"name": "西南天山",
+"level": "区域"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "上泥盆统碎屑岩建造",
+"attributes": {
+"name": "上泥盆统碎屑岩建造"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统",
+"attributes": {
+"name": "上泥盆统",
+"age": "上泥盆统",
+"dominant_lithology": "碎屑岩",
+"lithology_notes": "碎屑岩建造"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "层间构造破碎带",
+"attributes": {
+"name": "层间构造破碎带",
+"structure_type": "构造破碎带",
+"ore_control_role": "控制矿化"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "矿石主要矿物",
+"paragenesis": "黄铁矿—石英阶段、石英—菱铁矿阶段、方解石—石英—重晶石阶段"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "重晶石",
+"attributes": {
+"name": "重晶石",
+"role_in_ore": "矿石主要矿物",
+"paragenesis": "方解石—石英—重晶石阶段、重晶石阶段"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "菱铁矿",
+"attributes": {
+"name": "菱铁矿",
+"role_in_ore": "矿石主要矿物",
+"paragenesis": "石英—菱铁矿阶段"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "矿石主要矿物",
+"paragenesis": "方解石—石英—重晶石阶段（成矿主要阶段）"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "矿石主要矿物",
+"paragenesis": "黄铁矿—石英阶段"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "含金矿物",
+"paragenesis": "含金石英脉形成阶段（印支晚期）"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "矿石矿物"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "布隆金矿床位于西南天山区域内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "布隆金矿床赋存于上泥盆统碎屑岩建造中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "上泥盆统碎屑岩建造属于上泥盆统地层单元"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "布隆金矿床矿化明显受层间构造破碎带控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要金矿物为",
+"description": "布隆金矿床矿石主要矿物包括石英"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床矿石主要矿物包括重晶石"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床矿石主要矿物包括菱铁矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床矿石主要矿物包括方解石"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "布隆金矿床矿石主要矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "布隆金矿床矿石主要金矿物包括自然金"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床矿石矿物包括褐铁矿"
+}
+]
+}

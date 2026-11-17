@@ -1,0 +1,216 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0104",
+"title": "新疆阿合奇县布隆金矿床成矿流体及成矿作用",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "布隆金矿床",
+"attributes": {
+"name": "布隆金矿床",
+"location": "新疆阿合奇县",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "金矿脉受控于次级北东向缓倾斜顺层破碎带"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Structure",
+"name_zh": "阿尔巴切克箱状背斜",
+"attributes": {
+"name": "阿尔巴切克箱状背斜",
+"structure_type": "箱状背斜"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "喀拉铁克大断裂",
+"attributes": {
+"name": "喀拉铁克大断裂",
+"structure_type": "断裂",
+"scale": "规模大、切割深",
+"ore_control_role": "活动时间长"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "北东向缓倾斜顺层破碎带",
+"attributes": {
+"name": "北东向缓倾斜顺层破碎带",
+"structure_type": "顺层破碎带",
+"orientation": "北东向",
+"ore_control_role": "金矿脉受控于该次级破碎带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉绿（玢）岩脉",
+"attributes": {
+"name": "辉绿（玢）岩脉",
+"rock_type": "辉绿（玢）岩",
+"relationship_to_ore": "矿区西北及外围见少量出露，规模不大"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "华力西期中酸性隐伏岩体",
+"attributes": {
+"name": "华力西期中酸性隐伏岩体",
+"rock_type": "中酸性岩体",
+"age": "华力西期",
+"relationship_to_ore": "区域上北东向及南东向约6km处存在两个隐伏岩体"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉体矿物"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "重晶石",
+"attributes": {
+"name": "重晶石",
+"role_in_ore": "脉体矿物"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Fluid",
+"name_zh": "布隆金矿床成矿流体",
+"attributes": {
+"nature": "流体包裹体类型主要为氯化钠-水型、二氧化碳-水±甲烷型和二氧化碳-水-氯化钠型；气相成分以水和二氧化碳为主，含少量氮气、甲烷、乙烷、硫化氢等；液相成分以钠离子、氯离子为主，其次为钙离子、钾离子、镁离子、硫酸根离子",
+"source": "成矿流体主要来源于建造水，并混合少量岩浆水和大气降水；流体中的碳主要来源于海相碳酸盐岩",
+"temperature_C_min": "159",
+"temperature_C_max": "390",
+"salinity_wtNaCl_min": "2.42",
+"salinity_wtNaCl_max": "46.2"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Isotope",
+"name_zh": "碳同位素参数",
+"attributes": {
+"system": "碳同位素",
+"parameter_name": "δ¹³C（PDB）",
+"value_range": "－4.6‰～－1.4‰"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "氧同位素参数",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ¹⁸O（SMOW）",
+"value_range": "17.2‰～21.1‰"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "氧同位素参数（水）",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ¹⁸O（水）",
+"value_range": "6.7‰～14.7‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢同位素参数",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD",
+"value_range": "－70‰～－55‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受控于",
+"description": "布隆金矿床金矿脉受控于北东向缓倾斜顺层破碎带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "矿区位于阿尔巴切克箱状背斜西北翼"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "对应成矿流体为",
+"description": "布隆金矿床成矿流体包裹体类型以氯化钠-水型、二氧化碳-水±甲烷型和二氧化碳-水-氯化钠型为主，均一温度范围为159～390℃"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床为石英重晶石脉型，脉体矿物包括石英"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床为石英重晶石脉型，脉体矿物包括重晶石"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "石英中流体包裹体的碳同位素参数用于约束布隆金矿床成矿流体来源"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "石英中流体包裹体的氧同位素参数用于约束布隆金矿床成矿流体来源"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体的水氧同位素参数用于约束布隆金矿床成矿流体来源"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体的氢同位素参数用于约束布隆金矿床成矿流体来源"
+}
+]
+}

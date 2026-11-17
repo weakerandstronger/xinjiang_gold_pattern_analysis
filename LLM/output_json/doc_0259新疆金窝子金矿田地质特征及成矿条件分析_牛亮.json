@@ -1,0 +1,290 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0259",
+"title": "新疆金窝子金矿田地质特征及成矿条件分析_牛亮",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金窝子金矿床",
+"attributes": {
+"name": "金窝子金矿床",
+"location": "新疆哈密市东约220km金窝子金矿田",
+"tectonic_position": "中朝－塔里木板块与哈萨克斯坦板块俯冲碰撞带南缘的北山中带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体主要产于金窝子华力西期花岗闪长岩体中，受近南北向或北北西向陡倾断层（高角度张－剪性断裂群）控制；含金石英脉数量多、呈平列状展布，脉体常见分枝复合、膨胀狭缩、尖灭再现等特征",
+"age_ma": "243.2±1.8Ma（黄铁绢英岩化矿石绢云母40Ar/39Ar）；228±22Ma（含金石英大脉石英流体包裹体Rb-Sr等时线）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "北山中带",
+"attributes": {
+"name": "北山中带",
+"level": "构造带",
+"tectonic_setting": "中朝－塔里木板块与哈萨克斯坦板块俯冲碰撞带南缘"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "照壁山－破城山贵金属金四级成矿带",
+"attributes": {
+"name": "照壁山－破城山贵金属金四级成矿带",
+"level": "四级成矿带",
+"tectonic_setting": "东天山－北山成矿带的星星峡－明水金多金属成矿亚带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统金窝子组",
+"attributes": {
+"name": "上泥盆统金窝子组",
+"age": "晚泥盆世（上泥盆统）",
+"dominant_lithology": "火山岩－沉积碎屑岩系",
+"lithology_notes": "岩性主要为沉凝灰岩、含砾沉凝灰岩、凝灰质砾岩、凝灰质砂岩、千枚岩夹泥质页岩和碳质板岩，并含少量薄层灰岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "金窝子华力西期黑云母花岗闪长岩体",
+"attributes": {
+"name": "金窝子华力西期黑云母花岗闪长岩体",
+"rock_type": "黑云母花岗闪长岩",
+"age": "385Ma、375Ma（K-Ar）；358Ma（U-Pb）；354±31Ma（Rb-Sr等时线）",
+"relationship_to_ore": "岩体主要沿断裂侵位于金窝子组地层中；金窝子含金石英脉型金矿床产于该岩体内的张性裂隙与断裂破碎带中"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "花岗闪长岩体内断裂破碎带（含金石英脉赋存带）",
+"attributes": {
+"name": "花岗闪长岩体内断裂破碎带（含金石英脉赋存带）"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "金窝子组层间断裂破碎带（蚀变糜棱岩化带）",
+"attributes": {
+"name": "金窝子组层间断裂破碎带（蚀变糜棱岩化带）"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "近南北向或北北西向高角度张－剪性断裂群",
+"attributes": {
+"name": "近南北向或北北西向高角度张－剪性断裂群",
+"structure_type": "张－剪性断裂",
+"orientation": "走向近南北向或北北西向，倾角约70°～80°",
+"scale": "矿区级",
+"ore_control_role": "控制含金石英脉型矿脉的产出特征与空间展布，是金窝子矿床主要控矿构造"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "北东向低角度断层（脆－韧性逆冲断裂带）",
+"attributes": {
+"name": "北东向低角度断层（脆－韧性逆冲断裂带）",
+"structure_type": "低角度逆冲断层",
+"orientation": "北东向，低角度（矿化层倾角约20°～35°）",
+"scale": "矿田级",
+"ore_control_role": "控制层间断裂破碎带及蚀变糜棱岩型矿体的形成与空间产出，是210金矿床的主要控矿构造"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化－硅化",
+"attributes": {
+"name": "黄铁绢英岩化－硅化",
+"alteration_minerals": "黄铁矿、石英、绢云母",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物（主要载金硫化物之一）",
+"paragenesis": "在金窝子矿床与210矿床矿石中普遍发育，与石英、绢云母等共生"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "有用矿物（主要金矿物之一）",
+"paragenesis": "与黄铁矿等硫化物及石英等脉石矿物共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "有用矿物（主要金矿物之一）",
+"paragenesis": "与黄铁矿、方铅矿、闪锌矿、黄铜矿等硫化物及石英等共生"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Fluid",
+"name_zh": "成矿流体（岩浆热液与大气降水混合）",
+"attributes": {
+"nature": "中－低温热液（均一温度：金窝子矿床约100～480℃，峰值200～320℃；210矿床约160～400℃，集中280～360℃）",
+"source": "岩浆热液与大气降水的混合产物",
+"temperature_C_min": "100",
+"temperature_C_max": "480"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S(‰)",
+"value_range": "+6.38‰～+6.76‰"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素（δD与δ18O_H2O）",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD(‰)与δ18O_H2O(‰)",
+"value_range": "δD：-115‰～-79‰；δ18O_H2O：-7.9‰～+1.44‰"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geochem",
+"name_zh": "金窝子组金丰度",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "（3.6～10.53）×10^-9",
+"anomaly_pattern": "金窝子组碎屑岩与火山碎屑岩金丰度较高（平均约8.9×10^-9），为成矿提供物质基础"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "金窝子金矿床（含金石英脉型）位于北山中带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "金窝子金矿床的成矿区划归属照壁山－破城山贵金属金四级成矿带"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "金窝子含金石英脉型矿体主要赋存于花岗闪长岩体内断裂破碎带中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "金窝子组层间断裂破碎带（蚀变糜棱岩化带）属于上泥盆统金窝子组"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "金窝子华力西期黑云母花岗闪长岩体主要沿断裂侵位于上泥盆统金窝子组地层中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "金窝子含金石英脉型金矿化受近南北向或北北西向高角度张－剪性断裂群控制"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "金窝子含金石英脉两侧围岩蚀变常见黄铁绢英岩化与硅化，其中黄铁绢英岩化与金矿化关系密切"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子含金石英脉型矿石金属矿物主要包括黄铁矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子含金石英脉型矿石有用矿物包括银金矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子含金石英脉型矿石有用矿物包括自然金"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "对应成矿流体为",
+"description": "金窝子含金石英脉型金矿床的成矿流体为岩浆热液与大气降水混合的中－低温热液"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S接近且较为均一，指示两类矿化的硫源一致并与混合成矿流体有关"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素δD与δ18O_H2O范围指示成矿流体为岩浆热液与大气降水的混合产物"
+}
+]
+}

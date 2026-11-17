@@ -1,0 +1,121 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0138",
+"title": "新疆鄯善县石英滩金矿石矿物学和金矿物特征",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "石英滩金矿床",
+"attributes": {
+"name": "石英滩金矿床",
+"deposit_type": "浅成低温热液型金矿床"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "金在矿石中绝大部分以独立矿物形式存在，其中银金矿为主要金矿物，在原生矿石和氧化矿石中分别占金矿物的99.5%和97.8%，银金矿中金的成色为667.21‰"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "自然金在矿石中很少，在原生矿石和氧化矿石中分别占金矿物的0.5%和2.2%，自然金的成色为997.14‰，表生自然金的成色为997.33‰"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Mineral",
+"name_zh": "含铜自然金",
+"attributes": {
+"name": "含铜自然金",
+"role_in_ore": "含铜自然金为极微量金矿物"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "β汞金矿",
+"attributes": {
+"name": "β汞金矿",
+"role_in_ore": "β汞金矿为极微量金矿物"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "载体矿物之一，呈分散状态赋存于载体矿物中的金极少，载体矿物金含量普遍很低，工业意义不大"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "载体矿物之一，呈分散状态赋存于载体矿物中的金极少，载体矿物金含量普遍很低，工业意义不大"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "主要金矿物为",
+"description": "石英滩金矿床的主要金矿物为银金矿"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床中金矿物除银金矿外还包括少量自然金"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床中还发育极微量的含铜自然金"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床中还发育极微量的β汞金矿"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床矿石中载体矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床矿石中载体矿物包括褐铁矿"
+}
+]
+}

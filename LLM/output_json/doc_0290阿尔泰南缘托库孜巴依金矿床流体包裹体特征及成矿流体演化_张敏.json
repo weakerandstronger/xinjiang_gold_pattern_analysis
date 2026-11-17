@@ -1,0 +1,270 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0290",
+"title": "阿尔泰南缘托库孜巴依金矿床流体包裹体特征及成矿流体演化_张敏",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床",
+"attributes": {
+"name": "托库孜巴依金矿床",
+"location": "新疆西北部阿尔泰南缘哈巴河地区",
+"tectonic_position": "西伯利亚古板块南缘阿尔泰陆缘活动带，克兰弧后盆地与哈巴河弧间盆地接壤处",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受玛尔卡库里深大断裂（剪切带）及次一级断裂控制，矿体呈NW-SE向雁列式脉状、透镜状分布；含矿石英脉与蚀变闪长岩脉充填于控矿断裂及构造带内，部分可直接构成金矿体"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "克兰弧后盆地",
+"attributes": {
+"name": "克兰弧后盆地",
+"level": "弧后盆地",
+"tectonic_setting": "阿尔泰陆缘活动带内的重要弧后盆地单元"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "哈巴河弧间盆地",
+"attributes": {
+"name": "哈巴河弧间盆地",
+"level": "弧间盆地",
+"tectonic_setting": "阿尔泰陆缘活动带内弧间盆地单元，与克兰弧后盆地接壤"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "额尔齐斯成矿构造带",
+"attributes": {
+"name": "额尔齐斯成矿构造带",
+"level": "成矿构造带",
+"tectonic_setting": "阿尔泰造山带南缘，晚古生代末造山作用相关，带内金矿床分布受大型剪切带控制"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统阿勒泰组上亚组",
+"attributes": {
+"name": "中泥盆统阿勒泰组上亚组",
+"age": "中泥盆统",
+"dominant_lithology": "变石英砂岩、绢云石英千枚岩",
+"lithology_notes": "矿区出露地层，伴结晶灰岩、凝灰岩、变流纹岩等岩性组合"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "阿勒泰组上亚组围岩",
+"attributes": {
+"name": "阿勒泰组上亚组围岩（变石英砂岩、绢云石英千枚岩等）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河杂岩体",
+"attributes": {
+"name": "哈巴河杂岩体",
+"rock_type": "二长花岗岩、闪长岩及辉长闪长岩等",
+"relationship_to_ore": "区内岩脉发育，闪长岩脉、花岗岩脉和石英脉常充填于断裂构造带；蚀变闪长岩脉和石英脉可直接构成金矿体"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里剪切带（深大断裂）",
+"attributes": {
+"name": "玛尔卡库里剪切带（深大断裂）",
+"structure_type": "大型剪切带及其次级断裂",
+"orientation": "北西—南东向（NW-SE）",
+"scale": "区域性深大断裂（矿体断续延伸约4.5 km、宽约1.2 km范围内受其控制）",
+"ore_control_role": "控制金矿化体在矿区内呈NW-SE向雁列式脉状、透镜状分布，并控制控矿断裂与构造带的展布"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化-绿泥石化-绿帘石化-碳酸盐化-绢云母化-黄铁矿化",
+"attributes": {
+"name": "硅化-绿泥石化-绿帘石化-碳酸盐化-绢云母化-黄铁矿化",
+"alteration_minerals": "石英、绿泥石、绿帘石、方解石、绢云母、黄铁矿",
+"intensity": "热液蚀变广泛发育；强硅化与黄铁矿化为区内金矿成矿作用最重要特征"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要矿石矿物",
+"paragenesis": "主要出现于石英-黄铁矿阶段（Ⅱ），并与石英共生、浸染状分布"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要矿石矿物",
+"paragenesis": "主要出现于石英-黄铁矿-黄铜矿阶段（Ⅲ），与黄铁矿和石英共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "早阶段矿石矿物",
+"paragenesis": "主要出现于石英-磁铁矿阶段（Ⅰ），与石英共生并受韧性剪切变形影响"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "主要赋存于含矿石英脉及其相关矿石中，与黄铁矿、黄铜矿等矿物共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "巴依金矿成矿流体",
+"attributes": {
+"nature": "中低盐度NaCl-H2O-CO2成矿流体体系，主要成矿阶段（Ⅱ、Ⅲ）出现沸腾现象",
+"source": "成矿流体主要为早阶段的变质水与中晚阶段加入的大气水混合而成",
+"temperature_C_min": "102.0",
+"temperature_C_max": "413.4",
+"salinity_wtNaCl_min": "0.0",
+"salinity_wtNaCl_max": "44.3"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "氢-氧同位素参数",
+"attributes": {
+"system": "氢-氧同位素",
+"parameter_name": "δ18O、δD",
+"value_range": "成矿早阶段（Ⅰ）：δ18O=5.31‰，δD=-85.10‰；主要成矿阶段（Ⅱ、Ⅲ）：δ18O=-1.53‰~1.50‰，δD=-97.4‰~-81.1‰；成矿晚阶段（Ⅳ）：δ18O=-3.52‰~-3.42‰，δD=-93.9‰~-87.1‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "托库孜巴依（巴依）金矿床位于克兰弧后盆地范围内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "托库孜巴依（巴依）金矿床位于克兰弧后盆地与哈巴河弧间盆地接壤处"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "托库孜巴依（巴依）金矿床为额尔齐斯成矿构造带内典型金矿床之一"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "托库孜巴依（巴依）金矿床受玛尔卡库里剪切带（深大断裂）及次一级断裂控制，矿体沿NW-SE向展布"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "托库孜巴依（巴依）金矿床主要赋存于阿勒泰组上亚组围岩中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "阿勒泰组上亚组围岩在地层上归属于中泥盆统阿勒泰组上亚组"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "托库孜巴依（巴依）金矿床热液蚀变类型以硅化、绿泥石化、绿帘石化、碳酸盐化、绢云母化和黄铁矿化为主，其中强硅化与黄铁矿化最为重要"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "托库孜巴依（巴依）金矿床矿石矿物中普遍发育黄铁矿，主要见于石英-黄铁矿阶段（Ⅱ）"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "托库孜巴依（巴依）金矿床矿石矿物包括黄铜矿，主要见于石英-黄铁矿-黄铜矿阶段（Ⅲ）"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "托库孜巴依（巴依）金矿床早阶段矿物组合包括磁铁矿，主要见于石英-磁铁矿阶段（Ⅰ）"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要金矿物为",
+"description": "托库孜巴依（巴依）金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "托库孜巴依（巴依）金矿床成矿流体为中低盐度NaCl-H2O-CO2体系，成矿由早到晚温度-盐度整体下降，主要成矿阶段（Ⅱ、Ⅲ）出现沸腾现象"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "氢-氧同位素参数显示成矿流体主要为早阶段变质水并在中晚阶段加入大气水混合形成"
+}
+]
+}

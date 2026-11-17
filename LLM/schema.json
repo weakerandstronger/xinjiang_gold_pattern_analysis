@@ -1,0 +1,273 @@
+{
+  "schema_version": "0.1.0",
+  "description": "新疆金矿床知识图谱框架约束。定义当前允许使用的实体类型及其关键属性，以及实体间关系类型。",
+
+  "entity_schema": {
+    "Deposit": {
+      "cn_name": "矿床",
+      "description": "新疆范围内的金矿床或以金为主的多金属矿床。",
+      "key_attributes": [
+        "name",
+        "location",
+        "deposit_type",
+        "ore_grade",
+        "resource_tonnage",
+        "ore_control_features"
+      ]
+    },
+
+    "Region": {
+      "cn_name": "区域",
+      "description": "构造单元、成矿带、矿集区、矿田等区域性地质单元。",
+      "key_attributes": [
+        "name",
+        "level",
+        "tectonic_setting"
+      ]
+    },
+
+    "StratUnit": {
+      "cn_name": "地层单元",
+      "description": "与矿床相关的地层单位（系、组、段等）。",
+      "key_attributes": [
+        "name",
+        "age",
+        "dominant_lithology"
+      ]
+    },
+
+    "HostRockUnit": {
+      "cn_name": "赋矿岩石单元",
+      "description": "直接赋存矿体的宿主岩石单元。",
+      "key_attributes": [
+        "name",
+        "lithology",
+        "stratigraphic_position"
+      ]
+    },
+
+    "Lithology": {
+      "cn_name": "岩性",
+      "description": "与矿化有关的岩性类型及岩石学特征。",
+      "key_attributes": [
+        "name",
+        "rock_type",
+        "composition",
+        "texture",
+        "age"
+      ]
+    },
+
+    "IntrusiveBody": {
+      "cn_name": "侵入岩体",
+      "description": "与成矿有关的侵入岩体、岩株、岩脉等。",
+      "key_attributes": [
+        "name",
+        "rock_type",
+        "age",
+        "relationship_to_ore"
+      ]
+    },
+
+    "Structure": {
+      "cn_name": "构造",
+      "description": "控制或影响成矿的断裂、剪切带、褶皱等构造要素。",
+      "key_attributes": [
+        "name",
+        "structure_type",
+        "orientation",
+        "scale",
+        "ore_control_role"
+      ]
+    },
+
+    "Alteration": {
+      "cn_name": "蚀变",
+      "description": "与金矿化密切相关的蚀变类型。",
+      "key_attributes": [
+        "name",
+        "alteration_minerals",
+        "intensity",
+        "spatial_pattern"
+      ]
+    },
+
+    "Mineral": {
+      "cn_name": "矿物",
+      "description": "金矿物、伴生矿物和主要脉石矿物。",
+      "key_attributes": [
+        "name",
+        "role_in_ore",
+        "paragenesis"
+      ]
+    },
+
+    "Fluid": {
+      "cn_name": "成矿流体",
+      "description": "通过流体包裹体研究获得的成矿流体特征。",
+      "key_attributes": [
+        "phase",
+        "Th_range",
+        "salinity_range",
+        "density_range",
+        "inclusion_types"
+      ]
+    },
+
+    "Isotope": {
+      "cn_name": "同位素参数",
+      "description": "约束成矿物质和流体来源的同位素体系及其参数。",
+      "key_attributes": [
+        "system",
+        "parameter_name",
+        "value_range",
+        "interpretation"
+      ]
+    },
+
+    "Geophysics": {
+      "cn_name": "地球物理异常",
+      "description": "与矿床相关的重力、磁法、电法等地球物理异常。",
+      "key_attributes": [
+        "anomaly_type",
+        "amplitude",
+        "spatial_pattern"
+      ]
+    },
+
+    "Geochem": {
+      "cn_name": "地球化学数据",
+      "description": "与矿床有关的元素地球化学异常或样品分析结果。",
+      "key_attributes": [
+        "element",
+        "concentration",
+        "anomaly_pattern"
+      ]
+    }
+  },
+
+  "relation_schema": [
+    {
+      "id": "Deposit-Region",
+      "from_entity": "Deposit",
+      "to_entity": "Region",
+      "description": "矿床位于或隶属于某一区域（成矿带/矿集区等）。",
+      "relation_label_examples": [
+        "位于",
+        "隶属于"
+      ]
+    },
+    {
+      "id": "Deposit-Lithology",
+      "from_entity": "Deposit",
+      "to_entity": "Lithology",
+      "description": "矿床主要赋存或紧密相关的岩性。",
+      "relation_label_examples": [
+        "主要赋存于",
+        "与…密切相关"
+      ]
+    },
+    {
+      "id": "Deposit-Structure",
+      "from_entity": "Deposit",
+      "to_entity": "Structure",
+      "description": "矿床（矿体）与断裂、剪切带等构造之间的控矿关系。",
+      "relation_label_examples": [
+        "受…控制",
+        "沿…展布",
+        "赋存于…破碎带中"
+      ]
+    },
+    {
+      "id": "Deposit-HostRockUnit",
+      "from_entity": "Deposit",
+      "to_entity": "HostRockUnit",
+      "description": "矿床与其直接赋存的宿主岩石单元之间的关系。",
+      "relation_label_examples": [
+        "赋存于",
+        "主要宿主岩为"
+      ]
+    },
+    {
+      "id": "HostRockUnit-StratUnit",
+      "from_entity": "HostRockUnit",
+      "to_entity": "StratUnit",
+      "description": "宿主岩石单元在地层上的归属关系。",
+      "relation_label_examples": [
+        "属于",
+        "夹于"
+      ]
+    },
+    {
+      "id": "Deposit-Alteration",
+      "from_entity": "Deposit",
+      "to_entity": "Alteration",
+      "description": "矿床与典型蚀变组合之间的共生关系。",
+      "relation_label_examples": [
+        "伴随有",
+        "主要蚀变为"
+      ]
+    },
+    {
+      "id": "Deposit-Mineral",
+      "from_entity": "Deposit",
+      "to_entity": "Mineral",
+      "description": "矿床中的主要金矿物及共生矿物。",
+      "relation_label_examples": [
+        "主要金矿物为",
+        "共生矿物包括"
+      ]
+    },
+    {
+      "id": "Deposit-Fluid",
+      "from_entity": "Deposit",
+      "to_entity": "Fluid",
+      "description": "矿床对应的成矿流体包裹体特征。",
+      "relation_label_examples": [
+        "对应成矿流体为",
+        "主成矿阶段流体特征为"
+      ]
+    },
+    {
+      "id": "Deposit-Geophysics",
+      "from_entity": "Deposit",
+      "to_entity": "Geophysics",
+      "description": "矿床与重磁电等地球物理异常之间的响应关系。",
+      "relation_label_examples": [
+        "对应高磁异常",
+        "对应低电阻率异常"
+      ]
+    },
+    {
+      "id": "Deposit-Geochem",
+      "from_entity": "Deposit",
+      "to_entity": "Geochem",
+      "description": "矿床与元素地球化学异常之间的关系。",
+      "relation_label_examples": [
+        "对应元素地球化学异常",
+        "外围土壤地球化学异常"
+      ]
+    },
+    {
+      "id": "Isotope-Fluid",
+      "from_entity": "Isotope",
+      "to_entity": "Fluid",
+      "description": "同位素参数与具体成矿流体/包裹体样品之间的对应关系。",
+      "relation_label_examples": [
+        "测自该流体包裹体",
+        "约束该流体来源"
+      ]
+    },
+    {
+      "id": "IntrusiveBody-StratUnit",
+      "from_entity": "IntrusiveBody",
+      "to_entity": "StratUnit",
+      "description": "侵入岩体与地层单元之间的侵入接触关系。",
+      "relation_label_examples": [
+        "侵入于",
+        "切穿",
+        "底侵于"
+      ]
+    }
+  ]
+}

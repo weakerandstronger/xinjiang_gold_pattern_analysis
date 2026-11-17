@@ -1,0 +1,177 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0296",
+"title": "新疆哈巴河县托库孜巴依金矿1矿段12号矿脉特征及前景分析_石军军",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床（1矿段12号矿脉）",
+"attributes": {
+"name": "托库孜巴依金矿床（1矿段12号矿脉）",
+"location": "新疆哈巴河县托库孜巴依金矿区1矿段",
+"tectonic_position": "西伯利亚古板块南缘克兰弧后盆地西段",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿体含金品位1.41～12.17克/吨，矿床平均品位4.16克/吨；12-1、12-2、12-3、12-4号矿体平均品位分别为3.13、3.61、3.73、4.03克/吨",
+"ore_control_features": "受北西—南东向韧性构造带（玛尔卡库里大断裂及次一级断裂）控制；矿体产于中泥盆统阿勒泰组上亚组第二岩性段（D2a2^2）绢云母石英片岩中，控矿构造为北西—南东向构造裂隙；第二期石英脉为矿体直接载金地质体，石英脉两侧蚀变较强并伴较高黄铁矿含量"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "克兰弧后盆地西段",
+"attributes": {
+"name": "克兰弧后盆地西段",
+"level": "弧后盆地",
+"tectonic_setting": "西伯利亚古板块南缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统阿勒泰组上亚组第二岩性段上岩性层（D2a2^2）",
+"attributes": {
+"name": "中泥盆统阿勒泰组上亚组第二岩性段上岩性层（D2a2^2）",
+"age": "中泥盆统",
+"dominant_lithology": "绢云母石英片岩",
+"lithology_notes": "南部与中泥盆统托克萨雷组上亚组（D2t2）断层接触，北部与中泥盆统阿勒泰组上亚组第二岩性段下岩性层（D2a2^1）断层接触"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "绢云母石英片岩（赋矿围岩）",
+"attributes": {
+"name": "绢云母石英片岩（赋矿围岩）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里大断裂",
+"attributes": {
+"name": "玛尔卡库里大断裂",
+"structure_type": "韧性剪切变形带",
+"orientation": "北西—南东向展布",
+"scale": "由数个次一级剪切构造带组成",
+"ore_control_role": "控制矿床及矿体分布，构造裂隙为含金石英脉与成矿热液提供运移通道与容矿空间"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河斜长花岗岩体",
+"attributes": {
+"name": "哈巴河斜长花岗岩体",
+"rock_type": "斜长花岗岩",
+"relationship_to_ore": "侵位为成矿提供大量热能，加速大气降水环流并促进含金热液活动"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化-褐铁矿化-绢云母化-黄铁矿化-绿泥石化-碳酸盐化",
+"attributes": {
+"name": "硅化-褐铁矿化-绢云母化-黄铁矿化-绿泥石化-碳酸盐化",
+"alteration_minerals": "石英、褐铁矿、绢云母、黄铁矿、绿泥石、方解石",
+"intensity": "矿化相关蚀变发育，石英脉两侧蚀变较强；硅化、褐铁矿化及黄铁矿化为重要找矿标志"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要有用矿物",
+"paragenesis": "以裂隙金、粒间金或包裹金形式赋存在石英—硫化物建造中"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物与重要载金矿物",
+"paragenesis": "主要赋存于第二期石英脉及其蚀变带中，含量可达5%，局部可达20%"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "托库孜巴依金矿成矿热液",
+"attributes": {
+"nature": "中—低温成矿热液",
+"source": "大气降水环流参与并在构造抬升与降温条件下沉淀成矿"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿1矿段12号矿脉位于西伯利亚古板块南缘克兰弧后盆地西段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "托库孜巴依金矿1矿段12号矿脉受玛尔卡库里大断裂及次一级剪切构造带控制，构造线总体呈北西—南东向展布"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "矿体赋存于中泥盆统阿勒泰组上亚组第二岩性段（D2a2^2）的绢云母石英片岩中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "绢云母石英片岩赋矿围岩在地层上归属于中泥盆统阿勒泰组上亚组第二岩性段上岩性层（D2a2^2）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "矿化相关蚀变主要为硅化、褐铁矿化、绢云母化、黄铁矿化、绿泥石化及晚期碳酸盐化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石自然矿物主要为自然金"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石主要金属矿物为黄铁矿，第二期石英脉黄铁矿含量较高并与含金性密切相关"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "矿床成矿热液在韧性剪切带抬升至浅部脆韧性环境后迅速上升、降温并促使金络合物分解沉淀成矿，且与大气降水环流有关"
+}
+]
+}

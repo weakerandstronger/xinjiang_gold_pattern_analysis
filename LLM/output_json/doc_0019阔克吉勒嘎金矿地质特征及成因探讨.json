@@ -1,0 +1,418 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0019",
+"title": "阔克吉勒嘎金矿地质特征及成因探讨 ",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔克吉勒嘎金矿床",
+"attributes": {
+"name": "阔克吉勒嘎金矿床",
+"location": "西昆仑山西段腹地帕米尔高原萨雷阔勒岭一带",
+"tectonic_position": "处于西藏三江造山系羌塘弧盆系塔什库尔干-甜水海地块早古生代陆缘盆地，位于印度板块与欧亚板块碰撞带前缘挤压应力最强烈地带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体赋存于下志留统温泉沟群碎裂状绿灰色硬绿泥（褐铁矿化、菱铁矿）绢云千枚岩中，矿带主要产于构造破碎带中，具有明显构造控矿特征"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西昆仑山西段",
+"attributes": {
+"name": "西昆仑山西段",
+"level": "造山带分段",
+"tectonic_setting": "位于西昆仑山西段腹地，是阔克吉勒嘎金矿所在的西昆仑造山带一部分"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "帕米尔高原萨雷阔勒岭",
+"attributes": {
+"name": "帕米尔高原萨雷阔勒岭",
+"level": "山岭",
+"tectonic_setting": "位于帕米尔高原萨雷阔勒岭一带，为西昆仑—帕米尔结合部地区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "塔什库尔干-甜水海地块-铁列克契-黑尖山陆缘盆地",
+"attributes": {
+"name": "塔什库尔干-甜水海地块-铁列克契-黑尖山陆缘盆地",
+"level": "陆缘盆地构造单元",
+"tectonic_setting": "属西藏三江造山系羌塘弧盆系内的早古生代陆缘盆地构造单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "喀拉昆仑成矿带",
+"attributes": {
+"name": "喀拉昆仑成矿带",
+"level": "成矿带",
+"tectonic_setting": "喀拉昆仑地块/陆缘盆地Fe-Cu-Mo-Pb-Zn-Au-Sn-RM-Sb-白云母-石墨-宝玉石-石膏-石盐-芒硝-煤等多矿种组合成矿带"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Region",
+"name_zh": "塔什库尔干-甜水海地层小区",
+"attributes": {
+"name": "塔什库尔干-甜水海地层小区",
+"level": "地层小区",
+"tectonic_setting": "隶属于西藏-三江地层大区羌塘地层区喀喇昆仑地层分区"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "下志留统温泉沟群",
+"attributes": {
+"name": "下志留统温泉沟群",
+"age": "下志留统",
+"dominant_lithology": "陆缘碎屑岩建造及浊流沉积建造",
+"lithology_notes": "为浊流沉积建造，与造山型金矿床关系密切，是与阔克吉勒嘎金矿成矿关系最密切的地层"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "StratUnit",
+"name_zh": "中上志留统达坂沟群",
+"attributes": {
+"name": "中上志留统达坂沟群",
+"age": "中上志留统"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "StratUnit",
+"name_zh": "下上石炭统-二叠统恰提尔群",
+"attributes": {
+"name": "下上石炭统-二叠统恰提尔群",
+"age": "石炭纪-二叠纪"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "StratUnit",
+"name_zh": "上白垩统铁龙滩群",
+"attributes": {
+"name": "上白垩统铁龙滩群",
+"age": "上白垩统"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "StratUnit",
+"name_zh": "第四系",
+"attributes": {
+"name": "第四系",
+"age": "第四纪"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "HostRockUnit",
+"name_zh": "温泉沟群第一岩性段第二亚段硬绿泥绢云千枚岩围岩单元",
+"attributes": {
+"name": "下志留统温泉沟群第一岩性段第二亚段绿灰色硬绿泥（褐铁矿化、菱铁矿）绢云千枚岩围岩单元"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Structure",
+"name_zh": "阔克吉勒嘎矿区构造破碎带",
+"attributes": {
+"name": "阔克吉勒嘎矿区构造破碎带",
+"structure_type": "断裂破碎带及逆冲断层系统",
+"orientation": "断裂走向整体近北西-南东向，多为逆冲断层",
+"scale": "发育于矿区范围内，控制多个矿体和矿化体",
+"ore_control_role": "断裂破碎带及上、下盘岩石矿化蚀变强烈，矿带主要产于构造破碎带中，构造控矿特征明显"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化-黄铁矿化-绢云母化等综合蚀变带",
+"attributes": {
+"name": "褐铁矿化-黄铁矿化-绢云母化等综合蚀变带",
+"alteration_minerals": "菱铁矿化、黄铁矿化、褐铁矿化、绢云母化、高岭土化、绿泥石化、硅化、黄钾铁钒化等",
+"intensity": "断裂破碎带及上下盘岩石矿化蚀变强烈，蚀变带连续性好"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与毒砂、黄铁矿及石英等矿物共生，是金矿石中的主要含金矿物"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物及金砷矿床重要含砷矿物",
+"paragenesis": "与自然金、黄铁矿、黄铜矿等共生，是金砷矿床的重要载金矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与自然金、毒砂、黄铜矿等共生，在矿石中多呈粒状、浸染状产出"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "重要铜金属矿物",
+"paragenesis": "与毒砂、黄铁矿等硫化物矿物共生，局部与自然金伴生"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "次生铁矿物及重要蚀变矿物",
+"paragenesis": "常见于菱铁矿化、黄铁矿化带中，与黄铁矿、毒砂等交代或次生形成"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "孔雀石",
+"attributes": {
+"name": "孔雀石",
+"role_in_ore": "次生铜矿物",
+"paragenesis": "与黄铜矿、铜蓝、黝铜矿、斑铜矿、辉铜矿等铜矿物共生，反映铜的氧化次生富集"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "硬绿泥石",
+"attributes": {
+"name": "硬绿泥石",
+"role_in_ore": "主要脉石矿物及蚀变矿物",
+"paragenesis": "与绢云母、石英及硫化物矿物共生，是围岩和矿石中普遍的变质矿物"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "主要脉石及蚀变矿物",
+"paragenesis": "与硬绿泥石、石英、菱铁矿及多种金属硫化物共生，反映强烈绢云母化蚀变作用"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物及含金石英脉主要组成矿物",
+"paragenesis": "石英脉在温泉沟群第一岩性段中成群成带发育，充填多期构造裂隙，与金及多种金属矿物共生"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Fluid",
+"name_zh": "阔克吉勒嘎金矿成矿流体",
+"attributes": {
+"nature": "志留系陆缘碎屑岩建造在海西期发生区域变质及韧性变形时原岩脱水形成的变质含金流体",
+"source": "散布于较老地层及志留系地层中的金及硅在变质脱水作用形成的流体中被溶解，沿构造断裂向低压区运移的变质热液体系"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Geochem",
+"name_zh": "阔克吉勒嘎金矿矿石主要化学成分",
+"attributes": {
+"element": "SiO2、Al2O3、FeO等主量氧化物",
+"value_ppm": "SiO2含量59.46%~85.39%，平均70.75%；Al2O3含量4.84%~20.03%，平均13.30%；FeO含量1.20%~5.55%，平均2.56%，其他组分含量普遍较低",
+"anomaly_pattern": "矿体赋存岩性主要为高SiO2的硅酸盐岩，P2O5含量低，反映围岩以硅质陆源碎屑岩为主"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿处于西昆仑山西段腹地"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿位于帕米尔高原萨雷阔勒岭一带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿位于塔什库尔干-甜水海地块-铁列克契-黑尖山陆缘盆地构造单元中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "隶属于",
+"description": "阔克吉勒嘎金矿隶属喀拉昆仑Fe-Cu-Mo-Pb-Zn-Au-Sn等多矿种成矿带"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "隶属于",
+"description": "阔克吉勒嘎金矿所在工区地层划分属塔什库尔干-甜水海地层小区"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "赋存于",
+"description": "阔克吉勒嘎金矿矿体赋存于下志留统温泉沟群第一岩性段第二亚段绿灰色硬绿泥（褐铁矿化、菱铁矿）绢云千枚岩围岩单元中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E7",
+"relation_label_zh": "属于",
+"description": "温泉沟群第一岩性段第二亚段硬绿泥绢云千枚岩围岩单元属于下志留统温泉沟群地层"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "受…控制",
+"description": "阔克吉勒嘎金矿矿带主要产于构造破碎带中，矿体产状和形态严格受容矿断裂构造控制"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "伴随有",
+"description": "阔克吉勒嘎金矿在断裂破碎带及上下盘岩石中伴随菱铁矿化、黄铁矿化、褐铁矿化、绢云母化、绿泥石化、硅化等强烈矿化蚀变"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要金矿物为",
+"description": "依据岩矿鉴定结果，阔克吉勒嘎金矿矿石中可见自然金，为主要金矿物"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿金属矿物以毒砂为主之一，是金砷矿床的重要含砷矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿矿石矿物中黄铁矿丰富，与自然金及其他硫化物矿物共生"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿矿石矿物中黄铜矿较为常见，为重要铜矿物"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿矿石及围岩中常见褐铁矿化，是重要次生铁矿物"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物中可见孔雀石等次生铜矿物，反映铜的氧化淋滤与再沉淀"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "脉石矿物包括",
+"description": "阔克吉勒嘎金矿脉石矿物以硬绿泥石为主之一，广泛分布于矿体及围岩中"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "脉石矿物包括",
+"description": "阔克吉勒嘎金矿矿石中绢云母丰富，是重要的脉石及蚀变矿物"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "脉石矿物包括",
+"description": "阔克吉勒嘎金矿区石英脉发育，充填多期断裂裂隙，是目前该地区发现金矿物的主要载体"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "对应成矿流体为",
+"description": "阔克吉勒嘎金矿成矿流体为志留系陆缘碎屑岩在海西期区域变质及韧性变形过程中脱水形成的变质含金流体，沿构造断裂向低压区运移并沉淀成矿"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "显示",
+"description": "阔克吉勒嘎金矿矿石化学成分以SiO2为主，含量59.46%~85.39%，平均70.75%，Al2O3和FeO含量次之，反映矿体赋存岩性主要为硅酸盐岩，P2O5含量低"
+}
+]
+}

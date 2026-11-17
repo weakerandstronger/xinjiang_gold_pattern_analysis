@@ -1,0 +1,226 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0243",
+"title": "新疆康古尔金矿成矿阶段及其年代学_张连昌",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "康古尔金矿床",
+"attributes": {
+"name": "康古尔金矿床",
+"location": "新疆康古尔地区（塔里木板块东北部）",
+"tectonic_position": "塔里木板块东北部晚古生代阿齐山—雅满苏岛弧带北缘",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受秋格明塔什—黄山大型韧性剪切带次级韧脆性断裂控制，矿体北倾、倾角70°～75°；从矿体中心到围岩具构造—蚀变—矿化分带",
+"age_ma": "290～254Ma（热液成矿作用四阶段：Ⅰ～Ⅳ）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿齐山—雅满苏岛弧带",
+"attributes": {
+"name": "阿齐山—雅满苏岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "晚古生代岛弧带（塔里木板块东北缘）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统阿齐山组",
+"attributes": {
+"name": "下石炭统阿齐山组",
+"age": "下石炭统",
+"dominant_lithology": "安山岩、英安岩、凝灰岩",
+"lithology_notes": "为康古尔金矿床容矿围岩；伴生石英斑岩、石英正长斑岩等次火山岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "阿齐山组火山岩围岩",
+"attributes": {
+"name": "阿齐山组火山岩（安山岩、英安岩、凝灰岩等）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "秋格明塔什—黄山大型韧性剪切带次级韧脆性断裂",
+"attributes": {
+"name": "秋格明塔什—黄山大型韧性剪切带次级韧脆性断裂",
+"structure_type": "韧性剪切带及次级韧脆性断裂",
+"orientation": "矿体与剪切断裂产状一致，北倾，倾角70°～75°",
+"scale": "大型",
+"ore_control_role": "控制矿体产状与矿化蚀变带展布，并控制成矿阶段演化"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化",
+"attributes": {
+"name": "黄铁绢英岩化",
+"alteration_minerals": "黄铁矿、绢云母、石英",
+"intensity": "主要围岩蚀变，分布于矿体顶底板，含金品位较低"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化—绿泥石化—绢云母化—黄铁矿化",
+"attributes": {
+"name": "硅化—绿泥石化—绢云母化—黄铁矿化",
+"alteration_minerals": "石英、绿泥石、绢云母、黄铁矿",
+"intensity": "围岩蚀变发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "Ⅰ阶段磁铁绿泥蚀变岩中与磁铁矿、绿泥石、黄铁矿、石英共生；Ⅱ阶段在黄铁矿石英脉中呈包体或粒间赋存；Ⅲ阶段与多金属硫化物共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物",
+"paragenesis": "Ⅰ阶段浸染状、条带状；Ⅱ阶段形成含金黄铁矿石英脉；Ⅲ阶段与黄铜矿、方铅矿、闪锌矿等共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "Ⅰ阶段主要金属矿物",
+"paragenesis": "Ⅰ阶段与自然金、绿泥石、黄铁矿、石英共生，呈微细脉状沿千糜岩面理充填交代"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "铷-锶等时线年龄（Ⅰ阶段石英流体包裹体）",
+"attributes": {
+"system": "铷-锶同位素",
+"parameter_name": "Ⅰ阶段石英流体包裹体等时线年龄及(87Sr/86Sr)初始值",
+"value_range": "282.34±5Ma；(87Sr/86Sr)初始值0.7077"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "钐-钕等时线年龄（Ⅰ阶段磁铁矿-黄铁矿）",
+"attributes": {
+"system": "钐-钕同位素",
+"parameter_name": "Ⅰ阶段磁铁矿-黄铁矿等时线年龄及(143Nd/144Nd)初始值",
+"value_range": "290.4±7.2Ma；(143Nd/144Nd)初始值0.512219"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "铷-锶等时线年龄（Ⅲ阶段石英）",
+"attributes": {
+"system": "铷-锶同位素",
+"parameter_name": "Ⅲ阶段多金属硫化物石英脉阶段石英等时线年龄及(87Sr/86Sr)初始值",
+"value_range": "258±21Ma；(87Sr/86Sr)初始值0.7106"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "铷-锶等时线年龄（Ⅳ阶段石英）",
+"attributes": {
+"system": "铷-锶同位素",
+"parameter_name": "Ⅳ阶段碳酸盐石英脉阶段石英等时线年龄及(87Sr/86Sr)初始值",
+"value_range": "254±7Ma；(87Sr/86Sr)初始值0.7101"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "康古尔金矿床位于塔里木板块东北部晚古生代阿齐山—雅满苏岛弧带北缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "康古尔金矿床容矿围岩为阿齐山组火山岩（安山岩、英安岩、凝灰岩等）"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "阿齐山组火山岩围岩属于下石炭统阿齐山组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床受秋格明塔什—黄山大型韧性剪切带的次级韧脆性断裂控制，矿体北倾，倾角70°～75°"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "伴随有",
+"description": "矿体顶底板分布黄铁绢英岩化等围岩蚀变，矿物组合为黄铁矿—绢云母—石英"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "康古尔金矿床围岩蚀变发育，主要有硅化、绿泥石化、绢云母化、黄铁矿化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "康古尔金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床矿石中常见黄铁矿，为主要金属硫化物矿物之一"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床矿石中常见磁铁矿，主要出现在Ⅰ阶段磁铁绿泥蚀变岩中"
+}
+]
+}

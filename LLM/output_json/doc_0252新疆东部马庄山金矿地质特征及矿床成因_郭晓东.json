@@ -1,0 +1,265 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0252",
+"title": "新疆东部马庄山金矿地质特征及矿床成因_郭晓东",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "马庄山金矿床",
+"attributes": {
+"name": "马庄山金矿床",
+"location": "新疆东部马庄山地区（星星峡—明水复背斜南翼马庄山单斜构造中，破城山—坡子泉区域性大断裂南侧穿过）",
+"tectonic_position": "天山—内蒙褶皱系北山褶皱带中部（星星峡—明水复背斜南翼马庄山单斜构造内）",
+"deposit_type": "造山型金矿床",
+"resource_tonnage": "中型金矿床",
+"ore_control_features": "矿床在空间和成因上受控于次火山侵入岩体；近EW向断裂为主要导矿和容矿构造；成矿物质在主要容矿构造310°～130°追踪张裂隙中沉淀富集，构造复合部位为矿体膨大部位",
+"age_ma": "（301±21）Ma、（303±26）Ma、（298±28）Ma（Rb-Sr等时线年龄，海西运动中期）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "北山褶皱带",
+"attributes": {
+"name": "北山褶皱带",
+"level": "褶皱带",
+"tectonic_setting": "天山—内蒙褶皱系北山褶皱带中部"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统白山组",
+"attributes": {
+"name": "下石炭统白山组",
+"age": "早石炭世",
+"dominant_lithology": "浅海—滨海相火山碎屑沉积岩、火山碎屑岩和碳酸盐岩建造",
+"lithology_notes": "可分下、中、上3个岩组；中岩组以安山岩、英安质角砾凝灰岩、英安质熔岩、流纹质凝灰岩及凝灰熔岩、流纹岩和绢云板岩为主，是矿床主要赋矿岩石"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英斑岩体",
+"attributes": {
+"name": "石英斑岩体",
+"rock_type": "石英斑岩（次火山岩）",
+"age": "（309±26）Ma（同位素模式年龄，海西中期）",
+"relationship_to_ore": "与金矿成矿关系密切，在空间和成因上控制矿床；次火山岩中金含量显著偏高，被认为是金矿的成矿母岩之一"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "白山组中酸性火山碎屑岩（主要赋矿岩石）",
+"attributes": {
+"name": "白山组中酸性火山碎屑岩（主要赋矿岩石）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "近EW向断裂",
+"attributes": {
+"name": "近EW向断裂",
+"structure_type": "剪张性断裂",
+"orientation": "走向近EW，多向北倾，倾角65°～85°",
+"scale": "矿区级",
+"ore_control_role": "规模大、形成早、活动时间长，构成构造格架；为主要导矿和容矿构造，控制多条矿体产出"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "310°～130°追踪张裂隙",
+"attributes": {
+"name": "310°～130°追踪张裂隙",
+"structure_type": "张裂隙",
+"orientation": "NWW—SEE向（310°～130°）",
+"scale": "矿区级",
+"ore_control_role": "主要容矿构造，对矿体控制作用最为重要；在断裂及节理裂隙发育处、构造复合部位易形成矿体膨大与富集"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "次生石英岩化-硅化-黄铁矿化",
+"attributes": {
+"name": "次生石英岩化-硅化-黄铁矿化",
+"alteration_minerals": "石英、黄铁矿、方解石、绢云母、叶腊石",
+"intensity": "次生石英岩化最重要且与金矿化关系最密切，叠加硅化的地段金矿化更强"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与金银矿共同构成主要金矿物组合，次为自然金和自然银；多嵌布于石英集合体、黄铁矿边缘或其他硫化物晶隙及微裂隙中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "含Au次生石英岩型矿石中常见，与磁黄铁矿、黄铜矿、闪锌矿、方铅矿、毒砂等共生；亦可在含Au蚀变交代岩型矿石中占优势"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "马庄山金矿成矿流体",
+"attributes": {
+"nature": "H2O为主并含CO2、CO、CH4等气体的低盐度热液",
+"source": "成矿流体可能为变质水与岩浆水的混合产物，主要介质推测为岩浆水",
+"temperature_C_min": "130",
+"temperature_C_max": "500",
+"salinity_wtNaCl_min": "4.8",
+"salinity_wtNaCl_max": "21.2"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "最高6.64‰，最低-1.47‰，平均2.84‰；另有4.40‰～6.64‰（平均5.50‰）"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O、δD",
+"value_range": "δ18O=8.22‰～10.47‰；矿石中石英δ18O=6.63‰～15.67‰；矿脉石英包裹体δD=-95.4‰、-93.0‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "次火山岩金含量数据",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "次火山岩平均10.5×10^-9",
+"anomaly_pattern": "次流纹岩61×10^-9、次石英斑岩126.4×10^-9；矿体顶底板围岩及硅化岩石Au多大于100×10^-9，一般为300×10^-9～400×10^-9"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "马庄山金矿位于天山—内蒙褶皱系北山褶皱带中部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "马庄山金矿产于下石炭统白山组的浅海—滨海相火山碎屑沉积岩、火山碎屑岩和碳酸盐岩建造中，其中中岩组为主要赋矿岩石"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "主要赋矿围岩“白山组中酸性火山碎屑岩”属于下石炭统白山组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "矿区规模最大的次火山岩石英斑岩体侵入白山组火山岩地层（如流纹质熔岩）并可使其角岩化"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "近EW向断裂构成矿区构造格架，是马庄山金矿的主要导矿和容矿构造，控制多条矿体产出"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "马庄山金矿成矿物质在310°～130°追踪张裂隙中沉淀富集，该组裂隙对矿体控制作用最为重要"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩蚀变以次生石英岩化、硅化、碳酸盐化和黄铁矿化为主，其中次生石英岩化与金矿化关系最密切，硅化期为重要成矿期"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "马庄山金矿金矿物主要为银金矿和金银矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "马庄山金矿矿石中常见黄铁矿等硫化物矿物，与金矿化关系密切"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "马庄山金矿床对应成矿流体为低盐度热液体系，气相以H2O为主并含较高CO2，成矿温度主要在180～400℃"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S以正值为主且与地幔衍生花岗质岩石接近，表明成矿流体中的硫主要来自上地幔"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素在δ18O—δD相关图上落入变质水区域但靠近初始岩浆水范围，表明成矿流体可能为变质水与岩浆水的混合产物"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "次火山岩中Au平均含量显著高于两侧火山碎屑岩，且围岩硅化岩石Au多大于100×10^-9，指示金主要来源于次火山岩并发生富集"
+}
+]
+}

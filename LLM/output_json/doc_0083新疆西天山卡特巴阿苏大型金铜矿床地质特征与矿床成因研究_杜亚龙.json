@@ -1,0 +1,458 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0083",
+"title": "新疆西天山卡特巴阿苏大型金铜矿床地质特征与矿床成因研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "新疆西天山那拉提中天山构造带北缘",
+"tectonic_position": "中亚造山带西南部，卡拉库姆-塔里木板块与哈萨克斯坦-准噶尔板块之间的汇聚地带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受那拉提北缘断裂影响产生的次级断裂控制，F₅与F₆之间所夹持的构造破碎带为主要赋矿层位",
+"age_ma": "268.56±1.8 Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "那拉提中天山构造带",
+"attributes": {
+"name": "那拉提中天山构造带",
+"level": "构造带",
+"tectonic_setting": "位于中亚造山带西南部，古生代构造演化强烈"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "那拉提北缘断裂",
+"attributes": {
+"name": "那拉提北缘断裂",
+"structure_type": "断裂",
+"ore_control_role": "影响产生次级断裂并控制矿体赋存"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "次级断裂F₅",
+"attributes": {
+"name": "次级断裂F₅",
+"structure_type": "次级断裂",
+"ore_control_role": "与F₆之间夹持构造破碎带，为金铜矿体主要赋矿层位范围"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "次级断裂F₆",
+"attributes": {
+"name": "次级断裂F₆",
+"structure_type": "次级断裂",
+"ore_control_role": "与F₅之间夹持构造破碎带，为金铜矿体主要赋矿层位范围"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "F₅—F₆之间构造破碎带",
+"attributes": {
+"name": "F₅—F₆之间构造破碎带",
+"structure_type": "构造破碎带",
+"ore_control_role": "卡特巴阿苏金铜矿体的主要赋矿层位"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "二长花岗岩",
+"attributes": {
+"name": "二长花岗岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "花岗闪长岩",
+"attributes": {
+"name": "花岗闪长岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长（玢）岩",
+"attributes": {
+"name": "闪长（玢）岩"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "IntrusiveBody",
+"name_zh": "赋矿二长花岗岩",
+"attributes": {
+"name": "二长花岗岩",
+"rock_type": "二长花岗岩",
+"age": "358.2±2.7 Ma",
+"relationship_to_ore": "为主要赋矿岩石，但成矿物质并非来自该二长花岗岩"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "钾化",
+"attributes": {
+"name": "钾化",
+"intensity": "普遍发育"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "普遍发育"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "普遍发育"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "普遍发育"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"intensity": "普遍发育"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "金主要以裂隙金、晶间金和包裹金三种嵌布形式存在于载金矿物之中"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "含银自然金",
+"attributes": {
+"name": "含银自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与自然金共同出现，为矿石中金的主要存在形式之一"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "金主要以裂隙金、晶间金和包裹金形式存在于黄铁矿等载金矿物之中"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "次要载金矿物",
+"paragenesis": "与黄铁矿共生，为载金矿物之一"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Fluid",
+"name_zh": "含矿热液成矿流体",
+"attributes": {
+"nature": "中高温、中低盐度、富CO₂的深部流体",
+"source": "以岩浆水为主",
+"temperature_C_min": "270",
+"temperature_C_max": "390",
+"salinity_wtNaCl_min": "7",
+"salinity_wtNaCl_max": "16"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Isotope",
+"name_zh": "H-O同位素组成",
+"attributes": {
+"system": "H-O同位素",
+"parameter_name": "H-O同位素组成",
+"value_range": "以岩浆水为主"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ³⁴S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ³⁴S",
+"value_range": "5.8‰~11.0‰（平均8.7‰）"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Isotope",
+"name_zh": "铅同位素构造模式",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "铅同位素构造模式",
+"value_range": "投点主体上落入上地壳和造山带演化曲线附近，具有双重来源"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Geochem",
+"name_zh": "Rb富集特征",
+"attributes": {
+"element": "Rb",
+"anomaly_pattern": "富集Rb、Ba等大离子亲石元素"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Geochem",
+"name_zh": "Nb亏损特征",
+"attributes": {
+"element": "Nb",
+"anomaly_pattern": "亏损Nb、Ta、Ti等元素"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Geochem",
+"name_zh": "Eu负异常特征",
+"attributes": {
+"element": "Eu",
+"anomaly_pattern": "负Eu异常明显，与斜长石分离结晶作用密切相关"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于新疆西天山那拉提中天山构造带北缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "矿区断裂发育，受那拉提北缘断裂影响产生的次级断裂控制矿体赋存"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "次级断裂F₅与F₆之间夹持的构造破碎带为金铜矿体主要赋矿层位范围"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "次级断裂F₆与F₅之间夹持的构造破碎带为金铜矿体主要赋矿层位范围"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "F₅—F₆之间构造破碎带是卡特巴阿苏金铜矿体的主要赋矿层位"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要赋矿岩石为",
+"description": "卡特巴阿苏金铜矿床的主要赋矿岩石为二长花岗岩"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "其次为",
+"description": "卡特巴阿苏金铜矿床的赋矿岩石其次为花岗闪长岩"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "其次为",
+"description": "卡特巴阿苏金铜矿床的赋矿岩石其次为闪长（玢）岩"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "卡特巴阿苏金铜矿床岩石中普遍发育钾化等矿化蚀变"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "卡特巴阿苏金铜矿床岩石中普遍发育硅化等矿化蚀变"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "卡特巴阿苏金铜矿床岩石中普遍发育绿泥石化等矿化蚀变"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "卡特巴阿苏金铜矿床岩石中普遍发育绢云母化等矿化蚀变"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "卡特巴阿苏金铜矿床岩石中普遍发育碳酸盐化等矿化蚀变"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要金矿物为",
+"description": "卡特巴阿苏金铜矿床矿石中金主要以自然金形式存在"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要金矿物为",
+"description": "卡特巴阿苏金铜矿床矿石中金主要以含银自然金形式存在"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "卡特巴阿苏金铜矿床载金矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "卡特巴阿苏金铜矿床载金矿物次为黄铜矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "成矿流体为中高温（270~390℃）、中低盐度（7%~16%）、富CO₂的深部流体，H-O同位素组成以岩浆水为主"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E21",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "H-O同位素组成表明卡特巴阿苏成矿流体以岩浆水为主"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E22",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ³⁴S为5.8‰~11.0‰，推测硫源来自中酸性岩浆热液或地层"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E23",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素构造模式显示投点主体落入上地壳和造山带演化曲线附近，具有双重来源"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏赋矿岩体微量元素显示Rb、Ba等大离子亲石元素富集"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏赋矿岩体微量元素显示Nb、Ta、Ti等元素亏损"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏赋矿岩体稀土元素负Eu异常明显"
+}
+]
+}

@@ -1,0 +1,240 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0207",
+"title": "齐求3号金矿基本地质特征及找矿方向_杨贵宝",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床（3号）",
+"attributes": {
+"name": "齐求金矿床（3号）",
+"location": "新疆托里县哈图地区（准噶尔盆地西缘）",
+"tectonic_position": "新疆西准噶尔中亚成矿域的重要组成部分，处于扎依尔金成矿带内，位于北东走向安齐断裂构造带附近",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体形态以脉状为主（全区发现金矿体7条），总体受北东向区域性断裂构造控制；矿点位于哈图断裂构造带与安齐断裂构造带的夹持部位，矿区主要构造骨架由北东向（40°～60°）及东西向、北西向三组断裂组成，金多富集于断裂交汇处或断裂产状变缓处"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "扎依尔金成矿带",
+"attributes": {
+"name": "扎依尔金成矿带",
+"level": "成矿带",
+"tectonic_setting": "准噶尔盆地西缘西准噶尔地区，为中亚成矿域的重要组成部分"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "包古图组",
+"attributes": {
+"name": "包古图组",
+"age": "早石炭世",
+"dominant_lithology": "滨海—浅海相碎屑岩夹碳酸盐岩沉积建造",
+"lithology_notes": "主要岩性为硅质粉砂岩、砂岩、细砾岩、凝灰质砂砾岩及生物灰岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "太勒古拉组",
+"attributes": {
+"name": "太勒古拉组",
+"age": "早石炭世",
+"dominant_lithology": "杂色基性火山岩及其凝灰岩为主的火山喷发沉积建造",
+"lithology_notes": "主要岩性为凝灰岩、凝灰质砂岩、凝灰质粉砂岩等"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "火山岩—火山碎屑岩围岩（凝灰岩、凝灰质砂岩等）",
+"attributes": {
+"name": "火山岩—火山碎屑岩围岩（凝灰岩、凝灰质砂岩等）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "安齐断裂构造带",
+"attributes": {
+"name": "安齐断裂构造带",
+"structure_type": "断裂构造带",
+"orientation": "北东向（约40°～60°）",
+"scale": "区域性主干断裂构造带",
+"ore_control_role": "齐求3号金矿区主要位于其构造带范围内并受其控制，矿体总体受北东向区域性断裂控制，次级断裂及其交汇部位有利于金富集"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "哈图断裂构造带",
+"attributes": {
+"name": "哈图断裂构造带",
+"structure_type": "断裂构造带",
+"orientation": "北东向为主",
+"scale": "区域性大断裂构造带",
+"ore_control_role": "与安齐断裂构造带共同形成夹持部位并控制金矿点密集分布区，矿体常出现在其相关的次级构造体系中"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化-硅化-黄铁矿化-毒砂化-绿泥石化-绢云母化蚀变",
+"attributes": {
+"name": "碳酸盐化-硅化-黄铁矿化-毒砂化-绿泥石化-绢云母化蚀变",
+"alteration_minerals": "方解石、石英、黄铁矿、毒砂、绿泥石、绢云母（并可见高岭土、褐铁矿等）",
+"intensity": "蚀变作用较强烈，动力变质、热液变质及表生变质叠加出现；蚀变带多发育于断裂带两侧及有利构造部位，为热液运移通道并与金富集密切相关"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物之一",
+"paragenesis": "矿石中常见，与硅化、碳酸盐化等蚀变共生；金属矿物生成顺序中处于最早阶段"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "金属矿物生成顺序中位于黄铁矿之后，常与硫化物及石英脉/蚀变破碎带矿化共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "与金矿化相关的硫化物矿物",
+"paragenesis": "与黄铁矿化、硅化等蚀变共生，常作为围岩蚀变与找矿标志之一"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "齐求3号金矿成矿热液",
+"attributes": {
+"nature": "中低温热液",
+"source": "与区域构造活动形成的裂隙/破碎带有关，岩浆侵入活动伴随热液活动提供热源并促进金及硫化物富集迁移"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "金（Au）-砷（As）元素组合异常",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "以Au、As单元素异常及Au、As组合异常为主要找矿地球化学标志；含金石英脉可表现As-Sb-Au-Mo-Bi等原生晕元素组合异常"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "齐求3号金矿位于扎依尔金成矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "齐求3号金矿主要受北东走向安齐断裂构造带及其内部次级断裂构造控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "齐求3号金矿位于哈图断裂构造带与安齐断裂构造带夹持部位，矿体在该构造背景下易于形成与富集"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "齐求3号金矿矿体主要赋存于火山岩与火山碎屑岩（凝灰岩、凝灰质砂岩等）相关的破碎带与蚀变带中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "凝灰岩、凝灰质砂岩等火山碎屑岩围岩可归属于太勒古拉组地层岩性组合"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "矿区围岩地层组合亦可见包古图组碎屑岩夹碳酸盐岩建造出露"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "齐求3号金矿围岩蚀变以碳酸盐化、硅化、黄铁矿化、毒砂化、绿泥石化及绢云母化等为主，且与金富集密切相关"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求3号金矿金属矿物中常见黄铁矿，且位于金属矿物生成序列的早期阶段"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "齐求3号金矿主要金矿物为自然金，生成顺序位于黄铁矿之后"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求3号金矿热液蚀变常伴随毒砂化，毒砂为与金矿化相关的重要硫化物矿物之一"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "齐求3号金矿为中低温热液矿床，成矿热液沿断裂裂隙与破碎带运移并促成金及硫化物富集成矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "齐求3号金矿找矿地球化学标志以Au、As异常及其组合异常为主，含金石英脉可表现多元素原生晕异常"
+}
+]
+}

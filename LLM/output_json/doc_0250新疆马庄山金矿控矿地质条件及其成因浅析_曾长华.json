@@ -1,0 +1,276 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0250",
+"title": "新疆马庄山金矿控矿地质条件及其成因浅析_曾长华",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "马庄山金矿床",
+"attributes": {
+"name": "马庄山金矿床",
+"location": "新疆哈密市东约200km的马庄山地区",
+"tectonic_position": "东天山造山带东段延伸部位，马庄山－明水火山岩盆地南缘",
+"deposit_type": "造山型金矿床",
+"ore_grade": "金含量0.04×10^-6～258×10^-6",
+"resource_tonnage": "大型金矿床规模（已发现金矿脉20余条）",
+"ore_control_features": "两条北东向主干断裂F312、F313为导矿构造；次火山岩体内张性断裂及主干断裂派生的北西向张扭性断裂为主要容矿、控矿构造；矿脉多赋存于石英斑岩体及断裂带中",
+"age_ma": "华力西期（晚古生代）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "马庄山－明水火山岩盆地",
+"attributes": {
+"name": "马庄山－明水火山岩盆地",
+"level": "火山岩盆地",
+"tectonic_setting": "东天山造山带东段延伸部位"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "石炭系白山组",
+"attributes": {
+"name": "石炭系白山组",
+"age": "石炭纪",
+"dominant_lithology": "中－酸性火山碎屑岩（英安质凝灰岩、流纹质凝灰岩、火山角砾岩、安山质凝灰岩等）",
+"lithology_notes": "局部夹灰岩透镜体；岩石普遍含黄铁矿，火山角砾岩中含量较高，可达2%～5%；地层呈单斜构造，走向约50°，倾向南东，倾角30～70°"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "石英斑岩（次火山岩）",
+"attributes": {
+"name": "石英斑岩（次火山岩）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英斑岩体（次火山岩相）",
+"attributes": {
+"name": "石英斑岩体（次火山岩相）",
+"rock_type": "石英斑岩",
+"age": "华力西期",
+"relationship_to_ore": "为矿区主要赋矿围岩，且被认为是该矿区的重要矿源岩之一"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "F312断裂",
+"attributes": {
+"name": "F312断裂",
+"structure_type": "北东向主干断裂（顺层断裂）",
+"orientation": "走向65°，倾向155°，倾角30°",
+"scale": "矿区主干断裂",
+"ore_control_role": "导矿构造；其内部及与派生断裂连通部位与含金矿脉及金异常相关"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "F313断裂",
+"attributes": {
+"name": "F313断裂",
+"structure_type": "北东向主干断裂（顺层断裂）",
+"orientation": "走向62°，倾向152°，倾角32°",
+"scale": "矿区主干断裂",
+"ore_control_role": "导矿构造；其内部及与派生断裂连通部位与含金矿脉及金异常相关"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "次火山岩内张性断裂及派生张扭性断裂",
+"attributes": {
+"name": "次火山岩内张性断裂及派生张扭性断裂",
+"structure_type": "张性断裂与张扭性断裂",
+"orientation": "张性断裂多位于石英斑岩体内，近东西向为主，向北倾斜、倾角65°～85°；张扭性断裂多为北西向，走向300°～330°，倾向北东、倾角40°～65°",
+"scale": "矿区级",
+"ore_control_role": "主要容矿、控矿构造；控制石英脉型与破碎蚀变岩型矿体（矿脉）展布及富集部位"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化—绢云母化—黄铁绢英岩化—黄铁矿化",
+"attributes": {
+"name": "硅化—绢云母化—黄铁绢英岩化—黄铁矿化",
+"alteration_minerals": "石英、绢云母、黄铁矿",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "多为细粒－微细粒金，嵌布于石英集合体、黄铁矿及其他硫化物晶隙或微裂隙中，主要为裂隙金，其次为晶隙金和包裹金"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物（常为载金矿物之一）",
+"paragenesis": "与石英、绢云母等共生，主要形成于中温热液阶段；文中给出硫化物生成顺序以黄铁矿最早"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "马庄山金矿成矿流体",
+"attributes": {
+"nature": "中温为主的中低温含金热液；包裹体测温多在200～300℃，总体成矿温度范围约300～120℃；液相成分表现为F^-/Cl^-＜1、K^+/Na^+多＞1，pH约6.27～7.62",
+"source": "华力西期次火山活动及同熔岩浆侵入活动提供含金热液；矿石沉淀时有大量大气降水（并与海水）与适量岩浆水混合，混合作用促使矿石沉淀",
+"temperature_C_min": "120",
+"temperature_C_max": "300"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢－氧同位素参数",
+"attributes": {
+"system": "氢－氧同位素",
+"parameter_name": "δD、δ18O_H2O",
+"value_range": "δD=-123.5‰～-93.05‰；δ18O_H2O=-0.88‰～5.05‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（黄铁矿）",
+"value_range": "δ34S=+5.57‰～+6.42‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "金异常（构造地球化学找金试验）",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "1.0×10^-6（异常中心浓度值）",
+"anomaly_pattern": "在石英斑岩体中圈定甲类金异常区（Ⅰ－1、Ⅰ－2）及主要乙类金异常区，并与区内主要含金矿脉（如1、3、4、5、6、7、9号脉等）吻合；在F312与F313西段收敛部位亦圈定金异常区并发现含金矿脉"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "马庄山金矿床位于东天山造山带东段延伸部位的马庄山－明水火山岩盆地南缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "马庄山金矿床主要含金矿脉多分布在石英斑岩（次火山岩）体及其断裂构造中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "石英斑岩体在矿区北部侵入石炭系白山组火山碎屑岩（如流纹质凝灰岩等）中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "F312断裂为矿区北东向主干断裂之一，作为导矿构造控制含金热液运移并与金异常、矿脉发育有关"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "F313断裂为矿区北东向主干断裂之一，作为导矿构造控制含金热液运移并与金异常、矿脉发育有关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "次火山岩体内张性断裂及主干断裂派生的张扭性断裂为主要容矿、控矿构造，控制矿脉展布与富集部位"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "马庄山金矿床与硅化、绢云母化、黄铁绢英岩化及黄铁矿化等典型中温热液蚀变密切相关，并表现出以矿体为中心的带状分带"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "马庄山金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "马庄山金矿床共生硫化物矿物包括黄铁矿，并与石英等脉石矿物共生"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "马庄山金矿床对应成矿流体为华力西期次火山活动及同熔岩浆侵入活动提供的中低温含金热液，且沉淀时发生大气降水（并与海水）与岩浆水混合"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "氢－氧同位素显示成矿流体δD与δ18O_H2O贫化且变化范围较大，指示成矿过程中存在大气降水（并与海水）与岩浆水混合"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿硫同位素δ34S为正且变化范围小，指示硫同位素组成接近陨石硫特征并推断为陆壳混合来源的深部硫"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "马庄山金矿床在石英斑岩体及F312、F313等构造相关部位显示金异常分布特征，异常与主要含金矿脉具有对应关系"
+}
+]
+}

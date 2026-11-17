@@ -1,0 +1,216 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0198",
+"title": "阿尔泰赛都金矿床成矿流体初步研究_徐九华",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "赛都金矿床",
+"attributes": {
+"name": "赛都金矿床",
+"location": "新疆哈巴河县",
+"tectonic_position": "克兰弧后盆地西端",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受NW向玛尔卡库里巨型剪切构造带控制，主矿段位于玛尔卡库里剪切带及其派生的托库孜巴依剪切带分叉处；矿脉群与糜棱岩蚀变带分布一致"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "克兰弧后盆地西端",
+"attributes": {
+"name": "克兰弧后盆地西端",
+"level": "构造单元",
+"tectonic_setting": "弧后盆地"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中下泥盆统托克萨雷组",
+"attributes": {
+"name": "中下泥盆统托克萨雷组",
+"age": "中下泥盆世",
+"dominant_lithology": "沉积岩系，局部夹少量火山岩",
+"lithology_notes": "为本区主要容矿地层，已变形变质，由石英绢云千枚岩、变砂岩等组成"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "托克萨雷组变形变质沉积岩围岩（石英绢云千枚岩、变砂岩等）",
+"attributes": {
+"name": "托克萨雷组变形变质沉积岩围岩（石英绢云千枚岩、变砂岩等）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河斜长花岗岩体",
+"attributes": {
+"name": "哈巴河斜长花岗岩体",
+"rock_type": "斜长花岗岩",
+"age": "K-Ar年龄284.4～277.3Ma；Rb-Sr等时线年龄297±11Ma",
+"relationship_to_ore": "大面积侵入矿区并广泛出露"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里巨型剪切构造带",
+"attributes": {
+"name": "玛尔卡库里巨型剪切构造带",
+"structure_type": "剪切构造带",
+"orientation": "NW向",
+"scale": "长度100km以上",
+"ore_control_role": "控制赛都金矿田主矿段就位与矿体展布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "托库孜巴依剪切带",
+"attributes": {
+"name": "托库孜巴依剪切带",
+"structure_type": "剪切带",
+"orientation": "与玛尔卡库里剪切带一致的NW向",
+"scale": "玛尔卡库里剪切带的派生剪切带",
+"ore_control_role": "与玛尔卡库里剪切带分叉处控制主矿段位置"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化-硫化物化蚀变",
+"attributes": {
+"name": "硅化-硫化物化蚀变",
+"alteration_minerals": "石英、黄铁矿等硫化物",
+"intensity": "热液成矿早期为硅化阶段，主成矿阶段发育多金属硫化物阶段并出现烟灰色石英"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与石英脉型及蚀变岩型矿石相关"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "早期硅化阶段出现浸染状黄铁矿，并与后续石英阶段及硫化物阶段相关"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "热液成矿各阶段均发育石英（白色石英阶段、烟灰色石英阶段、晚期石英-方解石阶段）"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "赛都金矿床成矿流体",
+"attributes": {
+"nature": "以两相水溶液包裹体为主，伴生CO2-H2O包裹体及富N2或富CO2包裹体；挥发分以CO2、N2为主，未见CH4等烃类特征；流体演化由富CO2/N2等挥发分向晚期富水流体转变",
+"temperature_C_min": "101",
+"temperature_C_max": "408"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "赛都金矿床位于克兰弧后盆地西端"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "赛都金矿床主要容矿地层为托克萨雷组变形变质沉积岩围岩（石英绢云千枚岩、变砂岩等）"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "托克萨雷组变形变质沉积岩围岩属于中下泥盆统托克萨雷组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "赛都金矿床受NW向玛尔卡库里巨型剪切构造带控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "赛都金矿床主矿段位于托库孜巴依剪切带与玛尔卡库里剪切带分叉处并受其控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "赛都金矿床热液成矿过程发育硅化与硫化物化等蚀变，并形成不同石英阶段与硫化物阶段"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "赛都金矿床主要金属矿物包括自然金"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "赛都金矿床共生金属矿物包括黄铁矿等硫化物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "赛都金矿床脉石矿物以石英为主，并记录主成矿阶段流体包裹体特征"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "赛都金矿床主成矿阶段流体以水溶液包裹体为主，伴生CO2-H2O包裹体及富N2或富CO2包裹体，均一温度约101～408℃"
+}
+]
+}

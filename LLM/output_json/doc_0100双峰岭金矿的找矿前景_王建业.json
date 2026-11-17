@@ -1,0 +1,101 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0100",
+"title": "双峰岭金矿的找矿前景",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双峰岭金矿",
+"attributes": {
+"name": "双峰岭金矿",
+"location": "新疆和硕县南山",
+"ore_control_features": "区域地层中厚度较大的古老变质岩系为金的矿源层，断裂构造极其发育，为金矿形成提供空间并控制金矿体分布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "库鲁克塔格地区",
+"attributes": {
+"name": "库鲁克塔格地区",
+"level": "地区",
+"tectonic_setting": "东天山南部"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "东天山南部",
+"attributes": {
+"name": "东天山南部",
+"level": "区域",
+"tectonic_setting": "东天山南部"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "古老变质岩系",
+"attributes": {
+"name": "古老变质岩系",
+"dominant_lithology": "变质岩",
+"lithology_notes": "区域地层中含有厚度较大的古老变质岩系，为金的矿源层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "断裂构造",
+"attributes": {
+"name": "断裂构造",
+"structure_type": "断裂",
+"ore_control_role": "为金矿形成提供空间，并控制金矿体的分布"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Geochem",
+"name_zh": "金(Au)富集特征",
+"attributes": {
+"element": "金(Au)",
+"anomaly_pattern": "地球化学特征反映该区有金富集特征"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "双峰岭金矿位于库鲁克塔格地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "双峰岭金矿区域上属东天山南部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "断裂构造极其发育，为金矿形成提供空间，并控制着金矿体的分布"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "显示",
+"description": "地球化学特征反映该区有金富集特征"
+}
+]
+}

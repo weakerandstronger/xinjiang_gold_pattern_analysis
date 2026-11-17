@@ -1,0 +1,264 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0199",
+"title": "新疆鸽形山金矿床地质特征及成因探讨_陈刚",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "鸽形山金矿床",
+"attributes": {
+"name": "鸽形山金矿床",
+"location": "新疆东疆地区克孜勒塔格山系东段",
+"tectonic_position": "古亚洲成矿域（一级）—塔里木成矿省（二级）—塔里木板块北缘金、铜、铁、钛、锰、铜、镍、钼、铅、锌成矿带（三级）—艾尔宾山金、铜、锌、钼、铁矿带（四级）",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均品位1.93～15.32×10^-6",
+"ore_control_features": "区内主要控矿构造为伊尔托古什韧－脆性剪切带；矿体赋存于下石炭统甘草湖组第二岩性段第二层底部浅土黄色砂屑白云岩夹灰白色细晶白云岩及其邻近千糜岩化围岩中；金矿化蚀变带东西长约15千米、宽约20～40米，呈120°～300°方向展布；已发现6条金矿脉、大小工业矿体37个；单个矿体长度一般140～1006米、平均厚度1.25～4.30米，形态与产状受构造带控制明显",
+"age_ma": "293.9±3.7百万年（早二叠世或稍晚）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "艾尔宾山金、铜、锌、钼、铁矿带",
+"attributes": {
+"name": "艾尔宾山金、铜、锌、钼、铁矿带",
+"level": "矿带",
+"tectonic_setting": "南中天山晚古生代造山带挤压、碰撞、剪切回返背景下的褶皱—断裂—韧脆性剪切带紧密区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统甘草湖组第二岩性段",
+"attributes": {
+"name": "下石炭统甘草湖组第二岩性段",
+"age": "下石炭世",
+"dominant_lithology": "不纯白云岩夹薄层灰岩、石英砂岩等",
+"lithology_notes": "区内仅出露下石炭统甘草湖组地层，可细分为七个岩性组合分层；第二岩性段为主要含矿层位，发育糜棱岩化砂岩、砂质千糜岩、绢云千糜岩、糜棱岩化粉砂岩、砂屑白云岩夹细晶白云岩等岩性"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "甘草湖组第二岩性段第二层砂屑白云岩夹细晶白云岩及千糜岩化围岩",
+"attributes": {
+"name": "甘草湖组第二岩性段第二层砂屑白云岩夹细晶白云岩及千糜岩化围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "伊尔托古什韧－脆性剪切带",
+"attributes": {
+"name": "伊尔托古什韧－脆性剪切带",
+"structure_type": "韧－脆性剪切带",
+"orientation": "近东西向",
+"scale": "区域性剪切构造带（沿矿区中南部展布，东西两侧延出区外）",
+"ore_control_role": "区内主要控矿构造；矿化蚀变带与矿体赋存于其控制的剪切破碎带内，矿体形态、产状与规模受其控制明显"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化－黄铁矿化－绢云母化蚀变",
+"attributes": {
+"name": "硅化－黄铁矿化－绢云母化蚀变",
+"alteration_minerals": "石英、黄铁矿、绢云母（并可见碳酸盐矿物、绿泥石等）",
+"intensity": "近矿蚀变类型较多，常见硅化、黄铁矿化、碳酸盐化、绢云母化、绿泥石化及褪色等；其中硅化、黄铁矿化、绢云母化与金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "主要出现于热液成矿阶段的矿化石英脉和破碎蚀变岩型矿石中"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物",
+"paragenesis": "与石英、碳酸盐脉石矿物共生，常呈细脉浸染状、网脉状出现，与金矿化密切相关"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "少量共生金属矿物",
+"paragenesis": "主要见于含黄铜矿－黄铁矿石英脉型金矿石中，与黄铁矿、石英共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "鸽形山金矿床成矿流体",
+"attributes": {
+"nature": "二氧化碳—水—氯化钠体系，包裹体类型以水溶液包裹体、二氧化碳—水包裹体和富二氧化碳包裹体为主；流体表现为中高温、中低盐度、低密度特征",
+"source": "热液系统的水主要为岩浆水，可能参有区域变质水；大气降水对成矿贡献有限",
+"temperature_C_min": "150",
+"temperature_C_max": "390",
+"pressure_MPa_min": "29",
+"pressure_MPa_max": "111",
+"salinity_wtNaCl_min": "3",
+"salinity_wtNaCl_max": "13"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "鸽形山金矿氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "氢氧同位素参数",
+"value_range": "石英矿物氢氧同位素投点位于岩浆水与变质水区域及其附近，不向大气降水线方向偏移"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "鸽形山金矿硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "硫同位素参数",
+"value_range": "金属硫化物硫同位素显示非单一成因硫；早期以深源岩浆硫为主，随流体演化晚期地层硫不断混入，具过渡型硫特征"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "鸽形山金矿铅同位素参数",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "铅同位素比值参数",
+"value_range": "金属硫化物铅同位素样品落在上地壳与地幔混合的俯冲铅与造山带铅之间，指示壳幔混合并具有深源铅特征"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "金（Au）含量",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "1.93～15.32×10^-6",
+"anomaly_pattern": "蚀变岩型金矿石含金品位一般1.00～10.00×10^-6；含黄铜矿－黄铁矿石英脉型金矿石含金品位一般大于10×10^-6"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "鸽形山金矿床位于艾尔宾山金、铜、锌、钼、铁矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "鸽形山金矿床矿体主要赋存于甘草湖组第二岩性段第二层砂屑白云岩夹细晶白云岩及其千糜岩化围岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "甘草湖组第二岩性段第二层砂屑白云岩夹细晶白云岩及千糜岩化围岩属于下石炭统甘草湖组第二岩性段"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "鸽形山金矿床受伊尔托古什韧－脆性剪切带控制，矿化蚀变带与矿体沿剪切构造带赋存"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "鸽形山金矿床近矿蚀变以硅化、黄铁矿化、绢云母化等为主，并与金矿化密切相关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要金矿物为",
+"description": "鸽形山金矿床主要金矿物为自然金"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "鸽形山金矿床共生金属硫化物以黄铁矿为主"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "鸽形山金矿床局部发育含黄铜矿－黄铁矿石英脉型金矿石，黄铜矿与黄铁矿、石英共生"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "鸽形山金矿床对应的成矿流体为二氧化碳—水—氯化钠体系，中高温（150～390℃）、中低盐度（3～13%）"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素表明成矿热液系统的水主要为岩浆水，可能参有区域变质水，大气降水贡献有限"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素指示成矿流体携带的硫以深源岩浆硫为主并在晚期混入地层硫，表现为过渡型硫特征"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素显示样品位于壳幔混合区并具有深源铅特征，约束成矿流体与深部作用过程密切相关"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "鸽形山金矿床矿石金（Au）含量表现为平均品位1.93～15.32×10^-6，蚀变岩型与石英脉型矿石含金品位存在差异"
+}
+]
+}

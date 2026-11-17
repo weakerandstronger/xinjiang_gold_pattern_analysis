@@ -1,0 +1,630 @@
+你现在的任务是：根据我提供的两个 JSON 输入文件（schema.json 和 doc.json），从单篇地质文献中抽取“新疆金矿床知识图谱”相关的实体和关系，并输出一个符合指定结构的 output.json。
+
+⚠ 总要求（务必遵守）：
+1. 你最终的回答 **必须只包含一个 JSON 对象**，不要输出任何解释性文字、注释或额外内容。
+2. 输出 JSON 必须符合我在「三、输出 JSON 结构要求」中给出的结构。
+3. 所有实体名称、属性值、关系标签、关系描述，一律使用 **中文**。
+4. JSON 中不允许出现注释符（如 `//`、`#` 等），必须是合法 JSON。
+
+------------------------------------------------
+一、输入文件说明
+------------------------------------------------
+
+你将依次看到两个 JSON：
+
+1）schema.json —— 知识图谱框架约束 JSON（当前版本）
+
+其结构大致为：
+
+{
+  "schema_version": "0.1.0",
+  "description": "...",
+  "entity_schema": {
+    "Deposit": {
+      "cn_name": "矿床",
+      "description": "...",
+      "key_attributes": [
+        "name",
+        "location",
+        "deposit_type",
+        "ore_grade",
+        "resource_tonnage",
+        "ore_control_features"
+      ]
+    },
+    "Region": {
+      "cn_name": "区域",
+      "description": "...",
+      "key_attributes": [
+        "name",
+        "level",
+        "tectonic_setting"
+      ]
+    },
+    ...
+  },
+  "relation_schema": [
+    {
+      "id": "Deposit-Region",
+      "from_entity": "Deposit",
+      "to_entity": "Region",
+      "description": "矿床位于或隶属于某一区域（成矿带/矿集区等）。",
+      "relation_label_examples": ["位于", "隶属于"]
+    },
+    {
+      "id": "Deposit-Lithology",
+      "from_entity": "Deposit",
+      "to_entity": "Lithology",
+      "description": "矿床主要赋存或紧密相关的岩性。",
+      "relation_label_examples": ["主要赋存于", "与…密切相关"]
+    },
+    ...
+  ]
+}
+
+你的使用规则：
+
+- 只允许使用 `entity_schema` 中已有的实体类型（键名），例如：`Deposit`, `Region`, `StratUnit`, `HostRockUnit`, `Lithology`, `Structure`, `Alteration`, `Mineral`, `Fluid`, `Isotope`, `Geophysics`, `Geochem`, ...
+- 每类实体的属性键（attributes 的 key）必须是该实体类型对应的 `key_attributes` 子数组中的某一项。
+- 只允许使用 `relation_schema[*].id` 中已有的关系类型，例如：`Deposit-Region`, `Deposit-Lithology`, `Deposit-Structure`, ...
+- 关系的两端实体类型必须分别等于 `from_entity` 和 `to_entity` 指定的实体类型。
+
+2）doc.json —— 单篇文献待处理文本 JSON（新版）
+
+其结构大致为：
+
+{
+  "doc_id": "DOC_XXXX",
+  "language": "zh_or_en",
+  "title": "文献标题",
+  "keywords": ["...", "..."],
+  "blocks": [
+    {
+      "block_id": "abstract",
+      "block_type": "abstract",
+      "section_title": "Abstract / 摘要",
+      "text": "这里是摘要全文..."
+    },
+    {
+      "block_id": "text1",
+      "block_type": "section",
+      "section_title": "Introduction / 地质背景",
+      "text": "这里是第一段长文本..."
+    },
+    ...
+  ]
+}
+
+你的使用规则：
+
+- 只能使用 `blocks[*].text` 中的内容进行抽取，不允许凭空编造实体或关系。
+- 可以综合多个 block 的信息来构建同一个实体或关系（例如摘要+地质背景+矿床地质特征）。
+
+------------------------------------------------
+二、抽取任务说明
+------------------------------------------------
+
+你需要输出一个 JSON，其中包含两大部分：
+
+1）`kg_instances` —— 严格符合 schema 的实体和关系，用于直接构图
+
+2）`schema_new` —— 本篇文献中新发现但当前 schema 中不存在的实体类型 / 属性 / 关系类型 / 关系属性建议，仅供人工后续更新 schema 时参考
+
+--------------------------------
+2.1 抽取实体（进入 kg_instances.entities）
+--------------------------------
+
+1. 在 doc.json 的所有 blocks[*].text 中，识别与新疆金矿床相关的实体，例如：
+   - 矿床（Deposit）
+   - 区域/成矿带（Region）
+   - 地层单元（StratUnit）
+   - 赋矿岩石单元（HostRockUnit）
+   - 岩性（Lithology）
+   - 构造（Structure）
+   - 蚀变（Alteration）
+   - 矿物（Mineral）
+   - 成矿流体（Fluid）
+   - 同位素参数（Isotope）
+   - 地球物理异常（Geophysics）
+   - 地球化学数据（Geochem）
+   等。
+
+2. 对于每个实体：
+   - 选择 `entity_type`：必须是 schema.json 的 `entity_schema` 中的某个键，比如 "Deposit"。
+   - 生成 `entity_local_id`：在本篇文献内部唯一，例如 "E1", "E2", "E3", ...
+   - 生成 `name_zh`：该实体的中文名称（如果原文是英文，需要翻译为合适的中文地学术语）。
+   - 生成 `attributes`：这是一个键值对对象，其中：
+     - 键（attribute key）必须是对应实体类型 `key_attributes` 里定义的英文键名，如 Deposit 的 "name", "location", "deposit_type", ...
+     - 值必须为中文描述，例如 `"location": "新疆东准噶尔地区"`。
+   - 不要使用 schema 中不存在的属性键；如需要新属性，放入后面 `schema_new.new_entity_attributes` 中，而不是直接加到 `kg_instances.entities[*].attributes`。
+
+3. 在单篇文献内部，尽量将同一个事物（如同一矿床）合并为一个实体，避免重复。
+
+--------------------------------
+2.2 抽取关系（进入 kg_instances.relations）
+--------------------------------
+
+1. 在 doc.json 的 blocks[*].text 中，识别实体之间的关系，限定为 schema.json 中 `relation_schema` 里列出的关系类型。
+
+2. 对于每条关系：
+   - `relation_type`：必须是 schema.json 中 `relation_schema[*].id` 的某个值，如 "Deposit-Region", "Deposit-Lithology"。
+   - `relation_local_id`：在本篇文献内部唯一，例如 "R1", "R2", "R3"。
+   - `from_entity_local_id` 和 `to_entity_local_id`：
+     - 必须引用 `kg_instances.entities` 中已有的 `entity_local_id`；
+     - 且对应实体的 `entity_type` 必须等于该关系类型在 schema.json 中定义的 `from_entity` 和 `to_entity`。
+   - `relation_label_zh`：该关系的中文表达，如 "位于"、"隶属于"、"主要赋存于"、"受…控制" 等。
+   - `description`：用中文简要描述该关系的具体含义，例如：
+     - `"卡拉麦里金矿床位于东准噶尔成矿带中部"`。
+
+3. 不要在 `kg_instances.relations` 中使用 schema.json 中不存在的关系类型或关系属性；如需要新关系类型或新属性，请放到 `schema_new` 中。
+
+--------------------------------
+2.3 发现 schema 外的新内容（进入 schema_new）
+--------------------------------
+
+如果在文献中遇到下列情况，请不要直接写入 `kg_instances`，而是记录在 `schema_new` 中，供人工后续更新 schema.json 使用：
+
+1. 新的实体类型建议（schema_new.new_entity_types）：
+   - 当文献中多次提到某种概念（例如“矿化分带”、“矿化阶段”等），而目前 `entity_schema` 中没有对应的实体类型时；
+   - 为其构造一个建议条目，包含：
+     - `suggested_type_id`：建议的英文类型 ID，例如 "MineralizationZone"；
+     - `cn_name`：中文名称；
+     - `description`：中文描述；
+     - `example_mentions`：文中体现这一概念的中文句子或短语（可以给 1~3 个代表性的例子）。
+
+2. 新的实体属性建议（schema_new.new_entity_attributes）：
+   - 当文献在某个实体类型上反复提到一个属性，而该属性不在该实体类型的 `key_attributes` 列表中时；
+   - 为其构造一个建议条目，包含：
+     - `entity_type`：已有的实体类型，例如 "Deposit"；
+     - `suggested_attr_id`：建议的属性英文键名，例如 "exploration_degree"；
+     - `cn_name`：属性中文名称，例如 "勘查程度"；
+     - `description`：中文描述；
+     - `example_values`：文中出现的该属性的一些典型中文取值。
+
+3. 新的关系类型建议（schema_new.new_relation_types）：
+   - 当文献描述了某种关系，而 `relation_schema` 中不存在对应的关系类型时；
+   - 为其构造一个建议条目，包含：
+     - `suggested_id`：建议的关系类型 ID，例如 "Deposit-Deposit"；
+     - `from_entity` 和 `to_entity`：建议连接的实体类型，例如 "Deposit" 到 "Deposit"；
+     - `cn_name`：中文名称；
+     - `description`：中文描述；
+     - `relation_label_examples`：文本中可能出现的中文关系表达；
+     - `example_mentions`：文中特定句子或片段作为例证。
+
+4. 新的关系属性建议（schema_new.new_relation_attributes）：
+   - 当某个已存在的关系类型，在文献中出现了新的、定量或定性的关系属性（但当前 schema 未定义）时；
+   - 为其构造一个建议条目，包含：
+     - `relation_type`：已有的关系类型 ID，例如 "Deposit-Region"；
+     - `suggested_attr_id`：建议的属性英文键名，如 "distance_to_boundary"；
+     - `cn_name`：中文名称，如 "距构造边界距离"；
+     - `description`：中文描述；
+     - `example_values`：文中的典型中文取值。
+
+------------------------------------------------
+三、输出 JSON 结构要求（必须严格遵守）
+------------------------------------------------
+
+你最终的回答必须是一个 JSON 对象，结构如下（这是模板，请用真实内容替换占位符）：
+
+{
+  "kg_instances": {
+    "schema_version": "0.1.0",
+    "doc_id": "DOC_XXXX",
+    "title": "填入文献标题（可为原文题目）",
+    "language": "zh_or_en",
+
+    "entities": [
+      {
+        "entity_local_id": "E1",
+        "entity_type": "Deposit",
+        "name_zh": "卡拉麦里金矿床",
+        "attributes": {
+          "name": "卡拉麦里金矿床",
+          "location": "新疆东准噶尔地区",
+          "deposit_type": "造山型金矿床",
+          "ore_grade": "3.5 g/t",
+          "resource_tonnage": "1500 万吨",
+          "ore_control_features": "受北东向断裂和矽卡岩带共同控制"
+        }
+      }
+      /* 更多实体 E2, E3, ... */
+    ],
+
+    "relations": [
+      {
+        "relation_local_id": "R1",
+        "relation_type": "Deposit-Region",
+        "from_entity_local_id": "E1",
+        "to_entity_local_id": "E2",
+        "relation_label_zh": "位于",
+        "description": "卡拉麦里金矿床位于东准噶尔成矿带中部"
+      }
+      /* 更多关系 R2, R3, ... */
+    ]
+  },
+
+  "schema_new": {
+    "new_entity_types": [
+      {
+        "suggested_type_id": "MineralizationZone",
+        "cn_name": "矿化分带",
+        "description": "描述矿床内部沿空间方向的矿化强度变化带，如上部强矿化带、下部弱矿化带等。",
+        "example_mentions": [
+          "矿体可分为上部强蚀变-强矿化带与下部弱蚀变带"
+        ]
+      }
+      /* 若无新实体类型建议，则为 [] */
+    ],
+
+    "new_entity_attributes": [
+      {
+        "entity_type": "Deposit",
+        "suggested_attr_id": "exploration_degree",
+        "cn_name": "勘查程度",
+        "description": "矿床当前的地质勘查程度，如普查、详查、勘探等。",
+        "example_values": [
+          "详查阶段"
+        ]
+      }
+      /* 若无新实体属性建议，则为 [] */
+    ],
+
+    "new_relation_types": [
+      {
+        "suggested_id": "Deposit-Deposit",
+        "from_entity": "Deposit",
+        "to_entity": "Deposit",
+        "cn_name": "矿床-矿床成因联系",
+        "description": "描述不同矿床之间在成因上具有共同的成矿系统或成矿事件。",
+        "relation_label_examples": [
+          "同属一个成矿系统"
+        ],
+        "example_mentions": [
+          "本区多个金矿床同属晚石炭世弧后伸展成矿事件"
+        ]
+      }
+      /* 若无新关系类型建议，则为 [] */
+    ],
+
+    "new_relation_attributes": [
+      {
+        "relation_type": "Deposit-Region",
+        "suggested_attr_id": "distance_to_boundary",
+        "cn_name": "距构造边界距离",
+        "description": "定量描述矿床距主要构造边界（如缝合带、断裂带）的距离。",
+        "example_values": [
+          "距缝合带约 5 km"
+        ]
+      }
+      /* 若无新关系属性建议，则为 [] */
+    ]
+  }
+}
+
+硬性约束：
+1. `kg_instances.schema_version` 必须等于 schema.json 中的 "schema_version"。
+2. `kg_instances.doc_id` 必须等于 doc.json 中的 "doc_id"。
+3. `entity_type` 必须来自 schema.json 的 entity_schema 键；其 attributes 的键必须来自对应类型的 key_attributes。
+4. `relation_type` 必须来自 schema.json 的 relation_schema[*].id；其两端实体类型必须分别匹配 from_entity 和 to_entity。
+5. 所有中文相关字段（name_zh、属性值、relation_label_zh、description、schema_new 中的 cn_name/description/example 等）必须为中文。
+6. 如果某一类“新内容”在本篇文献中没有，则对应数组应设为 []。
+
+------------------------------------------------
+四、实际输入
+------------------------------------------------
+
+【schema.json】
+{
+  "schema_version": "0.1.0",
+  "description": "新疆金矿床知识图谱框架约束。定义当前允许使用的实体类型及其关键属性，以及实体间关系类型。",
+
+  "entity_schema": {
+    "Deposit": {
+      "cn_name": "矿床",
+      "description": "新疆范围内的金矿床或以金为主的多金属矿床。",
+      "key_attributes": [
+        "name",
+        "location",
+        "deposit_type",
+        "ore_grade",
+        "resource_tonnage",
+        "ore_control_features"
+      ]
+    },
+
+    "Region": {
+      "cn_name": "区域",
+      "description": "构造单元、成矿带、矿集区、矿田等区域性地质单元。",
+      "key_attributes": [
+        "name",
+        "level",
+        "tectonic_setting"
+      ]
+    },
+
+    "StratUnit": {
+      "cn_name": "地层单元",
+      "description": "与矿床相关的地层单位（系、组、段等）。",
+      "key_attributes": [
+        "name",
+        "age",
+        "dominant_lithology"
+      ]
+    },
+
+    "HostRockUnit": {
+      "cn_name": "赋矿岩石单元",
+      "description": "直接赋存矿体的宿主岩石单元。",
+      "key_attributes": [
+        "name",
+        "lithology",
+        "stratigraphic_position"
+      ]
+    },
+
+    "Lithology": {
+      "cn_name": "岩性",
+      "description": "与矿化有关的岩性类型及岩石学特征。",
+      "key_attributes": [
+        "name",
+        "rock_type",
+        "composition",
+        "texture",
+        "age"
+      ]
+    },
+
+    "IntrusiveBody": {
+      "cn_name": "侵入岩体",
+      "description": "与成矿有关的侵入岩体、岩株、岩脉等。",
+      "key_attributes": [
+        "name",
+        "rock_type",
+        "age",
+        "relationship_to_ore"
+      ]
+    },
+
+    "Structure": {
+      "cn_name": "构造",
+      "description": "控制或影响成矿的断裂、剪切带、褶皱等构造要素。",
+      "key_attributes": [
+        "name",
+        "structure_type",
+        "orientation",
+        "scale",
+        "ore_control_role"
+      ]
+    },
+
+    "Alteration": {
+      "cn_name": "蚀变",
+      "description": "与金矿化密切相关的蚀变类型。",
+      "key_attributes": [
+        "name",
+        "alteration_minerals",
+        "intensity",
+        "spatial_pattern"
+      ]
+    },
+
+    "Mineral": {
+      "cn_name": "矿物",
+      "description": "金矿物、伴生矿物和主要脉石矿物。",
+      "key_attributes": [
+        "name",
+        "role_in_ore",
+        "paragenesis"
+      ]
+    },
+
+    "Fluid": {
+      "cn_name": "成矿流体",
+      "description": "通过流体包裹体研究获得的成矿流体特征。",
+      "key_attributes": [
+        "phase",
+        "Th_range",
+        "salinity_range",
+        "density_range",
+        "inclusion_types"
+      ]
+    },
+
+    "Isotope": {
+      "cn_name": "同位素参数",
+      "description": "约束成矿物质和流体来源的同位素体系及其参数。",
+      "key_attributes": [
+        "system",
+        "parameter_name",
+        "value_range",
+        "interpretation"
+      ]
+    },
+
+    "Geophysics": {
+      "cn_name": "地球物理异常",
+      "description": "与矿床相关的重力、磁法、电法等地球物理异常。",
+      "key_attributes": [
+        "anomaly_type",
+        "amplitude",
+        "spatial_pattern"
+      ]
+    },
+
+    "Geochem": {
+      "cn_name": "地球化学数据",
+      "description": "与矿床有关的元素地球化学异常或样品分析结果。",
+      "key_attributes": [
+        "element",
+        "concentration",
+        "anomaly_pattern"
+      ]
+    }
+  },
+
+  "relation_schema": [
+    {
+      "id": "Deposit-Region",
+      "from_entity": "Deposit",
+      "to_entity": "Region",
+      "description": "矿床位于或隶属于某一区域（成矿带/矿集区等）。",
+      "relation_label_examples": [
+        "位于",
+        "隶属于"
+      ]
+    },
+    {
+      "id": "Deposit-Lithology",
+      "from_entity": "Deposit",
+      "to_entity": "Lithology",
+      "description": "矿床主要赋存或紧密相关的岩性。",
+      "relation_label_examples": [
+        "主要赋存于",
+        "与…密切相关"
+      ]
+    },
+    {
+      "id": "Deposit-Structure",
+      "from_entity": "Deposit",
+      "to_entity": "Structure",
+      "description": "矿床（矿体）与断裂、剪切带等构造之间的控矿关系。",
+      "relation_label_examples": [
+        "受…控制",
+        "沿…展布",
+        "赋存于…破碎带中"
+      ]
+    },
+    {
+      "id": "Deposit-HostRockUnit",
+      "from_entity": "Deposit",
+      "to_entity": "HostRockUnit",
+      "description": "矿床与其直接赋存的宿主岩石单元之间的关系。",
+      "relation_label_examples": [
+        "赋存于",
+        "主要宿主岩为"
+      ]
+    },
+    {
+      "id": "HostRockUnit-StratUnit",
+      "from_entity": "HostRockUnit",
+      "to_entity": "StratUnit",
+      "description": "宿主岩石单元在地层上的归属关系。",
+      "relation_label_examples": [
+        "属于",
+        "夹于"
+      ]
+    },
+    {
+      "id": "Deposit-Alteration",
+      "from_entity": "Deposit",
+      "to_entity": "Alteration",
+      "description": "矿床与典型蚀变组合之间的共生关系。",
+      "relation_label_examples": [
+        "伴随有",
+        "主要蚀变为"
+      ]
+    },
+    {
+      "id": "Deposit-Mineral",
+      "from_entity": "Deposit",
+      "to_entity": "Mineral",
+      "description": "矿床中的主要金矿物及共生矿物。",
+      "relation_label_examples": [
+        "主要金矿物为",
+        "共生矿物包括"
+      ]
+    },
+    {
+      "id": "Deposit-Fluid",
+      "from_entity": "Deposit",
+      "to_entity": "Fluid",
+      "description": "矿床对应的成矿流体包裹体特征。",
+      "relation_label_examples": [
+        "对应成矿流体为",
+        "主成矿阶段流体特征为"
+      ]
+    },
+    {
+      "id": "Deposit-Geophysics",
+      "from_entity": "Deposit",
+      "to_entity": "Geophysics",
+      "description": "矿床与重磁电等地球物理异常之间的响应关系。",
+      "relation_label_examples": [
+        "对应高磁异常",
+        "对应低电阻率异常"
+      ]
+    },
+    {
+      "id": "Deposit-Geochem",
+      "from_entity": "Deposit",
+      "to_entity": "Geochem",
+      "description": "矿床与元素地球化学异常之间的关系。",
+      "relation_label_examples": [
+        "对应元素地球化学异常",
+        "外围土壤地球化学异常"
+      ]
+    },
+    {
+      "id": "Isotope-Fluid",
+      "from_entity": "Isotope",
+      "to_entity": "Fluid",
+      "description": "同位素参数与具体成矿流体/包裹体样品之间的对应关系。",
+      "relation_label_examples": [
+        "测自该流体包裹体",
+        "约束该流体来源"
+      ]
+    },
+    {
+      "id": "IntrusiveBody-StratUnit",
+      "from_entity": "IntrusiveBody",
+      "to_entity": "StratUnit",
+      "description": "侵入岩体与地层单元之间的侵入接触关系。",
+      "relation_label_examples": [
+        "侵入于",
+        "切穿",
+        "底侵于"
+      ]
+    }
+  ]
+}
+
+
+【doc.json】
+{
+  "doc_id": "r0001",
+  "language": "zh",
+
+  "title": "新疆西南天山萨瓦亚尔顿金矿床地质特征及成矿作用",
+
+  "keywords": [
+    "地质学",
+    "成矿作用",
+    "含碳岩系",
+    "脆-韧性剪切带",
+    "萨瓦亚尔顿",
+    "新疆"
+  ],
+
+  "blocks": [
+    {
+      "block_id": "abstract",
+      "block_type": "abstract",
+      "section_title": "摘要",
+      "text": "根据大量的实际工作,并结合前人的研究成果,详细介绍了萨瓦亚尔顿金矿床的成矿地质背景和矿床地质特征,通过流体包裹体和同位素研究,对萨瓦亚尔顿金矿的成矿作用进行了深入讨论。研究结果表明,流体包裹体类型主要为气液两相包裹体,其次为富液相包裹体、富气相包裹体、含 NaCl 子晶多相包裹体和含液相 CO2 的三相包裹体。成矿流体为中低温(78～355℃)、中低盐度〔w （NaCleq）2．57％～22．10％〕的 H2O-NaC-l CO2-CH4 体系。硫化物的δ34S 值变化于－3．0‰～＋2．61‰,平均值为0.07‰,暗示硫来自地幔或与地幔相关的岩浆。白云石和菱铁矿的δ13CPDB值为－5．4‰～－0．6‰,表明成矿物质来自地幔及海相碳酸盐岩。氢和氧同位素显示成矿流体主要来源于大气降水,并混合少量岩浆水。萨瓦亚尔顿金矿与乌兹别克斯坦穆龙套金矿和吉尔吉斯斯坦库姆托尔金矿具有相似性但它在浅成中-低温条件下成矿且金、锑共生。物理化学条件和流体成分的改变、水-岩交换作用及流体的不混溶作用在成矿过程中起了重要作用。"
+    },
+    {
+      "block_id": "text1",
+      "block_type": "section",
+      "section_title": "地质背景",
+      "text": "萨瓦亚尔顿金矿位于新疆乌恰县中国 与吉尔吉斯斯坦边境，与吉尔吉斯斯坦同名金矿相 连。该矿床是新疆地质矿产勘探开发局第二地质大队于1993年发现的中国首例穆龙套型金矿床（李新生等，1997），1994～1999年进行过普查工作，并探明 金储量约37t，是目前中国南天山造山带上最大的 金矿床。萨瓦亚尔顿金矿床位于新疆乌恰县东阿赖山北 部，乌鲁克恰提 NNW 向28km 处其所处的大地构 造位置属于中国西南天山造山带西端，位于伊犁-伊塞克湖微板块与塔里木北缘活动带的交接部位（贺 卫东，2000），以萨瓦亚尔顿－吉根超岩石圈大断裂为界，矿区西部属伊犁－伊塞克湖微板块东部为塔里木北缘活动带的晚古生代陆缘盆地。"
+    },
+    {
+      "block_id": "text2",
+      "block_type": "section",
+      "section_title": "矿床地质特征",
+      "text": "矿区出露地层有上志留统、下泥盆统、中泥盆统和上石炭统，之间呈断层接触，其中，上志留统下泥盆统为赋矿地层。上志留统塔尔特库里组由 一套浅变质含碳碎屑岩组成。容矿岩系为含碳浊积岩广泛发育韵律层理、粒序层理、水平层理、包卷层理、沙纹层理和鲍马层序。区域断裂和褶皱构造发育构造线总体方向为 NNE 向延伸数十至数百公里。萨瓦亚尔顿-吉根大型剪切带为南天山造山带与塔里木板块西北缘的分界断裂（赵仁夫等2002）也是区域内重要的控矿构 造。该脆-韧性剪切带，呈 NNE 向展布，倾向 NNW-NW，倾角50～85°，与地层斜交。岩浆活动微弱，未见大的侵入岩体，仅在矿区及外围地层、沿断裂带有少量基性熔岩、辉绿岩脉、超基性岩透镜体和二长斑岩脉（锆石 U-Pb 年龄为 133.7～131.0Ma，陈富文等，2003）分布。矿化蚀变带集中分布于南北长5km、东西宽4 km 的范围内，共发现24条，主要分布在上志留统塔尔特库里组和下泥盆统萨瓦亚尔 顿组容矿岩系为含碳千枚岩、变质砂岩和变质粉砂 岩。矿石分为原生矿石和氧化矿石。根据矿物组合和产状将原生矿石划分为含金石英细脉-网脉型、含金蚀变碳质千枚岩型和含金硅化粉砂岩型进一步 划分为5种自然类型：①金-毒砂-黄铁矿-石英矿石； ②金-黄铁矿-脆硫锑铅矿-（辉锑矿）-石英矿石；③金- 脆硫锑铅矿-（辉锑矿）矿石；④金-石英-菱铁矿矿石； ⑤ 金-黄 铁 矿-磁 黄 铁 矿-石 英 矿 石 （刘 家 军 等，2002b）矿石主要结构有自形-半自形粒状、他形粒状结构、固溶体分解结构、交代结构、包含结构、碎裂结构 等。矿石构造主要有浸染状、细脉-网脉状、条带状、块状、角砾状和揉皱构造。矿石中矿物多达40余种，金属矿物以黄铁矿、毒砂、脆硫锑铅矿、黄铜矿、辉锑矿为主，磁黄铁矿、银金矿、方铅矿、闪锌矿等次之。非金属矿物主要为石英、方解石、菱铁矿、绢云母等，还见碳质。"
+    }
+  ]
+} 
+
+请根据以上 schema.json 和 doc.json，直接输出一个满足「三、输出 JSON 结构要求」的 JSON 对象。请根据以上 schema.json 和 doc.json，直接输出一个满足「三、输出 JSON 结构要求」的 JSON 对象。

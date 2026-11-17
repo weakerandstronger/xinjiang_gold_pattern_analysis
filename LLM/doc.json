@@ -1,0 +1,44 @@
+{
+  "doc_id": "DOC_XXXX",
+  "language": "zh_or_en",
+
+  "title": "FILL_TITLE",
+
+  "keywords": [
+    "FILL_KEYWORD_1",
+    "FILL_KEYWORD_2"
+  ],
+
+  "blocks": [
+    {
+      "block_id": "abstract",
+      "block_type": "abstract",
+      "section_title": "Abstract / 摘要",
+      "text": "在这里粘贴该文的摘要全文（中文或英文），后续需要从中抽取实体和关系。"
+    },
+    {
+      "block_id": "text1",
+      "block_type": "section",
+      "section_title": "Introduction / 地质背景",
+      "text": "在这里粘贴第一段需要抽取的长文本，例如区域地质与构造背景部分。"
+    },
+    {
+      "block_id": "text2",
+      "block_type": "section",
+      "section_title": "Ore deposit geology / 矿床地质特征",
+      "text": "在这里粘贴第二段长文本，例如矿体形态、矿石特征、围岩与控矿因素。"
+    },
+    {
+      "block_id": "text3",
+      "block_type": "section",
+      "section_title": "Fluid inclusions and isotopes / 成矿流体与同位素",
+      "text": "在这里粘贴第三段长文本，例如流体包裹体、稳定/放射性同位素结果。"
+    },
+    {
+      "block_id": "text4",
+      "block_type": "section",
+      "section_title": "Discussion / 成矿模式与找矿启示",
+      "text": "在这里粘贴与成矿模式、找矿预测相关的长文本。"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0116",
+"title": "阿合奇县阿沙哇义金矿床岩石破碎—蚀变特征与成矿关系研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿沙哇义金矿床",
+"attributes": {
+"name": "阿沙哇义金矿床",
+"location": "新疆柯尔克孜族自治州阿合奇县境内",
+"tectonic_position": "塔里木板块北缘活动带的南天山成矿带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床主要受区域大断裂的次级断裂控制，矿体发育在破碎带内，并以约10°交角与地层斜交产出",
+"age_ma": "华力西晚期"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "南天山成矿带",
+"attributes": {
+"name": "南天山成矿带",
+"level": "成矿带",
+"tectonic_setting": "塔里木板块北缘活动带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "上石炭系喀拉治尔加组下段",
+"attributes": {
+"name": "上石炭系喀拉治尔加组下段",
+"age": "上石炭系",
+"dominant_lithology": "变余砂岩、千枚岩",
+"lithology_notes": "变余砂岩和千枚岩岩层或互层"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "卡拉铁克大断裂",
+"attributes": {
+"name": "卡拉铁克大断裂",
+"structure_type": "区域大断裂",
+"orientation": "北东走向",
+"scale": "区域",
+"ore_control_role": "控制矿区构造格局并对成矿具有控制作用"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "次级断裂及断层破碎带",
+"attributes": {
+"name": "次级断裂及断层破碎带",
+"structure_type": "次级断裂带/断层破碎带",
+"orientation": "北东东向（NEE）",
+"scale": "次级",
+"ore_control_role": "直接控制矿体在破碎带内产出"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "喀拉治尔加组下段变余砂岩—千枚岩围岩（互层）",
+"attributes": {
+"name": "喀拉治尔加组下段变余砂岩—千枚岩围岩（互层）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "与Au矿化呈正相关且关系紧密"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "常见蚀变类型"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "常见蚀变类型"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿",
+"intensity": "常见蚀变类型"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "毒砂化",
+"attributes": {
+"name": "毒砂化",
+"alteration_minerals": "毒砂",
+"intensity": "常见蚀变类型"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "与Au矿化相关的硫化物矿物",
+"paragenesis": "石英—黄铁矿阶段"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "与Au矿化相关的硫化物矿物",
+"paragenesis": "多金属硫化物—石英阶段"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "成矿热液",
+"attributes": {
+"nature": "低温、低压、富CO₂的热液；流体包裹体包括水溶液型、富CO₂型、H₂O-CO₂型等",
+"source": "主要来自沉积建造水，并混入少量大气降水",
+"temperature_C_min": "170",
+"temperature_C_max": "340",
+"pressure_MPa_min": "3.9",
+"pressure_MPa_max": "11.9",
+"salinity_wtNaCl_min": "0",
+"salinity_wtNaCl_max": "10"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "氢同位素δD",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD",
+"value_range": "-81.3‰~-73.4‰"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O（石英）",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O（石英）",
+"value_range": "18.1‰~19.5‰"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O（水）",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O（水）",
+"value_range": "1.5‰~4.8‰"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "17.8‰~19.2‰"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geochem",
+"name_zh": "金（Au）异常",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "区域化探元素异常显示变余砂岩和千枚岩中Au丰度值高于区域平均值"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Geochem",
+"name_zh": "砷（As）异常",
+"attributes": {
+"element": "砷（As）",
+"anomaly_pattern": "找矿标志包括金砷锑元素异常区"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）异常",
+"attributes": {
+"element": "锑（Sb）",
+"anomaly_pattern": "找矿标志包括金砷锑元素异常区"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "阿沙哇义金矿床大地构造隶属于塔里木板块北缘活动带的南天山成矿带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿床邻近北东走向的卡拉铁克大断裂，区域大断裂对矿区构造与成矿具有控制作用"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿床主要受区域大断裂的次级断裂与断层破碎带控制，矿体发育在破碎带内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "阿沙哇义金矿床矿体主要赋存于喀拉治尔加组下段变余砂岩—千枚岩围岩（互层）及其破碎带内"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "喀拉治尔加组下段变余砂岩—千枚岩围岩（互层）属于上石炭系喀拉治尔加组下段"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "阿沙哇义金矿床发育硅化，且硅化与Au矿化呈正相关"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "阿沙哇义金矿床发育绢云母化等常见蚀变类型"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "阿沙哇义金矿床发育黄铁矿化等常见蚀变类型"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "阿沙哇义金矿床发育褐铁矿化等常见蚀变类型"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "阿沙哇义金矿床发育毒砂化等常见蚀变类型"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "阿沙哇义金矿床矿化与黄铁矿等硫化物矿物密切相关"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "阿沙哇义金矿床矿化与毒砂等硫化物矿物密切相关"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿沙哇义金矿床成矿热液属低温、低压、富CO₂的热液，主要来自沉积建造水并混入少量大气降水"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "δD为-81.3‰~-73.4‰约束成矿流体主要为沉积建造水并混入少量大气降水"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "石英δ18O为18.1‰~19.5‰用于约束成矿流体性质与来源"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "δ18O水值主要集中在1.5‰~4.8‰之间，用于约束成矿流体演化与来源"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "δ34S为17.8‰~19.2‰结合硫同位素示踪用于约束成矿物质与流体来源"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "显示",
+"description": "区域化探元素异常显示矿区相关围岩中Au丰度高于区域平均值"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "显示",
+"description": "阿沙哇义金矿床找矿标志包括砷（As）元素异常区"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "显示",
+"description": "阿沙哇义金矿床找矿标志包括锑（Sb）元素异常区"
+}
+]
+}

@@ -1,0 +1,267 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0046",
+"title": "新疆奇台县南明水东金矿地质特征与找矿模型",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿床",
+"attributes": {
+"name": "南明水金矿床",
+"location": "准噶尔盆地东北缘卡拉麦里地区",
+"tectonic_position": "位于准噶尔盆地东北缘卡拉麦里地区，下石炭统南明水组内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "赋矿地层为下石炭统南明水组，含矿岩性为凝灰岩、含碳质凝灰岩和凝灰质粉砂岩，矿石类型为破碎蚀变岩夹石英脉型，矿体赋存在碎裂岩化蚀变带中，受断裂构造及糜棱岩化、千枚岩化、片理化等变形作用控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "准噶尔盆地东北缘卡拉麦里地区",
+"attributes": {
+"name": "准噶尔盆地东北缘卡拉麦里地区",
+"level": "成矿区",
+"tectonic_setting": "位于准噶尔盆地东北缘的卡拉麦里地区，为下石炭统南明水组发育并形成南明水东金矿的构造-成矿有利部位"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组",
+"attributes": {
+"name": "下石炭统南明水组",
+"age": "下石炭统",
+"dominant_lithology": "凝灰岩、含碳质凝灰岩、凝灰质粉砂岩",
+"lithology_notes": "受区域变质作用影响普遍具葡萄石相—绿片岩相低级变质，局部千枚岩化作用较强，是南明水东金矿的主要赋矿地层"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统平顶山组",
+"attributes": {
+"name": "中泥盆统平顶山组",
+"age": "中泥盆统",
+"dominant_lithology": "片理化粉砂岩、千枚岩化粉砂岩、凝灰岩",
+"lithology_notes": "出露于清水－苏吉泉大断裂次级构造控制的地球化学异常区内，岩石破碎强，裂隙中有石英脉穿插"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "南明水组碎裂岩化蚀变带围岩单元",
+"attributes": {
+"name": "南明水组碎裂岩化蚀变带围岩单元"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "清水－苏吉泉大断裂次级构造",
+"attributes": {
+"name": "清水－苏吉泉大断裂次级构造",
+"structure_type": "断裂次级构造",
+"orientation": "沿清水－苏吉泉大断裂展布，近东西向带状展布",
+"scale": "发育于区域深大断裂清水－苏吉泉大断裂上的次级构造，异常区沿断裂呈带状展布",
+"ore_control_role": "地球化学异常位于该次级构造上并沿断裂呈带状展布，异常浓集中心区对应南明水金矿区碎裂岩化蚀变带，硅化和褐铁矿化普遍，表明该构造对矿化和异常具有明显控制作用"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化-毒砂化-硅化-绢云母化蚀变组合",
+"attributes": {
+"name": "黄铁矿化-毒砂化-硅化-绢云母化蚀变组合",
+"alteration_minerals": "黄铁矿、毒砂、石英（硅化）、绢云母等",
+"intensity": "与金矿有关的近矿围岩蚀变以黄铁矿化、毒砂化、硅化、绢云母化等为主，近矿蚀变带明显发育，是重要找矿标志"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "碎裂岩化-硅化-褐铁矿化蚀变带",
+"attributes": {
+"name": "碎裂岩化-硅化-褐铁矿化蚀变带",
+"alteration_minerals": "碎裂岩、石英（硅化）、褐铁矿等",
+"intensity": "异常浓集中心区与南明水金矿区碎裂岩化蚀变带对应，硅化、褐铁矿化普遍，岩石破碎强烈，为构造蚀变带控制的强蚀变区"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "与金矿化密切相关的含金硫化物及指示矿物",
+"paragenesis": "在近矿围岩蚀变中发育黄铁矿化，常与毒砂化、硅化和绢云母化共生，出现在碎裂岩化蚀变带中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "含金砷硫化物矿物，与金矿化关系密切",
+"paragenesis": "近矿围岩蚀变中发育毒砂化，与黄铁矿化、硅化和绢云母化共生，是指示金矿化的重要矿物之一"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "蚀变矿物和氧化指示矿物",
+"paragenesis": "在南明水金矿区碎裂岩化蚀变带内普遍发育褐铁矿化，与硅化共同构成地球化学异常浓集中心区的典型蚀变组合"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物及硅化产物",
+"paragenesis": "矿石类型为破碎蚀变岩夹石英脉型，含金石英脉多为单脉充填型，具分枝复合现象；碎裂岩化蚀变带中石英脉穿插发育，与黄铁矿化、毒砂化等蚀变共生"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Fluid",
+"name_zh": "南明水东金矿成矿流体",
+"attributes": {
+"nature": "变质热液型成矿流体，以变质热液为主的中低温成矿流体体系",
+"source": "源于区域变质作用形成的热液，在断裂构造及糜棱岩化、千枚岩化、片理化强烈发育的破碎带中运移并沉淀金矿物"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geophysics",
+"name_zh": "南明水东金矿激电与电阻率异常",
+"attributes": {
+"anomaly_type": "矿体低阻中高极化异常及碎裂蚀变带中低阻中高极化异常",
+"amplitude": "破碎蚀变岩及矿体赋存在碎裂岩化蚀变带中，表现为低阻中高极化：视电阻率约47~134Ω·m，视极化率约0.81%~1.21%；石英脉在碎裂岩化蚀变带中表现为中低阻中高极化：视电阻率约199~354Ω·m，视极化率约1.35%~2.56%；围岩南明水组凝灰岩为中高阻低极化：视电阻率约440~848Ω·m，视极化率约0.64%~0.99%",
+"spatial_pattern": "断裂构造强烈破碎和矿化蚀变使碎裂岩石电阻率明显下降，碎裂蚀变带在激电联剖曲线上视电阻率表现为低阻正交点，视极化率表现为反交点，矿体及脉岩沿碎裂岩化蚀变带和断裂呈带状展布"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "清水－苏吉泉大断裂次级构造地球化学异常",
+"attributes": {
+"element": "Au、Sb、As、Pb、Ag、Bi等元素",
+"value_ppm": "包含Au1、Sb1、Sb2、As1、Pb1、Ag1、Bi1等元素异常等级，代表强Au-Sb-As-Pb-Ag-Bi多元素异常",
+"anomaly_pattern": "地球化学异常位于清水－苏吉泉大断裂次级构造上并沿断裂呈带状展布，异常呈椭圆状面积约12.5km²，异常区内岩石破碎强烈、裂隙中发育石英脉，浓集中心区与南明水金矿区碎裂岩化蚀变带相对应，硅化和褐铁矿化普遍，明显受构造和蚀变带共同控制"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "南明水东金矿位于准噶尔盆地东北缘卡拉麦里地区，是该成矿区内的变质热液型金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "南明水东金矿矿体赋存在下石炭统南明水组内的碎裂岩化蚀变带中，对应南明水组碎裂岩化蚀变带围岩单元"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "南明水组碎裂岩化蚀变带围岩单元在地层上属于下石炭统南明水组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "南明水东金矿区附近的地球化学异常及碎裂岩化蚀变带位于清水－苏吉泉大断裂次级构造上并沿断裂呈带状展布，表明该次级构造对矿化及异常具有重要控矿作用"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "南明水东金矿近矿围岩主要发育黄铁矿化、毒砂化、硅化和绢云母化等蚀变，这一黄铁矿化-毒砂化-硅化-绢云母化蚀变组合与金矿化密切相关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "南明水金矿区碎裂岩化蚀变带内硅化和褐铁矿化普遍发育，形成碎裂岩化-硅化-褐铁矿化蚀变带，是南明水东金矿及其外围找矿的重要蚀变标志"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "南明水东金矿近矿围岩蚀变中普遍发育黄铁矿化，黄铁矿作为含金硫化物及指示矿物，与金矿化密切共生"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "毒砂化蚀变广泛发育，毒砂作为含金砷硫化物矿物，与黄铁矿化、硅化和绢云母化共同出现在近矿围岩中，是南明水东金矿的重要矿化指示矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "在南明水金矿区碎裂岩化蚀变带内普遍发育褐铁矿化，褐铁矿与硅化共生，反映断裂蚀变带内的强氧化蚀变环境，与地球化学异常及金矿化密切相关"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "脉石矿物包括",
+"description": "南明水东金矿矿石类型为破碎蚀变岩夹石英脉型，含金石英脉主要为单脉充填型并具分枝复合现象，石英为矿体的主要脉石矿物"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "对应成矿流体为",
+"description": "南明水东金矿成因类型为变质热液型金矿，对应的成矿流体为由区域变质作用形成的变质热液，在断裂及糜棱岩化、千枚岩化强烈的破碎带中运移充填形成金矿体"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "南明水东金矿矿体赋存在碎裂岩化蚀变带中，在激电与电阻率测量中表现为低阻中高极化异常，石英脉为中低阻中高极化，围岩为中高阻低极化，碎裂蚀变带在激电联剖曲线上呈低阻正交点和极化率反交点特征"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "南明水金矿区附近的地球化学异常位于清水－苏吉泉大断裂次级构造上并沿断裂呈带状展布，异常呈椭圆状面积约12.5km²，Au-Sb-As-Pb-Ag-Bi多元素异常浓集中心与南明水金矿区碎裂岩化蚀变带及硅化、褐铁矿化带相对应，反映了南明水东金矿的显著地球化学找矿标志"
+}
+]
+}

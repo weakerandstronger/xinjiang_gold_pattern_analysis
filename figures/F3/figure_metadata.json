@@ -1,0 +1,26 @@
+{
+  "figure_inches": [
+    11.5,
+    7.5
+  ],
+  "fonts": [
+    "Microsoft YaHei",
+    "Arial"
+  ],
+  "area_ratios": [
+    50,
+    27,
+    15,
+    8
+  ],
+  "evidence_axis": [
+    0,
+    0.45
+  ],
+  "evidence_precision": 3,
+  "lift_precision": 2,
+  "alignment": "all row centers passed",
+  "text_bounds": "passed",
+  "denominator": "pattern-specific jointly observed name groups",
+  "data": "unmodified experimental F3.csv; IDs retained only in provenance CSV, excluded from figure"
+}

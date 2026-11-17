@@ -1,0 +1,263 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0192",
+"title": "新疆准噶尔北东缘扎格依库都克金矿床流体包裹体与同位素地球化学研究_胡可扬",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "扎格依库都克金矿床",
+"attributes": {
+"name": "扎格依库都克金矿床",
+"location": "新疆准噶尔北东缘（准噶尔北缘）",
+"tectonic_position": "额尔齐斯贵金属、有色金属成矿带内（额尔齐斯断裂两侧）",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均品位22.37克/吨（Ⅰ-1号矿体）",
+"ore_control_features": "矿体呈脉状、网脉状，含矿岩石主要为含硫化物石英脉；矿化蚀变带主要分布于不同方向断裂交汇部位或沿NW向断裂展布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯贵金属、有色金属成矿带",
+"attributes": {
+"name": "额尔齐斯贵金属、有色金属成矿带",
+"level": "成矿带",
+"tectonic_setting": "沿额尔齐斯断裂两侧分布的贵金属、有色金属成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统黑山头组",
+"attributes": {
+"name": "下石炭统黑山头组",
+"age": "下石炭统",
+"dominant_lithology": "火山-火山碎屑岩（以安山岩、玄武岩为主，局部夹凝灰质碎屑岩）",
+"lithology_notes": "矿区黑山头组可分为两段并呈断层接触；矿化蚀变带及金矿体主要分布于第一段"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "黑山头组第一段安山岩-玄武岩围岩",
+"attributes": {
+"name": "黑山头组第一段安山岩-玄武岩围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "NW向断裂",
+"attributes": {
+"name": "NW向断裂",
+"structure_type": "断裂",
+"orientation": "NW向",
+"scale": "矿区",
+"ore_control_role": "矿化蚀变带多沿NW向断裂分布，或位于NW、NE及NS向断裂的交汇部位"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "为主"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "为主"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "为主"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "方解石等碳酸盐矿物",
+"intensity": "为主"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "Ⅰ阶段石英-黄铁矿化阶段形成；Ⅱ阶段与毒砂等共生并可伴生少量方铅矿、闪锌矿、赤铁矿等"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要成矿阶段硫化物矿物",
+"paragenesis": "Ⅱ阶段黄铁矿-毒砂-石英脉阶段发育，常与黄铁矿共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "中低温低盐度水溶液成矿流体",
+"attributes": {
+"nature": "中低温、低盐度水溶液流体；石英中流体包裹体以气液两相包裹体为主，未发现富CO2包裹体",
+"source": "早期为岩浆水与大气降水混合流体，中晚期以大气降水为主；硫同位素显示成矿物质具有幔源硫特征",
+"temperature_C_min": "165",
+"temperature_C_max": "284",
+"pressure_MPa_min": "8.93",
+"pressure_MPa_max": "13.52",
+"salinity_wtNaCl_min": "6",
+"salinity_wtNaCl_max": "14"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD、δ18O（石英及计算水）",
+"value_range": "δD=-118.7‰~-131.9‰；δ18OSMOW=10.0‰~12.4‰；δ18OH2O=-3.1‰~-18.5‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "硫同位素",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（黄铁矿）",
+"value_range": "1.4‰~2.9‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "扎格依库都克金矿床位于额尔齐斯贵金属、有色金属成矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "扎格依库都克金矿床赋矿围岩以黑山头组第一段安山岩-玄武岩为主"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "黑山头组第一段安山岩-玄武岩围岩属于下石炭统黑山头组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "矿化蚀变带及矿体主要沿NW向断裂分布或位于不同方向断裂交汇部位"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "扎格依库都克金矿床围岩蚀变以硅化为主"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "扎格依库都克金矿床围岩蚀变以黄铁矿化为主"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "扎格依库都克金矿床围岩蚀变以绢云母化为主"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "扎格依库都克金矿床围岩蚀变以碳酸盐化为主"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "扎格依库都克金矿床矿石中常见黄铁矿等硫化物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "扎格依库都克金矿床主要成矿阶段发育毒砂并与黄铁矿共生"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "扎格依库都克金矿床成矿流体为中低温、低盐度水溶液流体（165~284℃，盐度主要集中于6~14% NaCl当量，压力约8.93~13.52兆帕）"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素显示成矿流体早期为岩浆水与大气降水混合，中晚期以大气降水为主"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿硫同位素δ34S为1.4‰~2.9‰，指示硫具有幔源硫特征并约束成矿物质来源"
+}
+]
+}

@@ -1,0 +1,162 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0134",
+"title": "东天山石英滩金矿田控矿构造与原生晕深部预测",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "石英滩金矿床",
+"attributes": {
+"name": "石英滩金矿床",
+"location": "新疆石英滩（西滩）矿区",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "与矿田内近似椭圆古火山机构同位，受古破火山口放射状裂隙边缘及古火山热液通道控制，含矿（或矿化较好）石英脉主体走向近东西向"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "东北夼金矿点",
+"attributes": {
+"name": "东北夼金矿点",
+"location": "石英滩金矿田内东北夼矿点",
+"ore_control_features": "同处近似椭圆形古破火山口放射状裂隙边缘上，矿化石英脉走向110°～120°"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Deposit",
+"name_zh": "黄泥坡金矿点",
+"attributes": {
+"name": "黄泥坡金矿点",
+"location": "石英滩金矿田内黄泥坡矿点",
+"ore_control_features": "同处近似椭圆形古破火山口放射状裂隙边缘上，矿化蚀变带近东西向展布"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "石英滩金矿田",
+"attributes": {
+"name": "石英滩金矿田",
+"level": "矿田"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "近似椭圆形古破火山口放射状裂隙",
+"attributes": {
+"name": "近似椭圆形古破火山口放射状裂隙",
+"structure_type": "古破火山口放射状裂隙",
+"orientation": "放射状裂隙边缘上，近地表东西方向成矿较为有利",
+"scale": "矿田尺度",
+"ore_control_role": "控制矿田内三矿床（点）空间位置与成矿"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "古火山热液通道",
+"attributes": {
+"name": "古火山热液通道",
+"structure_type": "热液通道",
+"scale": "矿区尺度",
+"ore_control_role": "作为成矿热液通道，反映矿田成矿的特殊性并指示深部隐伏矿体"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Geochem",
+"name_zh": "原生晕指示元素分带序列",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "三矿床（点）具有相似的原生晕组合，前缘晕→尾晕元素组合为Sb－As－Hg－Ag－Zn－Au－Cu－Bi－Mo；石英滩金矿床原生晕轴向分带元素类别一致，中部序列为Zn－Ag－Au，并见叠加晕特征用于深部隐伏矿体预测"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "石英滩（西滩）金矿床隶属于石英滩金矿田"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "东北夼金矿点隶属于石英滩金矿田"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "黄泥坡金矿点隶属于石英滩金矿田"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "石英滩（西滩）金矿床受近似椭圆形古破火山口放射状裂隙边缘控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "东北夼金矿点受近似椭圆形古破火山口放射状裂隙边缘控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "黄泥坡金矿点受近似椭圆形古破火山口放射状裂隙边缘控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "石英滩金矿区发现有古火山热液通道，指示成矿热液上升与深部隐伏矿体"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "显示",
+"description": "石英滩（西滩）金矿床原生晕指示元素分带序列与三矿床（点）一致，并见叠加晕特征用于深部预测"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E7",
+"relation_label_zh": "显示",
+"description": "东北夼金矿点显示与石英滩金矿床相似的原生晕指示元素分带序列，可用于隐伏矿体预测"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E7",
+"relation_label_zh": "显示",
+"description": "黄泥坡金矿点显示与石英滩金矿床相似的原生晕指示元素分带序列，可用于隐伏矿体预测"
+}
+]
+}

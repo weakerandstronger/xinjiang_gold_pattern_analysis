@@ -1,0 +1,347 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0063",
+"title": "新疆阿希金矿矿床地质和地球化学研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆西天山吐拉苏盆地",
+"tectonic_position": "伊犁－中天山板块北缘博罗霍洛岛弧带",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "3～8 g/t",
+"resource_tonnage": "大型金矿床规模",
+"ore_control_features": "赋矿围岩为晚泥盆世火山岩，矿体以石英脉型为主，呈脉状沿走向延伸上千米、沿倾向延伸至地下300～400 m，在成群与环状断裂伴生的 NW 向断裂中分布，近矿围岩硅化和黄铁矿化与金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "吐拉苏盆地",
+"attributes": {
+"name": "吐拉苏盆地",
+"level": "盆地",
+"tectonic_setting": "位于伊犁－中天山板块北缘博罗霍洛岛弧带内，盆地呈 NWW 向展布，南北分别以 NWW 向的伊犁盆地北缘断裂和科古琴山南坡断裂为界，基底为奥陶纪灰岩，上覆晚古生代火山－沉积岩"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "伊犁－中天山板块北缘博罗霍洛岛弧带",
+"attributes": {
+"name": "伊犁－中天山板块北缘博罗霍洛岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "位于新疆西天山地区的板块北缘岛弧带，控制吐拉苏盆地及晚古生代火山－沉积建造的展布"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "新疆西天山",
+"attributes": {
+"name": "新疆西天山",
+"level": "区域",
+"tectonic_setting": "新疆西天山造山带的一部分，为阿希金矿所在的大型浅成低温热液型金矿成矿区"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统吐拉苏组",
+"attributes": {
+"name": "上泥盆统吐拉苏组",
+"age": "上泥盆统",
+"dominant_lithology": "粗碎屑岩",
+"lithology_notes": "为吐拉苏盆地盖层中下伏地层之一，位于晚古生代火山－沉积岩之下"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统阿恰勒河组",
+"attributes": {
+"name": "下石炭统阿恰勒河组",
+"age": "下石炭统",
+"dominant_lithology": "滨－浅海相碎屑岩",
+"lithology_notes": "为吐拉苏盆地盖层上部地层，覆盖于上泥盆统吐拉苏组之上"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "晚泥盆世火山岩围岩单元",
+"attributes": {
+"name": "晚泥盆世火山岩围岩单元"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "吐拉苏盆地 NWW 向次级断裂",
+"attributes": {
+"name": "吐拉苏盆地 NWW 向次级断裂",
+"structure_type": "断裂",
+"orientation": "NWW 向，与盆地南北边缘断裂平行",
+"scale": "贯穿吐拉苏盆地的次级断裂构造，控制火山－沉积岩分布",
+"ore_control_role": "通过控制晚古生代火山－沉积岩及晚泥盆世火山岩的展布间接影响成矿有利部位"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "阿希矿区 NW 向断裂及环状断裂",
+"attributes": {
+"name": "阿希矿区 NW 向断裂及环状断裂",
+"structure_type": "断裂",
+"orientation": "NW 向，与环状断裂伴生",
+"scale": "矿区内发育成群、规模大小不等的 NW 向断裂及与之伴生的环状断裂",
+"ore_control_role": "部分金矿体产于与环状断裂伴生的 NW 向断裂中，控制矿体的空间展布"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "硅化－绢云母化－绿泥石化－黄铁矿化－碳酸盐化蚀变带",
+"attributes": {
+"name": "硅化－绢云母化－绿泥石化－黄铁矿化－碳酸盐化蚀变带",
+"alteration_minerals": "硅化、绢云母化、绿泥石化、黄铁矿化、碳酸盐化",
+"intensity": "近矿围岩普遍发育，其中硅化和黄铁矿化与金矿化关系最为密切，为重要找矿标志"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "主要含金矿物",
+"paragenesis": "主要发育于阶段Ⅱ黄铁矿－石英脉和阶段Ⅲ白铁矿－碳酸盐－石英脉中，与石英及多种硫化物共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "玉髓状石英",
+"attributes": {
+"name": "玉髓状石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "形成玉髓状石英阶段（Ⅰ）的脉体，为早期热液脉石矿物"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "广泛发育于各成矿阶段的石英脉和石英－碳酸盐脉中，常包裹银金矿等含金矿物"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "钠长石",
+"attributes": {
+"name": "钠长石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "与石英、绢云母等共生，为矿石中的常见脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "蚀变及脉石矿物",
+"paragenesis": "既作为围岩绢云母化蚀变的主要矿物，又与石英、钠长石等共生于含金脉体中"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "碳酸盐脉石矿物",
+"paragenesis": "与石英、铁白云石、菱铁矿等共生，组成白铁矿－碳酸盐－石英脉及重晶石－碳酸盐脉中的碳酸盐矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "铁白云石",
+"attributes": {
+"name": "铁白云石",
+"role_in_ore": "碳酸盐脉石矿物",
+"paragenesis": "与方解石、菱铁矿等共生，出现于碳酸盐－石英脉及围岩碳酸盐化蚀变中"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "菱铁矿",
+"attributes": {
+"name": "菱铁矿",
+"role_in_ore": "碳酸盐脉石矿物",
+"paragenesis": "与方解石、铁白云石等共生，出现于白铁矿－碳酸盐－石英脉及重晶石－碳酸盐脉中"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿成矿流体",
+"attributes": {
+"nature": "浅成低温热液成矿流体，温度由阶段Ⅱ的中温向阶段Ⅲ的低温演化，伴随硫逸度明显降低",
+"source": "阶段Ⅰ以与火山岩围岩有关的火山热液为主，阶段Ⅱ开始混入大气水",
+"temperature_C_min": "95",
+"temperature_C_max": "285"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Geochem",
+"name_zh": "阿希金矿成矿阶段稀土元素地球化学",
+"attributes": {
+"element": "稀土元素（REE）、Eu",
+"value_ppm": "阶段Ⅳ重晶石－碳酸盐脉 ∑REE＝67.5×10^-6，相比阶段Ⅱ脉体 ∑REE＝1.0×10^-6～4.2×10^-6 明显升高",
+"anomaly_pattern": "阶段Ⅰ脉体轻稀土强烈富集、重稀土相对亏损且 Eu 正异常（δEu＝1.17～1.52）；阶段Ⅱ脉体轻重稀土分馏较弱、Eu 负异常（δEu＝0.44～0.93）；阶段Ⅳ脉体轻重稀土分馏较弱但稀土总量较高，表明重晶石和碳酸盐矿物对 REE 分异有重要影响"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "阿希金矿位于新疆西天山地区，是该区产出的一个大型浅成低温热液型金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "阿希金矿位于伊犁－中天山板块北缘博罗霍洛岛弧带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿产于吐拉苏盆地中，受盆地构造背景和火山－沉积建造控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿的赋矿围岩为晚泥盆世火山岩，可概括为晚泥盆世火山岩围岩单元"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "矿区内成群与环状断裂伴生的 NW 向断裂中分布着部分矿体，表明阿希金矿部分矿体受 NW 向断裂及环状断裂控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿近矿围岩蚀变包括硅化、绢云母化、绿泥石化、黄铁矿化和碳酸盐化，其中硅化和黄铁矿化与金矿化关系密切，构成硅化－绢云母化－绿泥石化－黄铁矿化－碳酸盐化蚀变带"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "阿希金矿的主要含金矿物为银金矿，集中发育于阶段Ⅱ和阶段Ⅲ脉体中"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "脉石矿物包括",
+"description": "阿希金矿成矿早期的玉髓状石英阶段（Ⅰ）以玉髓状石英为主要脉石矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "脉石矿物包括",
+"description": "阿希金矿矿体以石英脉型为主，石英是各成矿阶段普遍发育的主要脉石矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "脉石矿物包括",
+"description": "钠长石为阿希金矿石中的常见脉石矿物之一，与石英、绢云母等共生"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "脉石矿物包括",
+"description": "绢云母既为围岩重要蚀变矿物，又为含金脉体中的常见脉石矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "脉石矿物包括",
+"description": "方解石是白铁矿－碳酸盐－石英脉和重晶石－碳酸盐脉中的主要碳酸盐脉石矿物之一"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "脉石矿物包括",
+"description": "铁白云石与方解石、菱铁矿等共同组成阿希金矿中碳酸盐脉石矿物组合"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "脉石矿物包括",
+"description": "菱铁矿广泛出现于白铁矿－碳酸盐－石英脉及重晶石－碳酸盐脉中，为阿希金矿的重要碳酸盐脉石矿物"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希金矿对应的成矿流体为浅成低温热液成矿流体，阶段Ⅰ以与火山岩围岩有关的火山热液为主，阶段Ⅱ开始混入大气水，使成矿流体温度由约 195～285℃ 降至 95～190℃ 并使硫逸度显著降低"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "显示",
+"description": "阿希金矿不同阶段脉体稀土元素地球化学特征表现为阶段Ⅰ轻稀土强烈富集、重稀土相对亏损且 Eu 正异常，阶段Ⅱ轻重稀土分馏较弱且 Eu 负异常，阶段Ⅳ重晶石－碳酸盐脉稀土总量显著升高，表明重晶石和碳酸盐矿物对 REE 分异有重要控制作用"
+}
+]
+}

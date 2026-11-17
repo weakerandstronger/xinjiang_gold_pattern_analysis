@@ -1,0 +1,234 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0261",
+"title": "哈密金窝子金矿床同位素地球化学研究_张增杰",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金窝子金矿床",
+"attributes": {
+"name": "金窝子金矿床",
+"location": "新疆甘肃交界处，距星星峡约25km",
+"tectonic_position": "哈萨克—准噶尔板块与塔里木板块缝合带东部古老基底上晚古生代形成的上叠盆地中",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体为石英脉型，主要充填于金窝子岩体及围岩中近SN向张性裂隙（张裂脉）内；在长期构造动力场作用下，成矿热液沿层间裂隙与构造裂隙汇集运移并在岩体张性裂隙中交代充填成矿",
+"age_ma": "约275Ma（铅同位素模式年龄集中值指示可能的成矿年龄）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "哈萨克—准噶尔板块与塔里木板块缝合带东部上叠盆地",
+"attributes": {
+"name": "哈萨克—准噶尔板块与塔里木板块缝合带东部上叠盆地",
+"level": "构造单元",
+"tectonic_setting": "古老基底上晚古生代形成的上叠盆地（缝合带东部）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统金窝子组",
+"attributes": {
+"name": "上泥盆统金窝子组",
+"age": "上泥盆世",
+"dominant_lithology": "陆源碎屑岩夹火山碎屑岩和海相碳酸盐岩组合",
+"lithology_notes": "为矿区主要出露地层之一，与下二叠统菊石滩组及第四系共同组成矿区地层序列"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "IntrusiveBody",
+"name_zh": "早海西期黑云母二长花岗岩（金窝子岩体）",
+"attributes": {
+"name": "早海西期黑云母二长花岗岩（金窝子岩体）",
+"rock_type": "黑云母二长花岗岩",
+"age": "约400Ma（单矿物Rb-Sr等时线年龄）",
+"relationship_to_ore": "为成矿围岩；矿石铅同位素显示成矿物质大部分来自地壳且与花岗岩关系密切"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "早海西期黑云母二长花岗岩围岩",
+"attributes": {
+"name": "早海西期黑云母二长花岗岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "岩体张性裂隙（近SN向张裂脉）",
+"attributes": {
+"name": "岩体张性裂隙（近SN向张裂脉）",
+"structure_type": "张性裂隙",
+"orientation": "近SN向",
+"scale": "矿区级",
+"ore_control_role": "控制石英脉充填与交代作用，成矿热液在岩体张性裂隙中交代充填成矿"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与黄铁矿等金属硫化物及石英、方解石等脉石矿物共生"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物（硫化物）",
+"paragenesis": "与自然金、银金矿、黄铜矿、闪锌矿、方铅矿、磁黄铁矿等共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Fluid",
+"name_zh": "金窝子成矿流体",
+"attributes": {
+"nature": "以建造水为主的成矿热液（成矿晚期混入天水）",
+"source": "主要为建造水，并混入岩浆水与变质水（成矿晚期有天水加入）",
+"temperature_C_min": "172.5",
+"temperature_C_max": "242.3"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素（δD与δ18O_H2O）",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD与δ18O_H2O",
+"value_range": "δD：约-120‰～-83‰；δ18O_H2O：约-12.8‰～5.3‰"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "硫同位素（δ34S）",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "主要集中于约6‰～7.5‰（以黄铁矿δ34S代表成矿流体硫同位素）"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "碳同位素（δ13C）",
+"attributes": {
+"system": "碳同位素",
+"parameter_name": "δ13C",
+"value_range": "指示成矿流体中的碳主要来自沉积建造中的碳酸盐岩"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "铅同位素（206Pb/204Pb、207Pb/204Pb、208Pb/204Pb）",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "206Pb/204Pb、207Pb/204Pb、208Pb/204Pb",
+"value_range": "206Pb/204Pb：约18.36～18.65；207Pb/204Pb：约15.55～15.72；208Pb/204Pb：约38.25～38.97"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金窝子金矿床位于哈萨克—准噶尔板块与塔里木板块缝合带东部上叠盆地中"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "金窝子金矿床的成矿围岩为早海西期黑云母二长花岗岩围岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "金窝子金矿床矿体石英脉主要受岩体张性裂隙（近SN向张裂脉）控制并在其中交代充填成矿"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要金矿物为",
+"description": "金窝子金矿床的主要金矿物包括自然金"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床的金属硫化物矿物包括黄铁矿等"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "对应成矿流体为",
+"description": "金窝子金矿床成矿流体以建造水为主，混入岩浆水和变质水，成矿晚期有天水加入"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素组成显示成矿期流体属于以建造水为主的混合水，并指示成矿晚期天水混入"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素特征指示成矿流体中的硫主要来自矿区沉积建造及金窝子岩体"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "碳同位素特征指示成矿流体中的碳主要来源于沉积建造中的碳酸盐岩"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素显示成矿物质大部分来自地壳且与花岗岩关系密切，少部分来自深源地幔"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "早海西期黑云母二长花岗岩（金窝子岩体）侵入于上泥盆统金窝子组地层中并作为成矿围岩"
+}
+]
+}

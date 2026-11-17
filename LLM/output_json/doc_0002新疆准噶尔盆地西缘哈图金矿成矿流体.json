@@ -1,0 +1,305 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0002",
+"title": "新疆准噶尔盆地西缘哈图金矿成矿流体",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "哈图金矿床",
+"attributes": {
+"name": "哈图金矿床",
+"location": "新疆准噶尔盆地西缘",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受北北东向安齐断裂和哈图断裂等构造控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "准噶尔盆地西缘",
+"attributes": {
+"name": "准噶尔盆地西缘",
+"level": "盆地西缘",
+"tectonic_setting": "准噶尔盆地西缘构造单元"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统太勒古拉组",
+"attributes": {
+"name": "下石炭统太勒古拉组",
+"age": "下石炭统",
+"dominant_lithology": "以浊流沉积为主的岩石",
+"lithology_notes": "矿区出露的主要地层之一"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统包谷图组",
+"attributes": {
+"name": "下石炭统包谷图组",
+"age": "下石炭统",
+"dominant_lithology": "以浊流沉积为主的岩石",
+"lithology_notes": "矿区出露的主要地层之一"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "玄武-安山岩和火山碎屑岩围岩",
+"attributes": {
+"name": "海底喷发的玄武-安山岩和火山碎屑岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "安齐断裂",
+"attributes": {
+"name": "安齐断裂",
+"structure_type": "区域性断裂",
+"orientation": "北北东向平行展布",
+"scale": "区域性大型断裂",
+"ore_control_role": "控制本区基本构造格局并对哈图金矿成矿具有控矿作用"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "哈图断裂",
+"attributes": {
+"name": "哈图断裂",
+"structure_type": "区域性断裂",
+"orientation": "北北东向平行展布",
+"scale": "区域性大型断裂",
+"ore_control_role": "控制本区基本构造格局并对哈图金矿成矿具有控矿作用"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化蚀变",
+"attributes": {
+"name": "硅化蚀变",
+"alteration_minerals": "石英",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化蚀变",
+"attributes": {
+"name": "黄铁矿化蚀变",
+"alteration_minerals": "黄铁矿",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "绢云母化蚀变",
+"attributes": {
+"name": "绢云母化蚀变",
+"alteration_minerals": "绢云母",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化蚀变",
+"attributes": {
+"name": "黄铁绢英岩化蚀变",
+"alteration_minerals": "黄铁矿、绢云母、石英",
+"intensity": "十分强烈"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物和载金矿物",
+"paragenesis": "与毒砂、自然金、石英共生"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "含金硫化物矿物",
+"paragenesis": "与黄铁矿、自然金、石英共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "几乎全部以自然金形式赋存在石英、黄铁矿和毒砂的裂隙或晶格间隙内，有时以明金形式出现"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物及载金矿物",
+"paragenesis": "与黄铁矿、毒砂、自然金共生"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Fluid",
+"name_zh": "哈图成矿流体",
+"attributes": {
+"nature": "中温、低盐度的成矿流体",
+"source": "以岩浆水为主并混合少量天水，成矿物质主要为深源",
+"temperature_C_min": "",
+"temperature_C_max": "",
+"pressure_MPa_min": "",
+"pressure_MPa_max": "",
+"salinity_wtNaCl_min": "",
+"salinity_wtNaCl_max": "",
+"delta_fO2_buffer_min": "",
+"delta_fO2_buffer_max": "",
+"fO2_buffer": ""
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素",
+"attributes": {
+"system": "H-O",
+"parameter_name": "δD-δ18O",
+"value_range": "主矿体石英包裹体水δ18O值为9.7‰和6.6‰，对应的氢同位素值约为-94.5‰和-100.9‰；与哈图金矿有密切成因关系的花岗岩石英包裹体水δ18O值为4.9‰，对应的氢同位素值约为-69.087‰，在δD-δ18O关系图中落在岩浆水下方接近地幔水范围"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "哈图金矿位于准噶尔盆地西缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "哈图金矿矿脉直接赋存于海底喷发的玄武-安山岩和火山碎屑岩围岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿受北北东向安齐断裂的构造控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿受北北东向哈图断裂的构造控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "哈图金矿主要围岩蚀变之一为硅化蚀变"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "哈图金矿主要围岩蚀变之一为黄铁矿化蚀变"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "哈图金矿主要围岩蚀变之一为绢云母化蚀变"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "硅化、黄铁矿化和绢云母化都十分强烈时形成黄铁绢英岩化蚀变，可形成蚀变岩型矿体"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "哈图金矿矿石的共生矿物组合中包括黄铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "哈图金矿矿石的共生矿物组合中包括毒砂"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要金矿物为",
+"description": "哈图金矿中金几乎全部以自然金形式赋存在石英、黄铁矿和毒砂的裂隙或晶格间隙内"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "哈图金矿矿石的共生矿物组合中包括石英，为主要脉石矿物"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "对应成矿流体为",
+"description": "哈图金矿的成矿流体为中温、低盐度的流体，以岩浆水为主并混合少量天水"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E16",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素数据落在岩浆水下方并接近地幔水范围，表明哈图金矿成矿流体主要为岩浆流体，同时混入少量天水"
+}
+]
+}

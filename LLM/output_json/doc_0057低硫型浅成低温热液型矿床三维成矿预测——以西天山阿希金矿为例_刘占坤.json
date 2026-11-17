@@ -1,0 +1,112 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0057",
+"title": "低硫型浅成低温热液型矿床三维成矿预测—以西天山阿希金矿为例",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆西天山吐拉苏盆地",
+"tectonic_position": "位于西天山吐拉苏盆地内，隶属新疆西天山地区低硫型浅成低温热液成矿系统",
+"deposit_type": "浅成低温热液型金矿床",
+"resource_tonnage": "金金属量大于50 t，为新疆地区最大的低硫型浅成低温热液型金矿床之一",
+"ore_control_features": "金矿化主要产出在距离断层F2、蚀变带上边界和火山管道相下边界特定距离范围内（<30 m，<40 m，10～70 m），相关地质体形态常具上凸特征、倾角大于60°，浅成低温金矿化主要受控于含矿流体在浅部的流动与汇聚过程，该过程与控矿地质体几何形态和距离场作用密切相关"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西天山吐拉苏盆地",
+"attributes": {
+"name": "西天山吐拉苏盆地",
+"level": "盆地级含矿区",
+"tectonic_setting": "位于西天山造山带内的吐拉苏盆地，是阿希金矿床所在的含矿盆地与成矿背景单元"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "F2断层",
+"attributes": {
+"name": "F2断层",
+"structure_type": "断层",
+"orientation": "断裂走向延伸特征呈反S形，相关地质体倾角大于60°",
+"scale": "阿希金矿区内的主要控矿断裂之一",
+"ore_control_role": "阿希金矿化主要产出在距离F2断层小于30 m的范围内，F2断裂经历右行走滑变形形成扩容空间，促进含矿流体在扩容部位的汇聚并形成矿化富集区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Alteration",
+"name_zh": "阿希金矿矿化-蚀变带",
+"attributes": {
+"name": "阿希金矿矿化-蚀变带",
+"alteration_minerals": "整体为金矿化-蚀变带，具体蚀变矿物组合文中未详细列出",
+"intensity": "矿化-蚀变带通常在走向方向转折部位出现增厚现象，是金矿化富集的重要部位"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "火山管道相地质体",
+"attributes": {
+"name": "火山管道相地质体"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿含矿流体",
+"attributes": {
+"nature": "浅部流动与汇聚的含矿流体，属于浅成低温热液成矿体系",
+"source": ""
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于西天山吐拉苏盆地，是该盆地内的低硫型浅成低温热液型金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "阿希金矿化主要产出在距离F2断层小于30 m的范围内，金矿化显著受F2断裂几何形态和场控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "伴随有",
+"description": "阿希金矿床的矿化-蚀变带在走向方向转折部位出现增厚现象，是含金矿化集中和富集的重要蚀变带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿化主要产出在距离火山管道相下边界10～70 m范围内，说明矿体赋存于火山管道相附近的围岩与其空间几何位置密切相关"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "对应成矿流体为",
+"description": "浅成低温金矿化主要受控于阿希金矿含矿流体在浅部的流动与汇聚过程，该含矿流体是阿希金矿床的主成矿流体"
+}
+]
+}

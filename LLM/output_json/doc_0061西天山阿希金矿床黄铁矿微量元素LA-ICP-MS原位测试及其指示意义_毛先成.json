@@ -1,0 +1,201 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0061",
+"title": "西天山阿希金矿床黄铁矿微量元素 LA-ICP-MS原位测试及其指示意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆西天山地区",
+"tectonic_position": "位于新疆西天山地区低硫型浅成低温热液成矿系统中",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "成矿物质在深部热源和多期构造活动驱动下，成矿流体不断循环萃取围岩中金银等成矿物质，并沿断裂循环沉淀成矿"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西天山地区",
+"attributes": {
+"name": "新疆西天山地区",
+"level": "区域",
+"tectonic_setting": "发育典型低硫型浅成低温热液金矿床的成矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物和微量元素载体",
+"paragenesis": "阿希金矿床中黄铁矿自早到晚可划分为PyⅠ、PyⅡ、PyⅢ和PyⅣ四个世代，是Au、Ag以及As、Sb、Co、Ni等微量元素的主要承载相"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "金银矿物",
+"paragenesis": "在PyⅡ世代黄铁矿中，Au和Ag多以银金矿包裹体的形式存在"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金矿物",
+"paragenesis": "在PyⅢ世代黄铁矿中，Au多以自然金形式存在，常与自然银共生"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "自然银",
+"attributes": {
+"name": "自然银",
+"role_in_ore": "银矿物",
+"paragenesis": "在PyⅢ世代黄铁矿中，Ag多以自然银形式存在，常与自然金共生"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "铅矿物",
+"paragenesis": "黄铁矿中Pb部分存在于方铅矿或含Bi矿物的包裹体中"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "铜矿物",
+"paragenesis": "黄铁矿中Cu部分以黄铜矿或含Bi矿物的包裹体形式存在"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "铅锌矿",
+"attributes": {
+"name": "铅锌矿",
+"role_in_ore": "铅锌矿物",
+"paragenesis": "黄铁矿中Zn主要存在于铅锌矿包裹体中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿成矿流体",
+"attributes": {
+"nature": "成矿流体早期为火山热液与大气降水流体叠加改造的热液，主成矿阶段以大气降水为主，多期流体循环萃取围岩中Au和Ag等成矿物质并沿断裂沉淀成矿",
+"source": "早期为火山热液与大气降水混合，主成矿期以大气降水为主"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "阿希金矿黄铁矿微量元素地球化学",
+"attributes": {
+"element": "As、Sb、Ni、Ti、Cu、Te、Se、Co、Au、Ag、Pb、Cu、Zn",
+"value_ppm": "黄铁矿具富As、Sb、Ni、Ti和Cu、贫Te和Se的特点，w(Co)/w(Ni)绝大多数小于1，Au和Ag含量在不同类型黄铁矿中随成矿演化呈递增趋势",
+"anomaly_pattern": "As、Sb、Ni、Ti、Cu相对富集，Te和Se相对亏损，w(Co)/w(Ni)<1反映成矿温度较低，PyⅠ到PyⅢ的w(Co)/w(Ni)和w(Se)/w(Te)变化表明成矿早期到后期温度整体下降"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于新疆西天山地区，是该区典型的低硫型浅成低温热液金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "主要金属矿物为",
+"description": "阿希金矿床中黄铁矿为主要金属硫化物矿物和微量元素载体，可划分为PyⅠ、PyⅡ、PyⅢ和PyⅣ四个世代"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床中PyⅡ世代黄铁矿内Au和Ag多以银金矿包裹体的形式存在"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床中PyⅢ世代黄铁矿内Au多以自然金的形式存在"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床中PyⅢ世代黄铁矿内Ag多以自然银的形式存在"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床黄铁矿中Pb部分以方铅矿或含Bi矿物包裹体的形式存在"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床黄铁矿中Cu部分以黄铜矿或含Bi矿物包裹体的形式存在"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床黄铁矿中Zn主要存在于铅锌矿包裹体中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希金矿成矿流体演化经历早期火山热液与大气降水流体叠加改造阶段以及主成矿期多次大气降水流体作用阶段"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "阿希金矿床黄铁矿微量元素地球化学特征为富As、Sb、Ni、Ti和Cu、贫Te和Se，w(Co)/w(Ni)绝大多数小于1，Au和Ag含量随成矿演化由PyⅠ至PyⅢ逐渐增加，反映矿床成矿温度整体较低并由早到晚呈下降趋势"
+}
+]
+}

@@ -1,0 +1,333 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0049",
+"title": "东准噶尔南明水金矿床“三位一体”找矿预测及地质模型探讨",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿床",
+"attributes": {
+"name": "南明水金矿床",
+"location": "新疆东准噶尔卡拉麦里地区",
+"tectonic_position": "含金矿脉赋存于卡拉麦里韧性剪切带内的NW-NWW向和NE-NEE向韧-脆性高角度逆冲断层中，对应卡拉麦里地区碰撞造山晚期构造体制由挤压向走滑-伸展的转换期",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "成矿地质体为卡拉麦里韧性剪切带，成矿构造与成矿结构面为NW-NWW向和NE-NEE向韧-脆性高角度逆冲断层，矿化蚀变及石英-电气石-多金属硫化物脉、硅化-毒砂-黄铁矿化蚀变为直接找矿标志",
+"age_ma": "成矿时代314.1±3.0Ma，晚于赋矿姜巴斯套组晶屑凝灰岩（339.4±1.9Ma、336.3±2.6Ma）及玄武粗面安山岩（319.8±2Ma）的成岩年龄"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔地区",
+"attributes": {
+"name": "东准噶尔地区",
+"level": "区域",
+"tectonic_setting": "新疆东准噶尔南明水一带的金成矿区，包括卡拉麦里地区等造山型金矿集中分布区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "卡拉麦里地区",
+"attributes": {
+"name": "卡拉麦里地区",
+"level": "成矿区",
+"tectonic_setting": "东准噶尔地区内的造山型金成矿区，南明水金矿床是该区典型的造山型金矿床之一"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "姜巴斯套组晶屑凝灰岩",
+"attributes": {
+"name": "姜巴斯套组晶屑凝灰岩",
+"age": "成岩年龄为339.4±1.9Ma和336.3±2.6Ma，早于南明水金矿床成矿时代",
+"dominant_lithology": "晶屑凝灰岩",
+"lithology_notes": "为赋矿姜巴斯套组的一部分，是与南明水金矿床成矿密切相关的地层单元之一"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "姜巴斯套组赋矿晶屑凝灰岩围岩单元",
+"attributes": {
+"name": "姜巴斯套组赋矿晶屑凝灰岩围岩单元"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里韧性剪切带",
+"attributes": {
+"name": "卡拉麦里韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "整体受NW-NWW向构造线控制",
+"scale": "卡拉麦里地区成矿地质体，为区域性强变形带",
+"ore_control_role": "为南明水金矿床的成矿地质体，控制含金矿脉及成矿构造、成矿结构面的形成与展布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "NW-NWW向韧-脆性高角度逆冲断层",
+"attributes": {
+"name": "NW-NWW向韧-脆性高角度逆冲断层",
+"structure_type": "韧-脆性高角度逆冲断层",
+"orientation": "NW-NWW向",
+"scale": "分布于卡拉麦里韧性剪切带内部的成矿构造",
+"ore_control_role": "为成矿构造与成矿结构面之一，含金矿脉赋存其中，是南明水金矿床的重要控矿断层"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "NE-NEE向韧-脆性高角度逆冲断层",
+"attributes": {
+"name": "NE-NEE向韧-脆性高角度逆冲断层",
+"structure_type": "韧-脆性高角度逆冲断层",
+"orientation": "NE-NEE向",
+"scale": "分布于卡拉麦里韧性剪切带内部的成矿构造",
+"ore_control_role": "为成矿构造与成矿结构面之一，与NW-NWW向断层共同控制南明水金矿床含金矿脉的空间展布"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化-毒砂-黄铁矿化蚀变",
+"attributes": {
+"name": "硅化-毒砂-黄铁矿化蚀变",
+"alteration_minerals": "石英（硅化）、毒砂、黄铁矿等矿物组成的蚀变组合",
+"intensity": "在南明水金矿床及其外围广泛发育，为成矿作用中的矿化蚀变特征，是“三位一体”找矿预测中重要的直接找矿标志"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物及含金矿脉的重要组成矿物",
+"paragenesis": "与电气石及多金属硫化物共同组成石英-电气石-多金属硫化物脉，并与毒砂、黄铁矿等矿物共生，是造山型金矿石英脉的重要载体"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "电气石",
+"attributes": {
+"name": "电气石",
+"role_in_ore": "与成矿石英脉密切相关的脉石矿物",
+"paragenesis": "与石英、多金属硫化物共同组成石英-电气石-多金属硫化物脉，是南明水金矿床“三位一体”找矿预测模型中重要的示踪矿物之一"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "多金属硫化物",
+"attributes": {
+"name": "多金属硫化物",
+"role_in_ore": "含金及伴生金属元素的主要金属矿物组合",
+"paragenesis": "与石英、电气石共同组成石英-电气石-多金属硫化物脉，其中包括毒砂、黄铁矿等多种硫化物矿物，是金矿化的重要承载者"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "重要含金砷硫化物矿物，与金矿化密切相关",
+"paragenesis": "参与形成石英-电气石-多金属硫化物脉和硅化-毒砂-黄铁矿化蚀变组合，与石英、黄铁矿等共生，是造山型金矿中常见的载金矿物之一"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "重要含金硫化物矿物及金矿化指示矿物",
+"paragenesis": "与毒砂共同组成硅化-毒砂-黄铁矿化蚀变带，并出现于石英-电气石-多金属硫化物脉中，是南明水金矿床矿化蚀变中常见的金属矿物"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Fluid",
+"name_zh": "南明水金矿床成矿流体",
+"attributes": {
+"nature": "中高温、低盐度、富CO2的还原性成矿流体",
+"source": "H、O、S、Pb同位素示踪表明成矿流体以变质水为主，硫和铅主要来源于地层"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "H-O",
+"parameter_name": "氢氧同位素示踪成矿流体性质与来源",
+"value_range": "氢氧同位素示踪结果表明成矿流体以变质水为主，指示变质水成矿成分占优势"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "S",
+"parameter_name": "硫同位素示踪成矿物质来源",
+"value_range": "硫同位素示踪结果显示成矿体系中的硫主要源于地层，为层控物质来源特征"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "铅同位素参数",
+"attributes": {
+"system": "Pb",
+"parameter_name": "铅同位素示踪成矿物质来源",
+"value_range": "铅同位素示踪结果表明成矿体系中的铅主要来源于地层，指示地层物质对成矿金属的贡献"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "南明水金矿床位于新疆东准噶尔地区，是该区域内的重要造山型金矿床之一"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "南明水金矿床是卡拉麦里地区典型的造山型金矿床之一"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "南明水金矿床含金矿脉赋存于姜巴斯套组赋矿晶屑凝灰岩围岩单元中发育的韧-脆性断裂内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "姜巴斯套组赋矿晶屑凝灰岩围岩单元在地层上属于姜巴斯套组晶屑凝灰岩地层单元"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿床成矿地质体为卡拉麦里韧性剪切带，矿体产出及含金矿脉展布总体受该韧性剪切带控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿床的成矿构造与成矿结构面之一为NW-NWW向韧-脆性高角度逆冲断层，含金矿脉赋存于该类断层中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "NE-NEE向韧-脆性高角度逆冲断层同样为南明水金矿床的成矿构造与成矿结构面，控制含金矿脉的空间分布"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "南明水金矿床成矿作用中发育硅化-毒砂-黄铁矿化蚀变，该蚀变类型被认为是矿区直接找矿标志"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "脉石矿物包括",
+"description": "南明水金矿床成矿阶段广泛发育石英-电气石-多金属硫化物脉，石英为该类含金脉体的主要脉石矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "脉石矿物包括",
+"description": "石英-电气石-多金属硫化物脉中的电气石与含金石英脉密切共生，是南明水金矿床“三位一体”找矿预测模型中的重要示踪矿物"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "南明水金矿床成矿过程中形成石英-电气石-多金属硫化物脉，多金属硫化物为金及伴生金属元素的主要承载矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "毒砂参与形成石英-电气石-多金属硫化物脉及硅化-毒砂-黄铁矿化蚀变组合，是南明水金矿床中与金矿化密切相关的含金砷硫化物矿物"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铁矿广泛分布于硅化-毒砂-黄铁矿化蚀变带和石英-电气石-多金属硫化物脉中，是南明水金矿床的重要含金硫化物矿物之一"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "对应成矿流体为",
+"description": "南明水金矿床的主成矿流体为中高温、低盐度、富CO2的还原性流体，是造山型金矿成矿体系的重要特征之一"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素示踪结果表明南明水金矿床成矿流体以变质水为主，对成矿流体性质与来源提供约束"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素示踪结果显示成矿体系中的硫主要来源于地层，约束成矿物质中硫的来源特征"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素示踪结果表明成矿体系中的铅主要来源于地层，为南明水金矿床成矿物质来源提供约束信息"
+}
+]
+}

@@ -1,0 +1,58 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0295",
+"title": "阿尔泰南缘托库孜巴依金矿激电勘查及深部找矿指示_孔繁良",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床",
+"attributes": {
+"name": "托库孜巴依金矿床",
+"location": "新疆阿尔泰南缘",
+"tectonic_position": "新疆阿尔泰南缘多金属成矿带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "为查明控矿构造并圈定找矿靶区，开展激电中梯扫面与激电测深工作；高极化异常与深部矿体具有对应关系"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆阿尔泰南缘多金属成矿带",
+"attributes": {
+"name": "新疆阿尔泰南缘多金属成矿带",
+"level": "多金属成矿带",
+"tectonic_setting": "阿尔泰南缘区域多金属成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Geophysics",
+"name_zh": "激电低阻高极化异常",
+"attributes": {
+"anomaly_type": "激电中梯极化率异常（低阻高极化）",
+"amplitude": "圈定高极化异常带3条、极化率异常10处，其中η.6、η.7、η.8、η.10异常强度和规模较大",
+"spatial_pattern": "结合激电测深剖面解译异常体规模、产状与深部延伸；钻探验证η.6、η.7、η.8异常深部见金矿体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿位于新疆阿尔泰南缘多金属成矿带。"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "显示",
+"description": "矿区激电中梯扫面圈定高极化异常带3条、10处极化率异常，η.6、η.7、η.8、η.10异常强度和规模较大；测深与钻探验证表明η.6、η.7、η.8异常深部见金矿体。"
+}
+]
+}

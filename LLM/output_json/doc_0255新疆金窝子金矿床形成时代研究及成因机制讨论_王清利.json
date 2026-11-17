@@ -1,0 +1,262 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0255",
+"title": "新疆金窝子金矿床形成时代研究及成因机制讨论_王清利",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金窝子金矿床",
+"attributes": {
+"name": "金窝子金矿床",
+"location": "新疆哈密市与甘肃省安西县交界地带",
+"tectonic_position": "星星峡古生代岛弧南缘、红柳河断裂以南、东天山—北山金矿集中区东段（塔里木地台东北部）",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿石金品位一般大于8×10^-6（约8克/吨），最高可达100×10^-6（约100克/吨）",
+"ore_control_features": "矿床产于金窝子花岗闪长岩体及其围岩中，含金石英脉多充填于岩体内断裂破碎带；矿体形态多为脉状、透镜状，分枝复合、膨胀狭缩，脉间距约20～100m；矿体多受近南北向断裂控制；南矿区（210金矿）产于金窝子组凝灰质砂岩蚀变破碎带中；矿床形成时代与区域韧性剪切带活动时代一致，表现出明显的区域构造控制",
+"age_ma": "243.2±1.8Ma（约243Ma，早三叠世）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东天山—北山金矿集中区东段",
+"attributes": {
+"name": "东天山—北山金矿集中区东段",
+"level": "金矿集中区",
+"tectonic_setting": "红柳河断裂以南的东天山—北山地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统金窝子组",
+"attributes": {
+"name": "上泥盆统金窝子组",
+"age": "晚泥盆世",
+"dominant_lithology": "凝灰质砂岩—火山碎屑沉积岩系",
+"lithology_notes": "以凝灰质砂岩、凝灰岩等为主，夹炭质板岩、钙质砂岩，并含少量碳酸盐岩及中酸性—中基性火山岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "金窝子花岗闪长岩体内断裂破碎带",
+"attributes": {
+"name": "金窝子花岗闪长岩体内断裂破碎带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "金窝子组凝灰质砂岩蚀变破碎带（南矿区210金矿）",
+"attributes": {
+"name": "金窝子组凝灰质砂岩蚀变破碎带（南矿区210金矿）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "金窝子花岗闪长岩体",
+"attributes": {
+"name": "金窝子花岗闪长岩体",
+"rock_type": "花岗闪长岩",
+"age": "354Ma（全岩Rb-Sr等时线年龄）；358.6Ma（锆石U-Pb年龄）",
+"relationship_to_ore": "矿区主要岩体，含金石英脉主要产于岩体内断裂破碎带及其附近"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "秋格明塔什—黄山韧性剪切带",
+"attributes": {
+"name": "秋格明塔什—黄山韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "近东西向延伸",
+"scale": "区域级（东西长约600km，宽约5～20km）",
+"ore_control_role": "金窝子金矿形成时代与该区域韧性剪切带走滑活动时代一致，指示矿床受区域构造强烈控制"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "近南北向断裂",
+"attributes": {
+"name": "近南北向断裂",
+"structure_type": "断裂",
+"orientation": "近南北向",
+"scale": "矿区级",
+"ore_control_role": "矿体多受近南北向断裂控制，控制含金石英脉及矿体展布"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "北东—北东东向断裂",
+"attributes": {
+"name": "北东—北东东向断裂",
+"structure_type": "断裂",
+"orientation": "北东—北东东向",
+"scale": "矿区级",
+"ore_control_role": "为主要控矿、容矿构造，控制含金石英脉及金矿化在破碎带中的分布"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化—硅化—碳酸盐化",
+"attributes": {
+"name": "黄铁绢英岩化—硅化—碳酸盐化",
+"alteration_minerals": "黄铁矿、石英、绢云母、方解石",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与银金矿共生，产于含金石英脉及蚀变破碎带矿石中"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与自然金共生，产于含金石英脉及蚀变破碎带矿石中"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "为最主要的金属硫化物矿物，与石英、绢云母、方解石等共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "金元素品位数据",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "8×10^-6",
+"anomaly_pattern": "矿石金品位一般大于8×10^-6，最高可达100×10^-6"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金窝子金矿床位于东天山—北山金矿集中区东段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "金窝子金矿床含金石英脉主要赋存于金窝子花岗闪长岩体内断裂破碎带中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "南矿区（210金矿）矿化主要赋存于金窝子组凝灰质砂岩蚀变破碎带中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "金窝子组凝灰质砂岩蚀变破碎带（南矿区210金矿）属于上泥盆统金窝子组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "金窝子花岗闪长岩体侵入上泥盆统金窝子组地层中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "金窝子金矿形成时代与秋格明塔什—黄山韧性剪切带走滑活动时代一致，矿床受区域韧性剪切带控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "北东—北东东向断裂为主要控矿、容矿构造，控制含金石英脉及金矿化在破碎带中的分布"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "矿体多受近南北向断裂控制，矿体呈脉状、透镜状展布并具有膨胀狭缩特征"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "金窝子金矿床围岩蚀变以黄铁绢英岩化为主，并伴随硅化和碳酸盐化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "金窝子金矿床的主要金矿物之一为自然金"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床金矿物包括银金矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床主要金属硫化物矿物为黄铁矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "金窝子金矿床矿石金品位一般大于8×10^-6，最高可达100×10^-6"
+}
+]
+}

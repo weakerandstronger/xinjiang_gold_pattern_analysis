@@ -1,0 +1,261 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0174",
+"title": "新疆哈密市野马泉西一带成矿地质条件及金矿找矿潜力分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "野马泉西金矿床",
+"attributes": {
+"name": "野马泉西金矿床",
+"location": "新疆哈密市野马泉西一带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "化探异常区位于中石炭统梧桐窝子群与花岗岩接触带附近；区内石英脉发育，凝灰岩裂隙面见微量孔雀石；动力变质作用强、褶皱带发育为中酸性斑岩体侵位提供空间"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆哈密市野马泉西一带工作区",
+"attributes": {
+"name": "新疆哈密市野马泉西一带工作区",
+"level": "工作区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中石炭统梧桐窝子群（C₂W）",
+"attributes": {
+"name": "中石炭统梧桐窝子群（C₂W）",
+"age": "中石炭统",
+"lithology_notes": "化探异常出露地层为中石炭统梧桐窝子群，异常位于其与花岗岩接触带附近"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "梧桐窝子群与花岗岩接触带附近地层",
+"attributes": {
+"name": "梧桐窝子群与花岗岩接触带附近地层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "花岗岩",
+"attributes": {
+"name": "花岗岩",
+"rock_type": "花岗岩",
+"relationship_to_ore": "与中石炭统梧桐窝子群接触带附近对应Au、Cu、Mo化探异常"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "中酸性斑岩体",
+"attributes": {
+"name": "中酸性斑岩体",
+"rock_type": "中酸性斑岩体",
+"relationship_to_ore": "地表动力变质作用强、褶皱带发育为其侵位提供空间，接触部位可能具有斑岩型矿体找矿潜力"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "褶皱带",
+"attributes": {
+"name": "褶皱带",
+"structure_type": "褶皱带",
+"ore_control_role": "褶皱带发育为中酸性斑岩体侵位提供空间"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "凝灰岩裂隙",
+"attributes": {
+"name": "凝灰岩裂隙",
+"structure_type": "裂隙",
+"ore_control_role": "石英脉在凝灰岩裂隙面发育并见微量孔雀石"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geophysics",
+"name_zh": "磁异常梯度带",
+"attributes": {
+"anomaly_type": "磁异常（△T）",
+"amplitude": "△T异常值最高151.28nT",
+"spatial_pattern": "异常长1500—200米、宽300—400米，有两个异常中心，西端向北转弯，周围为负磁异常"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geophysics",
+"name_zh": "重力梯度带",
+"attributes": {
+"anomaly_type": "重力梯度带",
+"spatial_pattern": "在重力梯度带中对应有Au、Cu异常"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "金（Au）化探异常",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "2×10⁻⁹",
+"anomaly_pattern": "1:20万化探异常对应Au异常，异常套合较好，面积约10平方千米；与重力梯度带对应并在接触带附近出现高值"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "铜（Cu）化探异常",
+"attributes": {
+"element": "铜（Cu）",
+"value_ppm": "50.8×10⁻⁶",
+"anomaly_pattern": "1:20万化探异常对应Cu异常并与Au、Mo异常套合较好；在重力梯度带中亦对应Cu异常"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "钼（Mo）化探异常",
+"attributes": {
+"element": "钼（Mo）",
+"value_ppm": "1.2×10⁻⁶",
+"anomaly_pattern": "1:20万化探异常对应Mo异常并与Au、Cu异常套合较好；Mo异常最高值1.2×10⁻⁶，异常中心在工区外"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "地表石英脉较发育"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "孔雀石",
+"attributes": {
+"name": "孔雀石",
+"role_in_ore": "指示矿物",
+"paragenesis": "凝灰岩裂隙面发育微量孔雀石"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "野马泉西一带金矿找矿靶区位于新疆哈密市野马泉西一带工作区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "找矿靶区重点位于梧桐窝子群与花岗岩接触带附近地层"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "梧桐窝子群与花岗岩接触带附近地层属于中石炭统梧桐窝子群（C₂W）出露范围"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "花岗岩与中石炭统梧桐窝子群形成接触带，异常主要分布于接触带附近"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "褶皱带发育并与动力变质作用共同为中酸性斑岩体侵位提供空间，从而影响成矿潜力"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "凝灰岩裂隙为石英脉赋存部位并见微量孔雀石，反映裂隙对矿化与异常的指示意义"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "工作区处于磁异常梯度带中，△T异常最高151.28nT并呈带状展布"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "找矿靶区处于重力梯度带中并对应Au、Cu异常"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "找矿靶区对应Au化探异常，高值Au为2×10⁻⁹且与Cu、Mo异常套合较好"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "找矿靶区对应Cu化探异常，高值Cu为50.8×10⁻⁶并与Au、Mo异常套合较好"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "找矿靶区对应Mo化探异常，Mo异常最高值为1.2×10⁻⁶且异常中心在工区外"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "找矿靶区地表石英脉较发育，以石英为主要脉石矿物"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "凝灰岩裂隙面发育微量孔雀石并对应化探、物探异常"
+}
+]
+}

@@ -1,0 +1,547 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0119",
+"title": "新疆红石金矿床原生晕特征与隐伏矿预测",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "红石金矿床",
+"attributes": {
+"name": "红石金矿床",
+"location": "新疆鄯善县城东南直距约110 km，矿区中心地理坐标东经90°50′45″、北纬42°03′36″，面积0.9497 km²",
+"tectonic_position": "塔里木板块北缘觉罗塔格晚古生代岛弧带（康古尔塔格金矿带中西部）",
+"ore_control_features": "矿体赋存于下石炭统干墩岩组第一岩性段上亚段（C₁g¹⁻²）与下亚段（C₁g¹⁻¹）接触部位，产出受康古尔韧-脆性剪切带及次级断裂控制，其交汇处为矿体富集部位；矿体分布于两条雁列式展布的含金矿带L₁、L₂中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆鄯善县",
+"attributes": {
+"name": "新疆鄯善县",
+"level": "县",
+"tectonic_setting": "矿区位于鄯善县城东南方向"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "康古尔塔格金矿带",
+"attributes": {
+"name": "康古尔塔格金矿带",
+"level": "金矿带",
+"tectonic_setting": "矿区位于其中心西部"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "塔里木板块北缘觉罗塔格晚古生代岛弧带",
+"attributes": {
+"name": "塔里木板块北缘觉罗塔格晚古生代岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "塔里木板块北缘晚古生代岛弧构造环境"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统干墩岩组第一岩性段上亚段（C₁g¹⁻²）",
+"attributes": {
+"name": "下石炭统干墩岩组第一岩性段上亚段（C₁g¹⁻²）",
+"age": "下石炭统"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统干墩岩组第一岩性段下亚段（C₁g¹⁻¹）",
+"attributes": {
+"name": "下石炭统干墩岩组第一岩性段下亚段（C₁g¹⁻¹）",
+"age": "下石炭统"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "干墩岩组第一岩性段上、下亚段接触部位",
+"attributes": {
+"name": "干墩岩组第一岩性段上亚段（C₁g¹⁻²）与下亚段（C₁g¹⁻¹）接触部位"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "片理化蚀变凝灰质砂岩、粉砂岩围岩",
+"attributes": {
+"name": "灰色、绿灰色片理化蚀变凝灰质砂岩、粉砂岩围岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "雅满苏断裂",
+"attributes": {
+"name": "雅满苏断裂",
+"structure_type": "断裂",
+"scale": "区域",
+"ore_control_role": "矿床位于其北侧约1.3 km"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "康古尔韧-脆性剪切带",
+"attributes": {
+"name": "康古尔韧-脆性剪切带",
+"structure_type": "剪切带",
+"scale": "区域",
+"ore_control_role": "矿体产出特征明显受其控制"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "次级断裂",
+"attributes": {
+"name": "次级断裂",
+"structure_type": "断裂",
+"scale": "矿区",
+"ore_control_role": "与剪切带交汇处为矿体富集部位"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"intensity": "以硅化为主"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "以绢云母化为主"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿",
+"intensity": "以褐铁矿化为主"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "钾化",
+"attributes": {
+"name": "钾化",
+"alteration_minerals": "钾长石",
+"intensity": "以钾化为主"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金属矿物",
+"paragenesis": "矿石金属矿物之一"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "矿化阶段包括黄铁矿-绢云母-石英阶段等"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "矿石金属矿物之一"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "矿化阶段包括金-黄铁矿-磁铁矿-石英阶段"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "斑铜矿",
+"attributes": {
+"name": "斑铜矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "矿石金属矿物之一"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "铜蓝",
+"attributes": {
+"name": "铜蓝",
+"role_in_ore": "金属矿物",
+"paragenesis": "矿石金属矿物之一"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Geochem",
+"name_zh": "金（Au）地球化学异常",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "原生晕轴向分带序列Bi-Mo-Hg-Zn-Pb-Ag-As-Cu-Sb-Au中为尾部元素，1080 m以下至900 m水平Au含量增加趋势较明显"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）地球化学异常",
+"attributes": {
+"element": "Sb",
+"anomaly_pattern": "原生晕轴向分带序列中为尾部元素之一，Sb含量从地表向1080 m急剧增高、至1000 m急剧变小、至900 m再次急剧增高，表现为多次叠加的折线变化"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Geochem",
+"name_zh": "铜（Cu）地球化学异常",
+"attributes": {
+"element": "Cu",
+"anomaly_pattern": "原生晕轴向分带序列中为尾部元素之一，地表至1080 m含量明显增长，1080 m以下呈幅度较小的单调变小趋势"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Geochem",
+"name_zh": "铋（Bi）地球化学异常",
+"attributes": {
+"element": "Bi",
+"anomaly_pattern": "原生晕轴向分带序列中为前缘元素之一（Bi-Mo-Hg为前缘元素），并具有逆向分带特征"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Geochem",
+"name_zh": "钼（Mo）地球化学异常",
+"attributes": {
+"element": "Mo",
+"anomaly_pattern": "原生晕轴向分带序列中为前缘元素之一（Bi-Mo-Hg为前缘元素），并具有逆向分带特征"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Geochem",
+"name_zh": "汞（Hg）地球化学异常",
+"attributes": {
+"element": "Hg",
+"anomaly_pattern": "原生晕轴向分带序列中为前缘元素之一（Bi-Mo-Hg为前缘元素），在1080 m以下迅速减少至1000 m但并非单调减少，900 m水平又有上升"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Geochem",
+"name_zh": "砷（As）地球化学异常",
+"attributes": {
+"element": "As",
+"anomaly_pattern": "原生晕轴向分带序列中位于Ag与Cu之间，900-960 m水平指示元素组合为As-Au-Zn-Mo-Hg"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Geochem",
+"name_zh": "锌（Zn）地球化学异常",
+"attributes": {
+"element": "Zn",
+"anomaly_pattern": "原生晕轴向分带序列中位于Hg之后，900-960 m水平指示元素组合为As-Au-Zn-Mo-Hg，1080 m水平指示元素组合为Hg-Sb-Zn"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "Geochem",
+"name_zh": "铅（Pb）地球化学异常",
+"attributes": {
+"element": "Pb",
+"anomaly_pattern": "原生晕轴向分带序列中位于Zn之后，1000 m水平指示元素组合为Bi-Pb"
+}
+},
+{
+"entity_local_id": "E31",
+"entity_type": "Geochem",
+"name_zh": "银（Ag）地球化学异常",
+"attributes": {
+"element": "Ag",
+"anomaly_pattern": "原生晕轴向分带序列中位于Pb之后，为轴向分带序列组成元素之一"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "红石金矿床位于新疆鄯善县城东南方向直距约110 km处"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "红石金矿床位于康古尔塔格金矿带中西部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "红石金矿床地处塔里木板块北缘觉罗塔格晚古生代岛弧带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "红石金矿床矿体赋存于干墩岩组第一岩性段上亚段与下亚段的接触部位"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "红石金矿床矿体围岩岩性单一，几乎均为片理化蚀变凝灰质砂岩与粉砂岩"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "夹于",
+"description": "矿体赋存的接触部位位于下石炭统干墩岩组第一岩性段上亚段相关层位"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "夹于",
+"description": "矿体赋存的接触部位位于下石炭统干墩岩组第一岩性段下亚段相关层位"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "位于断裂北侧",
+"description": "红石金矿床位于雅满苏断裂北侧约1.3 km"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "红石金矿床矿体产出特征明显受康古尔韧-脆性剪切带控制"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "红石金矿床矿体受次级断裂控制，剪切带与次级断裂交汇处为矿体富集部位"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "红石金矿床蚀变以硅化为主"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "红石金矿床蚀变以绢云母化为主"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "红石金矿床蚀变以褐铁矿化为主"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "红石金矿床蚀变以钾化为主"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要金矿物为",
+"description": "红石金矿床金属矿物包括自然金"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "红石金矿床金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "红石金矿床金属矿物包括黄铜矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "红石金矿床矿化阶段中出现磁铁矿"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "红石金矿床金属矿物包括斑铜矿"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "红石金矿床金属矿物包括铜蓝"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "显示",
+"description": "红石金矿床原生晕轴向分带序列中Bi为前缘元素并表现逆向分带特征"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "显示",
+"description": "红石金矿床原生晕轴向分带序列中Mo为前缘元素并表现逆向分带特征"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "显示",
+"description": "红石金矿床原生晕轴向分带序列中Hg为前缘元素，垂直变化复杂并出现局部高含量聚集"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "显示",
+"description": "红石金矿床原生晕轴向分带序列中Cu为尾部元素，地表至1080 m含量明显增长而深部趋于减小"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "显示",
+"description": "红石金矿床原生晕轴向分带序列中Sb为尾部元素，含量变化剧烈并指示深部多次叠加的金矿化作用"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "显示",
+"description": "红石金矿床原生晕轴向分带序列中Au为尾部元素，1080 m以下至900 m水平Au含量增加趋势明显"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E28",
+"relation_label_zh": "显示",
+"description": "红石金矿床钻孔地球化学剖面900-960 m水平指示元素组合包含As并与Au、Zn、Mo、Hg共同出现"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E29",
+"relation_label_zh": "显示",
+"description": "红石金矿床钻孔地球化学剖面900-960 m与1080 m等不同水平指示元素组合中均出现Zn"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E30",
+"relation_label_zh": "显示",
+"description": "红石金矿床钻孔地球化学剖面1000 m水平指示元素组合为Bi-Pb"
+},
+{
+"relation_local_id": "R30",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E31",
+"relation_label_zh": "显示",
+"description": "红石金矿床原生晕轴向分带序列包含Ag并参与分带序列Bi-Mo-Hg-Zn-Pb-Ag-As-Cu-Sb-Au"
+}
+]
+}

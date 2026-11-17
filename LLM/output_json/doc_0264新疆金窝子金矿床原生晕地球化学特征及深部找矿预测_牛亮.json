@@ -1,0 +1,218 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0264",
+"title": "新疆金窝子金矿床原生晕地球化学特征及深部找矿预测_牛亮",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金窝子金矿床",
+"attributes": {
+"name": "金窝子金矿床",
+"location": "新疆哈密市南东直线距离约230km处",
+"tectonic_position": "中朝—塔里木板块与哈萨克斯坦板块俯冲碰撞带南缘的北山裂谷带马莲井复向斜核部偏北侧",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受断裂构造控制明显，控矿构造为金窝子岩体内发育的近SN向追踪张性断裂；矿体呈脉状、复脉状产出，沿走向具分枝复合、膨胀狭缩、尖灭再现等形态特征",
+"age_ma": "成矿时间晚于金窝子花岗闪长岩体约100Ma，与区域剪切带活动时代基本一致"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "北山裂谷带马莲井复向斜",
+"attributes": {
+"name": "北山裂谷带马莲井复向斜",
+"level": "复向斜",
+"tectonic_setting": "中朝—塔里木板块与哈萨克斯坦板块俯冲碰撞带南缘的北山裂谷构造环境"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "上泥盆统金窝子组",
+"attributes": {
+"name": "上泥盆统金窝子组"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统金窝子组",
+"attributes": {
+"name": "上泥盆统金窝子组",
+"age": "上泥盆统",
+"dominant_lithology": "火山岩—沉积碎屑岩系（轻微变质）",
+"lithology_notes": "主要岩性为沉凝灰岩、含砾沉凝灰岩、凝灰质砾岩、凝灰质砂岩、千枚岩夹泥质页岩和碳质板岩及少量薄层灰岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "近SN向追踪张性断裂",
+"attributes": {
+"name": "近SN向追踪张性断裂",
+"structure_type": "张性断裂",
+"orientation": "近SN向",
+"scale": "矿区级",
+"ore_control_role": "控矿构造，控制矿体（矿脉）展布与产出"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "金（晶隙金、裂隙金、包体金）",
+"attributes": {
+"name": "金（晶隙金、裂隙金、包体金）",
+"role_in_ore": "金矿物",
+"paragenesis": "主要在石英脉型矿化中以晶隙金、裂隙金和包体金形式产出"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Fluid",
+"name_zh": "岩浆热液—大气降水混合成矿流体",
+"attributes": {
+"nature": "岩浆热液与大气降水的混合流体",
+"source": "岩浆热液与大气降水混合",
+"temperature_C_min": "257",
+"temperature_C_max": "257"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Geochem",
+"name_zh": "金（Au）异常",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "从花岗闪长岩→弱蚀变岩→强蚀变岩含量逐渐升高，在石英脉中达峰值；在含金石英脉型矿化中原生晕发育最好"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geochem",
+"name_zh": "银（Ag）异常",
+"attributes": {
+"element": "银（Ag）",
+"anomaly_pattern": "从花岗闪长岩→弱蚀变岩→强蚀变岩含量逐渐升高，在石英脉中达峰值；在含金石英脉型矿化中原生晕发育较好"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "砷（As）（W）异常",
+"attributes": {
+"element": "砷（As）（W）",
+"anomaly_pattern": "在含金石英脉型矿化中Au、Ag、As（W）原生晕发育最好，原生晕剖面形态较完整"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "弱蚀变",
+"attributes": {
+"name": "弱蚀变",
+"intensity": "弱"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "强蚀变",
+"attributes": {
+"name": "强蚀变",
+"intensity": "强"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金窝子金矿床位于北山裂谷带马莲井复向斜核部偏北侧"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "金窝子金矿床赋矿地层主要为上泥盆统金窝子组"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "围岩单元上泥盆统金窝子组在地层归属上属于上泥盆统金窝子组地层单元"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "金窝子金矿床受金窝子岩体内近SN向追踪张性断裂控制明显"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要金矿物为",
+"description": "金窝子金矿床金矿物主要以晶隙金、裂隙金和包体金形式产出"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "对应成矿流体为",
+"description": "金窝子金矿床成矿流体主要为岩浆热液与大气降水的混合，均一温度平均值为257℃，属中—低温成矿"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "显示",
+"description": "金窝子金矿床中Au在花岗闪长岩→弱蚀变岩→强蚀变岩过程中逐渐升高，并在石英脉中达峰值"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "金窝子金矿床中Ag在花岗闪长岩→弱蚀变岩→强蚀变岩过程中逐渐升高，并在石英脉中达峰值"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "金窝子金矿床含金石英脉型矿化中Au、Ag、As（W）原生晕发育最好，原生晕剖面形态较完整"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "金窝子金矿床矿化过程中出现弱蚀变岩带"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "金窝子金矿床矿化过程中出现强蚀变岩带"
+}
+]
+}

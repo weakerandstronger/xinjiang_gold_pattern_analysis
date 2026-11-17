@@ -1,0 +1,270 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0251",
+"title": "新疆哈密马庄山金矿床的硫和铅同位素特征_江思宏",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "马庄山金矿床",
+"attributes": {
+"name": "马庄山金矿床",
+"location": "甘肃与新疆两省区交界处（新疆哈密地区马庄山一带）",
+"tectonic_position": "哈萨克斯坦板块红石山－黑鹰山地体西南边界附近",
+"deposit_type": "造山型金矿床",
+"ore_grade": "金含量一般（3～9）×10^-6，最高88.96×10^-6；银含量一般（20～40）×10^-6，最高287×10^-6",
+"resource_tonnage": "中型规模",
+"ore_control_features": "矿化在次火山岩体内呈脉状与浸染状产出；矿体主要由含金石英脉和含金次生石英岩组成，多呈脉状与透镜体状；明显受压扭性与张扭性断裂控制，矿体走向以近东西向、北东向和北西向为主，倾向北东向、近南北向和南东向，倾角35°～80°；矿体长50～900米，厚1～4米，最厚15.5米，倾斜延深大于100米，最大延深超过300米"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "哈密地区马庄山地区",
+"attributes": {
+"name": "哈密地区马庄山地区",
+"level": "地区",
+"tectonic_setting": "位于哈萨克斯坦板块红石山－黑鹰山地体西南边界附近，区域断裂构造发育且侵入岩分布广泛"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统白山组",
+"attributes": {
+"name": "下石炭统白山组",
+"age": "早石炭世",
+"dominant_lithology": "海相火山-沉积岩（中酸性火山岩与火山碎屑岩为主）",
+"lithology_notes": "上部为紫红色流纹岩、钙质砂质绢云板岩夹含砾凝灰质砂岩和灰岩透镜体；下部为灰绿色英安岩、英安质含砾凝灰岩、晶屑凝灰岩，底部为安山岩；地层总体走向约50°，倾向南东，倾角30～70°"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "次火山岩体（石英斑岩体）",
+"attributes": {
+"name": "次火山岩体（石英斑岩体）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "北东向压扭性断裂",
+"attributes": {
+"name": "北东向压扭性断裂",
+"structure_type": "压扭性断裂",
+"orientation": "北东向",
+"scale": "矿区级",
+"ore_control_role": "矿区内最为发育的断裂构造类型之一，挤压片理化带长2千米以上、宽约20～150米；与控矿断裂体系共同控制矿体（矿脉）产出"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "北西向、东西向及近南北向控矿断裂",
+"attributes": {
+"name": "北西向、东西向及近南北向控矿断裂",
+"structure_type": "断裂",
+"orientation": "北西向、东西向及近南北向",
+"scale": "矿区级",
+"ore_control_role": "为矿区主要控矿断裂类型，控制含金石英脉与含金次生石英岩矿体的展布与产状"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化—绢云母化—黄铁矿化—叶蜡石化",
+"attributes": {
+"name": "硅化—绢云母化—黄铁矿化—叶蜡石化",
+"alteration_minerals": "石英、绢云母、黄铁矿、叶蜡石",
+"intensity": "硅化强且与金矿化空间关系最密切"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物",
+"paragenesis": "与石英、绢云母、方解石、叶蜡石等脉石矿物共生，伴生黄铜矿、斑铜矿、方铅矿、铁闪锌矿、毒砂、赤铁矿和褐铁矿等"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "以粒状为主，粒径多为0.001～0.01毫米（个别可达0.04毫米）；多嵌布于石英、黄铁矿和褐铁矿边缘或晶隙中；赋存状态以裂隙金为主，其次为晶隙金和包裹金"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "金银矿物",
+"paragenesis": "与自然金及黄铁矿等金属硫化物矿物共生，产于含金石英脉与含金次生石英岩中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "马庄山金矿成矿流体",
+"attributes": {
+"nature": "岩浆热液",
+"source": "与次火山岩岩浆侵入活动密切相关"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（黄铁矿）",
+"value_range": "5.5‰～7.2‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "铅同位素参数",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "206Pb/204Pb、207Pb/204Pb、208Pb/204Pb（矿石硫化物）",
+"value_range": "206Pb/204Pb=18.301～18.465；207Pb/204Pb=15.546～15.620；208Pb/204Pb=38.128～39.031"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "金元素品位数据",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "（3～9）×10^-6",
+"anomaly_pattern": "最高值88.96×10^-6"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "银元素品位数据",
+"attributes": {
+"element": "银(Ag)",
+"value_ppm": "（20～40）×10^-6",
+"anomaly_pattern": "最高值287×10^-6"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "马庄山金矿床位于哈密地区马庄山地区的甘肃—新疆交界带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "马庄山金矿床矿化在次火山岩体内产出，次火山岩（石英斑岩体）为主要赋矿围岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "马庄山金矿床矿体受北东向压扭性断裂及其相关构造带控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "北西向、东西向及近南北向断裂为矿区主要控矿断裂，控制矿体（矿脉）展布与产状"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "马庄山金矿床围岩蚀变以硅化、绢云母化、黄铁矿化和叶蜡石化为主，其中硅化与金矿化空间关系最密切"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "马庄山金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "马庄山金矿床矿石中主要金属硫化物为黄铁矿，并伴生多种硫化物矿物"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "马庄山金矿床金银矿物包括银金矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "马庄山金矿床对应成矿流体为岩浆热液，且与次火山岩岩浆侵入活动密切相关"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿硫同位素δ34S为5.5‰～7.2‰，与岩浆硫同位素值相近，指示成矿流体硫主要来自岩浆热液"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "矿石硫化物铅同位素投点位于造山带附近且与石英斑岩铅同位素分布范围接近，暗示成矿流体与次火山作用具密切成因联系"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "马庄山金矿床矿体金含量一般为（3～9）×10^-6，最高为88.96×10^-6"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "马庄山金矿床矿体银含量一般为（20～40）×10^-6，最高为287×10^-6"
+}
+]
+}

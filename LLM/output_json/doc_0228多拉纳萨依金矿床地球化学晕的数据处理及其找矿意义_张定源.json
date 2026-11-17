@@ -1,0 +1,234 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0228",
+"title": "多拉纳萨依金矿床地球化学晕的数据处理及其找矿意义_张定源",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "多拉纳萨依金矿床",
+"attributes": {
+"name": "多拉纳萨依金矿床",
+"location": "新疆阿勒泰地区哈巴河县别列孜克河南岸，玛尔卡库里断裂南侧，布托别山背斜核部及东翼",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿化主要产在灰岩的构造破碎带内，尤以构造破碎带、蚀变闪长岩脉及硅质脉并存地段矿化更强烈；热液蚀变主要有硅化、云英岩化、黄铁矿化及钠长石化等"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆阿勒泰地区哈巴河县别列孜克河地区",
+"attributes": {
+"name": "新疆阿勒泰地区哈巴河县别列孜克河地区",
+"level": "地区",
+"tectonic_setting": "玛尔卡库里断裂南侧，布托别山背斜核部及东翼"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托克萨雷组",
+"attributes": {
+"name": "中泥盆统托克萨雷组",
+"age": "中泥盆统",
+"dominant_lithology": "千枚岩、绿泥石片岩、变凝灰质砂岩、灰岩夹板岩等",
+"lithology_notes": "矿区地层为中泥盆统托克萨雷组，灰岩遭受强烈变形并发育构造破碎带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "托克萨雷组灰岩（构造破碎带部位）",
+"attributes": {
+"name": "托克萨雷组灰岩（构造破碎带部位）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "灰岩构造破碎带",
+"attributes": {
+"name": "灰岩构造破碎带",
+"structure_type": "构造破碎带",
+"scale": "矿区级",
+"ore_control_role": "矿化主要产在灰岩构造破碎带内，并在构造破碎带、蚀变闪长岩脉及硅质脉并存地段更强烈"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "主要蚀变"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "云英岩化",
+"attributes": {
+"name": "云英岩化",
+"alteration_minerals": "石英、白云母等",
+"intensity": "主要蚀变"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "主要蚀变"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "钠长石化",
+"attributes": {
+"name": "钠长石化",
+"alteration_minerals": "钠长石",
+"intensity": "主要蚀变"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "硫化物矿化与成晕的重要载体矿物"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "砷铜矿",
+"attributes": {
+"name": "砷铜矿",
+"role_in_ore": "可能存在的硫化物矿物"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "多拉纳萨依金矿床原生晕与次生晕指示元素组合",
+"attributes": {
+"element": "金(Au)",
+"anomaly_pattern": "成矿元素组合以金(Au)-铋(Bi)-钨(W)-银(Ag)为主；原生晕与次生晕指示元素组合具有相似性，次生晕指示元素可见金(Au)、铋(Bi)、钨(W)、砷(As)、锑(Sb)、铜(Cu)、铅(Pb)、锌(Zn)、锰(Mn)、钡(Ba)、硼(B)等，且次生异常主要由原生晕或原生矿化体引起，可据次生异常场推断原生矿化"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长岩脉",
+"attributes": {
+"name": "闪长岩脉",
+"rock_type": "闪长岩",
+"relationship_to_ore": "在灰岩构造破碎带中可见强烈破碎并蚀变的闪长岩脉出露，与矿化增强地段共同出现"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于新疆阿勒泰地区哈巴河县别列孜克河地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "多拉纳萨依金矿床矿化主要赋存于托克萨雷组灰岩的构造破碎带部位"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "托克萨雷组灰岩（构造破碎带部位）属于中泥盆统托克萨雷组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "多拉纳萨依金矿床矿化主要受灰岩构造破碎带控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "多拉纳萨依金矿床热液蚀变主要包括硅化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "多拉纳萨依金矿床热液蚀变主要包括云英岩化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "多拉纳萨依金矿床热液蚀变主要包括黄铁矿化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "多拉纳萨依金矿床热液蚀变主要包括钠长石化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "多拉纳萨依金矿床矿化与硫化物蚀变成晕有关，黄铁矿为重要矿物之一"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "多拉纳萨依金矿床地球化学相关性分析指示可能存在砷铜矿等硫化物矿物"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "多拉纳萨依金矿床地球化学晕显示以金-铋-钨-银为主的成矿元素组合，并可据次生晕指示元素组合推断原生矿化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "矿区托克萨雷组地层中出露闪长岩脉，呈脉状产出于地层之内"
+}
+]
+}

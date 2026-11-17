@@ -1,0 +1,204 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0205",
+"title": "新疆齐求Ⅰ金矿床毒砂找矿矿物学研究_胡大干",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床（Ⅰ号）",
+"attributes": {
+"name": "齐求金矿床（Ⅰ号）",
+"location": "新疆西准噶尔地区，安其断裂与宝贝—齐求断裂交汇处",
+"tectonic_position": "天山—兴安地槽褶皱系西准噶尔海西期地槽褶皱带内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "断裂构造极为发育并严格控制矿体产出；主要控矿断裂呈NW、NE、NEE等方向展布，性质以压扭性为主；含金石英脉形态与产状受裂隙控制，一般呈脉状、透镜状产出，破碎带内常呈雁行式排列的脉群；矿石可划分为含金石英脉型与含金硫化物型两类，成矿作用可划分为石英—硫化物阶段、石英—自然金—硫化物阶段与碳酸盐阶段"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔海西期地槽褶皱带",
+"attributes": {
+"name": "西准噶尔海西期地槽褶皱带",
+"level": "地槽褶皱带",
+"tectonic_setting": "天山—兴安地槽褶皱系组成部分"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中上石炭统太勒古拉组",
+"attributes": {
+"name": "中上石炭统太勒古拉组",
+"age": "中上石炭世",
+"dominant_lithology": "轻微变质的火山—沉积建造",
+"lithology_notes": "主要岩石为轻微变质的变玄武岩、变辉绿岩、变硅质岩及变凝灰岩等"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中上石炭统包古图组",
+"attributes": {
+"name": "中上石炭统包古图组",
+"age": "中上石炭世",
+"dominant_lithology": "轻微变质的火山—沉积建造",
+"lithology_notes": "主要岩石为轻微变质的变玄武岩、变辉绿岩、变硅质岩及变凝灰岩等"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "轻微变质的变玄武岩、变辉绿岩、变硅质岩及变凝灰岩围岩",
+"attributes": {
+"name": "轻微变质的变玄武岩、变辉绿岩、变硅质岩及变凝灰岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "安其断裂与宝贝—齐求断裂交汇构造部位",
+"attributes": {
+"name": "安其断裂与宝贝—齐求断裂交汇构造部位",
+"structure_type": "断裂交汇",
+"orientation": "NW、NE、NEE等方向断裂组合",
+"scale": "矿区主要控矿断裂构造系统",
+"ore_control_role": "严格控制含金石英脉与矿体的产出位置、形态与产状，矿脉在破碎带内常呈雁行式排列"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "方解石等碳酸盐矿物",
+"intensity": "成矿作用晚期阶段通常仅发育方解石等碳酸盐矿物，含矿性较差"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "常见载金矿物与找矿标志矿物",
+"paragenesis": "形成于两个成矿阶段：早期石英—硫化物阶段毒砂多为菱形短柱状及穿插双晶状，不含金；晚期石英—自然金—硫化物阶段毒砂多为长柱状，富含金，常以细脉状、浸染状产于含金石英脉内部及邻近蚀变围岩中"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物之一",
+"paragenesis": "早期阶段与石英、毒砂共生并可见少量磁黄铁矿；晚期阶段与细粒石英、长柱状毒砂及自然金等共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "主要形成于石英—自然金—硫化物阶段，为最重要成矿阶段的标志矿物之一，与细粒石英、黄铁矿及长柱状毒砂等共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "早期石英—硫化物阶段以粗粒乳白色石英为主；晚期石英—自然金—硫化物阶段以细粒灰白色石英为主，并与硫化物及自然金共生"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "齐求Ⅰ金矿床位于西准噶尔海西期地槽褶皱带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "齐求Ⅰ金矿床位于安其断裂与宝贝—齐求断裂交汇处，断裂构造系统严格控制矿体与含金石英脉的产出"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "齐求Ⅰ金矿床赋矿围岩主要为轻微变质的变玄武岩、变辉绿岩、变硅质岩及变凝灰岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "矿区主要围岩岩性组合属于中上石炭统太勒古拉组地层出露范围"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "矿区主要围岩岩性组合属于中上石炭统包古图组地层出露范围"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "伴随有",
+"description": "齐求Ⅰ金矿床成矿作用晚期常发育方解石等碳酸盐化，但含矿性较差"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅰ金矿床含毒砂，且晚期形成的长柱状毒砂富含金，为重要找矿标志"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅰ金矿床硫化物矿物组合中常见黄铁矿，与不同阶段石英及毒砂共生"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "齐求Ⅰ金矿床最重要成矿阶段为石英—自然金—硫化物阶段，自然金为主要金矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅰ金矿床含金石英脉中石英为主要脉石矿物，早期以粗粒乳白色石英为主，晚期以细粒灰白色石英为主"
+}
+]
+}

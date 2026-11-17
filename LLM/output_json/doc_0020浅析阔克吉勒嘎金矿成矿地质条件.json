@@ -1,0 +1,379 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0020",
+"title": "浅析阔克吉勒嘎金矿成矿地质条件",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔克吉勒嘎金矿床",
+"attributes": {
+"name": "阔克吉勒嘎金矿床",
+"location": "阿克陶县木吉乡西南部，距喀什市约310 km，隶属阿克陶县木吉乡管辖",
+"tectonic_position": "位于喀拉昆仑Fe、Cu、Mo、Pb、Zn、Au、Sn、Sb等多矿种成矿带中，属西藏—三江地层大区羌塘地层区喀喇昆仑地层分区塔什库尔干—甜水海地层小区",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体赋存于S1W1-4层位灰绿色硬绿泥绢云千枚岩中的含褐铁矿、菱铁矿蚀变石英脉破碎带内，工区夹于恰特—奥依巴勒根断裂与乌孜别里山口断裂之间，韧性剪切带及脆-韧性断裂破碎带和次级断裂为主要控矿构造"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "喀拉昆仑成矿带",
+"attributes": {
+"name": "喀拉昆仑成矿带",
+"level": "成矿带",
+"tectonic_setting": "喀拉昆仑地块/陆缘盆地Fe、Cu、Mo、Pb、Zn、Au、Sn、Sb等多矿种组合成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "塔什库尔干—甜水海地层小区",
+"attributes": {
+"name": "塔什库尔干—甜水海地层小区",
+"level": "地层小区",
+"tectonic_setting": "隶属于西藏—三江地层大区羌塘地层区喀喇昆仑地层分区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "阿克陶县木吉乡",
+"attributes": {
+"name": "阿克陶县木吉乡",
+"level": "乡",
+"tectonic_setting": "位于新疆喀什地区阿克陶县西南部的高原山区"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "志留统温泉沟群",
+"attributes": {
+"name": "志留统温泉沟群",
+"age": "志留统",
+"dominant_lithology": "变质石英砂岩、绢云石英板岩、绿泥石英片岩、含碳板岩、粉砂岩等",
+"lithology_notes": "在工区中部和北部大面积出露，被划分为多个亚段，其中S1W1-3和S1W1-4层位与金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "长城系甜水海岩群",
+"attributes": {
+"name": "长城系甜水海岩群",
+"age": "长城系",
+"dominant_lithology": "灰色、灰白色绢云石英片岩、石英砂岩，间夹深灰色绢云板岩、变质细砂岩、薄层状灰岩等",
+"lithology_notes": "主要分布于恰特—奥依巴勒根断裂以北，与其他地质体多呈断层接触，地层走向近东西向"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "S1W1-4灰绿色硬绿泥绢云千枚岩围岩单元",
+"attributes": {
+"name": "S1W1-4灰绿色硬绿泥绢云千枚岩围岩单元"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "恰特—奥依巴勒根断裂",
+"attributes": {
+"name": "恰特—奥依巴勒根断裂",
+"structure_type": "区域性主干断裂",
+"orientation": "近东西向或北西西—南东东向展布",
+"scale": "穿过研究区的大型断裂构造，控制区域地层走向和构造格架",
+"ore_control_role": "与乌孜别里山口断裂共同控制金铜矿及地球化学异常的分布，是矿区主要控矿构造之一"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "乌孜别里山口断裂",
+"attributes": {
+"name": "乌孜别里山口断裂",
+"structure_type": "区域性主干断裂",
+"orientation": "总体近东西向或北西西—南东东向",
+"scale": "与恰特—奥依巴勒根断裂近于平行展布，构成控制工区的南界断裂",
+"ore_control_role": "与恰特—奥依巴勒根断裂共同夹持工区，控制构造格架、地层总体延伸及矿化分布"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "韧性剪切带及脆-韧性断裂破碎带",
+"attributes": {
+"name": "韧性剪切带及脆-韧性断裂破碎带",
+"structure_type": "韧性剪切带及脆-韧性断裂破碎带",
+"orientation": "总体呈北西西—南东东向，可顺层或与岩层斜交",
+"scale": "主要发育于F5与F10之间的地层中，为工区范围内最主要的局部构造",
+"ore_control_role": "为各矿化蚀变带的赋存部位，是控制金矿体分布和富集的关键控矿构造"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化—菱铁矿化—绢云母化—绿泥石化—孔雀石化蚀变组合",
+"attributes": {
+"name": "褐铁矿化—菱铁矿化—绢云母化—绿泥石化—孔雀石化蚀变组合",
+"alteration_minerals": "褐铁矿、菱铁矿、绢云母、绿泥石、孔雀石等矿物组成的综合蚀变组合",
+"intensity": "在矿点附近及石英脉破碎带中发育强烈，沿断裂和韧性剪切带连续分布，是寻找金矿的重要蚀变标志"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "金",
+"attributes": {
+"name": "金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "产于石英脉破碎带中，与菱铁矿化、褐铁矿化石英脉及铜矿物共生，褐黄色、破碎成粉末状或糖粒状的菱铁矿化石英脉含金性最好"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "菱铁矿",
+"attributes": {
+"name": "菱铁矿",
+"role_in_ore": "重要含铁脉石及指示性矿物",
+"paragenesis": "常呈团块状发育于石英脉裂隙面或晶洞中，常与褐铁矿和孔雀石共生，是石英脉破碎带+菱铁矿化组合的重要找矿标志"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "次生铁矿物及蚀变矿物",
+"paragenesis": "常见于石英脉破碎带中，常与菱铁矿、孔雀石等共同组成褐铁矿化带，为矿区普遍矿化现象之一"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "孔雀石",
+"attributes": {
+"name": "孔雀石",
+"role_in_ore": "次生铜矿物及找矿指示矿物",
+"paragenesis": "伴生于褐铁矿化、菱铁矿化的石英脉破碎带或局部绿泥绢云石英板岩中，是寻找金铜矿的重要指示矿物"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "绿泥石",
+"attributes": {
+"name": "绿泥石",
+"role_in_ore": "围岩及矿化带中的蚀变矿物",
+"paragenesis": "广泛发育于矿（化）带附近岩石中，与绢云母、石英等共生，是区内普遍的变质及蚀变矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "区域变质岩特征矿物及蚀变矿物",
+"paragenesis": "广泛发育于矿点附近岩石中，与绿泥石、石英等共生，反映区域变质及绢云母化蚀变作用"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "石英脉沿岩层走向分布或与走向斜交，常出现膨胀、收缩、尖灭—再现及分枝复合现象，石英脉破碎带中伴有菱铁矿、褐铁矿、孔雀石及金属矿物，是含金性的主要载体"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "铜兰",
+"attributes": {
+"name": "铜兰",
+"role_in_ore": "次生铜矿物",
+"paragenesis": "与菱铁矿、褐铁矿、孔雀石等共同出现在石英脉破碎带中，构成石英脉破碎带+菱铁矿化等组合的找矿标志"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Fluid",
+"name_zh": "阔克吉勒嘎金矿成矿流体",
+"attributes": {
+"nature": "浅变质—岩浆热液成矿流体",
+"source": "含金较高的碎屑岩矿源层在后期浅变质作用和岩浆作用下脱水形成的热液，经构造动力作用产生的层间裂隙、破碎带和断层运移、富集并汇聚成矿"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Geochem",
+"name_zh": "阔克吉勒嘎金矿地球化学异常",
+"attributes": {
+"element": "金、铜等金属元素",
+"value_ppm": "文中未给出具体含量，仅指出存在金铜矿及化探异常",
+"anomaly_pattern": "金铜矿及地球化学异常沿恰特—奥依巴勒根断裂和乌孜别里山口断裂等主干断裂分布，为断裂所控制"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿地处阿克陶县木吉乡西南部，行政区划隶属阿克陶县木吉乡管辖"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿位于喀拉昆仑Fe、Cu、Mo、Pb、Zn、Au、Sn、Sb等多矿种组合成矿带中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "阔克吉勒嘎金矿所在矿区隶属于西藏—三江地层大区羌塘地层区喀喇昆仑地层分区中的塔什库尔干—甜水海地层小区"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "阔克吉勒嘎金矿矿体赋存于S1W1-4层位灰绿色硬绿泥绢云千枚岩中的含褐铁矿、菱铁矿蚀变石英脉破碎带围岩单元内"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "S1W1-4灰绿色硬绿泥绢云千枚岩围岩单元属于志留统温泉沟群地层中的一部分"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "恰特—奥依巴勒根断裂为矿区北侧主干断裂之一，控制了金铜矿及地球化学异常的分布，对阔克吉勒嘎金矿具有重要控矿作用"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "乌孜别里山口断裂为矿区南侧主干断裂，与恰特—奥依巴勒根断裂共同控制构造格架和矿化分布，是阔克吉勒嘎金矿的重要控矿构造"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "赋存于",
+"description": "工区F5与F10之间形成的韧性剪切带及脆-韧性断裂破碎带是各矿化蚀变带及矿体的主要赋存部位，对阔克吉勒嘎金矿具有最直接的控矿作用"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "阔克吉勒嘎金矿区内褐铁矿化、菱铁矿化、绢云母化、绿泥石化及孔雀石化等综合蚀变广泛发育，是该矿床的典型矿化蚀变标志"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "阔克吉勒嘎金矿属于细脉浸染状金矿，矿体中以金为主要金矿物，集中于褐黄色菱铁矿化石英脉破碎带中"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "矿体产于石英脉破碎带中，常伴有团块状菱铁矿，是阔克吉勒嘎金矿重要的含铁脉石和指示性矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "褐铁矿化广泛见于石英脉破碎带，是阔克吉勒嘎金矿的普遍矿化现象之一"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "孔雀石化伴生于褐铁矿化、菱铁矿化石英脉破碎带及局部绿泥绢云石英板岩中，是该金矿的重要次生铜矿物和找矿标志"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "绿泥石化广泛发育于矿（化）带附近岩石中，是阔克吉勒嘎金矿围岩和矿化带中的重要蚀变矿物"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "绢云母化为区域变质岩的特征蚀变现象，矿点附近岩石中绢云母发育，与金矿化密切相关"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "脉石矿物包括",
+"description": "阔克吉勒嘎金矿矿体产于石英脉破碎带中，石英为主要脉石矿物，石英脉破碎带+菱铁矿化组合为重要找矿标志"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "矿体中伴有铜兰等次生铜矿物，与菱铁矿、褐铁矿、孔雀石等共同构成石英脉破碎带+菱铁矿化等组合的找矿标志"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "对应成矿流体为",
+"description": "阔克吉勒嘎金矿成矿流体与含金较高的碎屑岩矿源层在后期浅变质作用和岩浆作用下形成的浅变质—岩浆热液有关，经构造裂隙和破碎带运移富集成矿"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "显示",
+"description": "阔克吉勒嘎金矿区内金铜矿及化探异常明显，其空间分布受恰特—奥依巴勒根断裂和乌孜别里山口断裂等主干断裂控制"
+}
+]
+}

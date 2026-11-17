@@ -1,0 +1,293 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0178",
+"title": "新疆东天山红石金矿床成矿流体和成矿物质来源示踪_王义天",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "红石金矿床",
+"attributes": {
+"name": "红石金矿床",
+"location": "新疆东天山康古尔塔格金矿带西段，东距康古尔金矿约45千米，西距石英滩金矿约30千米",
+"tectonic_position": "秋格明塔什—黄山韧性剪切带南缘、阿奇山—雅满苏火山岩带北缘",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均金品位约4.0 g/t",
+"ore_control_features": "受区域剪切构造控制，含矿流体沿剪切系统上运并在剪切扩容空间中卸载富集成矿，矿体呈雁列式平行展布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "康古尔塔格金矿带",
+"attributes": {
+"name": "康古尔塔格金矿带",
+"level": "金矿带",
+"tectonic_setting": "东天山造山带中部秋格明塔什—黄山大型韧性剪切带南部边缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统干墩组",
+"attributes": {
+"name": "下石炭统干墩组",
+"age": "下石炭统",
+"dominant_lithology": "放射虫硅质岩、碎屑岩夹少量火山碎屑岩和薄层灰岩",
+"lithology_notes": "主要赋矿岩段岩性为灰绿色片理化细砂岩夹薄层状沉凝灰岩；地层普遍遭受糜棱岩化与片理化变形，形成糜棱岩—千糜岩—构造片岩系列组合"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "灰绿色片理化细砂岩夹薄层状沉凝灰岩赋矿岩段",
+"attributes": {
+"name": "灰绿色片理化细砂岩夹薄层状沉凝灰岩赋矿岩段"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "秋格明塔什—黄山韧性剪切带",
+"attributes": {
+"name": "秋格明塔什—黄山韧性剪切带",
+"structure_type": "大型韧性剪切带",
+"scale": "区域性",
+"ore_control_role": "为深源含矿流体提供上运通道并形成剪切扩容空间，控制康古尔塔格金矿带及红石金矿床的发育与矿体富集"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与石英、黄铁矿、方解石等共生，赋存于含金石英脉和含金蚀变糜棱岩中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物与重要载金矿物",
+"paragenesis": "与自然金、黄铜矿、方铅矿、闪锌矿等硫化物及石英、方解石、绿泥石等脉石矿物共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要金属硫化物之一",
+"paragenesis": "与黄铁矿及其他硫化物共生于含金石英脉和蚀变糜棱岩型矿石中"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "红石金矿床成矿流体",
+"attributes": {
+"nature": "中低温、低盐度、中低密度、富CO2流体，流体体系以H2O-CO2为主",
+"source": "成矿流体主要起源于深部，后期混合大气水",
+"temperature_C_min": "113",
+"temperature_C_max": "353",
+"salinity_wtNaCl_min": "1.05",
+"salinity_wtNaCl_max": "10.73"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "石英氢同位素δD",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD",
+"value_range": "-104‰～-63‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "包裹体水氧同位素δ18O_H2O",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O_H2O",
+"value_range": "-1.7‰～6.1‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "黄铁矿硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "-11.5‰～3.8‰"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "方解石碳同位素δ13C",
+"attributes": {
+"system": "碳同位素",
+"parameter_name": "δ13C",
+"value_range": "-3.5‰～-2.7‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "红石金矿床隶属于康古尔塔格金矿带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "红石金矿床受秋格明塔什—黄山韧性剪切带及其剪切系统控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "红石金矿床主要赋存于灰绿色片理化细砂岩夹薄层状沉凝灰岩的赋矿岩段中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "灰绿色片理化细砂岩夹薄层状沉凝灰岩赋矿岩段属于下石炭统干墩组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "红石金矿床围岩蚀变普遍发育硅化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "红石金矿床围岩蚀变普遍发育绿泥石化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "红石金矿床围岩蚀变普遍发育绢云母化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "红石金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "红石金矿床的共生金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "红石金矿床的共生金属矿物包括黄铜矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "红石金矿床主成矿阶段流体为中低温、低盐度、中低密度、富CO2的H2O-CO2流体"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "石英氢同位素δD指示红石金矿床成矿流体主要来源于深部并在后期受大气水混合影响"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "包裹体水氧同位素δ18O_H2O表明红石金矿床成矿流体接近变质水与岩浆水的混合并在晚期更靠近大气水"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿硫同位素δ34S指示硫具有接近陨石硫的深源特征，反映成矿物质与成矿流体的深部来源"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "方解石碳同位素δ13C指示成矿流体中碳具有深源岩浆碳与地层碳的混合来源特征"
+}
+]
+}

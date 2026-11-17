@@ -1,0 +1,244 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0209",
+"title": "新疆托里县齐求3号金矿成矿特征及成因分析_孙长亮",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床（3号）",
+"attributes": {
+"name": "齐求金矿床（3号）",
+"location": "新疆维吾尔自治区塔城地区托里县；普查区中心地理坐标东经84°34′23″、北纬46°02′22″",
+"tectonic_position": "哈萨克斯坦—准噶尔板块的西准噶尔古生代弧盆系；准噶尔成矿域之西准噶尔成矿带（扎伊尔金成矿带）；位于哈图断裂与安齐断裂之间的安齐断裂构造带内",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿体品位0.54～24.71×10^-6（按文中矿体统计表），主矿体平均品位约2.78×10^-6～6.24×10^-6（按文中各矿体平均品位）",
+"resource_tonnage": "矿石量3245287t，Au金属量9391.11kg",
+"ore_control_features": "矿体主要产于太勒古拉组火山岩中，受安齐—哈图断裂控矿；矿体形态与分布主要受断裂、裂隙及构造破碎带控制，石英脉破碎作用强烈，金矿化以石英脉为中心向两侧逐渐变弱；矿区共发现5条矿（化）带、7条矿（化）体，矿体多呈脉状与透镜体产出"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔成矿带（扎伊尔金成矿带）",
+"attributes": {
+"name": "西准噶尔成矿带（扎伊尔金成矿带）",
+"level": "成矿带",
+"tectonic_setting": "中亚成矿域重要组成部分；为巴尔喀什成矿带东延部分；区域断裂构造发育（哈图断裂、安齐断裂、达尔布特断裂等），金矿（化）点沿断裂带成带分布"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统太勒古拉组",
+"attributes": {
+"name": "下石炭统太勒古拉组",
+"age": "下石炭世",
+"dominant_lithology": "凝灰岩、凝灰质粉砂质泥岩及中基性喷发—沉积岩组合",
+"lithology_notes": "为矿区主要出露与主要赋矿地层，常见细粒凝灰岩、晶屑（火山灰层）凝灰岩、凝灰质粉砂质泥岩，伴玄武岩、安山岩、辉绿岩、碧玉岩、硅质岩等"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "太勒古拉组火山岩围岩（凝灰质砂岩、凝灰质粉砂岩及碳质凝灰质砂岩等）",
+"attributes": {
+"name": "太勒古拉组火山岩围岩（凝灰质砂岩、凝灰质粉砂岩及碳质凝灰质砂岩等）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "安齐—哈图断裂",
+"attributes": {
+"name": "安齐—哈图断裂",
+"structure_type": "断裂构造带",
+"orientation": "北东东向（NEE65°～75°）为主",
+"scale": "区域性控矿断裂系统",
+"ore_control_role": "为矿区主要控矿构造，控制矿体形态、规模及产出；次级断裂破碎带为成矿热液运移与金富集的重要通道，断裂带内常见石英脉充填并伴黄铁矿化等蚀变"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化为主的围岩蚀变（伴绢云母化、绿泥石化、碳酸盐化及黄铁矿化，局部毒砂化）",
+"attributes": {
+"name": "硅化为主的围岩蚀变（伴绢云母化、绿泥石化、碳酸盐化及黄铁矿化，局部毒砂化）",
+"alteration_minerals": "石英、绢云母、绿泥石、方解石等碳酸盐矿物、黄铁矿、毒砂",
+"intensity": "硅化为主要围岩蚀变类型，其次为绢云母化、绿泥石化、碳酸盐化；矿化富集区域常见黄铁矿化，局部见毒砂化；蚀变多受断裂破碎带控制并叠加形成"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物之一，与金矿化密切相关",
+"paragenesis": "成矿作用早期为黄铁矿—石英阶段，矿化富集区见黄铁矿化；自然金可嵌布于黄铁矿及其交代产物中"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物之一，局部矿化富集区出现",
+"paragenesis": "矿化富集区域局部见毒砂化；中期为石英—自然金—硫化物阶段，与黄铁矿等硫化物共同出现"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "金主要形成于中期石英—自然金—硫化物阶段；自然金可呈粒状赋存于黄铁矿、褐铁矿及石英等矿物中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物与主要载金体（含金石英脉）",
+"paragenesis": "矿区石英脉发育并破碎强烈，含金石英脉与破碎蚀变带型矿石均可见；早期为黄铁矿—石英阶段，中期为石英—自然金—硫化物阶段"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "齐求3号金矿成矿流体",
+"attributes": {
+"nature": "气液两相中温热液",
+"source": "早期以岩浆水为主，晚期混入大气降水（地下水）；成矿与隐伏岩体活动有关",
+"temperature_C_min": "210",
+"temperature_C_max": "250",
+"salinity_wtNaCl_min": "5",
+"salinity_wtNaCl_max": "7"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD、δ18O（H2O）",
+"value_range": "δD=-89‰～-75‰；δ18O（H2O）=5.3‰～6.5‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "-0.3‰～+1.4‰（齐求3号金矿黄铁矿样品）"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "齐求3号金矿床位于准噶尔成矿域西准噶尔成矿带（扎伊尔金成矿带）内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "齐求3号金矿床矿体主要产于太勒古拉组火山岩相关围岩中，含矿层多为破碎带并发育含金石英脉"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "太勒古拉组火山岩围岩（凝灰质砂岩、凝灰质粉砂岩及碳质凝灰质砂岩等）属于下石炭统太勒古拉组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "齐求3号金矿床控矿构造主要为安齐—哈图断裂系统，矿体形态与产出受断裂、裂隙及构造破碎带严格控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "齐求3号金矿床围岩蚀变以硅化为主，其次为绢云母化、绿泥石化、碳酸盐化，矿化富集区常见黄铁矿化并局部见毒砂化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求3号金矿床矿石矿物组合中包含黄铁矿，矿化富集区常见黄铁矿化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求3号金矿床矿石矿物组合中包含毒砂，矿化富集区局部见毒砂化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "齐求3号金矿床主要金矿物为自然金，金主要形成于中期石英—自然金—硫化物阶段"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求3号金矿床脉石矿物以石英为主，含金石英脉为金的主要载体"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "齐求3号金矿床成矿流体主要为气液两相中温热液，均一温度210℃～250℃、盐度5%～7%，早期以岩浆水为主、晚期混入大气降水（地下水）"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素显示矿区成矿流体投点主要位于岩浆水附近，晚期向大气水漂移，指示岩浆流体为主并混入大气降水（地下水）"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素表明硫源与岩浆有关，并可能主要来源于火山岩地层且部分来源于隐伏岩体"
+}
+]
+}

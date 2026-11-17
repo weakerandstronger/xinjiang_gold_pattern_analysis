@@ -1,0 +1,110 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0291",
+"title": "新疆哈巴河地区托库孜巴依金矿区两类含矿脉岩LA-ICP-MS锆石U-Pb年龄及其地质意义_周能武",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床",
+"attributes": {
+"name": "托库孜巴依金矿床",
+"location": "新疆阿勒泰地区哈巴河地区托库孜巴依",
+"tectonic_position": "额尔齐斯构造带分支构造玛尔卡库里韧性剪切带内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "位于玛尔卡库里韧性剪切带内；矿区内两类含矿脉岩（花岗斑岩脉与辉长闪长岩脉）较常见并与金矿化关系密切，脉岩侵位继承早期构造部位并叠加后期强韧性剪切部位，分别代表一期金矿化作用",
+"age_ma": "约384.4±1.5Ma（花岗斑岩脉阶段）与295.3±3.0Ma（辉长闪长岩脉阶段）对应的两期成矿作用"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯构造带",
+"attributes": {
+"name": "额尔齐斯构造带",
+"level": "构造带",
+"tectonic_setting": "西伯利亚板块与哈萨克斯坦-准噶尔板块之间的缝合线构造，构造带总体走向约310°"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里韧性剪切带",
+"attributes": {
+"name": "玛尔卡库里韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "北西向（与额尔齐斯构造带总体走向一致，约310°）",
+"scale": "额尔齐斯构造带的一个分支构造",
+"ore_control_role": "托库孜巴依金矿区位于该剪切带内，剪切活动及其叠加变形部位控制含矿脉岩的分布与金矿化过程"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托克萨雷组",
+"attributes": {
+"name": "中泥盆统托克萨雷组",
+"age": "中泥盆统",
+"dominant_lithology": "弧前盆地半深海相类复理石建造",
+"lithology_notes": "可见片岩、砂岩、页岩、灰岩、凝灰岩、砾岩等组合"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "花岗斑岩脉",
+"attributes": {
+"name": "花岗斑岩脉",
+"rock_type": "花岗斑岩（局部糜棱岩化钠长花岗斑岩）",
+"age": "384.1±1.5Ma、384.7±1.2Ma",
+"relationship_to_ore": "与金矿化关系密切，遭受强韧性剪切变形；在托库孜巴依金矿西段（哲兰德金矿区）部分矿体可赋存在该期脉岩中，代表一期金矿化作用"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉长闪长岩脉",
+"attributes": {
+"name": "辉长闪长岩脉",
+"rock_type": "辉长闪长岩（闪长岩脉）",
+"age": "295.3±3.0Ma",
+"relationship_to_ore": "与金矿化关系密切，多产于韧性剪切变形带初糜棱岩带内；韧性变形较弱，局部可构成规模较大的金矿体（如Au26），为一期重要成矿作用期"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "韧性剪切变形带初糜棱岩带",
+"attributes": {
+"name": "韧性剪切变形带初糜棱岩带"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿区位于额尔齐斯构造带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "托库孜巴依金矿区位于玛尔卡库里韧性剪切带内，矿区地质过程与金矿化受韧性剪切活动及其叠加变形部位控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "花岗斑岩脉形成于中泥盆世弧前盆地演化阶段，其侵位年龄与中泥盆统托克萨雷组时代相当"
+}
+]
+}

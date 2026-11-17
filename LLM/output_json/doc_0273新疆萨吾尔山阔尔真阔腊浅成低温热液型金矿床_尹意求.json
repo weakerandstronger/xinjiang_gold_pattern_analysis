@@ -1,0 +1,278 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0273",
+"title": "新疆萨吾尔山阔尔真阔腊浅成低温热液型金矿床_尹意求",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔尔真阔腊金矿床",
+"attributes": {
+"name": "阔尔真阔腊金矿床",
+"location": "新疆萨吾尔山地区（准噶尔盆地北西缘）",
+"tectonic_position": "海西期萨吾尔山古岛弧构造环境",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿床产于北西西向阔尔真阔腊倒转复式背斜核部，受北西西向断裂构造控制；辉石安山质隐爆角砾岩筒为控矿火山机构；岩浆演化最晚期的钠长斑岩脉直接控制矿体空间展布",
+"age_ma": "海西晚期（形成时代晚于281百万年和240百万年事件，且与约240百万年更接近）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "萨吾尔山古岛弧带",
+"attributes": {
+"name": "萨吾尔山古岛弧带",
+"level": "构造带",
+"tectonic_setting": "海西期古岛弧构造环境（准噶尔盆地北西缘）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统萨吾尔山组",
+"attributes": {
+"name": "中泥盆统萨吾尔山组",
+"age": "中泥盆世",
+"dominant_lithology": "岛弧型富钠质安山岩建造",
+"lithology_notes": "主要岩性包括灰绿色安山玢岩、灰绿色晶屑凝灰岩及热水沉积的暗色硅质岩，为容矿地层"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "萨吾尔山组富钠质安山岩建造",
+"attributes": {
+"name": "萨吾尔山组富钠质安山岩建造"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "北西西向断裂构造",
+"attributes": {
+"name": "北西西向断裂构造",
+"structure_type": "断裂",
+"orientation": "北西西向",
+"scale": "矿区尺度",
+"ore_control_role": "控制矿床（矿体）产出与展布"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "辉石安山质隐爆角砾岩筒",
+"attributes": {
+"name": "辉石安山质隐爆角砾岩筒",
+"structure_type": "火山机构（隐爆角砾岩筒）",
+"scale": "矿区尺度",
+"ore_control_role": "控制金矿化作用的火山机构"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "酸性硫酸盐蚀变",
+"attributes": {
+"name": "酸性硫酸盐蚀变",
+"alteration_minerals": "钠铁矾、黄钾铁矾、明矾石、石膏、萤石、蛋白石、石英等",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物，早期富金阶段的重要载体",
+"paragenesis": "与磁黄铁矿、黄铜矿、石英、方解石等共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "磁黄铁矿",
+"attributes": {
+"name": "磁黄铁矿",
+"role_in_ore": "重要硫化物矿物",
+"paragenesis": "与黄铁矿、黄铜矿等硫化物及方解石、石英等共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "硫化物带主要金属矿物之一",
+"paragenesis": "与黄铁矿、磁黄铁矿、石英、方解石等共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "成矿热泉流体",
+"attributes": {
+"nature": "古热泉系统成矿流体，存在沸腾作用与混合作用",
+"source": "深部成矿流体与地表大气降水混合",
+"temperature_C_min": "106",
+"temperature_C_max": "301"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "氢同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δDH2O(‰)",
+"value_range": "-67～-101.8‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18OH2O(‰)",
+"value_range": "0.97～4.08‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S(‰)",
+"value_range": "+1.56～+3.50‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "金元素含量特征",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "0.010～14（×10^-6）",
+"anomaly_pattern": "硫酸盐矿物金含量较低，矿体中黄铁矿金含量较高"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔尔真阔腊金矿床位于新疆萨吾尔山古岛弧带（准噶尔盆地北西缘）"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "阔尔真阔腊金矿床容矿建造为萨吾尔山组富钠质安山岩建造"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "萨吾尔山组富钠质安山岩建造属于中泥盆统萨吾尔山组地层单元"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "阔尔真阔腊金矿床受北西西向断裂构造控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "辉石安山质隐爆角砾岩筒为控制阔尔真阔腊金矿床金矿化作用的火山机构"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "阔尔真阔腊金矿床表现为典型酸性硫酸盐蚀变，并具有硫酸盐带、硫化物带和碳酸盐带分带特征"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "阔尔真阔腊金矿床硫化物带常见黄铁矿等硫化物矿物"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "阔尔真阔腊金矿床硫化物带常见磁黄铁矿等硫化物矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "阔尔真阔腊金矿床硫化物带可见黄铜矿等硫化物矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "阔尔真阔腊金矿床形成于近地表古热泉系统，成矿流体表现出沸腾与混合特征"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "氢同位素参数指示阔尔真阔腊金矿床成矿流体为深部流体与地表大气降水混合来源"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素参数指示阔尔真阔腊金矿床成矿流体具有混合源特征"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素参数表明阔尔真阔腊金矿床硫源较为单一，主要来自火山—次火山岩热液体系"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "阔尔真阔腊金矿床地球化学显示硫酸盐矿物金含量低而矿体黄铁矿金含量较高"
+}
+]
+}

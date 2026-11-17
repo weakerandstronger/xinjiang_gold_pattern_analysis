@@ -1,0 +1,288 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0106",
+"title": "西南天山布隆金矿床成矿作用同位素地质年代学",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "布隆金矿床",
+"attributes": {
+"name": "布隆金矿床",
+"location": "新疆西南天山阿合奇县",
+"tectonic_position": "塔里木板块北缘活动带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "赋存于上泥盆统细碎屑岩中，金矿体受层间缓倾斜破碎带控制，位于区域喀拉铁克大断裂附近",
+"age_ma": "258±15 Ma（晚二叠世末，主成矿阶段含金石英脉Rb-Sr等时线年龄）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西南天山",
+"attributes": {
+"name": "西南天山",
+"level": "构造带",
+"tectonic_setting": "塔里木板块北缘活动带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "上泥盆统细碎屑岩",
+"attributes": {
+"name": "上泥盆统细碎屑岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统",
+"attributes": {
+"name": "上泥盆统",
+"age": "上泥盆统",
+"dominant_lithology": "细碎屑岩",
+"lithology_notes": "千枚岩化和片理化细碎屑岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "层间缓倾斜破碎带",
+"attributes": {
+"name": "层间缓倾斜破碎带",
+"structure_type": "破碎带",
+"orientation": "缓倾斜",
+"scale": "矿区",
+"ore_control_role": "控制金矿体"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "喀拉铁克大断裂",
+"attributes": {
+"name": "喀拉铁克大断裂",
+"structure_type": "大断裂",
+"scale": "区域",
+"ore_control_role": "为热液运移和储矿提供通道和空间"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "围岩蚀变",
+"attributes": {
+"name": "围岩蚀变",
+"alteration_minerals": "黄铁矿化、硅化、重晶石化、绢云母化、菱铁矿化、方解石化、铁白云石化",
+"intensity": "较弱"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉矿物",
+"paragenesis": "黄铁矿-石英阶段、石英-黄铁矿-菱铁矿-重晶石阶段、方解石-石英-重晶石阶段"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "重晶石",
+"attributes": {
+"name": "重晶石",
+"role_in_ore": "脉矿物",
+"paragenesis": "石英-黄铁矿-菱铁矿-重晶石阶段、方解石-石英-重晶石阶段、重晶石阶段"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "矿石矿物",
+"paragenesis": "黄铁矿-石英阶段、石英-黄铁矿-菱铁矿-重晶石阶段"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "菱铁矿",
+"attributes": {
+"name": "菱铁矿",
+"role_in_ore": "矿石矿物",
+"paragenesis": "石英-黄铁矿-菱铁矿-重晶石阶段"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉矿物",
+"paragenesis": "方解石-石英-重晶石阶段"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "铁白云石",
+"attributes": {
+"name": "铁白云石",
+"role_in_ore": "蚀变矿物",
+"paragenesis": "黄铁矿-菱铁矿-铁白云石化带"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "蚀变矿物",
+"paragenesis": "褐铁矿-绢云母化带"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "低温热液",
+"source": "以下渗的大气降水渗至深部并与少量变质水混合，经加热循环和溶滤地层矿质而成，与地壳流体活动有关"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "Rb-Sr等时线年龄",
+"attributes": {
+"system": "Rb-Sr同位素体系",
+"parameter_name": "Rb-Sr等时线年龄",
+"value_range": "258±15 Ma"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "⁸⁷Sr/⁸⁶Sr初始比值",
+"attributes": {
+"system": "Rb-Sr同位素体系",
+"parameter_name": "⁸⁷Sr/⁸⁶Sr初始比值ISr",
+"value_range": "0.71098±0.00006"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "布隆金矿床位于西南天山构造带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "布隆金矿床赋存于上泥盆统细碎屑岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "上泥盆统细碎屑岩属于上泥盆统地层单元"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "布隆金矿体受层间缓倾斜破碎带控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "布隆金矿床位于喀拉铁克大断裂附近，断裂为热液运移和储矿提供通道与空间"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "布隆金矿床围岩蚀变较弱，主要有黄铁矿化、硅化、重晶石化、绢云母化、菱铁矿化、方解石化和铁白云石化等"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床矿脉矿物组合包含石英"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床矿脉矿物组合包含重晶石"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床矿脉矿物组合包含黄铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床矿脉矿物组合包含菱铁矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "布隆金矿床矿脉矿物组合包含方解石"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "对应成矿流体为",
+"description": "布隆金矿床对应的成矿流体为低温热液，主要为下渗大气降水与少量变质水混合并溶滤地层矿质形成"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "⁸⁷Sr/⁸⁶Sr初始比值ISr为0.71098±0.00006（大于0.710），佐证成矿物质来源于地层并约束成矿流体与地壳流体活动有关"
+}
+]
+}

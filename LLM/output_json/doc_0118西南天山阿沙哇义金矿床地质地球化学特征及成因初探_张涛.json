@@ -1,0 +1,317 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0118",
+"title": "西南天山阿沙哇义金矿床地质地球化学特征及成因初探",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿沙哇义金矿床",
+"attributes": {
+"name": "阿沙哇义金矿床",
+"location": "新疆西南天山造山带中部",
+"tectonic_position": "中亚造山带西南端的西南天山造山带中部",
+"deposit_type": "造山型金矿床",
+"resource_tonnage": "大型规模",
+"ore_control_features": "矿床定位受区域上沿NE发育的麦丹-他乌复向斜、喀勒铁别克和喀勒铁克大断裂及上石炭统喀拉治尔加组下段地层控制，矿体规模与形态受次一级逆冲断层的规模与产状控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "中亚造山带",
+"attributes": {
+"name": "中亚造山带",
+"level": "造山带",
+"tectonic_setting": "西南端发育西南天山地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "西南天山造山带",
+"attributes": {
+"name": "西南天山造山带",
+"level": "造山带",
+"tectonic_setting": "位于中亚造山带西南端"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "布隆-麦丹-托云金-铜成矿带",
+"attributes": {
+"name": "布隆-麦丹-托云金-铜成矿带",
+"level": "成矿带",
+"tectonic_setting": "西南天山造山带中部"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "上石炭统喀拉治尔加组下段（C₂k）",
+"attributes": {
+"name": "上石炭统喀拉治尔加组下段（C₂k）",
+"age": "上石炭统"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "上石炭统喀拉治尔加组下段地层",
+"attributes": {
+"name": "上石炭统喀拉治尔加组下段地层"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "麦丹-他乌复向斜",
+"attributes": {
+"name": "麦丹-他乌复向斜",
+"structure_type": "复向斜",
+"orientation": "NE向",
+"scale": "区域",
+"ore_control_role": "矿床定位受其控制"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "喀勒铁别克大断裂",
+"attributes": {
+"name": "喀勒铁别克大断裂",
+"structure_type": "大断裂",
+"orientation": "NE向",
+"scale": "区域",
+"ore_control_role": "矿床定位受其控制"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "喀勒铁克大断裂",
+"attributes": {
+"name": "喀勒铁克大断裂",
+"structure_type": "大断裂",
+"orientation": "NE向",
+"scale": "区域",
+"ore_control_role": "矿床定位受其控制"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "次一级逆冲断层",
+"attributes": {
+"name": "次一级逆冲断层",
+"structure_type": "逆冲断层",
+"scale": "矿区",
+"ore_control_role": "矿体规模与形态受其规模与产状控制"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长岩脉",
+"attributes": {
+"name": "闪长岩脉",
+"rock_type": "闪长岩",
+"relationship_to_ore": "矿床内岩浆活动微弱，仅见少量闪长岩脉"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"intensity": "与金成矿密切相关，可作为金矿化找矿标志"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "与金成矿密切相关，可作为金矿化找矿标志"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "与少量毒砂共同构成矿床载金矿物组合"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "次要载金矿物",
+"paragenesis": "与黄铁矿共同构成矿床载金矿物组合"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "流体包裹体类型包括水溶液包裹体、CO₂-H₂O包裹体及纯CO₂包裹体；成矿流体具中低温、低盐度、富CO₂并含少量CH₄和N₂的变质流体特征",
+"source": "C-H-O同位素指示成矿流体来自变质作用，成矿晚阶段可能有大气降水参与",
+"pressure_MPa_min": "80",
+"pressure_MPa_max": "180"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "C-H-O同位素",
+"attributes": {
+"system": "碳-氢-氧同位素",
+"parameter_name": "δD、δO（石英及水）与δ13C",
+"value_range": "成矿早阶段：δDv-smow=-61.6‰~-74.5‰，石英中δOv-smow=20.0‰~21.8‰，δO水=11.6‰~14.8‰，δ13C=-4.4‰~-17.6‰；成矿中阶段：δDv-smow=-61.5‰~-71.5‰，石英中δOv-smow=19.6‰~21.6‰，δO水=10.7‰~12.7‰，δ13C=-3.9‰~-15.6‰；成矿晚阶段：δDv-smow=-61.0‰~-69.4‰，石英中δOv-smow=20.4‰~22.3‰，δO水=8.2‰~10.6‰，δ13C=-6.4‰~-15.3‰；各阶段H-O同位素显示流体来源于变质作用，碳主要由沉积地层与有机成因碳共同提供"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "硫同位素",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "硫同位素指示",
+"value_range": "S同位素指示Au可能来自赋矿地层"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿沙哇义金矿床位于新疆西南天山造山带中部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "阿沙哇义金矿床位于布隆-麦丹-托云金-铜成矿带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿床定位受麦丹-他乌复向斜控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿床定位受喀勒铁别克大断裂控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿床定位受喀勒铁克大断裂控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿床矿体规模与形态受次一级逆冲断层的规模与产状控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "阿沙哇义金矿床受上石炭统喀拉治尔加组下段地层控制，S同位素指示Au可能来自赋矿地层"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "上石炭统喀拉治尔加组下段地层围岩单元属于上石炭统喀拉治尔加组下段（C₂k）地层单元"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "阿沙哇义金矿床中硅化与金成矿密切相关，可作为金矿化找矿标志"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "阿沙哇义金矿床中黄铁矿化与金成矿密切相关，可作为金矿化找矿标志"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要金矿物为",
+"description": "阿沙哇义金矿床载金矿物主要为黄铁矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "阿沙哇义金矿床载金矿物包括少量毒砂"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿沙哇义金矿床成矿流体包裹体类型包括水溶液、CO₂-H₂O及纯CO₂包裹体，成矿早阶段压力140~180MPa，中阶段压力80~150MPa"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E16",
+"relation_label_zh": "约束该流体来源",
+"description": "C-H-O同位素特征显示成矿流体来源于变质作用，成矿晚阶段可能有大气降水参与"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E16",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素指示Au可能来自赋矿地层，从而约束成矿物质来源"
+}
+]
+}

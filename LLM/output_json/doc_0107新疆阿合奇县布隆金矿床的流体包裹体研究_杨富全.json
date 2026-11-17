@@ -1,0 +1,218 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0107",
+"title": "新疆阿合奇县布隆金矿床的流体包裹体研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "布隆金矿床",
+"attributes": {
+"name": "布隆金矿床",
+"location": "新疆西南天山阿合奇县",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "赋存于上泥盆统千枚岩化石英粉砂岩、石英细砂岩、页岩夹层中，金矿体受层间缓倾斜破碎带控制，金矿体只产于石英重晶石复脉中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿合奇县",
+"attributes": {
+"name": "阿合奇县",
+"level": "县"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "西南天山",
+"attributes": {
+"name": "西南天山",
+"level": "构造带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "上泥盆统千枚岩化石英粉砂岩、石英细砂岩、页岩夹层",
+"attributes": {
+"name": "上泥盆统千枚岩化石英粉砂岩、石英细砂岩、页岩夹层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统",
+"attributes": {
+"name": "上泥盆统",
+"age": "上泥盆统",
+"dominant_lithology": "千枚岩化石英粉砂岩、石英细砂岩、页岩",
+"lithology_notes": "地层岩性为千枚岩化石英粉砂岩、石英细砂岩，页岩夹层"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "石英重晶石复脉",
+"attributes": {
+"name": "石英重晶石复脉"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "层间缓倾斜破碎带",
+"attributes": {
+"name": "层间缓倾斜破碎带",
+"structure_type": "破碎带",
+"orientation": "缓倾斜",
+"scale": "矿区",
+"ore_control_role": "控制金矿体"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉体矿物",
+"paragenesis": "石英阶段、重晶石－石英阶段"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "重晶石",
+"attributes": {
+"name": "重晶石",
+"role_in_ore": "脉体矿物",
+"paragenesis": "重晶石阶段、重晶石－石英阶段"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "菱铁矿",
+"attributes": {
+"name": "菱铁矿",
+"role_in_ore": "脉体矿物",
+"paragenesis": "重晶石－石英阶段的菱铁矿－石英亚阶段"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉体矿物",
+"paragenesis": "重晶石－石英阶段的石英－重晶石－方解石亚阶段"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "CO₂-H₂O-NaCl 型流体",
+"temperature_C_min": "161 ℃",
+"temperature_C_max": "340 ℃",
+"salinity_wtNaCl_min": "2.42 wt% NaCl eq",
+"salinity_wtNaCl_max": "46.25 wt% NaCl eq"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "布隆金矿床位于阿合奇县"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "布隆金矿床位于西南天山地区"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "布隆金矿床赋存于上泥盆统千枚岩化石英粉砂岩、石英细砂岩及页岩夹层中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "上泥盆统千枚岩化石英粉砂岩、石英细砂岩、页岩夹层属于上泥盆统地层单元"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "金矿体只产于石英重晶石复脉中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "布隆金矿体受层间缓倾斜破碎带控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "矿区发育石英大脉及石英重晶石复脉，矿脉矿物包含石英"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "矿区发育重晶石大脉及石英重晶石复脉，矿脉矿物包含重晶石"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "重晶石－石英阶段可划分为菱铁矿－石英亚阶段，矿脉矿物包含菱铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "重晶石－石英阶段可划分为石英－重晶石－方解石亚阶段，局部为方解石重晶石石英脉"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "金主要成矿阶段流体包裹体指示成矿流体属CO₂-H₂O-NaCl型流体，均一温度约161～340 ℃，盐度约2.42～46.25 wt% NaCl eq"
+}
+]
+}

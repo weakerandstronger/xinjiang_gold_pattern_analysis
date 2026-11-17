@@ -1,0 +1,133 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0027",
+"title": "东准噶尔双泉地区韧-脆性剪切带与金矿成矿",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Region",
+"name_zh": "东准噶尔双泉地区",
+"attributes": {
+"name": "东准噶尔双泉地区",
+"level": "矿区",
+"tectonic_setting": "位于板块结合带基础上的陆-陆碰撞体制区"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Structure",
+"name_zh": "双泉韧-脆性剪切带",
+"attributes": {
+"name": "双泉韧-脆性剪切带",
+"structure_type": "韧-脆性剪切带",
+"scale": "区域性剪切带",
+"ore_control_role": "与金矿在时间和空间上密切相关，韧性剪切形成的各类裂隙是后期脆性变形阶段金矿集中产出的有利构造空间"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Deposit",
+"name_zh": "双泉地区金矿",
+"attributes": {
+"name": "双泉地区金矿",
+"location": "东准噶尔双泉地区",
+"tectonic_position": "形成于板块结合带基础上的陆-陆碰撞体制",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "金矿与韧-脆性剪切构造在时间和空间上密切相关，德尔剪切构造系统中的裂隙在后期脆性变形阶段再次活动，成为金矿集中产出的有利构造空间",
+"age_ma": "330～265Ma"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Fluid",
+"name_zh": "双泉地区金矿成矿流体",
+"attributes": {
+"nature": "变质成因水成矿流体",
+"source": "成矿流体中水主要为变质成因水，金矿均落入变质水范围，与岩浆热液及天水无关"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Isotope",
+"name_zh": "双泉地区金矿氢氧同位素参数",
+"attributes": {
+"system": "H-O",
+"parameter_name": "氢、氧同位素组成",
+"value_range": "金矿流体包裹体氢、氧同位素组成显示本区金矿成矿流体中的水为变质成因水，均落入变质水范围，而与碱性花岗岩有关的金矿则落入岩浆水范围"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "泥盆系",
+"attributes": {
+"name": "泥盆系",
+"age": "泥盆纪",
+"lithology_notes": "金矿矿石样品稀土分布模式与泥盆系基本一致，反映二者具有成因方面的联系"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "石炭系",
+"attributes": {
+"name": "石炭系",
+"age": "石炭纪",
+"lithology_notes": "金矿矿石样品稀土分布模式与石炭系基本一致，反映二者具有成因方面的联系"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Geochem",
+"name_zh": "双泉地区金矿元素地球化学特征",
+"attributes": {
+"element": "Au、As、Sb、Cu、Pb、Zn 及稀土元素",
+"value_ppm": "文中未给出具体含量，仅指出相关系数及稀土分布特征",
+"anomaly_pattern": "与剪切带有关的金矿中 Au 与 As、Sb 等元素密切相关，与 Cu、Pb、Zn 等元素无关甚至呈负相关；金矿矿石样品轻、重稀土无明显富集或亏损，无 Eu 异常，稀土分布模式向右缓倾斜，与泥盆系、石炭系基本一致，而本区碱性岩和含蚀变矿化斑岩则表现为重稀土相对富集、强烈 Eu 负异常和近水平或左倾斜的“V”型稀土分布模式，二者成因不具相关性"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "双泉地区金矿位于东准噶尔双泉地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E2",
+"relation_label_zh": "受…控制",
+"description": "双泉地区金矿在时间和空间上与双泉韧-脆性剪切带密切相关，剪切带形成的裂隙为后期脆性变形阶段金矿集中产出的有利构造空间"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E4",
+"relation_label_zh": "对应成矿流体为",
+"description": "双泉地区金矿成矿流体为以变质成因水为主的成矿流体，金矿流体包裹体氢、氧同位素组成表明水的来源主要为变质水"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "约束该流体来源",
+"description": "双泉地区金矿氢、氧同位素参数表明成矿流体中的水为变质成因水，金矿均落入变质水范围，与岩浆水范围内的碱性花岗岩有关金矿不同，从而约束了成矿流体的来源"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E8",
+"relation_label_zh": "显示",
+"description": "双泉地区金矿元素地球化学特征显示 Au 与 As、Sb 等成矿元素密切相关，与 Cu、Pb、Zn 等元素无关甚至负相关，稀土分布模式与泥盆系、石炭系基本一致而与碱性岩显著不同"
+}
+]
+}

@@ -1,0 +1,248 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0167",
+"title": "新疆哈密阿拉塔格金矿床矿体特征及形成机制",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Region",
+"name_zh": "新疆哈密地区",
+"attributes": {
+"name": "新疆哈密地区",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿拉塔格地区",
+"attributes": {
+"name": "阿拉塔格地区",
+"level": "地区",
+"tectonic_setting": "陆缘成熟岛弧形基带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Deposit",
+"name_zh": "阿拉塔格金矿床",
+"attributes": {
+"name": "阿拉塔格金矿床",
+"location": "阿拉塔格地区东南部",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床受到韧性剪切带影响，矿体多依托于碳质火山熔岩碎屑中"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Deposit",
+"name_zh": "阿拉塔格金矿床",
+"attributes": {
+"name": "阿拉塔格金矿床",
+"location": "阿拉塔格地区西北部和中部",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "与金矿有关的侵入岩体以碱后花岗岩为主，矿床较为均匀分布于重力异常的异构梯度带及弯曲部位"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "韧性剪切带",
+"attributes": {
+"name": "韧性剪切带",
+"structure_type": "剪切带",
+"ore_control_role": "影响金矿床成矿并控制韧性剪切带型矿体产出"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "碳质火山熔岩碎屑",
+"attributes": {
+"name": "碳质火山熔岩碎屑"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "常见含金矿物，黄铁矿含金量一般为1.5%～7.5%，部分可达约10.5%",
+"paragenesis": "韧性剪切带型金矿床中常见，与黄铜矿、方铅矿等共生"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "韧性剪切带型金矿床中主要金属矿物之一，与黄铁矿、方铅矿等共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "韧性剪切带型金矿床中金属矿物之一，与黄铁矿、黄铜矿等共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "IntrusiveBody",
+"name_zh": "碱后花岗岩侵入岩体",
+"attributes": {
+"name": "碱后花岗岩侵入岩体",
+"rock_type": "碱后花岗岩",
+"relationship_to_ore": "与侵入岩型金矿床成矿有关"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geophysics",
+"name_zh": "重力异常异构梯度带",
+"attributes": {
+"anomaly_type": "重力异常",
+"spatial_pattern": "异构梯度带及弯曲部位"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "HostRockUnit",
+"name_zh": "泥盆—石炭系和碳酸盐碎裂带",
+"attributes": {
+"name": "泥盆—石炭系和碳酸盐碎裂带"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "钠元素特征",
+"attributes": {
+"element": "钠",
+"anomaly_pattern": "侵入岩控矿带金矿的化学成分以高含量钠为特点"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "金元素特征",
+"attributes": {
+"element": "金",
+"anomaly_pattern": "侵入岩控矿带金矿的化学成分以丰富的金为特点"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿拉塔格韧性剪切带型金矿床位于阿拉塔格地区东南部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿拉塔格侵入岩型金矿床位于阿拉塔格地区西北部和中部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "阿拉塔格韧性剪切带型金矿床位于新疆哈密地区"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "阿拉塔格侵入岩型金矿床位于新疆哈密地区"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "阿拉塔格韧性剪切带型金矿床受到韧性剪切带影响并受其控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "阿拉塔格韧性剪切带型金矿床多依托于碳质火山熔岩碎屑中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要金矿物为",
+"description": "阿拉塔格韧性剪切带型金矿床中黄铁矿为常见含金矿物且含金量较高"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "阿拉塔格韧性剪切带型金矿床金属矿物主要包括黄铜矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "阿拉塔格韧性剪切带型金矿床金属矿物包括方铅矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "阿拉塔格侵入岩型金矿床较为均匀分布于重力异常的异构梯度带以及弯曲部位"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要围岩为",
+"description": "阿拉塔格侵入岩型金矿床的矿层以泥盆—石炭系和碳酸盐碎裂带为岩系构造"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "阿拉塔格侵入岩控矿带金矿的化学成分以高含量钠为特点"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "阿拉塔格侵入岩控矿带金矿的化学成分以丰富的金为特点"
+}
+]
+}

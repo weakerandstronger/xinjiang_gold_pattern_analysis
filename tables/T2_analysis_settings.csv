@@ -1,0 +1,8 @@
+﻿parameter,value
+max_order,3
+min_item_count,3
+min_pattern_count,3
+min_observed,10
+min_support,0.0
+lift_epsilon,1e-12
+log_base,e

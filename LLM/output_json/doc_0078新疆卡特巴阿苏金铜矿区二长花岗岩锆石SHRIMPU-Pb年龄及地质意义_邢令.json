@@ -1,0 +1,85 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0078",
+"title": "新疆卡特巴阿苏金铜矿区二长花岗岩锆石SHRIMP U-Pb年龄及地质意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "新疆那拉提中天山构造带内",
+"tectonic_position": "那拉提中天山构造带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床赋存于二长花岗岩体的脆性断裂破碎带内，受后期断裂破碎构造带控制",
+"age_ma": "356.8±5.2 Ma~359.3±5.3 Ma（成矿上限）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "那拉提中天山构造带",
+"attributes": {
+"name": "那拉提中天山构造带",
+"level": "构造带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "赋矿二长花岗岩体",
+"attributes": {
+"name": "赋矿二长花岗岩体"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "脆性断裂破碎带",
+"attributes": {
+"name": "脆性断裂破碎带",
+"structure_type": "断裂破碎带",
+"ore_control_role": "矿床赋存于断裂破碎带内并受其控制"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "二长花岗岩体",
+"attributes": {
+"name": "二长花岗岩体",
+"rock_type": "二长花岗岩",
+"age": "356.8±5.2 Ma~359.3±5.3 Ma（晚泥盆世末期）",
+"relationship_to_ore": "赋矿岩体，其结晶年龄限定卡特巴阿苏金铜矿床成矿上限时间"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于那拉提中天山构造带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "卡特巴阿苏金铜矿床赋存于赋矿二长花岗岩体内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "卡特巴阿苏金铜矿床赋存于脆性断裂破碎带内并受后期断裂破碎构造带控制"
+}
+]
+}

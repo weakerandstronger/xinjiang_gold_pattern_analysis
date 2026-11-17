@@ -1,0 +1,412 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0108",
+"title": "新疆西南天山布隆金矿床类型与成矿模式",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "布隆金矿床",
+"attributes": {
+"name": "布隆金矿床",
+"location": "新疆阿合奇县西南40 km处",
+"tectonic_position": "塔里木板块北缘之阔克塔勒晚古生代陆缘盆地南侧，以喀拉铁克大断裂为界",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "金矿体主要赋存在层间滑脱断裂及次级断裂中，布隆断裂为导矿断裂兼容矿断裂",
+"age_ma": "晚二叠世"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西南天山地区",
+"attributes": {
+"name": "西南天山地区",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿合奇县",
+"attributes": {
+"name": "阿合奇县",
+"level": "县"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "塔里木板块北缘",
+"attributes": {
+"name": "塔里木板块北缘",
+"level": "板块边缘",
+"tectonic_setting": "阔克塔勒晚古生代陆缘盆地南侧"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "阔克塔勒晚古生代陆缘盆地",
+"attributes": {
+"name": "阔克塔勒晚古生代陆缘盆地",
+"level": "陆缘盆地",
+"tectonic_setting": "位于塔里木板块北缘"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统克孜尔塔格组二段（D₃k²）",
+"attributes": {
+"name": "上泥盆统克孜尔塔格组二段（D₃k²）",
+"age": "上泥盆统",
+"dominant_lithology": "砂岩、粉砂岩、泥质粉砂岩及千枚岩化砂岩—粉砂岩—泥岩互层",
+"lithology_notes": "上部为紫红色中细粒砂岩、粉砂岩和泥质粉砂岩（厚169.7 m）；下部为千枚岩化灰黑色薄层砂岩与紫红色粉砂岩、粉砂质泥岩互层（厚144.8 m）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "上石炭统康克林组（C₂k）",
+"attributes": {
+"name": "上石炭统康克林组（C₂k）",
+"age": "上石炭统",
+"dominant_lithology": "灰色厚层灰岩",
+"lithology_notes": "与克孜尔塔格组二段呈不整合接触，灰岩中可见后期形成的大量热液方解石脉"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "克孜尔塔格组二段碎屑岩容矿围岩",
+"attributes": {
+"name": "克孜尔塔格组二段碎屑岩容矿围岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "泥盆系紫红色、灰黑色砂岩和粉砂岩围岩",
+"attributes": {
+"name": "泥盆系紫红色、灰黑色砂岩和粉砂岩围岩"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "层间滑脱断裂",
+"attributes": {
+"name": "层间滑脱断裂",
+"structure_type": "断裂",
+"scale": "矿区",
+"ore_control_role": "提供容矿空间，金矿体主要赋存在其中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "布隆断裂",
+"attributes": {
+"name": "布隆断裂",
+"structure_type": "断裂",
+"scale": "矿区",
+"ore_control_role": "导矿断裂兼容矿断裂，控制已知矿脉"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "喀拉铁克大断裂",
+"attributes": {
+"name": "喀拉铁克大断裂",
+"structure_type": "大断裂",
+"orientation": "NE向",
+"scale": "区域",
+"ore_control_role": "断裂带内发育次一级断层与裂隙带，控制矿床赋存于次级断裂中"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Structure",
+"name_zh": "次级断裂",
+"attributes": {
+"name": "次级断裂",
+"structure_type": "断裂",
+"scale": "矿区",
+"ore_control_role": "金矿床赋存在次级断裂中"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "菱铁矿",
+"attributes": {
+"name": "菱铁矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "重晶石",
+"attributes": {
+"name": "重晶石",
+"role_in_ore": "主要非金属矿物"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要非金属矿物"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "非金属矿物"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "非金属矿物"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Geochem",
+"name_zh": "金元素异常",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "克孜尔塔格组碎屑岩金元素浓集系数高、变化系数大"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Geochem",
+"name_zh": "钡元素异常",
+"attributes": {
+"element": "Ba",
+"anomaly_pattern": "克孜尔塔格组碎屑岩钡元素浓集系数高、变化系数大"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉绿岩脉",
+"attributes": {
+"name": "辉绿岩脉",
+"rock_type": "辉绿岩",
+"relationship_to_ore": "矿区未见岩浆岩出露，仅发育规模较小的辉绿岩脉"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "布隆金矿床位于西南天山地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "布隆金矿床位于新疆阿合奇县西南40 km处"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "布隆金矿床位于塔里木板块北缘活动带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "布隆金矿床所在区域为阔克塔勒晚古生代陆缘盆地南侧"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "赋存在",
+"description": "金矿体主要赋存在层间滑脱断裂中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "布隆断裂既是已知矿脉的导矿断裂，也是容矿断裂"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "喀拉铁克大断裂带内发育次级断裂与裂隙带，布隆金矿床赋存在其控制的次级断裂中"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "赋存在",
+"description": "金矿床赋存在次级断裂中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要围岩为",
+"description": "布隆金矿床围岩为泥盆系紫红色、灰黑色砂岩和粉砂岩"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "上泥盆统克孜尔塔格组二段为金矿体的容矿围岩"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "克孜尔塔格组二段碎屑岩容矿围岩属于上泥盆统克孜尔塔格组二段（D₃k²）"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石中主要金属矿物包括自然金"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要金属矿物包括菱铁矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要金属矿物包括褐铁矿"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "非金属矿物以重晶石为主"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "非金属矿物以石英为主"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "矿区灰岩中可见后期形成的大量热液方解石脉"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "非金属矿物其次有绢云母"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "显示",
+"description": "矿区泥盆系克孜尔塔格组碎屑岩金元素浓集系数高、变化系数大，被认为是主要矿源岩"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "显示",
+"description": "矿区泥盆系克孜尔塔格组碎屑岩钡元素浓集系数高、变化系数大，与Au（Ba）富集特征相关"
+}
+]
+}

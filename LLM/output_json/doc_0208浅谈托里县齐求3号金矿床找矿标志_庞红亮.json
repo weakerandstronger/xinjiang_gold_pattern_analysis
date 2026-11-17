@@ -1,0 +1,201 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0208",
+"title": "浅谈托里县齐求3号金矿床找矿标志_庞红亮",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床（3号）",
+"attributes": {
+"name": "齐求金矿床（3号）",
+"location": "新疆塔城地区托里县境内（位于齐求金矿东约1.40km）",
+"tectonic_position": "准噶尔微板块中部唐巴勒—拉麦里晚古生代复合沟弧带西端的达拉布特晚古生代岛弧带中部",
+"deposit_type": "造山型金矿床",
+"ore_grade": "0.53～19.55×10^-6（均品位2.75×10^-6）",
+"ore_control_features": "矿体主要受北东向断裂控制，形成单脉状石英脉及含脉状、细脉状、网脉状石英脉的蚀变破碎带型金矿体；石英脉强烈破碎，为主要载金体，常呈灰—浅黄褐色铁染；金矿化以石英脉为中心向两侧逐渐变弱；含矿层为破碎带，围岩为凝灰质砂岩；地表发现1条金矿体，深部发现6条盲矿体；1号金矿体（深部延伸段）走向约70°、倾向北西、倾角65°～72°，厚度0.50～24.00m（均厚2.86m）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "安齐金矿带",
+"attributes": {
+"name": "安齐金矿带",
+"level": "金矿带",
+"tectonic_setting": "区内构造复杂，总体为复式向斜，轴向NE50°～70°；由达拉布特、萨尔托海、安齐和哈图等大型断裂组成大型推覆构造，沿断裂带发育金矿化"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "太勒古拉组",
+"attributes": {
+"name": "太勒古拉组",
+"age": "上泥盆世—石炭世",
+"dominant_lithology": "火山岩",
+"lithology_notes": "矿区中部和北部出露太勒古拉组火山岩，矿区内常见太勒古拉组火山岩与放射虫硅质岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "包古图组",
+"attributes": {
+"name": "包古图组",
+"age": "下—中石炭世",
+"dominant_lithology": "凝灰岩与细碎屑岩",
+"lithology_notes": "矿区东南部出露包古图组地层，以凝灰岩和细碎屑岩为主"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "希贝库拉斯组",
+"attributes": {
+"name": "希贝库拉斯组",
+"age": "中石炭世",
+"dominant_lithology": "厚层粗粒凝灰岩",
+"lithology_notes": "矿区西北部出露希贝库拉斯组，岩性以厚层粗粒凝灰岩与层凝灰岩互层为主"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "凝灰质砂岩围岩（破碎带含矿层）",
+"attributes": {
+"name": "凝灰质砂岩围岩（破碎带含矿层）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "阿克巴斯套岩体",
+"attributes": {
+"name": "阿克巴斯套岩体",
+"rock_type": "角闪花岗岩、二长花岗岩、似斑状花岗岩",
+"age": "298±4Ma（华力西中期）",
+"relationship_to_ore": "矿区西南部出露，为岩基状侵入于太勒古拉组岩层中"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "北东向断裂",
+"attributes": {
+"name": "北东向断裂",
+"structure_type": "断裂",
+"orientation": "北东向",
+"scale": "矿区内主要储矿构造之一",
+"ore_control_role": "矿体主要受北东向断裂控制，石英脉及蚀变破碎带沿其展布并形成金矿体"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化-黄铁矿化-绢云母化-毒砂化-绿泥石化-碳酸盐化蚀变",
+"attributes": {
+"name": "硅化-黄铁矿化-绢云母化-毒砂化-绿泥石化-碳酸盐化蚀变",
+"alteration_minerals": "石英、黄铁矿、绢云母、毒砂、绿泥石、碳酸盐矿物",
+"intensity": "蚀变大体以矿体为中心向上下盘对称分布，一般上盘蚀变强于下盘，自矿体向外依次表现为硅化、黄铁矿化、绢云母化、毒砂化、绿泥石化、碳酸盐化"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物与主要载金体",
+"paragenesis": "形成单脉状石英脉及脉状、细脉状、网脉状石英脉；早期石英经剪切破碎为矿液提供通道与沉积场所；晚期石英常以胶结形式充填构造裂隙及岩石碎裂空隙，与金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "最主要载金矿物之一",
+"paragenesis": "矿区黄铁矿化普遍发育；角十二面体及复杂聚形多形成于主矿化期并更有利于含金；细粒他形黄铁矿与碎裂黄铁矿更有利于含金，可出现星点状或线状黄铁矿并与高含金性相关"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "金（Au）品位",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "0.53～19.55×10^-6（均品位2.75×10^-6）",
+"anomaly_pattern": "金矿化以石英脉为中心向两侧逐渐变弱，矿体品位沿走向与倾向局部具膨大、收缩变化"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "齐求3号金矿床位于安齐金矿带中段，处于齐求金矿东侧约1.40km"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "齐求3号金矿床含矿层为破碎带，围岩为凝灰质砂岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "齐求3号金矿床矿体主要受北东向断裂控制，沿断裂形成石英脉及蚀变破碎带型金矿体"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "齐求3号金矿床围岩蚀变包括硅化、黄铁矿化、绢云母化、毒砂化、绿泥石化和碳酸盐化，并以矿体为中心向上下盘对称分布"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求3号金矿床以石英为最常见且含量最高的脉石矿物，石英脉强烈破碎并作为主要载金体"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求3号金矿床黄铁矿化几乎无处不在，黄铁矿是金的最主要载体矿物之一，其细粒他形与碎裂形态更有利于含金"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "齐求3号金矿床1号金矿体金（Au）品位为0.53～19.55×10^-6，均品位2.75×10^-6"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "阿克巴斯套岩体为岩基状侵入于太勒古拉组岩层中"
+}
+]
+}

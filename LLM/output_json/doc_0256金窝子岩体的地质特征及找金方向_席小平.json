@@ -1,0 +1,282 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0256",
+"title": "金窝子岩体的地质特征及找金方向_席小平",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金窝子金矿床",
+"attributes": {
+"name": "金窝子金矿床",
+"location": "新疆哈密市星星峡镇以东金窝子矿区",
+"tectonic_position": "塔里木板块北山裂谷系北带",
+"deposit_type": "造山型金矿床",
+"resource_tonnage": "中型规模",
+"ore_control_features": "含金石英脉主要充填于金窝子花岗闪长岩体内的断裂破碎带中；北东向与近东西向断裂为岩浆上升通道并控制岩体形态与产状，岩体内次级近南北向张扭性断裂形成容矿构造并控制含金石英脉形态与产状"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "金窝子金矿床",
+"attributes": {
+"name": "金窝子金矿床",
+"location": "新疆哈密市星星峡镇以东金窝子矿区",
+"tectonic_position": "塔里木板块北山裂谷系北带",
+"deposit_type": "造山型金矿床",
+"resource_tonnage": "中型规模",
+"ore_control_features": "矿体产于金窝子组凝灰质砂岩等围岩的蚀变破碎带中，矿化与断裂构造及蚀变分带密切相关"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "金窝子矿区",
+"attributes": {
+"name": "金窝子矿区",
+"level": "矿区",
+"tectonic_setting": "塔里木板块北山裂谷系北带，位于新疆哈密市星星峡镇以东"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统金窝子组",
+"attributes": {
+"name": "上泥盆统金窝子组",
+"age": "晚泥盆世",
+"dominant_lithology": "火山岩—沉积碎屑岩组合",
+"lithology_notes": "以千枚岩、含砾沉凝灰岩、沉凝灰岩、凝灰质砂岩为主，夹薄层灰岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "金窝子岩体",
+"attributes": {
+"name": "金窝子岩体",
+"rock_type": "花岗闪长岩",
+"age": "385Ma和375Ma（钾-氩同位素年龄）；358.6Ma（锆石U-Pb同位素年龄）；315Ma（Rb-Sr同位素年龄），海西早期产物",
+"relationship_to_ore": "为金窝子金矿床的直接围岩，岩体内断裂破碎带普遍被含金石英脉充填；岩体具明显含金性并在金矿形成中起重要作用"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "金窝子岩体内断裂破碎带",
+"attributes": {
+"name": "金窝子岩体内断裂破碎带"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "金窝子组凝灰质砂岩蚀变破碎带",
+"attributes": {
+"name": "金窝子组凝灰质砂岩蚀变破碎带"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "北东向断裂",
+"attributes": {
+"name": "北东向断裂",
+"structure_type": "断裂",
+"orientation": "北东向",
+"scale": "矿区—区域级",
+"ore_control_role": "与近东西向断裂共同构成岩浆上升通道与侵入空间，控制岩体形态与产状，并与成矿作用阶段性演化同步"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "近东西向断裂",
+"attributes": {
+"name": "近东西向断裂",
+"structure_type": "断裂",
+"orientation": "近东西向",
+"scale": "矿区—区域级",
+"ore_control_role": "为岩浆上升通道与侵入空间的重要断裂组，与北东向断裂共同控制岩体形态与产状，并为成矿流体运移提供通道"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "近南北向张扭性断裂",
+"attributes": {
+"name": "近南北向张扭性断裂",
+"structure_type": "张扭性断裂",
+"orientation": "近南北向",
+"scale": "矿区级",
+"ore_control_role": "在岩体内形成容矿构造，控制含金石英脉的形态与产状，是石英脉型金矿化的重要控矿构造"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化带",
+"attributes": {
+"name": "黄铁绢英岩化带",
+"alteration_minerals": "黄铁矿、石英、绢云母",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "绿泥石—硫酸盐化带",
+"attributes": {
+"name": "绿泥石—硫酸盐化带",
+"alteration_minerals": "绿泥石、硫酸盐矿物",
+"intensity": "中等"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "产于含金石英脉及金矿化蚀变破碎带中"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物",
+"paragenesis": "与黄铁绢英岩化密切相关，为矿区最主要的金属硫化物矿物之一"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "金元素含量特征",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "0.0085×10^-4～30.78×10^-4",
+"anomaly_pattern": "花岗闪长岩Au约0.0085×10^-4，黄铁绢英岩Au可达30.78×10^-4；金窝子组Au约0.0095×10^-4，高于地壳丰度0.004×10^-4"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "金窝子石英脉型金矿床位于新疆哈密市星星峡镇以东的金窝子矿区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "210构造蚀变岩型金矿床位于新疆哈密市星星峡镇以东的金窝子矿区"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "金窝子石英脉型金矿床的含金石英脉主要赋存于金窝子岩体内断裂破碎带中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "210构造蚀变岩型金矿床赋存于金窝子组凝灰质砂岩蚀变破碎带中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "金窝子组凝灰质砂岩蚀变破碎带属于上泥盆统金窝子组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "金窝子岩体侵入上泥盆统金窝子组火山岩—沉积碎屑岩中并沿背斜轴部出露"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "金窝子石英脉型金矿床受岩体内近南北向张扭性断裂控制，该断裂在岩体内形成容矿构造并决定含金石英脉形态与产状"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "近东西向断裂为岩浆上升通道与侵入空间的重要断裂组，控制金窝子岩体及其内部含金石英脉型矿化的空间展布"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "210构造蚀变岩型金矿床与矿区北东向断裂及其相关破碎带的发育密切相关"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "金窝子石英脉型金矿床围岩蚀变分带中以黄铁绢英岩化带为主要蚀变带之一"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "210构造蚀变岩型金矿床与黄铁绢英岩化等强蚀变带密切伴生"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要金矿物为",
+"description": "金窝子石英脉型金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子石英脉型金矿床共生金属硫化物矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "金窝子岩体及其蚀变带金含量较高，黄铁绢英岩化带Au显著富集，指示岩体与蚀变作用对金矿化具有重要成矿意义"
+}
+]
+}

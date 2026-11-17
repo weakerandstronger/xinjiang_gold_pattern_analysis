@@ -1,0 +1,244 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0172",
+"title": "新疆梧南金矿床地质与地球化学特征",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "梧南金矿床",
+"attributes": {
+"name": "梧南金矿床",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床分布于伊尔托古什布拉克韧性剪切带北侧并呈300°方向展布；容矿岩石为不纯碳酸盐岩且金矿体主要赋存于该岩性层中；构造运动使含金岩层活化浸出、热液交代和迁移富集，矿化沿强应变带展布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Structure",
+"name_zh": "伊尔托古什布拉克韧性剪切带",
+"attributes": {
+"name": "伊尔托古什布拉克韧性剪切带",
+"structure_type": "韧性剪切带",
+"ore_control_role": "矿床分布于其北侧，矿化沿强应变带展布并与变形变质作用相关"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "不纯碳酸盐岩",
+"attributes": {
+"name": "不纯碳酸盐岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "IntrusiveBody",
+"name_zh": "酸性斑岩",
+"attributes": {
+"name": "酸性斑岩",
+"rock_type": "酸性斑岩",
+"relationship_to_ore": "为成矿提供一定热源及部分含矿热液，且可能提供部分物源，与成矿关系较密切"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与褐铁矿等共生，黄铁矿化与金矿关系密切"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与黄铁矿等共生"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "次要金属矿物",
+"paragenesis": "与黄铁矿、褐铁矿等共生，黄铜矿化与金矿关系密切"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "白云石",
+"attributes": {
+"name": "白云石",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "与石英等共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "与白云石等共生，硅化与金矿关系密切"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "与金矿关系密切，绝大多数金矿体（化）富于硅化等蚀变岩中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "与金矿关系密切，为热液运移停聚的重要场所"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铜矿化",
+"attributes": {
+"name": "黄铜矿化",
+"alteration_minerals": "黄铜矿",
+"intensity": "与金矿关系密切，为热液运移停聚的重要场所"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "围岩金丰度特征",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "12.5×10⁻⁹",
+"anomaly_pattern": "不纯碳酸盐岩中金质量分数最高（12.5×10⁻⁹），浓集系数1.43，变化系数212%"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "酸性斑岩脉含金量",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "7.84×10⁻⁹",
+"anomaly_pattern": "酸性斑岩脉含金量为7.84×10⁻⁹，为地壳中酸性侵入岩丰度（4.0×10⁻⁹）的1.96倍"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "沿…展布",
+"description": "梧南金矿床分布于伊尔托古什布拉克韧性剪切带北侧并呈300°方向展布"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "主要围岩为",
+"description": "梧南金矿床的容矿岩石为不纯碳酸盐岩，金矿体主要赋存于该岩性层中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "共生矿物包括",
+"description": "梧南金矿床金属矿物主要有黄铁矿"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "梧南金矿床金属矿物主要有褐铁矿"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "梧南金矿床金属矿物次有黄铜矿"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "梧南金矿床脉石矿物主要有白云石"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "梧南金矿床脉石矿物主要有石英"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "梧南金矿床围岩蚀变以硅化为主，且与金矿关系密切"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "梧南金矿床围岩蚀变伴随黄铁矿化并与金矿关系密切"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "梧南金矿床围岩蚀变伴随黄铜矿化并与金矿关系密切"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "不纯碳酸盐岩中金质量分数最高（12.5×10⁻⁹）且金矿体主要赋存于该岩性层中"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "酸性斑岩脉含金量为7.84×10⁻⁹并被认为与成矿关系较密切"
+}
+]
+}

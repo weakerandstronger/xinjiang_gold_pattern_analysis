@@ -1,0 +1,314 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0163",
+"title": "新疆包古图金矿中发现的自然砷及其找矿勘探意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床（XI区）",
+"attributes": {
+"name": "包古图金矿床（XI区）",
+"location": "新疆西准噶尔包古图地区",
+"deposit_type": "浅成低温热液型金矿床"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔",
+"attributes": {
+"name": "西准噶尔",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "包古图地区",
+"attributes": {
+"name": "包古图地区",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统希贝库拉斯组",
+"attributes": {
+"name": "下石炭统希贝库拉斯组",
+"age": "下石炭统",
+"dominant_lithology": "凝灰岩、安山岩",
+"lithology_notes": "包古图金矿XI区赋矿围岩为希贝库拉斯组凝灰岩和安山岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "希贝库拉斯组凝灰岩和安山岩围岩",
+"attributes": {
+"name": "希贝库拉斯组凝灰岩和安山岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "钠长石-方解石脉化",
+"attributes": {
+"name": "钠长石-方解石脉化",
+"alteration_minerals": "钠长石、方解石、石英"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "该矿中主要的含金矿物",
+"paragenesis": "主要金矿化阶段（硫化物-金-铋阶段晚期）与自然铋共生或在自然铋中呈出溶结构"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "自然铋",
+"attributes": {
+"name": "自然铋",
+"role_in_ore": "主要金矿化阶段的重要共生矿物",
+"paragenesis": "主要金矿化阶段晚期与黄铜矿、辉铋矿、自然金共生，常被辉铋矿部分或全部交代，并可被毒砂、黄铜矿和黄铁矿包裹"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "辉铋矿",
+"attributes": {
+"name": "辉铋矿",
+"role_in_ore": "主要金矿化阶段共生矿物",
+"paragenesis": "硫化物-金-铋阶段晚期与黄铜矿、自然铋、自然金共生，并可交代自然铋"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "石英-硫化物阶段与石英、毒砂、黄铁矿共生；硫化物-金-铋阶段晚期与辉铋矿、自然铋、自然金共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "石英-硫化物阶段与石英、黄铁矿、黄铜矿共生；硫化物-金-铋阶段早期形成毒砂-黄铁矿组合，并可包裹自然铋"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "石英-硫化物阶段与石英、毒砂、黄铜矿共生；硫化物-金-铋阶段早期形成毒砂-黄铁矿组合，并可包裹自然铋"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "石英-硫化物阶段形成石英-硫化物脉；钠长石-方解石阶段细脉中含少量石英"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "钠长石",
+"attributes": {
+"name": "钠长石",
+"role_in_ore": "晚期细脉矿物",
+"paragenesis": "钠长石-方解石阶段在围岩中形成以钠长石为主的细脉"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "晚期细脉矿物",
+"paragenesis": "钠长石-方解石阶段细脉中含少量方解石"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "共生硫化物矿物",
+"paragenesis": "自然铋可呈脉状充填于毒砂和闪锌矿裂隙中"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Fluid",
+"name_zh": "石英-硫化物阶段成矿流体",
+"attributes": {
+"nature": "热液成矿流体（石英-硫化物阶段）",
+"temperature_C_min": "460℃",
+"temperature_C_max": "510℃"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Fluid",
+"name_zh": "硫化物-金-铋阶段成矿流体",
+"attributes": {
+"nature": "热液成矿流体（硫化物-金-铋阶段，为主要金矿化阶段）",
+"temperature_C_min": "420℃",
+"temperature_C_max": "470℃"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "包古图金矿XI区位于新疆西准噶尔"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "包古图金矿XI区位于包古图地区"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "包古图金矿XI区赋矿围岩为下石炭统希贝库拉斯组凝灰岩和安山岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "希贝库拉斯组凝灰岩和安山岩围岩属于下石炭统希贝库拉斯组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "伴随有",
+"description": "包古图金矿XI区在钠长石-方解石阶段于围岩中形成以钠长石为主、含少量方解石和石英的细脉"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要金矿物为",
+"description": "自然金是包古图金矿XI区中主要的含金矿物"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI区主要金矿化阶段形成自然铋，并与自然金共生"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI区主要金矿化阶段矿物组合包括辉铋矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI区石英-硫化物阶段与硫化物-金-铋阶段均发育黄铜矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI区石英-硫化物阶段主要矿物组合包括毒砂"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI区石英-硫化物阶段主要矿物组合包括黄铁矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI区石英-硫化物阶段形成石英-硫化物脉"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI区钠长石-方解石阶段在围岩中形成以钠长石为主的细脉"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI区钠长石-方解石阶段细脉中含少量方解石"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "对应成矿流体为",
+"description": "包古图金矿XI区石英-硫化物阶段成矿流体温度为460℃至510℃"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "包古图金矿XI区主要金矿化阶段（硫化物-金-铋阶段）成矿流体温度为420℃至470℃"
+}
+]
+}

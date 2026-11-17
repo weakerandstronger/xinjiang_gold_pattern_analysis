@@ -1,0 +1,334 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0159",
+"title": "新疆西准噶尔包古图金矿微量元素地球化学研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床",
+"attributes": {
+"name": "包古图金矿床",
+"location": "新疆西准噶尔地区",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "含矿石英脉与区内广泛发育的中酸性斑岩体、岩脉在时间和空间上密切相关，指示成矿作用与晚石炭世中酸性岩浆活动有关",
+"age_ma": "晚石炭世"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔",
+"attributes": {
+"name": "西准噶尔",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变围岩",
+"attributes": {
+"name": "蚀变围岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Alteration",
+"name_zh": "围岩蚀变",
+"attributes": {
+"name": "围岩蚀变"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要含金矿物之一",
+"paragenesis": "主要金矿化阶段（阶段II和阶段III）形成，自然金赋存于毒砂和含砷黄铁矿中"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "自然金的赋存载体矿物",
+"paragenesis": "主要金矿化阶段（阶段II和阶段III）与自然金共生，自然金赋存其中"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "含砷黄铁矿",
+"attributes": {
+"name": "含砷黄铁矿",
+"role_in_ore": "自然金的赋存载体矿物",
+"paragenesis": "主要金矿化阶段（阶段II和阶段III）与自然金相关，自然金赋存其中"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "自然砷",
+"attributes": {
+"name": "自然砷",
+"role_in_ore": "含金阶段的共生矿物",
+"paragenesis": "含金粗粒自然砷-辉锑矿-石英脉阶段（阶段III）发育，与辉锑矿和石英共生，可包裹银金矿"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "辉锑矿",
+"attributes": {
+"name": "辉锑矿",
+"role_in_ore": "含金阶段的共生矿物",
+"paragenesis": "含金粗粒自然砷-辉锑矿-石英脉阶段（阶段III）发育，与自然砷和石英共生，可包裹银金矿"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "含金矿物之一",
+"paragenesis": "主要金矿化阶段出现，银金矿被自然砷和辉锑矿包裹"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "石英脉与矿化围岩中的主要硫化物之一",
+"paragenesis": "存在于矿化围岩和含矿石英脉中，黄铁矿稀土元素配分及Co/Ni比值用于指示成矿流体性质"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "发育于粗粒石英脉阶段（阶段I）、含金细粒硫化物-石英脉阶段（阶段II）及含金自然砷-辉锑矿-石英脉阶段（阶段III）"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "晚期脉石矿物",
+"paragenesis": "方解石脉阶段（阶段IV）形成"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "包古图金矿成矿流体",
+"attributes": {
+"nature": "初始成矿流体为中温至中高温，且从阶段I到阶段II逐渐向较还原状态演化"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "金(Au)地球化学特征",
+"attributes": {
+"element": "金(Au)",
+"anomaly_pattern": "蚀变围岩和石英脉中的硫化物富含金"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "银(Ag)地球化学特征",
+"attributes": {
+"element": "银(Ag)",
+"anomaly_pattern": "蚀变围岩和石英脉中的硫化物富含银"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geochem",
+"name_zh": "砷(As)地球化学特征",
+"attributes": {
+"element": "砷(As)",
+"anomaly_pattern": "蚀变围岩和石英脉中的硫化物富含砷"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geochem",
+"name_zh": "锑(Sb)地球化学特征",
+"attributes": {
+"element": "锑(Sb)",
+"anomaly_pattern": "蚀变围岩和石英脉中的硫化物富含锑"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geochem",
+"name_zh": "碲(Te)地球化学特征",
+"attributes": {
+"element": "碲(Te)",
+"anomaly_pattern": "蚀变围岩和石英脉中的硫化物富含碲"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "包古图金矿位于新疆西准噶尔地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "主要围岩为",
+"description": "包古图金矿的矿化围岩表现为蚀变围岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要蚀变为",
+"description": "包古图金矿由石英脉型和蚀变岩型矿体组成，显示围岩蚀变与成矿密切相关"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿主要金矿化阶段形成自然金，自然金赋存于毒砂和含砷黄铁矿中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿主要金矿化阶段自然金赋存于毒砂中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿主要金矿化阶段自然金赋存于含砷黄铁矿中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿含金粗粒自然砷-辉锑矿-石英脉阶段（阶段III）发育自然砷"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿含金粗粒自然砷-辉锑矿-石英脉阶段（阶段III）发育辉锑矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿中银金矿被自然砷和辉锑矿包裹"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿矿化围岩和含矿石英脉中发育黄铁矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿各阶段矿体以石英脉为主要产物，石英为主要脉石矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿晚期发育方解石脉阶段（阶段IV）"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "黄铁矿Co/Ni比值指示包古图金矿初始成矿流体为中温至中高温，且不同阶段Ce、Eu异常表明成矿流体逐渐向较还原状态演化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "蚀变围岩和石英脉中的硫化物显示金富集特征"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "蚀变围岩和石英脉中的硫化物显示银富集特征"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "显示",
+"description": "蚀变围岩和石英脉中的硫化物显示砷富集特征"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "显示",
+"description": "蚀变围岩和石英脉中的硫化物显示锑富集特征"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "显示",
+"description": "蚀变围岩和石英脉中的硫化物显示碲富集特征"
+}
+]
+}

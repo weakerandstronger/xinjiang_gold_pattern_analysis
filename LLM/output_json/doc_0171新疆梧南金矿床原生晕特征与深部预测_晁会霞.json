@@ -1,0 +1,122 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0171",
+"title": "新疆梧南金矿床原生晕特征与深部预测",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "梧南金矿床",
+"attributes": {
+"name": "梧南金矿床",
+"location": "新疆鄯善县西南",
+"tectonic_position": "塔里木板块北缘的南天山晚古生代陆缘盆地",
+"deposit_type": "造山型金矿床"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "天山构造带",
+"attributes": {
+"name": "天山构造带",
+"level": "构造带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "塔里木板块北缘南天山晚古生代陆缘盆地",
+"attributes": {
+"name": "塔里木板块北缘南天山晚古生代陆缘盆地",
+"level": "构造单元"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "新疆鄯善县西南",
+"attributes": {
+"name": "新疆鄯善县西南",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "碳酸盐岩地层",
+"attributes": {
+"name": "碳酸盐岩地层"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Geochem",
+"name_zh": "成矿元素组合特征",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "成矿元素组合为Au—Ag—As—Sb—Hg，显示中—低温特征"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Geochem",
+"name_zh": "原生晕轴向分带序列",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "原生晕轴向分带序列为Au—Bi—Cu—Mo—Hg—Sb—Ag—As—Pb—Zn"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "梧南金矿床位于新疆鄯善县西南"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "梧南金矿床为天山构造带新发现的微细浸染型金矿"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "梧南金矿床大地构造位置属于塔里木板块北缘的南天山晚古生代陆缘盆地"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "梧南金矿床产于碳酸盐岩地层"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "显示",
+"description": "梧南金矿床成矿元素组合为Au—Ag—As—Sb—Hg并显示中—低温特征"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "显示",
+"description": "梧南金矿床首次确定原生晕轴向分带序列为Au—Bi—Cu—Mo—Hg—Sb—Ag—As—Pb—Zn"
+}
+]
+}

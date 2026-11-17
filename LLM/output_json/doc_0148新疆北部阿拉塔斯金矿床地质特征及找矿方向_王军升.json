@@ -1,0 +1,433 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0148",
+"title": "新疆北部阿拉塔斯金矿床地质特征及找矿方向",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿拉塔斯金矿床",
+"attributes": {
+"name": "阿拉塔斯金矿床",
+"location": "新疆青河县境内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床（体）受布尔根韧性剪切带及次一级韧性剪切带控制，矿体与剪切糜棱岩带产状一致，NW向卡—接断裂与克孜勒它乌断裂等深大断裂控岩控矿"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆青河县",
+"attributes": {
+"name": "新疆青河县",
+"level": "县"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "额尔齐斯聚矿带",
+"attributes": {
+"name": "额尔齐斯聚矿带",
+"level": "聚矿带",
+"tectonic_setting": "布尔根韧性剪切带的发育地段"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统卡希翁组",
+"attributes": {
+"name": "上泥盆统卡希翁组（D₃k）",
+"age": "上泥盆统",
+"dominant_lithology": "火山碎屑岩建造",
+"lithology_notes": "主要岩性包括凝灰岩、凝灰质粉砂岩、绢云石英片岩、千枚岩、糜棱岩等，为区内金矿容矿地层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "卡希翁组火山碎屑岩及浅变质岩类围岩",
+"attributes": {
+"name": "卡希翁组火山碎屑岩及浅变质岩类围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "灰黑色碳质粉砂岩层",
+"attributes": {
+"name": "灰黑色碳质粉砂岩层（厚15～20m）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "布尔根韧性剪切带",
+"attributes": {
+"name": "布尔根韧性剪切带",
+"structure_type": "韧性剪切带",
+"scale": "区域性",
+"ore_control_role": "区域上控制矿床发育，矿区处于其控制范围内并位于中部膨大部位的局部裂张环境"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "含金次一级韧性剪切带",
+"attributes": {
+"name": "含金次一级韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "NW—SE向展布，产状为15°～22°∠70°",
+"scale": "矿区级",
+"ore_control_role": "矿床（体）主要受其控制，含金韧性剪切带长约2km、宽约5～20m"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "卡—接断裂",
+"attributes": {
+"name": "卡—接断裂",
+"structure_type": "断裂",
+"orientation": "NW向",
+"scale": "区域性",
+"ore_control_role": "控制区内火山—岩浆活动并控岩控矿"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "克孜勒它乌断裂",
+"attributes": {
+"name": "克孜勒它乌断裂",
+"structure_type": "断裂",
+"orientation": "NW向",
+"scale": "区域性",
+"ore_control_role": "控制区内火山—岩浆活动并控岩控矿"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "布尔根河断裂",
+"attributes": {
+"name": "布尔根河断裂",
+"structure_type": "断裂",
+"orientation": "近SN向",
+"scale": "区域性"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "剪切糜棱岩带",
+"attributes": {
+"name": "剪切糜棱岩带",
+"structure_type": "糜棱岩带",
+"scale": "矿区级",
+"ore_control_role": "矿体与剪切糜棱岩带产状一致并受其控制，石英糜棱岩型为主要矿化类型"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长玢岩",
+"attributes": {
+"name": "闪长玢岩",
+"rock_type": "闪长玢岩",
+"relationship_to_ore": "矿区周围浅成侵入体之一，在空间上与金矿化密切相关"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "IntrusiveBody",
+"name_zh": "流纹斑岩",
+"attributes": {
+"name": "流纹斑岩",
+"rock_type": "流纹斑岩",
+"relationship_to_ore": "矿区周围浅成侵入体之一，在接触带黄铁矿化、硅化增强并与金矿化空间相关"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "与金矿化密切相关的硫化物矿物"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "石英糜棱岩型与石英脉型矿化的重要组成矿物"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Fluid",
+"name_zh": "成矿热液流体",
+"attributes": {
+"nature": "成矿热液流体"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Geochem",
+"name_zh": "Au地球化学异常",
+"attributes": {
+"element": "Au",
+"value_ppm": "平均0.0031 ppm；最高0.098 ppm",
+"anomaly_pattern": "科克萨依—哈拉干德Au等异常带，长约30 km、宽8～12 km，呈NW向展布，受卡—接断裂和克孜勒它乌断裂控制，异常集中区为科克萨依—阿拉塔斯段"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Geochem",
+"name_zh": "As地球化学异常",
+"attributes": {
+"element": "As",
+"value_ppm": "35～44 ppm；最高180 ppm",
+"anomaly_pattern": "科克萨依—哈拉干德Au、Ag、As、Sb等地球化学异常带，呈NW向展布并受主要断裂控制"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Geochem",
+"name_zh": "Sb地球化学异常",
+"attributes": {
+"element": "Sb",
+"value_ppm": "1.9～3.6 ppm；最高14 ppm",
+"anomaly_pattern": "科克萨依—哈拉干德Au、Ag、As、Sb等地球化学异常带，呈NW向展布并受主要断裂控制"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿拉塔斯金矿床位于新疆青河县境内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "阿拉塔斯金矿床区域上属额尔齐斯聚矿带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "阿拉塔斯金矿床在区域上受布尔根韧性剪切带控制，并处于其控制范围内的有利构造环境"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "矿床（体）主要受次一级韧性剪切带控制，含金韧性剪切带呈NW—SE向展布"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "矿体与剪切糜棱岩带产状一致并受糜棱岩带控制，石英糜棱岩型为主要矿化类型"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "NW向卡—接断裂为本区主要控岩控矿构造之一"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "NW向克孜勒它乌断裂为本区主要控岩控矿构造之一"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "矿区容矿地层为卡希翁组火山碎屑岩建造，矿床围岩以卡希翁组火山碎屑岩及浅变质岩类为主"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "矿区灰黑色碳质粉砂岩层（厚15～20m）为金成矿有利层位"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "卡希翁组火山碎屑岩及浅变质岩类围岩属于上泥盆统卡希翁组"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "灰黑色碳质粉砂岩层为上泥盆统卡希翁组中的有利层位"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区发育硅化，硅化蚀变岩发育地段金矿化异常明显"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区发育黄铁矿化，黄铁矿化蚀变岩发育地段金矿化异常明显"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区发育绢云母化，绢云母化蚀变岩发育地段金矿化异常明显"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "伴随有",
+"description": "矿区发育碳酸盐化等蚀变类型"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "伴随有",
+"description": "矿区发育绿泥石化等蚀变类型"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "矿化带及其围岩中黄铁矿化普遍发育，黄铁矿与金矿化密切相关"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "矿化类型包括石英糜棱岩型与石英脉型，石英为主要组成矿物之一"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "对应成矿流体为",
+"description": "石英脉与矿化带反映成矿热液流体的广泛活动，后期韧性剪切变形促使成矿流体迁移汇聚于剪切带减压带"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "显示",
+"description": "区域化探显示科克萨依—哈拉干德Au异常带的异常集中区为科克萨依—阿拉塔斯段，反映良好的金成矿背景"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "伴随有",
+"description": "科克萨依—哈拉干德异常带中As异常与Au异常伴生并呈NW向展布"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "伴随有",
+"description": "科克萨依—哈拉干德异常带中Sb异常与Au异常伴生并呈NW向展布"
+}
+]
+}

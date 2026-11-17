@@ -1,0 +1,137 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0034",
+"title": "东准噶尔双泉金矿LA-ICP-MS锆石U-Pb测年及赋矿岩石地球化学特征",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿床",
+"attributes": {
+"name": "双泉金矿床",
+"location": "东准噶尔双泉矿区",
+"tectonic_position": "形成于东准噶尔后碰撞阶段陆-陆碰撞造山及其后伸展张弛构造作用背景下的挤压推覆构造体系",
+"ore_control_features": "属晚石炭世前后挤压推覆构造体系产物，成矿受东准噶尔后碰撞阶段陆-陆碰撞造山及伸展张弛构造运动共同控制",
+"age_ma": "303.53±0.79 Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔地区",
+"attributes": {
+"name": "东准噶尔地区",
+"level": "地区",
+"tectonic_setting": "后碰撞阶段早石炭世至二叠纪晚期发生陆-陆碰撞造山及其后的伸展张弛构造运动，赋存活动陆缘或岛弧环境下形成的壳幔混熔岩体"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "双泉金矿赋矿岩石单元",
+"attributes": {
+"name": "双泉金矿赋矿岩石单元"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Geochem",
+"name_zh": "双泉金矿赋矿岩石地球化学特征",
+"attributes": {
+"element": "SiO2、K2O、CaO、Na2O、Ba、Rb、Th、TiO2、稀土元素",
+"value_ppm": "SiO2=58.82%～89.25%，K2O=1.12%～4.47%，CaO=0.52%～4.47%，Na2O=0.43%～1.76%，A/CNK>1，δ<3.3，具过铝质、钙碱性特征",
+"anomaly_pattern": "岩石富钾钙、贫钠镁，Ba 相对 Rb、Th 亏损，K2O 含量接近活动陆缘，TiO2 含量与岛弧相近，稀土元素具弱负 Eu、负 Ce 异常，（La/Sm）N 大于（Gd/Yb）N，轻稀土分馏程度高于重稀土，表明岩浆具壳幔混熔特点"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Fluid",
+"name_zh": "双泉金矿成矿热液",
+"attributes": {
+"nature": "壳幔混源岩浆热液",
+"source": "成矿热液来自壳幔混源岩浆，在东准噶尔后碰撞阶段陆-陆碰撞造山及伸展张弛构造环境下形成"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Isotope",
+"name_zh": "双泉金矿含金石英脉锆石U-Pb年龄",
+"attributes": {
+"system": "U-Pb",
+"parameter_name": "含金石英脉加权平均206Pb/238U年龄",
+"value_range": "303.53±0.79 Ma，22个测点在误差范围内完全一致，代表含金石英脉形成年龄及双泉金矿热液成矿时代，属晚石炭世前后挤压推覆构造体系产物"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "与金成矿有关的硫化物矿物",
+"paragenesis": "结合黄铁矿形态特征及成矿条件，认为双泉金矿形成经历预富集和富集演化阶段"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "与金成矿有关的硫化物矿物",
+"paragenesis": "结合毒砂等矿物形态特征及成矿条件，支持双泉金矿并非一期成矿，而是经历预富集与富集的多阶段演化过程"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "双泉金矿位于东准噶尔地区，是东准噶尔后碰撞阶段陆-陆碰撞造山及伸展张弛构造环境下形成的金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "双泉金矿的含金石英脉赋存于过铝质、钙碱性特征明显的赋矿岩石单元中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "显示",
+"description": "双泉金矿赋矿岩石地球化学特征表现为过铝质、钙碱性，富钾钙、贫钠镁，Ba 相对 Rb、Th 亏损，稀土元素具弱负 Eu、负 Ce 异常等，提示岩浆具壳幔混熔特点"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "对应成矿流体为",
+"description": "结合赋矿岩石地球化学分析认为，双泉金矿成矿热液来自壳幔混源岩浆，为东准噶尔后碰撞阶段活动陆缘或岛弧环境下形成的岩浆热液"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铁矿在双泉金矿中为与金成矿有关的硫化物矿物，其形态特征反映矿床经历预富集和富集演化过程"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "毒砂等矿物与双泉金矿成矿密切相关，其形态特征与黄铁矿共同指示矿床经历多阶段富集演化"
+}
+]
+}

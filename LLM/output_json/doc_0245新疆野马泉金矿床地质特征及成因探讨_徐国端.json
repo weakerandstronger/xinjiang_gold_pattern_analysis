@@ -1,0 +1,255 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0245",
+"title": "新疆野马泉金矿床地质特征及成因探讨_徐国端",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "野马泉金矿床",
+"attributes": {
+"name": "野马泉金矿床",
+"location": "库兰—北塔山构造成矿带南侧库布苏成矿亚带中段",
+"tectonic_position": "库普苏深断裂北约3km处、库布苏向斜核部的脆—韧性构造变形带",
+"deposit_type": "造山型金矿床",
+"ore_grade": "低品位，矿化体最高金品位5.26×10—6",
+"ore_control_features": "矿化主要赋存于破碎蚀变的含矿闪长玢岩脉；含矿岩脉受NWW向压性逆冲断裂控制，矿化受构造及岩体联合控制；主成矿期发生于脉岩形成后的构造破碎及岩石蚀变阶段；矿带长约20km，矿体沿走向呈透镜状或脉状断续分布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "库兰—北塔山构造成矿带",
+"attributes": {
+"name": "库兰—北塔山构造成矿带",
+"level": "构造成矿带",
+"tectonic_setting": "区域性构造成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "库布苏成矿亚带",
+"attributes": {
+"name": "库布苏成矿亚带",
+"level": "成矿亚带",
+"tectonic_setting": "库兰—北塔山构造成矿带南侧"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "北部NWW向控矿断裂",
+"attributes": {
+"name": "北部NWW向控矿断裂",
+"structure_type": "压性逆冲断裂",
+"orientation": "总体走向约290°，倾角约80°±",
+"scale": "长约15km，宽约3～4m",
+"ore_control_role": "控矿断裂，破碎蚀变越强烈矿化程度越高"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "后期压扭性断裂",
+"attributes": {
+"name": "后期压扭性断裂",
+"structure_type": "压扭性断裂",
+"ore_control_role": "控制金矿体与矿化体的分布及透镜状形态"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "破碎蚀变含矿闪长玢岩脉",
+"attributes": {
+"name": "破碎蚀变含矿闪长玢岩脉"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "炭质板岩",
+"attributes": {
+"name": "炭质板岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "StratUnit",
+"name_zh": "志留系库布苏群",
+"attributes": {
+"name": "志留系库布苏群",
+"age": "志留系（S2—3）",
+"dominant_lithology": "浅海—次深海相含火山碎屑的泥砂质沉积建造与粉砂质-炭泥质岩建造",
+"lithology_notes": "由砂质板岩与粉砂质板岩互层、炭质板岩夹砂质板岩、硅质岩及硅质板岩等组成"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强（石英细脉状硅化、石英脉发育）"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "铁白云石、方解石",
+"intensity": "较强（碳酸盐化期可伴生少量黄铁矿）"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要含金矿物",
+"paragenesis": "与硅质细脉、石英脉及黄铁矿、毒砂等共生，第三成矿期含金石英脉可形成特富矿脉"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "多期出现，与硅化、石英脉及碳酸盐化等蚀变作用密切相关"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "重要载金硫化物矿物",
+"paragenesis": "第二—第三成矿期常见大颗粒毒砂，常与自然金共生并可见于其破碎裂隙中"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "金元素分散流异常",
+"attributes": {
+"element": "Au（金）",
+"anomaly_pattern": "矿区位于塔斯喀克—野马泉—北塔山牧场分散流异常带中，Au异常沿库兰喀孜干花岗杂岩体呈半环形或环形分布并受杂岩体控制"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "野马泉金矿床位于库兰—北塔山构造成矿带南侧"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "野马泉金矿床位于库布苏成矿亚带中段"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "矿化主要赋存于破碎蚀变的含矿闪长玢岩脉中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要围岩为",
+"description": "矿体上、下盘围岩主要为炭质板岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E8",
+"relation_label_zh": "属于",
+"description": "炭质板岩围岩属于志留系库布苏群"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "含矿闪长玢岩脉及矿体受北部NWW向压性逆冲控矿断裂控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "金矿体受后期压扭性断裂控制，沿走向呈透镜状或脉状断续分布"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "矿体及矿化体中普遍发育强石英细脉状硅化与石英脉"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "矿化晚期出现碳酸盐化（铁白云石化、方解石化），可伴生少量黄铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石中自然金不规则粒状浸染于脉石颗粒间及裂隙中，并可见于硫化物破碎裂隙内"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中常见黄铁矿等硫化物矿物，与硅化及石英脉作用密切相关"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中常见毒砂，第二—第三成矿期可见大颗粒毒砂并与自然金共生"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "矿区位于分散流金异常带中，金异常明显并具找矿指示意义"
+}
+]
+}

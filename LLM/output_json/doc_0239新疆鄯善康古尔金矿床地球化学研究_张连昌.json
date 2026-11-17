@@ -1,0 +1,268 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0239",
+"title": "新疆鄯善康古尔金矿床地球化学研究_张连昌",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "康古尔金矿床",
+"attributes": {
+"name": "康古尔金矿床",
+"location": "新疆鄯善县康古尔地区（东天山康古尔塔格金成矿带）",
+"tectonic_position": "塔里木板块北部古生代岛弧—海沟系与阿齐山—雅满苏岛弧带北缘，受黄山—秋格明塔什大型韧性剪切变质变形带影响",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床受近北东东向展布的次级韧性剪切带控制；矿脉带长约850m、宽20～50m、延深超过400m；主矿体位于韧性剪切带超糜棱岩中，由含金蚀变岩和石英脉组成；矿化石英脉多为5～20cm细脉状，沿糜棱面理（或与其夹角较小）分布；不同成矿阶段叠加部位矿体厚而富"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "康古尔塔格金成矿带",
+"attributes": {
+"name": "康古尔塔格金成矿带",
+"level": "成矿带",
+"tectonic_setting": "东天山地区金成矿带，受黄山—秋格明塔什大型韧性剪切变质变形带控制影响"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统阿齐山组",
+"attributes": {
+"name": "下石炭统阿齐山组",
+"age": "下石炭世",
+"dominant_lithology": "中酸性火山岩、火山碎屑岩及碳酸盐岩",
+"lithology_notes": "康古尔金矿及区域内部分金矿床产出于该组安山岩和凝灰岩中"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "韧性剪切带超糜棱岩（含金蚀变岩与石英脉）",
+"attributes": {
+"name": "韧性剪切带超糜棱岩（含金蚀变岩与石英脉）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "近北东东向次级韧性剪切带",
+"attributes": {
+"name": "近北东东向次级韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "近北东东向",
+"scale": "矿区级",
+"ore_control_role": "控制石英斑岩、石英正长斑岩等次火山岩及康古尔金矿矿脉带的展布与矿体产出"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "康古尔英云闪长岩体",
+"attributes": {
+"name": "康古尔英云闪长岩体",
+"rock_type": "英云闪长岩",
+"age": "236Ma（锆石U-Pb同位素谐和年龄）",
+"relationship_to_ore": "岩体距金矿较近（约4km），岩体东南侧已发现多个金（铜）矿床与矿点"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化—黄铁绢英岩化—绿泥石化",
+"attributes": {
+"name": "硅化—黄铁绢英岩化—绿泥石化",
+"alteration_minerals": "石英、黄铁矿、绢云母、绿泥石",
+"intensity": "围岩蚀变发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与磁铁矿、石英、绢云母、绿泥石等共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "显微一次显微粒状或片状包裹于黄铁矿中，或赋存于黄铁矿、石英、绿泥石等矿物粒间"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "大气降水为主的中低温成矿流体",
+"attributes": {
+"nature": "中低温、主要离子含量较低的NaCl-KCl-H2O型成矿溶液",
+"source": "成矿流体以大气降水为主要来源，早期阶段靠近变质水与岩浆水组成区，晚期向大气降水线漂移",
+"temperature_C_min": "98",
+"temperature_C_max": "320"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "氢同位素δD（矿化平衡水）",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD（矿化平衡水）",
+"value_range": "-66‰～-45‰"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O（矿化平衡水）",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O（矿化平衡水）",
+"value_range": "-8.34‰～2.98‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S（硫化物）",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（硫化物）",
+"value_range": "-3.12‰～3.30‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "铅同位素（矿石）",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "206Pb/204Pb、207Pb/204Pb、208Pb/204Pb",
+"value_range": "206Pb/204Pb为18.101～18.255；207Pb/204Pb为15.534～15.576；208Pb/204Pb为37.930～38.233"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "金（Au）富集特征",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "阿齐山组安山岩中金含量高出地壳克拉克值4倍；矿石与火山岩（含次火山岩）的微量与稀土元素特征相似，指示成矿物质主要来自容矿围岩火山岩"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "康古尔金矿床位于东天山康古尔塔格金成矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床受近北东东向次级韧性剪切带控制，矿脉带与次火山岩体沿剪切带展布"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "康古尔金矿床主矿体位于韧性剪切带超糜棱岩中，由含金蚀变岩和石英脉组成"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "康古尔金矿床赋矿剪切带及其超糜棱岩带发育于下石炭统阿齐山组火山岩建造中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "康古尔金矿床围岩蚀变主要为硅化、黄铁绢英岩化与绿泥石化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床矿石中金属矿物主要为黄铁矿（并伴生磁铁矿等）"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "康古尔金矿床金矿物为自然金，常包裹于黄铁矿中或赋存于矿物粒间"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "康古尔金矿床成矿流体以大气降水为主要来源，成矿温度为中低温（石英包裹体均一温度约98～320℃）"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "矿化平衡水δD为-66‰～-45‰，指示成矿流体由早期变质水/岩浆水向大气降水演化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "矿化平衡水δ18O为-8.34‰～2.98‰，反映成矿流体向大气降水线漂移并发生水—岩交换"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "硫化物δ34S为-3.12‰～3.30‰且多为接近零的正值，指示硫源与围岩火山岩相近并未发生明显同位素分馏"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "矿石铅同位素206Pb/204Pb、207Pb/204Pb、208Pb/204Pb变化范围小且与围岩火山岩接近，指示二者铅源相同并受造山作用改造的幔源物质影响"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "康古尔金矿床地球化学资料显示成矿物质主要来自容矿围岩火山岩，Au在阿齐山组火山岩中富集并在热液活动中活化迁移"
+}
+]
+}

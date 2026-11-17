@@ -1,0 +1,167 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0262",
+"title": "新疆金窝子金矿流体包裹体研究_张增杰",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金窝子金矿床",
+"attributes": {
+"name": "金窝子金矿床",
+"location": "新疆甘肃交界处（距星星峡约25km）",
+"tectonic_position": "哈萨克-准噶尔板块与塔里木板块缝合带东部古老基底上晚古生代形成的上叠盆地中",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体表现为岩体中一系列张裂脉；成矿可分为早期石英阶段、中期硫化物-石英阶段和晚期石英阶段"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "哈萨克-准噶尔板块与塔里木板块缝合带东部上叠盆地",
+"attributes": {
+"name": "哈萨克-准噶尔板块与塔里木板块缝合带东部上叠盆地",
+"level": "构造单元",
+"tectonic_setting": "缝合带东部古老基底上晚古生代形成的上叠盆地"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "泥盆纪金窝子组（D3j）",
+"attributes": {
+"name": "泥盆纪金窝子组（D3j）",
+"age": "泥盆纪",
+"dominant_lithology": "陆源碎屑夹火山碎屑岩和海相碳酸盐岩组合",
+"lithology_notes": "为矿区主要地层之一，与二叠纪菊石滩组共同组成矿区地层组合"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "二叠纪菊石滩组（P1j）",
+"attributes": {
+"name": "二叠纪菊石滩组（P1j）",
+"age": "二叠纪",
+"dominant_lithology": "陆源碎屑夹火山碎屑岩和海相碳酸盐岩组合",
+"lithology_notes": "与泥盆纪金窝子组共同组成矿区地层组合"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "早海西期黑云母二长花岗岩",
+"attributes": {
+"name": "早海西期黑云母二长花岗岩",
+"rock_type": "黑云母二长花岗岩",
+"age": "早海西期",
+"relationship_to_ore": "为成矿围岩；花岗岩石英包裹体特征与成矿期包裹体不一致，表明岩浆期后热液与成矿关系不大"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "张裂脉（岩体张性裂隙）",
+"attributes": {
+"name": "张裂脉（岩体张性裂隙）",
+"structure_type": "张性裂隙",
+"scale": "矿区级",
+"ore_control_role": "为矿体赋存空间，石英脉（张裂脉）充填成矿"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "钾交代",
+"attributes": {
+"name": "钾交代",
+"alteration_minerals": "富钾蚀变（表现为K2O增加、Na2O降低）",
+"intensity": "明显"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化",
+"attributes": {
+"name": "黄铁绢英岩化",
+"alteration_minerals": "黄铁矿、绢云母、石英",
+"intensity": "明显"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "中期硫化物-石英阶段的重要硫化物矿物（蚀变矿物之一）",
+"paragenesis": "与石英等脉石矿物共生，形成黄铁绢英岩化蚀变组合"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "金窝子成矿流体",
+"attributes": {
+"nature": "中低温热液；包裹体以气液两相为主，气液相主要成分为H2O、CO2和CH4；Na+离子含量非常高，CO2相对含量及CO2/CH4比值较高，轻稀土略微富集",
+"source": "主要为壳源流体",
+"temperature_C_min": "小于150",
+"temperature_C_max": "328",
+"salinity_wtNaCl_min": "5",
+"salinity_wtNaCl_max": "16"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金窝子金矿床位于哈萨克-准噶尔板块与塔里木板块缝合带东部的上叠盆地中"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "金窝子金矿床矿体表现为岩体中一系列张裂脉（张性裂隙）充填成矿"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "金窝子金矿床围岩发生明显钾交代，钾交代被认为与矿质聚集和稳定迁移有关"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "金窝子金矿床围岩蚀变中发育黄铁绢英岩化（黄铁矿-绢云母-石英组合）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床成矿阶段包含硫化物-石英阶段，黄铁矿为其中的重要硫化物矿物之一"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "金窝子金矿床对应成矿流体为以壳源流体为主的中低温热液（包裹体均一温度最高不超过328℃，盐度w(NaCleq)为5%～16%）"
+}
+]
+}

@@ -1,0 +1,76 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0041",
+"title": "试论蛇绿碳酸岩与金矿化关系———以东准卡拉麦里蛇绿带中金水泉金矿为例",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金水泉金矿",
+"attributes": {
+"name": "金水泉金矿",
+"location": "位于东准噶尔卡拉麦里蛇绿岩混杂岩带西段",
+"tectonic_position": "处于东准噶尔卡拉麦里蛇绿岩混杂岩带中蛇绿岩断片与中泥盆统北塔山组块体叠瓦状构造带内",
+"ore_control_features": "矿区蛇绿岩多受断裂控制呈条带状断片，并与中泥盆统北塔山组块体呈叠瓦状构造，金矿化与分布于蛇纹岩体边缘的蛇绿碳酸岩脉具有密切空间分布和成因联系"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔卡拉麦里蛇绿岩混杂岩带",
+"attributes": {
+"name": "东准噶尔卡拉麦里蛇绿岩混杂岩带",
+"level": "蛇绿岩混杂岩带",
+"tectonic_setting": "位于东准噶尔地区的蛇绿岩混杂岩带，内部发育众多碳酸岩脉，与本带金矿化具有密切空间分布关系和成因联系"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统北塔山组",
+"attributes": {
+"name": "中泥盆统北塔山组",
+"age": "中泥盆统",
+"dominant_lithology": "文中未具体描述岩性，仅指出为北塔山组块体地层",
+"lithology_notes": "在卡拉麦里蛇绿混杂岩带中与蛇绿岩条带状断片共同出现，二者呈叠瓦状构造产出"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "蛇纹岩体边缘蛇绿碳酸岩脉带",
+"attributes": {
+"name": "蛇纹岩体边缘蛇绿碳酸岩脉带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉长岩侵入体",
+"attributes": {
+"name": "辉长岩侵入体",
+"rock_type": "辉长岩",
+"relationship_to_ore": "在金水泉矿区蛇绿岩中出露，蛇绿碳酸岩脉常紧贴辉长岩侵入体分布，反映与本带金矿化具有成因联系"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金水泉金矿位于东准噶尔卡拉麦里蛇绿岩混杂岩带西段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "金水泉矿区的蛇绿碳酸岩分布于蛇纹岩体边缘，多呈透镜状和脉状，与金矿化具有密切空间分布和成因联系，可视为金水泉金矿的主要围岩单元之一"
+}
+]
+}

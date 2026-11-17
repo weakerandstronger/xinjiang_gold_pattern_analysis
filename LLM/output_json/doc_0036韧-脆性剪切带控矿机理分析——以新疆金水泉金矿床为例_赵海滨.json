@@ -1,0 +1,469 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0036",
+"title": "韧-脆性剪切带控矿机理分析——以新疆金水泉金矿床为例",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金水泉金矿床",
+"attributes": {
+"name": "金水泉金矿床",
+"location": "新疆东准噶尔地区卡拉麦里成矿带",
+"tectonic_position": "西伯利亚-哈萨克斯坦-准噶尔板块之陆缘缝合带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体及含金蚀变带产于北塔山组凝灰岩、粉砂岩、构造千枚岩和糜棱岩带中，主要赋存于NWW—EW向构造带和裂隙扩容带，空间上受NW向断裂带内次级断裂及多组羽状、透镜状、雁列式张裂隙等脆性构造控制，具强韧-脆性剪切变形特征"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆东准噶尔地区",
+"attributes": {
+"name": "新疆东准噶尔地区",
+"level": "地区",
+"tectonic_setting": "包含卡拉麦里成矿带等重要金成矿区的大地构造单元"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带",
+"attributes": {
+"name": "卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "位于新疆东准噶尔地区西伯利亚-哈萨克斯坦-准噶尔板块陆缘缝合带上的金成矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "西伯利亚-哈萨克斯坦-准噶尔陆缘缝合带",
+"attributes": {
+"name": "西伯利亚-哈萨克斯坦-准噶尔陆缘缝合带",
+"level": "陆缘缝合带",
+"tectonic_setting": "西伯利亚板块、哈萨克斯坦板块与准噶尔板块之间的陆缘缝合构造带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统北塔山组",
+"attributes": {
+"name": "中泥盆统北塔山组",
+"age": "中泥盆统（D2b）",
+"dominant_lithology": "一套浅海相火山碎屑岩",
+"lithology_notes": "岩性主要为火山灰沉凝灰岩、凝灰角砾岩、凝灰质砂岩、粉砂岩等，是金水泉金矿床重要的赋矿地层"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "新元古界南明水组",
+"attributes": {
+"name": "新元古界南明水组",
+"age": "新元古界（Pt3n）",
+"dominant_lithology": "一套变质岩系",
+"lithology_notes": "由凝灰质砾岩段和凝灰岩段组成，为矿区出露的晚古生代以前基底地层之一"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "北塔山组含金火山碎屑岩围岩单元",
+"attributes": {
+"name": "北塔山组含金火山碎屑岩围岩单元"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里深断裂（F1）",
+"attributes": {
+"name": "卡拉麦里深断裂（F1）",
+"structure_type": "深大断裂",
+"orientation": "位于矿区南侧，近东西向展布",
+"scale": "区域性深断裂，控制矿区南侧构造格局",
+"ore_control_role": "作为区域性深断裂，对矿区次级断裂组和裂隙带的发育具有重要控导作用，为剪切带型金矿形成提供构造背景"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "次级平行断裂（F2）",
+"attributes": {
+"name": "次级平行断裂（F2）",
+"structure_type": "次级平行断裂",
+"orientation": "位于矿区北侧约500 m处，与卡拉麦里深断裂大致平行",
+"scale": "矿区北侧一条重要次级断裂",
+"ore_control_role": "受F1和F2共同影响，区内次级断层组、裂隙带发育，以NWW向及NW向为主，为压性逆冲断层，是金水泉金矿床构造控矿体系的重要组成部分"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "NW向断裂及张裂隙带",
+"attributes": {
+"name": "NW向断裂及张裂隙带",
+"structure_type": "压性逆冲断层及其羽状、透镜状、雁列式张裂隙带",
+"orientation": "以NW向和NWW向为主，同时发育NWW—EW向构造带",
+"scale": "由NW向断裂带内多组羽状、透镜状、雁列式张裂隙及裂隙扩容带组成的线性强变形带与弱变形岩块相间分布",
+"ore_control_role": "矿脉均赋存于NWW—EW向构造带和裂隙扩容带中，空间上主要受控于NW向断裂带内之次级断裂及其多组羽状、透镜状、雁列式张裂隙等脆性构造，是矿体具体就位的直接控矿构造"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化-碳酸盐化-硅化-绢云母化蚀变带",
+"attributes": {
+"name": "绿泥石化-碳酸盐化-硅化-绢云母化蚀变带",
+"alteration_minerals": "绿泥石、碳酸盐矿物、石英、绢云母等",
+"intensity": "矿脉及近矿围岩发生强烈动力变形、变质与重结晶，发育强片理化、碎裂岩化、糜棱岩化并伴随绿泥石化、碳酸盐化、硅化、绢云母化等强烈蚀变"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "产于破碎蚀变岩夹石英脉型矿石中，与黄铁矿、毒砂等金属矿物及石英、绢云母等脉石共同组成含金石英脉和含金蚀变带"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物",
+"paragenesis": "与自然金、毒砂等共生，广泛出现在石英-黄铁矿、石英-黄铁矿-毒砂等矿石矿物组合中，是主要含金硫化物之一"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "次生铁氧化物矿物",
+"paragenesis": "作为黄铁矿等硫化物风化氧化产物出现，与金矿体近表部位矿石共生"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "重要金属硫化物矿物",
+"paragenesis": "与黄铁矿、自然金等共同组成石英-毒砂和石英-黄铁矿-毒砂等矿物组合，为含金蚀变带中的主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "次要金属硫化物矿物",
+"paragenesis": "少量见于矿石中，与黄铁矿、毒砂等共生，局部伴随金矿化出现"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "孔雀石",
+"attributes": {
+"name": "孔雀石",
+"role_in_ore": "氧化带次生铜矿物",
+"paragenesis": "少量出现于金矿石中，为黄铜矿等铜矿物风化的次生产物"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "石英脉呈透镜状、细脉状沿构造片理和线理方向产出，是破碎蚀变岩夹石英脉型矿石中最主要的脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "重要蚀变及脉石矿物",
+"paragenesis": "与石英、菱镁矿、方解石等共同组成脉石矿物组合，反映绢云母化蚀变作用强烈"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "菱镁矿",
+"attributes": {
+"name": "菱镁矿",
+"role_in_ore": "脉石及蚀变碳酸盐矿物",
+"paragenesis": "与方解石、石英、绢云母等共同作为脉石矿物出现，指示碳酸盐化蚀变作用"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石及蚀变碳酸盐矿物",
+"paragenesis": "与菱镁矿、石英、绢云母等共生，为矿石中的重要脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "斜长石",
+"attributes": {
+"name": "斜长石",
+"role_in_ore": "围岩及脉石矿物",
+"paragenesis": "作为火山碎屑岩及变质岩中的主要造岩矿物之一，局部参与脉石矿物组合"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "高岭土",
+"attributes": {
+"name": "高岭土",
+"role_in_ore": "粘土矿物",
+"paragenesis": "少量出现于矿石中，为硅铝质矿物风化蚀变形成的粘土矿物"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "磷灰石",
+"attributes": {
+"name": "磷灰石",
+"role_in_ore": "脉石及副矿物",
+"paragenesis": "作为副矿物出现于火山碎屑岩及矿石中，随脉石矿物一同出现"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Fluid",
+"name_zh": "金水泉金矿床成矿流体",
+"attributes": {
+"nature": "剪切带型金矿的成矿流体，与韧性剪切带及剪切变形作用密切相关",
+"source": "剪切变形作用创造了矿物质活化富集的热源及成矿流体迁移的动力与通道，成矿流体在剪切带内运移和聚集形成金矿体"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "IntrusiveBody",
+"name_zh": "基性-超基性岩蛇绿岩带",
+"attributes": {
+"name": "基性-超基性岩蛇绿岩带",
+"rock_type": "辉长岩、辉绿岩、蛇纹岩等基性-超基性岩石",
+"relationship_to_ore": "呈透镜状、条带状侵入于中泥盆统北塔山组地层，与其交替条带状混杂堆积，构成矿区混杂堆积岩带—蛇绿岩带，为金水泉金矿床提供区域岩浆与构造背景"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金水泉金矿床位于新疆东准噶尔地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "金水泉金矿床位于新疆东准噶尔地区卡拉麦里成矿带中部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "大地构造位于",
+"description": "金水泉金矿床所处大地构造位置为西伯利亚-哈萨克斯坦-准噶尔板块之陆缘缝合带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "金水泉金矿床含金蚀变带和矿脉产于北塔山组凝灰岩、粉砂岩、构造千枚岩和糜棱岩带等组成的北塔山组含金火山碎屑岩围岩单元中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "北塔山组含金火山碎屑岩围岩单元在地层上属于中泥盆统北塔山组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "金水泉金矿床所在区域南侧分布的卡拉麦里深断裂（F1）为区域性深大断裂，对矿区构造格局及次级断裂组、裂隙带的发育具有重要控矿作用"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "矿区北侧约500 m分布的次级平行断裂（F2）与卡拉麦里深断裂共同控制区内NWW向及NW向压性逆冲断层和裂隙带的发育，为金水泉金矿床构造控矿体系的重要组成部分"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "金水泉金矿床矿脉均赋存于NWW—EW向构造带和裂隙扩容带中，空间上主要受控于NW向断裂带内之次级断裂及其多组羽状、透镜状、雁列式张裂隙等脆性构造"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "金水泉金矿床矿脉及近矿围岩发生强烈变形与重结晶，发育强片理化、碎裂岩化、糜棱岩化并伴随绿泥石化、碳酸盐化、硅化、绢云母化等蚀变，构成绿泥石化-碳酸盐化-硅化-绢云母化蚀变带"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "金水泉金矿床矿石中自然金为主要金矿物，赋存于破碎蚀变岩夹石英脉型矿石内"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "金水泉金矿石中黄铁矿为主要金属硫化物矿物之一，与自然金、毒砂等共生"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "金水泉金矿石中褐铁矿为黄铁矿等硫化物的风化产物，与金矿体上部矿石共生"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "金水泉金矿石中毒砂为重要金属硫化物矿物，与黄铁矿、自然金等共同组成石英-毒砂和石英-黄铁矿-毒砂等矿物组合"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "金水泉金矿石中少量出现黄铜矿，局部伴随金矿化出现"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "金水泉金矿石中少量孔雀石为铜矿物风化形成的次生矿物"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "脉石矿物包括",
+"description": "金水泉金矿床矿石中石英为主要脉石矿物，石英脉呈透镜状、细脉状沿构造片理和线理方向产出"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "脉石矿物包括",
+"description": "金水泉金矿石中绢云母为重要脉石及蚀变矿物，反映绢云母化蚀变作用强烈"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "脉石矿物包括",
+"description": "金水泉金矿石中菱镁矿与方解石共同作为碳酸盐类脉石矿物出现"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "脉石矿物包括",
+"description": "金水泉金矿石中方解石为重要碳酸盐类脉石矿物"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "脉石矿物包括",
+"description": "金水泉金矿床围岩及部分矿石中含有斜长石，为火山碎屑岩及变质岩的重要造岩矿物之一"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "脉石矿物包括",
+"description": "金水泉金矿石中少量高岭土为硅铝质矿物风化形成的粘土矿物"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "脉石矿物包括",
+"description": "金水泉金矿石中磷灰石作为副矿物出现于火山碎屑岩及脉石中"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "对应成矿流体为",
+"description": "金水泉金矿床属于韧性剪切带型金矿床，其形成与剪切构造和剪切作用密切相关，剪切变形作用创造了矿物质活化富集的热源及成矿流体迁移的动力和通道"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E26",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "矿区超基性岩和基性岩呈透镜状、条带状侵入于中泥盆统北塔山组地层中，形成混杂堆积岩带—蛇绿岩带"
+}
+]
+}

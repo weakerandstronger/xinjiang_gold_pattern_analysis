@@ -1,0 +1,617 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0155",
+"title": "新疆西准噶尔包古图地区铜金矿成矿规律研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床",
+"attributes": {
+"name": "包古图金矿床",
+"location": "新疆西准噶尔包古图地区希贝库拉斯向斜南西翼下石炭统包古图组中",
+"tectonic_position": "西准噶尔达拉布特断裂以南，哈萨克斯坦—准噶尔板块北准噶尔弧盆带（哈萨克斯坦巴尔喀什斑岩型成矿带东延部分）",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "金平均5.79×10⁻⁶，银平均12.5×10⁻⁶",
+"ore_control_features": "矿（化）体呈脉状、网脉状产出，大致平行分布，倾向北西或北北西，倾角约75°；受北东向、北东东向压扭性断裂裂隙控制，沿走向和倾向均具舒缓波状、膨大狭缩特点；赋矿岩石为凝灰质含角砾砂岩、凝灰质粉砂岩或闪长岩、闪长玢岩；金矿（化）体形成时间为260～270 Ma",
+"age_ma": "260～270 Ma"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "包古图地区",
+"attributes": {
+"name": "包古图地区",
+"level": "地区",
+"tectonic_setting": "位于西准噶尔达拉布特断裂以南，属哈萨克斯坦—准噶尔板块北准噶尔弧盆带，为哈萨克斯坦巴尔喀什斑岩型成矿带的东延部分"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统包古图组",
+"attributes": {
+"name": "下石炭统包古图组",
+"age": "下石炭统",
+"dominant_lithology": "凝灰质含角砾砂岩、凝灰质粉砂岩",
+"lithology_notes": "浅成中—低温热液型金矿床产于该组中"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "凝灰质含角砾砂岩—凝灰质粉砂岩赋矿围岩",
+"attributes": {
+"name": "凝灰质含角砾砂岩—凝灰质粉砂岩赋矿围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长岩—闪长玢岩赋矿围岩",
+"attributes": {
+"name": "闪长岩—闪长玢岩赋矿围岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "中酸性小岩体（斑岩体）",
+"attributes": {
+"name": "中酸性小岩体（斑岩体）"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "北东向压扭性断裂裂隙",
+"attributes": {
+"name": "北东向压扭性断裂裂隙",
+"structure_type": "断裂裂隙",
+"orientation": "北东向",
+"ore_control_role": "控制金矿（化）体的产出与延伸，矿脉沿走向和倾向呈舒缓波状、膨大狭缩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "北东东向压扭性断裂",
+"attributes": {
+"name": "北东东向压扭性断裂",
+"structure_type": "断裂",
+"orientation": "北东东向",
+"ore_control_role": "控制金矿脉成群集中产出及其形态变化"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "希贝库拉斯向斜",
+"attributes": {
+"name": "希贝库拉斯向斜",
+"structure_type": "向斜",
+"ore_control_role": "金矿床产于其南西翼"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "钾化",
+"attributes": {
+"name": "钾化"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "石英绢云母化",
+"attributes": {
+"name": "石英绢云母化",
+"alteration_minerals": "石英、绢云母"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "青盘岩化",
+"attributes": {
+"name": "青盘岩化"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "毒砂化",
+"attributes": {
+"name": "毒砂化",
+"alteration_minerals": "毒砂"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "绢云母—绿泥石化",
+"attributes": {
+"name": "绢云母—绿泥石化",
+"alteration_minerals": "绢云母、绿泥石"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Alteration",
+"name_zh": "方解石化",
+"attributes": {
+"name": "方解石化",
+"alteration_minerals": "方解石"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "在斑岩型铜（金）矿与浅成中—低温金矿中均常见"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "斑岩型铜（金）矿主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "斑岩型铜（金）矿与浅成中—低温金矿中均为重要金属矿物"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "磁黄铁矿",
+"attributes": {
+"name": "磁黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "斑岩型铜（金）矿主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "斑铜矿",
+"attributes": {
+"name": "斑铜矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "斑岩型铜（金）矿金属矿物组合之一"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "斑岩型铜（金）矿主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "辉锑矿",
+"attributes": {
+"name": "辉锑矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "浅成中—低温金矿主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Mineral",
+"name_zh": "银锑黝铜矿",
+"attributes": {
+"name": "银锑黝铜矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "浅成中—低温金矿主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "浅成中—低温金矿主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Mineral",
+"name_zh": "自然银",
+"attributes": {
+"name": "自然银",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "浅成中—低温金矿主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "浅成中—低温金矿主要脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "浅成中—低温金矿主要脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E31",
+"entity_type": "Mineral",
+"name_zh": "绿泥石",
+"attributes": {
+"name": "绿泥石",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "浅成中—低温金矿主要脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E32",
+"entity_type": "Mineral",
+"name_zh": "黑云母",
+"attributes": {
+"name": "黑云母",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "浅成中—低温金矿主要脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E33",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "浅成中—低温金矿主要脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E34",
+"entity_type": "Fluid",
+"name_zh": "斑岩型铜（金）矿成矿流体",
+"attributes": {
+"nature": "高温成矿热液",
+"source": "深源硫特征",
+"temperature_C_min": "400",
+"temperature_C_max": "500"
+}
+},
+{
+"entity_local_id": "E35",
+"entity_type": "Fluid",
+"name_zh": "浅成中—低温金矿成矿流体",
+"attributes": {
+"source": "岩浆期后热液为主，有大气降水的加入",
+"temperature_C_min": "169",
+"temperature_C_max": "179"
+}
+},
+{
+"entity_local_id": "E36",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "0‰～2‰"
+}
+},
+{
+"entity_local_id": "E37",
+"entity_type": "Geochem",
+"name_zh": "金含量",
+"attributes": {
+"element": "金",
+"value_ppm": "平均5.79×10⁻⁶",
+"anomaly_pattern": "成矿元素以金为主"
+}
+},
+{
+"entity_local_id": "E38",
+"entity_type": "Geochem",
+"name_zh": "银含量",
+"attributes": {
+"element": "银",
+"value_ppm": "平均12.5×10⁻⁶",
+"anomaly_pattern": "伴生有益元素之一"
+}
+},
+{
+"entity_local_id": "E39",
+"entity_type": "IntrusiveBody",
+"name_zh": "斑岩体",
+"attributes": {
+"name": "斑岩体",
+"rock_type": "中酸性斑岩体",
+"age": "305～320 Ma",
+"relationship_to_ore": "铜（金）矿化形成时代约305～320 Ma，与斑岩体基本同时形成"
+}
+},
+{
+"entity_local_id": "E40",
+"entity_type": "IntrusiveBody",
+"name_zh": "中基性岩脉",
+"attributes": {
+"name": "中基性岩脉",
+"rock_type": "中基性岩脉",
+"relationship_to_ore": "低温金矿化与中基性岩脉关系密切，脉岩密集分布区金矿化脉成群集中产出"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "包古图地区浅成中—低温岩浆热液型金矿床位于新疆西准噶尔包古图地区"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "浅成中—低温金矿床赋矿岩石包括凝灰质含角砾砂岩与凝灰质粉砂岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "浅成中—低温金矿床赋矿岩石包括闪长岩与闪长玢岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "凝灰质含角砾砂岩—凝灰质粉砂岩赋矿围岩属于下石炭统包古图组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "闪长岩—闪长玢岩赋矿围岩产于下石炭统包古图组中"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "浅成中—低温金矿（化）体受北东向压扭性断裂裂隙控制"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "浅成中—低温金矿脉受北东东向压扭性断裂控制"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E10",
+"relation_label_zh": "产于",
+"description": "浅成中—低温热液型金矿床产于希贝库拉斯向斜南西翼"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E14",
+"relation_label_zh": "发育",
+"description": "浅成中—低温金矿床发育硅化等蚀变"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E15",
+"relation_label_zh": "发育",
+"description": "浅成中—低温金矿床发育黄铁矿化"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E16",
+"relation_label_zh": "发育",
+"description": "浅成中—低温金矿床发育毒砂化"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E17",
+"relation_label_zh": "发育",
+"description": "浅成中—低温金矿床发育绢云母—绿泥石化带"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E18",
+"relation_label_zh": "发育",
+"description": "浅成中—低温金矿床发育方解石化"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E27",
+"relation_label_zh": "主要金属矿物为",
+"description": "浅成中—低温金矿矿石中主要金属矿物包括自然金"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E28",
+"relation_label_zh": "主要金属矿物为",
+"description": "浅成中—低温金矿矿石中主要金属矿物包括自然银"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要金属矿物为",
+"description": "浅成中—低温金矿矿石中主要金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E21",
+"relation_label_zh": "主要金属矿物为",
+"description": "浅成中—低温金矿矿石中主要金属矿物包括毒砂"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E25",
+"relation_label_zh": "主要金属矿物为",
+"description": "浅成中—低温金矿矿石中主要金属矿物包括辉锑矿"
+},
+{
+"relation_local_id": "R30",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E26",
+"relation_label_zh": "主要金属矿物为",
+"description": "浅成中—低温金矿矿石中主要金属矿物包括银锑黝铜矿"
+},
+{
+"relation_local_id": "R31",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E29",
+"relation_label_zh": "主要脉石矿物有",
+"description": "浅成中—低温金矿矿石中主要脉石矿物包括石英"
+},
+{
+"relation_local_id": "R32",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E30",
+"relation_label_zh": "主要脉石矿物有",
+"description": "浅成中—低温金矿矿石中主要脉石矿物包括方解石"
+},
+{
+"relation_local_id": "R33",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E31",
+"relation_label_zh": "主要脉石矿物有",
+"description": "浅成中—低温金矿矿石中主要脉石矿物包括绿泥石"
+},
+{
+"relation_local_id": "R34",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E32",
+"relation_label_zh": "主要脉石矿物有",
+"description": "浅成中—低温金矿矿石中主要脉石矿物包括黑云母"
+},
+{
+"relation_local_id": "R35",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E33",
+"relation_label_zh": "主要脉石矿物有",
+"description": "浅成中—低温金矿矿石中主要脉石矿物包括绢云母"
+},
+{
+"relation_local_id": "R37",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E35",
+"relation_label_zh": "对应成矿流体为",
+"description": "浅成中—低温金矿床成矿流体主要来源于岩浆期后热液并有大气降水加入，成矿温度169～179℃"
+},
+{
+"relation_local_id": "R38",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E36",
+"to_entity_local_id": "E34",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S值0‰～2‰反映深源硫特征，用以约束斑岩型铜（金）矿成矿流体来源"
+},
+{
+"relation_local_id": "R39",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E37",
+"relation_label_zh": "显示",
+"description": "浅成中—低温金矿床矿石中金平均为5.79×10⁻⁶"
+},
+{
+"relation_local_id": "R40",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E38",
+"relation_label_zh": "显示",
+"description": "浅成中—低温金矿床矿石中银平均含量为12.5×10⁻⁶"
+}
+]
+}

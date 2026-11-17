@@ -1,0 +1,325 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0169",
+"title": "新疆托克逊县天禧金矿成因探讨",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "天禧金矿床",
+"attributes": {
+"name": "天禧金矿床",
+"location": "新疆托克逊县南西西45km处",
+"tectonic_position": "哈萨克斯坦—准噶尔板块博罗科努古生代复合岛弧带东延部分，位于博罗科努古生代复合岛弧带、南湖晚古生代岛弧带与巴仑台—星星峡离散地体相接地带",
+"deposit_type": "造山型金矿床",
+"ore_grade": "含金量最高33.18×10⁻⁶，最低0.51×10⁻⁶，一般为（1.00～3.51）×10⁻⁶",
+"ore_control_features": "断裂构造控制蚀变带与金矿体分布，断裂提供导矿与容矿空间；志留系地层提供较丰度金元素来源，岩浆侵入提供热源"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆托克逊县",
+"attributes": {
+"name": "新疆托克逊县",
+"level": "县"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "博罗科努古生代复合岛弧带",
+"attributes": {
+"name": "博罗科努古生代复合岛弧带",
+"level": "构造带",
+"tectonic_setting": "哈萨克斯坦—准噶尔板块内古生代复合岛弧带，侵入岩发育并具岛弧型花岗岩链特征"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "南湖晚古生代岛弧带",
+"attributes": {
+"name": "南湖晚古生代岛弧带",
+"level": "构造带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "巴仑台—星星峡离散地体",
+"attributes": {
+"name": "巴仑台—星星峡离散地体",
+"level": "地体"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "志留系米什沟组下亚组",
+"attributes": {
+"name": "志留系米什沟组下亚组",
+"age": "志留纪",
+"dominant_lithology": "陆源碎屑岩建造",
+"lithology_notes": "天禧金矿赋矿岩性为米什沟组下亚组一套陆源碎屑岩建造，Au元素平均值显著高于背景值（3.12倍），并与As、Sb异常套合较好"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "米什沟组下亚组陆源碎屑岩围岩",
+"attributes": {
+"name": "米什沟组下亚组陆源碎屑岩围岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "北西向断裂构造破碎带",
+"attributes": {
+"name": "北西向断裂构造破碎带",
+"structure_type": "断裂破碎带",
+"orientation": "北西向",
+"scale": "区内",
+"ore_control_role": "控制蚀变带和金矿体分布，提供导矿与容矿空间"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿",
+"intensity": "与金矿化密切相关"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "与金矿化密切相关"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "与金矿化密切相关"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "与金矿化有关"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "与金矿化有关"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要矿石矿物，推测金元素主要赋存于黄铁矿中",
+"paragenesis": "常呈他形—半自形粒状，充填于后期构造微裂隙中，含量一般小于1%～2%"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "主要矿石矿物，常具黄铁矿假象并与金赋存有关",
+"paragenesis": "常具黄铁矿假象且核部有黄铁矿残余"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "金（Au）地球化学异常",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "0.51～33.18 ppm",
+"anomaly_pattern": "米什沟组下亚组Au平均值为背景值的3.12倍，局部富集成矿特征明显；矿区位于HS—4（Au、As、Sb）异常中且吻合程度高"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geochem",
+"name_zh": "砷（As）地球化学异常",
+"attributes": {
+"element": "砷（As）",
+"anomaly_pattern": "与Au异常套合较好，矿区位于HS—4（Au、As、Sb）异常中"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）地球化学异常",
+"attributes": {
+"element": "锑（Sb）",
+"anomaly_pattern": "与Au异常套合较好，矿区位于HS—4（Au、As、Sb）异常中"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "天禧金矿位于新疆托克逊县境内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "天禧金矿处于哈萨克斯坦—准噶尔板块博罗科努古生代复合岛弧带东延部分"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "天禧金矿位于南湖晚古生代岛弧带相邻构造单元交接地带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "天禧金矿位于巴仑台—星星峡离散地体相邻构造单元交接地带"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要围岩为",
+"description": "天禧金矿赋矿围岩为米什沟组下亚组陆源碎屑岩建造"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "米什沟组下亚组陆源碎屑岩围岩属于志留系米什沟组下亚组"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "天禧金矿断裂构造控制蚀变带与金矿体分布，并提供导矿与容矿空间"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "与天禧金矿金矿化有关的蚀变类型包括褐铁矿化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "与天禧金矿金矿化有关的蚀变类型包括黄铁矿化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "与天禧金矿金矿化有关的蚀变类型包括硅化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "与天禧金矿金矿化有关的围岩蚀变包括碳酸盐化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "与天禧金矿金矿化有关的围岩蚀变包括绢云母化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "天禧金矿矿石矿物主要为黄铁矿，推测金主要赋存于黄铁矿中"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "天禧金矿矿石矿物主要为褐铁矿，褐铁矿常具黄铁矿假象并与金赋存有关"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "天禧金矿显示金（Au）在赋矿地层中显著富集，并处于HS—4（Au、As、Sb）异常中"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "显示",
+"description": "天禧金矿砷（As）异常与金异常套合较好，指示矿致异常特征"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "显示",
+"description": "天禧金矿锑（Sb）异常与金异常套合较好，指示矿致异常特征"
+}
+]
+}

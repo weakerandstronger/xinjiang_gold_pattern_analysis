@@ -1,0 +1,191 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0146",
+"title": "新疆东准噶尔顿巴斯套金矿床含金黄铁矿Ｒｂ－Ｓｒ等时线年龄及地质意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "顿巴斯套金矿床",
+"attributes": {
+"name": "顿巴斯套金矿床",
+"location": "新疆东准噶尔地区阿尔曼泰构造带东段北东侧",
+"tectonic_position": "中二叠世后碰撞伸展背景",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "成矿与中二叠世构造岩浆活动具有密切关系",
+"age_ma": "268±3Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔地区",
+"attributes": {
+"name": "东准噶尔地区",
+"level": "地区",
+"tectonic_setting": "中二叠世（270～260Ma）为重要金成矿时限，处于后碰撞伸展背景"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿尔曼泰构造带东段",
+"attributes": {
+"name": "阿尔曼泰构造带东段",
+"level": "构造带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "IntrusiveBody",
+"name_zh": "高钾钙碱性花岗岩",
+"attributes": {
+"name": "高钾钙碱性花岗岩",
+"rock_type": "高钾钙碱性花岗岩",
+"relationship_to_ore": "成岩时代与黄铁矿Rb-Sr等时线年龄一致，成矿与中二叠世构造岩浆活动密切相关"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "含金矿石矿物，Rb-Sr同位素定年对象"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "矿石矿物"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "岩浆热液",
+"source": "壳幔混合来源"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Isotope",
+"name_zh": "Sr同位素初始比值",
+"attributes": {
+"system": "Sr同位素",
+"parameter_name": "⁸⁷Sr/⁸⁶Sr初始比值",
+"value_range": "0.71033±0.00013"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Isotope",
+"name_zh": "S同位素（黄铁矿）",
+"attributes": {
+"system": "S同位素",
+"parameter_name": "δ³⁴S（黄铁矿）",
+"value_range": "3.0‰～5.8‰"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Isotope",
+"name_zh": "S同位素（毒砂）",
+"attributes": {
+"system": "S同位素",
+"parameter_name": "δ³⁴S（毒砂）",
+"value_range": "4.2‰～5.6‰"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "Pb同位素（黄铁矿）",
+"attributes": {
+"system": "Pb同位素",
+"parameter_name": "²⁰⁶Pb/²⁰⁴Pb、²⁰⁷Pb/²⁰⁴Pb、²⁰⁸Pb/²⁰⁴Pb",
+"value_range": "²⁰⁶Pb/²⁰⁴Pb为17.875～18.102，²⁰⁷Pb/²⁰⁴Pb为15.483～15.625，²⁰⁸Pb/²⁰⁴Pb为37.699～38.148"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "顿巴斯套金矿床位于新疆东准噶尔地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "顿巴斯套金矿床位于阿尔曼泰构造带东段北东侧"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "共生矿物包括",
+"description": "顿巴斯套金矿床矿石中黄铁矿发育，并用于Rb-Sr同位素定年"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "顿巴斯套金矿床矿石中发育毒砂"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "对应成矿流体为",
+"description": "顿巴斯套金矿床为与中二叠世岩浆活动有关的热液矿床，成矿流体表现为岩浆热液性质"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿Sr同位素初始比值指示成矿物质为壳幔混合来源，从而约束成矿流体来源"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿δ³⁴S数值指示硫源具有岩浆硫特征并有深源硫参与，从而约束成矿流体来源"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "毒砂δ³⁴S数值指示硫源具有岩浆硫特征并有深源硫参与，从而约束成矿流体来源"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿Pb同位素显示铅源以地幔铅为主并同化壳源铅，为壳幔混源铅特征，从而约束成矿流体来源"
+}
+]
+}

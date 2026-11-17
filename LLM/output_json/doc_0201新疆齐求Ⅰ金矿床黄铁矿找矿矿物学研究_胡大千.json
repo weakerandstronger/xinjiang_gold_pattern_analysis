@@ -1,0 +1,183 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0201",
+"title": "新疆齐求Ⅰ金矿床黄铁矿找矿矿物学研究_胡大千",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床（Ⅰ号）",
+"attributes": {
+"name": "齐求金矿床（Ⅰ号）",
+"location": "新疆西准噶尔地区，哈图断裂以南、安其断裂北侧，安其断裂与宝贝—齐求断裂交汇处",
+"tectonic_position": "新疆西准噶尔海西期地槽褶皱带内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体严格受构造裂隙控制，矿区位于安其断裂与宝贝—齐求断裂交汇处；矿床中黄铁矿为主要载金矿物之一"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔海西期地槽褶皱带",
+"attributes": {
+"name": "西准噶尔海西期地槽褶皱带",
+"level": "地槽褶皱带",
+"tectonic_setting": "海西期地槽褶皱带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中上石炭统太勤古拉组",
+"attributes": {
+"name": "中上石炭统太勤古拉组",
+"age": "中上石炭世",
+"dominant_lithology": "轻微变质的变玄武岩、变辉绿岩、变硅质岩及变凝灰岩",
+"lithology_notes": "矿区出露地层之一，主要岩石为轻微变质的变玄武岩、变辉绿岩、变硅质岩及变凝灰岩等"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中上石炭统包古图组",
+"attributes": {
+"name": "中上石炭统包古图组",
+"age": "中上石炭世",
+"dominant_lithology": "轻微变质的变玄武岩、变辉绿岩、变硅质岩及变凝灰岩",
+"lithology_notes": "矿区出露地层之一，主要岩石为轻微变质的变玄武岩、变辉绿岩、变硅质岩及变凝灰岩等"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "变玄武岩—变凝灰岩—变硅质岩围岩",
+"attributes": {
+"name": "变玄武岩—变凝灰岩—变硅质岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "安其断裂与宝贝—齐求断裂交汇构造部位",
+"attributes": {
+"name": "安其断裂与宝贝—齐求断裂交汇构造部位",
+"structure_type": "断裂交汇",
+"scale": "区域构造交汇部位",
+"ore_control_role": "控制矿区位置与矿体赋存，矿体严格受构造裂隙控制"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物之一",
+"paragenesis": "形成于两个成矿阶段：早期成矿阶段形成的黄铁矿不含金；晚期成矿阶段形成的黄铁矿以富含金为特征"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "早期石英—硫化物阶段与石英、黄铁矿等共生，并在后续成矿阶段仍可出现"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "主要产于石英—自然金—硫化物阶段，为最重要的成矿阶段特征矿物之一"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "齐求Ⅰ金矿床成矿热液",
+"attributes": {
+"nature": "成矿元素主要以金的二硫络合物形式在热液中迁移；当含矿热液物理化学环境改变（酸碱度由弱碱性向中性或弱酸性转变、氧化还原条件转为弱还原、温度降低等）时促使金析出沉淀，并导致晚期黄铁矿富含金"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "齐求Ⅰ金矿床位于西准噶尔海西期地槽褶皱带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "矿脉体的直接围岩主要为变玄武岩、变凝灰岩和变硅质岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "变玄武岩—变凝灰岩—变硅质岩围岩属于中上石炭统太勤古拉组出露地层岩性组合"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "变玄武岩—变凝灰岩—变硅质岩围岩属于中上石炭统包古图组出露地层岩性组合"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "齐求Ⅰ金矿床位于安其断裂与宝贝—齐求断裂交汇构造部位，矿体严格受构造裂隙控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅰ金矿床中黄铁矿为主要载金矿物之一，且晚期成矿阶段形成的黄铁矿以富含金为特征"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅰ金矿床硫化物矿物组合中常见毒砂，与石英、黄铁矿等共生"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "齐求Ⅰ金矿床最重要成矿阶段为石英—自然金—硫化物阶段，自然金为主要金矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "齐求Ⅰ金矿床对应的成矿热液中金以络合物形式迁移，随酸碱度、氧化还原条件与温度变化而沉淀成矿并促使晚期黄铁矿富含金"
+}
+]
+}

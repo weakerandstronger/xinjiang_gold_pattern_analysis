@@ -1,0 +1,116 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0075",
+"title": "西天山卡特巴阿苏金矿床构造—成矿作用研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "新疆中天山北缘",
+"tectonic_position": "西天山造山带中天山北缘",
+"deposit_type": "造山型金矿床",
+"ore_grade": "3.84 g/t",
+"resource_tonnage": "89t",
+"ore_control_features": "产于那拉提北缘断裂南侧的次级构造带内；那拉提北缘断裂复活为一级（导矿）构造，其上盘发育近 ENE-WSW 向断层-裂隙系统为二级（容矿）构造，控制金矿化发生",
+"age_ma": "晚石炭世"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西天山造山带",
+"attributes": {
+"name": "西天山造山带",
+"level": "造山带",
+"tectonic_setting": "碰撞造山带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "中天山北缘",
+"attributes": {
+"name": "中天山北缘",
+"level": "构造单元边缘",
+"tectonic_setting": "西天山晚古生代碰撞造山背景下的构造单元北缘"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "那拉提北缘断裂",
+"attributes": {
+"name": "那拉提北缘断裂",
+"structure_type": "断裂",
+"scale": "一级（导矿）构造",
+"ore_control_role": "断裂复活并作为金矿化的一级导矿构造"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "近 ENE-WSW 向断层-裂隙系统",
+"attributes": {
+"name": "近 ENE-WSW 向断层-裂隙系统",
+"structure_type": "断层-裂隙系统",
+"orientation": "近 ENE-WSW 向",
+"scale": "二级（容矿）构造",
+"ore_control_role": "为成矿物质富集与沉淀提供空间并控制大规模金矿化"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "成矿流体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金矿床位于西天山造山带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金矿床位于中天山北缘"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "那拉提北缘断裂复活并作为一级（导矿）构造，控制卡特巴阿苏金矿床金矿化"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "近 ENE-WSW 向断层-裂隙系统作为二级（容矿）构造，为成矿物质富集沉淀提供空间并控制卡特巴阿苏大规模金矿化"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "对应成矿流体为",
+"description": "卡特巴阿苏金矿床对应的成矿流体在逆冲活动动力作用下上升与运移，并在断层-裂隙系统中富集沉淀"
+}
+]
+}

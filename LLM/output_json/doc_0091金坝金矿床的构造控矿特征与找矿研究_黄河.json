@@ -1,0 +1,221 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0091",
+"title": "金坝金矿床的构造控矿特征与找矿研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金坝金矿床",
+"attributes": {
+"name": "金坝金矿床",
+"location": "中国新疆哈巴河县东北约15公里处"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "托库孜巴依-金坝矿区",
+"attributes": {
+"name": "托库孜巴依-金坝矿区",
+"level": "矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "哈巴河县",
+"attributes": {
+"name": "哈巴河县",
+"level": "县"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "断裂构造带",
+"attributes": {
+"name": "断裂构造带",
+"structure_type": "断裂构造带",
+"scale": "矿区",
+"ore_control_role": "主要断裂特征对矿体分布具有控制作用"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河杂岩体",
+"attributes": {
+"name": "哈巴河杂岩体"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Geophysics",
+"name_zh": "磁异常",
+"attributes": {
+"anomaly_type": "磁异常",
+"amplitude": "100nT至500nT",
+"spatial_pattern": "与哈巴河杂岩体等岩浆岩的分布相对应"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Geophysics",
+"name_zh": "激发极化异常",
+"attributes": {
+"anomaly_type": "激发极化异常",
+"amplitude": "极化率2%至5%",
+"spatial_pattern": "与金矿化带相对应"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Geophysics",
+"name_zh": "重力异常",
+"attributes": {
+"anomaly_type": "重力异常",
+"amplitude": "-10mGal至10mGal",
+"spatial_pattern": "与地下地质构造和矿体分布密切相关"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geochem",
+"name_zh": "金元素异常",
+"attributes": {
+"element": "金(Au)",
+"value_ppm": "超过0.01ppm",
+"anomaly_pattern": "土壤测量圈定多个异常区，异常区为重点找矿区"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "银元素异常",
+"attributes": {
+"element": "银(Ag)",
+"value_ppm": "超过0.7ppm",
+"anomaly_pattern": "土壤测量圈定多个异常区，异常区为重点找矿区"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "砷元素异常指示",
+"attributes": {
+"element": "砷(As)",
+"anomaly_pattern": "作为伴生元素与金矿化相关，用于圈定异常区"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "锑元素异常指示",
+"attributes": {
+"element": "锑(Sb)",
+"anomaly_pattern": "作为伴生元素与金矿化相关，用于圈定异常区"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "铋元素异常指示",
+"attributes": {
+"element": "铋(Bi)",
+"anomaly_pattern": "作为伴生元素与金矿化相关，用于圈定异常区"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金坝金矿床位于托库孜巴依-金坝矿区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "金坝金矿床位于新疆哈巴河县东北约15公里处"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "矿区断裂构造带及主要断裂特征对矿体分布具有控制作用"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "显示",
+"description": "金坝金矿床磁异常强度在100nT至500nT之间"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "显示",
+"description": "金坝金矿床激发极化异常中极化率2%至5%的区域往往与金矿化带相对应"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "显示",
+"description": "金坝金矿床重力异常值在-10mGal至10mGal之间并与地下构造和矿体分布密切相关"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "土壤测量显示Au含量超过0.01ppm的异常区被视为重点找矿区"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "土壤测量显示Ag含量超过0.7ppm的异常区被视为重点找矿区"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "地球化学勘探分析砷(As)等伴生元素含量用于圈定异常区"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "地球化学勘探分析锑(Sb)等伴生元素含量用于圈定异常区"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "地球化学勘探分析铋(Bi)等伴生元素含量用于圈定异常区"
+}
+]
+}

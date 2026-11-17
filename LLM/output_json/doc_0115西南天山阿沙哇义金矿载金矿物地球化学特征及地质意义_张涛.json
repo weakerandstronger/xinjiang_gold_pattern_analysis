@@ -1,0 +1,165 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0115",
+"title": "西南天山阿沙哇义金矿载金矿物地球化学特征及地质意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿沙哇义金矿床",
+"attributes": {
+"name": "阿沙哇义金矿床",
+"location": "中国新疆西南天山",
+"tectonic_position": "中亚造山带南缘“亚洲金腰带”",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "研究区古生代经历由挤压变形发展为走滑伸展两次构造作用，成矿发生在挤压变形到走滑伸展转换时期；矿床埋藏较浅"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西南天山",
+"attributes": {
+"name": "西南天山",
+"level": "造山带",
+"tectonic_setting": "中亚造山带南缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "亚洲金腰带",
+"attributes": {
+"name": "亚洲金腰带",
+"level": "成矿带",
+"tectonic_setting": "中亚造山带南缘"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Mineral",
+"name_zh": "含砷黄铁矿",
+"attributes": {
+"name": "含砷黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "分为沉积成岩期（Py1）、成矿早期（Py2）、成矿期（Py3）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "部分载金矿物",
+"paragenesis": "与含砷黄铁矿共同作为载金矿物"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金的主要赋存形式之一",
+"paragenesis": "以纳米级“可见”自然金形式赋存于含砷黄铁矿中"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "辉锑矿",
+"attributes": {
+"name": "辉锑矿",
+"role_in_ore": "用于硫同位素约束硫来源的硫化物矿物",
+"paragenesis": "与黄铁矿共同用于硫同位素分析"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "成矿流体中硫为海相硫酸盐热化学还原产物",
+"source": "成矿物质来自赋矿地层"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "9.5‰~16.3‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿沙哇义金矿床位于中国新疆西南天山"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "阿沙哇义金矿床是中亚造山带南缘“亚洲金腰带”的重要组成部位"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要金矿物为",
+"description": "阿沙哇义金矿床载金矿物主要为含砷黄铁矿"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "共生矿物包括",
+"description": "阿沙哇义金矿床载金矿物还包括部分毒砂"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "阿沙哇义金矿床中金以纳米级自然金形式赋存于含砷黄铁矿中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "阿沙哇义金矿床中辉锑矿与黄铁矿共同用于硫同位素分析以限定硫来源"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿沙哇义金矿床对应的成矿流体中硫为海相硫酸盐热化学还原产物，成矿物质来自赋矿地层"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E8",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿、辉锑矿δ34S为9.5‰~16.3‰，约束成矿流体中硫为海相硫酸盐热化学还原产物并指示成矿物质来自赋矿地层"
+}
+]
+}

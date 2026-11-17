@@ -1,0 +1,114 @@
+[
+  {
+    "pattern_id": "P00001",
+    "stable_key": "[[\"Fluid\",\"中低温、低盐度的C-O-H-N-S体系\"],[\"Region\",\"卡拉麦里成矿带\"],[\"Structure\",\"卡拉麦里断裂\"]]",
+    "item_ids": [
+      "U0100",
+      "U0655",
+      "U0879"
+    ],
+    "order": 3,
+    "feature_groups": 3,
+    "count": 11,
+    "valid_n": 63,
+    "group_counts": {
+      "Fluid": 11,
+      "Region": 16,
+      "Structure": 15
+    },
+    "support": 0.1746031746031746,
+    "group_lift": 16.5375,
+    "evidence": 0.40607810294541863,
+    "entity_ids": [
+      "E006",
+      "E007",
+      "E008",
+      "E010",
+      "E017",
+      "E018",
+      "E019",
+      "E020",
+      "E021",
+      "E022",
+      "E023"
+    ],
+    "rank": 1,
+    "roles": [
+      "全库最高证据"
+    ],
+    "same_source_row_groups": 11,
+    "union_only_groups": 0,
+    "members_text": "流体=中低温、低盐度的C-O-H-N-S体系；区域=卡拉麦里成矿带；构造=卡拉麦里断裂"
+  },
+  {
+    "pattern_id": "P00006",
+    "stable_key": "[[\"Fluid\",\"岩浆热液成矿流体\"],[\"StratUnit\",\"平顶山组\"],[\"Structure\",\"清水-苏吉泉大断裂\"]]",
+    "item_ids": [
+      "U0197",
+      "U0744",
+      "U0945"
+    ],
+    "order": 3,
+    "feature_groups": 3,
+    "count": 3,
+    "valid_n": 55,
+    "group_counts": {
+      "Fluid": 3,
+      "StratUnit": 3,
+      "Structure": 4
+    },
+    "support": 0.05454545454545454,
+    "group_lift": 252.08333333333334,
+    "evidence": 0.2182799889740898,
+    "entity_ids": [
+      "E006",
+      "E007",
+      "E008"
+    ],
+    "rank": 6,
+    "roles": [
+      "不含Region最高证据"
+    ],
+    "same_source_row_groups": 0,
+    "union_only_groups": 3,
+    "members_text": "流体=岩浆热液成矿流体；地层=平顶山组；构造=清水-苏吉泉大断裂"
+  },
+  {
+    "pattern_id": "P00055",
+    "stable_key": "[[\"Alteration\",\"毒砂化\"],[\"HostRockUnit\",\"凝灰岩\"],[\"Mineral\",\"毒砂\"]]",
+    "item_ids": [
+      "U0010",
+      "U0342",
+      "U0577"
+    ],
+    "order": 3,
+    "feature_groups": 3,
+    "count": 8,
+    "valid_n": 57,
+    "group_counts": {
+      "Alteration": 14,
+      "HostRockUnit": 13,
+      "Mineral": 30
+    },
+    "support": 0.14035087719298245,
+    "group_lift": 4.760439560439561,
+    "evidence": 0.16424631669578796,
+    "entity_ids": [
+      "E005",
+      "E008",
+      "E015",
+      "E020",
+      "E034",
+      "E051",
+      "E062",
+      "E070"
+    ],
+    "rank": 55,
+    "roles": [
+      "同时含Mineral与Alteration最高证据"
+    ],
+    "same_source_row_groups": 4,
+    "union_only_groups": 4,
+    "members_text": "蚀变=毒砂化；赋矿岩性=凝灰岩；矿物=毒砂"
+  }
+]

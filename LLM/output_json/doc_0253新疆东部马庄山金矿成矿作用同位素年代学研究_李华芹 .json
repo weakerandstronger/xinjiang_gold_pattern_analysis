@@ -1,0 +1,280 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0253",
+"title": "新疆东部马庄山金矿成矿作用同位素年代学研究_李华芹 ",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "马庄山金矿床",
+"attributes": {
+"name": "马庄山金矿床",
+"location": "新甘边境马庄山地区（新疆东部）",
+"tectonic_position": "西伯利亚、塔里木、哈萨克斯坦和中朝古板块交界部位",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均品位7.56×10^-6～7.89×10^-6",
+"ore_control_features": "受马庄山古火山机构控制；次生石英脉型矿体主要分布于近南北向、近东西向及北西向断裂破碎带中（近东西向规模最大）；破碎带蚀变岩型矿体分布于次流纹斑岩与英安斑岩体的内外接触带",
+"age_ma": "298±28Ma（含金石英细（网）脉石英流体包裹体Rb-Sr等时线年龄，中—晚石炭世）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆东部马庄山地区",
+"attributes": {
+"name": "新疆东部马庄山地区",
+"level": "地区",
+"tectonic_setting": "新甘边境地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "马庄山古火山机构",
+"attributes": {
+"name": "马庄山古火山机构",
+"level": "古火山机构",
+"tectonic_setting": "形成于中—晚石炭世，与同期火山—次火山作用有关"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统红柳圆组",
+"attributes": {
+"name": "下石炭统红柳圆组",
+"age": "早石炭世",
+"dominant_lithology": "中酸性火山碎屑岩系",
+"lithology_notes": "下部主要为流纹—英安质凝灰岩、角砾凝灰岩、火山角砾岩、杏仁状安山岩及安山玢岩等，夹少量玄武玢岩及薄层灰岩；上部为钙质板岩及砂砾岩互层，夹少量砂岩及薄层灰岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "次流纹斑岩与英安斑岩体内外接触带围岩",
+"attributes": {
+"name": "次流纹斑岩与英安斑岩体内外接触带围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "次流纹斑岩",
+"attributes": {
+"name": "次流纹斑岩",
+"rock_type": "次流纹斑岩",
+"age": "301±21Ma",
+"relationship_to_ore": "为马庄山古火山机构火山颈相岩石之一，与金矿化作用有直接成因联系"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "次英安斑岩（次石英斑岩）",
+"attributes": {
+"name": "次英安斑岩（次石英斑岩）",
+"rock_type": "次英安斑岩（次石英斑岩）",
+"age": "303±26Ma",
+"relationship_to_ore": "为马庄山古火山机构火山颈相岩石之一，与金矿化作用有直接成因联系"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "近东西向、近南北向及北西向断裂破碎带",
+"attributes": {
+"name": "近东西向、近南北向及北西向断裂破碎带",
+"structure_type": "断裂破碎带",
+"orientation": "以近东西向为主，矿体多北倾，倾角35°～70°；兼有北西向与近南北向",
+"scale": "矿区级",
+"ore_control_role": "控制次生石英脉型矿体展布，其中近东西向断裂破碎带规模最大"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化—硅化—叶腊石化—绿泥石化",
+"attributes": {
+"name": "黄铁绢英岩化—硅化—叶腊石化—绿泥石化",
+"alteration_minerals": "黄铁矿、绢云母、石英、叶腊石、绿泥石",
+"intensity": "中等—强"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与金银矿共同为主要金矿物，次为自然金"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物之一",
+"paragenesis": "载金矿物主要有黄铁矿、闪锌矿、方铅矿和毒砂"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "马庄山金矿成矿流体",
+"attributes": {
+"nature": "岩浆水与基底变质水的混合热液",
+"source": "成矿流体投影于变质水区域但靠近初始岩浆水范围",
+"temperature_C_min": "180",
+"temperature_C_max": "250"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "＋4.4‰～＋6.6‰（平均5.5‰）"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O、δD",
+"value_range": "石英δ18O=＋9.63‰～＋15.67‰；矿脉石英包裹体δD=－95.4‰、－93.0‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "银矿化品位数据",
+"attributes": {
+"element": "银(Ag)",
+"value_ppm": "20～50g/t",
+"anomaly_pattern": "最高达287g/t"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "马庄山金矿床位于新疆东部马庄山地区的新甘边境一带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "马庄山金矿床受马庄山古火山机构控制，与同期火山—次火山作用有直接成因联系"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "马庄山金矿破碎带蚀变岩型矿体分布于次流纹斑岩与英安斑岩体的内外接触带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "马庄山古火山机构及其围岩地层产于下石炭统红柳圆组中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "马庄山金矿次生石英脉型矿体主要分布于近南北向、近东西向及北西向断裂破碎带中，其中近东西向断裂破碎带规模最大"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "马庄山金矿围岩蚀变主要为黄铁绢英岩化、硅化、叶腊石化和绿泥石化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "马庄山金矿石矿物主要为银金矿和金银矿，次为自然金"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "马庄山金矿载金矿物主要包括黄铁矿、闪锌矿、方铅矿和毒砂"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "马庄山金矿床对应成矿流体为岩浆水与基底变质水混合热液，石英包裹体均一温度为180～250℃"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S为＋4.4‰～＋6.6‰（平均5.5‰），与深源硫同位素组成相似"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素在δ18O—δD相关上投影于变质水区域但靠近初始岩浆水范围，表明成矿流体可能为岩浆水与基底变质水的混合"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "次流纹斑岩为马庄山古火山机构火山颈相岩石，产于下石炭统红柳圆组中"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "次英安斑岩（次石英斑岩）为马庄山古火山机构火山颈相岩石，产于下石炭统红柳圆组中"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "马庄山金矿体伴随银矿化，银品位20～50g/t，最高达287g/t"
+}
+]
+}

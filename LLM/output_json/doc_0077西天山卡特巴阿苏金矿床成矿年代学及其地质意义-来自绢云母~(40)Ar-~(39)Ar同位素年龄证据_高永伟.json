@@ -1,0 +1,139 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0077",
+"title": "西天山卡特巴阿苏金矿床成矿年代学及其地质意义－来自绢云母⁴⁰Ar－³⁹Ar 同位素年龄证据",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "新疆西天山地区",
+"tectonic_position": "塔里木板块和哈萨克斯坦－准噶尔板块结合部位的那拉提构造－岩浆岩带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "金矿体主要赋存于蚀变二长花岗岩内；矿床处于西天山二叠纪后碰撞构造环境下岩浆流体活动的构造－岩浆岩带中",
+"age_ma": "268.56±1.8 Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西天山地区",
+"attributes": {
+"name": "新疆西天山地区",
+"level": "区域",
+"tectonic_setting": "二叠纪后碰撞构造环境"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "那拉提构造－岩浆岩带",
+"attributes": {
+"name": "那拉提构造－岩浆岩带",
+"level": "构造－岩浆岩带",
+"tectonic_setting": "塔里木板块和哈萨克斯坦－准噶尔板块结合部位"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变二长花岗岩",
+"attributes": {
+"name": "蚀变二长花岗岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Fluid",
+"name_zh": "岩浆流体",
+"attributes": {
+"nature": "中温岩浆热液",
+"source": "岩浆流体活动"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Isotope",
+"name_zh": "绢云母⁴⁰Ar－³⁹Ar坪年龄",
+"attributes": {
+"system": "⁴⁰Ar－³⁹Ar",
+"parameter_name": "坪年龄",
+"value_range": "268.56±1.8 Ma"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Isotope",
+"name_zh": "绢云母⁴⁰Ar－³⁹Ar正等时线年龄",
+"attributes": {
+"system": "⁴⁰Ar－³⁹Ar",
+"parameter_name": "正等时线年龄",
+"value_range": "268.38±2.2 Ma"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Isotope",
+"name_zh": "绢云母⁴⁰Ar－³⁹Ar反等时线年龄",
+"attributes": {
+"system": "⁴⁰Ar－³⁹Ar",
+"parameter_name": "反等时线年龄",
+"value_range": "268.52±2.2 Ma"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金矿床位于新疆西天山地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金矿床位于那拉提构造－岩浆岩带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "卡特巴阿苏金矿床金矿体主要赋存于蚀变二长花岗岩内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要蚀变为",
+"description": "卡特巴阿苏金矿床主成矿阶段与金矿化密切相关的蚀变表现为绢云母化"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "对应成矿流体为",
+"description": "卡特巴阿苏金矿床为西天山二叠纪后碰撞构造环境下岩浆流体活动的产物，对应成矿流体为中温岩浆热液"
+}
+]
+}

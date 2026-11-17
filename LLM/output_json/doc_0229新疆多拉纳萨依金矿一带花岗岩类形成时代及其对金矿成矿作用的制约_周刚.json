@@ -1,0 +1,185 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0229",
+"title": "新疆多拉纳萨依金矿一带花岗岩类形成时代及其对金矿成矿作用的制约_周刚",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "多拉纳萨依金矿床",
+"attributes": {
+"name": "多拉纳萨依金矿床",
+"location": "新疆阿尔泰造山带西南缘（哈巴河一带）",
+"tectonic_position": "阿尔泰造山带西南缘",
+"ore_control_features": "金矿主要赋存于糜棱岩化石英闪长岩中，石英闪长岩脉为主要含矿地质体；成矿受额尔齐斯巨型剪切带区域性韧性剪切相伴的构造—岩浆热事件控制",
+"age_ma": "约300~290 Ma（成矿不早于300 Ma，主要成矿时期约290 Ma）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "沃多克金矿床",
+"attributes": {
+"name": "沃多克金矿床",
+"location": "新疆阿尔泰造山带西南缘（哈巴河一带）",
+"tectonic_position": "阿尔泰造山带西南缘",
+"ore_control_features": "金矿产于韧−脆性剪切变形带中，石英闪长岩脉为主要含矿地质体；成矿受额尔齐斯巨型剪切带区域性韧性剪切相伴的构造—岩浆热事件控制",
+"age_ma": "约300~290 Ma（成矿不早于300 Ma，主要成矿时期约290 Ma）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿尔泰造山带西南缘",
+"attributes": {
+"name": "阿尔泰造山带西南缘",
+"level": "造山带边缘",
+"tectonic_setting": "阿尔泰造山带西南缘构造带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "糜棱岩化石英闪长岩（含金石英闪长岩脉）",
+"attributes": {
+"name": "糜棱岩化石英闪长岩（含金石英闪长岩脉）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "额尔齐斯巨型剪切带",
+"attributes": {
+"name": "额尔齐斯巨型剪切带",
+"structure_type": "巨型剪切带",
+"scale": "区域性",
+"ore_control_role": "区域性韧性剪切相伴的构造—岩浆热事件控制哈巴河一带金矿成矿"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "萨热乌增英云闪长岩岩体",
+"attributes": {
+"name": "萨热乌增英云闪长岩岩体",
+"rock_type": "英云闪长岩",
+"age": "317.7±1.5 Ma",
+"relationship_to_ore": "形成早于金矿成矿时期，与金成矿作用无显著关系"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "托克萨雷组",
+"attributes": {
+"name": "托克萨雷组",
+"age": "下—中泥盆世",
+"dominant_lithology": "陆源碎屑岩",
+"lithology_notes": "为多拉纳萨依一带英云闪长岩体侵入围岩，近岩体围岩热接触变质明显，变质晕宽300~1500 m"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绢云母化—硅化—碳酸盐化",
+"attributes": {
+"name": "绢云母化—硅化—碳酸盐化",
+"alteration_minerals": "绢云母、石英、方解石",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金矿化相关硫化物",
+"paragenesis": "与石英及绢云母化、碳酸盐化等蚀变共生"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于阿尔泰造山带西南缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "沃多克金矿床位于阿尔泰造山带西南缘"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要赋存于",
+"description": "多拉纳萨依金矿床主要赋存于糜棱岩化石英闪长岩（含金石英闪长岩脉）中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要赋存于",
+"description": "沃多克金矿床主要赋存于糜棱岩化石英闪长岩（含金石英闪长岩脉）中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "多拉纳萨依金矿床成矿受额尔齐斯巨型剪切带区域性韧性剪切相伴的构造—岩浆热事件控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "沃多克金矿床成矿受额尔齐斯巨型剪切带区域性韧性剪切相伴的构造—岩浆热事件控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "多拉纳萨依金矿含矿脉岩及围岩经历绢云母化、硅化、碳酸盐化等蚀变"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "沃多克金矿含矿脉岩及围岩经历绢云母化、硅化、碳酸盐化等蚀变"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "沃多克金矿含矿石英闪长岩中可见黄铁矿等金属矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E7",
+"relation_label_zh": "侵入于",
+"description": "萨热乌增英云闪长岩岩体侵入于下—中泥盆统托克萨雷组陆源碎屑岩地层中"
+}
+]
+}

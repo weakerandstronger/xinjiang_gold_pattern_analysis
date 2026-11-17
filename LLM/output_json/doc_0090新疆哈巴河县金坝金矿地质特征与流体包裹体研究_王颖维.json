@@ -1,0 +1,319 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0090",
+"title": "新疆哈巴河县金坝金矿地质特征与流体包裹体研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金坝金矿床",
+"attributes": {
+"name": "金坝金矿床",
+"location": "哈巴河县城北东16 km处，属哈巴河县萨尔塔木乡",
+"tectonic_position": "哈巴河岩体南部边缘，区域性玛尔卡库里大断裂早期北西—南东向韧性剪切变形带内",
+"ore_control_features": "与区域性玛尔卡库里大断裂早期韧性剪切活动关系密切，金矿体产于强韧性剪切变形变质带核部；圈定金矿体4条，其中①、③号为工业矿体，赋存于蚀变斜长花岗岩中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "哈巴河县",
+"attributes": {
+"name": "哈巴河县",
+"level": "县"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "萨尔塔木乡",
+"attributes": {
+"name": "萨尔塔木乡",
+"level": "乡"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河花岗质杂岩体",
+"attributes": {
+"name": "哈巴河花岗质杂岩体",
+"rock_type": "斜长花岗岩、黑云角闪二长花岗岩、（石英）闪长岩及辉长岩",
+"age": "花岗岩锆石SHRIMP U-Pb年龄390±5Ma；二长花岗岩LA-ICP-MS锆石U-Pb年龄406Ma；斜长花岗岩全岩K-Ar年龄284.4～277.3Ma；Rb-Sr等时线年龄297±11Ma（可能代表后期构造事件年龄）",
+"relationship_to_ore": "金坝金矿床位于哈巴河岩体南部边缘"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里大断裂",
+"attributes": {
+"name": "玛尔卡库里大断裂",
+"structure_type": "区域性大断裂",
+"orientation": "北西—南东向",
+"scale": "区域性",
+"ore_control_role": "早期以韧性剪切变形为特征，金坝金矿与其早期韧性剪切活动关系密切"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "强韧性剪切变形变质带",
+"attributes": {
+"name": "强韧性剪切变形变质带",
+"structure_type": "韧性剪切带",
+"scale": "矿区",
+"ore_control_role": "金矿体产于其核部，控制矿体产出部位"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变斜长花岗岩",
+"attributes": {
+"name": "蚀变斜长花岗岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变闪长岩脉",
+"attributes": {
+"name": "蚀变闪长岩脉"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "与金矿化有关"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "与金矿化有关"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "与金矿化有关"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "与金矿化有关"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "早期矿化阶段矿物",
+"paragenesis": "Ⅰ 磁铁矿-石英阶段"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "与金矿化有关的硫化物矿物",
+"paragenesis": "Ⅱ 金-黄铁矿-石英阶段"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "Ⅰ～Ⅳ各矿化阶段均出现"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "多金属硫化物",
+"attributes": {
+"name": "多金属硫化物",
+"role_in_ore": "中期矿化阶段硫化物矿物",
+"paragenesis": "Ⅲ 金-多金属硫化物-石英阶段"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "碳酸盐矿物",
+"attributes": {
+"name": "碳酸盐矿物",
+"role_in_ore": "晚期矿化阶段脉石矿物",
+"paragenesis": "Ⅳ 石英-碳酸盐阶段"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Fluid",
+"name_zh": "金坝金矿成矿流体",
+"attributes": {
+"nature": "中高温热液特征，含CO2的热液体系，具有从中高温富CO2向低温盐水溶液演化的特点",
+"temperature_C_min": "200",
+"temperature_C_max": "396.2",
+"salinity_wtNaCl_min": "0.88",
+"salinity_wtNaCl_max": "13.72"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金坝金矿区位于哈巴河县城北东16 km处"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "金坝金矿区属哈巴河县萨尔塔木乡"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "金坝金矿与区域性玛尔卡库里大断裂早期韧性剪切活动关系密切"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "金矿体产于强韧性剪切变形变质带的核部"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "①、③号工业矿体均赋存于蚀变斜长花岗岩中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "矿石类型包括蚀变闪长岩脉型，反映矿化与蚀变闪长岩脉有关"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿化有关的蚀变类型主要有绢云母化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿化有关的蚀变类型主要有绿泥石化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿化有关的蚀变类型主要有硅化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿化有关的蚀变类型主要有黄铁矿化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "热液成矿Ⅰ阶段为磁铁矿-石英阶段，出现磁铁矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "热液成矿Ⅱ阶段为金-黄铁矿-石英阶段，出现黄铁矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "Ⅰ～Ⅳ各矿化阶段均包含石英"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "热液成矿Ⅲ阶段为金-多金属硫化物-石英阶段，出现多金属硫化物"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "热液成矿Ⅳ阶段为石英-碳酸盐阶段，出现碳酸盐矿物"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "对应成矿流体为",
+"description": "包裹体测温与盐度结果表明，金坝金矿成矿流体具中高温热液特征，盐度0.88%～13.72%，均一温度200～396.2℃，并呈富CO2向低温盐水溶液演化"
+}
+]
+}

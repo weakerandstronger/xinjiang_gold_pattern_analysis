@@ -1,0 +1,491 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0007",
+"title": "新疆哈图金矿带成矿指示元素的分类及深部预测的意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "哈图金矿床",
+"attributes": {
+"name": "哈图金矿床",
+"location": "位于新疆西准噶尔地区哈图金矿带内",
+"tectonic_position": "准噶尔弧形构造西翼玛依拉-扎依尔褶皱内扎依尔-达尔布特复向斜东段北翼",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "浅部含金石英脉多呈NW向展布，矿物组合为黄铁矿-毒砂-石英-自然金；深部为以EW向为主、细脉浸染状构造的蚀变岩型矿体；区域构造整体走向为NE向，达拉布特断裂、安齐断裂和哈图断裂等主干断裂为构成哈图金矿成矿层的重要控矿构造，成矿作用与后碰撞岩浆活动密切相关，两种矿体为同源流体逐渐演化成矿的产物"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西准噶尔地区",
+"attributes": {
+"name": "新疆西准噶尔地区",
+"level": "地区",
+"tectonic_setting": "矿床沉积受壳幔中元素多次迁移富集控制，是壳幔物质多次富集成矿的成矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "准噶尔弧形构造",
+"attributes": {
+"name": "准噶尔弧形构造",
+"level": "Ⅰ级弧形构造单元",
+"tectonic_setting": "哈图金矿位于其西翼部分，为该大地构造单元内的重要金矿成矿区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "玛依拉-扎依尔褶皱",
+"attributes": {
+"name": "玛依拉-扎依尔褶皱",
+"level": "褶皱构造单元",
+"tectonic_setting": "位于准噶尔弧形构造西翼，哈图金矿赋存于该褶皱构造内部"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "扎依尔-达尔布特复向斜",
+"attributes": {
+"name": "扎依尔-达尔布特复向斜",
+"level": "Ⅲ级复向斜构造",
+"tectonic_setting": "位于玛依拉-扎依尔褶皱内，哈图金矿处于其东段北翼部位"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Region",
+"name_zh": "哈图金矿矿集区",
+"attributes": {
+"name": "哈图金矿矿集区",
+"level": "矿集区",
+"tectonic_setting": "哈图金矿及其周边在泥盆纪—早石炭世期间形成复理石建造、火山碎屑岩和中基性火山岩等沉积—火山建造，是多期成矿作用叠加的有利成矿区"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Region",
+"name_zh": "哈图金矿带",
+"attributes": {
+"name": "哈图金矿带",
+"level": "金矿带",
+"tectonic_setting": "位于新疆西准噶尔地区，由哈图金矿等金矿床组成的金成矿带"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统希贝库拉斯组",
+"attributes": {
+"name": "下石炭统希贝库拉斯组",
+"age": "下石炭统",
+"dominant_lithology": "凝灰质砂岩、粉砂岩",
+"lithology_notes": "矿区出露地层之一，岩石岩性主要表现为凝灰质砂岩和粉砂岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统包古图组",
+"attributes": {
+"name": "下石炭统包古图组",
+"age": "下石炭统",
+"dominant_lithology": "凝灰质砂岩、粉砂岩",
+"lithology_notes": "矿区出露地层之一，构成岩层的岩石岩性以凝灰质砂岩和粉砂岩为主"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统太勒古拉组",
+"attributes": {
+"name": "下石炭统太勒古拉组",
+"age": "下石炭统",
+"dominant_lithology": "凝灰质砂岩、粉砂岩",
+"lithology_notes": "矿区出露地层之一，整体岩性以凝灰质砂岩、粉砂岩为主"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "HostRockUnit",
+"name_zh": "复理石建造",
+"attributes": {
+"name": "复理石建造"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "HostRockUnit",
+"name_zh": "火山碎屑岩",
+"attributes": {
+"name": "火山碎屑岩"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "HostRockUnit",
+"name_zh": "中基性火山岩",
+"attributes": {
+"name": "中基性火山岩"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "HostRockUnit",
+"name_zh": "凝灰质砂岩",
+"attributes": {
+"name": "凝灰质砂岩"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "HostRockUnit",
+"name_zh": "粉砂岩",
+"attributes": {
+"name": "粉砂岩"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Structure",
+"name_zh": "达拉布特断裂",
+"attributes": {
+"name": "达拉布特断裂",
+"structure_type": "断裂",
+"orientation": "总体NE向区域构造格局中的主干断裂之一",
+"scale": "区域主干断裂",
+"ore_control_role": "是构成哈图金矿成矿层必不可少的重要控矿断裂，为矿物质的运移和富集提供通道和空间"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Structure",
+"name_zh": "安齐断裂",
+"attributes": {
+"name": "安齐断裂",
+"structure_type": "断裂",
+"orientation": "处于NE向为主的区域构造体系中",
+"scale": "区域主干断裂",
+"ore_control_role": "与达拉布特断裂、哈图断裂共同控制哈图金矿成矿，为成矿物质提供物质基础与必要的构造条件"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Structure",
+"name_zh": "哈图断裂",
+"attributes": {
+"name": "哈图断裂",
+"structure_type": "断裂",
+"orientation": "区域构造整体走向为NE向",
+"scale": "区域主干断裂",
+"ore_control_role": "为哈图金矿成矿提供重要的构造通道，是成矿层的重要控矿构造"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "最主要的载金金属矿物之一",
+"paragenesis": "在浅部含金石英脉与深部蚀变岩型矿体中均发育，与毒砂、石英和自然金共生"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "最主要的载金金属矿物之一",
+"paragenesis": "在浅部含金石英脉和深部蚀变岩型矿体中广泛出现，与黄铁矿、石英和自然金共生"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "在浅部含金石英脉中作为主要脉石，与黄铁矿、毒砂和自然金共同组成含金石英脉矿物组合"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "在浅部含金石英脉中与黄铁矿、毒砂和石英共生，是金的主要赋存形式"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Fluid",
+"name_zh": "哈图金矿成矿流体",
+"attributes": {
+"nature": "多物质来源的岩浆热液型中-低温成矿流体",
+"source": "成矿流体为多物质来源，与后碰撞岩浆活动密切相关，两种矿体为同源流体逐渐演化形成"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Geochem",
+"name_zh": "哈图金矿前缘晕指示元素组合",
+"attributes": {
+"element": "Hg（汞）、As（砷）、Sb（锑）",
+"anomaly_pattern": "哈图金矿前缘晕指示元素组合，为原生晕轴向分带中前缘晕的特征元素"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Geochem",
+"name_zh": "哈图金矿近矿元素组合",
+"attributes": {
+"element": "Ag（银）、Cu（铜）、Zn（锌）、Pb（铅）、Bi（铋）",
+"anomaly_pattern": "哈图金矿近矿元素组合，紧邻矿体分布的原生晕指示元素组合"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Geochem",
+"name_zh": "哈图金矿尾晕元素组合",
+"attributes": {
+"element": "W（钨）、Ni（镍）、Mo（钼）",
+"anomaly_pattern": "哈图金矿尾晕元素组合，位于原生晕轴向分带远离矿体一侧的尾晕指示元素组合"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "哈图金矿位于新疆西准噶尔地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "哈图金矿的大地构造位置隶属于准噶尔弧形构造西翼"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "哈图金矿赋存于准噶尔弧形构造西翼的玛依拉-扎依尔褶皱内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "哈图金矿位于扎依尔-达尔布特复向斜东段北翼"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "隶属于",
+"description": "哈图金矿是哈图金矿矿集区内的主要金矿床之一"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "隶属于",
+"description": "哈图金矿属于哈图金矿带内的典型金矿床"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要围岩为",
+"description": "哈图金矿矿集区在泥盆纪—早石炭世期间形成的复理石建造是矿区重要的围岩建造之一"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要围岩为",
+"description": "火山碎屑岩在哈图金矿矿集区内广泛发育，为金矿床的重要围岩类型"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要围岩为",
+"description": "中基性火山岩为哈图金矿矿集区的重要围岩组合之一，与成矿作用密切相关"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要围岩为",
+"description": "矿区出露地层的岩石岩性主要表现为凝灰质砂岩，是哈图金矿成矿层的重要围岩组成"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要围岩为",
+"description": "粉砂岩是构成哈图金矿成矿层的主要岩性之一，为矿体提供围岩空间"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E8",
+"relation_label_zh": "属于",
+"description": "凝灰质砂岩是下石炭统希贝库拉斯组岩层的主要岩性之一"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E9",
+"relation_label_zh": "属于",
+"description": "凝灰质砂岩广泛发育于下石炭统包古图组岩层中"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E10",
+"relation_label_zh": "属于",
+"description": "下石炭统太勒古拉组岩层也以凝灰质砂岩为主要岩性之一"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E8",
+"relation_label_zh": "属于",
+"description": "粉砂岩为下石炭统希贝库拉斯组的重要组成岩性"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E9",
+"relation_label_zh": "属于",
+"description": "下石炭统包古图组岩层中普遍发育粉砂岩"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E10",
+"relation_label_zh": "属于",
+"description": "粉砂岩也是下石炭统太勒古拉组岩层的主要岩性之一"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "受…控制",
+"description": "达拉布特断裂为区域主干断裂之一，是构成哈图金矿成矿层必不可少的重要控矿构造"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "受…控制",
+"description": "安齐断裂为控制哈图成矿的主要断裂之一，为矿物质的形成提供物质基础与必要的环境条件"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "受…控制",
+"description": "哈图断裂与达拉布特断裂、安齐断裂共同构成区域内极为发育的主干断裂，对哈图金矿成矿具有关键控制作用"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要金矿物为",
+"description": "黄铁矿是哈图金矿浅部含金石英脉和深部蚀变岩型矿体中最主要的载金矿物之一"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "主要金矿物为",
+"description": "毒砂与黄铁矿一起构成哈图金矿最主要的载金金属矿物"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "石英为浅部含金石英脉的主要脉石矿物，与黄铁矿、毒砂和自然金共生"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "主要金矿物为",
+"description": "自然金与黄铁矿、毒砂和石英共同组成哈图金矿浅部含金石英脉的矿物组合，是主要载金矿物之一"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "对应成矿流体为",
+"description": "因子分析等研究表明哈图金矿为多物质来源的岩浆热液型中-低温金矿床，其成矿流体与后碰撞岩浆活动密切相关，两种矿体由同源流体逐渐演化形成"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "伴随有",
+"description": "哈图金矿前缘晕指示元素组合为Hg、As、Sb，是原生晕轴向分带中前缘晕的典型地球化学异常特征"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "伴随有",
+"description": "哈图金矿近矿元素组合为Ag、Cu、Zn、Pb、Bi，该组合紧邻矿体分布，对近矿找矿具有重要指示意义"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "伴随有",
+"description": "哈图金矿尾晕元素组合为W、Ni、Mo，代表原生晕轴向分带远离矿体一侧的尾晕地球化学异常特征"
+}
+]
+}

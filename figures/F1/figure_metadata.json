@@ -1,0 +1,19 @@
+{
+  "fonts": {
+    "chinese": "Microsoft YaHei",
+    "latin": "Arial"
+  },
+  "figsize_inches": [
+    9,
+    5
+  ],
+  "png_dpi": 600,
+  "png_pixels": [
+    5400,
+    3000
+  ],
+  "row_alignment": "passed",
+  "numeric_labels_inside_canvas": "passed",
+  "rounding": "Decimal ROUND_HALF_UP; display only, source values unchanged",
+  "total": 76
+}

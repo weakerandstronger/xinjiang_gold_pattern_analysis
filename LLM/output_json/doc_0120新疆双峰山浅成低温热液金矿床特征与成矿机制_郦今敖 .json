@@ -1,0 +1,445 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0120",
+"title": "新疆双峰山浅成低温热液金矿床特征与成矿机制",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双峰山金矿床",
+"attributes": {
+"name": "双峰山金矿床",
+"location": "新疆东天山北部",
+"tectonic_position": "西伯利亚板块陆缘晚古生代岛弧南部边缘，靠近克拉麦里板块缝合带",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "低金品位",
+"ore_control_features": "矿区双峰山断裂（F₂）为成矿流体线形通道；火山热泉沿西北—西北西向线形管道形成以低金品位硅质岩为中心的蚀变矿物晕（带），潜火山热液在硅质岩裂隙间发育微细石英（冰长石）网脉构成矿体；矿化沿断裂延伸大而宽度、厚度较小"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆东天山北部",
+"attributes": {
+"name": "新疆东天山北部",
+"level": "地区",
+"tectonic_setting": "东天山北部"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "西伯利亚板块陆缘晚古生代岛弧南部边缘",
+"attributes": {
+"name": "西伯利亚板块陆缘晚古生代岛弧南部边缘",
+"level": "岛弧带",
+"tectonic_setting": "西伯利亚板块陆缘晚古生代岛弧南部边缘"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "克拉麦里板块缝合带",
+"attributes": {
+"name": "克拉麦里板块缝合带",
+"level": "缝合带",
+"tectonic_setting": "板块缝合带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "早石炭世陆相流纹质玻屑凝灰岩",
+"attributes": {
+"name": "早石炭世陆相流纹质玻屑凝灰岩",
+"age": "早石炭世",
+"dominant_lithology": "流纹质玻屑凝灰岩",
+"lithology_notes": "陆相流纹质玻屑凝灰岩为赋矿岩层"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "陆相流纹质玻屑凝灰岩（赋矿岩层）",
+"attributes": {
+"name": "陆相流纹质玻屑凝灰岩（赋矿岩层）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "双峰山断裂（F₂）",
+"attributes": {
+"name": "双峰山断裂（F₂）",
+"structure_type": "断裂",
+"orientation": "西北—西北西向",
+"scale": "矿区",
+"ore_control_role": "成矿流体的线形通道，控制蚀变晕（带）与矿体展布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "隐爆硅质角砾岩化",
+"attributes": {
+"name": "隐爆硅质角砾岩化",
+"alteration_minerals": "硅质"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅质岩化",
+"attributes": {
+"name": "硅质岩化",
+"alteration_minerals": "硅质"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "蒙脱石化",
+"attributes": {
+"name": "蒙脱石化",
+"alteration_minerals": "蒙脱石"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "青磐岩化",
+"attributes": {
+"name": "青磐岩化"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "潜火山热液阶段发育微细石英网脉"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "冰长石",
+"attributes": {
+"name": "冰长石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "石英（冰长石）网脉中出现"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "蚀变矿物",
+"paragenesis": "低温微细石英网脉中含绢云母"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "蚀变矿物",
+"paragenesis": "黄铁矿化带发育"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "蒙脱石",
+"attributes": {
+"name": "蒙脱石",
+"role_in_ore": "蚀变矿物",
+"paragenesis": "黄铁矿蒙脱石化带发育"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "IntrusiveBody",
+"name_zh": "次钾长斑岩脉",
+"attributes": {
+"name": "次钾长斑岩脉",
+"rock_type": "次钾长斑岩",
+"relationship_to_ore": "沿双峰山断裂再活动侵入并穿切矿体"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Structure",
+"name_zh": "双峰山背斜",
+"attributes": {
+"name": "双峰山背斜",
+"structure_type": "背斜",
+"scale": "矿区",
+"ore_control_role": "形成并使矿（化）体发生短距离错移，影响现代地质景观"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Structure",
+"name_zh": "纵向逆冲断层",
+"attributes": {
+"name": "纵向逆冲断层",
+"structure_type": "逆冲断层",
+"scale": "矿区",
+"ore_control_role": "垂向上短距离错移被褶皱的矿（化）体"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Structure",
+"name_zh": "NNE向平移断层",
+"attributes": {
+"name": "NNE向平移断层",
+"structure_type": "平移断层",
+"scale": "矿区",
+"ore_control_role": "平面上短距离错移被褶皱的矿（化）体"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Structure",
+"name_zh": "NE向平移断层",
+"attributes": {
+"name": "NE向平移断层",
+"structure_type": "平移断层",
+"scale": "矿区",
+"ore_control_role": "平面上短距离错移被褶皱的矿（化）体"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "火山热泉循环与潜火山热液组成的浅成低温热液",
+"source": "与晚古生代岛弧早石炭世流纹质熔浆的陆相喷发相联系；火山热泉阶段加入大气降水"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Isotope",
+"name_zh": "铅同位素",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "铅同位素",
+"value_range": "研究表明成矿流体与晚古生代岛弧早石炭世流纹质熔浆的陆相喷发相联系"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Isotope",
+"name_zh": "硫同位素",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "硫同位素",
+"value_range": "研究表明成矿流体与晚古生代岛弧早石炭世流纹质熔浆的陆相喷发相联系"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "双峰山矿床位于新疆东天山北部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "双峰山矿床位于西伯利亚板块陆缘晚古生代岛弧南部边缘"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "靠近",
+"description": "双峰山矿床靠近克拉麦里板块缝合带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "双峰山矿床赋矿岩层为陆相流纹质玻屑凝灰岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "陆相流纹质玻屑凝灰岩赋矿岩层属于早石炭世陆相流纹质玻屑凝灰岩地层单元"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "双峰山断裂（F₂）作为成矿流体线形通道控制双峰山矿床的蚀变晕（带）与矿体展布"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山矿床蚀变分带自上而下包括隐爆硅质角砾岩化带"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山矿床蚀变分带自上而下包括低金品位硅质岩化带"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山矿床蚀变分带自上而下包括黄铁矿化带"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山矿床蚀变分带自上而下包括蒙脱石化带"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山矿床蚀变分带自上而下包括青磐岩化带"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "潜火山热液阶段在裂隙间发育微细石英网脉构成矿体"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "双峰山矿床石英（冰长石）网脉带中出现冰长石"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "双峰山矿床低温微细石英网脉中含绢云母"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "双峰山矿床蚀变分带包括黄铁矿化带，黄铁矿为重要蚀变矿物"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "双峰山矿床黄铁矿蒙脱石化带中发育蒙脱石"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "对应成矿流体为",
+"description": "双峰山矿床对应成矿流体为火山热泉循环与潜火山热液组成的浅成低温热液，火山热泉阶段加入大气降水"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E24",
+"to_entity_local_id": "E23",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素研究表明成矿流体与晚古生代岛弧早石炭世流纹质熔浆的陆相喷发相联系"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E25",
+"to_entity_local_id": "E23",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素研究表明成矿流体与晚古生代岛弧早石炭世流纹质熔浆的陆相喷发相联系"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "受…控制",
+"description": "华力西晚期左旋构造作用形成双峰山背斜并使矿（化）体发生短距离错移"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "受…控制",
+"description": "双峰山背斜发育一系列纵向逆冲断层，垂向上短距离错移被褶皱的矿（化）体"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "受…控制",
+"description": "矿区发育NNE向平移断层，平面上短距离错移被褶皱的矿（化）体"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "受…控制",
+"description": "矿区发育NE向平移断层，平面上短距离错移被褶皱的矿（化）体"
+}
+]
+}

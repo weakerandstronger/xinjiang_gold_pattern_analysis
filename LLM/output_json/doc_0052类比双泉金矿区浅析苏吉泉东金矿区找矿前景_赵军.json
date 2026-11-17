@@ -1,0 +1,395 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0052",
+"title": "类比双泉金矿区浅析苏吉泉东金矿区找矿前景",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿床",
+"attributes": {
+"name": "双泉金矿床",
+"location": "新疆东准噶尔卡拉麦里地区",
+"tectonic_position": "库兰克子干-三塘湖板块南部陆缘构造带阿拉比也巴斯它陆缘火山弧单元内，位于卡拉麦里深断裂和清水-苏吉泉大断裂组成的强应变构造带中的清水-南明水褶皱束次级构造单元南明水复向斜内",
+"deposit_type": "造山型金矿床",
+"resource_tonnage": "提交（333+334）资源量约 12 t",
+"ore_control_features": "矿体受清水-苏吉泉大断裂及其控制的次级构造、晚期 NW 向断层组和近 EW 向断层组等控制，金矿脉沿次级构造及石英型矿脉集中展布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "苏吉泉金矿床",
+"attributes": {
+"name": "苏吉泉金矿床",
+"location": "位于双泉金矿东约 30 km 的苏吉泉东金矿区，属新疆东准噶尔卡拉麦里地区",
+"tectonic_position": "与双泉金矿区同处库兰克子干-三塘湖板块南部陆缘构造带阿拉比也巴斯它陆缘火山弧单元内，位于卡拉麦里深断裂和清水-苏吉泉大断裂组成的强应变构造带中的清水-南明水褶皱束次级构造单元南明水复向斜内",
+"deposit_type": "造山型金矿床",
+"resource_tonnage": "提交（334）资源量 3.455 t",
+"ore_control_features": "清水-苏吉泉大断裂从矿区中部通过，与其次级构造共同控制主矿脉及次级矿脉的分布，主构造带在本区表现为向东发散的帚状构造破碎带，后期 NW 向断层组和近 EW 向断层组在矿区穿插与主构造交汇"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "东准噶尔卡拉麦里地区金成矿区带",
+"attributes": {
+"name": "东准噶尔卡拉麦里地区金成矿区带",
+"level": "金成矿区带",
+"tectonic_setting": "东准噶尔卡拉麦里地区漫长的地质演化形成的金成矿区带，特定的构造模式、沉积环境、岩浆活动和变质作用为金成矿提供了有利空间、动力和物质来源，是疆内重要的金成矿区带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "库兰克子干-三塘湖板块南部陆缘构造带阿拉比也巴斯它陆缘火山弧单元",
+"attributes": {
+"name": "库兰克子干-三塘湖板块南部陆缘构造带阿拉比也巴斯它陆缘火山弧单元",
+"level": "构造单元",
+"tectonic_setting": "库兰克子干-三塘湖板块南部陆缘构造带中的阿拉比也巴斯它陆缘火山弧单元，为双泉金矿区和苏吉泉东金矿区共同所在的构造背景单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "平顶山组",
+"attributes": {
+"name": "平顶山组",
+"age": "中泥盆统",
+"dominant_lithology": "以火山岩和火山碎屑岩为主的地层",
+"lithology_notes": "平顶山组位于清水-苏吉泉大断裂以北，在双泉金矿区和苏吉泉东金矿区北部广泛出露，因处在构造挤压带上岩层多已破碎和产生变质，岩石多碎裂岩化或片理化"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "南明水组",
+"attributes": {
+"name": "南明水组",
+"age": "下石炭统",
+"dominant_lithology": "以火山碎屑岩和沉积岩为主的地层",
+"lithology_notes": "石炭系南明水组位于清水-苏吉泉大断裂和卡拉麦里大断裂之间，在两矿区南侧出露，岩层多已破碎和产生变质，岩石具鳞片变晶结构、千枚状、条带状、糜棱状构造"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "双泉矿区平顶山组围岩单元",
+"attributes": {
+"name": "双泉矿区平顶山组围岩单元"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "苏吉泉东矿区南明水组围岩单元",
+"attributes": {
+"name": "苏吉泉东矿区南明水组围岩单元"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里深断裂",
+"attributes": {
+"name": "卡拉麦里深断裂",
+"structure_type": "深大断裂",
+"scale": "区域性大断裂构造，与清水-苏吉泉大断裂共同组成卡拉麦里强应变构造带",
+"ore_control_role": "与清水-苏吉泉大断裂共同限定平顶山组和南明水组地层的展布，为双泉金矿区和苏吉泉东金矿区成矿提供一级构造背景"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "清水-苏吉泉大断裂",
+"attributes": {
+"name": "清水-苏吉泉大断裂",
+"structure_type": "大断裂",
+"orientation": "总体近东西向展布",
+"scale": "区域性主构造带，在苏吉泉东金矿区中部通过，向东发散形成帚状构造带",
+"ore_control_role": "与卡拉麦里深断裂组成强应变构造带，控制平顶山组和南明水组的空间关系，在苏吉泉东金矿区与其次级构造共同控制主矿脉及次级矿脉的分布"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里强应变构造带",
+"attributes": {
+"name": "卡拉麦里强应变构造带",
+"structure_type": "强应变构造带",
+"orientation": "总体呈 NW 向展布",
+"scale": "由卡拉麦里深断裂和清水-苏吉泉大断裂组成的强应变构造带，内发育清水-南明水褶皱束及南明水复向斜等次级构造",
+"ore_control_role": "双泉金矿区和苏吉泉东金矿区均位于该强应变构造带内，是控制该带金成矿的一级构造单元"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "NW 向断层组",
+"attributes": {
+"name": "NW 向断层组",
+"structure_type": "断层组",
+"orientation": "NW 向",
+"scale": "后期形成的一组 NW 向断层，在双泉金矿区和苏吉泉东金矿区内穿插并与主构造交汇",
+"ore_control_role": "与近 EW 向断层组共同参与控制两矿区金矿脉的展布，是后期金矿化的重要次级构造"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Structure",
+"name_zh": "近 EW 向断层组",
+"attributes": {
+"name": "近 EW 向断层组",
+"structure_type": "断层组",
+"orientation": "近 EW 向",
+"scale": "在两矿区穿插并与主构造带交汇的断层组",
+"ore_control_role": "与 NW 向断层组共同控制两矿区金矿脉的空间展布，为后期找矿需要加强的次级构造"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geophysics",
+"name_zh": "苏吉泉东金矿区主构造带电性异常",
+"attributes": {
+"anomaly_type": "视电阻率低阻正交点与中阻强极化体组合异常",
+"amplitude": "主构造带表现为一系列视电阻率低阻正交点的 NW 向破碎带，其北侧分布一条与主构造斜交的中阻强极化体，其南侧分布两条中阻强极化体",
+"spatial_pattern": "地球物理异常整体呈 NW 向展布，与主构造带和破碎带走向一致"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "清格里巴斯它乌（双泉）-六棵树多元素综合异常",
+"attributes": {
+"element": "Au、Bi、Cu、As、Sb",
+"value_ppm": "形成 Au、Bi、Cu、As、Sb 多元素综合异常",
+"anomaly_pattern": "双泉金矿区位于清格里巴斯它乌（双泉）-六棵树 Au、Bi、Cu、As、Sb 多元素综合异常内，异常与矿区构造带和含金矿化带空间上吻合较好"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "南明水苏吉泉多元素综合异常",
+"attributes": {
+"element": "Au、Ag、Bi、F、Hg、As、Sb、Cu",
+"value_ppm": "形成 Au、Ag、Bi、F、Hg、As、Sb、Cu 多元素综合异常",
+"anomaly_pattern": "苏吉泉东金矿区位于南明水苏吉泉 Au、Ag、Bi、F、Hg、As、Sb、Cu 多元素综合异常内，异常与主构造带及矿脉分布密切相关"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geochem",
+"name_zh": "苏吉泉东金矿区 Au-Ag-As-Sb-Bi 组合异常带",
+"attributes": {
+"element": "Au、Ag、As、Sb、Bi",
+"value_ppm": "岩石地球化学表现为 Au、Ag、As、Sb、Bi 元素的弱异常",
+"anomaly_pattern": "矿区岩石形成一条西窄东宽的 Au、Ag、As、Sb、Bi 组合异常带，与矿区主构造方向一致"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "石英型金矿脉的主要脉石矿物",
+"paragenesis": "双泉金矿区和苏吉泉东金矿区今后找矿工作中提出应加强次级构造并寻找石英型矿脉，表明金矿体多赋存于石英脉中"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "双泉金矿位于新疆东准噶尔卡拉麦里地区金成矿区带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "苏吉泉东金矿位于新疆东准噶尔卡拉麦里地区金成矿区带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "双泉金矿区处于库兰克子干-三塘湖板块南部陆缘构造带阿拉比也巴斯它陆缘火山弧单元内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "苏吉泉东金矿区与双泉金矿区同属库兰克子干-三塘湖板块南部陆缘构造带阿拉比也巴斯它陆缘火山弧单元"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "双泉金矿的金矿脉产于双泉矿区平顶山组围岩单元中破碎变质的火山碎屑岩及相关岩石中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "双泉矿区平顶山组围岩单元在地层上属于中泥盆统平顶山组"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "苏吉泉东金矿的金矿脉赋存于苏吉泉东矿区南明水组围岩单元中碎裂岩化和片理化的岩石内"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "苏吉泉东矿区南明水组围岩单元在地层上属于下石炭统南明水组"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿区构造上位于卡拉麦里深断裂和清水-苏吉泉大断裂组成的强应变构造带内，受卡拉麦里强应变构造带整体控制"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉东金矿区同样位于卡拉麦里强应变构造带内，金成矿受该强应变构造带整体控制"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿区位于清水-苏吉泉大断裂以北，该大断裂对双泉金矿的成矿构造格局具有重要控制作用"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "清水-苏吉泉大断裂从苏吉泉东金矿区中部通过，与其次级构造共同控制矿区主矿脉及次级矿脉的分布"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿区位于卡拉麦里深断裂以南，该深大断裂为矿区北侧边界构造并参与控制成矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉东金矿区位于卡拉麦里深断裂以南，卡拉麦里深断裂与清水-苏吉泉大断裂共同限定矿区的强应变构造背景"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿区内后期 NW 向断层组在矿区穿插并与主构造交汇，对金矿脉展布具有重要控制作用"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉东金矿区内后期 NW 向断层组同样在矿区穿插并与主构造交汇，对主矿脉及次级矿脉的形成和展布具有重要控制作用"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿区中近 EW 向断层组与主构造带交汇，对金矿脉的空间分布具有一定控制作用"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E13",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉东金矿区近 EW 向断层组在矿区穿插并与主构造交汇，是控制矿脉分布的重要次级构造"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "苏吉泉东金矿区主构造带在地球物理上表现为一系列视电阻率低阻正交点的 NW 向破碎带，其北侧和南侧伴随中阻强极化体，是该区成矿构造的重要地球物理标志"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "双泉金矿区位于清格里巴斯它乌（双泉）-六棵树 Au、Bi、Cu、As、Sb 多元素综合异常内，该异常与含金矿化带分布吻合，是双泉金矿成矿的重要地球化学标志"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "苏吉泉东金矿区位于南明水苏吉泉 Au、Ag、Bi、F、Hg、As、Sb、Cu 多元素综合异常内，反映该区具有良好的多元素成矿地球化学背景"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E17",
+"relation_label_zh": "显示",
+"description": "苏吉泉东金矿区岩石地球化学表现为一条西窄东宽的 Au、Ag、As、Sb、Bi 组合异常带，对主构造和找矿远景具有重要指示意义"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "脉石矿物包括",
+"description": "双泉金矿区今后找矿方向提出应加强次级构造并寻找石英型矿脉，表明石英是双泉金矿石英型金矿脉的重要脉石矿物"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E18",
+"relation_label_zh": "脉石矿物包括",
+"description": "苏吉泉东金矿区今后找矿方向同样强调寻找石英型矿脉，说明石英是苏吉泉东金矿金矿脉的主要脉石矿物"
+}
+]
+}

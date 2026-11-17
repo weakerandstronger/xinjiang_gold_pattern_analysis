@@ -1,0 +1,301 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0087",
+"title": "新疆卡特巴阿苏矿区侵入岩的地球化学特征及其地质意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "新疆卡特巴阿苏矿区"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆",
+"attributes": {
+"name": "新疆",
+"level": "自治区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "卡特巴阿苏矿区",
+"attributes": {
+"name": "卡特巴阿苏矿区",
+"level": "矿区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长岩",
+"attributes": {
+"name": "闪长岩",
+"rock_type": "闪长岩",
+"age": "古生代",
+"relationship_to_ore": "卡特巴阿苏金铜矿床发育的中性侵入岩单元之一"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "花岗闪长岩",
+"attributes": {
+"name": "花岗闪长岩",
+"rock_type": "花岗闪长岩",
+"age": "古生代",
+"relationship_to_ore": "卡特巴阿苏金铜矿床发育的中性侵入岩单元之一"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "二长花岗岩",
+"attributes": {
+"name": "二长花岗岩",
+"rock_type": "二长花岗岩",
+"age": "古生代",
+"relationship_to_ore": "卡特巴阿苏金铜矿床发育的中性侵入岩单元之一"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "碱(钾)长花岗岩",
+"attributes": {
+"name": "碱(钾)长花岗岩",
+"rock_type": "碱(钾)长花岗岩",
+"age": "古生代",
+"relationship_to_ore": "卡特巴阿苏金铜矿床发育的中性侵入岩单元之一"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "交代蚀变",
+"attributes": {
+"name": "交代蚀变",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geochem",
+"name_zh": "SiO₂地球化学特征",
+"attributes": {
+"element": "SiO₂",
+"anomaly_pattern": "含量较高"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "轻稀土元素地球化学特征",
+"attributes": {
+"element": "轻稀土元素",
+"anomaly_pattern": "富集"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "重稀土元素地球化学特征",
+"attributes": {
+"element": "重稀土元素",
+"anomaly_pattern": "亏损"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "Ti地球化学特征",
+"attributes": {
+"element": "Ti",
+"anomaly_pattern": "亏损型"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "Sr地球化学特征",
+"attributes": {
+"element": "Sr",
+"anomaly_pattern": "亏损型"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "P地球化学特征",
+"attributes": {
+"element": "P",
+"anomaly_pattern": "亏损型"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "Th地球化学特征",
+"attributes": {
+"element": "Th",
+"anomaly_pattern": "富集型"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "K地球化学特征",
+"attributes": {
+"element": "K",
+"anomaly_pattern": "富集型"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geochem",
+"name_zh": "Zr地球化学特征",
+"attributes": {
+"element": "Zr",
+"anomaly_pattern": "富集型"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geochem",
+"name_zh": "Ce地球化学特征",
+"attributes": {
+"element": "Ce",
+"anomaly_pattern": "弱负异常，亏损"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geochem",
+"name_zh": "Eu地球化学特征",
+"attributes": {
+"element": "Eu",
+"anomaly_pattern": "弱负异常，亏损"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于新疆"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于卡特巴阿苏矿区"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "卡特巴阿苏矿区侵入岩岩石蚀变较强，抗交代蚀变能力弱"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏矿区中性侵入岩SiO₂含量较高"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏矿区侵入岩稀土元素表现为轻稀土富集"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏矿区侵入岩稀土元素表现为重稀土亏损"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏矿区侵入岩微量元素总体表现为Ti亏损型"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏矿区侵入岩微量元素总体表现为Sr亏损型"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏矿区侵入岩微量元素P表现为亏损型"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏矿区侵入岩微量元素Th表现富集型"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏矿区侵入岩微量元素K表现富集型"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏矿区侵入岩微量元素Zr表现富集型"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "显示",
+"description": "碱(钾)长花岗岩出现铈弱负异常并表现为亏损"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "显示",
+"description": "碱(钾)长花岗岩出现铕弱负异常并表现为亏损"
+}
+]
+}

@@ -1,0 +1,398 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0221",
+"title": "新疆尼勒克县加曼特金矿床地质及流体包裹体研究_吴艳爽",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "加曼特金矿床",
+"attributes": {
+"name": "加曼特金矿床",
+"location": "新疆尼勒克县城北北西约30 km，也列莫顿地区",
+"tectonic_position": "伊犁—中天山陆块北东缘博罗霍洛早古生代岛弧带内的吐拉苏—也列莫顿火山岩带东段",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "金品位一般为1.20×10^-6～1.94×10^-6（平均1.21×10^-6）",
+"ore_control_features": "矿体受火山—次火山机构及北北西向（F5）、北北东向（F6、F7）断裂构造破碎带控制，呈脉状、透镜状产出；矿石以含金属硫化物的石英脉型为主"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "吐拉苏—也列莫顿火山岩带",
+"attributes": {
+"name": "吐拉苏—也列莫顿火山岩带",
+"level": "火山岩带",
+"tectonic_setting": "西天山北段晚古生代构造—岩浆成矿带的重要组成部分，北西西向狭长带展布，位于伊犁—中天山陆块北东缘博罗科努早古生代岛弧带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "也列莫顿成矿带",
+"attributes": {
+"name": "也列莫顿成矿带",
+"level": "成矿带",
+"tectonic_setting": "伊犁板块北缘博罗霍洛早古生代岛弧带内，断裂构造发育并具多期次活动性"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组",
+"attributes": {
+"name": "下石炭统大哈拉军山组",
+"age": "下石炭统",
+"dominant_lithology": "陆相中性、中酸性火山岩与火山碎屑岩",
+"lithology_notes": "自下而上分为灰色砾岩段、酸性凝灰岩段、下安山岩段、火山碎屑岩段、上安山岩段"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "大哈拉军山组第四岩性段凝灰熔岩",
+"attributes": {
+"name": "大哈拉军山组第四岩性段凝灰熔岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "石英钠长斑岩（博尔博松）",
+"attributes": {
+"name": "石英钠长斑岩（博尔博松）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "F5断裂",
+"attributes": {
+"name": "F5断裂",
+"structure_type": "断裂",
+"orientation": "北北西向，倾向约250°，倾角65°～89°",
+"scale": "矿区级",
+"ore_control_role": "控制石英脉型矿化带及主矿化带矿体产出与展布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "F6断裂",
+"attributes": {
+"name": "F6断裂",
+"structure_type": "断裂",
+"orientation": "北北东向",
+"scale": "矿区级",
+"ore_control_role": "矿区重要控矿断裂，控制矿化带及矿体产出"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "F7断裂",
+"attributes": {
+"name": "F7断裂",
+"structure_type": "断裂",
+"orientation": "北北东向",
+"scale": "矿区级",
+"ore_control_role": "矿区重要控矿断裂，控制矿化带及矿体产出"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "火山—次火山机构",
+"attributes": {
+"name": "火山—次火山机构",
+"structure_type": "火山机构",
+"scale": "矿床级",
+"ore_control_role": "控制矿体呈脉状、透镜状产出"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "方解石"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金属矿物（含量较少）"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "主要脉石矿物"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Fluid",
+"name_zh": "加曼特金矿床成矿流体",
+"attributes": {
+"nature": "NaCl-H2O体系水溶液包裹体（气液两相或纯液相），总体表现为低温、低盐度、低密度",
+"temperature_C_min": "180",
+"temperature_C_max": "260",
+"salinity_wtNaCl_min": "0.2",
+"salinity_wtNaCl_max": "12.5"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "加曼特金矿床位于吐拉苏—也列莫顿火山岩带东段的也列莫顿地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "加曼特金矿床位于也列莫顿成矿带中部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "加曼特金矿床赋矿围岩主要为大哈拉军山组第四岩性段凝灰熔岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "加曼特金矿床赋矿围岩还包括石英钠长斑岩（博尔博松）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "大哈拉军山组第四岩性段凝灰熔岩属于下石炭统大哈拉军山组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "加曼特金矿床矿体受火山—次火山机构控制，呈脉状、透镜状产出"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "加曼特金矿床主体矿体产于F5断裂构造破碎带内，矿化带发育受F5断裂控制"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "北北东向F6断裂为矿区重要控矿断裂之一，控制矿化带及矿体产出"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "北北东向F7断裂为矿区重要控矿断裂之一，控制矿化带及矿体产出"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "加曼特金矿床围岩蚀变较强，主要为强硅化，且与金矿化密切相关"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "加曼特金矿床围岩蚀变较强，主要为黄铁矿化，且与金矿化密切相关"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "加曼特金矿床围岩蚀变矿化类型包括绢云母化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "伴随有",
+"description": "加曼特金矿床围岩蚀变矿化类型包括碳酸盐化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石金属矿物包括方铅矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石金属矿物包括闪锌矿"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石金属矿物包括黄铜矿"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要金矿物为",
+"description": "金矿物以自然金为主，并以包裹金形态赋存于多种矿物中"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要为石英"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要为方解石"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "成矿流体包裹体为NaCl-H2O体系水溶液，均一温度主要集中在180～260℃，盐度为0.2～12.5 wt% NaCl.eqv"
+}
+]
+}

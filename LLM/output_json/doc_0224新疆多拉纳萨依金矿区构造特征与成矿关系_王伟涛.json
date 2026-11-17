@@ -1,0 +1,277 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0224",
+"title": "新疆多拉纳萨依金矿区构造特征与成矿关系_王伟涛",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "多拉纳萨依金矿床",
+"attributes": {
+"name": "多拉纳萨依金矿床",
+"location": "新疆北部阿尔泰地区多拉纳萨依金矿区（阿尔泰金矿带阿克萨依向斜东翼）",
+"tectonic_position": "西伯利亚大陆南缘活动大陆边缘的沟-弧-盆体系（乌伦古海沟-喀拉通克岛弧-克兰弧后盆地），位于西伯利亚板块与哈萨克斯坦-准噶尔板块结合部位",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床产于泥盆系托克萨雷组第三岩性段的灰岩-浅变质砂岩-硅质岩系中，受多拉纳萨依韧性剪切带及其次级NNE断裂（f1、f2）控制；控矿构造表现为二次韧性剪切变形、矿化蚀变叠加及多期次脉体矿化（晚期石英脉与含铁方解石脉）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿尔泰金矿带",
+"attributes": {
+"name": "阿尔泰金矿带",
+"level": "成矿带",
+"tectonic_setting": "西伯利亚大陆南缘活动大陆边缘在晚石炭世-早二叠世碰撞造山引发的同造山期构造-流体-成矿作用形成的金矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托克萨雷组第三岩性段",
+"attributes": {
+"name": "中泥盆统托克萨雷组第三岩性段",
+"age": "中泥盆统",
+"dominant_lithology": "碎屑岩夹碳酸盐岩、硅质岩（受区域动力-热力作用轻微变质）",
+"lithology_notes": "为矿区含金丰度较高的岩系，矿床主要产于该段的灰岩-浅变质砂岩-硅质岩组合中"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "灰岩-浅变质砂岩-硅质岩系（托克萨雷组第三岩性段）",
+"attributes": {
+"name": "灰岩-浅变质砂岩-硅质岩系（托克萨雷组第三岩性段）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "东格勒黑云石英闪长岩体",
+"attributes": {
+"name": "东格勒黑云石英闪长岩体",
+"rock_type": "黑云石英闪长岩",
+"age": "华力西中期",
+"relationship_to_ore": "矿区侵入岩发育；石英闪长岩及其岩脉在张裂/片理张裂中充填并发生片理化、碎裂岩化，局部含矿性好，为重要的矿石类型与矿化阶段之一"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "多拉纳萨依韧性剪切带",
+"attributes": {
+"name": "多拉纳萨依韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "早期走向以NW向为主，后期再活化并发生弯曲，形成近南北向反“S”形构造",
+"scale": "矿田级",
+"ore_control_role": "为矿床的主控构造，控制矿体产出并记录多期次构造活动与矿化叠加"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "f1断裂",
+"attributes": {
+"name": "f1断裂",
+"structure_type": "断裂",
+"orientation": "NNE向，北西陡倾，倾角60°～85°",
+"scale": "矿区级",
+"ore_control_role": "重要容矿构造，控制Ⅰ号、Ⅱ号、Ⅲ号矿体沿走向约5km分布，破碎带宽20～50m"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "白云母-绢云母化",
+"attributes": {
+"name": "白云母-绢云母化",
+"alteration_minerals": "白云母、绢云母"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "多期脉体矿化阶段中可见，晚期石英脉阶段偶见自然金"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物之一",
+"paragenesis": "与硅化、绢云母化等共生，主要形成于韧-脆性剪切叠加的矿化阶段（浸染状、细脉-细脉浸染状等）"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "与黄铁矿、黄铜矿等共生，见于片理化型与石英脉型矿石阶段"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "多拉纳萨依金矿床成矿流体",
+"attributes": {
+"nature": "中低温、低盐度热液流体（以NaCl为主的盐类体系）",
+"temperature_C_min": "140",
+"temperature_C_max": "260",
+"salinity_wtNaCl_min": "0.4",
+"salinity_wtNaCl_max": "8.3"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "托克萨雷组第三岩性段岩石含金量背景",
+"attributes": {
+"element": "Au",
+"value_ppm": "0～0.01143",
+"anomaly_pattern": "托克萨雷组第三岩性段灰岩、千枚岩、变砂岩-粉砂岩等岩石含金量背景值相对较高，为找矿重要标志"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于阿尔泰金矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "多拉纳萨依金矿床赋存于托克萨雷组第三岩性段的灰岩-浅变质砂岩-硅质岩系中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "灰岩-浅变质砂岩-硅质岩系属于中泥盆统托克萨雷组第三岩性段"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "多拉纳萨依金矿床受多拉纳萨依韧性剪切带控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "多拉纳萨依金矿床的Ⅰ号、Ⅱ号、Ⅲ号矿体受NNE向f1断裂控制并赋存于其破碎带内"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "矿床控矿构造早期变形阶段伴随白云母-绢云母化等蚀变"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床多期次矿化过程中硅化广泛发育，与矿化密切相关"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床矿化阶段普遍发育黄铁矿化，为重要的矿化蚀变类型"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "多拉纳萨依金矿床金矿物以自然金为主"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "多拉纳萨依金矿床矿石金属矿物中常见黄铁矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "多拉纳萨依金矿床矿石金属矿物中常见毒砂"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "流体包裹体研究表明成矿流体盐度（NaCl）为0.4%～8.3%，成矿温度主要集中在140～195℃与230～260℃范围"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "托克萨雷组第三岩性段岩石含金量背景值较高并广泛分布，为多拉纳萨依金矿床找矿标志之一"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "华力西中期东格勒黑云石英闪长岩体在矿区侵入并与托克萨雷组地层接触，其岩脉充填与后期变形对矿化具有重要意义"
+}
+]
+}

@@ -1,0 +1,283 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0177",
+"title": "新疆红十井金矿床特征及成因_肖惠良",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "红十井金矿床",
+"attributes": {
+"name": "红十井金矿床",
+"location": "新疆若羌北山地区，罗布泊东北侧，哈密西南约300km",
+"tectonic_position": "晚古生代北山裂谷带火山岩区",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均品位约4.01 g/t（最高约46.88 g/t）",
+"resource_tonnage": "D+E级金储量11.1吨",
+"ore_control_features": "受红十井-矛头山大型韧性剪切糜棱岩带及次级脆-韧性逆冲断裂控制，主矿体赋存于片理化玄武（玢）岩与糜棱岩化凝灰质砂岩接触带",
+"age_ma": "209-267Ma（主成矿期267-261Ma，叠加成矿期220-209Ma）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "北山裂谷带南亚带红十井-白山金铜成矿带",
+"attributes": {
+"name": "北山裂谷带南亚带红十井-白山金铜成矿带",
+"level": "成矿带",
+"tectonic_setting": "北山裂谷构造带（晚古生代裂谷环境）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中石炭统矛头山组",
+"attributes": {
+"name": "中石炭统矛头山组",
+"age": "中石炭统",
+"dominant_lithology": "玄武（玢）岩、凝灰质砂岩",
+"lithology_notes": "矿体赋存于矛头山组含金建造中，主要涉及第四亚组玄武（玢）岩及第六亚组变质凝灰质砂岩与玄武（玢）岩、凝灰质砂岩组合"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "片理化玄武（玢）岩-糜棱岩化凝灰质砂岩接触带含金建造",
+"attributes": {
+"name": "片理化玄武（玢）岩-糜棱岩化凝灰质砂岩接触带含金建造"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "红十井-矛头山大型韧性剪切糜棱岩带",
+"attributes": {
+"name": "红十井-矛头山大型韧性剪切糜棱岩带",
+"structure_type": "韧性剪切带（糜棱岩带）",
+"orientation": "走向N65～75°E，倾向NNW，倾角约75～85°",
+"scale": "区域性",
+"ore_control_role": "控制主矿体分布并提供含矿热液运移与沉淀的有利空间，矿体多沿剪切带及其附近接触带展布"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "方解石、铁白云石",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物与重要载金矿物之一",
+"paragenesis": "与石英、方解石、铁白云石等脉石矿物共生，常伴生褐铁矿（假像黄铁矿）"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要金属硫化物之一",
+"paragenesis": "与黄铁矿等硫化物共生于石英脉型及破碎蚀变岩型矿石中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金的主要赋存形式",
+"paragenesis": "以包裹金、粒间金、裂隙金赋存于黄（褐）铁矿附近及方解石、石英脉中"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "红十井金矿床成矿流体",
+"attributes": {
+"nature": "中-低盐度H2O-CO2体系，流体类型以Ca2+-Mg2+-Na+-Cl-为主",
+"source": "以岩浆水为主，混合玄武（玢）岩与凝灰质砂岩的变质水、建造水及大气降水",
+"temperature_C_min": "115",
+"temperature_C_max": "381",
+"pressure_MPa_min": "47.18",
+"pressure_MPa_max": "67.59",
+"salinity_wtNaCl_min": "2.18",
+"salinity_wtNaCl_max": "16.77"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢同位素δD",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD",
+"value_range": "－114.6‰～－68.8‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18OH2O",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18OH2O",
+"value_range": "－2.47‰～5.91‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "－0.24‰～2.94‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "红十井金矿床位于北山裂谷带南亚带红十井-白山金铜成矿带西南段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "红十井金矿床受红十井-矛头山大型韧性剪切糜棱岩带及其相关次级断裂构造控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "主矿体赋存于片理化玄武（玢）岩与糜棱岩化凝灰质砂岩接触带的含金建造内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "片理化玄武（玢）岩-糜棱岩化凝灰质砂岩接触带含金建造属于中石炭统矛头山组地层单元"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "红十井金矿床与硅化密切相关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "红十井金矿床与碳酸盐化密切相关"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "红十井金矿床与绢云母化密切相关"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "红十井金矿床矿石中黄铁矿为主要金属矿物之一"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "红十井金矿床矿石中共生金属矿物包括黄铜矿等"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "红十井金矿床金矿物为自然金，常以包裹金、粒间金、裂隙金形式出现"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "红十井金矿床对应的成矿流体为中-低盐度H2O-CO2体系混合流体"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "氢同位素δD范围指示成矿流体为岩浆水与建造水、变质水及大气降水的混合"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素δ18OH2O范围指示成矿流体具有混合流体特征"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S接近陨石硫且与玄武岩范围一致，指示硫源主要来自深部玄武质岩浆"
+}
+]
+}

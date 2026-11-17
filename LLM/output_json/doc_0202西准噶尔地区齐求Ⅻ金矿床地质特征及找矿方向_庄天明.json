@@ -1,0 +1,206 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0202",
+"title": "西准噶尔地区齐求Ⅻ金矿床地质特征及找矿方向_庄天明",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床（Ⅻ号）",
+"attributes": {
+"name": "齐求金矿床（Ⅻ号）",
+"location": "新疆西准噶尔地区",
+"tectonic_position": "准噶尔界山华力西褶皱带扎依尔—达拉布特复向斜北翼",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体主要发育石英脉型金矿体，受矿区内北东东—近东西向断裂和北西向断裂控制；含金石英脉在走向和倾向上呈舒缓波状，具尖灭侧现和尖灭再现特征；矿脉严格受北东东向压扭性断裂控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "扎依尔—达拉布特复向斜北翼",
+"attributes": {
+"name": "扎依尔—达拉布特复向斜北翼",
+"level": "复向斜北翼",
+"tectonic_setting": "西准噶尔华力西褶皱带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统库鲁木迪组",
+"attributes": {
+"name": "中泥盆统库鲁木迪组",
+"age": "中泥盆世",
+"dominant_lithology": "深海相粉—细含砾火山碎屑岩（以凝灰岩为主）",
+"lithology_notes": "库鲁木迪组上亚组上岩性段进一步划分为D2kb-3a、D2kb-3b、D2kb-3c、D2kb-3d四个层位，岩性均为凝灰岩（岩屑晶屑凝灰岩、晶屑岩屑凝灰岩），部分凝灰岩发生弱蚀变"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "库鲁木迪组凝灰岩围岩（岩屑晶屑凝灰岩、晶屑岩屑凝灰岩）",
+"attributes": {
+"name": "库鲁木迪组凝灰岩围岩（岩屑晶屑凝灰岩、晶屑岩屑凝灰岩）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长玢岩脉",
+"attributes": {
+"name": "闪长玢岩脉",
+"rock_type": "闪长玢岩",
+"age": "华力西中期",
+"relationship_to_ore": "矿区内仅见中性和酸性岩脉，以闪长玢岩脉为主；少数遭受强烈蚀变构成矿化蚀变破碎带，与金矿形成有一定关系；部分蚀变闪长玢岩中的金可达工业品位"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "北东东—近东西向断裂",
+"attributes": {
+"name": "北东东—近东西向断裂",
+"structure_type": "断裂",
+"orientation": "走向60°～85°，倾向南东，倾角50°～83°",
+"scale": "长度一般500m～1500m，宽0.2m～3.8m",
+"ore_control_role": "区内主要断裂构造，严格控制含金石英脉和矿化闪长玢岩的分布；石英脉与矿体在走向与倾向上呈舒缓波状并具尖灭再现特征"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "北西向断裂",
+"attributes": {
+"name": "北西向断裂",
+"structure_type": "断裂",
+"orientation": "北西向",
+"scale": "区内低序次派生分支断裂",
+"ore_control_role": "与北东东—近东西向断裂共同控制石英脉及矿体产出，为矿区重要找矿方向"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "千枚岩化-片理化-绿泥石化-绢云母化-硅化-退色化-碳酸盐化-高岭土化-褐铁矿化蚀变",
+"attributes": {
+"name": "千枚岩化-片理化-绿泥石化-绢云母化-硅化-退色化-碳酸盐化-高岭土化-褐铁矿化蚀变",
+"alteration_minerals": "绿泥石、绢云母、石英、方解石、褐铁矿",
+"intensity": "断裂带两侧及凝灰岩中普遍发育不同程度蚀变；沿主断裂面两侧可见宽十余米至几十米的蚀变带，带内岩石破碎、劈理片理发育，硅化与碳酸盐化等较普遍"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "与石英脉及断裂蚀变带共生，矿区矿石金属矿物主要包括黄铁矿等"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "赋存于含金石英脉及矿化破碎带矿石中，为贵金属矿物"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "非金属矿物以石英为主，石英脉充填断裂及羽状裂隙并形成石英脉型矿体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "齐求Ⅻ金矿床位于扎依尔—达拉布特复向斜北翼"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "齐求Ⅻ金矿床矿体与含金石英脉主要受北东东—近东西向断裂控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "齐求Ⅻ金矿床矿体与含金石英脉同时受北西向断裂控制，北西向断裂为重要找矿方向"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "齐求Ⅻ金矿床赋矿围岩主要为库鲁木迪组凝灰岩围岩（岩屑晶屑凝灰岩、晶屑岩屑凝灰岩）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "库鲁木迪组凝灰岩围岩属于中泥盆统库鲁木迪组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "矿区闪长玢岩脉呈脉状顺层产出于库鲁木迪组地层中，局部强烈蚀变并与金矿形成有关"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "齐求Ⅻ金矿床断裂破碎带及围岩普遍发育绿泥石化、绢云母化、硅化、碳酸盐化等蚀变"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "齐求Ⅻ金矿床贵金属矿物为自然金"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅻ金矿床金属矿物主要包括黄铁矿等"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅻ金矿床非金属矿物以石英为主，含金石英脉为主要矿体类型"
+}
+]
+}

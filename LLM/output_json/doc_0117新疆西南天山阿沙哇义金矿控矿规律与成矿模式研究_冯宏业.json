@@ -1,0 +1,361 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0117",
+"title": "新疆西南天山阿沙哇义金矿控矿规律与成矿模式研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿沙哇义金矿床",
+"attributes": {
+"name": "阿沙哇义金矿床",
+"location": "西南天山造山带塔里木板块北缘活动带",
+"tectonic_position": "西南天山造山带塔里木板块北缘活动带",
+"ore_control_features": "位于区域性NE向卡拉铁克大断裂和喀勒铁别克大断裂之间，矿化破碎蚀变带北东向展布，矿（化）体主要赋存于断裂破碎蚀变带中，深部矿体主要赋存于碳质千枚岩或灰色变余粉砂岩及二者接触带附近"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西南天山造山带",
+"attributes": {
+"name": "西南天山造山带",
+"level": "造山带",
+"tectonic_setting": "塔里木板块北缘活动带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "上石炭统喀拉治尔加组下段（C₂k）",
+"attributes": {
+"name": "上石炭统喀拉治尔加组下段（C₂k）",
+"age": "上石炭统",
+"dominant_lithology": "绢云母化（泥质）粉砂岩、绢云千枚岩、变余（石英）细砂岩",
+"lithology_notes": "主要岩性包括绢云千枚岩、变余砂岩、变余砂岩与绢云千枚岩互层、绢云千枚岩夹变余粉砂岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "卡拉铁克大断裂",
+"attributes": {
+"name": "卡拉铁克大断裂",
+"structure_type": "区域大断裂",
+"orientation": "NE向",
+"scale": "区域",
+"ore_control_role": "与喀勒铁别克大断裂共同限定矿床所处构造部位"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "喀勒铁别克大断裂",
+"attributes": {
+"name": "喀勒铁别克大断裂",
+"structure_type": "区域大断裂",
+"orientation": "NE向",
+"scale": "区域",
+"ore_control_role": "与卡拉铁克大断裂共同限定矿床所处构造部位"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "买当他乌复向斜",
+"attributes": {
+"name": "买当他乌复向斜",
+"structure_type": "复向斜",
+"scale": "矿区",
+"ore_control_role": "矿床位于该复向斜上"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "矿化破碎蚀变带",
+"attributes": {
+"name": "矿化破碎蚀变带",
+"structure_type": "断裂破碎蚀变带",
+"orientation": "北东向（30°-50°）",
+"scale": "矿区",
+"ore_control_role": "矿（化）体主要赋存于该断裂破碎蚀变带内"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "碳质千枚岩",
+"attributes": {
+"name": "碳质千枚岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "灰色变余粉砂岩",
+"attributes": {
+"name": "灰色变余粉砂岩"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "HostRockUnit",
+"name_zh": "碳质千枚岩与灰色变余粉砂岩接触带",
+"attributes": {
+"name": "碳质千枚岩与灰色变余粉砂岩接触带"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "矿区出露地层中普遍发育"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "深部矿体逐步变化为原生黄铁矿化矿石"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "原生矿石金属矿物组合"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "辉锑矿",
+"attributes": {
+"name": "辉锑矿",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "原生矿石金属矿物组合"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "原生矿石金属矿物组合"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金的主要赋存矿物之一",
+"paragenesis": "原生矿石金属矿物组合"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "石英流体包裹体包括NaCl-H₂O型包裹体、含CO₂水溶液包裹体、纯CO₂包裹体；中阶段包裹体可能被捕获于不混溶体系",
+"source": "成矿物质来源于围岩地层，成矿流体可能有变质流体并有大气水参与",
+"temperature_C_min": "180",
+"temperature_C_max": "360",
+"salinity_wtNaCl_min": "0.12",
+"salinity_wtNaCl_max": "12.96"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "成矿流体H-O-S同位素特征",
+"attributes": {
+"system": "氢氧硫同位素",
+"parameter_name": "H-O-S同位素特征",
+"value_range": "指示成矿物质来源于围岩地层，成矿流体可能有变质流体并有大气水参与"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "IntrusiveBody",
+"name_zh": "花岗闪长岩岩脉",
+"attributes": {
+"name": "花岗闪长岩岩脉",
+"rock_type": "花岗闪长岩",
+"age": "约300.1±1.1Ma",
+"relationship_to_ore": "可能为后期金矿床形成提供一定热源"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长玢岩脉",
+"attributes": {
+"name": "闪长玢岩脉",
+"rock_type": "闪长玢岩",
+"relationship_to_ore": "矿区内出露少量岩脉"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿沙哇义金矿大地构造位置上位于西南天山造山带（塔里木板块北缘活动带）"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿位于卡拉铁克大断裂与喀勒铁别克大断裂之间"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿位于卡拉铁克大断裂与喀勒铁别克大断裂之间"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "位于",
+"description": "阿沙哇义金矿具体处于买当他乌复向斜上"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "矿区地表控制的矿化破碎蚀变带北东向展布，浅表金矿（化）体主要赋存于该断裂破碎蚀变带中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "深部矿体主要赋存于碳质千枚岩中或其附近"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要围岩为",
+"description": "深部矿体主要赋存于灰色变余粉砂岩中或其附近"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "赋存于",
+"description": "深部矿体主要赋存于碳质千枚岩与灰色变余粉砂岩二者接触带附近"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "矿区出露的千枚岩类围岩属于上石炭统喀拉治尔加组下段（C₂k）"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "矿区出露的变余粉砂岩类围岩属于上石炭统喀拉治尔加组下段（C₂k）"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区出露上石炭统喀拉治尔加组下段地层中发育绢云母化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "深部矿体逐步变化为原生黄铁矿化矿石"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中金属矿物主要包括黄铁矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中金属矿物主要包括辉锑矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中金属矿物主要包括毒砂"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中含少量自然金"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿沙哇义金矿成矿流体包裹体类型包括NaCl-H₂O型、含CO₂水溶液型及纯CO₂型，并记录了不同阶段温度与盐度特征"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E17",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体H-O-S同位素特征指示成矿物质来源于围岩地层，成矿流体可能有变质流体并有大气水参与"
+}
+]
+}

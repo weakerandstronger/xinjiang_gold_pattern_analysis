@@ -1,0 +1,195 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0164",
+"title": "新疆西准包古图地区铜金矿成矿规律浅析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Region",
+"name_zh": "包古图地区",
+"attributes": {
+"name": "包古图地区",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔",
+"attributes": {
+"name": "西准噶尔",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床",
+"attributes": {
+"name": "包古图金矿床",
+"location": "新疆西准包古图地区",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "海西中期中酸性小岩体对铜金矿控制作用明显；北东向、北东东向断裂裂隙为铜金矿脉主要赋存部位；自岩体至围岩形成高温至中低温的蚀变与矿化分带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "IntrusiveBody",
+"name_zh": "海西中期中酸性小岩体",
+"attributes": {
+"name": "海西中期中酸性小岩体",
+"rock_type": "中酸性小岩体",
+"age": "海西中期",
+"relationship_to_ore": "对铜金矿控制作用明显，是成矿主要物质来源并提供成矿热液"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "晚期中酸性脉岩",
+"attributes": {
+"name": "晚期中酸性脉岩",
+"rock_type": "中酸性脉岩",
+"age": "晚期",
+"relationship_to_ore": "多期脉动上侵使早期金矿化蚀变带中的金等成矿物质进一步富集"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "北东向断裂裂隙",
+"attributes": {
+"name": "北东向断裂裂隙",
+"structure_type": "断裂裂隙",
+"orientation": "北东向",
+"scale": "区域",
+"ore_control_role": "铜金矿脉主要赋存部位"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "北东东向断裂裂隙",
+"attributes": {
+"name": "北东东向断裂裂隙",
+"structure_type": "断裂裂隙",
+"orientation": "北东东向",
+"scale": "区域",
+"ore_control_role": "铜金矿脉主要赋存部位"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "StratUnit",
+"name_zh": "太勒古拉组",
+"attributes": {
+"name": "太勒古拉组",
+"age": "石炭系"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "StratUnit",
+"name_zh": "包古图组",
+"attributes": {
+"name": "包古图组",
+"age": "石炭系"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "StratUnit",
+"name_zh": "希贝库拉斯组",
+"attributes": {
+"name": "希贝库拉斯组",
+"age": "石炭系"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "成矿热液",
+"attributes": {
+"nature": "成矿热液",
+"source": "中酸性小岩体为矿质运移所必备热液的主要提供者"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "金元素异常信息",
+"attributes": {
+"element": "金",
+"anomaly_pattern": "成矿元素组合具分带性，金为重要成矿元素并可在晚期脉岩多期上侵作用下进一步富集"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "铜元素异常信息",
+"attributes": {
+"element": "铜",
+"anomaly_pattern": "铜金矿成矿系列与中酸性小岩体有关，建议在岩体内及接触带附近寻找斑岩型铜（金）矿与交代型铜—金矿"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "包古图地区铜金矿床（点）位于包古图地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "包古图地区铜金矿床（点）位于西准噶尔"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "北东向断裂裂隙是包古图地区铜金矿脉的主要赋存部位"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "北东东向断裂裂隙是包古图地区铜金矿脉的主要赋存部位"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "包古图地区铜金矿成矿过程中矿质运移所必备的热液主要由中酸性小岩体提供"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "包古图地区铜金矿成矿过程中金等成矿物质可在晚期脉岩多期上侵作用下进一步富集"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "包古图地区铜金矿为与中酸性小岩体有关的铜金矿成矿系列，铜为重要成矿元素"
+}
+]
+}

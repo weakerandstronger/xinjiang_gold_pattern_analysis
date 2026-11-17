@@ -1,0 +1,466 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0226",
+"title": "新疆多拉纳萨依金矿床地质特征及其韧性剪切—岩浆耦合成矿作用_肖惠良",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "多拉纳萨依金矿床",
+"attributes": {
+"name": "多拉纳萨依金矿床",
+"location": "新疆哈巴河县城西北约60 km",
+"tectonic_position": "西伯利亚板块西南缘额尔齐斯构造-岩浆成矿带西南部克兰陆缘火山弧外侧，额尔齐斯挤压带北西段，玛尔卡库里大断裂西侧",
+"deposit_type": "造山型金矿床",
+"ore_grade": "北矿体平均品位7.34 g/t；南矿体平均品位4.60 g/t",
+"ore_control_features": "矿体呈脉状，赋存于近南北向反“S”形和北北西向韧性剪切带中；层间韧性剪切带为主要控矿、导矿构造，控制钠长石花岗岩脉和金矿脉分布，后期叠加北北东向脆-韧性剪切破碎带改造",
+"age_ma": "352.5±40Ma、282.2±8.8Ma、269.0±13Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯构造-岩浆成矿带",
+"attributes": {
+"name": "额尔齐斯构造-岩浆成矿带",
+"level": "成矿带",
+"tectonic_setting": "西伯利亚板块西南缘活动大陆边缘构造-岩浆成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托克萨雷组",
+"attributes": {
+"name": "中泥盆统托克萨雷组",
+"age": "中泥盆统",
+"dominant_lithology": "浅变质陆源碎屑岩与浅海相碳酸盐岩",
+"lithology_notes": "矿区主要地层单元，为矿化相关剪切带及赋矿围岩的重要地层基础"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "矿化钠长石花岗岩脉（糜棱岩化钠长石花岗岩、矿化钠长石花岗岩）",
+"attributes": {
+"name": "矿化钠长石花岗岩脉（糜棱岩化钠长石花岗岩、矿化钠长石花岗岩）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "矿化千枚岩",
+"attributes": {
+"name": "矿化千枚岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "钠长石花岗岩脉",
+"attributes": {
+"name": "钠长石花岗岩脉",
+"rock_type": "钠长石花岗岩",
+"age": "352.5±40Ma",
+"relationship_to_ore": "为主要含金建造之一，常充填于剪切带中并普遍发育金矿化，可形成糜棱岩化钠长岩脉并构成矿体重要组成"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "钠长斑岩脉",
+"attributes": {
+"name": "钠长斑岩脉",
+"rock_type": "钠长斑岩",
+"relationship_to_ore": "与钠长石花岗岩脉一起构成主要含金建造，矿化普遍"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "花岗闪长岩体（含石英闪长岩脉）",
+"attributes": {
+"name": "花岗闪长岩体（含石英闪长岩脉）",
+"rock_type": "花岗闪长岩（含石英闪长岩脉）",
+"age": "297±11Ma（锆石U-Pb：289±5Ma）",
+"relationship_to_ore": "侵入托克萨雷组并造成围岩角岩化，带来岩浆热液并导致金叠加富集"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "碱长花岗岩脉",
+"attributes": {
+"name": "碱长花岗岩脉",
+"rock_type": "碱长花岗岩",
+"relationship_to_ore": "成矿晚期在局部拉张环境形成，携带岩浆热液，促使金再次叠加富集"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "近南北向反“S”形韧性剪切带",
+"attributes": {
+"name": "近南北向反“S”形韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "近南北向，平面呈反“S”形",
+"scale": "矿区级",
+"ore_control_role": "控矿、导矿构造，控制钠长岩脉与金矿脉（体）分布及矿体产出"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "北北西向韧性剪切带",
+"attributes": {
+"name": "北北西向韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "北北西向",
+"scale": "矿区级",
+"ore_control_role": "控矿构造之一，与反“S”形剪切带共同控制矿体赋存与展布"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "北北东向脆-韧性剪切破碎带",
+"attributes": {
+"name": "北北东向脆-韧性剪切破碎带",
+"structure_type": "脆-韧性剪切破碎带",
+"orientation": "北北东向",
+"scale": "矿区级",
+"ore_control_role": "后期叠加改造早期构造与矿化体，对先期地质体与矿化具有明显改造作用"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "钠长石化",
+"attributes": {
+"name": "钠长石化",
+"alteration_minerals": "钠长石",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "白云母-绢云母化",
+"attributes": {
+"name": "白云母-绢云母化",
+"alteration_minerals": "白云母、绢云母",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "黄铁矿-白云母-石英阶段及其相关矿化阶段"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与黄铁矿化及钠长石-石英脉、石英脉等多期矿化叠加相关"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "钠长石",
+"attributes": {
+"name": "钠长石",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "钠长石花岗岩阶段与金-钠长石-石英脉型矿石阶段"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "黄铁矿-白云母-石英阶段与石英-方解石阶段"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "白云母",
+"attributes": {
+"name": "白云母",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "黄铁矿-白云母-石英阶段"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "石英-方解石阶段"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Fluid",
+"name_zh": "多拉纳萨依金矿床成矿流体",
+"attributes": {
+"nature": "H2O-CO2体系中低温热液",
+"source": "多来源成矿热液",
+"temperature_C_min": "220",
+"temperature_C_max": "300",
+"pressure_MPa_min": "21",
+"pressure_MPa_max": "64.5"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数（δ34S）",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "-7.0‰～-2.5‰"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数（δ18O_H2O、δD）",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O_H2O、δD",
+"value_range": "δ18O_H2O=1.7‰～12.4‰；δD=-132‰～-52‰"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Isotope",
+"name_zh": "锶同位素参数（(87Sr/86Sr)i）",
+"attributes": {
+"system": "锶同位素",
+"parameter_name": "(87Sr/86Sr)i",
+"value_range": "0.7043～0.7073"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于额尔齐斯构造-岩浆成矿带西南部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "多拉纳萨依金矿床矿体由矿化钠长石花岗岩脉（含糜棱岩化钠长石花岗岩等）组成"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "多拉纳萨依金矿床矿体由矿化千枚岩组成"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "矿化千枚岩对应于托克萨雷组浅变质陆源碎屑岩建造"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "矿体赋存于近南北向反“S”形韧性剪切带中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "矿体赋存于北北西向韧性剪切带中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "后期北北东向脆-韧性剪切破碎带切割或利用早期构造并对先期矿化产生改造作用"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区蚀变发育，钠长石化与金矿化关系密切"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区主要蚀变包括白云母-绢云母化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区主要蚀变包括黄铁矿化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区主要蚀变包括硅化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要金矿物为",
+"description": "多拉纳萨依金矿床金矿物以自然金为主"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石金属矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要有钠长石"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要有石英"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要有白云母"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "脉石矿物主要有方解石"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "对应成矿流体为",
+"description": "流体包裹体均一温度集中在220～300℃，均一压力约21～64.5 MPa，成矿流体为H2O-CO2体系"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E24",
+"to_entity_local_id": "E23",
+"relation_label_zh": "约束该流体来源",
+"description": "矿化钠长石花岗岩脉与矿体的硫同位素δ34S为-7.0‰～-2.5‰，用于约束成矿流体与物质来源"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E25",
+"to_entity_local_id": "E23",
+"relation_label_zh": "约束该流体来源",
+"description": "含金石英脉包裹体流体的δ18O_H2O与δD显示成矿热液为多来源"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E26",
+"to_entity_local_id": "E23",
+"relation_label_zh": "约束该流体来源",
+"description": "矿化钠长石花岗岩脉与金矿体的锶同位素初始比值用于约束成矿流体来源差异"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "钠长石花岗岩脉侵入托克萨雷组地层并充填于剪切带中，与金矿化密切相关"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "花岗闪长岩体侵入托克萨雷组并造成围岩角岩化，叠加岩浆热液导致金进一步富集"
+}
+]
+}

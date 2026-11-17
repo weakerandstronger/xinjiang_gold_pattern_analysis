@@ -1,0 +1,126 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0162",
+"title": "西准噶尔包古图富镁闪长质岩墙的时代、地球化学特征以及铜金成矿意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Region",
+"name_zh": "包古图地区",
+"attributes": {
+"name": "包古图地区",
+"level": "地区",
+"tectonic_setting": "晚石炭世岛弧环境，与洋脊俯冲有关"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔",
+"attributes": {
+"name": "西准噶尔",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "IntrusiveBody",
+"name_zh": "包古图富镁闪长质岩墙",
+"attributes": {
+"name": "包古图富镁闪长质岩墙",
+"rock_type": "富镁闪长质岩墙",
+"age": "313～316Ma（晚石炭世）",
+"relationship_to_ore": "形成过程有利于铜金矿床形成，显示该区具有良好的铜金成矿远景"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Deposit",
+"name_zh": "包古图铜金矿床",
+"attributes": {
+"name": "包古图铜金矿床",
+"location": "西准噶尔包古图地区",
+"ore_control_features": "很可能与洋脊俯冲有关，洋脊俯冲作用形成的富镁闪长质岩墙有利于形成铜金矿床"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Isotope",
+"name_zh": "锆石U-Pb定年年龄",
+"attributes": {
+"system": "锆石U-Pb",
+"parameter_name": "年龄",
+"value_range": "（316.3±3.8）Ma"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Isotope",
+"name_zh": "角闪石Ar-Ar定年年龄",
+"attributes": {
+"system": "角闪石Ar-Ar",
+"parameter_name": "年龄",
+"value_range": "（313.1±3.5）Ma"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Geochem",
+"name_zh": "铬含量特征",
+"attributes": {
+"element": "铬（Cr）",
+"value_ppm": "30～80 ppm",
+"anomaly_pattern": "富镁闪长质岩墙中铬含量较高"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Geochem",
+"name_zh": "镍含量特征",
+"attributes": {
+"element": "镍（Ni）",
+"value_ppm": "20～62 ppm",
+"anomaly_pattern": "富镁闪长质岩墙中镍含量较高"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geochem",
+"name_zh": "镱含量特征",
+"attributes": {
+"element": "镱（Yb）",
+"value_ppm": "1.32～1.54 ppm",
+"anomaly_pattern": "富镁闪长质岩墙强烈亏损重稀土元素"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "钇含量特征",
+"attributes": {
+"element": "钇（Y）",
+"value_ppm": "13.1～15.5 ppm",
+"anomaly_pattern": "富镁闪长质岩墙强烈亏损重稀土元素"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "包古图铜金矿床位于包古图地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "包古图铜金矿床位于西准噶尔"
+}
+]
+}

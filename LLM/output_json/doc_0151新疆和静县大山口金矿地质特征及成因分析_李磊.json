@@ -1,0 +1,181 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0151",
+"title": "新疆和静县大山口金矿地质特征及成因分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "大山口金矿床",
+"attributes": {
+"name": "大山口金矿床",
+"location": "新疆和静县大山口",
+"tectonic_position": "艾尔宾晚古生代残余盆地",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体产于大山口韧性剪切带内破碎蚀变带中充填的石英脉（石英复脉）之中，矿体赋存状态主要受破碎蚀变带内石英脉控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆和静县",
+"attributes": {
+"name": "新疆和静县",
+"level": "县"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "艾尔宾晚古生代残余盆地",
+"attributes": {
+"name": "艾尔宾晚古生代残余盆地",
+"level": "残余盆地",
+"tectonic_setting": "晚古生代残余盆地"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "晚志留—早泥盆统大山口组",
+"attributes": {
+"name": "晚志留—早泥盆统大山口组",
+"age": "晚志留纪—早泥盆纪",
+"dominant_lithology": "细碎屑岩（粉砂岩等）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "大山口韧性剪切带",
+"attributes": {
+"name": "大山口韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "北西—南东向展布，向北北东陡倾",
+"scale": "矿区级",
+"ore_control_role": "矿体产于剪切带内，深部含矿热液在构造应力作用下沿构造薄弱部位泵入上侵并沉淀成矿"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "破碎蚀变带",
+"attributes": {
+"name": "破碎蚀变带",
+"structure_type": "破碎蚀变带",
+"scale": "矿区级",
+"ore_control_role": "带内石英脉十分发育，矿体主要受破碎蚀变带内充填的石英脉控制"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "石英脉与石英复脉",
+"attributes": {
+"name": "石英脉与石英复脉"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "含矿石英脉的主要脉石矿物，矿体充填于石英脉及石英复脉中"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "围岩蚀变",
+"attributes": {
+"name": "围岩蚀变",
+"intensity": "普遍"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "深部含矿热液",
+"attributes": {
+"nature": "深部含矿热液",
+"source": "深部"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "大山口金矿位于新疆和静县"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "大山口金矿大地构造位置属艾尔宾晚古生代残余盆地"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "大山口金矿矿体产于大山口韧性剪切带内，成矿过程受韧性剪切带控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "大山口金矿矿体赋存状态主要受破碎蚀变带控制，矿体充填于破碎蚀变带内石英脉中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "大山口金矿矿体主要赋存于破碎蚀变带内充填的石英脉与石英复脉之中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "石英脉与石英复脉产于晚志留—早泥盆统大山口组之中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "大山口金矿含矿体主要以石英脉（石英复脉）形式出现，石英为主要脉石矿物"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "大山口金矿剪切带内岩石普遍蚀变并破碎加剧，形成多条破碎蚀变带"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "大山口金矿成矿过程中深部含矿热液在构造应力影响下沿构造薄弱部位泵入上侵并沉淀成矿"
+}
+]
+}

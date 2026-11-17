@@ -1,0 +1,1960 @@
+{
+  "scope": "All repository files except this manifest itself",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 179,
+      "sha256": "938e62148ae840bf08ee7a5a3ce5b9a3fe0a15832f0ead1ac5fb7035522d7fd5"
+    },
+    {
+      "path": ".github/workflows/reproduce.yml",
+      "bytes": 375,
+      "sha256": "fe5b3d2d132b04a66b40cf5d25c16ca9be78335be7d4d9e7a4c425fdc016fed9"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 83,
+      "sha256": "c35b5a741e4e30b75078334fc4969d0c53a91a58822813b9ec561dd382eb0f6b"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 507,
+      "sha256": "e24896ea6f9b9fcf26e78b5550d9fbfc0f36670528991959b78c9985ad72b4ad"
+    },
+    {
+      "path": "LLM/LLM_prompt.txt",
+      "bytes": 11450,
+      "sha256": "2d29cc15d99916bc1f33ac84be30696eb5dd03b4e126c1d2facb3c241382f90d"
+    },
+    {
+      "path": "LLM/LLM_prompt_example.txt",
+      "bytes": 26262,
+      "sha256": "7864bef7a6d3ea6944a1313f75becc0e5d35970e039cf4ad8c78630972c2b13a"
+    },
+    {
+      "path": "LLM/doc.json",
+      "bytes": 1417,
+      "sha256": "0439fad6a50a7a893d97701452d3f364c32fc0366c4c51ba184e4db5e06fa6e6"
+    },
+    {
+      "path": "LLM/normalization_prompt_example.txt",
+      "bytes": 23423,
+      "sha256": "0cb9d08b40f66fbe9b2e7f1e21fabe6c9d13a62c4696498631a30b8cfc8fb45b"
+    },
+    {
+      "path": "LLM/output_example.json",
+      "bytes": 19237,
+      "sha256": "2913574029c67d9fd24efe3bd9a70a09aa9e188fcb5d5eb8719658d2cc61aaa0"
+    },
+    {
+      "path": "LLM/output_json/doc_0001新疆西南天山萨瓦亚尔顿金矿床地质特征及成矿作用.json",
+      "bytes": 8652,
+      "sha256": "9dae05f907813ab20cffd89345e5d135ead73f7c7bd4840dd1f84caa6752e507"
+    },
+    {
+      "path": "LLM/output_json/doc_0002新疆准噶尔盆地西缘哈图金矿成矿流体.json",
+      "bytes": 8797,
+      "sha256": "d95ed07235f8b7d4a7affb77eff8722f053a1ef7f5c55739e533f1a062bb18bc"
+    },
+    {
+      "path": "LLM/output_json/doc_0003新疆西昆仑阔克吉勒嘎金矿遥感地质特征及找矿预测.json",
+      "bytes": 7460,
+      "sha256": "56b292027800c4a2522feacc9c59f1aca9c5fa5846a479e884bccbc0fb734ff9"
+    },
+    {
+      "path": "LLM/output_json/doc_0004新疆卡拉麦里造山型金矿系统.json",
+      "bytes": 11217,
+      "sha256": "d750185a7708ece2a20a422314c7c29b1a4ec69ed6da44e345ce06ec67e5f751"
+    },
+    {
+      "path": "LLM/output_json/doc_0005新疆哈图金矿成矿地质—地球化学特征研究.json",
+      "bytes": 15918,
+      "sha256": "316cf1f21f64a57f995ab323df11291d6fa8ebf6c9e449ce4a99481f9759f8c3"
+    },
+    {
+      "path": "LLM/output_json/doc_0006新疆北部阿尔泰造山带扎格依库都克金矿床成因机制_来自流体包裹体和硫同位素的制约.json",
+      "bytes": 16726,
+      "sha256": "93fd9974b791aec1ba891befb8811498956ca2a7996ffa7692e73fcd6d280f84"
+    },
+    {
+      "path": "LLM/output_json/doc_0007新疆哈图金矿带成矿指示元素的分类及深部预测的意义_白玉秀.json",
+      "bytes": 16239,
+      "sha256": "8ccec686dac0c22b796af56d53110afaaa42ad4efd68086ac1c448989c9c2a47"
+    },
+    {
+      "path": "LLM/output_json/doc_0008哈图金矿集区成矿流体地球化学特征_李晶.json",
+      "bytes": 11719,
+      "sha256": "ec5ecdd522f9549656c0cddc4162bcd8c513477b93034621bb00c6a09bca0247"
+    },
+    {
+      "path": "LLM/output_json/doc_0009新疆西准噶尔哈图—萨尔托海金矿带控矿构造特征及找矿前景分析_吴延之.json",
+      "bytes": 13364,
+      "sha256": "60d7e09eab39abc499af757567fd677a266e892e335fc7f5b464155821dcef3d"
+    },
+    {
+      "path": "LLM/output_json/doc_0010哈图金矿深部构造—地球化学特征及隐伏矿体预测_地里夏提·买买提.json",
+      "bytes": 8342,
+      "sha256": "df4a8c00c7249ba9dcad093b1323224089d334ce38863501e8cd32c73ab2d140"
+    },
+    {
+      "path": "LLM/output_json/doc_0011新疆哈图-包古图金铜矿集区锆石年龄及成矿特点_申萍.json",
+      "bytes": 22724,
+      "sha256": "3f8bb957b8cffb0b04626350c02d96ef4df7407f74ee25a7c06d5dc7a4261732"
+    },
+    {
+      "path": "LLM/output_json/doc_0012新疆乌恰县萨瓦亚尔顿金矿床成矿模式探讨_孟宝东.json",
+      "bytes": 3737,
+      "sha256": "6ad3866d773c70b138fb339ee5a7e8608adf2d03337b8e747f948a6b4288c846"
+    },
+    {
+      "path": "LLM/output_json/doc_0013新疆萨瓦亚尔顿金矿流体包裹体成分、矿床成因和成矿预测_陈华勇.json",
+      "bytes": 4387,
+      "sha256": "1c439e81535dda84e3b517d73fdc975b15dd372bbbd901d900425ccaf32b4cbf"
+    },
+    {
+      "path": "LLM/output_json/doc_0014西南天山萨瓦亚尔顿金矿床构造-流体控矿作用研究_周振菊.json",
+      "bytes": 6859,
+      "sha256": "db138b8e9163774e0e2bd1d2bd4abe99ef9da337a2ed8741ce49a8c91fbfb665"
+    },
+    {
+      "path": "LLM/output_json/doc_0015南天山构造带萨瓦亚尔顿矿区变形序列及其指示意义_王东升.json",
+      "bytes": 6777,
+      "sha256": "9d86c8cd45c3192dad08cfb912fbd81e27fd963709a12705295a1174f7857602"
+    },
+    {
+      "path": "LLM/output_json/doc_0016南天山萨瓦亚尔顿金矿床稀土微量元素特征及其成因意义_陈华勇.json",
+      "bytes": 4312,
+      "sha256": "fd33a30aab98ec95fdf7e233ca614dd84542f5c604020cecdcbabeb466f20ddd"
+    },
+    {
+      "path": "LLM/output_json/doc_0017新疆乌恰萨瓦亚尔顿金矿基因特性研究及选矿试验_孟宝东.json",
+      "bytes": 7044,
+      "sha256": "23b8bc78abad1ad14cdd29c4b4fd253ba4a7715194dffd77f18f7f59ccad093e"
+    },
+    {
+      "path": "LLM/output_json/doc_0018新疆西天山萨瓦亚尔顿金成矿过程：来自硫化物矿物世代及其EMPA、LA-ICP-MS和FESEM分析的约束_张国震.json",
+      "bytes": 5796,
+      "sha256": "11205bb070788083287a248f67282dc7d182802265ab1659966a8b6eb6279e2a"
+    },
+    {
+      "path": "LLM/output_json/doc_0019阔克吉勒嘎金矿地质特征及成因探讨.json",
+      "bytes": 14429,
+      "sha256": "7feaf09959f4d7b2a3265926c9fd65c001b84fcb34ce75f9c1b32e537525377a"
+    },
+    {
+      "path": "LLM/output_json/doc_0020浅析阔克吉勒嘎金矿成矿地质条件.json",
+      "bytes": 14983,
+      "sha256": "a21543221c2a220af0849f9a1913b48cd3fd84de71dafee699d39ac54f730c15"
+    },
+    {
+      "path": "LLM/output_json/doc_0021新疆阿克陶县阔克吉勒嘎金矿地质特征及找矿前景分析.json",
+      "bytes": 10990,
+      "sha256": "f3953c9548dad2b2a57476891371dadb7f166ee43dd238752f7f7d7da749076e"
+    },
+    {
+      "path": "LLM/output_json/doc_0022新疆西昆仑成矿带阔克吉勒嘎超大型金矿床的.json",
+      "bytes": 19601,
+      "sha256": "c80c1180d0c0164833234ab86da1e7896842958e77c5bfcd69695882b865241e"
+    },
+    {
+      "path": "LLM/output_json/doc_0023新疆卡拉麦里地区金成矿流体和 O、H、S 同位素.json",
+      "bytes": 21462,
+      "sha256": "12d745da5d6cff0b00fdc0e67abbd6d673c8034e98ccb2ce6961b237cd3cf652"
+    },
+    {
+      "path": "LLM/output_json/doc_0024东准噶尔卡拉麦里成矿带金矿成矿规律与成矿模式研究_韩琼.json",
+      "bytes": 19115,
+      "sha256": "d8ba9d3eaccd933066d6fa0ebc07290a70c1f3a45fcf0e978f05f8290ea52502"
+    },
+    {
+      "path": "LLM/output_json/doc_0025新疆东准双泉地区金矿构造控矿规律及勘查找矿方向_路彦明.json",
+      "bytes": 14784,
+      "sha256": "804f1282c470e91eedcda4f96f2ed2382c0381773682058779f55955511eb89e"
+    },
+    {
+      "path": "LLM/output_json/doc_0026卡拉麦里双泉金矿基性火山岩地球化学及地质意义_刘世杰 .json",
+      "bytes": 6436,
+      "sha256": "2676b557fc45995e1efd37982370f93f7e262b9fb105ddf0f0f9a1269f3e5743"
+    },
+    {
+      "path": "LLM/output_json/doc_0027东准噶尔双泉地区韧-脆性剪切带与金矿成矿_路彦明.json",
+      "bytes": 5175,
+      "sha256": "2a064df182dcc3f2661fa14077667a33ef8ca4a316a693aac2cf84c1abae4dbc"
+    },
+    {
+      "path": "LLM/output_json/doc_0028新疆哈密市双泉金矿地质特征及成因浅析_王海霞.json",
+      "bytes": 8748,
+      "sha256": "c9f8812de6b8a3443d43db1cbcee7cc0409ab9b2fc9b30ea11c0760a26519e3b"
+    },
+    {
+      "path": "LLM/output_json/doc_0029新疆双泉地区金矿成矿规律及找矿前景分析_张政.json",
+      "bytes": 5567,
+      "sha256": "645d6e7db1f091bb3dae36446cadc1411b1af3042b21b3908d9699389543473f"
+    },
+    {
+      "path": "LLM/output_json/doc_0030新疆双泉金矿床地质特征及成矿条件分析_赵海滨.json",
+      "bytes": 8384,
+      "sha256": "1f1ed25cd9ac4c6fadb3141501b9b5ed7d479bc420696d79cdf387797f7aed43"
+    },
+    {
+      "path": "LLM/output_json/doc_0031卡拉麦里金矿带典型矿床——双泉金矿的地质地球化学特征及成因_聂晓勇.json",
+      "bytes": 8106,
+      "sha256": "18c1810ffce93939e88d80b5b78c0fe1a0a27c5a862629ff2bc40f7f84d53cbc"
+    },
+    {
+      "path": "LLM/output_json/doc_0032新疆双泉一带金矿成矿规律与找矿前景_潘展超.json",
+      "bytes": 11369,
+      "sha256": "87c40960693276e83dbb3325e24d5054b0aff3c75d13b15fe63b9b068723661a"
+    },
+    {
+      "path": "LLM/output_json/doc_0033奇台双泉金矿成矿模式研究_田红彪.json",
+      "bytes": 7426,
+      "sha256": "0f3050a5d9d3193a0a7219911d260ca86f67230d394082b4e3c191ea2d62ed50"
+    },
+    {
+      "path": "LLM/output_json/doc_0034东准噶尔双泉金矿LA-ICP-MS锆石U-Pb测年及赋矿岩石地球化学特征_苏虎.json",
+      "bytes": 5309,
+      "sha256": "a264a4a8ffcad47ab69b658b7e580e034b33503ad6a38cd95b97705d4ad1da31"
+    },
+    {
+      "path": "LLM/output_json/doc_0035卡拉麦里成矿带双泉金矿与卡拉麦里Ⅰ号金矿地球化学特征对比研究_韩秉峻.json",
+      "bytes": 7937,
+      "sha256": "0b1846a76859be7d36cef9a9d93dae7db4748f77e75a819108e8034d423f8ab2"
+    },
+    {
+      "path": "LLM/output_json/doc_0036韧-脆性剪切带控矿机理分析——以新疆金水泉金矿床为例_赵海滨.json",
+      "bytes": 17385,
+      "sha256": "eb926def932d635b2196024f4f34a08e280da2e8c67c471db853ac14e92f187c"
+    },
+    {
+      "path": "LLM/output_json/doc_0037新疆东准噶尔金水泉金矿床成因研究_董静.json",
+      "bytes": 18891,
+      "sha256": "f27b313d536d3b2a265b8c5cf5c9cf1011318d8d46fed7df3b3f19a565beb778"
+    },
+    {
+      "path": "LLM/output_json/doc_0038韧-脆性剪切带对新疆金水泉金矿床的控制作用_赵海滨.json",
+      "bytes": 17881,
+      "sha256": "66c211193439980c6ebb82e1efe9225b069dc55e7f574e635ded7189242662b1"
+    },
+    {
+      "path": "LLM/output_json/doc_0039新疆金水泉金矿床地质特征及成矿模式探讨_苏虎.json",
+      "bytes": 18767,
+      "sha256": "8fdd2a34024a637e11217936b79a53d261e29c05f04dbc191ab5da4a8ed4c06a"
+    },
+    {
+      "path": "LLM/output_json/doc_0040地球化学勘查在富蕴县金水泉金矿找矿中的应用_杨晓疆.json",
+      "bytes": 10812,
+      "sha256": "525e10c1bb73d0ead81824b19f817eb32388a5768ce972330f2b2f7d94ed06f6"
+    },
+    {
+      "path": "LLM/output_json/doc_0041试论蛇绿碳酸岩与金矿化关系——以东准卡拉麦里蛇绿带中金水泉金矿为例_聂晓勇.json",
+      "bytes": 2816,
+      "sha256": "b502e07c9183e1474cc52161c7f7a490763282e2bf75c29a15aa33ed7605d259"
+    },
+    {
+      "path": "LLM/output_json/doc_0042新疆东准噶尔金水泉金矿床地质特征、成矿时代及其地质意义_陈伟志.json",
+      "bytes": 9886,
+      "sha256": "a5859ffec7585000b71ce31dace4974d2bc928e6bcb3f79002254dcc0836184f"
+    },
+    {
+      "path": "LLM/output_json/doc_0043新疆东准噶尔金水泉金矿床地质地球化学特征及矿床成因_陈伟志.json",
+      "bytes": 19989,
+      "sha256": "9052ee3ecf3715369b2bc5226c16df788fc69fa9b8aa49eb07d9ce9b978a448f"
+    },
+    {
+      "path": "LLM/output_json/doc_0044新疆东准噶尔南明水东蚀变岩型金矿床地质特征、控矿因素和找矿标志_梁孝伟.json",
+      "bytes": 12162,
+      "sha256": "a5d72985d7cf2c635c07ce06f1f09e7f481a1df963280473c48e2be59570bb01"
+    },
+    {
+      "path": "LLM/output_json/doc_0045新疆东准噶尔南明水金矿床地质地球化学特征及成因_葛战林.json",
+      "bytes": 21073,
+      "sha256": "7b9bfb643e0ef72787ed5d3ce30b34a41bd7e9ca36ecd82ce4c076cc02ef1520"
+    },
+    {
+      "path": "LLM/output_json/doc_0046新疆奇台县南明水东金矿地质特征与找矿模型_李潇林斌.json",
+      "bytes": 12243,
+      "sha256": "097d1806193fb7b169678ea5756750aae8a365a91b0c557900f880a2de8d3256"
+    },
+    {
+      "path": "LLM/output_json/doc_0047新疆奇台县南明水东金矿构造对金矿的影响_王海鸿.json",
+      "bytes": 6747,
+      "sha256": "d0413cf7bff02f6215de1daeeb0cd136dbad307f7bf988122e3873bcb9b05fca"
+    },
+    {
+      "path": "LLM/output_json/doc_0048新疆东准噶尔南明水东金矿区金矿地质特征及成因研究_朱少华.json",
+      "bytes": 17109,
+      "sha256": "3e3868ff0ead97d6d8c02ea89d5ac5b426c3dbb773754360a61db1be688e3708"
+    },
+    {
+      "path": "LLM/output_json/doc_0049东准噶尔南明水金矿床“三位一体”找矿预测及地质模型探讨_葛战林.json",
+      "bytes": 12962,
+      "sha256": "a39ba2d4df71def087bfe61db078e6ce3538076e45ee33a0ebf963a4a3844fdc"
+    },
+    {
+      "path": "LLM/output_json/doc_0050新疆东准噶尔南明水金矿床成矿流体特征_流体包裹体及氢氧同位素证据_葛战林.json",
+      "bytes": 5233,
+      "sha256": "87b7f171bc62c74eea3034a3ec91b572b6f93da7ef357cd54e42682662f9902c"
+    },
+    {
+      "path": "LLM/output_json/doc_0051新疆奇台县苏吉泉金矿成矿地质条件与控矿因素分析_彭剑刚.json",
+      "bytes": 14829,
+      "sha256": "158db0d8d497b6f2a063fdfd502a664b60c53e487ba69e6db8d08cca8cefc469"
+    },
+    {
+      "path": "LLM/output_json/doc_0052类比双泉金矿区浅析苏吉泉东金矿区找矿前景_赵军.json",
+      "bytes": 16633,
+      "sha256": "b9c6bbd5856854e9dafa41fa36b8ecb9b6762ef4b5e81645d71b9d5899b1c0f5"
+    },
+    {
+      "path": "LLM/output_json/doc_0053对卡拉麦里1号金矿矿体地质特征及成矿条件研究_邢海国.json",
+      "bytes": 2122,
+      "sha256": "2b6f6c6ea95ce03c8bb98410e479a0e52769f3b0404c41207acef3f97a94cb07"
+    },
+    {
+      "path": "LLM/output_json/doc_0054卡拉麦里1号金矿成矿地质特征及成因分析_缪建军.json",
+      "bytes": 5597,
+      "sha256": "ac76ede46c9ef5d98e5e8fb68cff1e1dce09ebe452f6a9d27cc484a083b36911"
+    },
+    {
+      "path": "LLM/output_json/doc_0055卡拉麦里1号金矿地球化学特征及意义_张燕波.json",
+      "bytes": 9575,
+      "sha256": "0d3d93c3254e4cccaa6bfb65c387e5a8068b4f5516a27b9ed04e5b379aa8c58b"
+    },
+    {
+      "path": "LLM/output_json/doc_0056新疆卡拉麦里地区1号金矿成矿机理浅析_曾清亮.json",
+      "bytes": 10621,
+      "sha256": "16f71da2e911e22404d0c7cf31d6810930d0fdee05537ba2517a021bc6c003c4"
+    },
+    {
+      "path": "LLM/output_json/doc_0057低硫型浅成低温热液型矿床三维成矿预测——以西天山阿希金矿为例_刘占坤.json",
+      "bytes": 4308,
+      "sha256": "9d54379d7d61803747b851ca0c991895883c8363ed32957a1dd232a7e343d865"
+    },
+    {
+      "path": "LLM/output_json/doc_0058新疆阿希金矿_古生代的低硫型浅成低温热液金矿床_翟伟.json",
+      "bytes": 13606,
+      "sha256": "3755aea2d224243dc56874f969a562cd30ab4353c96351064f055a11ff0ca578"
+    },
+    {
+      "path": "LLM/output_json/doc_0059新疆阿希金矿床赋矿围岩——大哈拉军山组火山岩SHRIMP锆石年龄及其地质意义_翟伟 .json",
+      "bytes": 2276,
+      "sha256": "1b67d7b3830a5536cdecf190944839a7bc8c61389e174d82e51bf9b5548484ad"
+    },
+    {
+      "path": "LLM/output_json/doc_0060新疆阿希低硫型金矿床流体地球化学特征与成矿机制_翟伟.json",
+      "bytes": 14105,
+      "sha256": "d3d225498d779c99b837451fef081525f2b1e4850ecc04467d5af211bee9a5e5"
+    },
+    {
+      "path": "LLM/output_json/doc_0061西天山阿希金矿床黄铁矿微量元素LA-ICP-MS原位测试及其指示意义_毛先成.json",
+      "bytes": 6901,
+      "sha256": "fd23b4a9f3ce022b5024a2ae1005f1d09247b8f793ba2838251c35bec5b5dc5f"
+    },
+    {
+      "path": "LLM/output_json/doc_0062新疆阿希金矿床矿体空间定位规律及找矿方向研究_魏佳林.json",
+      "bytes": 10464,
+      "sha256": "a6febb9488f92b451abce9cb0d8a9be36b92cba95d0cc1186619d963447d8c38"
+    },
+    {
+      "path": "LLM/output_json/doc_0063新疆阿希金矿矿床地质和地球化学研究_安芳.json",
+      "bytes": 12843,
+      "sha256": "5e8db33000e80e690d530c197b066366582e2ec8d578da520e5e0a7444e7ab93"
+    },
+    {
+      "path": "LLM/output_json/doc_0064新疆阿希低硫型金矿稀有气体同位素地球化学及其成矿意义_翟伟.json",
+      "bytes": 3314,
+      "sha256": "e2ba0f5ffbe45705f5724d56649f2260c4dd9e3533f2b2f1d75885e1bf18929a"
+    },
+    {
+      "path": "LLM/output_json/doc_0065新疆西天山阿希金矿床流体包裹体地球化学特征_张作衡.json",
+      "bytes": 3276,
+      "sha256": "90a62718cdf9352d47045261ba17316063355dfa916abb81ab7a143052d33539"
+    },
+    {
+      "path": "LLM/output_json/doc_0066西天山阿希浅成低温热液金矿床剥蚀改造过程探讨_魏佳林.json",
+      "bytes": 7730,
+      "sha256": "aa1667092b22db0f9a37c33dc215ad12205cb337ca4d7202a62f9fac09817623"
+    },
+    {
+      "path": "LLM/output_json/doc_0067西天山阿希金矿成矿地球化学特征研究_沙德铭.json",
+      "bytes": 9644,
+      "sha256": "142466e11031cbf894e60e2f35b14633a0699f97cd6318d4f3b5b37cb4b40c01"
+    },
+    {
+      "path": "LLM/output_json/doc_0068探讨新疆阿希金矿矿床地质特征及矿床成因_李龙.json",
+      "bytes": 7755,
+      "sha256": "6e4cb6681a51845bf0172de7477f953c31404c93e0badf896fb75bd62e8896b2"
+    },
+    {
+      "path": "LLM/output_json/doc_0069新疆阿希金矿矿床赋矿围岩—大哈拉军山组火山岩锆石年龄及其地质意义_王爱华.json",
+      "bytes": 3159,
+      "sha256": "b0c775afb1005f1c1d229d28011870a78a3dde62df8c9bdec398957c8fbbad8e"
+    },
+    {
+      "path": "LLM/output_json/doc_0070浅谈新疆阿希金矿床地质特征及成矿机理_李志忠.json",
+      "bytes": 3366,
+      "sha256": "5f0f79b3f6070afda1d83929b9a6c872d3de5ccb688fd95057b9b6e166e4b190"
+    },
+    {
+      "path": "LLM/output_json/doc_0071西天山阿希金矿床围岩蚀变_刘占坤.json",
+      "bytes": 7483,
+      "sha256": "3b2639c13bdefe4a90b098926480cbb2218d6e21ef3a807ca8270e500a7313e9"
+    },
+    {
+      "path": "LLM/output_json/doc_0072阿希金矿控矿构造、矿体特征及成因探讨_关瑞林.json",
+      "bytes": 6758,
+      "sha256": "b0bfde93996723fbec4209d6a766f21e03507193ec14efd53c3594f50f862d69"
+    },
+    {
+      "path": "LLM/output_json/doc_0073新疆阿希金矿深部成矿预测研究_王庆峰.json",
+      "bytes": 5598,
+      "sha256": "44167da5560265637d375ed329dae763a6c9750fd91fbc4c9682065ca803d424"
+    },
+    {
+      "path": "LLM/output_json/doc_0074新疆西天山阿希金矿金属矿物标志与指示意义_张博.json",
+      "bytes": 8164,
+      "sha256": "5720495b72c0104f417ec78bd01f29acd17156ef59cc5d7990731ca3254153fd"
+    },
+    {
+      "path": "LLM/output_json/doc_0075西天山卡特巴阿苏金矿床构造—成矿作用研究_赵伟策.json",
+      "bytes": 3497,
+      "sha256": "41b69670f82b0e0af4289ac90a82b181619b433d1ee2bd8be9674326086fbafa"
+    },
+    {
+      "path": "LLM/output_json/doc_0076新疆西天山卡特巴阿苏大型金矿床地质地球化学和成岩成矿年代_张祺.json",
+      "bytes": 7178,
+      "sha256": "212f2946caa7dde37e544c949998214fbd5969d2cd0ae73d72447baad72880bf"
+    },
+    {
+      "path": "LLM/output_json/doc_0077西天山卡特巴阿苏金矿床成矿年代学及其地质意义-来自绢云母~(40)Ar-~(39)Ar同位素年龄证据_高永伟.json",
+      "bytes": 3914,
+      "sha256": "58b15797dfbc17c8f7945f812346137d68f9b342dcf35068eeeacf0d82909f94"
+    },
+    {
+      "path": "LLM/output_json/doc_0078新疆卡特巴阿苏金铜矿区二长花岗岩锆石SHRIMPU-Pb年龄及地质意义_邢令.json",
+      "bytes": 2453,
+      "sha256": "9c1ffbc2ab52843eaa2ae9abe7ed0c7b1a9be36cc6ef29eb8df78e5092bcda6a"
+    },
+    {
+      "path": "LLM/output_json/doc_0079卡特巴阿苏金铜矿矿床地质及成矿背景_安静.json",
+      "bytes": 9273,
+      "sha256": "8f0e001afffbd2258500a65112b6676bb60bff57acf6e96c72cae6cf75f2c2c1"
+    },
+    {
+      "path": "LLM/output_json/doc_0080新疆卡特巴阿苏金矿床特征及发现意义_杨维忠.json",
+      "bytes": 13401,
+      "sha256": "01a4bde0a24f3b1afa5c56d17c08db55f96aa33e1d99b9c1d3eeb61b17ae4c1f"
+    },
+    {
+      "path": "LLM/output_json/doc_0081新疆卡特巴阿苏金矿床矿体特征及金赋存状态研究_韩继全.json",
+      "bytes": 7858,
+      "sha256": "bfca05e08a4aab57a9c34f0f5d9b9087ae8891ef257e2b1ab02a81e6c98e9dde"
+    },
+    {
+      "path": "LLM/output_json/doc_0082新疆西天山卡特巴阿苏金矿黄铁矿地球化学特征及地质意义_杜亚龙.json",
+      "bytes": 2498,
+      "sha256": "bd1e10069872fc7351d8f8bbc6467418caaa66a427a1b22dcdf04320cbd77b08"
+    },
+    {
+      "path": "LLM/output_json/doc_0083新疆西天山卡特巴阿苏大型金铜矿床地质特征与矿床成因研究_杜亚龙.json",
+      "bytes": 13018,
+      "sha256": "c16ae909263f856f1329f789f0ea34051ae9bf7b843677e5ea8e43ab70b6a2da"
+    },
+    {
+      "path": "LLM/output_json/doc_0084新源县卡特巴阿苏金铜矿床矿体原生晕特征_王海涛.json",
+      "bytes": 5158,
+      "sha256": "5c655629af1e0093449d9f071c3b116165aeebff603da3532478bc2fe0fe0ee6"
+    },
+    {
+      "path": "LLM/output_json/doc_0085新疆卡特巴阿苏金铜矿床金矿石特征及其地质意义_藏梅.json",
+      "bytes": 9009,
+      "sha256": "ef003f59d2a184671aca9c6d3b46641c397a35f8a1b655ef8abd609025c78d8d"
+    },
+    {
+      "path": "LLM/output_json/doc_0086西天山卡特巴阿苏金矿床成矿流体性质及成矿物质来源研究_张坚烨.json",
+      "bytes": 12923,
+      "sha256": "5b8b367fce30ce3562787228c2b80692ef16b1d6ce5fdc8a8165c6d2f3c8d1be"
+    },
+    {
+      "path": "LLM/output_json/doc_0087新疆卡特巴阿苏矿区侵入岩的地球化学特征及其地质意义_尹高科.json",
+      "bytes": 7363,
+      "sha256": "3a9dcc6940ab1040c394065001045ce104d9339d90f01134210f335bb89bb761"
+    },
+    {
+      "path": "LLM/output_json/doc_0088新疆新源县卡特巴阿苏金矿地质特征及成因分析_班建永.json",
+      "bytes": 7549,
+      "sha256": "cbdb06d99241701d84a241fd22714098e5d5c2d1384bff4800993ccb94fbd021"
+    },
+    {
+      "path": "LLM/output_json/doc_0089新疆金坝金矿成矿作用的地质和流体包裹体证据_王颖维.json",
+      "bytes": 14464,
+      "sha256": "5246585df122d83132416186d25721c1212db0ff5614e4e465c51ab9d33e2668"
+    },
+    {
+      "path": "LLM/output_json/doc_0090新疆哈巴河县金坝金矿地质特征与流体包裹体研究_王颖维.json",
+      "bytes": 9173,
+      "sha256": "4ec607c22472598f3cac0f6bd5e415bc6345757d0ca9b0589b66b6a68c650f02"
+    },
+    {
+      "path": "LLM/output_json/doc_0091金坝金矿床的构造控矿特征与找矿研究_黄河.json",
+      "bytes": 5871,
+      "sha256": "ae8441c433685db8fc962e9879a63312d9c34932b1e7bdc76537508ecfbb7e3f"
+    },
+    {
+      "path": "LLM/output_json/doc_0092新疆金坝金矿床地质地球化学特征及找矿标志_段旦.json",
+      "bytes": 8475,
+      "sha256": "31a233705efaa2c3338ec3c7dfc4df296b4ee74be26b14811d6a917ad18e2cda"
+    },
+    {
+      "path": "LLM/output_json/doc_0093新疆金龙山金矿床地质特征及其成矿化学特征分析_班建永.json",
+      "bytes": 11783,
+      "sha256": "1d7d4b11c2f3b6fc63cff8c7dfa1f9ee28a71f835e28e432f08bfcbce665a5ee"
+    },
+    {
+      "path": "LLM/output_json/doc_0094新疆萨日达拉金矿床成矿流体特征及地质意义_刘春发.json",
+      "bytes": 11521,
+      "sha256": "145acec3fe32c309bbe06b317511eb6e503a17c9cbeda3c2b895ea3b102d39b4"
+    },
+    {
+      "path": "LLM/output_json/doc_0095新疆巴里坤索尔巴斯陶金矿床成矿流体特征及矿床成因_李平.json",
+      "bytes": 7327,
+      "sha256": "e379b385905aa97dcf144cf3071f47cf60aefa0b55e4d6f61b2d87b4eb62dd06"
+    },
+    {
+      "path": "LLM/output_json/doc_0096新疆巴里坤县索尔巴斯陶金矿床地质特征及矿床成因探讨_王彦军.json",
+      "bytes": 5831,
+      "sha256": "8a21259e66ed577bedba48ce7d4cfff3196c2d2659443efa5afff3c74077156e"
+    },
+    {
+      "path": "LLM/output_json/doc_0097新疆韧性剪切带型金矿床地质特征研究——以索尔巴斯陶金矿床与哈图金矿床为例_艾娜古丽·买买托莲.json",
+      "bytes": 10636,
+      "sha256": "7c8b2f3c68440f2f5b554294513461a28d17c35c2ae4979aeafdff21871561f1"
+    },
+    {
+      "path": "LLM/output_json/doc_0098新疆索尔巴斯陶金矿矿床地质特征及金的赋存状态_张文璟.json",
+      "bytes": 6694,
+      "sha256": "d2dd373797ce385a4c74e09c8de8890bb41ad0e656d9d1fdd27b699c24df1763"
+    },
+    {
+      "path": "LLM/output_json/doc_0099新疆尉犁县双峰岭金矿床特征及资源潜力分析_张红英.json",
+      "bytes": 12809,
+      "sha256": "bce49bb58bce401be207f8c0bdf20d0b1405a9fba5b03d09349aceee3d5474c3"
+    },
+    {
+      "path": "LLM/output_json/doc_0100双峰岭金矿的找矿前景_王建业.json",
+      "bytes": 2609,
+      "sha256": "9da5766b9d734a94d0238fe738f0abfed1d0a583f793509ba37c5c431921acfc"
+    },
+    {
+      "path": "LLM/output_json/doc_0101新疆齐依求Ⅱ号金矿床地质特征及成因_阎士俊.json",
+      "bytes": 13172,
+      "sha256": "26c3f43fb32c750cda5d5fd13c59c30c50c09e75a4c7aedaf60374e8e46f8aa5"
+    },
+    {
+      "path": "LLM/output_json/doc_0102新疆齐依求Ⅰ号金矿床主要矿物的标型特征_刘春涌.json",
+      "bytes": 11823,
+      "sha256": "ff8c5ab6be966908ce1c66c3ac782b73a75fd0a8dbf873d5165de3f946032d29"
+    },
+    {
+      "path": "LLM/output_json/doc_0103新疆阿尔金成矿带祥云金矿床地质—高光谱遥感综合找矿标志及应用_王瑞军.json",
+      "bytes": 11734,
+      "sha256": "c15004737ee6b19334c1a8da0682a4ff47199f9e5d3bc17dd2e7fe51210cb47f"
+    },
+    {
+      "path": "LLM/output_json/doc_0104新疆阿合奇县布隆金矿床成矿流体及成矿作用_杨富全.json",
+      "bytes": 6234,
+      "sha256": "6b8b73ca87ef2109eb1ca876653fda13ee54da62b59bbe5c8a128b04cc305886"
+    },
+    {
+      "path": "LLM/output_json/doc_0105新疆布隆金矿床的成矿特征与成矿时代_刘家军.json",
+      "bytes": 5607,
+      "sha256": "23177c592d017940aaad89530249ac7ad2fe595685a055794e42e9fc6efe1680"
+    },
+    {
+      "path": "LLM/output_json/doc_0106西南天山布隆金矿床成矿作用同位素地质年代学_杨建国.json",
+      "bytes": 8075,
+      "sha256": "3e08046eef00346a67a4cdf6d267bfb35bb85f434e1f228cb68ced64a98e11d9"
+    },
+    {
+      "path": "LLM/output_json/doc_0107新疆阿合奇县布隆金矿床的流体包裹体研究_杨富全.json",
+      "bytes": 6138,
+      "sha256": "fee13fe5b11c4643c16b3a0730d4ec3cd1958349107e3a3777b8a0e583c2aac4"
+    },
+    {
+      "path": "LLM/output_json/doc_0108新疆西南天山布隆金矿床类型与成矿模式_徐述平.json",
+      "bytes": 11261,
+      "sha256": "02ffccd7f9a52a1aa79b46de13f5400605db55283a46de68b94c224439a6c62a"
+    },
+    {
+      "path": "LLM/output_json/doc_0109新疆阿尔泰南缘阿克希克铁金矿床地质特征及成因探讨_李强.json",
+      "bytes": 14916,
+      "sha256": "daaf99457377743b31d742bd0cdc16bae5fbc13f75824e8856e00162174c8dbe"
+    },
+    {
+      "path": "LLM/output_json/doc_0110新疆马热勒铁金矿床特征及其流体成矿作用_肖惠良.json",
+      "bytes": 14759,
+      "sha256": "8c9df5f20da522d63459cbb8e5cd3ed4d3e460da11c4765b74a3c787ddd735c2"
+    },
+    {
+      "path": "LLM/output_json/doc_0111新疆托里县别鲁阿嘎希金矿床地质特征、控矿因素和找矿标志_冯立忠.json",
+      "bytes": 9510,
+      "sha256": "96ab532b665953dd00429da3a3e358c68a6a8f9cc3166172d9585b4d7e457751"
+    },
+    {
+      "path": "LLM/output_json/doc_0112阿沙哇义金矿地质特征及找矿标志_陈奎.json",
+      "bytes": 9810,
+      "sha256": "c33b7b3e6e5a004bc9b30fd3887e788ead18ac0d1f64901e57e027181216cfd3"
+    },
+    {
+      "path": "LLM/output_json/doc_0113新疆南天山阿沙哇义金矿床的成因与找矿启示_来自流体和硫化物成分的限定_陈博.json",
+      "bytes": 6840,
+      "sha256": "c9542da263d25a20c61e99f79d83619ee1ab0eb4d068c6103fc26f5e43e4c915"
+    },
+    {
+      "path": "LLM/output_json/doc_0114西南天山阿沙哇义金矿床流体包裹体和H-O同位素地球化学特征与造山型金矿成因_张涛.json",
+      "bytes": 8401,
+      "sha256": "7bb2e44ff3ab0d7d06013f876a29cbd3c5b3b0a9fe51e5b2e43d9b6fb997d4e3"
+    },
+    {
+      "path": "LLM/output_json/doc_0115西南天山阿沙哇义金矿载金矿物地球化学特征及地质意义_张涛.json",
+      "bytes": 4752,
+      "sha256": "65d7ee5c27289f70e7b23d50d23572137a30085a18ecdf0cf7fd079b320b110c"
+    },
+    {
+      "path": "LLM/output_json/doc_0116阿合奇县阿沙哇义金矿床岩石破碎—蚀变特征与成矿关系研究_马将.json",
+      "bytes": 11201,
+      "sha256": "3a2446be2079524990d802569653b79cc5bbdd14c3c350769ac8167c1e69c1ef"
+    },
+    {
+      "path": "LLM/output_json/doc_0117新疆西南天山阿沙哇义金矿控矿规律与成矿模式研究_冯宏业.json",
+      "bytes": 10797,
+      "sha256": "75e57e711f41c56a3fe9e1fe5f2105580f08e823554983ebc84ca0ce0d54029c"
+    },
+    {
+      "path": "LLM/output_json/doc_0118西南天山阿沙哇义金矿床地质地球化学特征及成因初探_张涛.json",
+      "bytes": 9805,
+      "sha256": "36a6e8ff03a6a9f12014875dae397e00e83fb4af9c3b5f2b2b3f633d30ef109e"
+    },
+    {
+      "path": "LLM/output_json/doc_0119新疆红石金矿床原生晕特征与隐伏矿预测_曹洁.json",
+      "bytes": 16400,
+      "sha256": "21714222e5c6b4826dbd71a287f2db668bddae22f9dd96ca478e6c38f135860e"
+    },
+    {
+      "path": "LLM/output_json/doc_0120新疆双峰山浅成低温热液金矿床特征与成矿机制_郦今敖 .json",
+      "bytes": 12979,
+      "sha256": "415aeb2f00943accbea883a74a09f50a82011b6c22e6f1246a660fe52d4d02cc"
+    },
+    {
+      "path": "LLM/output_json/doc_0121新疆巴里坤县双峰山金矿床地质特征及控矿因素分析_谢群林.json",
+      "bytes": 526,
+      "sha256": "a617761987b5a2c629b0316befbf75787d11d1388e15e81ee266c2488a7a9189"
+    },
+    {
+      "path": "LLM/output_json/doc_0122双峰山金矿床地质特征及成因探讨_席小平.json",
+      "bytes": 9078,
+      "sha256": "211b3640c476de595acc422e852263f7a771625f17a1aa2d7562ac88f27f8cb1"
+    },
+    {
+      "path": "LLM/output_json/doc_0123新疆巴里坤双峰山浅成低温热液金矿床的地质特征与成矿模式_唐玉山.json",
+      "bytes": 6662,
+      "sha256": "92d4c2141b5adcf4ce6e3773977687b34f7c7e8d5f92043a54056ed3f3734d09"
+    },
+    {
+      "path": "LLM/output_json/doc_0124新疆哈尔里克双峰山浅成低温热液金矿床的地质特征与成矿模式_彭晓明.json",
+      "bytes": 10798,
+      "sha256": "612187b9d39e630466269d65198427c4e693d528f8b036d963d3628b3a744ab7"
+    },
+    {
+      "path": "LLM/output_json/doc_0125新疆小黄山金矿地质特征及成矿条件分析_郭刚.json",
+      "bytes": 13255,
+      "sha256": "6f0b316390009949e49d300c2ab76a7ea03a7f42bb749c9732f270fe02c6ad00"
+    },
+    {
+      "path": "LLM/output_json/doc_0127新疆鄯善县喜迎金矿床地质地球化学特征及成因研究_冯启伟.json",
+      "bytes": 12775,
+      "sha256": "98136c479f6a09818ee2345929652aa4fcc001099eea235eb14398e19aef4a1f"
+    },
+    {
+      "path": "LLM/output_json/doc_0128喜迎金矿床地质特征及成因类型探讨_梁广林.json",
+      "bytes": 9414,
+      "sha256": "25caf2a43a9953e464ee966bac4e054d5968af103a1b3c81e37c8e7bc6de5f01"
+    },
+    {
+      "path": "LLM/output_json/doc_0129富蕴县阿克塔斯铜金矿床火山岩地球化学_纪珊珊.json",
+      "bytes": 7577,
+      "sha256": "3657498d3af7886647dcc25aee63d24e15af7c0d9892b6dd2cb4a8b62c699b52"
+    },
+    {
+      "path": "LLM/output_json/doc_0130新疆阿克塔斯金矿床黑云母花岗岩锆石U-Pb和绢云母~(39)Ar_~(40)Ar测年及地质意义_卫晓锋.json",
+      "bytes": 6110,
+      "sha256": "8c9263881c813503c53c76559d5ee6f3c248982456a887c11baa17e7678cf68f"
+    },
+    {
+      "path": "LLM/output_json/doc_0131新疆富蕴县阿克塔斯金矿矿床地质特征与矿床成因研究_潘东.json",
+      "bytes": 15748,
+      "sha256": "51fc24abf6489a35ffe6a92f31fc9e798b48d7d8360ae6efef848d0df875cb96"
+    },
+    {
+      "path": "LLM/output_json/doc_0132新疆富蕴县阿克塔斯金矿床地质特征及成因分析_纪珊珊.json",
+      "bytes": 15516,
+      "sha256": "c3dc354c8dd8e74d38d5d89d609c609d3bd92404f8e5fcc3e1d3b873856a0bc5"
+    },
+    {
+      "path": "LLM/output_json/doc_0133新疆石英滩金矿床原生晕特征与隐伏矿预测_李强.json",
+      "bytes": 1390,
+      "sha256": "798bf112ea810ce28c4ea7ce4ecaf32328e9a5257e63f2d998314b62bb73fa9a"
+    },
+    {
+      "path": "LLM/output_json/doc_0134东天山石英滩金矿田控矿构造与原生晕深部预测_马立成.json",
+      "bytes": 5390,
+      "sha256": "be13c557ad0edd57a77f82a5b8c00359c7e45327dca3ae82c6881a351d1b8231"
+    },
+    {
+      "path": "LLM/output_json/doc_0135新疆东天山石英滩金矿流体包裹体地球化学_王志良.json",
+      "bytes": 5024,
+      "sha256": "c67ec1c6b10d0944085435cc70347bd82bab26b4f64b7f3be2e6807d9cd3d2f8"
+    },
+    {
+      "path": "LLM/output_json/doc_0136新疆鄯善县石英滩金矿床地质特征及控矿因素_蔡仲举.json",
+      "bytes": 9262,
+      "sha256": "e0b35c79b58b19e8d5c120124a4605600295673bc1c5af793f2b363ca9f1f2f4"
+    },
+    {
+      "path": "LLM/output_json/doc_0137新疆石英滩金矿岩石地球化学异常评价与找矿_李强.json",
+      "bytes": 10629,
+      "sha256": "a4e73717ed36e2a7f81cb15b5861da2911b6d19a952944b9e1782fa589b1bccd"
+    },
+    {
+      "path": "LLM/output_json/doc_0138新疆鄯善县石英滩金矿石矿物学和金矿物特征_刘策.json",
+      "bytes": 3470,
+      "sha256": "26e3ecbf3302059c9a87855e89e3b08fb5f06109d72d22990e41e35a16b67e8a"
+    },
+    {
+      "path": "LLM/output_json/doc_0139鄯善县石英滩金矿区火山岩及其与金矿成矿关系研究_刘策.json",
+      "bytes": 13141,
+      "sha256": "7ef5891688cd459974bffec914bd176b9fe3700cfe76baf4c85a41074add734b"
+    },
+    {
+      "path": "LLM/output_json/doc_0140新疆青河县顿巴斯套金矿矿床成因及找矿标志_郭海棠.json",
+      "bytes": 2936,
+      "sha256": "50f2d15123930c4e4d8973b72d7377c7422fb641e1a33484d75131f6ab6ec66e"
+    },
+    {
+      "path": "LLM/output_json/doc_0141新疆青河顿巴斯套金矿床地质特征及控矿因素分析_肖飞.json",
+      "bytes": 4959,
+      "sha256": "7ca6027794f82dd1f28394982b3aa15a038fd145b0586bb435333585d4bca630"
+    },
+    {
+      "path": "LLM/output_json/doc_0142新疆东准噶尔顿巴斯套及邻区古生代金的成矿模式与找矿模型_李欢.json",
+      "bytes": 11726,
+      "sha256": "36cecac1d43a7dbcdaa9c3f1130a4f0fc622e34350cc08c8d2536a2b8ba5a3be"
+    },
+    {
+      "path": "LLM/output_json/doc_0143新疆青河县顿巴斯套金矿床地质-化探找矿模型_王春龙.json",
+      "bytes": 6443,
+      "sha256": "2b52dd8233a45f0377e690a24216c3821997234c69d783e3029cdbade356a3ef"
+    },
+    {
+      "path": "LLM/output_json/doc_0144新疆青河县顿巴斯套金矿地质特征及矿床成因_石顺义.json",
+      "bytes": 8303,
+      "sha256": "9f1a24a876b5e679b78fe6ed96c72379e8c986371d5dc69c3cf94b0a299a39cb"
+    },
+    {
+      "path": "LLM/output_json/doc_0145新疆东准噶尔顿巴斯套金矿床成因_H-O-C-S-Pb同位素制约_李欢.json",
+      "bytes": 7857,
+      "sha256": "f234f22e73cc8818ee1d424158219babd2ce683fcf1f2f80333e8484338f089b"
+    },
+    {
+      "path": "LLM/output_json/doc_0146新疆东准噶尔顿巴斯套金矿床含金黄铁矿Rb-Sr等时线年龄及地质意义_李欢.json",
+      "bytes": 5554,
+      "sha256": "ce3ea9857af6c3e103b0cc5804f8bd91a3587ec8290d5137d0adcce73b6deef7"
+    },
+    {
+      "path": "LLM/output_json/doc_0147新疆东准噶尔顿巴斯套金矿地质特征及矿床成因_刘文祥.json",
+      "bytes": 10668,
+      "sha256": "6999f6d1690efa3fbe5076ca1b1da7c989e4a48d5869d07e9e260e3fff81dd89"
+    },
+    {
+      "path": "LLM/output_json/doc_0148新疆北部阿拉塔斯金矿床地质特征及找矿方向_王军升.json",
+      "bytes": 12733,
+      "sha256": "52a6d158354ce12898827140ebd804d9a412f7e652ef164389778c0978325fee"
+    },
+    {
+      "path": "LLM/output_json/doc_0149新疆和静县大山口金矿床成矿流体地球化学特征研究_鲍庆中.json",
+      "bytes": 8363,
+      "sha256": "055ca25afed9f5d9e0d74ab331799ae1d3c44610688be3385730d418d6170fc8"
+    },
+    {
+      "path": "LLM/output_json/doc_0150新疆西南天山大山口金矿床成矿作用的构造控制_王义天.json",
+      "bytes": 8459,
+      "sha256": "b89989a3491876b08e1e695cb9d3a91f8ca08131b93f10d4b6a638268741b93a"
+    },
+    {
+      "path": "LLM/output_json/doc_0151新疆和静县大山口金矿地质特征及成因分析_李磊.json",
+      "bytes": 5280,
+      "sha256": "b0e4b24288863c2e8992e8c5171367f22e7b806e248d4a37f922c3edbf7697c6"
+    },
+    {
+      "path": "LLM/output_json/doc_0152新疆西天山大山口金矿地质及成矿流体包裹体地球化学_董新丰.json",
+      "bytes": 10920,
+      "sha256": "c9de144f6ae6906e28409ba52e9fbe21a3a8e279744b3ea59048576bc2d26e6b"
+    },
+    {
+      "path": "LLM/output_json/doc_0153新疆包古图金矿床特征及其成因_齐进英.json",
+      "bytes": 4754,
+      "sha256": "61b50e9498a7b0864602bac30a8dd5f3281c62fba3662085880880e0fb903f8c"
+    },
+    {
+      "path": "LLM/output_json/doc_0154新疆包古图金矿四矿区L7号脉中的特殊矿物组合及其成矿意义_郑波.json",
+      "bytes": 15747,
+      "sha256": "bdd164833007f7976500b9e38414d00dba9a1f347a0fd11b36130bddba73ece8"
+    },
+    {
+      "path": "LLM/output_json/doc_0155新疆西准噶尔包古图地区铜金矿成矿规律研究_成勇.json",
+      "bytes": 17300,
+      "sha256": "2182cbaff2b150303c7c81be500a4028627d9d55bd2562e0de14d8ad41433eee"
+    },
+    {
+      "path": "LLM/output_json/doc_0156西准噶尔哈图-包古图地区金矿成矿作用研究_安芳.json",
+      "bytes": 19404,
+      "sha256": "72592bd77704ce53d2d56dfc3fe2c3c5d131fe8537742b18534a3a737acca49d"
+    },
+    {
+      "path": "LLM/output_json/doc_0157新疆包古图地区金矿床矿化类型和与围岩关系研究_郑波.json",
+      "bytes": 17969,
+      "sha256": "2bad4624f3d452adcf4bcb92c300530ea7672e23df18b4605ee5bcff2173eee8"
+    },
+    {
+      "path": "LLM/output_json/doc_0158新疆西准噶尔包古图金矿中的自然砷及其矿床成因意义_安芳.json",
+      "bytes": 6196,
+      "sha256": "eac55be73930c6ecbc5b7aa6c057eb46ce3df74edf6e44cc066a09db3f99b833"
+    },
+    {
+      "path": "LLM/output_json/doc_0159新疆西准噶尔包古图金矿微量元素地球化学研究_安芳.json",
+      "bytes": 9812,
+      "sha256": "c6f0f7396bfa919ab00c1f9a974f199f9fa0298e7aca196a81e4dc58c26b8b34"
+    },
+    {
+      "path": "LLM/output_json/doc_0160西准噶尔包古图含矿岩体矿物学特征及意义_代华五.json",
+      "bytes": 5058,
+      "sha256": "bc138d8856bef450a24f317bbb38bcb2119c8d0fdb13c895891aa2c085702b2d"
+    },
+    {
+      "path": "LLM/output_json/doc_0161新疆包古图地区金矿床地质特征及成矿模型研究_安芳.json",
+      "bytes": 18352,
+      "sha256": "9ea92c3fa75b461c081735b6592cce1cb7271ff36fa41313e0b0f137c63e3d6f"
+    },
+    {
+      "path": "LLM/output_json/doc_0162西准噶尔包古图富镁闪长质岩墙的时代、地球化学特征以及铜金成矿意义_尹继元.json",
+      "bytes": 3116,
+      "sha256": "73fd4a28945de7c12e03acc8de976a983966bbee3bdf9e67fd6c1130b94af23b"
+    },
+    {
+      "path": "LLM/output_json/doc_0163新疆包古图金矿中发现的自然铋及其找矿勘探意义_郑波.json",
+      "bytes": 9341,
+      "sha256": "478932a6c241e6dce661908960630268c5fd23b50c797f7e009a296b057581fe"
+    },
+    {
+      "path": "LLM/output_json/doc_0164新疆西准包古图地区铜金矿成矿规律浅析_成勇.json",
+      "bytes": 5370,
+      "sha256": "d60a08f0c8f8021232459dc74a21fe2a045d4dbfbedb5d4f9b6230b733163fa9"
+    },
+    {
+      "path": "LLM/output_json/doc_0165新疆沙尔布拉克金矿床成因矿物学成矿模式_方耀奎.json",
+      "bytes": 14388,
+      "sha256": "677820266f2e4f12b8c73c4de023714fbea462a57d1821938c27c7cd3ab193d5"
+    },
+    {
+      "path": "LLM/output_json/doc_0166新疆沙尔布拉克金矿床中的层状电气石岩特征及成因_李秀华.json",
+      "bytes": 5793,
+      "sha256": "619134a6992a99ea512d716ec097aa8f0d9ba87ff5a1a4aee64b6ac13a58ee7e"
+    },
+    {
+      "path": "LLM/output_json/doc_0167新疆哈密阿拉塔格金矿床矿体特征及形成机制_宫辰 (1).json",
+      "bytes": 7137,
+      "sha256": "1b735a3d935f6fce5cda117ab89e3cb58fffa2922f10dcf27331b51c9ce34d5f"
+    },
+    {
+      "path": "LLM/output_json/doc_0168新疆哈密阿拉塔格金矿床地电化学特征、成矿规律及远景分析_邹振林 (1).json",
+      "bytes": 6868,
+      "sha256": "c104b1c5799cc9c94334e980e3a76c609a6b7770af070634fcf1d50059dc9c61"
+    },
+    {
+      "path": "LLM/output_json/doc_0169新疆托克逊县天禧金矿成因探讨_单小莉.json",
+      "bytes": 9785,
+      "sha256": "1fa10b8a756e6c0d4477aae7a01278db229168aade013735a385a0209128146a"
+    },
+    {
+      "path": "LLM/output_json/doc_0170新疆鄯善梧南金矿床地球化学特征及隐伏矿预测_晁会霞.json",
+      "bytes": 11443,
+      "sha256": "aa6a14ae15bbaa6dcaa772a71032ef5b3e6049492e5f2fcd0c47ab7b23f29b0a"
+    },
+    {
+      "path": "LLM/output_json/doc_0171新疆梧南金矿床原生晕特征与深部预测_晁会霞.json",
+      "bytes": 3222,
+      "sha256": "6906377af6b2614bca79994260bb4e4b6b17ae0087b2b7bee639052df8cfe530"
+    },
+    {
+      "path": "LLM/output_json/doc_0172新疆梧南金矿床地质与地球化学特征_晁会霞.json",
+      "bytes": 7028,
+      "sha256": "103cab1b45e2260ad89f9eeecbc935311cce60817eada253a536da8c3f927991"
+    },
+    {
+      "path": "LLM/output_json/doc_0173新疆鄯善县梧南金矿床成因及成矿条件_晁会霞.json",
+      "bytes": 9479,
+      "sha256": "c8ea70a42dc427f6b8923b0e14644b5d37bfef4cb8fda3f83c4f284a7b7724ad"
+    },
+    {
+      "path": "LLM/output_json/doc_0174新疆哈密市野马泉西一带成矿地质条件及金矿找矿潜力分析_谢登科.json",
+      "bytes": 8059,
+      "sha256": "77be22e56e8baabb4073f9946b7f725c80490eb38995f7827f8e1f937fe3650f"
+    },
+    {
+      "path": "LLM/output_json/doc_0175新疆哈密市野马泉西金矿床地质特征及找矿标志_任经武.json",
+      "bytes": 17386,
+      "sha256": "add021cf4b2417194fb35f47217588dbaf031bcb328bc3f69da8f6568a7a1dee"
+    },
+    {
+      "path": "LLM/output_json/doc_0176新疆北山红十井金矿床成矿流体性质及成矿机制_霍永豪.json",
+      "bytes": 6948,
+      "sha256": "05c0c547503715f2d425a1d16e982564025be65e5141ba40230ea869657d3c55"
+    },
+    {
+      "path": "LLM/output_json/doc_0177新疆红十井金矿床特征及成因_肖惠良.json",
+      "bytes": 8851,
+      "sha256": "fc139c8cddbecde95644d143875e50a1fad5e15d07045f6485811224291ef209"
+    },
+    {
+      "path": "LLM/output_json/doc_0178新疆东天山红石金矿床成矿流体和成矿物质来源示踪_王义天.json",
+      "bytes": 9027,
+      "sha256": "7e78d7f79a0799a81eb5073421a479b13c3a0af4696001423ff717720de383cc"
+    },
+    {
+      "path": "LLM/output_json/doc_0179东天山红石金矿床石英Rb-Sr同位素定年_孙敬博.json",
+      "bytes": 6123,
+      "sha256": "e9f3a6bb9d3a99bf1e61fc6fa5081460ca65b91033e269a218ca1a671bf06700"
+    },
+    {
+      "path": "LLM/output_json/doc_0180萨热阔布金矿床储量远景浅析_林世伟.json",
+      "bytes": 6170,
+      "sha256": "a13104bda6edba996b4037063cf699ac5bd59e263fd4ac4c790e468a7839614c"
+    },
+    {
+      "path": "LLM/output_json/doc_0181新疆萨热阔布金矿床流体包裹体研究及矿床成因_秦雅静.json",
+      "bytes": 8414,
+      "sha256": "2f5ab2cd0a45ae663aac6aa09d80b25d490721681fe204cf318133889a875b78"
+    },
+    {
+      "path": "LLM/output_json/doc_0182新疆萨热阔布金矿黑云母~(40)Ar_~(39)Ar年龄及矿床成因启示_郑义.json",
+      "bytes": 9807,
+      "sha256": "1eccfa5f5719c5e335e776ba53d3bbca41500ef233b91dadcabf993b7c822ccf"
+    },
+    {
+      "path": "LLM/output_json/doc_0183一种与断裂变质作用有关的新类型金矿床——新疆阿勒泰市萨热阔布金矿床_尹意求.json",
+      "bytes": 5845,
+      "sha256": "cb7854a1f8fa1d721b0a442860b3608d04702490de1401a92ab390d4392c10f4"
+    },
+    {
+      "path": "LLM/output_json/doc_0184阿尔泰萨热阔布金矿床的自然铋及其与金矿化关系_钟长华.json",
+      "bytes": 8387,
+      "sha256": "4407fafc395ba860889b4b3d249f4a1bd9d51121e729943656240b52b2e3b929"
+    },
+    {
+      "path": "LLM/output_json/doc_0185新疆萨热阔布金矿Ar-Ar定年及其地质意义_秦雅静.json",
+      "bytes": 5147,
+      "sha256": "4fe912bc13fc2875be33898fce2089f6f2049ab6387eef5fcc634631f9e78f32"
+    },
+    {
+      "path": "LLM/output_json/doc_0186阿尔泰萨热阔布金矿成矿特征及控矿因素_姜俊.json",
+      "bytes": 8549,
+      "sha256": "4722deea568b34668669df8bd17f0350dafbc0d1431e0f84ac6eeb8cb85b2187"
+    },
+    {
+      "path": "LLM/output_json/doc_0187新疆萨热阔布金矿床特征及隐伏矿预测新途径的思路_丁汝福.json",
+      "bytes": 11708,
+      "sha256": "7c903afbc5025243b166f28bb78dc798e2384a1230f592d32a466b6533205d9f"
+    },
+    {
+      "path": "LLM/output_json/doc_0188新疆萨热阔布火山喷流沉积改造型金矿地球化学特征_丁汝福.json",
+      "bytes": 8873,
+      "sha256": "71e314038fe7871fea9e7589ce7e37fef54c627a9bedb759d55cfea985636db1"
+    },
+    {
+      "path": "LLM/output_json/doc_0189阿勒泰萨热阔布金矿的成矿流体_微量元素组成_徐九华.json",
+      "bytes": 12191,
+      "sha256": "b6bdbf30aeba9c299c74c07a6adccccaf48e23560e1e4c98afc0f38ad256a023"
+    },
+    {
+      "path": "LLM/output_json/doc_0190新疆萨热阔布金矿床流体包裹体研究_赵兴展.json",
+      "bytes": 6851,
+      "sha256": "be82d7b05ebb4cb07ece63e1c04f05c448193a8a454af8423a996eff59740745"
+    },
+    {
+      "path": "LLM/output_json/doc_0191阿尔泰山南缘萨热阔布金矿床的纯CO_2流体_徐九华.json",
+      "bytes": 8867,
+      "sha256": "6322ff676c5e5cc61f46a5b4404f84434cf50fec836fa54fa4b9591788b9c614"
+    },
+    {
+      "path": "LLM/output_json/doc_0192新疆准噶尔北东缘扎格依库都克金矿床流体包裹体与同位素地球化学研究_胡可扬.json",
+      "bytes": 8175,
+      "sha256": "78b70ec3cc11e2a3bcd23b0854e305e4d3aae7da17af144c83a01d863cd3eaf6"
+    },
+    {
+      "path": "LLM/output_json/doc_0193新疆富蕴县扎格依库都克金矿地质及地球化学特征_胡可扬.json",
+      "bytes": 10815,
+      "sha256": "d0601a6da920f45db9225659a902eb7fa7526852b0bba89484ba8d00bb0b33af"
+    },
+    {
+      "path": "LLM/output_json/doc_0194新疆扎格依库都克金矿地质地球化学特征及找矿标志_田建磊.json",
+      "bytes": 9844,
+      "sha256": "3d0745bbd4084ab3ee8c7cfd6d0cfff1f441f486da74c74ec72d208285211100"
+    },
+    {
+      "path": "LLM/output_json/doc_0195新疆扎格依库都克金矿地球化学特征及地质意义_张立武.json",
+      "bytes": 8878,
+      "sha256": "32835b05b2f06ddd20f376821deae1de53e5f7bafece8c54dbf12e9fef927684"
+    },
+    {
+      "path": "LLM/output_json/doc_0196阿尔泰山南缘赛都金矿床的构造-成矿流体及其演化_徐九华.json",
+      "bytes": 7095,
+      "sha256": "f0244c3f9050b8f54752a4010c11b6952ea323fe1d7706d27d6774277e9107e0"
+    },
+    {
+      "path": "LLM/output_json/doc_0197阿尔泰赛都金矿成矿流体特征和矿床地球化学_张国瑞.json",
+      "bytes": 8231,
+      "sha256": "5db8770393733c720e6a631f361e4313665fc73e7a2cab3d92dc614e9f0c96cb"
+    },
+    {
+      "path": "LLM/output_json/doc_0198阿尔泰赛都金矿床成矿流体初步研究_徐九华.json",
+      "bytes": 6966,
+      "sha256": "1381a9d7614bedc7d78f5e01eed098f27d3fab2de570fb687b90236e590727b9"
+    },
+    {
+      "path": "LLM/output_json/doc_0199新疆鸽形山金矿床地质特征及成因探讨_陈刚.json",
+      "bytes": 10343,
+      "sha256": "2ed9a9018af8d4a5450382ca75f47665e352c9d2e43c60ee8c8fa473186c23ec"
+    },
+    {
+      "path": "LLM/output_json/doc_0200新疆齐求Ⅰ金矿床蚀变矿物与金矿化_胡大千.json",
+      "bytes": 6017,
+      "sha256": "45a248d5dbf4a190c5fb81dd23384bdc27e1f5bef2acf302fbd187543ca55486"
+    },
+    {
+      "path": "LLM/output_json/doc_0201新疆齐求Ⅰ金矿床黄铁矿找矿矿物学研究_胡大千.json",
+      "bytes": 6459,
+      "sha256": "f7bf1bd7da1fa1057c2a163f197d0aaa7f149d02e0b14eea662cf08f29636855"
+    },
+    {
+      "path": "LLM/output_json/doc_0202西准噶尔地区齐求Ⅻ金矿床地质特征及找矿方向_庄天明.json",
+      "bytes": 7416,
+      "sha256": "6ea03c380fff6044fd204d93956eaab4ce75d376f3ba5749a90984bdd8889b19"
+    },
+    {
+      "path": "LLM/output_json/doc_0203新疆齐求Ⅰ金矿床毒砂及其在金的成矿过程中的作用_贺义兴.json",
+      "bytes": 5411,
+      "sha256": "9c4efb4d6c8e0ce861f5a577cdc461c73a1ac90e241650c2fe1f4b7ebc894336"
+    },
+    {
+      "path": "LLM/output_json/doc_0204齐求金矿床的地质特征及成矿模式_周美付.json",
+      "bytes": 10094,
+      "sha256": "942cc4f5577f4cb35fa612bb8cd0fb337dd69fdc3b8ca6f0942795756194be12"
+    },
+    {
+      "path": "LLM/output_json/doc_0205新疆齐求Ⅰ金矿床毒砂找矿矿物学研究_胡大干.json",
+      "bytes": 7523,
+      "sha256": "6ff84dc36922380eb278d671e312a912ef0c3a0b77a67630e10ca4de65138d86"
+    },
+    {
+      "path": "LLM/output_json/doc_0206新疆托里县齐求3号金矿找矿方向及成因探讨_袁杰.json",
+      "bytes": 7066,
+      "sha256": "9b1ec9451047a5055cf1871464146f6c73ee2e9d3e1d8722f017b8ed6d1d1ec2"
+    },
+    {
+      "path": "LLM/output_json/doc_0207齐求3号金矿基本地质特征及找矿方向_杨贵宝.json",
+      "bytes": 8794,
+      "sha256": "f8b6c1ac9ffdc6e96a2a8b4823a1ac26f839e05cc89dd81313f27c542b51b00d"
+    },
+    {
+      "path": "LLM/output_json/doc_0208浅谈托里县齐求3号金矿床找矿标志_庞红亮.json",
+      "bytes": 7661,
+      "sha256": "3cdd433e8229bd69114a24af574825bb73bb5a2cead3f5d6903b29769ffdc1ff"
+    },
+    {
+      "path": "LLM/output_json/doc_0209新疆托里县齐求3号金矿成矿特征及成因分析_孙长亮.json",
+      "bytes": 9890,
+      "sha256": "9f094d24183b402182cd6ed2d33680ceb0b9ef1c419affea6de60c13be12df21"
+    },
+    {
+      "path": "LLM/output_json/doc_0210新疆维吾尔自治区托里县齐求3号金矿成矿特征_孙长亮.json",
+      "bytes": 8628,
+      "sha256": "f095f6634e5360c28565caea59a23d0cc6daf3a4f7c1f94009a32d6ea85c954b"
+    },
+    {
+      "path": "LLM/output_json/doc_0211新疆库布苏金矿床成矿特征与成矿规律_霍东亮.json",
+      "bytes": 7614,
+      "sha256": "7c046c9d575efee443996ac7ed043791359107e49bf6a6200a2cb566a88cc9c9"
+    },
+    {
+      "path": "LLM/output_json/doc_0212新疆青河库布苏金矿元素质量迁移规律研究及成矿环境分析_郑海平.json",
+      "bytes": 7870,
+      "sha256": "250093d32d9ce2fe6208689939e8ced7689fe34b1a10c1fdc31ed99dd062def5"
+    },
+    {
+      "path": "LLM/output_json/doc_0213东准噶尔库布苏金矿床地球化学特征及成矿模式_凤骏.json",
+      "bytes": 8515,
+      "sha256": "01ce8ba19c410fcafefec15d8e37e54be7d3b76387d3b1c81a9710f2c13264f2"
+    },
+    {
+      "path": "LLM/output_json/doc_0214新疆青河县库布苏破碎蚀变岩型金矿元素迁移特征与规律研究_郑海平.json",
+      "bytes": 7616,
+      "sha256": "0707e2984da1059ecfd4368450331db99ddef072424593b5edbe43758227b2d3"
+    },
+    {
+      "path": "LLM/output_json/doc_0215东准噶尔库布苏金矿床岩脉与金矿成因关系的研究_高怀忠.json",
+      "bytes": 6228,
+      "sha256": "8aef06cf343eaab3a5cddceea1d9e9db1bd9ed782c72768bb038de9c4d7c3b3e"
+    },
+    {
+      "path": "LLM/output_json/doc_0216新疆东准噶尔库布苏金矿床地质与地球化学特征_章文忠.json",
+      "bytes": 8642,
+      "sha256": "32b389d0aa2c78de0b0c00ba1e11208784b6700e7f8a108a58b1bd4acd59db10"
+    },
+    {
+      "path": "LLM/output_json/doc_0217新疆加曼特金矿床地质地球化学特征及成因_郑少华.json",
+      "bytes": 11102,
+      "sha256": "317667522be02f4ef835fb10d37a8228873fb4a8abdcaec33ad83bac6b0d02f6"
+    },
+    {
+      "path": "LLM/output_json/doc_0218新疆加曼特金矿矿床成因浅析及找矿前景分析_马海杰.json",
+      "bytes": 10952,
+      "sha256": "f11cfbd0a603142b8c95b693fe23ea0ca1e8ebcff6163b9e5eb83a3f4706599c"
+    },
+    {
+      "path": "LLM/output_json/doc_0219新疆尼勒克县加曼特金矿床地质特征及流体包裹体研究_吴艳爽.json",
+      "bytes": 9700,
+      "sha256": "a08eeeda7655cd47b1d27a6f2f33cbc662609ae5ae070bfd3b417ddb358d06b5"
+    },
+    {
+      "path": "LLM/output_json/doc_0220新疆西天山加曼特金矿床赋矿围岩年代学、地球化学及地质意义_郑少华.json",
+      "bytes": 10320,
+      "sha256": "06a20d5d61dc3ab3588651e8cd6adecc85a14e5e98b253b75f26d872b56e710a"
+    },
+    {
+      "path": "LLM/output_json/doc_0221新疆尼勒克县加曼特金矿床地质及流体包裹体研究_吴艳爽.json",
+      "bytes": 11351,
+      "sha256": "cd4ecbeae866798f7b693ffb269c610d722756b28798a308fa86ca6c24851f7c"
+    },
+    {
+      "path": "LLM/output_json/doc_0222新疆尼勒克县加曼特金矿床地质特征及成因浅析_韩刚.json",
+      "bytes": 10008,
+      "sha256": "1ccf76942c6ae4a242adac83318db2e16295013bfef94c59b89af5394e8e6c5d"
+    },
+    {
+      "path": "LLM/output_json/doc_0223新疆多拉纳萨依金矿床成矿远景_曾庆栋.json",
+      "bytes": 5384,
+      "sha256": "66d02b38c3ad6e8712dd82f76a7e9be8b2ce1ea986685565d14cd195f4ea0f65"
+    },
+    {
+      "path": "LLM/output_json/doc_0224新疆多拉纳萨依金矿区构造特征与成矿关系_王伟涛.json",
+      "bytes": 9357,
+      "sha256": "4e14e3500fcd19399469ce0ff9a642f9d45fff402d769d370df936d306973f71"
+    },
+    {
+      "path": "LLM/output_json/doc_0225新疆多拉纳萨依金矿床地质特征和成矿机理探讨_吴富.json",
+      "bytes": 9125,
+      "sha256": "a620791ad86bfc24cc8c35859ee2b46249e86769adecf51df0e5d0ab38cfb4c5"
+    },
+    {
+      "path": "LLM/output_json/doc_0226新疆多拉纳萨依金矿床地质特征及其韧性剪切—岩浆耦合成矿作用_肖惠良.json",
+      "bytes": 13984,
+      "sha256": "706ce78a5baa523ffc0ba3da5f4a717f311eafc64774de7e087ce179ca61e184"
+    },
+    {
+      "path": "LLM/output_json/doc_0227新疆多拉纳萨依金矿黄铁矿成分组成与硫同位素特征及其意义_聂飞.json",
+      "bytes": 8192,
+      "sha256": "951a7cc1eb9c4b740642ec10a807ba58331627d5ae21702cb61dcba3c3b4fabc"
+    },
+    {
+      "path": "LLM/output_json/doc_0228多拉纳萨依金矿床地球化学晕的数据处理及其找矿意义_张定源.json",
+      "bytes": 7386,
+      "sha256": "0e2bd395d4791f9e8907972935c57ea0743517c912bbf4db9c6f3413aa4cd78b"
+    },
+    {
+      "path": "LLM/output_json/doc_0229新疆多拉纳萨依金矿一带花岗岩类形成时代及其对金矿成矿作用的制约_周刚.json",
+      "bytes": 6195,
+      "sha256": "3ed20598a07a47c0ed6b12d19ea1b2ad1b288cafa3addc9c6b9bb918c0b19627"
+    },
+    {
+      "path": "LLM/output_json/doc_0230新疆多拉纳萨依金矿床地质特征研究_赵斐.json",
+      "bytes": 7515,
+      "sha256": "3ea9cae9de7c821754f793ab8b4f89c3fed7f76e9aa8b3d2c27b1c43a23aebb9"
+    },
+    {
+      "path": "LLM/output_json/doc_0231新疆多拉纳萨依金矿床赋矿岩体锆石U-Pb年龄及其地球化学特征_李巽.json",
+      "bytes": 2470,
+      "sha256": "4eff973970cba3d2bced2c0f63ced9b0f9562b105f2e826e0d9bc330e3f290d4"
+    },
+    {
+      "path": "LLM/output_json/doc_0232新疆多拉纳萨依金矿床流体包裹体特征及成因_肖惠良.json",
+      "bytes": 6440,
+      "sha256": "4df3fed543c56274707bc137ac448097d6bd2925c8044a59527e5a3d23666ec4"
+    },
+    {
+      "path": "LLM/output_json/doc_0233浅析新疆多拉纳萨依金矿控矿因素及外围找矿潜力_李鹏.json",
+      "bytes": 8767,
+      "sha256": "27f4dbb6665b563d190c93811382a3292dfb397efa69e031b206011c6200fbf3"
+    },
+    {
+      "path": "LLM/output_json/doc_0234谈新疆多拉纳萨依金矿床成因类型_赵斐.json",
+      "bytes": 4404,
+      "sha256": "47204c93d74f4fe129ea2a318e83fa832276789cbf34b71df8f48accfac1652b"
+    },
+    {
+      "path": "LLM/output_json/doc_0235东天山康古尔金矿床控矿构造分析_田小军.json",
+      "bytes": 6263,
+      "sha256": "9daaed78c9f21d909efd9ac0cd4e3d3416c05854b87ccaea0d4c2c4e5eafd23c"
+    },
+    {
+      "path": "LLM/output_json/doc_0236新疆东天山康古尔金矿的两期热液成矿作用：来自年代学、地球化学的证据_李卫.json",
+      "bytes": 7241,
+      "sha256": "907fc8472c3e051dc473938a1782e47270dcb4bfaef137a2b06fd03be4fa6b95"
+    },
+    {
+      "path": "LLM/output_json/doc_0237新疆东天山康古尔金矿构造叠加晕特征及矿床成因_陈晓东.json",
+      "bytes": 11946,
+      "sha256": "6deab1f2e21a316bec737c84677122bf3b8597a3c5d122dc52cb9fbda2f5db5e"
+    },
+    {
+      "path": "LLM/output_json/doc_0238东天山康古尔金矿床的同位素地球化学特征及成因讨论_杨前进.json",
+      "bytes": 8999,
+      "sha256": "86acce61f09938e36f910339c71c71339ad45c299352beca28ec9af71dc6dc7b"
+    },
+    {
+      "path": "LLM/output_json/doc_0239新疆鄯善康古尔金矿床地球化学研究_张连昌.json",
+      "bytes": 9326,
+      "sha256": "8fc3f04347a701895116e9e69deb5e166c195509d534dbfa01320da1e35d0f88"
+    },
+    {
+      "path": "LLM/output_json/doc_0240东天山康古尔金矿床成矿物源的同位素地球化学特征_张连昌.json",
+      "bytes": 12210,
+      "sha256": "4660fcb8aa887e5fcc2134bf744747a9ba3bd7bc8bd7ccb53d3c801fed4a9ad0"
+    },
+    {
+      "path": "LLM/output_json/doc_0241东天山康古尔金矿床成矿流体地球化学特征及其来源_张连昌.json",
+      "bytes": 9819,
+      "sha256": "18c7758328a682be867b7cacf0cf4b0268f9091d5ccdca36ca994697c8c20d9f"
+    },
+    {
+      "path": "LLM/output_json/doc_0242新疆康古尔糜棱岩带蚀变岩型金矿床地质特征及成因_曾章仁.json",
+      "bytes": 10216,
+      "sha256": "9c5bea2aa1a75cf723bfb21fff96fb64820a0ba243f29a6326fee314f5251a63"
+    },
+    {
+      "path": "LLM/output_json/doc_0243新疆康古尔金矿成矿阶段及其年代学_张连昌.json",
+      "bytes": 7593,
+      "sha256": "0ab51c1fef27c5f932e1a5ffd735710811719a343aab84372b696dbaeab5defe"
+    },
+    {
+      "path": "LLM/output_json/doc_0244东天山康古尔金矿成矿晚阶段地幔流体参与成矿作用的碳氢氧同位素证据_王志良.json",
+      "bytes": 7416,
+      "sha256": "bd54ee2e0a92d9dbb8588abe3d501deca2a6c5828ffa312882f1ff2b0668d894"
+    },
+    {
+      "path": "LLM/output_json/doc_0245新疆野马泉金矿床地质特征及成因探讨_徐国端.json",
+      "bytes": 7929,
+      "sha256": "84343c5fc4a662e83a36745141dac71b149b2c607b726532973d12d7477dfc27"
+    },
+    {
+      "path": "LLM/output_json/doc_0246新疆青河县野马泉金矿床地质及地球化学特征_何英.json",
+      "bytes": 10418,
+      "sha256": "9e80ddaba466b7ef8d09ea04d6bbf319344655fcf81b99026492907f5ecaee86"
+    },
+    {
+      "path": "LLM/output_json/doc_0247新疆东准噶尔野马泉构造蚀变脉岩型金矿床_王京彬.json",
+      "bytes": 8522,
+      "sha256": "6e7e650450a7a56c26394218b3972b7f2096b0990208f13770aee5eb64a650d6"
+    },
+    {
+      "path": "LLM/output_json/doc_0248东天山马庄山金矿床流体包裹体和同位素地球化学研究及其对矿床成因的制约_李新俊.json",
+      "bytes": 8029,
+      "sha256": "b20228a4bc933c1b51acb428c8d2570a29f07eb8230ad3bf16c61e1a95345a4c"
+    },
+    {
+      "path": "LLM/output_json/doc_0249新疆哈密马庄山金矿成矿流体成因及金沉淀机制的探讨_陈世忠.json",
+      "bytes": 8686,
+      "sha256": "3b933575806f5ebac47db31d8791359fae2aef1abff65cb3e546921cd007814c"
+    },
+    {
+      "path": "LLM/output_json/doc_0250新疆马庄山金矿控矿地质条件及其成因浅析_曾长华.json",
+      "bytes": 10362,
+      "sha256": "36a38b862379809a3cf84b63cf07e62f48c8f3643767c52b254df315ecf7faa0"
+    },
+    {
+      "path": "LLM/output_json/doc_0251新疆哈密马庄山金矿床的硫和铅同位素特征_江思宏.json",
+      "bytes": 9447,
+      "sha256": "63e660725a8c36688ce4a19abd8716645f0a00c47a45be518b8c0d0fa39cd91b"
+    },
+    {
+      "path": "LLM/output_json/doc_0252新疆东部马庄山金矿地质特征及矿床成因_郭晓东.json",
+      "bytes": 9829,
+      "sha256": "15061501b1e4196843d1ea3706d8aac930d9299ae98f366b0cb017641b94c1fd"
+    },
+    {
+      "path": "LLM/output_json/doc_0253新疆东部马庄山金矿成矿作用同位素年代学研究_李华芹 .json",
+      "bytes": 9400,
+      "sha256": "e52d341a0393531a3616282980778638a1289ed9eaa1432e9cb428f14ab132b9"
+    },
+    {
+      "path": "LLM/output_json/doc_0254新疆东部金窝子金矿成因讨论——同位素地质年代学证据_陈富文.json",
+      "bytes": 10612,
+      "sha256": "b007cc7619307d8b9233155e81a61bb90085b3e151d84c1a822974440c55bbb0"
+    },
+    {
+      "path": "LLM/output_json/doc_0255新疆金窝子金矿床形成时代研究及成因机制讨论_王清利.json",
+      "bytes": 8806,
+      "sha256": "e37a5bfe6c87edb1b00041efedacb996862528e40b34ef375aa0b0f2f2a91e3f"
+    },
+    {
+      "path": "LLM/output_json/doc_0256金窝子岩体的地质特征及找金方向_席小平.json",
+      "bytes": 9427,
+      "sha256": "4d619723bd96d4265d7eaac16d8fc4adb3af4f488b6f684d9fe9851869bd91f8"
+    },
+    {
+      "path": "LLM/output_json/doc_0257金窝子金矿金的赋存状态和金矿物特征_舒斌.json",
+      "bytes": 9799,
+      "sha256": "b57b57404a21ef05baa893a5c27de5c7c64c6a5c66d72231afbecbaa02849234"
+    },
+    {
+      "path": "LLM/output_json/doc_0258金窝子金矿床的控矿因素分析_王厚庭.json",
+      "bytes": 8186,
+      "sha256": "a3b55b927fca6f56423e359db0b79bdb0348b0f39a652a10e4c7e447a0ef29c4"
+    },
+    {
+      "path": "LLM/output_json/doc_0259新疆金窝子金矿田地质特征及成矿条件分析_牛亮.json",
+      "bytes": 9972,
+      "sha256": "12572a7804812cfd4e220edc8afe0a42a728dc337a95d539e0cd422341b67710"
+    },
+    {
+      "path": "LLM/output_json/doc_0260新疆金窝子金矿床成矿特征及深部预测_张文璟.json",
+      "bytes": 7851,
+      "sha256": "d25f85bd574232d1e4c93ef31d125ddc4f6552c1faab98c2f154946b690c57f5"
+    },
+    {
+      "path": "LLM/output_json/doc_0261哈密金窝子金矿床同位素地球化学研究_张增杰.json",
+      "bytes": 7992,
+      "sha256": "782c5f0f52f7ce33fe67df3aad3deace2a1be94516010158838e7983148d1b46"
+    },
+    {
+      "path": "LLM/output_json/doc_0262新疆金窝子金矿流体包裹体研究_张增杰.json",
+      "bytes": 5586,
+      "sha256": "74b80645a7504de667817f28a2496cbfc0eef5e670c8bd49723d59de9e29b60e"
+    },
+    {
+      "path": "LLM/output_json/doc_0263浅论金窝子金矿床地质特征及找矿方向_余兆斌.json",
+      "bytes": 5746,
+      "sha256": "7a2370c89f7ee31445cb1bc7c2909a6796d06ef9db3f72983053240bea6e0bb9"
+    },
+    {
+      "path": "LLM/output_json/doc_0264新疆金窝子金矿床原生晕地球化学特征及深部找矿预测_牛亮.json",
+      "bytes": 7067,
+      "sha256": "a10cf8d247c0327d5fa529907bf35673c07d1f4a5743d06a7676577eed32095e"
+    },
+    {
+      "path": "LLM/output_json/doc_0265新疆西天山伊尔曼德金矿矿床地质及成矿机理初步研究_孙德慧.json",
+      "bytes": 9847,
+      "sha256": "de3c95701f6ca1bda3f653affe4a367516d4a621b5b0ed7772e77fbb14b2f902"
+    },
+    {
+      "path": "LLM/output_json/doc_0266新疆伊宁县伊尔曼德金矿床地球化学特征_翟伟.json",
+      "bytes": 7464,
+      "sha256": "186b4726d85e16afd27f0d5be728d954e0e7fe4516d16a53ff4e9bde6189c04f"
+    },
+    {
+      "path": "LLM/output_json/doc_0267西天山阿希、京希—伊尔曼得金矿床矿化类型探讨——来自流体包裹体的证据_冯娟萍.json",
+      "bytes": 8237,
+      "sha256": "324665797f871db636115a4a7db211b8faf43fea73a04c817fedbe63aa9fd5e4"
+    },
+    {
+      "path": "LLM/output_json/doc_0268新疆西天山高硫化型京希—伊尔曼德金矿床的识别标志及其找矿意义_肖龙.json",
+      "bytes": 7811,
+      "sha256": "06ea3cab672db8ec6a07777be19e04b025a2f32f3542dd7d39f6949d50fe3fc6"
+    },
+    {
+      "path": "LLM/output_json/doc_0269新疆京希-伊尔曼德金矿床矿化类型_热液蚀变及流体包裹体证据_肖龙.json",
+      "bytes": 7582,
+      "sha256": "6035cfb45607abc885dff4e750da79d997061097a382db34d0d8d8fcbb13797b"
+    },
+    {
+      "path": "LLM/output_json/doc_0270伊犁京希—伊尔曼德金矿床的热液蚀变及成矿流体演化特征_肖龙.json",
+      "bytes": 9530,
+      "sha256": "5dd5518eac7dc2a72082cd579b1b96bd9cda5c9662529181712ecbfff6b30d25"
+    },
+    {
+      "path": "LLM/output_json/doc_0271新疆阔尔真阔腊金矿床成矿流体包裹体研究_申萍.json",
+      "bytes": 5739,
+      "sha256": "992769063678ffe76012782690dd7382606a0b22402212d276cf85eda11ce2d8"
+    },
+    {
+      "path": "LLM/output_json/doc_0272西准噶尔阔尔真阔腊金矿区玄武安山岩锆石U-Pb年龄及其地质意义_邓宇峰.json",
+      "bytes": 5821,
+      "sha256": "fae9146039ec3716198b9ef9722eff0368d9091f3a32ac94a87526b797b22478"
+    },
+    {
+      "path": "LLM/output_json/doc_0273新疆萨吾尔山阔尔真阔腊浅成低温热液型金矿床_尹意求.json",
+      "bytes": 8646,
+      "sha256": "4244180c9bb01e00ae0d26af6cba920ea73d640cea9be234d435a5eca920d836"
+    },
+    {
+      "path": "LLM/output_json/doc_0274新疆阔尔真阔腊金矿田成矿流体地球化学及其意义_申萍.json",
+      "bytes": 14508,
+      "sha256": "249a55a35c181f9b6f6e46311341c63fee211801eebb26514f89f1e77696b2ec"
+    },
+    {
+      "path": "LLM/output_json/doc_0275新疆萨吾尔阔尔真阔腊矿床地质特征及成因研究_许超.json",
+      "bytes": 8207,
+      "sha256": "2106b92161b1cbd247edc3422531ebb257faa14e92ca67cc02ad3ce54538a7f9"
+    },
+    {
+      "path": "LLM/output_json/doc_0276阔尔真阔腊金矿床地质特征及成矿机理_李水河.json",
+      "bytes": 10106,
+      "sha256": "4de19ccaf69c77944a01fa00d25fd39b18bd3d39ffd9f197f9cb6b3a3df10dd7"
+    },
+    {
+      "path": "LLM/output_json/doc_0277阔尔真阔腊浅成低温热液金矿床成矿作用与成矿模式初探_廖启林.json",
+      "bytes": 10113,
+      "sha256": "4f488fb883108874fcd5402403ca4c1cfa518c6dc5fb492ca7979f19ee4df5a3"
+    },
+    {
+      "path": "LLM/output_json/doc_0278新疆阔尔真阔腊金矿床地质特征及找矿方向_孙国成.json",
+      "bytes": 9212,
+      "sha256": "9b12cb7cb1e5706519a9cccc0d5f069a212a5a6224d9d847d46fd5cb933d3a71"
+    },
+    {
+      "path": "LLM/output_json/doc_0279西准噶尔地区阔尔真阔腊金矿床金的赋存状态研究_杨治.json",
+      "bytes": 8926,
+      "sha256": "076827521baac3f06bf2b4396f06f7ee1eeb0722b525f4f6fad259fbc11f098a"
+    },
+    {
+      "path": "LLM/output_json/doc_0280准噶尔盆地西北缘阔尔真阔腊金矿床成矿作用年代学及矿床成因研究_蔡红.json",
+      "bytes": 10456,
+      "sha256": "79a24c7f60a6c0e7548c0035a82f637f6f821a4c09b68556a51da1b91999c43d"
+    },
+    {
+      "path": "LLM/output_json/doc_0281东天山马头滩韧性剪切带型金矿地质特征及成因_张连昌.json",
+      "bytes": 9053,
+      "sha256": "856f1ec7f99bee7bd900ac9fdd863a8ab079ce61585058ee91871f49bed0caf8"
+    },
+    {
+      "path": "LLM/output_json/doc_0282东天山马头滩金矿的成矿时代及其地质意义_刘重芃.json",
+      "bytes": 12845,
+      "sha256": "9b2a1ee8d7d7f136b702e9c34415ad7022e9c40588d95b9591772a86025bd4fc"
+    },
+    {
+      "path": "LLM/output_json/doc_0283东天山马头滩金矿成矿流体稀土元素特征_王志良.json",
+      "bytes": 12062,
+      "sha256": "608da8d9b2d558b99ccaaff01f12eb4fd818e876b961e3edcec35c7851cfe0ef"
+    },
+    {
+      "path": "LLM/output_json/doc_0284东天山马头滩金矿成矿地质特征_吴雪晶.json",
+      "bytes": 13850,
+      "sha256": "676e429bc392549542c202a8dae9032c6729abdae7ed114ed3c9b2b3061f5110"
+    },
+    {
+      "path": "LLM/output_json/doc_0285马头滩金矿床成矿地质特征、控矿因素及金的富集规律_蔡仲举.json",
+      "bytes": 15311,
+      "sha256": "2020be2b7dc3f9a49608c391adfb0f39e45199dbf4e9f3bd2df9feed8b28d80e"
+    },
+    {
+      "path": "LLM/output_json/doc_0286东天山马头滩金矿金赋存状态及矿物特征_李清峰.json",
+      "bytes": 8965,
+      "sha256": "83acad038476455ce365c8a0e082b57abc30200944c34d6a7a6949c0c47c0588"
+    },
+    {
+      "path": "LLM/output_json/doc_0287新疆哈巴河县托库孜巴依金矿地质特征及成因浅析_田晓云.json",
+      "bytes": 7532,
+      "sha256": "f43a6b538fb46f1a26128022fabce1874f899669a8e720ec3e6149b2de872cc0"
+    },
+    {
+      "path": "LLM/output_json/doc_0288新疆阿尔泰南缘托库孜巴依金矿成矿演化_石英脉系、同位素地球化学及其Ar-Ar年代学证据_李光明.json",
+      "bytes": 10391,
+      "sha256": "eb5146c69737d267845b7a16594279500ce33f5305e242ac940165a7b929991b"
+    },
+    {
+      "path": "LLM/output_json/doc_0289新疆托库孜巴依金矿床地质特征及成因_郑勇.json",
+      "bytes": 10312,
+      "sha256": "ba95fc669f113c7a9999e55dd64bf64caef4b758bcc2ec274888ae519db6c699"
+    },
+    {
+      "path": "LLM/output_json/doc_0290阿尔泰南缘托库孜巴依金矿床流体包裹体特征及成矿流体演化_张敏.json",
+      "bytes": 9611,
+      "sha256": "3ae69f86cd46f1eafb4d4e8fbfc2718ec08dbb48e2b43071d38166ea1d45fbf0"
+    },
+    {
+      "path": "LLM/output_json/doc_0291新疆哈巴河地区托库孜巴依金矿区两类含矿脉岩LA-ICP-MS锆石U-Pb年龄及其地质意义_周能武.json",
+      "bytes": 4147,
+      "sha256": "7ce93946283cd16bd4d03a711618caf9c0c8cde3960740b114b1b314764624b6"
+    },
+    {
+      "path": "LLM/output_json/doc_0292新疆托库孜巴依和金坝矿床闪长岩与金成矿关系：锆石定年与载金矿物特征约束_覃毅学.json",
+      "bytes": 11371,
+      "sha256": "66e0112450ad8329c3b1a9643f1b37226608600e4b9446e8d9326b335d424d43"
+    },
+    {
+      "path": "LLM/output_json/doc_0293新疆托库孜巴依金矿带中蚀变闪长岩型金矿体地质特征_刘诚.json",
+      "bytes": 10791,
+      "sha256": "3c1bd10b2130e8372a344ed2eac3f33a2ef2270a750cb7b290ba13fa71fea65a"
+    },
+    {
+      "path": "LLM/output_json/doc_0294新疆托库孜巴依金矿床地质、物化探特征及找矿前景_段旦.json",
+      "bytes": 9078,
+      "sha256": "0ce7aa3489a4591a93fc9a2bcbac48cb451d09a97c1fe91101625907948e8b54"
+    },
+    {
+      "path": "LLM/output_json/doc_0295阿尔泰南缘托库孜巴依金矿激电勘查及深部找矿指示_孔繁良.json",
+      "bytes": 2072,
+      "sha256": "9664e867d9a379d3d871198e998f9005e89285fd3a2dec12212514804acaada3"
+    },
+    {
+      "path": "LLM/output_json/doc_0296新疆哈巴河县托库孜巴依金矿1矿段12号矿脉特征及前景分析_石军军.json",
+      "bytes": 6542,
+      "sha256": "c1ecffb8e96297670b55e82ab197f82079c7960f14484d6f96c6eeca96b118ed"
+    },
+    {
+      "path": "LLM/output_json/doc_0297综合物探及多地球物理场联合反演在新疆托库孜巴依金矿的应用_樊晋鹏.json",
+      "bytes": 11010,
+      "sha256": "a5321ea182dbff6328ca32d76cb4c8c685f04c691dfd6aa76ed901c43e04aca3"
+    },
+    {
+      "path": "LLM/output_json/doc_0298新疆托库孜巴依金矿三维建模及靶区预测_张勇.json",
+      "bytes": 7489,
+      "sha256": "22bff3d943b47f92adcd44963334e788ec8129a5a4cdb126173a8f393804df2f"
+    },
+    {
+      "path": "LLM/output_json/doc_0299新疆阿勒泰托库孜巴依-金坝金矿成矿规律与深部找矿预测研究_刘飚.json",
+      "bytes": 13427,
+      "sha256": "ed7309a3e97c0bc87e8efdbbd337baefdfb33244fa7e5669248d52fd49454c40"
+    },
+    {
+      "path": "LLM/output_json/doc_0300西准噶尔地区哈什克木巴依金矿床地质特征及成因浅析_庄天明.json",
+      "bytes": 8315,
+      "sha256": "eb5b0c5639be5afcebbf3a7f40956d4b6e9773ec0f970790bac6646590d3945a"
+    },
+    {
+      "path": "LLM/output_json/doc_0301新疆伊吾淖毛湖金矿床地质特征及成矿模式_唐兴国.json",
+      "bytes": 9141,
+      "sha256": "62c09263502fdfbb6081ba672dca3c5cd8841140c4eed839da87a06ade6a03b5"
+    },
+    {
+      "path": "LLM/schema.json",
+      "bytes": 7444,
+      "sha256": "fdd4f4c035e82ada01403a76bf7704b64c708cd734ac8544e6a1b6747e76ebc2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8412,
+      "sha256": "b914a57c08dcb5c52dd451b0f30b9b23fe1870c6cbc23ef4a090bf2a8c9b7a77"
+    },
+    {
+      "path": "README_EN.md",
+      "bytes": 3039,
+      "sha256": "a6971db23c8f0af63af1429705c52eaac3a078e4c3fd4c93d2134399c66da8b2"
+    },
+    {
+      "path": "configs/baseline.json",
+      "bytes": 1160,
+      "sha256": "f6e7e9a85f45963244a8396793dc53489e05df441460a3bad340b7f045f61cf2"
+    },
+    {
+      "path": "data/intermediate/F1.csv",
+      "bytes": 1073,
+      "sha256": "e22df8f09d1cf67b20a72f6767255f45eb21c53502b28a4a41e21a9614e0e03d"
+    },
+    {
+      "path": "data/intermediate/F2.csv",
+      "bytes": 5686,
+      "sha256": "aa7ec001a4422cbd5c0c5ed67eff2fb7a75427dbf09401ecab528620efe3855d"
+    },
+    {
+      "path": "data/intermediate/F3.csv",
+      "bytes": 3935,
+      "sha256": "8a7c40f3253e7a679911a3f858ad2d6369aeb098fa6dc9e45a51e3622ba6f9cf"
+    },
+    {
+      "path": "data/processed/1004end_entity_summary.csv",
+      "bytes": 96718,
+      "sha256": "090ab0ba13b6ce86eb81fc0b8d9a9228a7cb189c3025c81ba0a90cd9d4ed90c2"
+    },
+    {
+      "path": "docs/data.md",
+      "bytes": 4040,
+      "sha256": "d80bac2b4b182360816cbedc7b7716842fda62be6e9c609243b11fd6bbbe089c"
+    },
+    {
+      "path": "docs/figures.md",
+      "bytes": 2073,
+      "sha256": "e5daad8f3ad9b1f928e7dd0f8c3f99aa633e1519521dc649f362ce7ac2782d32"
+    },
+    {
+      "path": "docs/method.md",
+      "bytes": 3433,
+      "sha256": "10c19c029c74a94c50bdd3bd47d85b1a2763232a92ad9ba62fd88fb2150c6ddf"
+    },
+    {
+      "path": "docs/organization.md",
+      "bytes": 2716,
+      "sha256": "18f71a3faec2e25db3b441cf589a4f6f76e8a4c0d2e30ea7c339abdb541085e8"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "bytes": 4470,
+      "sha256": "bba38bb4722dfa4bd4ee19da55231edafbd36968d24378ba4b305609e914b7d8"
+    },
+    {
+      "path": "figures/F1/display_data.csv",
+      "bytes": 685,
+      "sha256": "30cc114fe5672af4d103630ddeb7e28dea7170916936f816f435024a88057c24"
+    },
+    {
+      "path": "figures/F1/feature_support_coverage.pdf",
+      "bytes": 51119,
+      "sha256": "0c7024760a3059d5cf538c3b0837bf587cf0a0c92b8d59c640eb32018c173cc6"
+    },
+    {
+      "path": "figures/F1/feature_support_coverage.png",
+      "bytes": 355523,
+      "sha256": "7ceee27a9739712d71f86c4b911b2b10435b3b91efde9624452bcd040e594d72"
+    },
+    {
+      "path": "figures/F1/feature_support_coverage.svg",
+      "bytes": 67307,
+      "sha256": "46d2d1bee28f3b9e548a7caa24c1121bbddd1a78085a83cfea78aece2f7537a4"
+    },
+    {
+      "path": "figures/F1/figure_metadata.json",
+      "bytes": 359,
+      "sha256": "74dfde3f3a39a8562d33e46d620d850a11c26f7d8ae033412365f83d87232b27"
+    },
+    {
+      "path": "figures/F1/plot_data.csv",
+      "bytes": 1073,
+      "sha256": "e22df8f09d1cf67b20a72f6767255f45eb21c53502b28a4a41e21a9614e0e03d"
+    },
+    {
+      "path": "figures/F2/feature_internal_support_v3.pdf",
+      "bytes": 86798,
+      "sha256": "9a4843437a78fe29dd381f15fe9539f113bc1754d06ec4d788da4f3a0864ba46"
+    },
+    {
+      "path": "figures/F2/feature_internal_support_v3.png",
+      "bytes": 908290,
+      "sha256": "f4822ecbf3698a1fad724b76c1bb9782e4fad0b4ce2882ffafb3dcc1cb258005"
+    },
+    {
+      "path": "figures/F2/feature_internal_support_v3.svg",
+      "bytes": 175504,
+      "sha256": "c88a441053c0e77672c476f7d1c0f2101ef60bfd909868b61a6291a512bac64d"
+    },
+    {
+      "path": "figures/F2/figure_metadata.json",
+      "bytes": 806,
+      "sha256": "4d3227b12c5536f9a30bf00d1c7ef4a794cee157a59b6010420fde75729b7b36"
+    },
+    {
+      "path": "figures/F2/plot_data.csv",
+      "bytes": 5686,
+      "sha256": "aa7ec001a4422cbd5c0c5ed67eff2fb7a75427dbf09401ecab528620efe3855d"
+    },
+    {
+      "path": "figures/F3/figure_metadata.json",
+      "bytes": 507,
+      "sha256": "54f2c7f55fbe2ebd28809086743c9dcf7f65a1501350610e4253495e74f1ed6b"
+    },
+    {
+      "path": "figures/F3/high_order_pattern_forest_table.pdf",
+      "bytes": 69612,
+      "sha256": "8eaccc0e8446aed58bc8f6f265524788dce54e879a4eca26fd46b6a2d96e33a7"
+    },
+    {
+      "path": "figures/F3/high_order_pattern_forest_table.png",
+      "bytes": 955358,
+      "sha256": "306b2107334ebd8ff8d7b9690ddbc8a7818f4a5ad2cd617d538cac193a2a7e51"
+    },
+    {
+      "path": "figures/F3/high_order_pattern_forest_table.svg",
+      "bytes": 116968,
+      "sha256": "859bf2c98b8d0c480115e05161221ecc5576bf1634183bb0bb07c836bbdc4f00"
+    },
+    {
+      "path": "figures/F3/plot_data.csv",
+      "bytes": 3935,
+      "sha256": "8a7c40f3253e7a679911a3f858ad2d6369aeb098fa6dc9e45a51e3622ba6f9cf"
+    },
+    {
+      "path": "figures/F4/display_data.csv",
+      "bytes": 1327,
+      "sha256": "4163d1f1e30823eeb94b2c47576a0ac7990da8238ea9b9edef8eadd510391eef"
+    },
+    {
+      "path": "figures/F4/feature_support_order2_order3.pdf",
+      "bytes": 48015,
+      "sha256": "fbe7b2697c487d64f3e3ac0cf825d3de9e1101a9a7388275c83ddd792c560076"
+    },
+    {
+      "path": "figures/F4/feature_support_order2_order3.png",
+      "bytes": 299047,
+      "sha256": "ba1baa9085c377b4537bc88f1d3a6c07948472e4496a6315ae26da64b81cd63d"
+    },
+    {
+      "path": "figures/F4/feature_support_order2_order3.svg",
+      "bytes": 62224,
+      "sha256": "f1e929d0bb219dfc240d442ba2dea8656411e7d25425a4c684afa82b3fc5a8b3"
+    },
+    {
+      "path": "figures/F4/figure_metadata.json",
+      "bytes": 461,
+      "sha256": "ac67ce9505a77070c1f10732aa10d5fc87d1e805dbf2c523f7883d4274e05fcc"
+    },
+    {
+      "path": "requirements-reproduced.txt",
+      "bytes": 189,
+      "sha256": "49d7cc689d30842f97494ef2075bffa6be4b07eb95d87735264904cc432bb197"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 49,
+      "sha256": "d687f042b298dae785c9fd2e940be96f2b16bb6578f32a75b0827e061ce6cac9"
+    },
+    {
+      "path": "results/baseline/case_record_evidence.csv",
+      "bytes": 25243,
+      "sha256": "7ccb24fe610f3918bd49199c943a81568aea44f6a7bbb848d7fc95bf44185ebf"
+    },
+    {
+      "path": "results/baseline/cases.json",
+      "bytes": 2783,
+      "sha256": "3854d4d9ed9c05ed8c0cac4e654c76fd87e27f6ce85bfb194f61af08d61f8b45"
+    },
+    {
+      "path": "results/baseline/display_selection.csv",
+      "bytes": 3599,
+      "sha256": "25b0c39bb1411f429cf715995145432fbc0c25660d83193f5eaa8fc7110006b7"
+    },
+    {
+      "path": "results/baseline/entities.csv",
+      "bytes": 75879,
+      "sha256": "ba977995dbeb37f71a855b1f1b2c83a0a8dd99b05715129d5ab39f421cdab413"
+    },
+    {
+      "path": "results/baseline/features.csv",
+      "bytes": 1073,
+      "sha256": "e22df8f09d1cf67b20a72f6767255f45eb21c53502b28a4a41e21a9614e0e03d"
+    },
+    {
+      "path": "results/baseline/group_sources.csv",
+      "bytes": 21583,
+      "sha256": "d05e26c02505d137cf0117d2b8d3b02fb4257d9afb1128f1e7e1943bc6177f8c"
+    },
+    {
+      "path": "results/baseline/items.csv",
+      "bytes": 128570,
+      "sha256": "446bbfb5ed296da3f1940f9381857f5a957225eb14ccfc89604368f86506932a"
+    },
+    {
+      "path": "results/baseline/label_map.csv",
+      "bytes": 118450,
+      "sha256": "f7c0df2eb949df37607f11633161c9785262350522eef165ead76c43d61ef9b4"
+    },
+    {
+      "path": "results/baseline/pattern_members.csv",
+      "bytes": 1292844,
+      "sha256": "ec1a68253714e79f30d243b145c0e219221bdfee68eb09e24968e6150e651fcc"
+    },
+    {
+      "path": "results/baseline/patterns.csv",
+      "bytes": 3706569,
+      "sha256": "01de735b24ac16106cddc4c8bd1f4b13ad44d85b0f3cc1266b5af0bf950aad23"
+    },
+    {
+      "path": "results/baseline/summary.json",
+      "bytes": 688,
+      "sha256": "240245562a3f337d8eff1903ba626ffee65e67767689760d462fca978a08132d"
+    },
+    {
+      "path": "results/order_decomposition/checks.json",
+      "bytes": 293,
+      "sha256": "0a7454615d468e8a92c26e4f22becfc4c61f52fd6acb5588e65d27c520163779"
+    },
+    {
+      "path": "results/order_decomposition/feature_reconciliation.csv",
+      "bytes": 3752,
+      "sha256": "878fe4eb575d273286f675799ce30507ac15fb1fc2b24f0815b2a5e080347f51"
+    },
+    {
+      "path": "results/order_decomposition/features_order2.csv",
+      "bytes": 1122,
+      "sha256": "1c8efdd1de6d54589c5e805e273a86c18e72c45247689665b6425a28577a5517"
+    },
+    {
+      "path": "results/order_decomposition/features_order3.csv",
+      "bytes": 1117,
+      "sha256": "965c2aa1eddd9002d3aafbb014fbb32992280ffe94e871f9086be1fd7db31c96"
+    },
+    {
+      "path": "results/order_decomposition/patterns_order2.csv",
+      "bytes": 376558,
+      "sha256": "e02b1010a817f94ed93685801c251ac8736b475a57316b81861a2a3c37c97c94"
+    },
+    {
+      "path": "results/order_decomposition/patterns_order3.csv",
+      "bytes": 3330138,
+      "sha256": "3a81ef0e33a320dc1d7ee7f04553e4cc48bdf5593bbcb261d9889dad2645f5f1"
+    },
+    {
+      "path": "results/order_decomposition/summary.json",
+      "bytes": 1190,
+      "sha256": "37453ec61302a8306115a309c3e88b71bb1f02ea9ef7e9df8639d34650e46eda"
+    },
+    {
+      "path": "scripts/reproduce.py",
+      "bytes": 3134,
+      "sha256": "905d09158aea2fb88047a5819fe8b63443386a6efbd669089506b30510114636"
+    },
+    {
+      "path": "scripts/verify.py",
+      "bytes": 2579,
+      "sha256": "0f61ee4170c8e80b79a33aea5eeebd942c2247b9489df1790a71eda961995b4f"
+    },
+    {
+      "path": "src/analysis/decompose_orders.py",
+      "bytes": 4256,
+      "sha256": "f99493cdaa0dcde1455f72c55ca75cb6a4a57438ab6f2ada8340059e8085ebc1"
+    },
+    {
+      "path": "src/analysis/export_paper_tables.py",
+      "bytes": 2852,
+      "sha256": "c6a9bc7a5ac53989c533817e98f2b99d1d5d16a0197e303cd4935998a370e9d0"
+    },
+    {
+      "path": "src/analysis/io_records.py",
+      "bytes": 2512,
+      "sha256": "c379b0c6dd0bf03a7a3922be713fc79302878f696758bc850eb9587bcd78eba9"
+    },
+    {
+      "path": "src/analysis/mine_support.py",
+      "bytes": 6360,
+      "sha256": "7695c2b1efd250172b2f7fe5d626cb494ef7b34981f542f970ab35c75f2600db"
+    },
+    {
+      "path": "src/analysis/run_analysis.py",
+      "bytes": 12230,
+      "sha256": "0624bd9f8336f1e0b58505471e33b6d55bb52a5e54161042efc291b668aa7adc"
+    },
+    {
+      "path": "src/analysis/runtime_env.py",
+      "bytes": 442,
+      "sha256": "7823b374a1929ca93b3403af267e65520ce972b5de0f8e81dc6b407d33942f4a"
+    },
+    {
+      "path": "src/plotting/plot_f1.py",
+      "bytes": 5510,
+      "sha256": "99ac37c59630be8d8d64e98579201158e86a290c25e03b4b03c85ac2071276b5"
+    },
+    {
+      "path": "src/plotting/plot_f2.py",
+      "bytes": 6639,
+      "sha256": "1810596220ed411da1abe12884403e14590f940e9e23cbec68cbaba20ee637ed"
+    },
+    {
+      "path": "src/plotting/plot_f3.py",
+      "bytes": 5816,
+      "sha256": "18ca8119baa783ddef80c755f59f02be6e1a4056cc0df06a161b9ffd276c1a73"
+    },
+    {
+      "path": "src/plotting/plot_f4.py",
+      "bytes": 4441,
+      "sha256": "8e1b20081480b672c97d413970406e9c100b607596fac09f9c48b70f00ba68e5"
+    },
+    {
+      "path": "tables/F3_match_overlap.csv",
+      "bytes": 1093,
+      "sha256": "b4a7a66c450ac58f7507e8411aa4e991ed34d68e95f276ad6d527305564b2357"
+    },
+    {
+      "path": "tables/T1_dataset_statistics.csv",
+      "bytes": 261,
+      "sha256": "b45db13456c6de189e013393817acaac4e8ce133ffd76888638b07d9d7512424"
+    },
+    {
+      "path": "tables/T2_analysis_settings.csv",
+      "bytes": 138,
+      "sha256": "11436b8fe74227f52fe1f9bc732f4cf74bebc473001526bb95f98473e5cf4fba"
+    },
+    {
+      "path": "tables/T2_case_counts.csv",
+      "bytes": 1645,
+      "sha256": "9c90ba91ae892c231bbcf78398cb9979844b08c9a25cdf1f48b53095300a958c"
+    },
+    {
+      "path": "tables/T3_topic_patterns.csv",
+      "bytes": 1471,
+      "sha256": "a6787c58092224fbab5142ba65a9edd09e7af97b227186db3790edaa8f01a8f6"
+    },
+    {
+      "path": "tables/T3_topic_patterns.json",
+      "bytes": 2401,
+      "sha256": "f1e29c07fc0b02f4654a4df7d7150b0e0cb9dce8f4f310a63953108e2b5c91ee"
+    },
+    {
+      "path": "tests/test_method.py",
+      "bytes": 1268,
+      "sha256": "19ba128cebd9d56cd47b48d62d40f7c3298222b423138e1f6262802dd41c3061"
+    },
+    {
+      "path": "validation/baseline/checks.json",
+      "bytes": 1275,
+      "sha256": "2946a9e928227a991272f60f437861b2859656e96460fe6f2da20c8cb7cef5f6"
+    },
+    {
+      "path": "validation/baseline/input_snapshot.json",
+      "bytes": 190,
+      "sha256": "56934e5de63c35e81049cde09a80cdd2527ba631880e1045eac21442c07e6e4a"
+    },
+    {
+      "path": "validation/baseline/paper_consistency.json",
+      "bytes": 464,
+      "sha256": "a6833c76a87cc19f407d82cf756f6cf2905c864d62ee308657fa1077035c8ff3"
+    },
+    {
+      "path": "validation/baseline/provenance.json",
+      "bytes": 1354,
+      "sha256": "2a4721f676977880d99a9f007f12f549be0f428af880b68a38668b1a9ee8eb62"
+    },
+    {
+      "path": "validation/baseline/source_lookup.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "validation/regression.json",
+      "bytes": 3329,
+      "sha256": "9be7ad647c350496867e0b04c6a1ee82888ac140349a36069070275e1d15269f"
+    },
+    {
+      "path": "validation/release_validation.json",
+      "bytes": 1712,
+      "sha256": "04ff60ae35d9ad7d1fb8eda1a62e1e8bc2475a8903aca4a800dda0d09cf8f8b4"
+    },
+    {
+      "path": "validation/run.json",
+      "bytes": 1630,
+      "sha256": "61ebf0100c0dd7571294ae4931c89d80a98f20a08682ea9d38535ac9f504f276"
+    },
+    {
+      "path": "validation/source_manifest.json",
+      "bytes": 13912,
+      "sha256": "19b6fb728f49e7dfdd67367c15cc388fb0c04279bfc3eb75303d96ff77bfea73"
+    }
+  ]
+}

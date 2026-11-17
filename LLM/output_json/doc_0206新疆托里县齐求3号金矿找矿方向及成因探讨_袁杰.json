@@ -1,0 +1,188 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0206",
+"title": "新疆托里县齐求3号金矿找矿方向及成因探讨_袁杰",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床（3号）",
+"attributes": {
+"name": "齐求金矿床（3号）",
+"location": "新疆托里县齐求地区，安齐断裂带内",
+"tectonic_position": "哈萨克斯坦-准噶尔板块西准噶尔古生代弧盆系；准噶尔成矿域西准噶尔成矿带（扎伊尔金成矿带）；华力西期玛依拉—扎依尔褶皱带扎依尔—达拉布特复向斜东段北翼",
+"deposit_type": "造山型金矿床",
+"ore_grade": "1.02-19.60×10^-6，平均3.67×10^-6",
+"ore_control_features": "位于安齐断裂带内；矿体主要赋存于安齐断裂带内北东向次级断层中；近东西向与北西向断裂亦发育，矿体多出现在断裂交汇处或断裂产状变缓处；以石英脉为中心向两侧矿化逐渐变弱"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔成矿带（扎伊尔金成矿带）",
+"attributes": {
+"name": "西准噶尔成矿带（扎伊尔金成矿带）",
+"level": "成矿带",
+"tectonic_setting": "哈萨克斯坦-准噶尔板块西准噶尔古生代弧盆系；华力西期玛依拉—扎依尔褶皱带内的扎依尔—达拉布特复向斜东段北翼"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统太勒古拉组",
+"attributes": {
+"name": "下石炭统太勒古拉组",
+"age": "下石炭世",
+"dominant_lithology": "薄层状细粒凝灰岩、蚀变安山质熔结凝灰岩、凝灰质粉砂岩、凝灰质粉砂质碳质泥岩互层",
+"lithology_notes": "矿区出露地层单一，主要为太勒古拉组（局部见第四系风成砂）"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "含碳凝灰质砂岩—凝灰质砂岩破碎带围岩",
+"attributes": {
+"name": "含碳凝灰质砂岩—凝灰质砂岩破碎带围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "安齐断裂带",
+"attributes": {
+"name": "安齐断裂带",
+"structure_type": "断裂带",
+"orientation": "北东向",
+"scale": "宽约900米，长约30km",
+"ore_control_role": "区域性主干断裂，为主要导矿构造；其上盘发育多组次级断裂构成构造网络，矿体主要赋存于断裂带内北东向次级断层中"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "北东向次级断层",
+"attributes": {
+"name": "北东向次级断层",
+"structure_type": "次级断裂",
+"orientation": "北东向",
+"scale": "安齐断裂带内低序次构造",
+"ore_control_role": "为区内主要控矿构造，矿体主要赋存于该类次级断层中，断裂交汇处或产状变缓处金更易富集"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化-黄铁矿化-绢云母化-碳酸盐化-绿泥石化蚀变",
+"attributes": {
+"name": "硅化-黄铁矿化-绢云母化-碳酸盐化-绿泥石化蚀变",
+"alteration_minerals": "石英、黄铁矿、绢云母、绿泥石、高岭土、赤铁矿、褐铁矿、方解石",
+"intensity": "主要发育在断裂带及相关破碎带内；黄铁矿化与金关系密切；绢云母化强烈处含金较好，可作为找矿标志之一"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "与金矿化关系密切的硫化物矿物，为重要找矿标志",
+"paragenesis": "多发生在石英脉两侧围岩中；早期黄铁矿自形程度较高，晚期黄铁矿呈细粒状、星点状及细脉状"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要载金体与主要脉石矿物",
+"paragenesis": "形成单脉状石英脉及含脉状、细脉状、网脉状多期石英脉；石英脉常呈灰-浅黄褐色铁染并与金矿化密切相关"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "金（Au）品位数据",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "1.02-19.60×10^-6（平均3.67×10^-6）",
+"anomaly_pattern": "品位变化系数一般121%，矿体厚度0.60-3.07m（平均1.94m）"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "齐求3号金矿床位于西准噶尔成矿带（扎伊尔金成矿带）内（来源：）"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "矿体含矿层为破碎带，主岩为含碳凝灰质砂岩，围岩为凝灰质砂岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "含碳凝灰质砂岩—凝灰质砂岩破碎带围岩属于下石炭统太勒古拉组地层"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "安齐断裂带为主要导矿构造，控制并限定齐求3号金矿床的分布与产出"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "矿体主要赋存于安齐断裂带内的北东向次级断层中，断裂交汇处或断裂产状变缓处金较为富集"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区断裂带及破碎带内普遍发育硅化、黄铁矿化、绢云母化、碳酸盐化、绿泥石化等蚀变并与金矿化关系密切"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "矿区黄铁矿化广泛发育且与金关系密切，为重要找矿标志"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "石英脉为主要载金体，金矿化以石英脉为中心向两侧逐渐变弱，石英脉具多期性并常见破碎与铁染"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "齐求3号金矿床金（Au）品位为1.02-19.60×10^-6，平均3.67×10^-6"
+}
+]
+}

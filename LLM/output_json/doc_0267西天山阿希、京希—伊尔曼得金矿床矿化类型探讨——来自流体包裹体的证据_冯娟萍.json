@@ -1,0 +1,243 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0267",
+"title": "西天山阿希、京希—伊尔曼得金矿床矿化类型探讨——来自流体包裹体的证据_冯娟萍",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆伊宁县北部吐拉苏盆地内",
+"tectonic_position": "位于哈萨克斯坦板块伊犁—中天山板段博罗科努早古生代岛弧带之上，构造上为吐拉苏断陷",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "成矿流体向上迁移受断裂通道及深部热源与深部流体共同作用控制，矿化与强烈次生石英岩化密切相关",
+"age_ma": "晚古生代中期"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "京希—伊尔曼得金矿床",
+"attributes": {
+"name": "京希—伊尔曼得金矿床",
+"location": "新疆伊宁县北部吐拉苏盆地内",
+"tectonic_position": "位于哈萨克斯坦板块伊犁—中天山板段博罗科努早古生代岛弧带之上，构造上为吐拉苏断陷",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "成矿流体向上迁移受断裂通道及深部热源与深部流体共同作用控制，矿化与强烈次生石英岩化密切相关",
+"age_ma": "晚古生代中期"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "吐拉苏盆地",
+"attributes": {
+"name": "吐拉苏盆地",
+"level": "盆地（断陷）",
+"tectonic_setting": "位于哈萨克斯坦板块伊犁—中天山板段博罗科努早古生代岛弧带之上，构造上称为吐拉苏断陷"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组",
+"attributes": {
+"name": "下石炭统大哈拉军山组",
+"age": "下石炭统",
+"dominant_lithology": "陆相中性、中酸性火山岩与火山碎屑岩",
+"lithology_notes": "与金成矿关系密切"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "下石炭统大哈拉军山组火山岩—火山碎屑岩围岩",
+"attributes": {
+"name": "下石炭统大哈拉军山组火山岩—火山碎屑岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "次生石英岩化",
+"attributes": {
+"name": "次生石英岩化",
+"alteration_minerals": "石英为主，伴生绢云母、绿泥石、高岭石、绿帘石、方解石、重晶石等",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物（以其为主）",
+"paragenesis": "与石英等脉石矿物及其他硫化物共生"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "金属矿物（次要）",
+"paragenesis": "与黄铁矿、石英等共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物（次生石英岩型矿石主要组成）",
+"paragenesis": "与绢云母、绿泥石、高岭石、绿帘石、方解石、重晶石及硫化物共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "阿希—京希—伊尔曼得金矿床成矿流体",
+"attributes": {
+"nature": "以液态水为主，普遍含二氧化碳和甲烷；气相以二氧化碳和甲烷为主，含较高二氧化硫和氮气，部分样品含有机化合物",
+"source": "早期成矿流体可能主要来源于深部，晚期有大气降水参与",
+"temperature_C_min": "90",
+"temperature_C_max": "275",
+"pressure_MPa_min": "6",
+"pressure_MPa_max": "48",
+"salinity_wtNaCl_min": "0",
+"salinity_wtNaCl_max": "3.7",
+"delta_fO2_buffer_min": "",
+"delta_fO2_buffer_max": "",
+"fO2_buffer": ""
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于新疆伊宁县北部吐拉苏盆地内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "京希—伊尔曼得金矿床位于新疆伊宁县北部吐拉苏盆地内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "阿希金矿床与下石炭统大哈拉军山组火山岩—火山碎屑岩围岩关系密切"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "京希—伊尔曼得金矿床与下石炭统大哈拉军山组火山岩—火山碎屑岩围岩关系密切"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "下石炭统大哈拉军山组火山岩—火山碎屑岩围岩属于下石炭统大哈拉军山组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿床成矿作用与强烈次生石英岩化密切相关，形成次生石英岩型矿化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "京希—伊尔曼得金矿床成矿作用与强烈次生石英岩化密切相关，形成次生石英岩型矿化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要金矿物为",
+"description": "阿希金矿床矿石金属矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床矿石中共生金属矿物包括毒砂等"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿床矿石脉石矿物以石英为主"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要金矿物为",
+"description": "京希—伊尔曼得金矿床矿石金属矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "京希—伊尔曼得金矿床矿石中共生金属矿物包括毒砂等"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "京希—伊尔曼得金矿床矿石脉石矿物以石英为主"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希金矿床成矿流体以水为主，含二氧化碳和甲烷，均一温度约90～275℃，盐度约0～3.7%（wt% NaCl当量）"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "京希—伊尔曼得金矿床成矿流体以水为主，含二氧化碳和甲烷，均一温度约90～275℃，盐度约0～3.7%（wt% NaCl当量）"
+}
+]
+}

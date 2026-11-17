@@ -1,0 +1,201 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0071",
+"title": "西天山阿希金矿床围岩蚀变",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "西天山地区",
+"tectonic_position": "西天山地区典型低硫型浅成低温热液型金矿成矿区",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "蚀变带受断裂控制，发育以矿体为中心向外依次为硅化、黄铁绢英岩化和青磐岩化的蚀变分带"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西天山地区",
+"attributes": {
+"name": "西天山地区",
+"level": "区域",
+"tectonic_setting": "西天山地区为低硫型浅成低温热液金矿发育区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Alteration",
+"name_zh": "硅化蚀变带",
+"attributes": {
+"name": "硅化蚀变带",
+"alteration_minerals": "以石英等硅质矿物为主的硅化蚀变组合",
+"intensity": "位于蚀变带内侧，与石英脉型矿石成矿期相对应，蚀变强度较高"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化蚀变带",
+"attributes": {
+"name": "黄铁绢英岩化蚀变带",
+"alteration_minerals": "黄铁矿、绢云母等组成的黄铁绢英岩化矿物组合",
+"intensity": "黄铁绢英岩化岩石富集 SiO₂、K₂O、Ag、As、Mo、Bi 和 Pb，强烈亏损 CaO、Na₂O 及 Sr、Cs、Ba 等大离子亲石元素"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "青磐岩化蚀变带",
+"attributes": {
+"name": "青磐岩化蚀变带",
+"alteration_minerals": "青磐岩化矿物组合",
+"intensity": "与黄铁绢英岩化带一起形成早期蚀变带，位于蚀变分带外侧"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "石英-碳酸盐化蚀变带",
+"attributes": {
+"name": "石英-碳酸盐化蚀变带",
+"alteration_minerals": "石英及碳酸盐矿物组合",
+"intensity": "石英-碳酸盐化过程中元素迁移量较大，主要富集 SiO₂、MgO、CaO、Li、Ba 和 As，亏损 K₂O、Na₂O、P₂O₅、Pb 和 Zn 等元素"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "矿区断裂构造",
+"attributes": {
+"name": "矿区断裂构造",
+"structure_type": "断裂",
+"scale": "控制阿希金矿蚀变带展布的矿区断裂系统",
+"ore_control_role": "阿希金矿蚀变带受断裂控制，蚀变分带围绕矿体呈环带状展布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿成矿流体",
+"attributes": {
+"nature": "低硫型浅成低温热液成矿流体，成矿机制为热液沸腾作用和水岩反应，Au 在热液中以 AuCl₂⁻、AuHS、Au(HS)₂⁻、AuH₃SiO₄⁰ 等络合物形式迁移并通过络合物不稳定分解沉淀成矿"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geochem",
+"name_zh": "黄铁绢英岩化地球化学特征",
+"attributes": {
+"element": "SiO₂、K₂O、Ag、As、Mo、Bi、Pb、CaO、Na₂O、Sr、Cs、Ba",
+"value_ppm": "文中未给出具体含量，仅给出相对富集与亏损特征",
+"anomaly_pattern": "黄铁绢英岩化岩石富集 SiO₂、K₂O、Ag、As、Mo、Bi 和 Pb，强烈亏损 CaO、Na₂O 以及大离子亲石元素 Sr、Cs 和 Ba"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "硅化蚀变地球化学特征",
+"attributes": {
+"element": "SiO₂、Bi、Pb、Ag、As、MgO、CaO、Na₂O、Ba、U",
+"value_ppm": "文中未给出具体含量，仅给出相对富集与亏损特征",
+"anomaly_pattern": "硅化过程中富集 SiO₂、Bi、Pb、Ag 和 As，而 MgO、CaO、Na₂O、Ba 和 U 出现亏损"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "石英-碳酸盐化地球化学特征",
+"attributes": {
+"element": "SiO₂、MgO、CaO、Li、Ba、As、K₂O、Na₂O、P₂O₅、Pb、Zn",
+"value_ppm": "文中未给出具体含量，仅给出相对富集与亏损特征",
+"anomaly_pattern": "石英-碳酸盐化过程中元素迁移量较大，主要富集 SiO₂、MgO、CaO、Li、Ba 和 As，亏损 K₂O、Na₂O、P₂O₅、Pb 和 Zn 等元素"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿是西天山地区典型的低硫型浅成低温热液型金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "阿希金矿蚀变带受矿区断裂构造控制，围绕矿体形成环带状分带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿以矿体为中心向外发育硅化蚀变带，硅化带与石英脉型矿石成矿期相对应"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿外围发育黄铁绢英岩化蚀变带，为重要蚀变类型之一"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿外围还发育青磐岩化蚀变带，与黄铁绢英岩化带一起构成早期蚀变分带"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "伴随有",
+"description": "阿希金矿在硅化、黄铁绢英岩化之外还发育石英-碳酸盐化蚀变，对元素质量迁移影响显著"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希金矿的成矿机制为热液沸腾作用和水岩反应，成矿流体为低硫型浅成低温热液流体，Au 以多种络合物形式迁移并因络合物不稳定分解而沉淀"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "阿希金矿黄铁绢英岩化蚀变带地球化学特征表现为 SiO₂、K₂O、Ag、As、Mo、Bi 和 Pb 富集，CaO、Na₂O 及 Sr、Cs、Ba 强烈亏损"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "阿希金矿硅化蚀变过程中 SiO₂、Bi、Pb、Ag 和 As 富集，而 MgO、CaO、Na₂O、Ba 和 U 出现亏损"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "阿希金矿石英-碳酸盐化过程中元素迁移量较大，主要富集 SiO₂、MgO、CaO、Li、Ba 和 As，亏损 K₂O、Na₂O、P₂O₅、Pb 和 Zn 等元素"
+}
+]
+}

@@ -1,0 +1,349 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0137",
+"title": "新疆石英滩金矿岩石地球化学异常评价与找矿",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "石英滩金矿床",
+"attributes": {
+"name": "石英滩金矿床",
+"location": "东天山康古尔塔格金矿带西段",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "北东向和北西向断裂控制石英滩古火山机构的产出，金矿床产于古火山机构西北部的安山—英安质熔岩及火山碎屑岩中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东天山康古尔塔格金矿带",
+"attributes": {
+"name": "东天山康古尔塔格金矿带",
+"level": "成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "石炭系",
+"attributes": {
+"name": "石炭系",
+"age": "石炭纪",
+"lithology_notes": "区内岩性主要为石炭系和二叠系的安山岩、英安岩、角砾凝灰岩、角砾熔岩等"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "二叠系",
+"attributes": {
+"name": "二叠系",
+"age": "二叠纪",
+"lithology_notes": "区内岩性主要为石炭系和二叠系的安山岩、英安岩、角砾凝灰岩、角砾熔岩等"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "北东向断裂",
+"attributes": {
+"name": "北东向断裂",
+"structure_type": "断裂",
+"orientation": "北东向",
+"scale": "矿区尺度",
+"ore_control_role": "与北西向断裂共同控制石英滩古火山机构产出并控制金矿床产出"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "北西向断裂",
+"attributes": {
+"name": "北西向断裂",
+"structure_type": "断裂",
+"orientation": "北西向",
+"scale": "矿区尺度",
+"ore_control_role": "与北东向断裂共同控制石英滩古火山机构产出并控制金矿床产出"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "安山—英安质熔岩及火山碎屑岩",
+"attributes": {
+"name": "安山—英安质熔岩及火山碎屑岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "中酸性安山—英安质火山熔岩、火山碎屑岩及流纹斑岩次火山岩杂岩体",
+"attributes": {
+"name": "中酸性安山—英安质火山熔岩、火山碎屑岩及流纹斑岩次火山岩杂岩体"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化",
+"attributes": {
+"name": "黄铁绢英岩化"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "金元素地球化学数据",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "全区岩石平均值为25.79×10⁻⁹；成矿带金平均背景含量为0.97×10⁻⁹",
+"anomaly_pattern": "区内各类岩石金平均含量较高，高出地壳克拉克值3～11倍，明显高于成矿带金平均背景含量"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "砷元素垂向分带信息",
+"attributes": {
+"element": "砷（As）",
+"anomaly_pattern": "原生晕垂向分带序列自上而下为(As、Hg)—(Sb、Zn)—(Au、Ag)—(Cu、Bi、Mo)，As位于上部"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "汞元素垂向分带信息",
+"attributes": {
+"element": "汞（Hg）",
+"anomaly_pattern": "原生晕垂向分带序列自上而下为(As、Hg)—(Sb、Zn)—(Au、Ag)—(Cu、Bi、Mo)，Hg位于上部"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "锑元素垂向分带信息",
+"attributes": {
+"element": "锑（Sb）",
+"anomaly_pattern": "原生晕垂向分带序列自上而下为(As、Hg)—(Sb、Zn)—(Au、Ag)—(Cu、Bi、Mo)，Sb位于中上部"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "锌元素垂向分带信息",
+"attributes": {
+"element": "锌（Zn）",
+"anomaly_pattern": "原生晕垂向分带序列自上而下为(As、Hg)—(Sb、Zn)—(Au、Ag)—(Cu、Bi、Mo)，Zn位于中上部"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geochem",
+"name_zh": "银元素垂向分带信息",
+"attributes": {
+"element": "银（Ag）",
+"anomaly_pattern": "原生晕垂向分带序列自上而下为(As、Hg)—(Sb、Zn)—(Au、Ag)—(Cu、Bi、Mo)，Ag位于中下部"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geochem",
+"name_zh": "铜元素垂向分带信息",
+"attributes": {
+"element": "铜（Cu）",
+"anomaly_pattern": "原生晕垂向分带序列自上而下为(As、Hg)—(Sb、Zn)—(Au、Ag)—(Cu、Bi、Mo)，Cu位于下部"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geochem",
+"name_zh": "铋元素垂向分带信息",
+"attributes": {
+"element": "铋（Bi）",
+"anomaly_pattern": "原生晕垂向分带序列自上而下为(As、Hg)—(Sb、Zn)—(Au、Ag)—(Cu、Bi、Mo)，Bi位于下部"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Geochem",
+"name_zh": "钼元素垂向分带信息",
+"attributes": {
+"element": "钼（Mo）",
+"anomaly_pattern": "原生晕垂向分带序列自上而下为(As、Hg)—(Sb、Zn)—(Au、Ag)—(Cu、Bi、Mo)，Mo位于下部"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Geochem",
+"name_zh": "金元素垂向分带信息",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "原生晕垂向分带序列自上而下为(As、Hg)—(Sb、Zn)—(Au、Ag)—(Cu、Bi、Mo)，Au位于中下部"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "矿区位于东天山康古尔塔格金矿带的西段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "北东向断裂控制石英滩古火山机构的产出并控制金矿床产出"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "北西向断裂控制石英滩古火山机构的产出并控制金矿床产出"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "金矿床产于古火山机构西北部的安山—英安质熔岩及火山碎屑岩中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "矿体直接赋存于一套中酸性安山—英安质火山熔岩、火山碎屑岩及流纹斑岩次火山岩杂岩体中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "矿体围岩蚀变类型之一为硅化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "矿体围岩蚀变类型之一为黄铁绢英岩化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "矿体围岩蚀变类型之一为绿泥石化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "石英滩金矿区内各类岩石金平均含量较高，高出地壳克拉克值3～11倍"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床原生晕垂向分带序列中，上部元素组合包含As"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床原生晕垂向分带序列中，上部元素组合包含Hg"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床原生晕垂向分带序列中，中上部元素组合包含Sb"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床原生晕垂向分带序列中，中上部元素组合包含Zn"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床原生晕垂向分带序列中，中下部元素组合包含Au"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床原生晕垂向分带序列中，中下部元素组合包含Ag"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床原生晕垂向分带序列中，下部元素组合包含Cu"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床原生晕垂向分带序列中，下部元素组合包含Bi"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床原生晕垂向分带序列中，下部元素组合包含Mo"
+}
+]
+}

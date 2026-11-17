@@ -1,0 +1,76 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0065",
+"title": "新疆西天山阿希金矿床流体包裹体地球化学特征",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆西天山地区",
+"tectonic_position": "新疆西天山造山带内",
+"deposit_type": "浅成低温热液型金矿床"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西天山地区",
+"attributes": {
+"name": "新疆西天山地区",
+"level": "区域",
+"tectonic_setting": "新疆西天山造山带，为阿希金矿床所在的成矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿成矿流体",
+"attributes": {
+"nature": "浅成低温热液成矿体系中的成矿流体，盐度总体很低，多数集中于 0.53～1.57wt% NaCl，主要成分为 H₂O-CO₂-CH₄，具有典型浅成低温热液金矿成矿特征",
+"source": "成矿流体在演化过程中继承了早期火山岩物质特征，并混入后期变质水和大气降水",
+"salinity_wtNaCl_min": "0.53",
+"salinity_wtNaCl_max": "1.57"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Geochem",
+"name_zh": "阿希金矿成矿流体微量元素与稀土元素特征",
+"attributes": {
+"element": "Cu、Ni、Co、Mo、Zn、Pb、V、Sb、Li 以及稀土元素（REE）",
+"value_ppm": "石英流体包裹体中 ΣREE＝13825×10⁻¹²～149935×10⁻¹²，LREE/HREE＝2.63～50.83，δEu＝0.70～0.91，表现为 Eu 弱亏损",
+"anomaly_pattern": "流体包裹体微量元素与容矿围岩具有继承性，流体中 Cu、Ni、Co、Mo、Zn、Pb、V、Sb、Li 等含量较高，Cu、Zn、Co、Ni、Bi、Ba 等在水岩反应过程中更易进入流体；成矿流体 REE 分配型式与火山岩同为 Eu 亏损和右倾分配曲线，但成矿流体的 LREE/HREE 值更大、分配曲线更陡，反映后期变质水和大气降水混入导致流体物质组分发生变化"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于新疆西天山地区，是该区浅成低温热液金矿成矿体系的一部分"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希金矿床对应的成矿流体为浅成低温热液成矿流体，盐度很低、主要成分为 H₂O-CO₂-CH₄，并在演化过程中继承早期火山岩特征且混入变质水和大气降水"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "显示",
+"description": "阿希金矿床成矿流体的微量元素和稀土元素地球化学特征表现为 Cu、Ni、Co、Mo、Zn、Pb、V、Sb、Li 等元素富集，ΣREE 较高、Eu 弱亏损，REE 分配曲线右倾且与火山岩类似但更为陡峭，表明流体既继承火山岩 REE 特征又受变质水和大气降水混入的影响"
+}
+]
+}

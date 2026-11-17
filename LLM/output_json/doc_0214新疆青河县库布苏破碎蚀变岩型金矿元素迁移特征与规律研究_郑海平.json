@@ -1,0 +1,233 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0214",
+"title": "新疆青河县库布苏破碎蚀变岩型金矿元素迁移特征与规律研究_郑海平",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "库布苏金矿床（北矿带）",
+"attributes": {
+"name": "库布苏金矿床（北矿带）",
+"location": "新疆青河县库布苏金矿区，东准噶尔野马泉以南约16千米",
+"tectonic_position": "西伯利亚板块与哈萨克斯坦板块接壤部位的东准噶尔褶皱带，野马泉地块南缘晚古生代早期火山岩浆弧内，并处于库布苏强应变构造带中",
+"deposit_type": "造山型金矿床",
+"ore_grade": "品位一般为1×10^-6～7×10^-6，矿体平均品位为24×10^-6",
+"ore_control_features": "北矿带位于F1、F2断裂之间的挤压破碎带内，矿体产状与赋矿断裂近一致，主要产于闪长玢岩接触带及其内部破碎带中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔褶皱带（野马泉地块南缘火山岩浆弧）",
+"attributes": {
+"name": "东准噶尔褶皱带（野马泉地块南缘火山岩浆弧）",
+"level": "褶皱带",
+"tectonic_setting": "中亚造山带重要组成部分，位于西伯利亚板块与哈萨克斯坦板块接壤部位，晚古生代发育后碰撞构造变形—岩浆活动—成矿作用"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "库布苏强应变构造带（脆-韧性剪切带）",
+"attributes": {
+"name": "库布苏强应变构造带（脆-韧性剪切带）",
+"structure_type": "脆-韧性剪切带（强应变构造带）",
+"orientation": "北西西向",
+"scale": "区域性",
+"ore_control_role": "控制区内岩脉及矿体空间分布，对金矿化起重要作用"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托让格库都克组",
+"attributes": {
+"name": "中泥盆统托让格库都克组",
+"age": "中泥盆世",
+"dominant_lithology": "凝灰岩、凝灰质砂岩、变质砂砾岩、钙质粉砂岩",
+"lithology_notes": "为北矿带矿脉产出地层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长玢岩接触带及其内部破碎蚀变带",
+"attributes": {
+"name": "闪长玢岩接触带及其内部破碎蚀变带"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长玢岩脉",
+"attributes": {
+"name": "闪长玢岩脉",
+"rock_type": "闪长玢岩",
+"age": "约254.5±0.9～252.5±1.8百万年（二叠纪晚期）",
+"relationship_to_ore": "矿区北矿带主要赋矿岩石，矿体主要产于其接触带及内部破碎带中"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英钠长斑岩脉",
+"attributes": {
+"name": "石英钠长斑岩脉",
+"rock_type": "石英钠长斑岩",
+"relationship_to_ore": "在矿化带附近多侵位于闪长玢岩脉两侧及内部，局部发育金矿化，一般不构成工业矿体"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "毒砂及磁黄铁矿化",
+"attributes": {
+"name": "毒砂及磁黄铁矿化",
+"alteration_minerals": "毒砂、磁黄铁矿",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "以裂隙金和晶隙金为主，其次以包体金形式存在于黄铁矿、石英、毒砂及褐铁矿等矿物中"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要共生硫化物",
+"paragenesis": "与毒砂等共生，自然金可作为包体赋存于其中"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要共生硫化物",
+"paragenesis": "与黄铁矿等共生，自然金可作为包体赋存于其中"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "库布苏金矿床（北矿带）位于东准噶尔褶皱带野马泉地块南缘火山岩浆弧构造背景内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "库布苏金矿床（北矿带）受库布苏强应变构造带及其脆-韧性剪切带控制，控制岩脉与矿体分布"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "库布苏金矿床（北矿带）矿体主要赋存于闪长玢岩接触带及其内部破碎蚀变带中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "北矿带主要含矿破碎蚀变围岩归属于中泥盆统托让格库都克组地层"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "闪长玢岩脉侵位于中泥盆统托让格库都克组地层中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "库布苏金矿床（北矿带）矿化带蚀变强烈，主要蚀变之一为硅化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "库布苏金矿床（北矿带）矿化带蚀变强烈，主要蚀变之一为绢云母化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "库布苏金矿床（北矿带）矿化带蚀变强烈，主要蚀变之一为毒砂及磁黄铁矿化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "库布苏金矿床（北矿带）的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "库布苏金矿床（北矿带）共生矿物包括黄铁矿等硫化物"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "库布苏金矿床（北矿带）共生矿物包括毒砂等硫化物"
+}
+]
+}

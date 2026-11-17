@@ -1,0 +1,643 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0156",
+"title": "西准噶尔哈图-包古图地区金矿成矿作用研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Region",
+"name_zh": "包古图金—铜矿集区",
+"attributes": {
+"name": "包古图金—铜矿集区",
+"level": "矿集区",
+"tectonic_setting": "位于达拉布特断裂南侧"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床（二号点）",
+"attributes": {
+"name": "包古图金矿床（二号点）",
+"location": "包古图金—铜矿集区内部分中酸性斑岩体周边地层中",
+"tectonic_position": "达拉布特断裂南侧包古图金—铜矿集区",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "受NE向断裂控制，与矿区密集分布的中酸性脉岩平行分布"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Deposit",
+"name_zh": "阔个沙也金矿床",
+"attributes": {
+"name": "阔个沙也金矿床",
+"location": "包古图金—铜矿集区内部分中酸性斑岩体周边地层中",
+"tectonic_position": "达拉布特断裂南侧包古图金—铜矿集区",
+"ore_control_features": "受NE向断裂控制，与矿区密集分布的中酸性脉岩平行分布"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床（XI号点）",
+"attributes": {
+"name": "包古图金矿床（XI号点）",
+"location": "包古图金—铜矿集区内中酸性斑岩与下石炭统火山-沉积地层的接触带中",
+"tectonic_position": "达拉布特断裂南侧包古图金—铜矿集区",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "产于中酸性斑岩与下石炭统火山-沉积地层接触带，自然金常与自然铋、黄铜矿共生充填于黄铁矿、毒砂粒间或裂隙中，指示铋熔体捕获机制"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统包古图组",
+"attributes": {
+"name": "下石炭统包古图组",
+"age": "下石炭统",
+"dominant_lithology": "凝灰质砂岩、凝灰岩",
+"lithology_notes": "阔个沙也金矿化等第一类金矿化的赋矿围岩为包古图组凝灰质砂岩、凝灰岩等"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统火山-沉积地层",
+"attributes": {
+"name": "下石炭统火山-沉积地层",
+"age": "下石炭统",
+"dominant_lithology": "火山-沉积岩系",
+"lithology_notes": "包古图金矿XI号点金矿化产于中酸性斑岩与该地层的接触带中"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "包古图组凝灰质砂岩—凝灰岩赋矿围岩",
+"attributes": {
+"name": "包古图组凝灰质砂岩—凝灰岩赋矿围岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "中酸性斑岩—下石炭统火山-沉积地层接触带围岩",
+"attributes": {
+"name": "中酸性斑岩—下石炭统火山-沉积地层接触带围岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "中酸性斑岩体",
+"attributes": {
+"name": "中酸性斑岩体",
+"rock_type": "中酸性斑岩",
+"relationship_to_ore": "阔个沙也金矿化与中酸性岩浆活动在时空上关系密切；包古图金矿XI号点金矿化与中酸性斑岩关系密切"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "IntrusiveBody",
+"name_zh": "中酸性脉岩",
+"attributes": {
+"name": "中酸性脉岩",
+"rock_type": "中酸性脉岩",
+"relationship_to_ore": "与受NE向断裂控制的石英脉型或石英网脉型矿体平行分布并密集出现"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "NE向断裂",
+"attributes": {
+"name": "NE向断裂",
+"structure_type": "断裂",
+"orientation": "NE向",
+"ore_control_role": "控制石英脉型或石英网脉型矿体的产出，并与中酸性脉岩平行分布"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "达拉布特断裂",
+"attributes": {
+"name": "达拉布特断裂",
+"structure_type": "断裂",
+"scale": "区域性断裂",
+"ore_control_role": "包古图金—铜矿集区位于其南侧"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "毒砂化",
+"attributes": {
+"name": "毒砂化",
+"alteration_minerals": "毒砂"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "方解石"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物",
+"paragenesis": "与毒砂及自然金等共生，为矿石主要矿物之一"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属硫化物",
+"paragenesis": "与黄铁矿及自然金等共生，为矿石主要矿物之一"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与黄铁矿、毒砂及锑矿物或铋矿物共生"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "辉锑矿",
+"attributes": {
+"name": "辉锑矿",
+"role_in_ore": "锑矿物",
+"paragenesis": "与自然金及黄铁矿、毒砂等共生，部分矿点与Au-As-Sb矿化有关"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "自然锑",
+"attributes": {
+"name": "自然锑",
+"role_in_ore": "锑矿物",
+"paragenesis": "晚于自然金，与磁黄铁矿、黄铜矿共生，或呈孤立岛状位于方解石脉中"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "磁黄铁矿",
+"attributes": {
+"name": "磁黄铁矿",
+"role_in_ore": "硫化物",
+"paragenesis": "与自然锑及黄铜矿等共生"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "硫化物",
+"paragenesis": "与自然锑或自然金、自然铋等共生"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "可形成方解石脉，自然锑可呈孤立岛状位于方解石脉中"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Mineral",
+"name_zh": "自然砷",
+"attributes": {
+"name": "自然砷",
+"role_in_ore": "砷矿物",
+"paragenesis": "与银金矿共生，参与Au-As-Sb矿化"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与自然砷共生，指示温度降低时砷对金的富集和迁移具有重要作用"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Mineral",
+"name_zh": "自然铋",
+"attributes": {
+"name": "自然铋",
+"role_in_ore": "铋矿物",
+"paragenesis": "与自然金、黄铜矿共生，充填于黄铁矿、毒砂粒间或裂隙中"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Mineral",
+"name_zh": "辉铋矿",
+"attributes": {
+"name": "辉铋矿",
+"role_in_ore": "铋矿物",
+"paragenesis": "与自然铋、自然金及黄铜矿等共生，形成硫化物脉型矿石组合"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "矿体为石英脉型或石英网脉型，可与梳状石英共生"
+}
+},
+{
+"entity_local_id": "E31",
+"entity_type": "Fluid",
+"name_zh": "第一类金矿化成矿流体",
+"attributes": {
+"nature": "受温度、氧逸度与pH变化影响的热液流体，可导致Au与Sb矿化分异",
+"temperature_C_min": "200",
+"temperature_C_max": "345"
+}
+},
+{
+"entity_local_id": "E32",
+"entity_type": "Fluid",
+"name_zh": "XI号点成矿流体",
+"attributes": {
+"nature": "高温热液流体，指示铋熔体捕获机制参与成矿",
+"source": "与中酸性斑岩关系密切",
+"temperature_C_min": "240",
+"temperature_C_max": "500"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "阔个沙也金矿位于达拉布特断裂南侧的包古图金—铜矿集区内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "包古图金矿二号点位于达拉布特断裂南侧的包古图金—铜矿集区内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "包古图金矿XI号点位于达拉布特断裂南侧的包古图金—铜矿集区内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "阔个沙也金矿的石英脉型或石英网脉型矿体受NE向断裂控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "包古图金矿二号点的石英脉型或石英网脉型矿体受NE向断裂控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "阔个沙也金矿赋矿围岩为包古图组凝灰质砂岩、凝灰岩等"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "包古图金矿二号点赋矿围岩为包古图组凝灰质砂岩、凝灰岩等"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "包古图金矿XI号点矿化产于中酸性斑岩与下石炭统火山-沉积地层的接触带围岩中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "包古图组凝灰质砂岩—凝灰岩赋矿围岩属于下石炭统包古图组"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "中酸性斑岩—下石炭统火山-沉积地层接触带围岩归属于下石炭统火山-沉积地层"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "阔个沙也金矿围岩蚀变以硅化为主"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "阔个沙也金矿围岩蚀变以绢云母化为主"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "阔个沙也金矿围岩蚀变以黄铁矿化为主"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "阔个沙也金矿围岩蚀变以毒砂化为主"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要蚀变为",
+"description": "阔个沙也金矿围岩蚀变以碳酸盐化为主"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿二号点矿物组合包括黄铁矿"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿二号点矿物组合包括毒砂"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E20",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿二号点矿物组合包括自然金"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿二号点矿物组合包括辉锑矿"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿二号点矿物组合包括自然锑，自然锑晚于自然金并可位于方解石脉中"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿二号点自然锑与磁黄铁矿共生"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿二号点自然锑与黄铜矿共生"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E25",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿二号点自然锑可呈孤立岛状位于方解石脉中"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要金矿物为",
+"description": "阔个沙也金矿矿物组合包括黄铁矿"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要金矿物为",
+"description": "阔个沙也金矿矿物组合包括毒砂"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E26",
+"relation_label_zh": "共生矿物包括",
+"description": "阔个沙也金矿矿物组合包括自然砷"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E27",
+"relation_label_zh": "主要金矿物为",
+"description": "阔个沙也金矿矿物组合包括银金矿，银金矿与自然砷共生"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "阔个沙也金矿矿物组合包括辉锑矿"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E30",
+"relation_label_zh": "共生矿物包括",
+"description": "阔个沙也金矿石英脉型或石英网脉型矿体与石英共生"
+},
+{
+"relation_local_id": "R30",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿XI号点硫化物脉型矿体矿物组合包括黄铁矿"
+},
+{
+"relation_local_id": "R31",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿XI号点硫化物脉型矿体矿物组合包括毒砂"
+},
+{
+"relation_local_id": "R32",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E28",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI号点矿物组合包括自然铋，自然金常与自然铋共生"
+},
+{
+"relation_local_id": "R33",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E29",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI号点矿物组合包括辉铋矿"
+},
+{
+"relation_local_id": "R34",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E20",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿XI号点矿物组合包括自然金，自然金常与自然铋、黄铜矿共生"
+},
+{
+"relation_local_id": "R35",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI号点矿物组合包括黄铜矿，自然金常与黄铜矿共生"
+},
+{
+"relation_local_id": "R36",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E31",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "阔个沙也金矿主要金矿化阶段温度为265～345℃，锑矿化阶段温度为230～280℃，Au-As-Sb矿化温度为约200～230℃"
+},
+{
+"relation_local_id": "R37",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E31",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "包古图金矿二号点主要金矿化阶段与锑矿化阶段受温度、氧逸度与pH变化影响，导致Au与Sb矿化发生分异"
+},
+{
+"relation_local_id": "R38",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E32",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "包古图金矿XI号点成矿早期温度约500℃，金矿化温度大于240～470℃，指示与中酸性斑岩关系密切"
+},
+{
+"relation_local_id": "R39",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E6",
+"relation_label_zh": "侵入于",
+"description": "中酸性斑岩体与下石炭统火山-沉积地层形成接触带，包古图金矿XI号点矿化产于该接触带中"
+}
+]
+}

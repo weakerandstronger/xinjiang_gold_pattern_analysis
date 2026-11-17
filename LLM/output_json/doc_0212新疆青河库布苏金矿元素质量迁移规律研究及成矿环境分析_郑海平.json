@@ -1,0 +1,255 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0212",
+"title": "新疆青河库布苏金矿元素质量迁移规律研究及成矿环境分析_郑海平",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "库布苏金矿床",
+"attributes": {
+"name": "库布苏金矿床",
+"location": "新疆青河县东准噶尔野马泉以南16公里",
+"tectonic_position": "西伯利亚板块与哈萨克斯坦-准噶尔板块接壤部位，中亚造山带中段",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿石金品位一般在1×10-6～7×10-6，富矿体平均品位为24×10-6",
+"ore_control_features": "矿体主要受断裂及剪切带控制，矿体产状与赋矿断裂近一致；闪长玢岩脉沿北西向断裂破碎带侵入并与金矿化关系密切；北矿带位于F3与F5断裂之间的脆-韧性剪切带内"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔金成矿带",
+"attributes": {
+"name": "东准噶尔金成矿带",
+"level": "成矿带",
+"tectonic_setting": "中亚造山带中段，西伯利亚板块与哈萨克斯坦-准噶尔板块接壤部位"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托让格库都克组",
+"attributes": {
+"name": "中泥盆统托让格库都克组",
+"age": "中泥盆世",
+"dominant_lithology": "凝灰岩、凝灰质砂岩、变质砂砾岩、钙质粉砂岩",
+"lithology_notes": "为北矿带矿脉产出地层"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "志留系库布苏群",
+"attributes": {
+"name": "志留系库布苏群",
+"age": "志留纪",
+"dominant_lithology": "硅质页岩沉积建造",
+"lithology_notes": "受区域变质作用影响，构造线走向多为北西西—南东东或近东西向"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长玢岩",
+"attributes": {
+"name": "闪长玢岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长玢岩脉",
+"attributes": {
+"name": "闪长玢岩脉",
+"rock_type": "闪长玢岩",
+"age": "华力西期中晚期",
+"relationship_to_ore": "为库布苏金矿的主要赋矿岩石，与金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英钠长斑岩脉",
+"attributes": {
+"name": "石英钠长斑岩脉",
+"rock_type": "石英钠长斑岩",
+"age": "华力西期中晚期",
+"relationship_to_ore": "沿矿化带分布，常与闪长玢岩脉伴生并穿插其内，与金矿化密切"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "库布苏断裂(F5)",
+"attributes": {
+"name": "库布苏断裂(F5)",
+"structure_type": "逆断层",
+"orientation": "北西西向延伸，倾向北，倾角约70°",
+"scale": "长度约53km",
+"ore_control_role": "控制库布苏强应变构造带及次级脆-韧性剪切带，控制岩脉及矿体分布，对金矿化起重要作用"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "主要为裂隙金和晶隙金"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要共生硫化物矿物",
+"paragenesis": "黄铁矿化呈薄片状、星点状、浸染状分布"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "浅成、中—高温、低盐度、富CO2的还原性流体",
+"source": "以岩浆水为主，混入大气水、变质水",
+"temperature_C_min": "182",
+"temperature_C_max": "396",
+"salinity_wtNaCl_min": "2.3",
+"salinity_wtNaCl_max": "6.45"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "18OH2O、D",
+"value_range": "18OH2O=7.29~10.53‰；D=-63~-112.18‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "砷异常",
+"attributes": {
+"element": "砷（As）",
+"anomaly_pattern": "元素质量迁移结果显示砷等成矿伴生元素明显带入，可作为特征成矿指示元素"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "库布苏金矿床位于东准噶尔金成矿带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "库布苏金矿矿石类型以破碎蚀变闪长玢岩型为主，主要赋矿岩石为闪长玢岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "库布苏金矿主要受库布苏断裂(F5)及其伴生断裂控制，控制岩脉及矿体分布"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "矿化带内岩石蚀变强烈，硅化为主要蚀变类型之一"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "库布苏金矿金矿物为自然金"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "库布苏金矿矿化带内黄铁矿化发育，黄铁矿为重要共生硫化物矿物"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "库布苏金矿床成矿流体为浅成、中—高温、低盐度、富CO2的还原性流体，主成矿阶段流体温度转变为中温"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素参数指示成矿流体以岩浆水为主，并混入大气水与变质水"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "闪长玢岩脉呈岩脉状产出，侵入泥盆系地层中"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "石英钠长斑岩脉呈岩脉状产出，侵入泥盆纪地层中"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "石英钠长斑岩脉侵入于志留纪地层中"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "元素质量迁移结果显示砷（As）等成矿伴生元素明显带入，可作为库布苏金矿特征成矿指示元素"
+}
+]
+}

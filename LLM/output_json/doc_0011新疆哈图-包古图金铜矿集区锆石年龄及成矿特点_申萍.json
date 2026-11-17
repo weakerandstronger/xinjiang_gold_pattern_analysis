@@ -1,0 +1,608 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0011",
+"title": "新疆哈图-包古图金铜矿集区锆石年龄及成矿特点",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Region",
+"name_zh": "新疆西准噶尔地区",
+"attributes": {
+"name": "新疆西准噶尔地区",
+"level": "构造单元",
+"tectonic_setting": "晚古生代发生强烈构造-岩浆活动和广泛金铜成矿作用的地区"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "哈图-包古图金铜矿集区",
+"attributes": {
+"name": "哈图-包古图金铜矿集区",
+"level": "矿集区",
+"tectonic_setting": "位于新疆西准噶尔地区，晚古生代构造-岩浆活动和金铜成矿作用集中发育，成岩-成矿作用贯穿整个石炭纪"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "哈图金矿带",
+"attributes": {
+"name": "哈图金矿带",
+"level": "金矿带",
+"tectonic_setting": "金矿床赋存于早石炭世火山岩中，主要位于安齐火山岩带的弧后盆地拉张环境"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "包古图金铜成矿带",
+"attributes": {
+"name": "包古图金铜成矿带",
+"level": "成矿带",
+"tectonic_setting": "达拉布特断裂以南晚石炭世中性含矿岩体及其附近围岩中发育斑岩型铜矿床和同期金矿床"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "安齐火山岩带",
+"attributes": {
+"name": "安齐火山岩带",
+"level": "火山岩带",
+"tectonic_setting": "主要为低钾低TiO2的拉斑玄武岩，稀土配分模式平坦，指示弧后盆地拉张构造环境，具有双峰式火山岩特点"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Region",
+"name_zh": "达拉布特火山岩带",
+"attributes": {
+"name": "达拉布特火山岩带",
+"level": "火山岩带",
+"tectonic_setting": "包括拉斑系列和钙碱性系列岩石组合，稀土配分模式为平坦型和右倾型曲线，指示从弧后盆地向岛弧过渡的不成熟岛弧环境"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Deposit",
+"name_zh": "哈图金矿床",
+"attributes": {
+"name": "哈图金矿床",
+"location": "哈图金矿带内早石炭世火山岩中",
+"tectonic_position": "位于哈图金矿带安齐火山岩带的弧后盆地拉张环境中",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "早期富金流体沿火山机构断裂系在浅部环状和放射状构造裂隙中沉淀形成石英脉型矿体，晚期安齐断裂及其次级断裂活动形成蚀变岩型和少量石英脉型金矿体，发育不同方向的金矿体",
+"age_ma": "成岩-成矿时限主要为早石炭世，有晚期成矿作用叠加"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床",
+"attributes": {
+"name": "包古图金矿床",
+"location": "包古图河西南部希贝库拉斯复向斜西翼，包古图Ⅳ号岩体外围",
+"tectonic_position": "位于达拉布特不成熟岛弧环境中，下石炭系包古图组地层与包古图Ⅳ号闪长岩体接触带附近",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "金品位为0.1×10⁻⁶～1.83×10⁻⁶，最高达4.83×10⁻⁶",
+"ore_control_features": "金矿体成群出现，受断裂构造及闪长岩脉控制，地表出露多条含金石英脉-蚀变岩型矿化体，围岩蚀变沿断裂构造分布，宽度一般不超过2 m",
+"age_ma": "包古图含矿岩体成岩年龄为310～332Ma，金矿床成矿年龄为310～316Ma，属晚石炭世"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床",
+"attributes": {
+"name": "包古图金矿床",
+"location": "包古图金铜成矿带中性含矿小岩体内部及其与围岩接触带",
+"tectonic_position": "位于达拉布特不成熟岛弧环境内晚石炭世中性杂岩体侵入带",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿化与中性闪长岩体空间上相伴，产于岩体内部及岩体与围岩接触带，与小岩体侵位密切相关",
+"age_ma": "含矿岩体成岩年龄约310～332Ma，斑岩型铜矿床成矿年龄约310～316Ma，属晚石炭世"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Deposit",
+"name_zh": "宝贝金矿床",
+"attributes": {
+"name": "宝贝金矿床",
+"location": "哈图-包古图矿集区内",
+"tectonic_position": "位于哈图-包古图矿集区晚石炭世成矿带中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "StratUnit",
+"name_zh": "太勒古拉组",
+"attributes": {
+"name": "太勒古拉组",
+"age": "早石炭世",
+"dominant_lithology": "以中基性火山熔岩、碧玉和硅质岩为特征，主要岩石组合为凝灰岩、层凝灰岩和玄武岩",
+"lithology_notes": "为海底火山沉积岩系，逐步演化为包古图组和希贝库拉斯组的大陆坡水下浊流沉积，构成海退序列的下部"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "StratUnit",
+"name_zh": "包古图组",
+"attributes": {
+"name": "包古图组",
+"age": "早石炭世",
+"dominant_lithology": "薄层凝灰质粉砂岩和粉砂质凝灰岩，含灰岩透镜体及含砾杂砂岩",
+"lithology_notes": "局部发育含碳质粉砂质凝灰岩，可为成矿流体提供碳源，为大陆坡水下浊流沉积的一部分"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "StratUnit",
+"name_zh": "希贝库拉斯组",
+"attributes": {
+"name": "希贝库拉斯组",
+"age": "早石炭世",
+"dominant_lithology": "厚层凝灰质杂砂岩和凝灰质粉砂岩互层",
+"lithology_notes": "以具有递变层理的含砾杂砂岩和具有变形层理的凝灰质粉砂岩为特征，为大陆坡水下浊流沉积的上部"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "HostRockUnit",
+"name_zh": "安齐火山岩带早石炭世火山岩",
+"attributes": {
+"name": "安齐火山岩带早石炭世火山岩"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "HostRockUnit",
+"name_zh": "达拉布特火山岩带早石炭世火山岩",
+"attributes": {
+"name": "达拉布特火山岩带早石炭世火山岩"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "HostRockUnit",
+"name_zh": "下石炭系包古图组凝灰岩及凝灰质粉砂岩围岩",
+"attributes": {
+"name": "下石炭系包古图组凝灰岩和凝灰质粉砂岩等围岩"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "HostRockUnit",
+"name_zh": "中性含矿小岩体及其附近围岩",
+"attributes": {
+"name": "中性含矿小岩体及其附近围岩"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "IntrusiveBody",
+"name_zh": "包古图Ⅳ号含矿闪长岩体",
+"attributes": {
+"name": "包古图Ⅳ号含矿闪长岩体",
+"rock_type": "主要为闪长岩和石英闪长岩，内部局部发育闪长玢岩、细晶闪长岩和辉绿岩等脉岩",
+"age": "锆石SHRIMP U-Pb年龄为312.3±2.2Ma～332.0±2.8Ma，属石炭纪晚石炭世",
+"relationship_to_ore": "岩体内有少量浸染状和细脉浸染状铜矿化，岩体周围发育蚀变岩型和石英脉型金矿化，是包古图金矿床及金铜成矿的重要成矿岩体"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Structure",
+"name_zh": "达拉布特断裂",
+"attributes": {
+"name": "达拉布特断裂",
+"structure_type": "区域性断裂",
+"orientation": "作为哈图金矿带与包古图金铜成矿带的分界构造，贯穿矿集区",
+"scale": "大型区域性断裂构造",
+"ore_control_role": "以该断裂为界，北侧发育与火山活动有关的早石炭世金矿床，南侧发育明显的金铜矿化和斑岩型铜矿床及相关金矿床"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Structure",
+"name_zh": "安齐断裂",
+"attributes": {
+"name": "安齐断裂",
+"structure_type": "断裂",
+"orientation": "晚石炭世活动的区域性断裂及其次级断裂",
+"scale": "规模较大，发育多条次级断裂",
+"ore_control_role": "晚期深部成矿流体沿安齐断裂及其次级断裂迁移和沉淀，形成蚀变岩型和少量石英脉型金矿体，发育北东向金矿体"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Structure",
+"name_zh": "火山机构断裂系",
+"attributes": {
+"name": "火山机构断裂系",
+"structure_type": "断裂系",
+"orientation": "在弧后盆地火山机构控制下发育的环状和放射状构造裂隙",
+"scale": "早石炭世火山岩中广泛发育的断裂系统",
+"ore_control_role": "早期富金流体沿火山机构断裂系上升，在浅部环状和放射状构造裂隙中沉淀富集，形成贫硫化物石英脉型金矿床和边部少量蚀变岩型矿化"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Structure",
+"name_zh": "希贝库拉斯复向斜",
+"attributes": {
+"name": "希贝库拉斯复向斜",
+"structure_type": "复向斜构造",
+"orientation": "包古图金矿床位于复向斜西翼",
+"scale": "区域性大型褶皱构造",
+"ore_control_role": "为包古图金矿床提供宏观构造背景，控制矿体在复向斜西翼的空间分布"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Alteration",
+"name_zh": "包古图金矿床围岩蚀变带",
+"attributes": {
+"name": "包古图金矿床围岩蚀变带",
+"alteration_minerals": "黄铁矿化、毒砂化、硅化、绢云母化等蚀变组合",
+"intensity": "围岩蚀变发育，主要沿断裂构造分布，带宽一般不超过2 m，与金矿化关系最为密切"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "石英-金-黄铁矿-毒砂-辉锑矿矿物组合",
+"attributes": {
+"name": "石英-金-黄铁矿-毒砂-辉锑矿矿物组合",
+"role_in_ore": "包古图金矿床矿石中的主要金矿物及共生硫化物和硫盐矿物组合",
+"paragenesis": "金与黄铁矿、毒砂、辉锑矿密切共生，并伴生自然砷，形成石英-金-黄铁矿-毒砂-辉锑矿矿石类型"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Fluid",
+"name_zh": "早石炭世富CO2-(N2)成矿流体",
+"attributes": {
+"nature": "富含CO2-(N2)的含碳成矿流体",
+"source": "主要来源于上地幔较浅部位的相对氧化环境，含碳流体以CO2为主，并可能混入含碳地层有机碳"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Fluid",
+"name_zh": "晚石炭世富CH4成矿流体",
+"attributes": {
+"nature": "富含CH4的成矿流体体系",
+"source": "主要来源于上地幔较深部位的更还原地幔，含CH4-N2流体与金属-硅酸盐熔体平衡，并可能吸收含碳地层贡献"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Fluid",
+"name_zh": "哈图金矿床成矿流体",
+"attributes": {
+"nature": "H2O-CO2(-N2)体系含碳成矿流体",
+"source": "以幔源碳为主，有少量地层有机碳参与，早石炭世与火山活动有关"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Fluid",
+"name_zh": "宝贝金矿床成矿流体",
+"attributes": {
+"nature": "H2O-CH4体系成矿流体，普遍缺乏CO2",
+"source": "晚石炭世富CH4成矿流体，以幔源碳为主，可能混入少量地层碳"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Fluid",
+"name_zh": "包古图金矿床成矿流体",
+"attributes": {
+"nature": "富含CH4的H2O-CH4成矿流体体系",
+"source": "来源于上地幔较深部位的富CH4流体，并有含碳地层提供的有机碳参与"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "Fluid",
+"name_zh": "包古图斑岩铜矿床成矿流体",
+"attributes": {
+"nature": "H2O-CH4体系成矿流体",
+"source": "与包古图含矿岩浆同源的幔源流体，为晚石炭世中性闪长岩体侵位过程中释放的成矿流体"
+}
+},
+{
+"entity_local_id": "E31",
+"entity_type": "Isotope",
+"name_zh": "哈图金矿床碳同位素参数",
+"attributes": {
+"system": "C同位素体系",
+"parameter_name": "石英流体包裹体气相CO2和CH4中碳同位素比值",
+"value_range": "CO2中碳同位素比值为－7.07‰～－5.58‰，CH4中碳同位素比值为－24.59‰～－26.17‰"
+}
+},
+{
+"entity_local_id": "E32",
+"entity_type": "Isotope",
+"name_zh": "包古图金矿床碳同位素参数",
+"attributes": {
+"system": "C同位素体系",
+"parameter_name": "石英流体包裹体中碳同位素组成",
+"value_range": "碳同位素特征与哈图金矿床相似，以幔源碳为主，有少量地层有机碳参与"
+}
+},
+{
+"entity_local_id": "E33",
+"entity_type": "Isotope",
+"name_zh": "包古图金矿床硫同位素参数",
+"attributes": {
+"system": "S同位素体系",
+"parameter_name": "金属硫化物硫同位素比值",
+"value_range": "硫同位素集中在－1‰～＋3‰，反映单一幔源硫"
+}
+},
+{
+"entity_local_id": "E34",
+"entity_type": "Isotope",
+"name_zh": "包古图金矿床铅同位素参数",
+"attributes": {
+"system": "Pb同位素体系",
+"parameter_name": "金属硫化物铅同位素组成",
+"value_range": "铅同位素特征显示铅主要来源于地幔"
+}
+},
+{
+"entity_local_id": "E35",
+"entity_type": "Geochem",
+"name_zh": "包古图含矿岩体微量元素配分特征",
+"attributes": {
+"element": "稀土元素及大离子亲石元素",
+"value_ppm": "未给出具体含量，以地幔标准化微量元素配分模式表征",
+"anomaly_pattern": "含矿岩体显示三种明显不同的配分模式：明显右倾型稀土配分模式与OIB型相同；富集轻稀土和大离子亲石元素，与OIB型类似；稍富集轻稀土和大离子亲石元素，与MORB型类似，指示形成于不成熟岛弧构造环境"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "哈图金矿床隶属于哈图-包古图金铜矿集区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "哈图金矿床位于哈图金矿带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "包古图金矿床隶属于哈图-包古图金铜矿集区"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "包古图金矿床位于包古图金铜成矿带内"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "包古图斑岩铜矿床隶属于哈图-包古图金铜矿集区"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "包古图斑岩铜矿床位于包古图金铜成矿带内"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "宝贝金矿床隶属于哈图-包古图金铜矿集区"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要赋存于",
+"description": "哈图金矿床所属金矿床主要赋存于安齐火山岩带的早石炭世火山岩中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E15",
+"relation_label_zh": "少量赋存于",
+"description": "哈图金矿带中部分金矿床少量赋存于达拉布特火山岩带的早石炭世火山岩中"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E16",
+"relation_label_zh": "赋存于",
+"description": "包古图金矿床赋存于下石炭系包古图组凝灰岩和凝灰质粉砂岩等围岩中"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E17",
+"relation_label_zh": "赋存于",
+"description": "包古图斑岩铜矿床和同期金矿床赋存于中性含矿小岩体及其附近围岩中"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E12",
+"relation_label_zh": "属于",
+"description": "包古图金矿床近矿围岩为下石炭系包古图组的凝灰岩和凝灰质粉砂岩"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E21",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿床早期成矿受火山机构断裂系控制，富金流体沿环状和放射状构造裂隙上升并沉淀"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E20",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿床晚期成矿受安齐断裂及其次级断裂活动控制，深部成矿流体沿断裂迁移交代围岩形成蚀变岩型和少量石英脉型金矿体"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E19",
+"relation_label_zh": "受…控制",
+"description": "达拉布特断裂以北与火山活动有关的金矿床包括哈图金矿床，其成岩-成矿时限主要为早石炭世并受该断裂以北构造格局约束"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E19",
+"relation_label_zh": "受…控制",
+"description": "包古图金矿床位于达拉布特断裂以南的金铜成矿带内，其空间分布受达拉布特断裂控制"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E19",
+"relation_label_zh": "受…控制",
+"description": "包古图斑岩铜矿床发育在达拉布特断裂以南地区，成矿与该区域性断裂及相关构造环境密切相关"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E23",
+"relation_label_zh": "伴随有",
+"description": "包古图金矿床周围发育黄铁矿化、毒砂化、硅化和绢云母化等围岩蚀变带，主要沿断裂构造分布，与金矿化关系密切"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E24",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿床矿石类型为石英-金-黄铁矿-毒砂-辉锑矿，并发现自然砷，构成主要金矿物及共生矿物组合"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E27",
+"relation_label_zh": "对应成矿流体为",
+"description": "哈图金矿床的成矿流体为H2O-CO2(-N2)体系含碳成矿流体"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E29",
+"relation_label_zh": "对应成矿流体为",
+"description": "包古图金矿床含矿石英流体包裹体富含CH4，对应富CH4的成矿流体体系"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E30",
+"relation_label_zh": "对应成矿流体为",
+"description": "包古图斑岩铜矿床不同成矿阶段石英流体包裹体主要为H2O-CH4体系，对应富CH4成矿流体"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E28",
+"relation_label_zh": "对应成矿流体为",
+"description": "宝贝金矿床含矿石英中流体包裹体主要为H2O-CH4体系，对应富CH4成矿流体且普遍缺乏CO2"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E35",
+"relation_label_zh": "显示",
+"description": "包古图斑岩铜矿床所属含矿岩体显示右倾型稀土配分和富集LREE及LILE等三种微量元素配分模式，反映其形成于不成熟岛弧环境"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E35",
+"relation_label_zh": "显示",
+"description": "包古图金矿床所依托的包古图含矿岩体具有OIB型和MORB型过渡的稀土及大离子亲石元素配分特征，指示幔源成矿物质贡献"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E31",
+"to_entity_local_id": "E27",
+"relation_label_zh": "约束该流体来源",
+"description": "哈图金矿床石英包裹体中CO2和CH4的碳同位素范围表明成矿流体含碳成分以幔源碳为主，少量地层有机碳参与"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E32",
+"to_entity_local_id": "E29",
+"relation_label_zh": "约束该流体来源",
+"description": "包古图金矿床碳同位素特征与哈图金矿床类似，指示其富CH4成矿流体中的碳以幔源碳为主并有少量地层有机碳加入"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E33",
+"to_entity_local_id": "E29",
+"relation_label_zh": "约束该流体来源",
+"description": "包古图金矿床金属硫化物硫同位素集中在－1‰～＋3‰，说明成矿硫主要来自幔源流体"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E34",
+"to_entity_local_id": "E29",
+"relation_label_zh": "约束该流体来源",
+"description": "包古图金矿床金属硫化物铅同位素研究表明铅主要来源于地幔，进一步支持幔源成矿流体模型"
+},
+{
+"relation_local_id": "R30",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E12",
+"relation_label_zh": "侵入于",
+"description": "包古图Ⅳ号含矿闪长岩体侵入下石炭系包古图组凝灰岩和凝灰质粉砂岩地层中，是该组地层中的重要含矿侵入岩体"
+}
+]
+}

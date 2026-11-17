@@ -1,0 +1,273 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0286",
+"title": "东天山马头滩金矿金赋存状态及矿物特征_李清峰",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "马头滩金矿床",
+"attributes": {
+"name": "马头滩金矿床",
+"location": "新疆鄯善县城东南约210 km处",
+"tectonic_position": "准噶尔微板块南缘活动带，觉罗塔格晚古生代岛弧带；矿区位于秋格明塔什—黄山巨型韧性剪切带中，北距康古尔深大断裂约18 km",
+"ore_control_features": "矿石中金主要以粒间金为主（约占金总量的86%），不规则粒状、片状分布于石英粒间和绿泥石晶间；少量分布于石英与磁铁矿、黄铁矿接触处；包裹金多见于石英包体中；裂隙金主要分布于石英、黄铁矿、磁铁矿等矿物内部裂隙中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东天山",
+"attributes": {
+"name": "东天山",
+"level": "地区",
+"tectonic_setting": "准噶尔微板块南缘活动带与觉罗塔格晚古生代岛弧带构造环境"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "觉罗塔格晚古生代岛弧带",
+"attributes": {
+"name": "觉罗塔格晚古生代岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "准噶尔微板块南缘活动带内的晚古生代岛弧构造环境"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统雅满苏组",
+"attributes": {
+"name": "下石炭统雅满苏组",
+"age": "下石炭统",
+"dominant_lithology": "火山岩、火山碎屑岩及局部正常碎屑岩",
+"lithology_notes": "矿区出露地层之一，为矿区围岩地层单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "雅满苏组火山岩",
+"attributes": {
+"name": "雅满苏组火山岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "秋格明塔什—黄山巨型韧性剪切带",
+"attributes": {
+"name": "秋格明塔什—黄山巨型韧性剪切带",
+"structure_type": "韧性剪切带",
+"scale": "区域级",
+"ore_control_role": "矿区位于该韧性剪切带中，与矿区构造背景和矿化作用关系密切"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金矿物为单一自然金；自然金成色为940‰～963‰，平均951‰；粒径0.005～0.14 mm，个别达0.2 mm",
+"paragenesis": "主要以粒间金赋存于石英粒间和绿泥石晶间，少量位于石英与磁铁矿、黄铁矿接触处；包裹金多见于石英包体中；裂隙金分布于石英、黄铁矿、磁铁矿等矿物裂隙中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金属矿物之一，金矿物可分布于其裂隙或与其接触部位",
+"paragenesis": "与石英、绿泥石、磁铁矿及黄铜矿等共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "常见金属矿物之一，含量约2%～15%，局部可达30%以上",
+"paragenesis": "以浸染状、细脉状分布于绿泥石、石英及白云母集合体中，可见自然金呈薄膜状分布于磁铁矿表面"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要伴生矿物之一，含量约1%～3%",
+"paragenesis": "多沿裂隙充填并交代黄铁矿，集中产于多金属石英脉中"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物，为硅化作用产物",
+"paragenesis": "金主要以粒间金形式分布于石英粒间，亦见包裹金赋存于石英包体中"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "绿泥石",
+"attributes": {
+"name": "绿泥石",
+"role_in_ore": "主要脉石矿物，含量变化大（约5%～30%，最高可达65%～70%），绿泥石含量越多其含金性越高",
+"paragenesis": "多呈片状并定向排列，自然金主要以粒间金形式分布于绿泥石晶片间"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "白云母",
+"attributes": {
+"name": "白云母",
+"role_in_ore": "少量脉石矿物",
+"paragenesis": "与绿泥石、石英及磁铁矿等形成集合体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "马头滩金矿位于东天山地区（新疆鄯善县城东南约210 km处）"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "马头滩金矿大地构造位置位于觉罗塔格晚古生代岛弧带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "马头滩金矿矿石围岩为雅满苏组火山岩等地层岩石"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "雅满苏组火山岩属于下石炭统雅满苏组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "矿区位于秋格明塔什—黄山巨型韧性剪切带中，与矿区构造背景密切相关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "矿石中石英为硅化作用产物，硅化与金矿化密切相关"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "矿石中绿泥石含量变化大且与含金性关系密切，反映绿泥石化蚀变与金矿化相关"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "马头滩金矿金矿物为单一自然金"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "自然金主要以粒间金形式分布于石英粒间，包裹金亦可赋存于石英包体中"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "自然金主要以粒间金形式分布于绿泥石晶片间，绿泥石含量越高矿石含金性越强"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "裂隙金可分布于黄铁矿等矿物裂隙中，且自然金可见于石英与黄铁矿接触处"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "少量自然金分布于石英与磁铁矿接触处，并可见薄膜状自然金分布于磁铁矿晶体表面"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铜矿为主要伴生矿物之一，多沿裂隙充填并交代黄铁矿，集中产于多金属石英脉中"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "磁铁矿等可浸染状、细脉状分布于绿泥石、石英及白云母集合体中，白云母为少量脉石矿物"
+}
+]
+}

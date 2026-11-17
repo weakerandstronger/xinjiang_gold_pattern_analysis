@@ -1,0 +1,551 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0006",
+"title": "新疆北部阿尔泰造山带扎格依库都克金矿床成因机制: 来自流体包裹体和硫同位素的制约",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "扎格依库都克金矿床",
+"attributes": {
+"name": "扎格依库都克金矿床",
+"location": "位于新疆阿尔泰造山带南缘额尔齐斯成矿带东南部",
+"tectonic_position": "新疆北部阿尔泰造山带南缘额尔齐斯成矿带东南部",
+"deposit_type": "造山型金矿床",
+"ore_grade": "埋藏浅、品位高的小型金矿床",
+"resource_tonnage": "小型金矿床，资源规模较小",
+"ore_control_features": "矿体形态与空间展布主要受控于广泛发育的NE向断裂构造，在NW与NE向断裂交汇部位发育NW向金矿体，呈受韧-脆性断裂控制的脉状金矿化特征"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆阿尔泰造山带",
+"attributes": {
+"name": "新疆阿尔泰造山带",
+"level": "造山带",
+"tectonic_setting": "位于新疆北部的造山带，扎格依库都克金矿床位于其南缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "额尔齐斯成矿带",
+"attributes": {
+"name": "额尔齐斯成矿带",
+"level": "成矿带",
+"tectonic_setting": "阿尔泰造山带南缘东南部的成矿带，扎格依库都克金矿床位于其东南部"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统黑山头组",
+"attributes": {
+"name": "下石炭统黑山头组",
+"age": "下石炭统",
+"dominant_lithology": "玄武岩、安山岩及凝灰质细砂岩",
+"lithology_notes": "矿区地层主体，基性火山岩系为主要容矿岩石"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "玄武岩",
+"attributes": {
+"name": "玄武岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "安山岩",
+"attributes": {
+"name": "安山岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "凝灰质细砂岩",
+"attributes": {
+"name": "凝灰质细砂岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "基性火山岩系",
+"attributes": {
+"name": "基性火山岩系"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "NE向断裂",
+"attributes": {
+"name": "NE向断裂",
+"structure_type": "断裂",
+"orientation": "NE向",
+"scale": "矿区广泛发育的主控矿断裂",
+"ore_control_role": "矿体形态与空间展布主要受NE向断裂构造控制"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "NW向断裂",
+"attributes": {
+"name": "NW向断裂",
+"structure_type": "断裂",
+"orientation": "NW向",
+"scale": "矿区重要断裂构造",
+"ore_control_role": "在NW与NE向断裂交汇部位发育NW向金矿体，对矿体具有局部控制作用"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "SN向断裂",
+"attributes": {
+"name": "SN向断裂",
+"structure_type": "断裂",
+"orientation": "SN向",
+"scale": "矿区发育的断裂构造之一",
+"ore_control_role": "与NE向和NW向断裂共同构成矿区构造网络"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "韧-脆性断裂",
+"attributes": {
+"name": "韧-脆性断裂",
+"structure_type": "韧-脆性断裂",
+"orientation": "与NE向断裂为主的构造体系相关",
+"scale": "控矿的韧-脆性断裂带",
+"ore_control_role": "矿床呈典型受韧-脆性断裂控制的脉状金矿化特征"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉绿岩岩体",
+"attributes": {
+"name": "辉绿岩岩体",
+"rock_type": "辉绿岩",
+"age": "侵位时代未详",
+"relationship_to_ore": "岩体呈不规则状出露于矿区东北部，主要侵位于黑山头组中基性火山岩系中，与成矿作用密切相关"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英等硅质矿物",
+"intensity": "矿体围岩中硅化蚀变发育，与金矿化具有密切成因联系"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "矿体围岩中绢云母化蚀变发育，与金矿化具有密切成因联系"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "方解石等碳酸盐矿物",
+"intensity": "矿体围岩中普遍发育碳酸盐化蚀变"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "矿体围岩中发育绿泥石化蚀变"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Alteration",
+"name_zh": "高岭土化",
+"attributes": {
+"name": "高岭土化",
+"alteration_minerals": "高岭石",
+"intensity": "矿体围岩局部发育高岭土化蚀变"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化",
+"attributes": {
+"name": "黄铁绢英岩化",
+"alteration_minerals": "黄铁矿及绢英岩化矿物组合",
+"intensity": "矿体围岩中发育黄铁绢英岩化蚀变带"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "在成矿前黄铁矿-石英阶段和主成矿贫硫化物-石英阶段广泛发育，与自然金等共生"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "与黄铁矿和石英主要共生，赋存于受断裂控制的脉状金矿体中"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "次要金属矿物",
+"paragenesis": "与黄铁矿、自然金、毒砂和方铅矿等共生于矿石中"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "次要金属矿物",
+"paragenesis": "与黄铁矿、自然金等共生于金矿石中"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "次要金属矿物",
+"paragenesis": "与黄铁矿、自然金等金属矿物伴生"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "在S1、S2、S3各阶段形成黄铁矿-石英、贫硫化物-石英和石英-方解石矿脉，是主要载金脉石"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "成矿后石英-方解石阶段形成，与石英共生于晚期矿脉"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Mineral",
+"name_zh": "绿泥石",
+"attributes": {
+"name": "绿泥石",
+"role_in_ore": "脉石及蚀变矿物",
+"paragenesis": "作为脉石矿物产出，并参与围岩绿泥石化蚀变"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Fluid",
+"name_zh": "扎格依库都克金矿成矿流体",
+"attributes": {
+"nature": "中温低盐度H2O-CO2-NaCl成矿流体，包含L型、C型和PC型流体包裹体",
+"source": "幔源流体为主，混入岩浆水与大气降水并与围岩成分发生作用",
+"temperature_C_min": "157",
+"temperature_C_max": "356",
+"pressure_MPa_min": "119",
+"pressure_MPa_max": "239",
+"salinity_wtNaCl_min": "0.7",
+"salinity_wtNaCl_max": "9.4"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "S同位素体系",
+"parameter_name": "黄铁矿δ34S∑S和δ34Sv-CDT",
+"value_range": "黄铁矿δ34S值分布于−1.30‰~0.74‰区间，中位值约0.18‰，体现地幔硫及地幔-围岩混合特征"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "扎格依库都克金矿床位于新疆阿尔泰造山带南缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "扎格依库都克金矿床位于额尔齐斯成矿带东南部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "扎格依库都克金矿床矿体形态与空间展布主要受控于矿区广泛发育的NE向断裂构造"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "在NW与NE向断裂交汇部位发育NW向金矿体，NW向断裂对矿体具有局部控制作用"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "扎格依库都克金矿床呈典型受韧-脆性断裂控制的脉状金矿化特征"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "扎格依库都克金矿床的主要容矿围岩之一为黑山头组中的玄武岩"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "安山岩是黑山头组中的另一重要容矿围岩"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要围岩为",
+"description": "凝灰质细砂岩为黑山头组中的重要围岩岩性之一"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "黑山头组中基性火山岩系是扎格依库都克金矿床的广义容矿岩石"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "玄武岩属于下石炭统黑山头组中的主要岩性"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "安山岩属于下石炭统黑山头组中的主要岩性"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "凝灰质细砂岩属于下石炭统黑山头组中的重要岩性"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "基性火山岩系为下石炭统黑山头组中的岩性组合"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "扎格依库都克金矿床矿体围岩中硅化蚀变发育，与金矿化具有密切成因联系"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "扎格依库都克金矿床矿体围岩中绢云母化蚀变发育，与金矿化具有密切成因联系"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "伴随有",
+"description": "扎格依库都克金矿床矿体围岩中普遍发育碳酸盐化蚀变"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "伴随有",
+"description": "扎格依库都克金矿床矿体围岩中发育绿泥石化蚀变"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "伴随有",
+"description": "扎格依库都克金矿床矿体围岩局部发育高岭土化蚀变"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "伴随有",
+"description": "扎格依库都克金矿床矿体围岩中发育黄铁绢英岩化蚀变带"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "主要金矿物为",
+"description": "扎格依库都克金矿床中黄铁矿为主要金属矿物之一"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "主要金矿物为",
+"description": "自然金为扎格依库都克金矿床的主要载金矿物，与黄铁矿和石英共生"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中含有黄铜矿等次要共生金属矿物"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "毒砂为扎格依库都克金矿床中的次要共生金属矿物"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "方铅矿为该金矿床中的次要共生金属矿物"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "共生矿物包括",
+"description": "石英为主要脉石矿物，在各阶段形成石英矿脉并载金"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "共生矿物包括",
+"description": "成矿后阶段形成石英-方解石矿脉，方解石为重要脉石矿物"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "共生矿物包括",
+"description": "绿泥石既作为脉石矿物产出，又与绿泥石化蚀变密切相关"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E28",
+"relation_label_zh": "对应成矿流体为",
+"description": "扎格依库都克金矿床主成矿阶段成矿流体为中温、低盐度的H2O-CO2-NaCl体系，包含L型、C型和PC型流体包裹体，并发生流体不混溶作用"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E29",
+"to_entity_local_id": "E28",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿硫同位素δ34S组成表明成矿流体中的硫及成矿物质主要来源于地幔，并混入部分围岩硫，体现幔源流体成因"
+},
+{
+"relation_local_id": "R30",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "辉绿岩岩体主要侵入于下石炭统黑山头组中基性火山岩系中"
+}
+]
+}

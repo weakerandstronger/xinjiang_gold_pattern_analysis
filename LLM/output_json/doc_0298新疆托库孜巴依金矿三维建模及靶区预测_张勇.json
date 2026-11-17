@@ -1,0 +1,205 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0298",
+"title": "新疆托库孜巴依金矿三维建模及靶区预测_张勇",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床（12号脉）",
+"attributes": {
+"name": "托库孜巴依金矿床（12号脉）",
+"location": "新疆阿勒泰地区哈巴河县北东18千米 ",
+"tectonic_position": "阿尔泰南缘额尔齐斯金矿带（额尔齐斯构造带控制） ",
+"deposit_type": "造山型金矿床",
+"ore_grade": "工业矿体（1g/t边界品位）金平均品位约2g/t，局部可达3g/t左右；0.12g/t边界品位圈定矿化体用于三维建模 ",
+"ore_control_features": "矿床受玛尔卡库里大断裂及其次级韧性剪切带控制，赋存于韧性剪切带中的脆性破碎空间；12号脉受F9与F10脆性断层控制，赋存于F10断层下盘，矿体与围岩边界为软边界需依赖采样化验确定；工业矿体主要赋存于石英脉内，主要富金矿石为具高温弥散特征的烟灰色石英脉 "
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯金矿带",
+"attributes": {
+"name": "额尔齐斯金矿带",
+"level": "金矿带",
+"tectonic_setting": "阿尔泰南缘北西向展布的狭长带状成矿带（哈巴河—富蕴—青河一线） "
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统阿勒泰组上亚组第二岩性段第二岩性层（D2a2 2-2）",
+"attributes": {
+"name": "中泥盆统阿勒泰组上亚组第二岩性段第二岩性层（D2a2 2-2）",
+"age": "中泥盆世",
+"dominant_lithology": "砂岩、绢云石英千枚岩、褐铁矿化变长石石英砂岩等 ",
+"lithology_notes": "北西部可见变晶屑凝灰岩、变流纹质熔结凝灰岩及变流纹岩等，往南东方向逐渐相变为砂岩、绢云石英千枚岩及结晶灰岩等；矿化地段褐铁矿化及硅化发育 "
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "绢云绿泥石英千枚岩与褐铁矿化变长石石英砂岩围岩",
+"attributes": {
+"name": "绢云绿泥石英千枚岩与褐铁矿化变长石石英砂岩围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "石英脉",
+"attributes": {
+"name": "石英脉"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里大断裂",
+"attributes": {
+"name": "玛尔卡库里大断裂",
+"structure_type": "区域性深大断裂（脆韧性剪切带）",
+"orientation": "北西—南东向，呈舒缓波状展布",
+"scale": "区域性（中国境内延伸近1000公里，宽度几百米至数公里）",
+"ore_control_role": "额尔齐斯成矿带上一条重要的控矿韧性剪切带 "
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "F10断裂",
+"attributes": {
+"name": "F10断裂",
+"structure_type": "矿区断层（成矿前期及成矿期控矿断裂）",
+"orientation": "北西—南东向延伸；局部走向约130°，倾向210°，倾角约65° ",
+"scale": "矿区级（区内延伸长达11千米）",
+"ore_control_role": "导矿构造兼容矿构造，控制整个矿区金矿体产出 "
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "矿区内广泛发育，强韧性剪切带核部更为明显"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "韧性剪切断层两侧及构造角砾发育地带广泛发育"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物，与金矿化密切相关",
+"paragenesis": "常与石英脉及硅化带共生，呈浸染状或伴生于裂隙石英脉中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长岩脉",
+"attributes": {
+"name": "闪长岩脉",
+"rock_type": "闪长岩",
+"age": "352.5～371Ma ",
+"relationship_to_ore": "与金矿化有关；早期蚀变闪长岩脉边部及内部裂隙中伴生黄铁矿化石英脉，含金性较好 "
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿12号脉所在矿床位于新疆阿勒泰地区哈巴河县北东18千米，处于阿尔泰南缘额尔齐斯金矿带。 "
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "矿床受玛尔卡库里大断裂及其次级韧性剪切带控制，赋存于韧性剪切带中的脆性破碎空间。 "
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "12号脉受F9与F10两条脆性断层控制，并赋存于F10断层下盘。 "
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "12号脉围岩主要为绢云绿泥石英千枚岩和褐铁矿化变长石石英砂岩。 "
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要赋存于",
+"description": "以1g/t边界品位圈定的工业矿体主要赋存于石英脉内，为石英脉内Au相对富集部位。 "
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "12号脉围岩（绢云绿泥石英千枚岩等）属于中泥盆统阿勒泰组上亚组第二岩性段第二岩性层（D2a2 2-2）。 "
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "硅化在矿区内广泛发育，常伴随黄铁矿化，为矿区内最直接的矿化标志之一，且与金矿化关系密切。 "
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "黄铁矿化广泛分布于韧性剪切断层两侧及构造角砾发育地带，并与金矿化密切相关。 "
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "沿F10断裂带黄铁矿化较发育，多呈稠密浸染状，含量可达5—20%。 "
+},
+{
+"relation_local_id": "R10",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "闪长岩脉可分布于阿勒泰组上亚组第二岩性段上岩性段（D2a2 2-2），走向北西，与剪切带基本一致。 "
+}
+]
+}

@@ -1,0 +1,372 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0009",
+"title": "新疆西准噶尔哈图—萨尔托海金矿带控矿构造特征及找矿前景分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "哈图金矿床",
+"attributes": {
+"name": "哈图金矿床",
+"location": "位于新疆准噶尔盆地西部哈图−萨尔托海金矿带内",
+"tectonic_position": "处于西准噶尔地区多条北东−南西向剪切断裂构造格架中",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受哈图断裂带、安齐断裂带、达尔布特断裂带及其次级剪切构造控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "萨尔托海金矿床",
+"attributes": {
+"name": "萨尔托海金矿床",
+"location": "位于新疆准噶尔盆地西部哈图−萨尔托海金矿带内",
+"tectonic_position": "处于西准噶尔地区多条北东−南西向剪切断裂构造格架中",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受哈图断裂带、安齐断裂带、达尔布特断裂带及其次级剪切构造控制"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "新疆准噶尔盆地西部",
+"attributes": {
+"name": "新疆准噶尔盆地西部",
+"level": "盆地西部地区",
+"tectonic_setting": "哈图金矿和萨尔托海金矿区位于新疆准噶尔盆地西部，是本区重要金成矿区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "哈图−萨尔托海金矿带",
+"attributes": {
+"name": "哈图−萨尔托海金矿带",
+"level": "金矿带",
+"tectonic_setting": "位于新疆西准噶尔地区，以中下石炭统海相火山−沉积岩系和多条北东−南西向剪切断裂构造格架为成矿背景"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中下石炭统海相基性−中性−中酸多旋回火山喷发沉积岩系",
+"attributes": {
+"name": "中下石炭统海相基性−中性−中酸多旋回火山喷发沉积岩系",
+"age": "中下石炭统",
+"dominant_lithology": "海相基性−中性−中酸多旋回火山喷发沉积岩",
+"lithology_notes": "广泛分布且含金丰度较高，可提供大量金属矿源与硫化物载体"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "太勒古拉组火山岩系",
+"attributes": {
+"name": "太勒古拉组火山岩系",
+"age": "石炭系",
+"dominant_lithology": "以玄武岩、橄榄玄武岩、安山岩为主的火山岩系",
+"lithology_notes": "厚度大，总厚约3000米，含金丰度高，是重要含金源层"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "达尔布特复背斜",
+"attributes": {
+"name": "达尔布特复背斜",
+"structure_type": "复背斜构造",
+"orientation": "北东−南西向",
+"scale": "区域性大型构造单元",
+"ore_control_role": "与扎拉特复向斜共同构成研究区总体构造格局"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "扎拉特复向斜",
+"attributes": {
+"name": "扎拉特复向斜",
+"structure_type": "复向斜构造",
+"orientation": "北东−南西向",
+"scale": "区域性大型构造单元",
+"ore_control_role": "与达尔布特复背斜共同控制研究区地层展布与构造背景"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "哈图断裂带",
+"attributes": {
+"name": "哈图断裂带",
+"structure_type": "剪切断裂带",
+"orientation": "北东−南西向",
+"scale": "区域性规模较大的剪切断裂",
+"ore_control_role": "为金矿化提供有利的容矿空间和流体运移通道，是找矿最有前景的控矿构造之一"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "安齐断裂带",
+"attributes": {
+"name": "安齐断裂带",
+"structure_type": "剪切断裂带",
+"orientation": "北东−南西向",
+"scale": "区域性规模较大的剪切断裂",
+"ore_control_role": "与哈图断裂带共同形成强烈剪切构造格架，为金矿提供有利容矿空间"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "达尔布特断裂带",
+"attributes": {
+"name": "达尔布特断裂带",
+"structure_type": "断裂构造带",
+"orientation": "北东−南西向",
+"scale": "区域性大型断裂带",
+"ore_control_role": "作为造山后期重要断裂通道之一，与本区多种类型金矿化带的形成密切相关"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "IntrusiveBody",
+"name_zh": "海西晚期碱性石英二长岩-石英正长岩-正长花岗岩岩体",
+"attributes": {
+"name": "海西晚期碱性石英二长岩-石英正长岩-正长花岗岩岩体",
+"rock_type": "碱性石英二长岩、石英正长岩和正长花岗岩",
+"age": "海西晚期至海西−印支期造山后阶段",
+"relationship_to_ore": "造山期后侵入作用产生巨大气水溶液和热力，对石炭系火山沉积岩含金源层长期活化迁移，促成金的沉淀成矿"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Fluid",
+"name_zh": "哈图−萨尔托海金矿带成矿流体",
+"attributes": {
+"nature": "由碱性花岗岩类巨大气水溶液与含金火山沉积岩系水岩反应形成的热液成矿流体体系",
+"source": "海西−印支期造山期后碱性花岗岩类侵入作用提供的气水溶液和热能"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "太勒古拉组金元素地球化学异常",
+"attributes": {
+"element": "金元素",
+"value_ppm": "以含金丰度较高为特征",
+"anomaly_pattern": "金元素在哈图断裂带与安齐断裂带之间的太勒古拉组厚层火山岩系中呈明显富集异常"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Deposit",
+"name_zh": "齐Ⅰ矿体",
+"attributes": {
+"name": "齐Ⅰ矿体",
+"location": "位于哈图断裂带与安齐断裂带之间的哈图−萨尔托海金矿带内",
+"tectonic_position": "处于太勒古拉组厚层火山岩系与大规模剪切断裂构造交会部位",
+"ore_control_features": "受哈图断裂与安齐断裂之间的次级剪切裂隙及太勒古拉组含金火山岩系共同控制"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Deposit",
+"name_zh": "齐Ⅱ矿体",
+"attributes": {
+"name": "齐Ⅱ矿体",
+"location": "位于哈图断裂带与安齐断裂带之间的哈图−萨尔托海金矿带内",
+"tectonic_position": "处于太勒古拉组厚层火山岩系与大规模剪切断裂构造交会部位",
+"ore_control_features": "受哈图断裂与安齐断裂之间的次级剪切裂隙及太勒古拉组含金火山岩系共同控制"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "哈图金矿位于新疆准噶尔盆地西部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "萨尔托海金矿位于新疆准噶尔盆地西部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "哈图金矿隶属于哈图−萨尔托海金矿带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "萨尔托海金矿隶属于哈图−萨尔托海金矿带"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "齐Ⅰ矿体隶属于哈图−萨尔托海金矿带"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "齐Ⅱ矿体隶属于哈图−萨尔托海金矿带"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿的成矿受哈图断裂带提供的剪切变形和流体运移通道控制"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿所在金矿化带受安齐断裂带及其次级构造共同控制"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿所在金矿化带与达尔布特断裂带构成的重要控矿构造格架密切相关"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "萨尔托海金矿通过哈图断裂带及其延伸构造实现成矿物质的运移与富集"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "萨尔托海金矿所在金矿化带受安齐断裂带控制"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "萨尔托海金矿所在金矿化带与达尔布特断裂带共同构成控矿构造格架"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "齐Ⅰ矿体位于哈图断裂带与安齐断裂带之间，受哈图断裂带的剪切构造控制"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "齐Ⅰ矿体同时受安齐断裂带及带内次级剪切裂隙的控制"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "齐Ⅱ矿体位于哈图断裂带与安齐断裂带之间，受哈图断裂带控制"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "齐Ⅱ矿体同时受安齐断裂带及带内次级剪切裂隙的控制"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "对应成矿流体为",
+"description": "哈图金矿对应的成矿流体为造山期后碱性花岗岩类巨大气水溶液与含金火山沉积岩系水岩反应形成的热液体系"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E13",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨尔托海金矿对应的成矿流体为造山期后碱性花岗岩类巨大气水溶液与含金火山沉积岩系水岩反应形成的热液体系"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E13",
+"relation_label_zh": "对应成矿流体为",
+"description": "齐Ⅰ矿体对应的成矿流体为造山期后碱性花岗岩类巨大气水溶液与含金火山沉积岩系水岩反应形成的热液体系"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E13",
+"relation_label_zh": "对应成矿流体为",
+"description": "齐Ⅱ矿体对应的成矿流体为造山期后碱性花岗岩类巨大气水溶液与含金火山沉积岩系水岩反应形成的热液体系"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E14",
+"relation_label_zh": "伴随有",
+"description": "齐Ⅰ矿体所在的太勒古拉组火山岩系含金丰度高，伴随明显金元素地球化学异常"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E14",
+"relation_label_zh": "伴随有",
+"description": "齐Ⅱ矿体所在的太勒古拉组火山岩系含金丰度高，伴随明显金元素地球化学异常"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "海西晚期碱性石英二长岩-石英正长岩-正长花岗岩岩体以造山期后侵入作用侵入于中下石炭统海相多旋回火山喷发沉积岩系中，其接触带为重要含金源层的活化区"
+}
+]
+}

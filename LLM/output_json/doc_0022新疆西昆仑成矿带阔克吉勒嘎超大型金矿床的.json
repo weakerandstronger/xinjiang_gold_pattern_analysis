@@ -1,0 +1,549 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0022",
+"title": "新疆西昆仑成矿带阔克吉勒嘎超大型金矿床的发现及其意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔克吉勒嘎金矿床",
+"attributes": {
+"name": "阔克吉勒嘎金矿床",
+"location": "新疆西昆仑成矿带西段阔克吉勒嘎地区",
+"tectonic_position": "位于特提斯和古亚洲洋两大全球构造成矿域交汇处的西昆仑成矿带内，处于西昆仑西段",
+"deposit_type": "造山型金矿床",
+"ore_grade": "矿石平均金品位整体高于一般工业指标，主要金矿体品位较高，呈稀疏浸染状-星散状为主",
+"resource_tonnage": "已探获金推断资源量规模达大型，阔克吉勒嘎金矿带资源潜力可达超大型规模远景以上",
+"ore_control_features": "主要金矿体产于下志留统温泉沟群含碳酸盐硬绿泥绢云千枚岩中，金矿体总体呈北西西向分布，严格受延伸上百千米的韧-脆性剪切主干断裂带控制，矿石多呈稀疏浸染状-星散状产出",
+"age_ma": ""
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西昆仑成矿带",
+"attributes": {
+"name": "新疆西昆仑成矿带",
+"level": "成矿带",
+"tectonic_setting": "新疆西昆仑铁-铜-金-铅锌-钼-水晶-白云母-玉石-石棉矿成矿带，位于特提斯和古亚洲洋两大全球构造成矿域交汇处，成矿地质条件优越"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "西昆仑西段",
+"attributes": {
+"name": "西昆仑西段",
+"level": "造山带分段",
+"tectonic_setting": "位于西昆仑成矿带西段，是近年来在其上开展金矿地质调查并发现阔克吉勒嘎超大型金矿床的有利成矿区段"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "阔克吉勒嘎金矿带",
+"attributes": {
+"name": "阔克吉勒嘎金矿带",
+"level": "矿带",
+"tectonic_setting": "金矿带向东延伸至布伦口、苏巴什一带，全长超100 km，受韧-脆性剪切构造带控制，资源潜力巨大"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下志留统温泉沟群",
+"attributes": {
+"name": "下志留统温泉沟群",
+"age": "下志留统",
+"dominant_lithology": "含碳酸盐硬绿泥绢云千枚岩、碳质千枚岩、碎屑岩及绢云母石英片岩等黑色岩系",
+"lithology_notes": "为志留系温泉沟组特定层段，以破碎蚀变岩、千枚岩、片岩等为主，是主要含金地层和成矿有利层位"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "含碳酸盐硬绿泥绢云千枚岩围岩单元",
+"attributes": {
+"name": "含碳酸盐硬绿泥绢云千枚岩围岩单元"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "西昆仑韧-脆性剪切主干断裂带",
+"attributes": {
+"name": "西昆仑韧-脆性剪切主干断裂带",
+"structure_type": "韧-脆性剪切带与主干断裂系统",
+"orientation": "延伸达上百千米的主干断裂沿区域构造走向展布，控制区域和矿区构造单元与地层展布",
+"scale": "上百千米长、数千米宽的大型韧-脆性构造带，构成区域性大规模断裂系统的一部分",
+"ore_control_role": "具有强烈的韧-脆性剪切变形特征，是金矿化带的主要容矿和控矿构造，控制了金矿体、化探异常及多条矿化带的分布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化-白(绢)云母化-碳酸盐化-硅化-硫化物化蚀变带",
+"attributes": {
+"name": "绿泥石化-白(绢)云母化-碳酸盐化-硅化-硫化物化蚀变带",
+"alteration_minerals": "绿泥石、白云母（绢云母）、碳酸盐矿物、硅质物质及硫化物等组成的热液蚀变组合",
+"intensity": "在韧-脆性剪切构造带及围岩中广泛发育，是阔克吉勒嘎金矿床的重要热液蚀变特征和围岩蚀变找矿标志"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物和载金矿物",
+"paragenesis": "在主矿体中普遍发育，含量约2%~25%，多呈半自形-自形柱状、粒状或他形细粒状，集合体呈脉状、团块状、星散状，常与黄铁矿、黄铜矿共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物和重要载金矿物",
+"paragenesis": "总体含量约3%~15%，多呈他形细粒状，集合体呈团粒状、细脉状，常与毒砂、黄铜矿及自然金共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "重要铜金属矿物和次要载金矿物",
+"paragenesis": "总体含量约3%~15%，多呈他形细粒状或脉状，与毒砂、黄铁矿等共生，局部与自然金伴生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "在矿石中较为少见，多呈细小星点状、镶嵌分布于石英中，与毒砂、黄铁矿、黄铜矿等硫化物共生"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "次要铅金属矿物",
+"paragenesis": "在矿石中为少量出现的伴生金属矿物，与毒砂、黄铁矿、黄铜矿等共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "次要铁金属矿物",
+"paragenesis": "在矿石中少量出现，与其他金属硫化物及褐铁矿等共生"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "次生铁矿物及蚀变矿物",
+"paragenesis": "在矿石中为少量金属矿物之一，常与黄铁矿、黄铜矿及其他氧化物矿物共生，局部形成褐铁矿化现象"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "孔雀石",
+"attributes": {
+"name": "孔雀石",
+"role_in_ore": "次生铜矿物",
+"paragenesis": "在部分矿化带中出现，为与铜蓝、黝铜矿、斑铜矿、辉铜矿等共生的次生铜矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "铜蓝",
+"attributes": {
+"name": "铜蓝",
+"role_in_ore": "次生铜矿物",
+"paragenesis": "与孔雀石、黝铜矿、斑铜矿、辉铜矿等一起出现，是铜的氧化—还原带中常见的次生矿物"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黝铜矿",
+"attributes": {
+"name": "黝铜矿",
+"role_in_ore": "次生铜矿物",
+"paragenesis": "在金矿石中为少量伴生矿物，与孔雀石、铜蓝、斑铜矿、辉铜矿等共生"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "斑铜矿",
+"attributes": {
+"name": "斑铜矿",
+"role_in_ore": "次生铜矿物",
+"paragenesis": "在金矿化带中少量出现，与铜蓝、黝铜矿、辉铜矿等一起构成铜的次生富集矿物组合"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "辉铜矿",
+"attributes": {
+"name": "辉铜矿",
+"role_in_ore": "次生铜矿物",
+"paragenesis": "在矿石中偶见，与斑铜矿、铜蓝、黝铜矿等次生铜矿物共生"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "辉砷钴矿",
+"attributes": {
+"name": "辉砷钴矿",
+"role_in_ore": "稀有伴生金属矿物",
+"paragenesis": "在矿石中偶见，为金属矿物中的稀有成员，与含砷含钴的其他矿物及硫化物共生"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "硬绿泥石",
+"attributes": {
+"name": "硬绿泥石",
+"role_in_ore": "主要非金属脉石矿物及蚀变矿物",
+"paragenesis": "在矿石和围岩中普遍发育，与绢云母、碳酸盐矿物及硫化物矿物共生，反映绿泥石化蚀变作用强烈"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "非金属脉石及蚀变矿物",
+"paragenesis": "在矿石和围岩中广泛发育，与硬绿泥石、白云石及石英等共生，反映白（绢）云母化蚀变作用"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "白云石",
+"attributes": {
+"name": "白云石",
+"role_in_ore": "碳酸盐类非金属矿物",
+"paragenesis": "在矿石中为主要非金属矿物之一，与绿泥石、绢云母及硫化物矿物共生，体现碳酸盐化蚀变作用"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "红柱石",
+"attributes": {
+"name": "红柱石",
+"role_in_ore": "变质非金属矿物",
+"paragenesis": "在部分围岩及矿石中出现，与磷灰石、炭质物及硫化物矿物共生，反映区域变质作用背景"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Mineral",
+"name_zh": "磷灰石",
+"attributes": {
+"name": "磷灰石",
+"role_in_ore": "非金属伴生矿物",
+"paragenesis": "在矿石中为少量非金属矿物，与红柱石、炭质物及金属硫化物等共生"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Mineral",
+"name_zh": "炭质物",
+"attributes": {
+"name": "炭质物",
+"role_in_ore": "含碳围岩组分及非金属矿物",
+"paragenesis": "为非金属矿物之一，主要存在于碳质千枚岩及含碳碎屑岩中，与绿泥石、绢云母及金属矿物共生"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Geochem",
+"name_zh": "Au-As-Sb地球化学异常",
+"attributes": {
+"element": "Au、As、Sb等成矿元素组合",
+"value_ppm": "文中未给出具体含量，仅指出形成明显高背景及元素异常",
+"anomaly_pattern": "在韧-脆性剪切带及其围岩中形成Au-As-Sb地球化学异常，是矿区重要找矿标志之一"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Geophysics",
+"name_zh": "航磁-地磁异常与电阻率梯度带",
+"attributes": {
+"anomaly_type": "剪切带引起的航磁、地磁异常及电阻率梯度带",
+"amplitude": "表现为沿韧-脆性剪切构造带分布的磁性异常及明显的电性梯度变化",
+"spatial_pattern": "沿主干断裂及剪切带走向展布，与金矿化带空间上基本一致，是识别剪切带及金矿化的重要地球物理标志"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "IntrusiveBody",
+"name_zh": "阔克吉勒嘎石英脉群",
+"attributes": {
+"name": "阔克吉勒嘎石英脉群",
+"rock_type": "石英脉",
+"age": "",
+"relationship_to_ore": "石英脉在矿区分布广泛，沿构造走向成群成带发育，是主要的含金脉体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿床位于新疆西昆仑成矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阔克吉勒嘎金矿床位于西昆仑成矿带西段"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "阔克吉勒嘎金矿床隶属于向东延伸至布伦口、苏巴什一带、全长超100 km的阔克吉勒嘎金矿带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "阔克吉勒嘎金矿床的主要金矿体赋存于下志留统温泉沟群含碳酸盐硬绿泥绢云千枚岩围岩单元中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "含碳酸盐硬绿泥绢云千枚岩围岩单元属于下志留统温泉沟群特定层段"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "阔克吉勒嘎金矿床金矿化带受延伸上百千米的韧-脆性剪切主干断裂带严格控制，该构造带是主要容矿和控矿构造"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "阔克吉勒嘎金矿床周围广泛发育绿泥石化、白(绢)云母化、碳酸盐化、硅化、硫化物化等热液蚀变"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中毒砂为主要金属矿物之一，在主矿体中普遍发育，为重要载金矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中黄铁矿含量较高，是重要金属矿物及载金矿物"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中黄铜矿发育，为重要铜金属矿物和次要载金矿物"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "阔克吉勒嘎金矿床矿石中的金主要以自然金形式存在，多呈细小星点状镶嵌于石英中"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中含有少量方铅矿，为伴生的铅金属矿物"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石金属矿物中有少量磁铁矿出现，为伴生铁矿物"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中局部发育褐铁矿，为氧化带中普遍出现的次生铁矿物"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中可见孔雀石，是与其他铜矿物共生的次生铜矿物"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中伴有铜蓝等次生铜矿物"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中含有黝铜矿，为次生铜矿物之一"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中局部出现斑铜矿等次生铜矿物"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中偶见辉铜矿等次生铜矿物"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中偶见辉砷钴矿，为稀有伴生金属矿物"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "脉石矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中硬绿泥石为主要非金属矿物之一，反映绿泥石化蚀变"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "脉石矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中绢云母发育，为非金属脉石及蚀变矿物"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "脉石矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中白云石为主要非金属矿物之一，反映碳酸盐化蚀变"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "脉石矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中含有红柱石，体现区域变质作用背景"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "脉石矿物包括",
+"description": "阔克吉勒嘎金矿床矿石中含有少量磷灰石，为伴生非金属矿物之一"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "脉石矿物包括",
+"description": "阔克吉勒嘎金矿床矿石及围岩中普遍含有炭质物，反映碳质千枚岩及含碳碎屑岩围岩特征"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E28",
+"relation_label_zh": "显示",
+"description": "阔克吉勒嘎金矿区内围岩蚀变伴随Au-As-Sb地球化学异常，是矿区重要找矿标志"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E29",
+"relation_label_zh": "显示",
+"description": "剪切带引起的航磁、地磁异常及电阻率梯度带与阔克吉勒嘎金矿化带分布密切相关，为重要地球物理找矿标志"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E30",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "阔克吉勒嘎石英脉群沿构造走向成群成带发育，主要侵入于下志留统温泉沟群特定层段中，是主要含金脉体"
+}
+]
+}

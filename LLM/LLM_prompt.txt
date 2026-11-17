@@ -1,0 +1,286 @@
+你现在的任务是：根据我提供的两个 JSON 输入文件（schema.json 和 doc.json），从单篇地质文献中抽取“新疆金矿床知识图谱”相关的实体和关系，并输出一个符合指定结构的 JSON 对象。
+
+⚠ 总要求（务必遵守）：
+1. 你最终的回答 **必须只包含一个 JSON 对象**，不要输出任何解释性文字、注释或额外内容。
+2. 输出 JSON 必须符合我在「三、输出 JSON 结构要求」中给出的结构。
+3. 所有实体名称、属性值、关系标签、关系描述，一律使用 **中文**。
+4. JSON 中不允许出现注释符（如 `//`、`#` 等），必须是合法 JSON。
+5. schema.json 已经是最终版本，**禁止提出或输出任何新的实体类型、属性、关系类型、关系属性**；如果内容无法映射到现有 schema，请直接忽略，不要输出。
+
+------------------------------------------------
+一、输入文件说明
+------------------------------------------------
+
+你将依次看到两个 JSON：
+
+1）schema.json —— 知识图谱框架约束 JSON（最终版本）
+
+结构形式为：
+
+{
+  "schema_version": "0.1.0",
+  "description": "...",
+  "entity_schema": {
+    "Deposit": {
+      "cn_name": "矿床",
+      "description": "...",
+      "key_attributes": [
+        "name",
+        "location",
+        "deposit_type",
+        "ore_grade",
+        "resource_tonnage",
+        "ore_control_features"
+      ]
+    },
+    "Region": {
+      "cn_name": "区域",
+      "description": "...",
+      "key_attributes": [
+        "name",
+        "level",
+        "tectonic_setting"
+      ]
+    },
+    ...
+  },
+  "relation_schema": [
+    {
+      "id": "Deposit-Region",
+      "from_entity": "Deposit",
+      "to_entity": "Region",
+      "description": "矿床位于或隶属于某一区域（成矿带/矿集区等）。",
+      "relation_label_examples": ["位于", "隶属于"]
+    },
+    {
+      "id": "Deposit-Lithology",
+      "from_entity": "Deposit",
+      "to_entity": "Lithology",
+      "description": "矿床主要赋存或紧密相关的岩性。",
+      "relation_label_examples": ["主要赋存于", "与…密切相关"]
+    },
+    ...
+  ]
+}
+
+你的使用规则（非常重要）：
+
+- 只允许使用 `entity_schema` 中已有的实体类型（键名）作为 `entity_type`，例如：
+  - `Deposit`, `Region`, `StratUnit`, `HostRockUnit`, `Lithology`, `IntrusiveBody`, `Structure`, `Alteration`, `Mineral`, `Fluid`, `Isotope`, `Geophysics`, `Geochem`, ...
+- 每类实体的属性键（`attributes` 对象中的 key）**必须**是该实体类型对应的 `key_attributes` 列表中的一项。
+  - 例如：对于 `Deposit` 类型，只能使用：
+    - `"name"`, `"location"`, `"deposit_type"`, `"ore_grade"`, `"resource_tonnage"`, `"ore_control_features"` 等。
+  - 不允许发明 schema 中没有的新属性键。
+- 只允许使用 `relation_schema[*].id` 中已有的关系类型作为 `relation_type`，例如：
+  - `Deposit-Region`, `Deposit-Lithology`, `Deposit-Structure`, `Deposit-HostRockUnit`, `Deposit-Mineral`, `Deposit-Fluid`, `Deposit-Geophysics`, `Deposit-Geochem`, `HostRockUnit-StratUnit`, `Isotope-Fluid`, `IntrusiveBody-StratUnit` 等。
+- 关系的两端实体类型必须分别等于 `from_entity` 和 `to_entity` 指定的实体类型。
+  - 例如：`Deposit-Region` 的 `from_entity` 必须是 `Deposit`，`to_entity` 必须是 `Region`。
+
+2）doc.json —— 单篇文献待处理文本 JSON（新版）
+
+结构形式为：
+
+{
+  "doc_id": "DOC_XXXX",
+  "language": "zh_or_en",
+  "title": "文献标题",
+  "keywords": ["...", "..."],
+  "blocks": [
+    {
+      "block_id": "abstract",
+      "block_type": "abstract",
+      "section_title": "Abstract / 摘要",
+      "text": "这里是摘要全文..."
+    },
+    {
+      "block_id": "text1",
+      "block_type": "section",
+      "section_title": "Introduction / 地质背景",
+      "text": "这里是第一段长文本..."
+    },
+    ...
+  ]
+}
+
+你的使用规则：
+
+- 只能使用 `blocks[*].text` 中的内容进行抽取，不允许凭空编造实体或关系。
+- 可以综合多个 block 的信息来构建同一个实体或关系（例如摘要 + 地质背景 + 矿床地质特征）。
+
+------------------------------------------------
+二、抽取任务说明
+------------------------------------------------
+
+你需要输出一个 JSON，对应 **单篇文献的抽取结果**，顶层字段包括：
+
+- `schema_version`
+- `doc_id`
+- `title`
+- `language`
+- `entities`
+- `relations`
+
+其中：
+
+--------------------------------
+2.1 实体抽取（输出到 entities 数组）
+--------------------------------
+
+1. 在 doc.json 的所有 `blocks[*].text` 中，识别与新疆金矿床相关的实体，例如：
+   - 矿床（`Deposit`）
+   - 区域/成矿带（`Region`）
+   - 地层单元（`StratUnit`）
+   - 赋矿岩石单元（`HostRockUnit`）
+   - 岩性（`Lithology`）
+   - 侵入岩体（`IntrusiveBody`）
+   - 构造（`Structure`）
+   - 蚀变（`Alteration`）
+   - 矿物（`Mineral`）
+   - 成矿流体（`Fluid`）
+   - 同位素参数（`Isotope`）
+   - 地球物理异常（`Geophysics`）
+   - 地球化学数据（`Geochem`）
+   等。
+
+2. 对于每个实体，输出一个对象，形如：
+
+   {
+     "entity_local_id": "E1",
+     "entity_type": "Deposit",
+     "name_zh": "卡拉麦里金矿床",
+     "attributes": {
+       "name": "卡拉麦里金矿床",
+       "location": "新疆东准噶尔地区",
+       "deposit_type": "造山型金矿床",
+       "ore_grade": "3.5 g/t",
+       "resource_tonnage": "1500 万吨",
+       "ore_control_features": "受北东向断裂和矽卡岩带共同控制"
+     }
+   }
+
+   具体要求：
+
+   - `entity_local_id`：在本篇文献内部唯一，例如 `"E1"`, `"E2"`, `"E3"`。
+   - `entity_type`：必须是 schema.json 中 `entity_schema` 的某个键，例如 `"Deposit"`。
+   - `name_zh`：该实体的中文名称。
+     - 如果原文是英文，请将实体名称翻译成合适的中文地质术语；
+     - 如果原文是中文，则使用规范的中文名称。
+   - `attributes`：
+     - 是一个键值对对象（JSON 对象）；
+     - **键（attribute key）必须是该实体类型在 `key_attributes` 中给出的英文键名**；
+     - 值必须为中文描述，例如 `"location": "新疆东准噶尔地区"`；
+     - 不要使用 schema 中不存在的属性键；对于文本中提到但 schema 未定义的属性，直接忽略，不要输出。
+
+3. 在单篇文献内部，应尽量将同一个事物（如同一矿床）合并为一个实体，避免重复。
+
+--------------------------------
+2.2 关系抽取（输出到 relations 数组）
+--------------------------------
+
+1. 在 doc.json 的 `blocks[*].text` 中，识别实体之间的关系，限定为 schema.json 中 `relation_schema` 里列出的关系类型。
+
+2. 对于每条关系，输出一个对象，形如：
+
+   {
+     "relation_local_id": "R1",
+     "relation_type": "Deposit-Region",
+     "from_entity_local_id": "E1",
+     "to_entity_local_id": "E2",
+     "relation_label_zh": "位于",
+     "description": "卡拉麦里金矿床位于东准噶尔成矿带中部"
+   }
+
+   具体要求：
+
+   - `relation_local_id`：在本篇文献内部唯一，例如 `"R1"`, `"R2"`, `"R3"`。
+   - `relation_type`：必须是 schema.json 中 `relation_schema[*].id` 的某个值，如 `"Deposit-Region"`、`"Deposit-Lithology"` 等。
+   - `from_entity_local_id` / `to_entity_local_id`：
+     - 必须引用本 JSON 中 `entities` 数组里的 `entity_local_id`；
+     - 且对应实体的 `entity_type` 必须分别等于该关系类型在 schema.json 中定义的 `from_entity` 和 `to_entity`。
+   - `relation_label_zh`：
+     - 该关系在文本中的中文表达，如 `"位于"`, `"隶属于"`, `"主要赋存于"`, `"受…控制"` 等。
+   - `description`：
+     - 用中文简要描述该关系的具体含义，例如：
+       - `"卡拉麦里金矿床位于东准噶尔成矿带中部"`。
+   - 不允许为关系添加 schema 中未定义的额外属性字段；只保留上述字段。
+
+3. 如果文本中出现的某些关系无法映射到现有 `relation_schema` 的某个 `id`，请直接忽略，不要输出。
+
+------------------------------------------------
+三、输出 JSON 结构要求（必须严格遵守）
+------------------------------------------------
+
+你最终的回答必须是一个 JSON 对象，整体结构如下（这是模板，请用真实内容替换占位符）：
+
+{
+  "schema_version": "0.1.0",
+  "doc_id": "DOC_XXXX",
+  "title": "填入文献标题（可为原文题目）",
+  "language": "zh_or_en",
+
+  "entities": [
+    {
+      "entity_local_id": "E1",
+      "entity_type": "Deposit",
+      "name_zh": "卡拉麦里金矿床",
+      "attributes": {
+        "name": "卡拉麦里金矿床",
+        "location": "新疆东准噶尔地区",
+        "deposit_type": "造山型金矿床",
+        "ore_grade": "3.5 g/t",
+        "resource_tonnage": "1500 万吨",
+        "ore_control_features": "受北东向断裂和矽卡岩带共同控制"
+      }
+    },
+    {
+      "entity_local_id": "E2",
+      "entity_type": "Region",
+      "name_zh": "东准噶尔成矿带",
+      "attributes": {
+        "name": "东准噶尔成矿带",
+        "level": "成矿带",
+        "tectonic_setting": "弧后盆地与岛弧拼贴带"
+      }
+    }
+    /* 更多实体 E3, E4, ... */
+  ],
+
+  "relations": [
+    {
+      "relation_local_id": "R1",
+      "relation_type": "Deposit-Region",
+      "from_entity_local_id": "E1",
+      "to_entity_local_id": "E2",
+      "relation_label_zh": "位于",
+      "description": "卡拉麦里金矿床位于东准噶尔成矿带中部"
+    },
+    {
+      "relation_local_id": "R2",
+      "relation_type": "Deposit-HostRockUnit",
+      "from_entity_local_id": "E1",
+      "to_entity_local_id": "E3",
+      "relation_label_zh": "赋存于",
+      "description": "矿体主要赋存于石英闪长岩和矽卡岩化带中"
+    }
+    /* 更多关系 R3, R4, ... */
+  ]
+}
+
+硬性约束：
+1. `schema_version` 必须等于 schema.json 中的 `"schema_version"`。
+2. `doc_id` 必须等于 doc.json 中的 `"doc_id"`。
+3. `entity_type` 必须来自 schema.json 的 `entity_schema` 键；其 `attributes` 的键必须来自对应类型的 `key_attributes`。
+4. `relation_type` 必须来自 schema.json 的 `relation_schema[*].id`；其两端实体类型必须分别匹配 `from_entity` 和 `to_entity`。
+5. 所有中文相关字段（`name_zh`、属性值、`relation_label_zh`、`description`）必须为中文。
+6. 禁止输出任何与 schema.json 不兼容的字段（包括新实体类型、新属性键、新关系类型、新关系属性）。不兼容内容直接忽略。
+
+------------------------------------------------
+四、实际输入
+------------------------------------------------
+
+【schema.json】
+（在这里粘贴当前版本的 schema.json 完整内容）
+【doc.json】
+（在这里粘贴当前文献对应的 doc.json 完整内容）
+
+请根据以上 schema.json 和 doc.json，直接输出一个 满足「三、输出 JSON 结构要求」的 JSON 对象。

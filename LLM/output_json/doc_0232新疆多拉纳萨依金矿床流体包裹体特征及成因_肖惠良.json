@@ -1,0 +1,186 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0232",
+"title": "新疆多拉纳萨依金矿床流体包裹体特征及成因_肖惠良",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "多拉纳萨依金矿床",
+"attributes": {
+"name": "多拉纳萨依金矿床",
+"location": "新疆额尔齐斯构造—岩浆成矿带西南部",
+"tectonic_position": "西伯利亚板块西南缘，额尔齐斯构造—岩浆成矿带西南部克兰陆缘火山弧外侧，额尔齐斯挤压带北西段，玛尔卡库里大断裂西侧",
+"ore_control_features": "受韧性剪切带控制，金矿体呈脉状、透镜状、分枝复合状，由蚀变钠长石花岗岩脉和矿化千枚岩组成"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯构造—岩浆成矿带西南部",
+"attributes": {
+"name": "额尔齐斯构造—岩浆成矿带西南部",
+"level": "成矿带",
+"tectonic_setting": "西伯利亚板块西南缘克兰陆缘火山弧外侧，额尔齐斯挤压带北西段"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变钠长石花岗岩脉及糜棱岩化钠长岩脉与矿化千枚岩",
+"attributes": {
+"name": "蚀变钠长石花岗岩脉及糜棱岩化钠长岩脉与矿化千枚岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "近南北向反“S”型韧性剪切变质带",
+"attributes": {
+"name": "近南北向反“S”型韧性剪切变质带",
+"structure_type": "韧性剪切带",
+"orientation": "近南北向，反“S”型",
+"scale": "区域性",
+"ore_control_role": "控制金矿体的产出形态与展布"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "钠长石化—白云母/绢云母化—黄铁矿化—硅化",
+"attributes": {
+"name": "钠长石化—白云母/绢云母化—黄铁矿化—硅化",
+"alteration_minerals": "钠长石、白云母、绢云母、黄铁矿、石英",
+"intensity": "蚀变发育"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金矿石中主要金属矿物",
+"paragenesis": "与钠长石、石英、白云母/绢云母等矿物共生"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金矿石中少量出现的金属矿物",
+"paragenesis": "与黄铁矿及石英等脉石矿物共生"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Fluid",
+"name_zh": "成矿混合热液（H2O—CO2体系）",
+"attributes": {
+"nature": "混合热液（H2O—CO2体系）",
+"source": "岩浆水、变质水、大气降水、地下水、岩石建造水及地层封存水的混合",
+"temperature_C_min": "160",
+"temperature_C_max": "315",
+"salinity_wtNaCl_min": "2.72",
+"salinity_wtNaCl_max": "37.22"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Isotope",
+"name_zh": "氢同位素δD",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD",
+"value_range": "-79.3‰～-62.4‰（第一阶段）；-132‰～-63.5‰（第二～四阶段）"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Isotope",
+"name_zh": "锶同位素87Sr/86Sr",
+"attributes": {
+"system": "锶同位素",
+"parameter_name": "87Sr/86Sr",
+"value_range": "0.7043±0.0001（钠长石花岗岩脉含金石英）；0.7073±0.0004（糜棱岩化钠长岩脉含金石英）；0.70592±0.00001～0.70627±0.00002（第一阶段成矿流体）；0.70851±0.00003（第二～四阶段成矿流体）"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于额尔齐斯构造—岩浆成矿带西南部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "多拉纳萨依金矿床受近南北向反“S”型韧性剪切变质带控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "多拉纳萨依金矿体由蚀变钠长石花岗岩脉（含糜棱岩化钠长岩脉）和矿化千枚岩组成"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿化关系密切的蚀变主要有钠长石化、白云母—绢云母化、黄铁矿化和硅化"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "多拉纳萨依金矿石中金属矿物主要为黄铁矿"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "多拉纳萨依金矿石中含少量自然金"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "对应成矿流体为",
+"description": "多拉纳萨依金矿床成矿流体为H2O—CO2体系的混合热液，流体包裹体均一温度160～315℃、盐度2.72～37.22 NaCl%Wt"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E8",
+"relation_label_zh": "约束该流体来源",
+"description": "第一阶段成矿流体δD为-79.3‰～-62.4‰，第二～四阶段成矿流体δD为-132‰～-63.5‰，用于约束成矿流体来源与演化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E8",
+"relation_label_zh": "约束该流体来源",
+"description": "含金石英流体包裹体87Sr/86Sr初始值为0.7043±0.0001和0.7073±0.0004，成矿流体87Sr/86Sr为0.70592±0.00001～0.70627±0.00002（第一阶段）及0.70851±0.00003（第二～四阶段），用于约束成矿流体特征与混合来源"
+}
+]
+}

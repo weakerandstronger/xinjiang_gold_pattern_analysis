@@ -1,0 +1,109 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0012",
+"title": "新疆乌恰县萨瓦亚尔顿金矿床成矿模式探讨",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨瓦亚尔顿金矿床",
+"attributes": {
+"name": "萨瓦亚尔顿金矿床",
+"location": "新疆乌恰县萨瓦亚尔顿",
+"tectonic_position": "沉积阶段在洋盆中相对半封闭的还原性海盆内沉积的浊流型细碎屑岩区",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "金在构造热动力作用下由深部含矿流体与大气水形成的热循环流体多次活化、迁移，并在构造破碎蚀变带及脆性断裂中富集沉淀形成金矿床"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆乌恰县",
+"attributes": {
+"name": "新疆乌恰县",
+"level": "县",
+"tectonic_setting": "具有洋盆浊流沉积和造山运动区域变质叠加的成矿背景"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "富碳硫金浊流型变质细碎屑岩矿源层",
+"attributes": {
+"name": "富碳、硫、金的浊流型变质细碎屑岩矿源层"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Fluid",
+"name_zh": "萨瓦亚尔顿金矿床成矿流体",
+"attributes": {
+"nature": "由深部含矿流体与大气水（大气降水热液）形成的热循环成矿流体",
+"source": "造山运动后期在构造热动力作用下来自深部的含矿流体与大气水、大气降水热液混合形成的含金成矿流体"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "构造破碎蚀变带",
+"attributes": {
+"name": "构造破碎蚀变带",
+"structure_type": "构造破碎带",
+"ore_control_role": "成矿阶段金在构造破碎蚀变带中富集沉淀形成金矿床"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "脆性断裂",
+"attributes": {
+"name": "脆性断裂",
+"structure_type": "断裂",
+"ore_control_role": "造山运动后期大气降水热液与深部来源含矿流体在脆性的断裂中反复循环、富集沉淀金形成金矿床"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨瓦亚尔顿金矿床位于新疆乌恰县境内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "萨瓦亚尔顿金矿床赋存于在洋盆相对半封闭还原性海盆中沉积的富碳、硫、金的浊流型变质细碎屑岩矿源层中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "萨瓦亚尔顿金矿床的金在构造破碎蚀变带中富集沉淀，矿体受构造破碎蚀变带控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "萨瓦亚尔顿金矿床成矿阶段金富集沉淀于脆性的断裂中，矿体受脆性断裂控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨瓦亚尔顿金矿床的成矿流体为造山运动后期构造热动力作用下深部含矿流体与大气水、大气降水热液混合形成的热循环成矿流体"
+}
+]
+}

@@ -1,0 +1,185 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0235",
+"title": "东天山康古尔金矿床控矿构造分析_田小军",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "康古尔金矿床",
+"attributes": {
+"name": "康古尔金矿床",
+"location": "新疆东天山康古尔地区",
+"tectonic_position": "塔里木板块北部活动大陆边缘，康古尔古生代构造带与阿奇山—雅满苏岛弧北缘交接部位，康古尔—黄山韧性剪切带西段南缘",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受韧性剪切带控制；含金蚀变带及矿体赋存于韧性剪切带糜棱岩中（原岩为安山岩、凝灰岩等）；已发现L1和L2两条矿脉，矿脉展布与断裂交汇部位关系密切"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "塔里木板块北部活动大陆边缘",
+"attributes": {
+"name": "塔里木板块北部活动大陆边缘",
+"level": "活动大陆边缘",
+"tectonic_setting": "塔里木板块北部活动大陆边缘构造环境"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统雅满苏组",
+"attributes": {
+"name": "下石炭统雅满苏组",
+"age": "下石炭世",
+"dominant_lithology": "钙碱性中酸性火山岩夹碎屑岩组合（火山岩系）",
+"lithology_notes": "矿区主要出露地层，岩性包括安山岩、安山质凝灰岩、英安岩、流纹岩及相应凝灰岩；Au元素丰度明显偏高，可能为成矿提供物源"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "韧性剪切带糜棱岩（原岩为安山岩、凝灰岩等）",
+"attributes": {
+"name": "韧性剪切带糜棱岩（原岩为安山岩、凝灰岩等）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "黄山韧性剪切带",
+"attributes": {
+"name": "黄山韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "北东—南西向",
+"scale": "区域性",
+"ore_control_role": "与康古尔金矿床具有明显成因联系，控制该成矿带内金矿床（点）的分布特征"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "雅满苏深大断裂",
+"attributes": {
+"name": "雅满苏深大断裂",
+"structure_type": "深大断裂",
+"scale": "区域性",
+"ore_control_role": "断裂南东侧地层变形强烈、断裂发育，为成矿热液提供通道；断裂北西侧对含矿热液具有隔挡作用"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "近南北向断裂",
+"attributes": {
+"name": "近南北向断裂",
+"structure_type": "断裂",
+"orientation": "近南北向",
+"scale": "矿区级",
+"ore_control_role": "分开L1与L2两条矿脉，并与其他断裂交汇部位共同控制矿脉展布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Fluid",
+"name_zh": "中低温成矿热液",
+"attributes": {
+"nature": "中低温热液",
+"source": "岩浆期后热液萃取下石炭统雅满苏组安山岩、凝灰岩等中的金元素并在有利构造部位汇聚成矿"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geophysics",
+"name_zh": "串珠状弱磁异常",
+"attributes": {
+"anomaly_type": "磁异常",
+"spatial_pattern": "串珠状弱磁异常"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "康古尔塔格金异常及组合元素异常",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "位于康古尔塔格Au异常带浓集中心附近，伴有明显的Cu、As、Ag等组合元素异常"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "康古尔金矿床位于塔里木板块北部活动大陆边缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床宏观上位于黄山韧性剪切带内，与韧性剪切带具有明显成因联系"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床位于雅满苏深大断裂南东侧，断裂为成矿热液提供通道并对含矿热液运移具有制约作用"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床L1与L2两条矿脉被近南北向断裂分开，矿脉展布与断裂交汇部位密切相关"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "康古尔金矿床含金蚀变带及矿体赋存于韧性剪切带糜棱岩中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "韧性剪切带糜棱岩的原岩为下石炭统雅满苏组的安山岩、凝灰岩等"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "对应成矿流体为",
+"description": "康古尔金矿床为中低温热液型金多金属矿床，成矿过程涉及岩浆期后热液对雅满苏组金元素的萃取与富集"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "康古尔金矿区具有串珠状弱磁异常特征"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "康古尔金矿床位于康古尔塔格Au异常带浓集中心附近，伴有Cu、As、Ag等组合元素异常"
+}
+]
+}

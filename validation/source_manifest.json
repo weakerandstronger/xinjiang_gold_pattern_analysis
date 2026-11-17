@@ -1,0 +1,276 @@
+[
+  {
+    "path": "data/processed/1004end_entity_summary.csv",
+    "source": "1004 baseline: experiments/data/1004end_entity_summary.csv",
+    "sha256": "090ab0ba13b6ce86eb81fc0b8d9a9228a7cb189c3025c81ba0a90cd9d4ed90c2"
+  },
+  {
+    "path": "results/baseline/cases.json",
+    "source": "1004 baseline: experiments/results/cases.json",
+    "sha256": "3854d4d9ed9c05ed8c0cac4e654c76fd87e27f6ce85bfb194f61af08d61f8b45",
+    "source_sha256": "bc83448eee03fbd692d9c228a86685aaeee5e12847840fb730056dfabf6202a7",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "results/baseline/case_record_evidence.csv",
+    "source": "1004 baseline: experiments/results/case_record_evidence.csv",
+    "sha256": "7ccb24fe610f3918bd49199c943a81568aea44f6a7bbb848d7fc95bf44185ebf"
+  },
+  {
+    "path": "results/baseline/display_selection.csv",
+    "source": "1004 baseline: experiments/results/display_selection.csv",
+    "sha256": "25b0c39bb1411f429cf715995145432fbc0c25660d83193f5eaa8fc7110006b7"
+  },
+  {
+    "path": "results/baseline/entities.csv",
+    "source": "1004 baseline: experiments/results/entities.csv",
+    "sha256": "ba977995dbeb37f71a855b1f1b2c83a0a8dd99b05715129d5ab39f421cdab413"
+  },
+  {
+    "path": "results/baseline/features.csv",
+    "source": "1004 baseline: experiments/results/features.csv",
+    "sha256": "e22df8f09d1cf67b20a72f6767255f45eb21c53502b28a4a41e21a9614e0e03d",
+    "source_sha256": "2ffbef04a72ca910a92ef1054d97cc3c982cb0c4a9bbbfd5fd92a6a8bfe0d762",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "results/baseline/group_sources.csv",
+    "source": "1004 baseline: experiments/results/group_sources.csv",
+    "sha256": "d05e26c02505d137cf0117d2b8d3b02fb4257d9afb1128f1e7e1943bc6177f8c"
+  },
+  {
+    "path": "results/baseline/items.csv",
+    "source": "1004 baseline: experiments/results/items.csv",
+    "sha256": "446bbfb5ed296da3f1940f9381857f5a957225eb14ccfc89604368f86506932a",
+    "source_sha256": "8da1bae5939801a1a69f58870521291424d98934422688dba3d4dcc33c983495",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "results/baseline/label_map.csv",
+    "source": "1004 baseline: experiments/results/label_map.csv",
+    "sha256": "f7c0df2eb949df37607f11633161c9785262350522eef165ead76c43d61ef9b4"
+  },
+  {
+    "path": "results/baseline/patterns.csv",
+    "source": "1004 baseline: experiments/results/patterns.csv",
+    "sha256": "01de735b24ac16106cddc4c8bd1f4b13ad44d85b0f3cc1266b5af0bf950aad23"
+  },
+  {
+    "path": "results/baseline/pattern_members.csv",
+    "source": "1004 baseline: experiments/results/pattern_members.csv",
+    "sha256": "ec1a68253714e79f30d243b145c0e219221bdfee68eb09e24968e6150e651fcc"
+  },
+  {
+    "path": "results/baseline/summary.json",
+    "source": "1004 baseline: experiments/results/summary.json",
+    "sha256": "240245562a3f337d8eff1903ba626ffee65e67767689760d462fca978a08132d"
+  },
+  {
+    "path": "tables/F3_match_overlap.csv",
+    "source": "1004 baseline: experiments/tables/F3_match_overlap.csv",
+    "sha256": "b4a7a66c450ac58f7507e8411aa4e991ed34d68e95f276ad6d527305564b2357"
+  },
+  {
+    "path": "tables/T1_dataset_statistics.csv",
+    "source": "1004 baseline: experiments/tables/T1_dataset_statistics.csv",
+    "sha256": "b45db13456c6de189e013393817acaac4e8ce133ffd76888638b07d9d7512424"
+  },
+  {
+    "path": "tables/T2_analysis_settings.csv",
+    "source": "1004 baseline: experiments/tables/T2_analysis_settings.csv",
+    "sha256": "11436b8fe74227f52fe1f9bc732f4cf74bebc473001526bb95f98473e5cf4fba"
+  },
+  {
+    "path": "tables/T2_case_counts.csv",
+    "source": "1004 baseline: experiments/tables/T2_case_counts.csv",
+    "sha256": "9c90ba91ae892c231bbcf78398cb9979844b08c9a25cdf1f48b53095300a958c",
+    "source_sha256": "33afdf9e51bc285a4d681b72b8566eb8dbed218e263a4d8c29a80ca994b548d6",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "tables/T3_topic_patterns.csv",
+    "source": "1004 baseline: experiments/tables/T3_topic_patterns.csv",
+    "sha256": "a6787c58092224fbab5142ba65a9edd09e7af97b227186db3790edaa8f01a8f6"
+  },
+  {
+    "path": "tables/T3_topic_patterns.json",
+    "source": "1004 baseline: experiments/tables/T3_topic_patterns.json",
+    "sha256": "f1e29c07fc0b02f4654a4df7d7150b0e0cb9dce8f4f310a63953108e2b5c91ee"
+  },
+  {
+    "path": "data/intermediate/F1.csv",
+    "source": "1004 baseline: experiments/figures/data/F1.csv",
+    "sha256": "e22df8f09d1cf67b20a72f6767255f45eb21c53502b28a4a41e21a9614e0e03d",
+    "source_sha256": "2ffbef04a72ca910a92ef1054d97cc3c982cb0c4a9bbbfd5fd92a6a8bfe0d762",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "data/intermediate/F2.csv",
+    "source": "1004 baseline: experiments/figures/data/F2.csv",
+    "sha256": "aa7ec001a4422cbd5c0c5ed67eff2fb7a75427dbf09401ecab528620efe3855d",
+    "source_sha256": "5357d1f431aa0cfe76fa77c15d6bf4bb9ba45b01c1ed931f853acf1fa6893c0d",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "data/intermediate/F3.csv",
+    "source": "1004 baseline: experiments/figures/data/F3.csv",
+    "sha256": "8a7c40f3253e7a679911a3f858ad2d6369aeb098fa6dc9e45a51e3622ba6f9cf"
+  },
+  {
+    "path": "results/order_decomposition/checks.json",
+    "source": "order decomposition: checks.json",
+    "sha256": "0a7454615d468e8a92c26e4f22becfc4c61f52fd6acb5588e65d27c520163779"
+  },
+  {
+    "path": "results/order_decomposition/features_order2.csv",
+    "source": "order decomposition: features_order2.csv",
+    "sha256": "1c8efdd1de6d54589c5e805e273a86c18e72c45247689665b6425a28577a5517",
+    "source_sha256": "8875e64f89545700f055fd13df79cbaf126d03f2ca00ba27667719de1428f524",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "results/order_decomposition/features_order3.csv",
+    "source": "order decomposition: features_order3.csv",
+    "sha256": "965c2aa1eddd9002d3aafbb014fbb32992280ffe94e871f9086be1fd7db31c96",
+    "source_sha256": "c430f1d9e5c97f8131fb2ed74b1b4bdedb9fd91c0a18d1a21b037bef02310bf1",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "results/order_decomposition/feature_reconciliation.csv",
+    "source": "order decomposition: feature_reconciliation.csv",
+    "sha256": "878fe4eb575d273286f675799ce30507ac15fb1fc2b24f0815b2a5e080347f51",
+    "source_sha256": "98b9e00934a7e8ee0fd87ce471b937b8f241f23c4a2c8225c3c57419a80146d1",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "results/order_decomposition/patterns_order2.csv",
+    "source": "order decomposition: patterns_order2.csv",
+    "sha256": "e02b1010a817f94ed93685801c251ac8736b475a57316b81861a2a3c37c97c94"
+  },
+  {
+    "path": "results/order_decomposition/patterns_order3.csv",
+    "source": "order decomposition: patterns_order3.csv",
+    "sha256": "3a81ef0e33a320dc1d7ee7f04553e4cc48bdf5593bbcb261d9889dad2645f5f1"
+  },
+  {
+    "path": "results/order_decomposition/summary.json",
+    "source": "order decomposition: summary.json",
+    "sha256": "37453ec61302a8306115a309c3e88b71bb1f02ea9ef7e9df8639d34650e46eda"
+  },
+  {
+    "path": "figures/F1/feature_support_coverage.png",
+    "source": "1004 baseline: figures/F1/feature_support_coverage.png",
+    "sha256": "7ceee27a9739712d71f86c4b911b2b10435b3b91efde9624452bcd040e594d72",
+    "source_sha256": "673399db65693e1b8c7ee8175975a717c1a22247ac7c5e8e2e00c14c1073648f",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F1/feature_support_coverage.pdf",
+    "source": "1004 baseline: figures/F1/feature_support_coverage.pdf",
+    "sha256": "0c7024760a3059d5cf538c3b0837bf587cf0a0c92b8d59c640eb32018c173cc6",
+    "source_sha256": "6bd3e5c0bdcee5a43d538c8ecc18322d5cbd84a6b5ca1dde1e3adb7275a02626",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F1/feature_support_coverage.svg",
+    "source": "1004 baseline: figures/F1/feature_support_coverage.svg",
+    "sha256": "46d2d1bee28f3b9e548a7caa24c1121bbddd1a78085a83cfea78aece2f7537a4",
+    "source_sha256": "b6c433e9e93e2b251683bdb3985040206e20160d2677d71388fd5d84f1fc6c18",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F1/display_data.csv",
+    "source": "1004 baseline: figures/F1/display_data.csv",
+    "sha256": "30cc114fe5672af4d103630ddeb7e28dea7170916936f816f435024a88057c24",
+    "source_sha256": "4e442482a72b771d3c8ff6fc2f57d091ca9e481bfa5487cb302c7326595bd58a",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F1/plot_data.csv",
+    "source": "1004 baseline: figures/F1/plot_data.csv",
+    "sha256": "e22df8f09d1cf67b20a72f6767255f45eb21c53502b28a4a41e21a9614e0e03d",
+    "source_sha256": "2ffbef04a72ca910a92ef1054d97cc3c982cb0c4a9bbbfd5fd92a6a8bfe0d762",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F2/feature_internal_support_v3.png",
+    "source": "1004 baseline: figures/F2/feature_internal_support_v3.png",
+    "sha256": "f4822ecbf3698a1fad724b76c1bb9782e4fad0b4ce2882ffafb3dcc1cb258005",
+    "source_sha256": "c49b6bd85f6e5ba07dc2995b889760085f2d271d428556f782adb359ccf548ba",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F2/feature_internal_support_v3.pdf",
+    "source": "1004 baseline: figures/F2/feature_internal_support_v3.pdf",
+    "sha256": "9a4843437a78fe29dd381f15fe9539f113bc1754d06ec4d788da4f3a0864ba46",
+    "source_sha256": "270f43df175bc6e28fdb1052307dba1bb1e48c94773ad6c98cf3a562e976a9ab",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F2/feature_internal_support_v3.svg",
+    "source": "1004 baseline: figures/F2/feature_internal_support_v3.svg",
+    "sha256": "c88a441053c0e77672c476f7d1c0f2101ef60bfd909868b61a6291a512bac64d",
+    "source_sha256": "fa4edb97a56f462aa72f0e3f7ae0d51b870049df530089af43c685d1ac51163a",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F2/plot_data.csv",
+    "source": "1004 baseline: figures/F2/plot_data.csv",
+    "sha256": "aa7ec001a4422cbd5c0c5ed67eff2fb7a75427dbf09401ecab528620efe3855d",
+    "source_sha256": "5357d1f431aa0cfe76fa77c15d6bf4bb9ba45b01c1ed931f853acf1fa6893c0d",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F3/high_order_pattern_forest_table.png",
+    "source": "1004 baseline: figures/F3/high_order_pattern_forest_table.png",
+    "sha256": "306b2107334ebd8ff8d7b9690ddbc8a7818f4a5ad2cd617d538cac193a2a7e51"
+  },
+  {
+    "path": "figures/F3/high_order_pattern_forest_table.pdf",
+    "source": "1004 baseline: figures/F3/high_order_pattern_forest_table.pdf",
+    "sha256": "8eaccc0e8446aed58bc8f6f265524788dce54e879a4eca26fd46b6a2d96e33a7"
+  },
+  {
+    "path": "figures/F3/high_order_pattern_forest_table.svg",
+    "source": "1004 baseline: figures/F3/high_order_pattern_forest_table.svg",
+    "sha256": "859bf2c98b8d0c480115e05161221ecc5576bf1634183bb0bb07c836bbdc4f00"
+  },
+  {
+    "path": "figures/F3/plot_data.csv",
+    "source": "1004 baseline: figures/F3/plot_data.csv",
+    "sha256": "8a7c40f3253e7a679911a3f858ad2d6369aeb098fa6dc9e45a51e3622ba6f9cf"
+  },
+  {
+    "path": "figures/F4/display_data.csv",
+    "source": "order decomposition final style: display_data.csv",
+    "sha256": "4163d1f1e30823eeb94b2c47576a0ac7990da8238ea9b9edef8eadd510391eef",
+    "source_sha256": "2e6a369c8e00b5fd25e7d97fa6d3a84dba0fb76581311131f71916a3fe7c45b4",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F4/feature_support_order2_order3.pdf",
+    "source": "order decomposition final style: feature_support_order2_order3.pdf",
+    "sha256": "fbe7b2697c487d64f3e3ac0cf825d3de9e1101a9a7388275c83ddd792c560076",
+    "source_sha256": "6196f0d47244f90965c59179f06387bfaa4f5e64bdbc5be80e74bd5f88a7bf09",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F4/feature_support_order2_order3.png",
+    "source": "order decomposition final style: feature_support_order2_order3.png",
+    "sha256": "ba1baa9085c377b4537bc88f1d3a6c07948472e4496a6315ae26da64b81cd63d",
+    "source_sha256": "ed65134cc8b0035bab92c53742bf48a1dfd264d6129f5871cc8dcc3d92f2457e",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F4/feature_support_order2_order3.svg",
+    "source": "order decomposition final style: feature_support_order2_order3.svg",
+    "sha256": "f1e929d0bb219dfc240d442ba2dea8656411e7d25425a4c684afa82b3fc5a8b3",
+    "source_sha256": "6d8afef40afd6dab400481b354f36c3765e95bf8ee8822b55f5c097994dad21a",
+    "transformation": "Updated the HostRockUnit display label for the 2026-11-16 release."
+  },
+  {
+    "path": "figures/F4/figure_metadata.json",
+    "source": "order decomposition final style: figure_metadata.json",
+    "sha256": "ac67ce9505a77070c1f10732aa10d5fc87d1e805dbf2c523f7883d4274e05fcc"
+  }
+]

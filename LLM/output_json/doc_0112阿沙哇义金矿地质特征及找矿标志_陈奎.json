@@ -1,0 +1,336 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0112",
+"title": "阿沙哇义金矿地质特征及找矿标志",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿沙哇义金矿床",
+"attributes": {
+"name": "阿沙哇义金矿床",
+"location": "喀勒铁别克、卡拉铁克大断裂的次一级断裂带及断层破碎蚀变带内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受大断裂带及其次级断裂带控制，矿体主要产于断层破碎蚀变带(F1—F16)内，破碎蚀变带中发育石英细脉沿断层、节理、裂隙带充填，矿化蚀变越强金品位相对越高"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Structure",
+"name_zh": "喀勒铁别克大断裂",
+"attributes": {
+"name": "喀勒铁别克大断裂",
+"structure_type": "大断裂",
+"scale": "区域",
+"ore_control_role": "其控制次一级断裂带发育并间接控制金矿(化)体分布"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "卡拉铁克大断裂",
+"attributes": {
+"name": "卡拉铁克大断裂",
+"structure_type": "大断裂",
+"scale": "区域",
+"ore_control_role": "其控制次一级断裂带发育并间接控制金矿(化)体分布"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "断层破碎蚀变带(F1—F16)",
+"attributes": {
+"name": "断层破碎蚀变带(F1—F16)",
+"structure_type": "断层破碎蚀变带",
+"orientation": "NE向",
+"scale": "矿区",
+"ore_control_role": "多为压扭性次级断裂带，形成一系列破碎蚀变带(F1—F16)，其中大部分控制金矿(化)体，破碎蚀变带内普遍见金矿化并发育石英细脉充填"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "高岭石化",
+"attributes": {
+"name": "高岭石化",
+"alteration_minerals": "高岭石",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "千糜岩化",
+"attributes": {
+"name": "千糜岩化",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "硫化物"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "次生矿物"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "HostRockUnit",
+"name_zh": "浅变质碎屑岩围岩",
+"attributes": {
+"name": "浅变质碎屑岩围岩"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变砂岩与千枚岩结合部位",
+"attributes": {
+"name": "蚀变砂岩与千枚岩结合部位"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "金(Au)化探异常",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "沿大断裂带及其次级断裂带分布，浓集中心部位为寻找金矿的化探异常标志"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "砷(As)化探异常",
+"attributes": {
+"element": "As",
+"anomaly_pattern": "沿大断裂带及其次级断裂带分布，浓集中心部位为找矿标志"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geochem",
+"name_zh": "锑(Sb)化探异常",
+"attributes": {
+"element": "Sb",
+"anomaly_pattern": "沿大断裂带及其次级断裂带分布，浓集中心部位为找矿标志"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geochem",
+"name_zh": "铅(Pb)化探异常",
+"attributes": {
+"element": "Pb",
+"anomaly_pattern": "沿大断裂带及其次级断裂带分布，浓集中心部位为找矿标志"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geochem",
+"name_zh": "锌(Zn)化探异常",
+"attributes": {
+"element": "Zn",
+"anomaly_pattern": "沿大断裂带及其次级断裂带分布，浓集中心部位为找矿标志"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿受喀勒铁别克大断裂控制，其次一级断裂带控制金矿(化)体分布"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿受卡拉铁克大断裂控制，其次一级断裂带控制金矿(化)体分布"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿主要受断层破碎蚀变带(F1—F16)控制，破碎蚀变带内普遍见金矿化并发育石英细脉充填"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要围岩为",
+"description": "阿沙哇义金矿的破碎蚀变带与围岩浅变质碎屑岩的颜色差异明显，围岩为浅变质碎屑岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "赋存于",
+"description": "断层破碎蚀变带内蚀变砂岩与千枚岩结合部位金矿化较富集，为寻找富集金矿的重要部位"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "伴随有",
+"description": "阿沙哇义金矿破碎蚀变带内发育黄铁矿化等矿化蚀变"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "伴随有",
+"description": "阿沙哇义金矿破碎蚀变带内硅化强烈并充填石英细脉，硅化越强金品位相对越高"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "伴随有",
+"description": "阿沙哇义金矿破碎蚀变带内发育绢云母化等矿化蚀变"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "阿沙哇义金矿破碎蚀变带内发育高岭石化等矿化蚀变"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "阿沙哇义金矿破碎蚀变带内发育千糜岩化等矿化蚀变"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "破碎蚀变带内黄铁矿化强烈时一般金矿化更强，黄铁矿为重要矿物标志"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "破碎蚀变带内硅化强烈并充填石英细脉，石英为重要矿物标志"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "破碎蚀变带内黄铁矿化常伴随次生褐铁矿化，褐铁矿化为找矿标志之一"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "阿沙哇义金矿区沿大断裂带及其次级断裂带分布有金(Au)化探异常，浓集中心为找矿标志"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "伴随有",
+"description": "阿沙哇义金矿区沿大断裂带及其次级断裂带分布有砷(As)化探异常"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "伴随有",
+"description": "阿沙哇义金矿区沿大断裂带及其次级断裂带分布有锑(Sb)化探异常"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "伴随有",
+"description": "阿沙哇义金矿区沿大断裂带及其次级断裂带分布有铅(Pb)化探异常"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "伴随有",
+"description": "阿沙哇义金矿区沿大断裂带及其次级断裂带分布有锌(Zn)化探异常"
+}
+]
+}

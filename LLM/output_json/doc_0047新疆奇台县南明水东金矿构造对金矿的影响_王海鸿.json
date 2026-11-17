@@ -1,0 +1,168 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0047",
+"title": "新疆奇台县南明水东金矿构造对金矿的影响",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿床",
+"attributes": {
+"name": "南明水金矿床",
+"location": "新疆奇台县",
+"tectonic_position": "位于F1（清水～苏吉泉大断裂）与F3（次级断裂）之间的构造过渡带内，处于强应变构造带控制下",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体受卡拉麦里深断裂和清水－苏吉泉大断裂组成的构造带及其间F3次级断裂严格控制，构造裂隙为矿液运移提供通道，并在构造扩容带内形成成群成带的金矿（化）点"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆奇台县",
+"attributes": {
+"name": "新疆奇台县",
+"level": "县级区域",
+"tectonic_setting": "位于卡拉麦里强应变构造带控制的金成矿系统内，是南明水东金矿所在的研究区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "强应变构造带",
+"attributes": {
+"name": "强应变构造带",
+"structure_type": "构造带",
+"scale": "形成于板块俯冲与碰撞作用的特定部位，范围内发育多级断裂与变形带",
+"ore_control_role": "控制该区大部分内生金矿的分布，构成区内最重要的金成矿系统，对南明水东金矿的形成起总体控矿作用"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里深断裂",
+"attributes": {
+"name": "卡拉麦里深断裂",
+"structure_type": "深断裂",
+"scale": "区内主体深大断裂构造之一",
+"ore_control_role": "与清水－苏吉泉大断裂共同组成区内主要控矿、容矿构造带，为金矿体形成提供区域构造背景和运移通道"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "清水－苏吉泉大断裂",
+"attributes": {
+"name": "清水－苏吉泉大断裂",
+"structure_type": "大断裂",
+"scale": "区内主体深大断裂构造之一",
+"ore_control_role": "与卡拉麦里深断裂共同构成主要控矿、容矿构造，F1（清水～苏吉泉大断裂）与F3次级断裂之间构造带内集中发育金矿体"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "F3次级断裂",
+"attributes": {
+"name": "F3次级断裂",
+"structure_type": "次级断裂",
+"ore_control_role": "与F1（清水～苏吉泉大断裂）共同限定金矿体分布带，构造裂隙既为矿液运移提供通道，也为矿体形成提供赋存空间"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "构造禁闭带",
+"attributes": {
+"name": "构造禁闭带",
+"structure_type": "构造带",
+"ore_control_role": "变形变质带较宽但变形变质程度较低，区内无金矿（化）点显示，反映为不利成矿的构造部位"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "构造扩容带",
+"attributes": {
+"name": "构造扩容带",
+"structure_type": "构造带",
+"ore_control_role": "变形变质带较窄但变形变质程度高，金矿（化）点成群成带出现，是成矿流体由挤压区向相对低压伸展区运移并富集成矿的有利部位"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Fluid",
+"name_zh": "南明水东金矿成矿流体",
+"attributes": {
+"nature": "受构造应力场和深部上升热能驱动的成矿流体体系",
+"source": "构造带内岩石在构造运动和深部热能作用下发生强烈变形变质，Au元素被活化并随成矿流体在构造裂隙与扩容带中运移、富集成矿"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "南明水东金矿位于新疆奇台县境内，是该县卡拉麦里强应变构造带中的典型金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "南明水东金矿的形成受强应变构造带严格控制，该构造带控制了区域内大部分内生金矿的分布并构成最重要的金成矿系统"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "卡拉麦里深断裂为本区主体深大断裂之一，是区域主要控矿、容矿构造，对南明水东金矿的空间位置和成矿背景具有重要控制作用"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "清水－苏吉泉大断裂为本区另一条主体深大断裂，与卡拉麦里深断裂共同组成控矿、容矿构造带，南明水东金矿产于该构造带内"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "区内金矿体分布于F1（清水～苏吉泉大断裂）与F3（次级断裂）之间，F3次级断裂发育的构造裂隙为矿液运移提供通道并为矿体形成提供赋存空间"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "与…无矿化对应",
+"description": "在构造禁闭带内，变形变质带虽较宽但变形变质程度较低，区内未见金矿（化）点显示，表明该带对南明水东金矿成矿不利"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "在构造扩容带内，变形变质带较窄但变形变质程度高，金矿（化）点成群成带出现，南明水东金矿床集中分布于F1与F3过渡带附近的构造扩容区"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "对应成矿流体为",
+"description": "构造运动产生的热能和深部上升热量是成矿系统中岩石强烈变形变质及Au元素活化的能源，驱动成矿流体沿构造裂隙由强烈挤压地段向相对低压伸展区迁移，在F1与F3之间的构造扩容带附近形成南明水东金矿床"
+}
+]
+}

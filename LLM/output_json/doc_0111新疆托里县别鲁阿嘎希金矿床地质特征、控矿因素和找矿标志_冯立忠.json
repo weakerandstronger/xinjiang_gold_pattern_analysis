@@ -1,0 +1,330 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0111",
+"title": "新疆托里县别鲁阿嘎希金矿床地质特征、控矿因素和找矿标志",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "别鲁阿嘎希金矿床",
+"attributes": {
+"name": "别鲁阿嘎希金矿床",
+"location": "西准噶尔地区",
+"tectonic_position": "西准噶尔走滑断裂系统西翼",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "主要赋存于中泥盆统库鲁木迪组下岩段，矿体严格受北东向断裂构造控制，矿体间多呈雁列状展布并成群成带产出，金矿体主要发育在破碎带中并以石英细脉充填"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "哈图成矿带",
+"attributes": {
+"name": "哈图成矿带",
+"level": "成矿带",
+"tectonic_setting": "中亚成矿域"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "中亚成矿域",
+"attributes": {
+"name": "中亚成矿域",
+"level": "成矿域"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "西准噶尔走滑断裂系统西翼",
+"attributes": {
+"name": "西准噶尔走滑断裂系统西翼",
+"level": "构造单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统库鲁木迪组",
+"attributes": {
+"name": "中泥盆统库鲁木迪组",
+"age": "中泥盆统",
+"dominant_lithology": "深青灰色至灰黑色粉砂质泥岩、硅质泥岩、粉砂岩及含放射虫泥岩夹细粒长石石英砂岩",
+"lithology_notes": "矿区晚古生代中泥盆统以细—极细粒火山碎屑—陆源碎屑沉积组成的复理石建造为主"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "库鲁木迪组下岩段",
+"attributes": {
+"name": "库鲁木迪组下岩段"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "北东向断裂构造",
+"attributes": {
+"name": "北东向断裂构造",
+"structure_type": "断裂",
+"orientation": "北东向",
+"scale": "区域",
+"ore_control_role": "严格控制矿脉产出，表现为成群成带分段富集和侧伏规律"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "别鲁阿嘎希断裂",
+"attributes": {
+"name": "别鲁阿嘎希断裂",
+"structure_type": "断裂",
+"scale": "矿区",
+"ore_control_role": "主干断裂和主要控矿断裂，提供导矿、配矿和容矿空间，并为成矿热液上升提供通道"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "近东西向次级断裂",
+"attributes": {
+"name": "近东西向次级断裂",
+"structure_type": "断裂",
+"orientation": "近东西向",
+"scale": "矿区",
+"ore_control_role": "相对紧闭，为成矿热液的充填、交代、富集及最终成矿提供场所"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "破碎带",
+"attributes": {
+"name": "破碎带",
+"structure_type": "破碎带",
+"scale": "矿脉群",
+"ore_control_role": "金矿体主要发育在破碎带中，矿体多为充填于破碎带中的石英细脉"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "硫化物"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "硫化物"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "硫化物"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "磁黄铁矿",
+"attributes": {
+"name": "磁黄铁矿",
+"role_in_ore": "硫化物"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "与金矿相关的矿物标志，矿体多与石英脉和蚀变岩有关"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "IntrusiveBody",
+"name_zh": "铁厂沟花岗岩体",
+"attributes": {
+"name": "铁厂沟花岗岩体",
+"rock_type": "花岗岩",
+"relationship_to_ore": "矿区及周边发育的岩体之一，但岩体中未见明显金矿化"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "IntrusiveBody",
+"name_zh": "别鲁阿嘎希花岗闪长岩体",
+"attributes": {
+"name": "别鲁阿嘎希花岗闪长岩体",
+"rock_type": "花岗闪长岩",
+"relationship_to_ore": "岩体内部平行密集分布多条脉岩，其中闪长玢岩脉与金矿化存在空间相依相存关系，但岩体中未见明显金矿化"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长玢岩脉",
+"attributes": {
+"name": "闪长玢岩脉",
+"rock_type": "闪长玢岩",
+"relationship_to_ore": "与金矿化存在空间上的相依相存关系，可作为找矿标志之一"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉绿岩脉",
+"attributes": {
+"name": "辉绿岩脉",
+"rock_type": "辉绿岩",
+"relationship_to_ore": "别鲁阿嘎希花岗闪长岩体内部及矿区内可见少量辉绿岩脉"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "别鲁阿嘎希金矿床位于中亚成矿域哈图成矿带上"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "别鲁阿嘎希金矿床位于中亚成矿域内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "别鲁阿嘎希金矿床位于西准噶尔走滑断裂系统西翼"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要赋存于",
+"description": "别鲁阿嘎希金矿床主要矿脉群赋存于库鲁木迪组下岩段内"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "库鲁木迪组下岩段属于中泥盆统库鲁木迪组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "别鲁阿嘎希金矿床中矿脉的产出受区域北东向断裂构造控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "别鲁阿嘎希断裂为矿区主干断裂和主要控矿断裂，控制矿体产出并提供有利成矿空间"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "别鲁阿嘎希断裂上盘发育的近东西向次级断裂为成矿热液充填、交代和富集提供场所"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "发育在",
+"description": "金矿体主要发育在破碎带中，矿体多为充填于破碎带中的石英细脉"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "矿体多与蚀变岩有关，硅化较强时一般金矿化亦较强"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "硫化物富集部位与金矿化富集相关，硫化物以毒砂为主"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "硫化物富集部位与金矿化富集相关，硫化物以黄铁矿为主"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "硫化物富集部位与金矿化富集相关，硫化物以黄铜矿为主"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "局部地段可见磁黄铁矿，与硫化物富集及金矿化相关"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "别鲁阿嘎希金矿床的矿体多与石英脉有关，烟灰色石英出现时一般金矿化较强"
+}
+]
+}

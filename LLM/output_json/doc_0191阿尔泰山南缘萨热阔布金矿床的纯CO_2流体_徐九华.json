@@ -1,0 +1,287 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0191",
+"title": "阿尔泰山南缘萨热阔布金矿床的纯CO_2流体_徐九华",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨热阔布金矿床",
+"attributes": {
+"name": "萨热阔布金矿床",
+"location": "新疆阿尔泰山南缘",
+"tectonic_position": "中亚造山带阿尔泰造山带南缘的金-多金属成矿带内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "压剪性的阿巴宫断裂与克因宫断裂控制矿床南北边界，容矿断裂在控矿构造内呈右行雁列状分布，含金石英脉被多次破碎并被黄铁矿微细脉充填",
+"age_ma": "320 Ma（Ar-Ar）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿尔泰山南缘金-多金属成矿带",
+"attributes": {
+"name": "阿尔泰山南缘金-多金属成矿带",
+"level": "成矿带",
+"tectonic_setting": "中亚造山带阿尔泰造山带南缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下泥盆统康布铁堡组上亚组第二岩性段",
+"attributes": {
+"name": "下泥盆统康布铁堡组上亚组第二岩性段",
+"age": "下泥盆统",
+"dominant_lithology": "酸性火山岩、火山碎屑岩和碳酸盐岩",
+"lithology_notes": "萨热阔布金矿床产于康布铁堡组上亚组第二岩性段内，金矿化主要出现在北西相变为绿泥石黑云母石英片岩和变凝灰岩的地段"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "康布铁堡组变质酸性火山岩、火山碎屑岩",
+"attributes": {
+"name": "康布铁堡组变质酸性火山岩、火山碎屑岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "绿泥石黑云母石英片岩及变凝灰岩",
+"attributes": {
+"name": "绿泥石黑云母石英片岩及变凝灰岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "阿巴宫断裂",
+"attributes": {
+"name": "阿巴宫断裂",
+"structure_type": "断裂",
+"orientation": "向北西延伸",
+"scale": "区域性断裂",
+"ore_control_role": "压剪性断裂，控制矿床南边界并控制控矿构造带"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "克因宫断裂",
+"attributes": {
+"name": "克因宫断裂",
+"structure_type": "断裂",
+"orientation": "未明确",
+"scale": "区域性断裂",
+"ore_control_role": "压剪性断裂，控制矿床北边界并参与控矿构造带形成"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "网脉状发育"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金的金属矿物",
+"paragenesis": "金矿化与多金属硫化物阶段关系密切"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "黄铁矿-石英阶段形成粗晶黄铁矿和浸染状黄铁矿，并可见黄铁矿微细脉充填"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "多金属硫化物矿物之一",
+"paragenesis": "多金属硫化物阶段形成黄铜矿等硫化物"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "纯CO2及CO2±(CH4)成矿流体",
+"attributes": {
+"nature": "主成矿阶段流体包裹体以液态纯CO2包裹体为主，亦见富CO2包裹体与CO2±(CH4)流体，整体表现为缺水的富CO2流体特征",
+"source": "可能与后碰撞造山过程上地幔去气作用有关",
+"temperature_C_min": "250",
+"temperature_C_max": "280",
+"pressure_MPa_min": "150",
+"pressure_MPa_max": "320"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "CO2流体碳同位素",
+"attributes": {
+"system": "碳同位素",
+"parameter_name": "δ13C（CO2）",
+"value_range": "−21.15‰~−10.73‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床位于阿尔泰山南缘金-多金属成矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "萨热阔布金矿床产于康布铁堡组变质酸性火山岩、火山碎屑岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "金矿化主要产于北西相变为绿泥石黑云母石英片岩及变凝灰岩的地段"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "康布铁堡组变质酸性火山岩、火山碎屑岩属于下泥盆统康布铁堡组上亚组第二岩性段的容矿围岩组成"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "绿泥石黑云母石英片岩及变凝灰岩属于下泥盆统康布铁堡组上亚组第二岩性段的矿化地段"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床受压剪性的阿巴宫断裂控制矿床南边界并控制控矿构造带"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床受压剪性的克因宫断裂控制矿床北边界并参与控矿构造带形成"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床近矿围岩黄铁矿化发育"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床近矿围岩网脉状硅化发育"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床近矿围岩碳酸盐化发育"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石金属矿物中包括自然金"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石金属矿物中包括黄铁矿，并在黄铁矿-石英阶段形成主要硫化物组合"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "多金属硫化物阶段形成黄铜矿等硫化物矿物并与金矿化关系密切"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "萨热阔布金矿床主成矿阶段脉石英中大量发育液态纯CO2包裹体，局部出现CO2±(CH4)流体，估算最低捕获压力约150~320 MPa"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "CO2流体的δ13C为−21.15‰~−10.73‰，用于约束纯CO2及CO2±(CH4)成矿流体的来源特征"
+}
+]
+}

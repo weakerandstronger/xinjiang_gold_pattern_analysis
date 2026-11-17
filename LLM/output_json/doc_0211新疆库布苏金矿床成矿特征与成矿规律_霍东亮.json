@@ -1,0 +1,239 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0211",
+"title": "新疆库布苏金矿床成矿特征与成矿规律_霍东亮",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "库布苏金矿床",
+"attributes": {
+"name": "库布苏金矿床",
+"location": "新疆青河县境内（青河、奇台两县相邻地区）",
+"tectonic_position": "东准噶尔造山带南侧库布苏金矿带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "褶皱断裂构造发育，构造线总体呈北西—南东向展布；矿体多赋存于强应变构造带的次级断裂与裂隙中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "库布苏金矿带",
+"attributes": {
+"name": "库布苏金矿带",
+"level": "矿带",
+"tectonic_setting": "位于东准噶尔造山带南侧的金矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "东准噶尔造山带",
+"attributes": {
+"name": "东准噶尔造山带",
+"level": "造山带",
+"tectonic_setting": "晚石炭世—早二叠世处于后碰撞拉张环境，二叠纪岩浆活动与强烈构造运动发育"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长玢岩",
+"attributes": {
+"name": "闪长玢岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "泥盆系凝灰岩",
+"attributes": {
+"name": "泥盆系凝灰岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "泥盆系",
+"attributes": {
+"name": "泥盆系",
+"age": "泥盆纪",
+"dominant_lithology": "凝灰岩",
+"lithology_notes": "赋矿围岩之一为泥盆系凝灰岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "强应变构造带次级断裂与裂隙",
+"attributes": {
+"name": "强应变构造带次级断裂与裂隙",
+"structure_type": "断裂-裂隙系统",
+"orientation": "北西—南东向为主",
+"scale": "强应变构造带内次级断裂与裂隙",
+"ore_control_role": "矿体大多赋存于次级断裂和裂隙中，对矿体空间展布起主要控制作用"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化-褐铁矿化-硅化蚀变",
+"attributes": {
+"name": "黄铁矿化-褐铁矿化-硅化蚀变",
+"alteration_minerals": "黄铁矿、褐铁矿、石英",
+"intensity": "含矿脉岩普遍发育，表现典型"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物，与矿化密切相关",
+"paragenesis": "多呈薄片状、星点状，局部呈浸染状、粒状分布"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "常见氧化物矿物，与蚀变有关",
+"paragenesis": "与黄铁矿化、硅化等共同出现，为含矿脉岩典型蚀变矿物之一"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "库布苏金矿床成矿流体",
+"attributes": {
+"nature": "中低温、中低盐度、较低密度流体；气液两相包裹体为主，成矿环境显示还原性",
+"source": "含矿热液在构造挤压作用下从岩浆房中沿早期裂隙上升，并在相关断裂部位沉淀成矿",
+"temperature_C_min": "213",
+"temperature_C_max": "339",
+"salinity_wtNaCl_min": "1.22",
+"salinity_wtNaCl_max": "5.26"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geophysics",
+"name_zh": "2号矿脉低阻高极化电性异常",
+"attributes": {
+"anomaly_type": "低阻高极化异常",
+"amplitude": "2号矿脉金矿石与蚀变闪长玢岩电阻率较低（平均约762Ω·m），极化率较高（最高约75.7%，平均约33.1%）",
+"spatial_pattern": "矿层与凝灰岩、凝灰质砂岩等接触带表现为低阻或高阻、低极化；局部含炭质部位表现为低阻高极化，并赋存于矿体底板"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "金与伴生元素相关性地球化学信息",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "微量元素金与银（Ag）、锌（Zn）、砷（As）等具有较密切的正相关性，可形成地球化学原生晕以指示深部矿体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "库布苏金矿床位于库布苏金矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "库布苏金矿床位于东准噶尔造山带南侧"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "库布苏金矿床赋矿围岩主要为闪长玢岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "库布苏金矿床赋矿围岩主要为泥盆系凝灰岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "泥盆系凝灰岩围岩单元属于泥盆系地层"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "库布苏金矿床矿体主要赋存于强应变构造带内的次级断裂与裂隙中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "库布苏金矿床含矿脉岩普遍具有黄铁矿化、褐铁矿化与硅化等蚀变特征"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "库布苏金矿床含矿脉岩中黄铁矿常见，为主要金矿化相关矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "库布苏金矿床含矿脉岩中常见褐铁矿化，为典型蚀变表现之一"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "库布苏金矿床成矿流体为中低温、中低盐度、较低密度且具还原性的热液流体"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "库布苏金矿床2号矿脉金矿石与蚀变闪长玢岩电性表现为低阻高极化异常特征"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "库布苏金矿床微量元素地球化学显示金与银、锌、砷等正相关，可形成原生晕指示深部矿体"
+}
+]
+}

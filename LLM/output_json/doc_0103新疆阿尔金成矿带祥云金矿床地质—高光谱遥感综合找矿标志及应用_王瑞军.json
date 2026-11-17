@@ -1,0 +1,443 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0103",
+"title": "新疆阿尔金成矿带祥云金矿床地质—高光谱遥感综合找矿标志及应用",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "祥云金矿床",
+"attributes": {
+"name": "祥云金矿床",
+"location": "新疆阿尔金成矿带，位于新疆维吾尔自治区与青海省交界处北侧（东经90°34′10″~90°41′00″；北纬39°06′20″~39°08′10″）",
+"tectonic_position": "位处阿尔金构造带一级构造单元，处在红柳沟—拉配泉蛇绿构造混杂岩带二级构造单元",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均品位2.02×10⁻⁶~4.70×10⁻⁶",
+"ore_control_features": "金矿体赋存于杂色构造破碎岩中；构造以断裂为主，由近东西向断裂和北东向断裂组成；近东西向断裂带宽度10~150m，倾向南，倾角约65°，为金矿的控矿断裂；矿体产状和形态受近东西向破碎蚀变带和区域构造双重控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿尔金成矿带",
+"attributes": {
+"name": "阿尔金成矿带",
+"level": "成矿带",
+"tectonic_setting": "阿尔金构造带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿尔金构造带",
+"attributes": {
+"name": "阿尔金构造带",
+"level": "构造带",
+"tectonic_setting": "新疆阿尔金地区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "红柳沟—拉配泉蛇绿构造混杂岩带",
+"attributes": {
+"name": "红柳沟—拉配泉蛇绿构造混杂岩带",
+"level": "构造混杂岩带",
+"tectonic_setting": "阿尔金构造带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "长城系扎斯勘赛河组",
+"attributes": {
+"name": "长城系扎斯勘赛河组",
+"age": "长城系",
+"dominant_lithology": "碎屑岩、碳酸盐岩",
+"lithology_notes": "为一套滨海—浅海相沉积碎屑岩—碳酸盐岩建造"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "杂色构造破碎岩",
+"attributes": {
+"name": "杂色构造破碎岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "扎斯勘赛河组第二岩性段构造蚀变带",
+"attributes": {
+"name": "扎斯勘赛河组第二岩性段构造蚀变带"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "超基性岩体",
+"attributes": {
+"name": "超基性岩体",
+"rock_type": "超基性岩",
+"relationship_to_ore": "北部侵入出露，岩体多发育蛇纹石化、阳起石化、绿帘石化、黝帘石化等"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英闪长岩体",
+"attributes": {
+"name": "石英闪长岩体",
+"rock_type": "石英闪长岩",
+"relationship_to_ore": "在近东西向断裂带内零星出露，多含有黄铁矿，与金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "近东西向断裂带",
+"attributes": {
+"name": "近东西向断裂带",
+"structure_type": "断裂带",
+"orientation": "近东西向",
+"scale": "宽度10~150m",
+"ore_control_role": "为金矿的控矿断裂，带内岩石破碎，矿化蚀变强烈"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "北东向断裂",
+"attributes": {
+"name": "北东向断裂",
+"structure_type": "断裂",
+"orientation": "北东向",
+"ore_control_role": "与近东西向断裂共同组成矿区断裂构造体系"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "白云石化",
+"attributes": {
+"name": "白云石化",
+"alteration_minerals": "白云石"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Alteration",
+"name_zh": "辉锑矿化",
+"attributes": {
+"name": "辉锑矿化",
+"alteration_minerals": "辉锑矿"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Alteration",
+"name_zh": "绿帘石化",
+"attributes": {
+"name": "绿帘石化",
+"alteration_minerals": "绿帘石",
+"intensity": "弱"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "矿石矿物"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "矿石矿物"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "矿石矿物"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "白云石",
+"attributes": {
+"name": "白云石",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Mineral",
+"name_zh": "绿泥石",
+"attributes": {
+"name": "绿泥石",
+"role_in_ore": "脉石矿物"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "祥云金矿床位于新疆阿尔金成矿带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "祥云金矿床位处阿尔金构造带一级构造单元"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "祥云金矿床处在红柳沟—拉配泉蛇绿构造混杂岩带二级构造单元"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "祥云金矿体赋存于杂色构造破碎岩中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "祥云金矿体产于长城系扎斯勘赛河组第二岩性段构造蚀变带中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "扎斯勘赛河组第二岩性段构造蚀变带属于长城系扎斯勘赛河组地层单元"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "近东西向断裂带为金矿的控矿断裂，矿化蚀变强烈"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "由…组成",
+"description": "矿区断裂构造由近东西向断裂和北东向断裂组成"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "祥云金矿床发育硅化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "祥云金矿床发育绢云母化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "祥云金矿床发育绿泥石化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "祥云金矿床发育白云石化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "祥云金矿床发育黄铁矿化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要蚀变为",
+"description": "祥云金矿床发育褐铁矿化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要蚀变为",
+"description": "祥云金矿床发育辉锑矿化"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要蚀变为",
+"description": "祥云金矿床发育弱绿帘石化"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "祥云金矿床矿石矿物主要有黄铁矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "祥云金矿床矿石矿物主要有黄铜矿"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "祥云金矿床矿石矿物主要有毒砂"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "祥云金矿床脉石矿物主要为白云石"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "祥云金矿床脉石矿物主要为石英"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "共生矿物包括",
+"description": "祥云金矿床脉石矿物主要为绢云母"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "共生矿物包括",
+"description": "祥云金矿床脉石矿物主要为绿泥石"
+}
+]
+}

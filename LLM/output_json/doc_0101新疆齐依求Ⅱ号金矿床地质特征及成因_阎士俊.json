@@ -1,0 +1,480 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0101",
+"title": "新疆齐依求 Ⅱ 号金矿床地质特征及成因",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐依求Ⅰ号金矿床",
+"attributes": {
+"name": "齐依求Ⅰ号金矿床",
+"tectonic_position": "准噶尔弧形构造西翼玛依勒—扎依尔褶皱带的扎依尔—达尔布特复向斜东段之北翼",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体多受北东东向、北西西向断裂及其交汇处控制，断裂与背斜构造截切地段为有利部位；玄武岩体内外接触带及蚀变破碎强烈地段为重点找矿区；强烈黄铁矿化、毒砂化等蚀变叠加并发育石英细网脉的围岩或破碎带为直接找矿标志"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "玛依勒—扎依尔褶皱带",
+"attributes": {
+"name": "玛依勒—扎依尔褶皱带",
+"level": "褶皱带",
+"tectonic_setting": "准噶尔弧形构造西翼"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "扎依尔—达尔布特复向斜东段",
+"attributes": {
+"name": "扎依尔—达尔布特复向斜东段",
+"level": "复向斜",
+"tectonic_setting": "玛依勒—扎依尔褶皱带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统包古图组第一亚组",
+"attributes": {
+"name": "下石炭统包古图组第一亚组",
+"age": "下石炭统",
+"lithology_notes": "矿区出露地层以下石炭统包古图组第一亚组为主"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "太勒古拉组第二亚组",
+"attributes": {
+"name": "太勒古拉组第二亚组",
+"age": "下石炭统",
+"lithology_notes": "矿区出露地层以太勒古拉组第二亚组次之"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "凝灰质砂岩—凝灰质粉砂岩—凝灰质粉砂泥岩围岩",
+"attributes": {
+"name": "凝灰质砂岩—凝灰质粉砂岩—凝灰质粉砂泥岩围岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "玄武岩围岩",
+"attributes": {
+"name": "玄武岩围岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "北东东向断裂",
+"attributes": {
+"name": "北东东向断裂",
+"structure_type": "断裂",
+"orientation": "北东东向",
+"ore_control_role": "与金矿化关系密切，断裂及断裂交汇处为找矿有利构造部位"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "北西西向断裂",
+"attributes": {
+"name": "北西西向断裂",
+"structure_type": "断裂",
+"orientation": "北西西向",
+"ore_control_role": "与金矿化关系密切，断裂及断裂交汇处为找矿有利构造部位"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "复背斜构造",
+"attributes": {
+"name": "复背斜构造",
+"structure_type": "背斜",
+"scale": "矿区",
+"ore_control_role": "断裂与背斜构造截切地段为找矿有利构造部位"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "毒砂化",
+"attributes": {
+"name": "毒砂化",
+"alteration_minerals": "毒砂",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "黄钾铁矾化",
+"attributes": {
+"name": "黄钾铁矾化",
+"alteration_minerals": "黄钾铁矾"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿",
+"intensity": "地表强褐铁矿染"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "次要金属矿物"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "次要金属矿物"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "次要金属矿物"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Fluid",
+"name_zh": "中温热液",
+"attributes": {
+"nature": "中温热液",
+"source": "压熔热液作用为主，兼有基性岩浆期后热液作用；岩浆水与天水混合并可能受围岩与沉积地层成分影响",
+"temperature_C_min": "260",
+"temperature_C_max": "430"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "+1.8～+3‰"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O(SiO2)",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O(SiO2)",
+"value_range": "12.89～16.39‰"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O(H2O)",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O(H2O)",
+"value_range": "6.53～10.00‰"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Geophysics",
+"name_zh": "电阻率-极化率综合异常",
+"attributes": {
+"anomaly_type": "电阻率-极化率综合异常",
+"spatial_pattern": "综合异常区与高阻高极化向低阻低极化过渡地带及低阻低极化地段"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Geochem",
+"name_zh": "砷(As)异常",
+"attributes": {
+"element": "砷(As)",
+"anomaly_pattern": "砷为找金的指示元素，砷异常区为找金的有利部位"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "属于",
+"description": "齐依求Ⅰ号金矿所处大地构造位置属于准噶尔弧形构造西翼的玛依勒—扎依尔褶皱带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "齐依求Ⅰ号金矿位于扎依尔—达尔布特复向斜东段之北翼"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "近矿围岩主要为凝灰质砂岩、凝灰质粉砂岩和凝灰质粉砂泥岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要围岩为",
+"description": "近矿围岩局部为玄武岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "北东东向断裂及其交汇处为找矿的有利构造部位"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "北西西向断裂及其交汇处为找矿的有利构造部位"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "矿区总体为不完整复背斜，断裂与背斜构造截切地段为找矿有利部位"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "围岩蚀变有黄铁矿化，且强烈黄铁矿化为直接找矿标志"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "围岩蚀变有毒砂化，强烈毒砂化与矿石中金含量呈正消长关系并为直接找矿标志"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "围岩蚀变伴随有绢云母化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "伴随有",
+"description": "围岩蚀变伴随有碳酸盐化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "伴随有",
+"description": "围岩蚀变伴随有硅化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "伴随有",
+"description": "地表黄钾铁矾化为找金的氧化带标志"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "伴随有",
+"description": "地表强褐铁矿染为找金的氧化带标志"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要金矿物为",
+"description": "金属矿物主要为黄铁矿"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要金矿物为",
+"description": "金属矿物主要为毒砂"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "金属矿物次为自然金"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "金属矿物含黄铜矿"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "金属矿物含褐铁矿"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "对应成矿流体为",
+"description": "矿床成矿流体为中温热液，成矿温度大致为260～430℃（一般为270～360℃）"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E28",
+"relation_label_zh": "显示",
+"description": "砷为找金的指示元素，砷异常区为找金的有利部位"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "显示",
+"description": "砷、电阻率、极化率综合异常区及过渡带为找金的有利部位"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E24",
+"to_entity_local_id": "E23",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S（+1.8～+3‰）用于约束成矿热液的硫源与物质来源"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E25",
+"to_entity_local_id": "E23",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素δ18O(SiO2)（12.89～16.39‰）指示成矿热液中岩浆水占有一定地位并受天水介入影响"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E26",
+"to_entity_local_id": "E23",
+"relation_label_zh": "约束该流体来源",
+"description": "计算得到的δ18O(H2O)（6.53～10.00‰）反映成矿热液可能为岩浆水与地下水混合成因"
+}
+]
+}

@@ -1,0 +1,375 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0170",
+"title": "新疆鄯善梅南金矿床地球化学特征及隐伏矿预测",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "梧南金矿床",
+"attributes": {
+"name": "梧南金矿床",
+"tectonic_position": "塔里木陆块北缘活动带，属南天山晚古生代陆缘构造单元",
+"ore_control_features": "赋存于下石炭统甘草湖组不纯碳酸盐岩中，受层位控制明显；断裂、褶皱及伊尔托古什布拉克—脆性剪切带共同作用使含金岩层金元素活化浸出，热液交代迁移富集并在有利部位沉淀成矿"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "塔里木陆块北缘活动带",
+"attributes": {
+"name": "塔里木陆块北缘活动带",
+"level": "活动带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "南天山晚古生代陆缘构造单元",
+"attributes": {
+"name": "南天山晚古生代陆缘构造单元",
+"level": "构造单元"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "南天山构造带",
+"attributes": {
+"name": "南天山构造带",
+"level": "构造带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统甘草湖组",
+"attributes": {
+"name": "下石炭统甘草湖组",
+"age": "下石炭统",
+"dominant_lithology": "不纯碳酸盐岩",
+"lithology_notes": "梧南金矿床赋存于甘草湖组不纯碳酸盐岩中，受层位控制明显"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "甘草湖组不纯碳酸盐岩",
+"attributes": {
+"name": "甘草湖组不纯碳酸盐岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "伊尔托古什布拉克—脆性剪切带",
+"attributes": {
+"name": "伊尔托古什布拉克—脆性剪切带",
+"structure_type": "脆性剪切带",
+"ore_control_role": "使矿区含金岩层金元素活化浸出，促进热液交代、迁移富集并在有利部位沉淀成矿"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "断裂",
+"attributes": {
+"name": "断裂",
+"structure_type": "断裂",
+"ore_control_role": "矿区构造发育，断裂作用有利于金元素活化浸出、热液交代迁移富集并沉淀成矿"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "褶皱",
+"attributes": {
+"name": "褶皱",
+"structure_type": "褶皱",
+"ore_control_role": "与断裂及剪切带共同作用，促进含金岩层金元素活化浸出及热液迁移富集"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "IntrusiveBody",
+"name_zh": "酸性斑岩",
+"attributes": {
+"name": "酸性斑岩",
+"rock_type": "酸性斑岩",
+"relationship_to_ore": "岩浆活动对成矿作用不大，但金矿生成与酸性斑岩在空间上具有一定联系"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "梧南成矿热液",
+"attributes": {
+"nature": "中—低温热液",
+"source": "矿区含金岩层金元素活化浸出后，经热液交代、迁移富集并在有利部位沉淀成矿"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "微细粒金",
+"attributes": {
+"name": "微细粒金",
+"role_in_ore": "主要金矿物粒度特征",
+"paragenesis": "以微细粒金为主，呈浸染状分布"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "金（Au）原生晕异常",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "原生晕具有轴向分带与横向分带特征；地表Au高异常伴随As、Sb、Hg等中—弱异常及Bi、Cu、Mo等高强度异常"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "砷（As）异常",
+"attributes": {
+"element": "砷（As）",
+"anomaly_pattern": "地表与Au高异常伴生呈中—弱异常；钻孔原生晕轴向分带序列中位于尾部组合"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）异常",
+"attributes": {
+"element": "锑（Sb）",
+"anomaly_pattern": "地表与Au高异常伴生呈中—弱异常；钻孔原生晕轴向分带序列中位于中后段"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "汞（Hg）异常",
+"attributes": {
+"element": "汞（Hg）",
+"anomaly_pattern": "地表与Au高异常伴生呈中—弱异常；钻孔原生晕轴向分带序列中位于尾部组合"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Geochem",
+"name_zh": "铋（Bi）异常",
+"attributes": {
+"element": "铋（Bi）",
+"anomaly_pattern": "地表表现为高强度异常；钻孔原生晕轴向分带序列中位于前缘元素组合"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geochem",
+"name_zh": "铜（Cu）异常",
+"attributes": {
+"element": "铜（Cu）",
+"anomaly_pattern": "地表表现为高强度异常；钻孔原生晕轴向分带序列中位于前缘元素组合"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geochem",
+"name_zh": "钼（Mo）异常",
+"attributes": {
+"element": "钼（Mo）",
+"anomaly_pattern": "地表表现为高强度异常；钻孔原生晕轴向分带序列中位于前缘元素组合"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Geochem",
+"name_zh": "锌（Zn）异常",
+"attributes": {
+"element": "锌（Zn）",
+"anomaly_pattern": "钻孔原生晕轴向分带序列中位于尾部组合"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Geochem",
+"name_zh": "铅（Pb）异常",
+"attributes": {
+"element": "铅（Pb）",
+"anomaly_pattern": "钻孔原生晕轴向分带序列中位于中段"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Geochem",
+"name_zh": "银（Ag）异常",
+"attributes": {
+"element": "银（Ag）",
+"anomaly_pattern": "钻孔原生晕轴向分带序列中位于中段"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "梧南金矿床位于塔里木陆块北缘活动带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "梧南金矿床属于南天山晚古生代陆缘构造单元"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "梧南金矿床位于南天山构造带范围内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "梧南金矿床赋存于甘草湖组不纯碳酸盐岩中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "甘草湖组不纯碳酸盐岩属于下石炭统甘草湖组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "伊尔托古什布拉克—脆性剪切带促进含金岩层金元素活化浸出并控制热液交代迁移富集与沉淀成矿"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "矿区断裂发育并参与控制含金岩层金元素活化浸出与成矿沉淀"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "矿区褶皱与断裂及剪切带共同作用，参与控制金元素活化浸出与热液迁移富集"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "梧南金矿床成矿过程表现为中—低温热液交代、迁移富集并沉淀成矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "梧南金矿床金矿物粒度细小，以微细粒金为主并呈浸染状分布"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "梧南金矿床原生晕具有轴向分带与横向分带特征，地表Au高异常与多元素异常组合相关"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "伴随有",
+"description": "梧南金矿床地表Au高异常伴随As中—弱异常，钻孔原生晕轴向分带中As为尾部组合元素"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "伴随有",
+"description": "梧南金矿床地表Au高异常伴随Sb中—弱异常，钻孔原生晕轴向分带序列中包含Sb"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "伴随有",
+"description": "梧南金矿床地表Au高异常伴随Hg中—弱异常，钻孔原生晕轴向分带中Hg为尾部组合元素"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "伴随有",
+"description": "梧南金矿床地表原生晕中Bi为高强度异常，轴向分带序列中Bi为前缘元素"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "伴随有",
+"description": "梧南金矿床地表原生晕中Cu为高强度异常，轴向分带序列中Cu为前缘元素"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "伴随有",
+"description": "梧南金矿床地表原生晕中Mo为高强度异常，轴向分带序列中Mo为前缘元素"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "显示",
+"description": "梧南金矿床钻孔原生晕轴向分带序列中Zn为尾部组合元素"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "显示",
+"description": "梧南金矿床钻孔原生晕轴向分带序列中包含Pb"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "显示",
+"description": "梧南金矿床钻孔原生晕轴向分带序列中包含Ag"
+}
+]
+}

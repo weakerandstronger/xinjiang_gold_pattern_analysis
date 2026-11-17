@@ -1,0 +1,182 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0200",
+"title": "新疆齐求Ⅰ金矿床蚀变矿物与金矿化_胡大千",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床（Ⅰ号）",
+"attributes": {
+"name": "齐求金矿床（Ⅰ号）",
+"location": "新疆西准噶尔地区哈图断裂与安其断裂交汇处",
+"tectonic_position": "西准噶尔哈图断裂与安其断裂交汇构造部位",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿区位于哈图断裂与安其断裂交汇处；围岩为轻微变质的变玄武岩、变辉绿岩、变凝灰岩等；热液期可划分为成矿前、成矿期、成矿后三阶段，其中成矿期阶段自然金及其共生的钠长石、含镁方解石、绢云母等沿早阶段矿物裂隙与孔洞分布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔",
+"attributes": {
+"name": "西准噶尔",
+"level": "地区",
+"tectonic_setting": "哈图断裂与安其断裂交汇区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "轻微变质的变玄武岩、变辉绿岩、变凝灰岩围岩",
+"attributes": {
+"name": "轻微变质的变玄武岩、变辉绿岩、变凝灰岩围岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "哈图断裂",
+"attributes": {
+"name": "哈图断裂",
+"structure_type": "断裂",
+"scale": "区域性断裂",
+"ore_control_role": "与安其断裂交汇处控制齐求Ⅰ金矿床空间位置"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "安其断裂",
+"attributes": {
+"name": "安其断裂",
+"structure_type": "断裂",
+"scale": "区域性断裂",
+"ore_control_role": "与哈图断裂交汇处控制齐求Ⅰ金矿床空间位置"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "钠长石化-含镁方解石化-绢云母化蚀变",
+"attributes": {
+"name": "钠长石化-含镁方解石化-绢云母化蚀变",
+"alteration_minerals": "钠长石、含镁方解石、绢云母",
+"intensity": "主要形成于成矿期阶段，常沿早阶段矿物裂隙与孔洞充填分布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "成矿期阶段产出，与钠长石、含镁方解石、绢云母共生，主要以裂隙金和粒间金形式出现"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "与金矿化关系密切的主要硫化物",
+"paragenesis": "成矿前阶段与石英、毒砂、磁黄铁矿组合；成矿期阶段与自然金、毒砂等共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要硫化物矿物之一",
+"paragenesis": "成矿前阶段与石英、黄铁矿、磁黄铁矿组合；成矿期阶段与自然金、黄铁矿等共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "齐求Ⅰ金矿床成矿热液",
+"attributes": {
+"nature": "成矿热液中金主要以络合物形式迁移；成矿环境由弱碱性向弱酸性演化时开始沉淀自然金，局部成矿物理化学条件的变化导致自然金及蚀变矿物出现成分环带"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "齐求Ⅰ金矿床位于西准噶尔地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "主要围岩为",
+"description": "齐求Ⅰ金矿床围岩为轻微变质的变玄武岩、变辉绿岩、变凝灰岩等"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "齐求Ⅰ金矿床位于哈图断裂附近并受其与安其断裂交汇部位控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "齐求Ⅰ金矿床位于安其断裂附近并受其与哈图断裂交汇部位控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "齐求Ⅰ金矿床成矿期阶段以钠长石化、含镁方解石化和绢云母化等蚀变与金矿化密切共生"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要金矿物为",
+"description": "齐求Ⅰ金矿床主要金矿物为自然金"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅰ金矿床成矿期阶段与金矿化关系密切的共生硫化物包括黄铁矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅰ金矿床成矿期阶段与金矿化共生的硫化物包括毒砂"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "齐求Ⅰ金矿床对应的成矿流体为成矿热液，金以络合物形式迁移并在弱酸性条件下开始析出形成自然金"
+}
+]
+}

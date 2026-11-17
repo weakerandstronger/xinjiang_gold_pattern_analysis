@@ -1,0 +1,277 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0114",
+"title": "西南天山阿沙哇义金矿床流体包裹体和H-O同位素地球化学特征与造山型金矿成因",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿沙哇义金矿床",
+"attributes": {
+"name": "阿沙哇义金矿床",
+"location": "新疆西南天山地区",
+"tectonic_position": "处在“亚洲金腰带”的中南缘",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "含矿地层为上石炭统喀拉治尔加组，矿体产于NEE走向逆冲推覆构造系统的次级断裂内；压力降低引起流体不混溶或沸腾，CO2、CH4等气体逃逸并发育硫化、碳酸盐化，是金快速沉淀的主要机制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西南天山",
+"attributes": {
+"name": "西南天山",
+"level": "造山带",
+"tectonic_setting": "处在“亚洲金腰带”的中南缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "亚洲金腰带",
+"attributes": {
+"name": "亚洲金腰带",
+"level": "成矿带",
+"tectonic_setting": "中南缘"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "上石炭统喀拉治尔加组",
+"attributes": {
+"name": "上石炭统喀拉治尔加组",
+"age": "上石炭统",
+"lithology_notes": "文中提出为矿床的含矿地层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "上石炭统喀拉治尔加组含矿地层",
+"attributes": {
+"name": "上石炭统喀拉治尔加组含矿地层"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "NEE走向逆冲推覆构造系统次级断裂",
+"attributes": {
+"name": "NEE走向逆冲推覆构造系统次级断裂",
+"structure_type": "次级断裂",
+"orientation": "NEE走向",
+"scale": "矿区",
+"ore_control_role": "矿体产于该构造系统的次级断裂内"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硫化",
+"attributes": {
+"name": "硫化",
+"alteration_minerals": "硫化物"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "流体包裹体与H-O同位素测试的主要载体矿物",
+"paragenesis": "文中以石英流体包裹体与石英H-O同位素记录成矿流体演化"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "硫化物",
+"attributes": {
+"name": "硫化物",
+"role_in_ore": "金快速沉淀过程中发育的矿化产物",
+"paragenesis": "与硫化作用相关"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "碳酸盐",
+"attributes": {
+"name": "碳酸盐",
+"role_in_ore": "金快速沉淀过程中发育的矿化产物",
+"paragenesis": "与碳酸盐化作用相关"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "富CO2低盐度变质-大气降水演化成矿流体",
+"attributes": {
+"nature": "中低温、富CO2、含CH4和N2、低盐度的变质流体特征；激光拉曼显示液体成分为H2O和CO2，含CH4和N2；体系为H2O-NaCl-CO2-CH4-N2",
+"source": "成矿流体从早期深源变质流体，经中期变质流体与大气降水混合流体，晚期向浅源大气降水热液演化",
+"temperature_C_min": "139",
+"temperature_C_max": "386",
+"pressure_MPa_min": "130",
+"pressure_MPa_max": "180",
+"salinity_wtNaCl_min": "1.4",
+"salinity_wtNaCl_max": "12.5"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢同位素δD",
+"attributes": {
+"system": "H-O同位素",
+"parameter_name": "δD",
+"value_range": "-75‰~-61‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O（石英）",
+"attributes": {
+"system": "H-O同位素",
+"parameter_name": "δ18O（石英）",
+"value_range": "19.6‰~22.3‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O（水）",
+"attributes": {
+"system": "H-O同位素",
+"parameter_name": "δ18O（水）",
+"value_range": "8.2‰~14.8‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿沙哇义金矿位于西南天山"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "处在",
+"description": "阿沙哇义金矿处在“亚洲金腰带”的中南缘"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "阿沙哇义金矿的含矿地层为上石炭统喀拉治尔加组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "上石炭统喀拉治尔加组含矿地层属于上石炭统喀拉治尔加组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "阿沙哇义金矿矿体产于NEE走向逆冲推覆构造系统的次级断裂内，受该断裂控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "伴随有",
+"description": "压力降低与流体不混溶或沸腾过程中发育硫化作用，促进金快速沉淀"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "压力降低与流体不混溶或沸腾过程中发育碳酸盐化作用，促进金快速沉淀"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "阿沙哇义金矿研究中以石英作为流体包裹体与H-O同位素信息载体"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "阿沙哇义金矿金快速沉淀机制中发育硫化过程，对应形成硫化物矿物组合"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "阿沙哇义金矿金快速沉淀机制中发育碳酸盐化过程，对应形成碳酸盐矿物组合"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿沙哇义金矿对应的成矿流体为中低温、富CO2、含CH4和N2、低盐度的H2O-NaCl-CO2-CH4-N2体系流体，并从早期深源变质流体向晚期大气降水热液演化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "石英包裹体水的δD数据用于约束阿沙哇义金矿成矿流体从深源变质流体向大气降水热液演化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "石英的δ18O数据用于约束成矿流体的同位素特征及其演化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "计算得到的平衡水δ18O范围用于约束阿沙哇义金矿成矿流体在早中晚期的来源与混合演化"
+}
+]
+}

@@ -1,0 +1,172 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0180",
+"title": "萨热阔布金矿床储量远景浅析_林世伟",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨热阔布金矿床",
+"attributes": {
+"name": "萨热阔布金矿床",
+"location": "新疆阿勒泰市北东侧，距阿勒泰市直线约7.5km",
+"tectonic_position": "阿勒泰复式向斜北东翼",
+"deposit_type": "造山型金矿床",
+"ore_grade": "主要矿体平均品位7.67×10^-6～10.46×10^-6，深部局部品位可达18.75g/t",
+"ore_control_features": "主要赋矿层为下泥盆统康布铁堡组上亚组第二岩性段；矿床受北西向走向断裂控制并产于构造破碎带内，小断裂充填石英脉导致矿体呈右行雁列式展布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿勒泰市北东侧矿区",
+"attributes": {
+"name": "阿勒泰市北东侧矿区",
+"level": "矿区",
+"tectonic_setting": "阿勒泰复式向斜北东翼"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下泥盆统康布铁堡组",
+"attributes": {
+"name": "下泥盆统康布铁堡组",
+"age": "早泥盆世（下泥盆统）",
+"dominant_lithology": "海相流纹质火山喷发及火山碎屑—陆源碎屑沉积与化学沉积组合",
+"lithology_notes": "可分上下两个亚组；上亚组第二岩性段为主要赋矿层"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "康布铁堡组上亚组第二岩性段（D1Kb2）",
+"attributes": {
+"name": "康布铁堡组上亚组第二岩性段（D1Kb2）",
+"age": "早泥盆世",
+"dominant_lithology": "含英安质—流纹质火山细碎屑的浅海相粘土质沉积与化学沉积组合",
+"lithology_notes": "下部为化学沉积（大理岩、铁锰质大理岩、变钙质砂岩等）；中部为粘土质沉积夹火山细碎屑沉积（绿泥石英片岩、变英安质/变流纹质晶屑凝灰岩、似矽卡岩等）；上部为英安质—流纹质火山细碎屑沉积夹粘土质沉积（变黑云母流纹质/变英安质晶屑凝灰岩、绿泥黑云母石英片岩等）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "绿泥黑云母石英片岩层（夹钙质砂岩、似矽卡岩、凝灰岩）",
+"attributes": {
+"name": "绿泥黑云母石英片岩层（夹钙质砂岩、似矽卡岩、凝灰岩）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "北西向走向断裂（控、容矿断裂）",
+"attributes": {
+"name": "北西向走向断裂（控、容矿断裂）",
+"structure_type": "走向断裂",
+"orientation": "走向北西—南东",
+"scale": "矿区",
+"ore_control_role": "发育于含矿层内岩性层接触界面等处，多期活动；前期压剪/剪切形成右行雁列式小断裂并充填石英脉，控制矿体右行雁列展布；晚期张性活动导致石英脉再次破碎并形成糖粒状石英"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "斜长角闪岩脉",
+"attributes": {
+"name": "斜长角闪岩脉",
+"rock_type": "斜长角闪岩",
+"age": "华力西晚期",
+"relationship_to_ore": "部分斜长角闪岩脉与金矿关系密切"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "明金",
+"attributes": {
+"name": "明金",
+"role_in_ore": "主要金属矿物表现",
+"paragenesis": "在深部取样复检副样中可见较多细粒明金"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "重晶石",
+"attributes": {
+"name": "重晶石",
+"role_in_ore": "含金层的重要组成矿物之一",
+"paragenesis": "火山汽液喷流沉积形成硅质重晶石条带纹，且可见重晶石细脉与金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "与金矿化密切相关的矿物/条带",
+"paragenesis": "金与含矿层内凝灰质夹层及其旁的褐铁矿条带关系密切"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床位于新疆阿勒泰市北东侧矿区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床受北西向走向断裂控制并产于构造破碎带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "萨热阔布金矿床主要赋存于康布铁堡组上亚组第二岩性段中上部的绿泥黑云母石英片岩层（夹钙质砂岩、似矽卡岩、凝灰岩）中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "绿泥黑云母石英片岩层（夹钙质砂岩、似矽卡岩、凝灰岩）属于康布铁堡组上亚组第二岩性段（D1Kb2）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "可见",
+"description": "萨热阔布金矿床样品复检中可见较多细粒明金"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "有密切关系",
+"description": "萨热阔布金矿床金矿化与含矿层内的重晶石细脉及硅质重晶石条带纹关系密切"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "有密切关系",
+"description": "萨热阔布金矿床金矿化与含矿层内凝灰质夹层旁的褐铁矿条带关系密切"
+}
+]
+}

@@ -1,0 +1,240 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0095",
+"title": "新疆巴里坤索尔巴斯陶金矿床成矿流体特征及矿床成因",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "索尔巴斯陶金矿床",
+"attributes": {
+"name": "索尔巴斯陶金矿床",
+"location": "博格达晚古生代弧后盆地与哈尔里克古生代复合岛弧的结合部位",
+"tectonic_position": "哈萨克斯坦-准噶尔板块之准噶尔构造区内，位于哈尔里克古生代复合岛弧带与博格达晚古生代弧后盆地的结合部位",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿体呈脉状产于下石炭统塔克尔巴斯陶组内，受后期断裂控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "博格达-哈尔里克铜金多金属成矿带",
+"attributes": {
+"name": "博格达-哈尔里克铜金多金属成矿带",
+"level": "成矿带",
+"tectonic_setting": "博格达-哈尔里克铜金多金属成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "准噶尔构造区",
+"attributes": {
+"name": "准噶尔构造区",
+"level": "构造区",
+"tectonic_setting": "哈萨克斯坦-准噶尔板块之准噶尔构造区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "哈尔里克古生代复合岛弧带",
+"attributes": {
+"name": "哈尔里克古生代复合岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "古生代复合岛弧"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "博格达晚古生代弧后盆地",
+"attributes": {
+"name": "博格达晚古生代弧后盆地",
+"level": "弧后盆地",
+"tectonic_setting": "晚古生代弧后盆地"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统塔克尔巴斯陶组",
+"attributes": {
+"name": "下石炭统塔克尔巴斯陶组",
+"age": "下石炭统",
+"dominant_lithology": "凝灰质角砾岩、角砾凝灰岩、凝灰岩等火山碎屑岩",
+"lithology_notes": "第二岩性段主要为凝灰质角砾岩、角砾凝灰岩、含（角）砾凝灰岩、凝灰岩、沉凝灰岩及少量安山岩、玄武岩透镜体"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "塔克尔巴斯陶组第二岩性段",
+"attributes": {
+"name": "塔克尔巴斯陶组第二岩性段"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "石炭系中-基性火山岩",
+"attributes": {
+"name": "石炭系中-基性火山岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "后期断裂",
+"attributes": {
+"name": "后期断裂",
+"structure_type": "断裂",
+"ore_control_role": "控制矿床及矿体产出"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "索尔巴斯陶成矿流体",
+"attributes": {
+"nature": "以NaCl-H₂O型气液两相水溶液包裹体为特征，具有低温度、低盐度、低密度的浅成热液特征",
+"source": "以大气降水为主",
+"temperature_C_min": "129",
+"temperature_C_max": "236",
+"pressure_MPa_min": "3.6",
+"pressure_MPa_max": "32.5",
+"salinity_wtNaCl_min": "0.35",
+"salinity_wtNaCl_max": "9.86"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "氢同位素参数",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD(H₂O-SMOW)",
+"value_range": "-79.3‰～-91.5‰"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "氧同位素参数",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O(H₂O-SMOW)",
+"value_range": "3.5‰～5.0‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S(CDT)",
+"value_range": "-0.3‰～0.6‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "索尔巴斯陶金矿床是博格达-哈尔里克铜金多金属成矿带内的重要矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "索尔巴斯陶金矿床产于准噶尔构造区内的火山机构"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "索尔巴斯陶金矿床位于哈尔里克古生代复合岛弧带与博格达晚古生代弧后盆地的结合部位（岛弧侧）"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "索尔巴斯陶金矿床位于哈尔里克古生代复合岛弧带与博格达晚古生代弧后盆地的结合部位（弧后盆地侧）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "矿体呈脉状产于塔克尔巴斯陶组第二岩性段内"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "塔克尔巴斯陶组第二岩性段属于下石炭统塔克尔巴斯陶组"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "索尔巴斯陶金矿床产于石炭系中-基性火山岩内"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "索尔巴斯陶金矿床受后期断裂控制"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "索尔巴斯陶金矿床成矿流体以NaCl-H₂O型气液两相水溶液包裹体为特征，表现为低温低盐度的浅成热液流体"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "氢同位素参数表明索尔巴斯陶金矿床成矿流体以大气降水为主"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素参数表明索尔巴斯陶金矿床成矿流体以大气降水为主"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素参数指示索尔巴斯陶金矿床成矿物质主要来自赋矿围岩火山岩"
+}
+]
+}

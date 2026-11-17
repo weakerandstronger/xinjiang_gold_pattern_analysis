@@ -1,0 +1,259 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0216",
+"title": "新疆东准噶尔库布苏金矿床地质与地球化学特征_章文忠",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "库布苏金矿床",
+"attributes": {
+"name": "库布苏金矿床",
+"location": "新疆东准噶尔褶皱带中部，野马泉地块南缘火山岩浆弧区",
+"tectonic_position": "准噶尔褶皱系东准噶尔褶皱带中部，库布苏强应变构造带控制区",
+"deposit_type": "造山型金矿床",
+"ore_grade": "3-1号矿体平均金品位3.54×10^-6；地表0.50×10^-6～1.50×10^-6；深部最高8.60×10^-6",
+"resource_tonnage": "矿床规模达中型；3-1号矿体探获金资源量达中型规模",
+"ore_control_features": "强应变构造带为重要控矿因素；3号金矿脉产于断裂内闪长玢岩、凝灰岩和千糜岩中，含矿岩石主要为蚀变闪长玢岩，局部为石英钠长斑岩、碳质凝灰岩；矿化段多产于石英钠长斑岩下盘"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "库布苏金矿带",
+"attributes": {
+"name": "库布苏金矿带",
+"level": "金矿带",
+"tectonic_setting": "东准噶尔褶皱带中部，野马泉地块南缘火山岩浆弧区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托让格库都克组",
+"attributes": {
+"name": "中泥盆统托让格库都克组",
+"age": "中泥盆世",
+"dominant_lithology": "海相火山碎屑岩及火山熔岩（凝灰角砾岩、安山玢岩、凝灰岩等），上亚组为钙质砂岩与火山碎屑岩夹灰质砂岩条带状互层",
+"lithology_notes": "库布苏金矿3号脉产于该组；据1∶20万低密度化探资料统计其金丰度为1.8×10^-9"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "库布苏强应变构造带",
+"attributes": {
+"name": "库布苏强应变构造带",
+"structure_type": "强应变构造带（韧性剪切带性质）",
+"orientation": "NWW向展布",
+"scale": "出露长约160 km，宽2～5 km",
+"ore_control_role": "控制区内各种脉岩及与矿化关系密切的闪长玢岩、石英钠长斑岩沿次级断裂侵入，是东准噶尔地区金矿重要控矿因素"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "托让格库都克组断裂内蚀变闪长玢岩围岩",
+"attributes": {
+"name": "托让格库都克组断裂内蚀变闪长玢岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长玢岩",
+"attributes": {
+"name": "闪长玢岩",
+"rock_type": "闪长玢岩",
+"relationship_to_ore": "与矿化关系密切；3号矿脉产于断裂内闪长玢岩等岩石中，含矿岩石主要为蚀变闪长玢岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英钠长斑岩",
+"attributes": {
+"name": "石英钠长斑岩",
+"rock_type": "石英钠长斑岩",
+"relationship_to_ore": "与矿化关系密切；主要矿化段多产于石英钠长斑岩下盘，局部可作为含矿岩石"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与黄铁矿、磁黄铁矿等共生，产于矿化蚀变带及矿石中"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "黄铁矿化常呈薄片状、星点状，局部浸染状、粒状分布，与毒砂等硫化物共生"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "金（Au）异常与富集特征",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "金异常最高值18.7×10^-9",
+"anomaly_pattern": "金异常沿喀斯开尔索坎大断裂呈带状分布，异常范围大、异常值较高；原生晕研究表明Au为主成矿元素之一"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "砷（As）异常特征",
+"attributes": {
+"element": "砷（As）",
+"anomaly_pattern": "主成矿元素组合为Au、Ag、Pb、As、Sb；在矿体头晕与尾晕中重叠出现As异常组合，可能指示深部盲矿体"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）异常特征",
+"attributes": {
+"element": "锑（Sb）",
+"anomaly_pattern": "主成矿元素组合为Au、Ag、Pb、As、Sb；在矿体头晕与尾晕中重叠出现Sb异常组合，可能指示深部盲矿体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "库布苏金矿床为库布苏金矿带中的典型矿床之一"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "库布苏金矿床受库布苏强应变构造带控制，强应变构造带为东准噶尔地区金矿重要控矿因素"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "库布苏金矿床3号金矿脉产于断裂内，含矿岩石主要为蚀变闪长玢岩，形成破碎蚀变带型矿化"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "托让格库都克组断裂带内的蚀变闪长玢岩围岩归属于中泥盆统托让格库都克组地层范围"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "库布苏金矿床矿化段围岩蚀变发育，常见硅化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "库布苏金矿床矿化段围岩蚀变发育，常见绢云母化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "库布苏金矿床矿化段围岩蚀变发育，常见黄铁矿化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "库布苏金矿床矿石金属矿物包括毒砂等"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "库布苏金矿床矿石金属矿物包括黄铁矿等"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "库布苏金矿床及矿区表现出显著金（Au）异常与富集特征，Au为主要找矿指示元素"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "库布苏金矿床主成矿元素组合包含砷（As），且As在矿体头晕与尾晕中出现异常叠加，指示深部找矿潜力"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "库布苏金矿床主成矿元素组合包含锑（Sb），且Sb在矿体头晕与尾晕中出现异常叠加，指示深部找矿潜力"
+}
+]
+}

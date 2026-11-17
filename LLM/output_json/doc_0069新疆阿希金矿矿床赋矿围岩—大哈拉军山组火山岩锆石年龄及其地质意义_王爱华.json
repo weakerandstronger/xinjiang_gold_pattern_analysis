@@ -1,0 +1,85 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0069",
+"title": "新疆阿希金矿矿床赋矿围岩—大哈拉军山组火山岩锆石年龄及其地质意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "西天山古生代陆相火山岩中",
+"tectonic_position": "赋存在西天山古生代陆相火山岩中的低硫型浅成低温热液金矿床",
+"deposit_type": "浅成低温热液型金矿床",
+"age_ma": "成矿时代为晚古生代早期，介于363.2±5.7Ma到早石炭世维宪期之间"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西天山",
+"attributes": {
+"name": "西天山",
+"level": "区域",
+"tectonic_setting": "古生代陆相火山岩广泛发育的西天山造山带，为阿希金矿赋存的构造—火山岩区域"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "大哈拉军山组第五岩性段陆相火山岩",
+"attributes": {
+"name": "大哈拉军山组第五岩性段陆相火山岩",
+"age": "晚泥盆世晚期，锆石U-Pb年龄为363.2±5.7Ma",
+"dominant_lithology": "陆相火山岩",
+"lithology_notes": "为阿希金矿赋矿围岩，锆石离子探针测定给出高精度年龄339～393Ma，加权平均年龄363.2±5.7Ma，代表该段火山岩形成年龄"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "大哈拉军山组第五岩性段赋矿围岩单元",
+"attributes": {
+"name": "大哈拉军山组第五岩性段赋矿围岩单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Isotope",
+"name_zh": "大哈拉军山组火山岩锆石U-Pb年龄参数",
+"attributes": {
+"system": "锆石U-Pb同位素体系",
+"parameter_name": "大哈拉军山组第五岩性段火山岩锆石U-Pb年龄",
+"value_range": "锆石U含量(84～264)×10⁻⁶，Th含量(51～245)×10⁻⁶，Th/U比值0.47～0.93；除一分析点年龄327.7±9.4Ma偏低外，其余分析点²⁰¹Pb/²³⁸U年龄为339～393Ma，在一致曲线图中成群分布，加权平均年龄为363.2±5.7Ma，代表大哈拉军山组火山岩形成年龄"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿赋存于西天山古生代陆相火山岩中，位于西天山区域内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿的赋矿围岩为大哈拉军山组第五岩性段陆相火山岩，可概括为大哈拉军山组第五岩性段赋矿围岩单元"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "大哈拉军山组第五岩性段赋矿围岩单元在地层上属于大哈拉军山组第五岩性段陆相火山岩"
+}
+]
+}

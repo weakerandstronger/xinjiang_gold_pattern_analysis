@@ -1,0 +1,323 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0032",
+"title": "新疆双泉一带金矿成矿规律与找矿前景",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿床",
+"attributes": {
+"name": "双泉金矿床",
+"location": "卡拉麦里成矿带东段双泉一带",
+"ore_control_features": "研究区深大断裂控制岩浆和矿床分布，次级断裂控制矿床就位，金矿床具有整体成带状分布、局部集中的空间展布特点",
+"age_ma": "303.53±0.79 Ma（含矿石英脉锆石 U-Pb 加权平均 206Pb/238U 年龄）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿",
+"attributes": {
+"name": "南明水金矿",
+"location": "卡拉麦里成矿带东段南明水一带",
+"ore_control_features": "受研究区深大断裂及其派生次级断裂控制，矿床在矿带内整体成带状分布、局部集中"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Deposit",
+"name_zh": "苏吉泉金矿",
+"attributes": {
+"name": "苏吉泉金矿",
+"location": "卡拉麦里成矿带清水泉—双泉一带",
+"ore_control_features": "受研究区深大断裂及次级断裂控制，就位于成矿有利的次级断裂部位"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带",
+"attributes": {
+"name": "卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "东准噶尔地区重要的金及多金属成矿带，西起卡拉麦里山，经清水泉、双泉至南明水一带，形态呈西宽东窄的似长条状，金成矿地质条件优越"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "东准噶尔地区",
+"attributes": {
+"name": "东准噶尔地区",
+"level": "地区",
+"tectonic_setting": "包含卡拉麦里成矿带等重要金及多金属成矿带，是新疆东北部的重要成矿构造单元"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Region",
+"name_zh": "卡拉麦里成矿带东段研究区",
+"attributes": {
+"name": "卡拉麦里成矿带东段研究区",
+"level": "研究区",
+"tectonic_setting": "位于卡拉麦里成矿带东段，西起红柳沟，东至南明水，区内卡拉麦里深大断裂和清水—苏吉泉大断裂横贯全区，次级构造发育，出露晚古生代泥盆系和石炭系地层，金成矿地质条件优越"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里深大断裂",
+"attributes": {
+"name": "卡拉麦里深大断裂",
+"structure_type": "深大断裂",
+"scale": "横贯研究区全区的区域性深大断裂构造",
+"ore_control_role": "控制研究区岩浆和金矿床的分布，是金成矿的一级控矿构造"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "清水—苏吉泉大断裂",
+"attributes": {
+"name": "清水—苏吉泉大断裂",
+"structure_type": "大断裂",
+"scale": "与卡拉麦里深大断裂一起横贯研究区的重要断裂构造",
+"ore_control_role": "与卡拉麦里深大断裂共同构成研究区金成矿的区域构造背景"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "研究区次级断裂系统",
+"attributes": {
+"name": "研究区次级断裂系统",
+"structure_type": "次级断裂构造带",
+"scale": "发育于深大断裂两侧的多条次级断裂和破碎带",
+"ore_control_role": "次级断裂控制矿床就位，是成矿有利部位，使金矿床在成矿带中整体成带、局部集中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "研究区热液岩浆岩石地球化学特征",
+"attributes": {
+"element": "岩石地球化学综合指标",
+"value_ppm": "文中未给出具体元素含量，仅指出热液岩浆具有壳幔混熔特征",
+"anomaly_pattern": "岩石地球化学数据表明热液岩浆具有壳幔混熔的特点，反映壳幔混源岩浆背景及东准噶尔后碰撞阶段陆-陆碰撞造山及其后的伸展张弛构造运动"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "研究区壳幔混熔岩浆成矿流体",
+"attributes": {
+"nature": "岩浆热液成矿流体",
+"source": "由具有壳幔混熔特征的壳幔混源岩浆演化而成的成矿流体"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "双泉金矿含矿石英脉锆石 U-Pb 年龄",
+"attributes": {
+"system": "U-Pb",
+"parameter_name": "含矿石英脉锆石加权平均 206Pb/238U 年龄",
+"value_range": "303.53±0.79 Ma，代表双泉金矿含金石英脉的形成年龄，属于晚石炭世前后挤压推覆构造体系的产物"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "StratUnit",
+"name_zh": "晚古生代泥盆系",
+"attributes": {
+"name": "晚古生代泥盆系",
+"age": "晚古生代泥盆纪",
+"dominant_lithology": "研究区出露的晚古生代地层之一",
+"lithology_notes": "与石炭系共同构成研究区金成矿地质背景"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "StratUnit",
+"name_zh": "晚古生代石炭系",
+"attributes": {
+"name": "晚古生代石炭系",
+"age": "晚古生代石炭纪",
+"dominant_lithology": "研究区出露的晚古生代地层之一",
+"lithology_notes": "与泥盆系共同出露于研究区，为金成矿提供地层背景"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "双泉金矿位于东准噶尔地区的卡拉麦里成矿带东段，是成矿带中的典型金矿床之一"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "南明水金矿位于卡拉麦里成矿带东段的南明水一带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "苏吉泉金矿产于卡拉麦里成矿带中清水泉—双泉一带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "位于",
+"description": "双泉金矿是卡拉麦里成矿带东段研究区内的重要金矿床之一"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E6",
+"relation_label_zh": "位于",
+"description": "南明水金矿位于卡拉麦里成矿带东段研究区东端的南明水一带"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E6",
+"relation_label_zh": "位于",
+"description": "苏吉泉金矿位于卡拉麦里成矿带东段研究区内，为研究区内已发现的金矿床之一"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "研究区深大断裂控制岩浆和矿床分布，双泉金矿的空间展布受卡拉麦里深大断裂的控制"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿的分布受卡拉麦里深大断裂控制，属于深大断裂控制下的金矿床之一"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉金矿的分布同样受卡拉麦里深大断裂控制，成矿受深大断裂活动影响明显"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "清水—苏吉泉大断裂横贯研究区，与卡拉麦里深大断裂共同为双泉金矿提供有利构造背景"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "清水—苏吉泉大断裂为南明水金矿成矿提供区域性构造通道和背景"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉金矿邻近清水—苏吉泉大断裂，受该大断裂及其派生构造共同控制"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "研究区次级断裂控制矿床就位，双泉金矿具体赋存在成矿有利的次级断裂部位"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "南明水金矿的矿体就位受研究区次级断裂控制，次级断裂为其成矿有利部位"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉金矿的矿体就位受研究区次级断裂系统控制"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "双泉金矿相关岩石的岩石地球化学数据表明热液岩浆具有壳幔混熔特点"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "以双泉金矿和南明水金矿为主要研究对象的岩石地球化学研究表明研究区热液岩浆具有壳幔混熔特征"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "研究区包括苏吉泉金矿在内的金矿床整体的岩石地球化学特征反映壳幔混熔热液岩浆背景"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "双泉金矿的成矿与具有壳幔混熔特征的岩浆热液成矿流体有关"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "南明水金矿的成矿流体来源于壳幔混源的岩浆热液体系"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "苏吉泉金矿与研究区壳幔混熔岩浆成矿流体具有成因联系"
+}
+]
+}

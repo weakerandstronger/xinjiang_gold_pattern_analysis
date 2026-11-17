@@ -1,0 +1,232 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0176",
+"title": "新疆北山红十井金矿床成矿流体性质及成矿机制",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "红十井金矿床",
+"attributes": {
+"name": "红十井金矿床",
+"location": "新疆北山地区",
+"tectonic_position": "塔里木板块北山裂谷带西段",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体主要分布于北东东向断裂构造破碎蚀变带中，表现为断裂控矿",
+"age_ma": "209-267Ma（含矿石英脉K-Ar年龄）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "北山构造带红十井—白山金铜成矿带",
+"attributes": {
+"name": "北山构造带红十井—白山金铜成矿带",
+"level": "成矿带",
+"tectonic_setting": "塔里木板块北山裂谷构造体系"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "上石炭统干泉组",
+"attributes": {
+"name": "上石炭统干泉组",
+"age": "上石炭统",
+"dominant_lithology": "玄武岩、凝灰质砂岩、凝灰质板岩",
+"lithology_notes": "可见第4亚组灰绿色斑状玄武岩；第6亚组第1岩性段千糜岩化凝灰质砂岩、第2岩性段灰绿色玄武岩、第3岩性段含炭凝灰质板岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "上石炭统胜利泉组",
+"attributes": {
+"name": "上石炭统胜利泉组",
+"age": "上石炭统",
+"dominant_lithology": "炭粉砂质板岩、炭砂质钙质板岩、炭砂质板岩、炭质板岩",
+"lithology_notes": "可见第2亚组炭粉砂质板岩；第3亚组炭砂质钙质板岩；第4亚组炭砂质板岩与炭质板岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "干泉组赋矿层",
+"attributes": {
+"name": "干泉组赋矿层"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "红十井大断裂",
+"attributes": {
+"name": "红十井大断裂",
+"structure_type": "区域性深大断裂",
+"orientation": "北东东向",
+"scale": "区域性",
+"ore_control_role": "断裂形成的韧性剪切带与脆性构造破碎带为热液活动提供通道，控制金矿床产出"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "绿泥绿帘石化",
+"attributes": {
+"name": "绿泥绿帘石化",
+"alteration_minerals": "绿泥石、绿帘石"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "重要载金矿物"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "重要载金矿物及主要金属硫化物"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金的主要赋存形式之一，常赋存于黄铁矿、黄铜矿及褐铁矿中或沿黄铁矿裂隙分布"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Fluid",
+"name_zh": "红十井金矿床成矿流体",
+"attributes": {
+"nature": "早期与主成矿阶段为H2O-CO2-NaCl流体体系，晚期为H2O-NaCl流体体系",
+"source": "以岩浆水贡献为主，混合大气降水、建造水和变质水",
+"temperature_C_min": "113",
+"temperature_C_max": "330",
+"pressure_MPa_min": "6.9",
+"pressure_MPa_max": "32.3",
+"salinity_wtNaCl_min": "0.35",
+"salinity_wtNaCl_max": "12.96"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "红十井金矿床位于北山构造带红十井—白山金铜成矿带西南段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "红十井金矿床受红十井大断裂及其相关北东东向断裂构造活动控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "矿区上石炭统干泉组为主要赋矿层，矿体主要赋存于构造破碎蚀变带中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "干泉组赋矿层属于上石炭统干泉组地层单元"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "红十井金矿床围岩蚀变以硅化为主且与金矿化关系密切"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "红十井金矿床围岩蚀变包括绢云母化且与金矿化关系密切"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "红十井金矿床围岩蚀变包括绿泥绿帘石化且与金矿化关系密切"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "红十井金矿床黄铁矿为重要载金矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "红十井金矿床金属矿物以黄铜矿等为主"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "红十井金矿床可见自然金，常赋存于黄铁矿、黄铜矿及褐铁矿中或沿黄铁矿裂隙分布"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "对应成矿流体为",
+"description": "红十井金矿床成矿流体由早期H2O-CO2-NaCl体系演化为晚期H2O-NaCl体系，并普遍经历流体不混溶导致矿质沉淀"
+}
+]
+}

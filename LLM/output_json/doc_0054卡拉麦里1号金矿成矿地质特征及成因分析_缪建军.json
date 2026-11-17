@@ -1,0 +1,148 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0054",
+"title": "卡拉麦里 1 号金矿成矿地质特征及成因分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡拉麦里1号金矿",
+"attributes": {
+"name": "卡拉麦里1号金矿",
+"location": "新疆富蕴县",
+"tectonic_position": "位于准噶尔北缘和阿尔曼太至北塔山以南地区的卡拉麦里金矿带内",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体严格受断裂构造控制，矿化均与硅化、黄铁矿化、赤褐铁矿化等蚀变现象有关，是本区找金的重要标志之一"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "卡拉麦里金矿带",
+"attributes": {
+"name": "卡拉麦里金矿带",
+"level": "成矿带",
+"tectonic_setting": "位于准噶尔北缘和阿尔曼太至北塔山以南地区，成矿带划分属卡拉麦里—达尔布特成矿带之卡拉麦里—莫钦乌拉成矿带，是新疆重要的金—多金属成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "卡拉麦里—达尔布特成矿带",
+"attributes": {
+"name": "卡拉麦里—达尔布特成矿带",
+"level": "Ⅲ级成矿带",
+"tectonic_setting": "区域成矿带单元之一，卡拉麦里金矿带在成矿带划分上隶属于该Ⅲ级成矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "卡拉麦里—莫钦乌拉成矿带",
+"attributes": {
+"name": "卡拉麦里—莫钦乌拉成矿带",
+"level": "Ⅳ级成矿带",
+"tectonic_setting": "卡拉麦里—达尔布特成矿带中的Ⅳ级成矿带单元，卡拉麦里金矿带属该Ⅳ级成矿带的一部分"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆世初期至早石炭世后期火山—碎屑岩建造",
+"attributes": {
+"name": "中泥盆世初期至早石炭世后期火山—碎屑岩建造",
+"age": "中泥盆世初期至早石炭世后期",
+"dominant_lithology": "类复理石火山—碎屑岩建造",
+"lithology_notes": "自中泥盆世初期至早石炭世后期属于弧盆阶段，沉积了一套类复理石火山—碎屑岩建造，其中火山凝灰岩是区内找金的有利岩性标志"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化-黄铁矿化-赤褐铁矿化蚀变",
+"attributes": {
+"name": "硅化-黄铁矿化-赤褐铁矿化蚀变",
+"alteration_minerals": "硅化、黄铁矿化、赤褐铁矿化",
+"intensity": "区内矿化均与硅化、黄铁矿化、赤褐铁矿化等蚀变现象有关，是本区找金的重要蚀变标志"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "断裂构造",
+"attributes": {
+"name": "断裂构造",
+"structure_type": "断裂构造",
+"scale": "工作区内发育的一组控制矿体的断裂构造",
+"ore_control_role": "工作区内矿体严格受断裂构造控制，断裂构造是区内找金的重要标志之一"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "类复理石火山—碎屑岩围岩单元",
+"attributes": {
+"name": "类复理石火山—碎屑岩围岩单元"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡拉麦里1号金矿位于准噶尔北缘和阿尔曼太至北塔山以南地区的卡拉麦里金矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "卡拉麦里1号金矿所处的卡拉麦里金矿带在成矿带划分上隶属于卡拉麦里—达尔布特成矿带这一Ⅲ级成矿带单元"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "卡拉麦里金矿带进一步划分属卡拉麦里—莫钦乌拉成矿带这一Ⅳ级成矿带单元，卡拉麦里1号金矿因而隶属于该Ⅳ级成矿带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "卡拉麦里1号金矿所在工作区自中泥盆世初期至早石炭世后期沉积的类复理石火山—碎屑岩建造中，火山凝灰岩为区内找金的有利岩性，代表主要含矿围岩单元"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "类复理石火山—碎屑岩围岩单元在地层上属于中泥盆世初期至早石炭世后期火山—碎屑岩建造"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "卡拉麦里1号金矿矿体严格受断裂构造控制，断裂构造是本区金矿成矿和找金的重要构造标志"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "伴随有",
+"description": "卡拉麦里1号金矿区矿化均与硅化、黄铁矿化、赤褐铁矿化等蚀变现象有关，这类蚀变为本区重要的找金标志"
+}
+]
+}

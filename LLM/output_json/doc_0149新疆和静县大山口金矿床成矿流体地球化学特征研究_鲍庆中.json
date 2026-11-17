@@ -1,0 +1,286 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0149",
+"title": "新疆和静县大山口金矿床成矿流体地球化学特征研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "大山口金矿床",
+"attributes": {
+"name": "大山口金矿床",
+"location": "新疆和静县大山口金矿区",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "金矿化作用严格限定于韧性剪切带内",
+"age_ma": "约200Ma（粗铅模式年龄）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "萨恨托尕金矿床",
+"attributes": {
+"name": "萨恨托尕金矿床",
+"location": "新疆和静县萨恨托尕金矿区",
+"age_ma": "约200Ma（粗铅模式年龄）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "新疆和静县",
+"attributes": {
+"name": "新疆和静县",
+"level": "县"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "大山口—萨恨托尕金成矿亚带",
+"attributes": {
+"name": "大山口—萨恨托尕金成矿亚带",
+"level": "成矿亚带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "韧性剪切带",
+"attributes": {
+"name": "韧性剪切带",
+"structure_type": "韧性剪切带",
+"ore_control_role": "为金矿形成提供良好成矿空间，金矿化作用严格限定于其内"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "糜棱岩系列岩石",
+"attributes": {
+"name": "糜棱岩系列岩石"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Fluid",
+"name_zh": "岩浆水为主的混合成矿流体",
+"attributes": {
+"nature": "Na⁺-K⁺-Cl⁻-SO₄²⁻-CO₂型（Cl⁻≫SO₄²⁻；亦可表述为K⁺-Na⁺-SO₄²⁻-Cl⁻-CO₂型）",
+"source": "以岩浆热液（岩浆水）为主的多来源混合流体",
+"temperature_C_min": "219",
+"temperature_C_max": "298.28"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "中酸性侵入脉岩",
+"attributes": {
+"name": "中酸性侵入脉岩",
+"rock_type": "中酸性脉岩",
+"relationship_to_ore": "与金矿化关系密切，主要金矿体产出于其内或其附近；为韧性剪切带强变形地带内的同构造侵入产物"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金矿石中常见硫化物矿物，用于硫同位素约束硫来源"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "石英脉及流体包裹体载体，用于氢氧同位素约束成矿流体来源"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "萨恨托尕金矿区矿石中铅矿物，用于硫同位素测试"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "氢同位素参数",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD（石英流体包裹体）",
+"value_range": "－48‰～－108‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氧同位素参数",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ¹⁸O_H₂O",
+"value_range": "4.92‰～10.90‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "碳同位素参数",
+"attributes": {
+"system": "碳同位素",
+"parameter_name": "δ¹³C（石英脉）",
+"value_range": "－0.7‰～－3.4‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ³⁴S（黄铁矿）",
+"value_range": "－0.4‰～2.9‰"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "铅同位素参数",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "粗铅模式年龄",
+"value_range": "约200Ma"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "大山口金矿床位于新疆和静县"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "大山口金矿床位于大山口—萨恨托尕金成矿亚带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "萨恨托尕金矿床位于大山口—萨恨托尕金成矿亚带内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "大山口金矿床受韧性剪切带控制，金矿化作用严格限定于剪切带内"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "大山口金矿床矿化围岩为糜棱岩系列岩石"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "对应成矿流体为",
+"description": "大山口金矿床成矿流体为Na⁺-K⁺-Cl⁻-SO₄²⁻-CO₂型，以岩浆热液（岩浆水）为主的混合流体"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E7",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨恨托尕金矿床成矿流体为Na⁺-K⁺-Cl⁻-SO₄²⁻-CO₂型，以岩浆热液（岩浆水）为主的混合流体"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "大山口金矿床矿石中出现黄铁矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "大山口金矿床发育石英脉，石英中含流体包裹体"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "萨恨托尕金矿床矿石中出现方铅矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "石英流体包裹体氢同位素（δD）投影落入岩浆水范围内及其附近，指示成矿流体为以岩浆水为主的混合水"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素（δ¹⁸O_H₂O）与氢同位素共同指示成矿流体以岩浆水为主"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "石英脉碳同位素（δ¹³C）显示成矿流体中的碳可能以矿区地层碳为主，并混入一定深源（岩浆岩源）碳"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿硫同位素（δ³⁴S）变化范围小且接近零，推测成矿流体硫为深部（岩浆）硫与少量围岩硫的混合物"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "铅同位素投影点靠近岛弧铅与造山带演化线且为正常铅，表明铅为深部来源并指示粗铅模式年龄约200Ma"
+}
+]
+}

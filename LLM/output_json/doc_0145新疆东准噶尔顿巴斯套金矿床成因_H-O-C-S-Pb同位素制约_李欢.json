@@ -1,0 +1,278 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0145",
+"title": "新疆东准噶尔顿巴斯套金矿床成因：H-O-C-S-Pb 同位素制约",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "顿巴斯套金矿床",
+"attributes": {
+"name": "顿巴斯套金矿床",
+"location": "新疆东准噶尔阿尔曼泰构造带东段北东侧",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "主要矿体赋存于下石炭统姜巴斯套组下段浅变质含碳细碎屑岩中，受NWW向陡倾断裂构造控制",
+"tectonic_position": "东准噶尔阿尔曼泰构造带东段北东侧"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆东准噶尔阿尔曼泰构造带东段",
+"attributes": {
+"name": "新疆东准噶尔阿尔曼泰构造带东段",
+"level": "构造带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统姜巴斯套组下段",
+"attributes": {
+"name": "下石炭统姜巴斯套组下段",
+"age": "下石炭统",
+"dominant_lithology": "浅变质含碳细碎屑岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "浅变质含碳细碎屑岩",
+"attributes": {
+"name": "浅变质含碳细碎屑岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "NWW向陡倾断裂构造",
+"attributes": {
+"name": "NWW向陡倾断裂构造",
+"structure_type": "断裂",
+"orientation": "NWW向",
+"ore_control_role": "控制主要矿体赋存与展布"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "毒砂-黄铁矿化",
+"attributes": {
+"name": "毒砂-黄铁矿化"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "主成矿阶段成矿流体",
+"attributes": {
+"nature": "岩浆热液为主，后期有部分大气水参与"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "H-O同位素",
+"attributes": {
+"system": "H-O同位素",
+"parameter_name": "δ¹⁸O与δD",
+"value_range": "δ¹⁸O为1.1‰~3.9‰，δD为-115.5‰~-120.6‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "C同位素",
+"attributes": {
+"system": "C同位素",
+"parameter_name": "δ¹³C",
+"value_range": "-24.7‰~-25.4‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "S同位素（黄铁矿）",
+"attributes": {
+"system": "S同位素",
+"parameter_name": "δ³⁴S（黄铁矿）",
+"value_range": "3.0‰~5.8‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "S同位素（毒砂）",
+"attributes": {
+"system": "S同位素",
+"parameter_name": "δ³⁴S（毒砂）",
+"value_range": "4.2‰~5.6‰"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "Pb同位素（黄铁矿）",
+"attributes": {
+"system": "Pb同位素",
+"parameter_name": "²⁰⁶Pb/²⁰⁴Pb、²⁰⁷Pb/²⁰⁴Pb、²⁰⁸Pb/²⁰⁴Pb",
+"value_range": "²⁰⁶Pb/²⁰⁴Pb为17.875~18.102，²⁰⁷Pb/²⁰⁴Pb为15.483~15.625，²⁰⁸Pb/²⁰⁴Pb为37.699~38.148"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "顿巴斯套金矿床位于新疆东准噶尔阿尔曼泰构造带东段北东侧"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "顿巴斯套金矿床主要矿体受NWW向陡倾断裂构造控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "顿巴斯套金矿床主要矿体赋存于浅变质含碳细碎屑岩中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "浅变质含碳细碎屑岩属于下石炭统姜巴斯套组下段"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "与顿巴斯套金矿化密切相关的蚀变类型为毒砂-黄铁矿化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "与顿巴斯套金矿化密切相关的蚀变类型为硅化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "与顿巴斯套金矿化密切相关的蚀变类型为绢云母化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中出现黄铁矿并用于同位素研究，指示其为重要矿物组成"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中出现毒砂并用于同位素研究，指示其为重要矿物组成"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "顿巴斯套金矿床主成矿阶段成矿流体以岩浆热液为主，后期有部分大气水参与"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "H-O同位素组成指示主成矿阶段流体以岩浆热液为主，后期有部分大气水参与"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "C同位素显示成矿流体中碳为深源无机碳与地层有机碳不同程度的混合碳"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿δ³⁴S数值集中，指示成矿物质硫源具有岩浆硫特征并有深源硫参与"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "毒砂δ³⁴S数值集中，指示成矿物质硫源具有岩浆硫特征并有深源硫参与"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿Pb同位素指示成矿物质铅源以地幔铅为主并同化壳源铅，为混合铅来源"
+}
+]
+}

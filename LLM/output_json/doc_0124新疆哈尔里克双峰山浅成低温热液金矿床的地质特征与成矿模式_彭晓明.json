@@ -1,0 +1,386 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0124",
+"title": "新疆哈尔里克双峰山浅成低温热液金矿床的地质特征与成矿模式",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双峰山金矿床",
+"attributes": {
+"name": "双峰山金矿床",
+"location": "新疆东准噶尔哈尔里克构造带",
+"tectonic_position": "东准噶尔南部卡拉麦里—莫钦乌拉大断裂以北约15km处",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "第一矿段金平均品位4.9 g/t；第二矿段金平均品位3.06 g/t；最高品位33.8 g/t（一般2～8 g/t）",
+"ore_control_features": "潜火山热液与火山热泉参与成矿；两个成矿阶段同源同位的蚀变矿物晕（带）叠套，形成自上而下的蚀变分带：隐爆硅质角砾岩化带、低金品位硅质岩带、石英（冰长石）网脉带（矿体）、黄铁矿蒙脱石化带、青磐岩化带；矿体多见于背斜核部及其两侧并向NE-NNE倾斜"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔哈尔里克构造带",
+"attributes": {
+"name": "东准噶尔哈尔里克构造带",
+"level": "构造带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里—莫钦乌拉大断裂",
+"attributes": {
+"name": "卡拉麦里—莫钦乌拉大断裂",
+"structure_type": "大断裂",
+"scale": "区域尺度",
+"ore_control_role": "矿床位于其以北约15km处"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "双峰山背斜",
+"attributes": {
+"name": "双峰山背斜",
+"structure_type": "褶皱",
+"orientation": "轴向NW-NWW，向东倾伏",
+"scale": "矿区尺度",
+"ore_control_role": "矿床位于背斜核部及其两侧"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "EW向断裂",
+"attributes": {
+"name": "EW向断裂",
+"structure_type": "断裂",
+"orientation": "EW向",
+"scale": "矿区尺度",
+"ore_control_role": "双峰山背斜位于矿区南、北两侧EW向断裂之间"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "C₁b₂²⁻¹层流纹质玻屑凝灰岩",
+"attributes": {
+"name": "C₁b₂²⁻¹层流纹质玻屑凝灰岩",
+"age": "下石炭统",
+"dominant_lithology": "流纹质玻屑凝灰岩",
+"lithology_notes": "中下部"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "C₁b₂¹安山岩",
+"attributes": {
+"name": "C₁b₂¹安山岩",
+"age": "下石炭统",
+"dominant_lithology": "安山岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "流纹质玻屑凝灰岩中下部",
+"attributes": {
+"name": "流纹质玻屑凝灰岩中下部"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "下伏安山岩",
+"attributes": {
+"name": "下伏安山岩"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "隐爆硅质角砾岩化带",
+"attributes": {
+"name": "隐爆硅质角砾岩化带"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "低金品位硅质岩带",
+"attributes": {
+"name": "低金品位硅质岩带"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "石英（冰长石）网脉带",
+"attributes": {
+"name": "石英（冰长石）网脉带",
+"alteration_minerals": "石英、冰长石"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿蒙脱石化带",
+"attributes": {
+"name": "黄铁矿蒙脱石化带",
+"alteration_minerals": "黄铁矿、蒙脱石"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "青磐岩化带",
+"attributes": {
+"name": "青磐岩化带"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "矿石矿物主要组成"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "矿石矿物主要组成"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "含金矿物（微量）"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物主要组成"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "冰长石",
+"attributes": {
+"name": "冰长石",
+"role_in_ore": "脉石矿物组成"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "脉石矿物组成"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "蒙脱石",
+"attributes": {
+"name": "蒙脱石",
+"role_in_ore": "脉石矿物组成"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "潜火山热液与火山热泉",
+"source": "与晚古生代造山初期深成流纹质熔浆的陆相喷发有关；火山热泉循环阶段有大气降水参与"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "双峰山金矿床位于东准噶尔哈尔里克构造带上"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "双峰山金矿床位于卡拉麦里—莫钦乌拉大断裂以北约15km处"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "双峰山金矿床位于双峰山背斜核部及其两侧"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "双峰山背斜位于矿区南、北两侧EW向断裂之间，矿床受该断裂格局影响"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "双峰山金矿床赋存于流纹质玻屑凝灰岩中下部"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "赋存于",
+"description": "双峰山金矿床赋存于其下伏的安山岩中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "流纹质玻屑凝灰岩中下部属于C₁b₂²⁻¹层流纹质玻屑凝灰岩"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E7",
+"relation_label_zh": "属于",
+"description": "下伏安山岩属于C₁b₂¹安山岩"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山金矿床蚀变分带自上而下包括隐爆硅质角砾岩化带"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山金矿床蚀变分带自上而下包括低金品位硅质岩带"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山金矿床蚀变分带自上而下包括石英（冰长石）网脉带（矿体）"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山金矿床蚀变分带自上而下包括黄铁矿蒙脱石化带"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "双峰山金矿床蚀变分带自上而下包括青磐岩化带"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "双峰山金矿床矿石矿物主要为黄铁矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "双峰山金矿床矿石矿物主要为毒砂"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要金矿物为",
+"description": "双峰山金矿床含有微量自然金"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "双峰山金矿床脉石矿物主要有细粒石英、玉髓状石英等石英质矿物"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "双峰山金矿床低温微细石英网脉中含冰长石"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "双峰山金矿床低温微细石英网脉中含绢云母"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "双峰山金矿床脉石矿物中含蒙脱石"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "对应成矿流体为",
+"description": "双峰山金矿床成矿过程中潜火山热液与火山热泉参与成矿，且火山热泉循环阶段有大气降水参与"
+}
+]
+}

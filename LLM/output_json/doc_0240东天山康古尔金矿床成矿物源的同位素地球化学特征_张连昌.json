@@ -1,0 +1,345 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0240",
+"title": "东天山康古尔金矿床成矿物源的同位素地球化学特征_张连昌",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "康古尔金矿床",
+"attributes": {
+"name": "康古尔金矿床",
+"location": "东天山康古尔塔格金矿带中段",
+"tectonic_position": "塔里木板块北部晚古生代阿齐山—雅满苏岛弧带北缘，矿区位于区域性秋格明塔什—黄山韧性剪切带南缘的韧—脆性剪切转换带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿区Ⅵ、Ⅷ号主矿床产于安山岩和凝灰岩中，受同一条次级脆—韧性剪切带控制；矿体由含金蚀变岩和石英脉组成，形态呈板状、透镜状；围岩蚀变从矿体中心到围岩具分带性，成矿作用可划分为磁铁绿泥蚀变岩阶段、黄铁矿—石英脉阶段、多金属硫化物—石英脉阶段和碳酸盐—石英脉阶段"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "康古尔塔格金矿带中段",
+"attributes": {
+"name": "康古尔塔格金矿带中段",
+"level": "金矿带中段",
+"tectonic_setting": "东天山地区晚古生代火山岩区金矿成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿齐山—雅满苏岛弧带北缘",
+"attributes": {
+"name": "阿齐山—雅满苏岛弧带北缘",
+"level": "岛弧带北缘",
+"tectonic_setting": "塔里木板块北部晚古生代岛弧—海沟体系北缘构造位置"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统阿齐山组（C1a）",
+"attributes": {
+"name": "下石炭统阿齐山组（C1a）",
+"age": "下石炭世",
+"dominant_lithology": "安山岩、英安岩、凝灰岩、火山角砾岩及砂岩、灰岩等",
+"lithology_notes": "为矿区主要出露地层，矿体主要产于其中的安山岩和凝灰岩中"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统苦水组（C1k）",
+"attributes": {
+"name": "下石炭统苦水组（C1k）",
+"age": "下石炭世",
+"dominant_lithology": "沉积碎屑岩系（海沟相杂砂岩类浊积物）",
+"lithology_notes": "分布于矿区西北角及外围，为海沟相快速沉积形成的浊积碎屑岩系"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "安山岩与凝灰岩（火山岩围岩）",
+"attributes": {
+"name": "安山岩与凝灰岩（火山岩围岩）"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "次级脆—韧性剪切带（强片理化糜棱岩带）",
+"attributes": {
+"name": "次级脆—韧性剪切带（强片理化糜棱岩带）",
+"structure_type": "脆—韧性剪切带",
+"orientation": "走向近北东东向，北倾，倾角70°～77°",
+"scale": "矿区级（发育3条）",
+"ore_control_role": "控制Ⅵ、Ⅷ号主矿床及矿体展布，矿体产状与糜棱岩带基本一致"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "秋格明塔什—黄山韧性剪切带",
+"attributes": {
+"name": "秋格明塔什—黄山韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "近东西向",
+"scale": "区域性",
+"ore_control_role": "主带位于矿区以北2～4千米处，矿区位于其南缘并处于韧—脆性剪切转换带"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "雅满苏大断裂",
+"attributes": {
+"name": "雅满苏大断裂",
+"structure_type": "区域性断裂",
+"scale": "区域性",
+"ore_control_role": "分隔岛弧带与海沟带的区域性构造边界"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "硅化—绿泥石化—黄铁绢英岩化—绿泥石绢云母化（分带）",
+"attributes": {
+"name": "硅化—绿泥石化—黄铁绢英岩化—绿泥石绢云母化（分带）",
+"alteration_minerals": "石英、绿泥石、绢云母、黄铁矿、碳酸盐矿物",
+"intensity": "围岩蚀变强烈且具明显分带性"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物之一",
+"paragenesis": "与石英、绿泥石、绢云母、磁铁矿以及多金属硫化物等共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "重要金属矿物之一（主成矿阶段特征矿物）",
+"paragenesis": "与绿泥石、黄铁矿、石英等共生，形成磁铁绿泥蚀变岩型矿石"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "多呈显微—次显微粒状或片状，赋存于黄铁矿、石英、绿泥石矿物粒间或呈包体赋存于黄铁矿中"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "成矿热液系统",
+"attributes": {
+"nature": "成矿热液系统",
+"source": "成矿物质主要来自矿体围岩火山岩，晚期有少量来自矿区附近侵入岩，并有少量壳源物质加入"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（硫化物）",
+"value_range": "-0.09‰～0.33‰（矿床各成矿阶段硫化物）"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "铅同位素组成",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "206Pb/204Pb、207Pb/204Pb、208Pb/204Pb（矿石）",
+"value_range": "206Pb/204Pb为18.146～18.174；207Pb/204Pb为15.534～15.583；208Pb/204Pb为37.930～38.088"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "锶同位素87Sr/86Sr初始值",
+"attributes": {
+"system": "锶同位素",
+"parameter_name": "（87Sr/86Sr）0",
+"value_range": "矿石0.7077～0.7111；火山岩与次火山岩0.7079～0.7125；英云闪长岩0.7043"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "碳同位素δ13C",
+"attributes": {
+"system": "碳同位素",
+"parameter_name": "δ13C（方解石石英脉与石灰岩）",
+"value_range": "方解石（第Ⅳ成矿阶段）为-0.44‰；石灰岩全岩为0.28‰"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Isotope",
+"name_zh": "钕同位素143Nd/144Nd与εNd",
+"attributes": {
+"system": "钕同位素",
+"parameter_name": "143Nd/144Nd初始值与εNd",
+"value_range": "第Ⅰ成矿阶段矿石143Nd/144Nd初始值为0.512219±0.000001，εNd为7.5"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "IntrusiveBody",
+"name_zh": "晚海西期I型英云闪长岩体",
+"attributes": {
+"name": "晚海西期I型英云闪长岩体",
+"rock_type": "英云闪长岩（I型）",
+"age": "248±1 Ma（Rb-Sr等时线年龄；锆石U-Pb年龄275±1 Ma）",
+"relationship_to_ore": "第Ⅲ成矿阶段矿脉石英的硅来源可能与该英云闪长岩有关，晚期少量成矿物质来自矿区附近侵入岩"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "康古尔金矿床位于东天山康古尔塔格金矿带中段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "康古尔金矿床位于阿齐山—雅满苏岛弧带北缘"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "康古尔金矿床Ⅵ、Ⅷ号主矿床产于安山岩和凝灰岩等火山岩围岩中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "安山岩与凝灰岩等火山岩围岩属于下石炭统阿齐山组（C1a）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床主要矿体受次级脆—韧性剪切带（强片理化糜棱岩带）控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "矿区位于秋格明塔什—黄山韧性剪切带南缘的韧—脆性剪切转换带，与矿床成矿构造背景密切相关"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "康古尔金矿床围岩蚀变主要为硅化、绿泥石化、绢云母化、黄铁矿化及碳酸盐化，并表现为硅化绿泥石化—黄铁绢英岩化—绿泥石绢云母化分带"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床矿石中的主要金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床矿石中的主要金属矿物包括磁铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要金矿物为",
+"description": "康古尔金矿床金矿物为自然金，常与黄铁矿、石英、绿泥石等共生"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "康古尔金矿床成矿作用为热液成矿作用，成矿热液系统所携带成矿物质主要来自围岩火山岩并伴少量侵入岩与壳源物质贡献"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "硫化物δ34S变化范围为-0.09‰～0.33‰，反映热液系统硫同位素总体具有陨石硫型特征，用于约束成矿热液系统中硫的来源"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "矿石铅同位素组成稳定且属正常铅，显示矿石铅以幔源为主并混入少量地壳铅，用于约束成矿热液系统物质来源"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "矿石与火山岩、次火山岩的初始锶同位素比值相近，表明矿脉中锶及部分成矿物质直接来源于围岩火山岩，并反映少量壳源物质加入"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "方解石δ13C为-0.44‰且接近深源碳组成，用于约束成矿热液系统碳组分具有深源特征"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E19",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "第Ⅰ成矿阶段矿石εNd为7.5（>0），指示成矿物源具幔源特征，用于约束成矿热液系统成矿物质来源"
+}
+]
+}

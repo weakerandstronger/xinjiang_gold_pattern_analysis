@@ -1,0 +1,263 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0241",
+"title": "东天山康古尔金矿床成矿流体地球化学特征及其来源_张连昌",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "康古尔金矿床",
+"attributes": {
+"name": "康古尔金矿床",
+"location": "新疆鄯善县东南约180千米处",
+"tectonic_position": "塔里木板块东北部晚古生代阿齐山—雅满苏岛弧带北缘",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "容矿围岩为下石炭统阿齐山组火山岩（安山岩、英安岩、凝灰岩等），伴随石英斑岩、石英正长斑岩、流纹斑岩等次火山岩侵入；矿床受秋格明塔什—黄山大型韧性剪切带的次级脆—韧性断裂控制，矿区发育三条近于平行的糜棱岩带，矿体与剪切断裂产状近于一致，北倾、倾角约70°～75°，形态呈透镜状或脉状；构造变形强部位蚀变与金矿化最强并具分带性；热液成矿分为四个阶段：Ⅰ磁铁绿泥蚀变岩阶段（主成矿阶段，自然金—磁铁矿—绿泥石—黄铁矿—石英组合），Ⅱ黄铁矿石英脉阶段，Ⅲ多金属硫化物石英脉阶段（黄铁矿—黄铜矿—方铅矿—闪锌矿—自然金组合），Ⅳ碳酸盐石英脉阶段（方解石—石英—黄铁矿组合）",
+"age_ma": "282～290Ma（Ⅰ阶段主成矿）；258±21Ma（Ⅲ阶段）；254±7Ma（Ⅳ阶段）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿齐山—雅满苏岛弧带北缘",
+"attributes": {
+"name": "阿齐山—雅满苏岛弧带北缘",
+"level": "岛弧带北缘",
+"tectonic_setting": "塔里木板块东北部晚古生代岛弧—海沟体系北缘构造环境"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统阿齐山组",
+"attributes": {
+"name": "下石炭统阿齐山组",
+"age": "下石炭世",
+"dominant_lithology": "安山岩、英安岩、凝灰岩等火山岩及火山碎屑岩",
+"lithology_notes": "为康古尔金矿床容矿围岩地层，局部受剪切作用形成糜棱岩带并叠加热液蚀变与矿化"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "阿齐山组火山岩容矿围岩（安山岩、英安岩、凝灰岩等）",
+"attributes": {
+"name": "阿齐山组火山岩容矿围岩（安山岩、英安岩、凝灰岩等）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "次火山岩（石英斑岩、石英正长斑岩、流纹斑岩等）",
+"attributes": {
+"name": "次火山岩（石英斑岩、石英正长斑岩、流纹斑岩等）",
+"rock_type": "石英斑岩、石英正长斑岩、流纹斑岩等次火山岩",
+"relationship_to_ore": "侵入并改造围岩，成矿流体中有一定量岩浆水参与，矿化石英脉与多阶段热液活动有关"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "秋格明塔什—黄山大型韧性剪切带次级脆—韧性断裂（糜棱岩带）",
+"attributes": {
+"name": "秋格明塔什—黄山大型韧性剪切带次级脆—韧性断裂（糜棱岩带）",
+"structure_type": "脆—韧性剪切带/断裂",
+"orientation": "北倾，倾角约70°～75°",
+"scale": "矿区级（三条近于平行排列的糜棱岩带）",
+"ore_control_role": "控制矿体展布与产状，控制构造—蚀变—矿化分带，并控制矿化阶段由脆—韧性向脆性演化叠加多期石英脉型矿化"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化—绿泥石化—绢云母化—黄铁矿化",
+"attributes": {
+"name": "硅化—绿泥石化—绢云母化—黄铁矿化",
+"alteration_minerals": "石英、绿泥石、绢云母、黄铁矿",
+"intensity": "蚀变发育且分带明显，构造变形强部位蚀变最强"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "Ⅰ阶段与磁铁矿、绿泥石、黄铁矿、石英共生；Ⅲ阶段与多金属硫化物及石英共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物与载金矿物之一",
+"paragenesis": "Ⅰ阶段与自然金、磁铁矿、绿泥石、石英共生；Ⅱ阶段与自然金、石英共生；Ⅲ阶段与黄铜矿、方铅矿、闪锌矿、自然金共生；Ⅳ阶段与方解石、石英共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "主成矿阶段重要金属矿物",
+"paragenesis": "主要形成于Ⅰ阶段，与自然金、绿泥石、黄铁矿、石英共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Fluid",
+"name_zh": "康古尔金矿床成矿流体",
+"attributes": {
+"nature": "H2O-CO2-NaCl体系中低温、中等盐度、弱还原成矿热液",
+"source": "由变质水、大气降水和岩浆水混合组成，成矿早期以变质水为主、晚期以大气降水为主，次火山岩活动过程中有岩浆水参与",
+"temperature_C_min": "100",
+"temperature_C_max": "320",
+"pressure_MPa_min": "50",
+"pressure_MPa_max": "100",
+"salinity_wtNaCl_min": "11.4",
+"salinity_wtNaCl_max": "17.0"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Isotope",
+"name_zh": "氢同位素δD",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD",
+"value_range": "-45‰～-66‰"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氧同位素δ18O",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O",
+"value_range": "-8.34‰～2.98‰"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "初始锶同位素(87Sr/86Sr)i",
+"attributes": {
+"system": "锶同位素",
+"parameter_name": "(87Sr/86Sr)i",
+"value_range": "0.7077～0.7106"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "康古尔金矿床位于阿齐山—雅满苏岛弧带北缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "康古尔金矿床容矿围岩为阿齐山组火山岩（安山岩、英安岩、凝灰岩等）"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "阿齐山组火山岩容矿围岩属于下石炭统阿齐山组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床受秋格明塔什—黄山大型韧性剪切带次级脆—韧性断裂（糜棱岩带）控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "石英斑岩、石英正长斑岩、流纹斑岩等次火山岩侵入于下石炭统阿齐山组火山岩地层中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "康古尔金矿床围岩蚀变主要为硅化、绿泥石化、绢云母化与黄铁矿化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "康古尔金矿床金矿物以自然金为主"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床矿石中主要金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床主成矿阶段矿物组合包括磁铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "对应成矿流体为",
+"description": "康古尔金矿床成矿流体为H2O-CO2-NaCl体系中低温（320～100℃）、中等盐度（11.4%～17.0%NaCl当量）弱还原热液"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E12",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体δD为-45‰～-66‰，反映成矿流体具多源混合特征"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体δ18O为-8.34‰～2.98‰，显示成矿流体由早期偏变质水/岩浆水向晚期偏大气降水演化并发生混合"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E11",
+"relation_label_zh": "约束该流体来源",
+"description": "石英流体包裹体初始(87Sr/86Sr)i为0.7077～0.7106，用于约束成矿流体由变质水、大气降水与岩浆水混合组成"
+}
+]
+}

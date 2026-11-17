@@ -1,0 +1,230 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0010",
+"title": "哈图金矿深部构造—地球化学特征及隐伏矿体预测",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "哈图金矿床",
+"attributes": {
+"name": "哈图金矿床",
+"location": "哈图金矿区",
+"tectonic_position": "形成于浅中层深度的造山带构造环境",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受南北向区域性主应力派生的含矿断裂控制，浅部沿雁列式尖灭再现的张裂隙发育石英脉型矿体，深部在含矿断裂数量和规模衰减部位发育石英细脉+蚀变岩型或蚀变岩型矿体"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "哈图金矿区",
+"attributes": {
+"name": "哈图金矿区",
+"level": "矿区",
+"tectonic_setting": "主要出露下石炭统太勒古拉组海相或海陆交互相含碳凝灰质泥岩、凝灰质砂岩、凝灰岩、玄武岩，地层为南东向倾斜的单斜构造，断裂发育"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统太勒古拉组",
+"attributes": {
+"name": "下石炭统太勒古拉组",
+"age": "下石炭统",
+"dominant_lithology": "海相或海陆交互相含碳凝灰质泥岩、凝灰质砂岩、凝灰岩、玄武岩",
+"lithology_notes": "为哈图金矿区主要出露地层，可作为含金矿源层"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "哈图金矿近矿围岩带",
+"attributes": {
+"name": "蚀变的碳质泥质粉砂岩、凝灰质粉砂岩、硅质凝灰岩、硅质凝灰质粉砂岩、玄武岩等近矿围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "安齐大断裂",
+"attributes": {
+"name": "安齐大断裂",
+"structure_type": "大断裂",
+"orientation": "位于哈图金矿区东南部的区域性主断裂",
+"scale": "规模较大，为矿区主要断裂之一",
+"ore_control_role": "为含矿断裂和矿体提供运移通道和有利容矿空间"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "地表及浅部含矿断裂",
+"attributes": {
+"name": "地表及浅部含矿断裂",
+"structure_type": "含矿断裂",
+"orientation": "走向以北西为主，其次为北东东（近东西）向，并有少量北东和北北西向",
+"scale": "浅部数量较多，产状变化范围大",
+"ore_control_role": "在扭应力作用下形成较多张裂隙，呈尖灭再现的雁列式分布，控制石英脉型矿体展布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "深部含矿断裂",
+"attributes": {
+"name": "深部含矿断裂",
+"structure_type": "含矿断裂",
+"orientation": "地下深处以近东西向为主，其次为北西向",
+"scale": "断裂数量显著减少，产状变化范围缩窄",
+"ore_control_role": "深部张裂隙不发育，控制石英细脉+蚀变岩型或蚀变岩型矿体展布，但含矿断裂数量和规模向下衰减"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "蚀变岩带",
+"attributes": {
+"name": "蚀变岩带",
+"alteration_minerals": "蚀变的碳质泥质粉砂岩、凝灰质粉砂岩、硅质凝灰岩、硅质凝灰质粉砂岩等",
+"intensity": "近矿围岩广泛蚀变，深部矿体以石英细脉+蚀变岩型或蚀变岩型为主"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Fluid",
+"name_zh": "哈图金矿成矿流体",
+"attributes": {
+"nature": "中—低温混合热液成矿流体（气液相包裹体）",
+"source": "岩浆水+大气降水混合型热液，萃取基性—中酸性岩浆岩及火山—沉积岩中的成矿物质",
+"temperature_C_min": "198",
+"temperature_C_max": "329",
+"pressure_MPa_min": "49",
+"pressure_MPa_max": "97",
+"salinity_wtNaCl_min": "0.7",
+"salinity_wtNaCl_max": "3.51"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Isotope",
+"name_zh": "哈图金矿氧同位素参数",
+"attributes": {
+"system": "O 同位素体系",
+"parameter_name": "平衡流体 δ18O",
+"value_range": "8.6‰～14.8‰"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "哈图金矿尾晕元素组合原生晕",
+"attributes": {
+"element": "Hg、Au、Ni、Pb、Cu、W、Zn、Ag、Mo、Bi 等尾晕元素组合",
+"value_ppm": "元素含量空间变化构成尾晕元素组合（具体含量未给出）",
+"anomaly_pattern": "已知矿脉群下部以尾晕元素组合为主，构成地球化学原生晕尾晕部分"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "哈图金矿前缘晕 As-Sb 异常",
+"attributes": {
+"element": "As、Sb",
+"value_ppm": "前缘晕元素 As 和 Sb 出现异常但规模较小、强度较弱",
+"anomaly_pattern": "地球化学原生晕受含矿构造尖灭再现影响，前缘晕 As、Sb 在采样最深处仍有异常"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "哈图金矿位于哈图金矿区内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "哈图金矿矿脉近矿围岩主要为蚀变的碳质泥质粉砂岩、凝灰质粉砂岩、硅质凝灰岩、硅质凝灰质粉砂岩、玄武岩等"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "哈图金矿近矿围岩属于下石炭统太勒古拉组火山—沉积岩系的一部分"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿受位于矿区东南部的安齐大断裂及其派生次级断裂控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿浅部石英脉型矿体受地表及浅部含矿断裂控制，沿尖灭再现的雁列式张裂隙展布"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿深部石英细脉+蚀变岩型或蚀变岩型矿体受深部含矿断裂控制，且含矿断裂数量和规模向下衰减"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "哈图金矿近矿围岩普遍发生蚀变，形成蚀变岩带，深部矿体以石英细脉+蚀变岩型或蚀变岩型为主"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "对应成矿流体为",
+"description": "哈图金矿对应的成矿流体为中—低温岩浆水+大气降水混合热液"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E9",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素平衡流体 δ18O 值为 8.6‰～14.8‰，表明哈图金矿成矿流体为岩浆水与大气降水的混合"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "哈图金矿已知矿脉群下部以 Hg、Au、Ni、Pb、Cu、W、Zn、Ag、Mo、Bi 等尾晕元素组合为主，形成地球化学原生晕尾晕部分"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "在采样最深处，哈图金矿仍显示前缘晕元素 As 和 Sb 的弱异常，指示深部可能存在规模较小的隐伏矿体"
+}
+]
+}

@@ -1,0 +1,257 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0195",
+"title": "新疆扎格依库都克金矿地球化学特征及地质意义_张立武",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "扎格依库都克金矿床",
+"attributes": {
+"name": "扎格依库都克金矿床",
+"location": "新疆阿勒泰地区福海县辖区内（乌尔腾萨依一带）",
+"tectonic_position": "哈萨克斯坦-准噶尔板块北缘、额尔齐斯构造带南部",
+"deposit_type": "造山型金矿床",
+"ore_grade": "Au1矿体平均品位14.59×10^-6，最高97.33×10^-6；Au2矿体平均品位13.15×10^-6，最高126.33×10^-6",
+"ore_control_features": "矿床受晚期NE向断裂控制；矿体严格受NE向构造控制，呈雁列式分布；矿区圈出3处含金构造破碎蚀变带（Ⅰ、Ⅱ号走向约45°~50°，Ⅲ号走向约130°），带内石英脉发育且蚀变强烈"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "哈萨克斯坦-准噶尔板块北缘",
+"attributes": {
+"name": "哈萨克斯坦-准噶尔板块北缘",
+"level": "板块边缘",
+"tectonic_setting": "区域处于哈萨克斯坦-准噶尔板块北缘构造背景"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "额尔齐斯构造带",
+"attributes": {
+"name": "额尔齐斯构造带",
+"level": "构造带",
+"tectonic_setting": "区域构造运动强烈，断裂褶皱发育，NE向断裂多为晚期脆-韧性左行平移断裂"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统黑山头组",
+"attributes": {
+"name": "下石炭统黑山头组",
+"age": "下石炭统",
+"dominant_lithology": "偏海相火山熔岩与火山碎屑沉积岩",
+"lithology_notes": "金矿体赋存于该组中；区内亦出露中泥盆统北塔山组、下石炭统姜巴斯套组、上石炭统喀喇额尔齐斯组等地层"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "黑山头组火山熔岩-火山碎屑沉积岩围岩",
+"attributes": {
+"name": "黑山头组火山熔岩-火山碎屑沉积岩围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉绿岩侵入体",
+"attributes": {
+"name": "辉绿岩侵入体",
+"rock_type": "辉绿岩",
+"relationship_to_ore": "侵位于黑山头组第二岩性段含角砾玄武岩及安山质凝灰岩中，岩体与围岩接触界限不规整，围岩角岩化，总体出露面积约0.1 km^2"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "晚期NE向断裂",
+"attributes": {
+"name": "晚期NE向断裂",
+"structure_type": "断裂",
+"orientation": "NE向",
+"ore_control_role": "控制扎格依库都克金矿及矿体展布，金矿体严格受NE向构造控制并呈雁列式分布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化-黄铁矿化-褐铁矿化-绢云母化等蚀变",
+"attributes": {
+"name": "硅化-黄铁矿化-褐铁矿化-绢云母化等蚀变",
+"alteration_minerals": "石英、黄铁矿、褐铁矿、绢云母、方解石、绿泥石、高岭土",
+"intensity": "强烈（矿化蚀变带与矿体两侧最发育）"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "以裂隙金、粒间金为主，少量包裹金，常赋存于石英、黄铁矿、褐铁矿微细裂隙中或嵌布于硫化物与碳酸盐矿物晶粒间"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与硅化、绢云母化等蚀变及石英脉共生，常与金矿化密切相关"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "与黄铁矿等硫化物及石英等脉石矿物共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "金（Au）原生晕地球化学特征",
+"attributes": {
+"element": "Au",
+"value_ppm": "原生晕样品中最高203×10^-9（对应金品位4.98×10^-6）",
+"anomaly_pattern": "原生晕测量显示Au与As、Sb、Bi、W等元素相关性较强（Au与W相关系数可达0.87），Au-As-Sb-Bi-W等与金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "砷（As）原生晕地球化学特征",
+"attributes": {
+"element": "As",
+"value_ppm": "原生晕样品中最高332.2×10^-6",
+"anomaly_pattern": "矿（化）体中除Au外，As含量较高，且As含量高的部位Au含量也高，As与金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）原生晕地球化学特征",
+"attributes": {
+"element": "Sb",
+"value_ppm": "原生晕样品中最高1.11×10^-6",
+"anomaly_pattern": "Sb与Au、As、Bi、W等同属与金矿化密切相关的原生晕元素组合，可直接指示金矿（化）部位"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "扎格依库都克金矿床位于哈萨克斯坦-准噶尔板块北缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "扎格依库都克金矿床位于额尔齐斯构造带南部"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "扎格依库都克金矿床矿体赋存于黑山头组火山熔岩-火山碎屑沉积岩围岩中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "黑山头组火山熔岩-火山碎屑沉积岩围岩属于下石炭统黑山头组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "辉绿岩侵入体侵入于下石炭统黑山头组相关岩性段中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "扎格依库都克金矿床受晚期NE向断裂控制，矿体沿NE向构造呈雁列式分布"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "扎格依库都克金矿床围岩蚀变以硅化、黄铁矿化、褐铁矿化、绢云母化等为主，并伴随碳酸盐化、绿泥石化、高岭土化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "扎格依库都克金矿床矿石中主要金属矿物为自然金"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "扎格依库都克金矿床矿石中共生金属矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "扎格依库都克金矿床矿石中共生金属矿物包括毒砂"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "原生晕测量显示扎格依库都克金矿床Au异常与金矿化关系密切，并与As、Sb、Bi、W等元素具有较强相关性"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "原生晕测量显示扎格依库都克金矿床As异常与Au异常共现，As与金矿化关系密切"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "原生晕测量显示扎格依库都克金矿床Sb异常与Au、As等共同构成与金矿化密切相关的元素组合"
+}
+]
+}

@@ -1,0 +1,177 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0026",
+"title": "卡拉麦里双泉金矿基性火山岩地球化学及地质意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿",
+"attributes": {
+"name": "双泉金矿",
+"location": "卡拉麦里双泉金矿矿区",
+"tectonic_position": "位于赋存大量晚古生代火山岩的卡拉麦里地区，记录西伯利亚板块与哈萨克斯坦—准噶尔板块活动的岛弧—弧前拉张构造环境中",
+"ore_control_features": "金矿矿脉受北西向清水苏吉泉断裂控制，并赋存在下石炭统南明水组地层中，其围岩以下石炭统南明水组凝灰岩为主",
+"age_ma": "早石炭世至二叠纪晚期陆—陆碰撞造山作用及其后的拉张运动阶段"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "卡拉麦里地区",
+"attributes": {
+"name": "卡拉麦里地区",
+"level": "区域",
+"tectonic_setting": "赋存大量晚古生代火山岩，记录着西伯利亚板块与哈萨克斯坦—准噶尔板块的活动"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组",
+"attributes": {
+"name": "下石炭统南明水组",
+"age": "下石炭统",
+"dominant_lithology": "浅海相碎屑岩及火山碎屑岩",
+"lithology_notes": "含少量火山熔岩夹层或透镜体，出露于矿区南缘，是重要赋矿地层"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统平顶山组",
+"attributes": {
+"name": "中泥盆统平顶山组",
+"age": "中泥盆统",
+"dominant_lithology": "中、基性火山凝灰岩、凝灰质砂岩、粉砂岩",
+"lithology_notes": "底层为紫红褐色深海相硅质岩、碧玉岩，广泛出露于矿区北部"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "下石炭统南明水组凝灰岩围岩单元",
+"attributes": {
+"name": "下石炭统南明水组凝灰岩围岩单元"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "蛇绿岩超基性侵入岩体",
+"attributes": {
+"name": "蛇绿岩超基性侵入岩体",
+"rock_type": "以超基性侵入岩体为主的蛇绿岩",
+"relationship_to_ore": "切割含矿地层，与含金矿脉空间共存"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "清水苏吉泉大断裂",
+"attributes": {
+"name": "清水苏吉泉大断裂",
+"structure_type": "区域性断裂构造",
+"orientation": "北西向",
+"scale": "次一级构造单元主构造带，区内褶皱和断裂构造较为发育",
+"ore_control_role": "控制双泉金矿金矿脉展布和位置，是矿区最重要的控矿断裂"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "强片理化破碎蚀变带",
+"attributes": {
+"name": "强片理化破碎蚀变带",
+"alteration_minerals": "以岩石破碎蚀变和片理化为主的蚀变组合",
+"intensity": "岩石多已蚀变破碎，岩石片理化强烈，为强片理化破碎蚀变带"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geochem",
+"name_zh": "双泉金矿基性火山岩岩石地球化学特征",
+"attributes": {
+"element": "大离子亲石元素、轻稀土元素、高场强元素 Ti、Sr、Nb 及 Bb 等",
+"value_ppm": "大离子亲石元素丰度较低，富集轻稀土元素，高场强元素显著亏损，其中 Ti 亏损强烈，Sr、Nb 中度亏损，Bb 明显富集",
+"anomaly_pattern": "显示出岛弧火山岩和地壳受同化混染作用的大陆与大洋板块内岩石特征，在环境构造判别图上表现为岛弧火山岩特征"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "双泉金矿基性火山岩岩浆热液",
+"attributes": {
+"nature": "壳幔混源岩浆热液",
+"source": "下地壳或上地幔的壳幔混源岩浆"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "双泉金矿位于卡拉麦里地区，是研究卡拉麦里地区晚古生代火山岩及板块演化的重要金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿金矿脉受北西向的清水苏吉泉大断裂控制，沿该断裂带展布"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "双泉金矿金矿脉赋存在下石炭统南明水组地层中，以南明水组凝灰岩围岩单元为主要围岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "下石炭统南明水组凝灰岩围岩单元属于下石炭统南明水组地层"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "双泉金矿矿区岩石多已蚀变破碎、片理化强烈，形成强片理化破碎蚀变带，与金矿化密切相关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "双泉金矿中基性火山岩岩石地球化学表现为大离子亲石元素丰度较低、富集轻稀土元素和显著亏损高场强元素，呈现岛弧火山岩特征"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "双泉金矿基性火山岩的岩浆热液来源可能为下地壳或上地幔的壳幔混源岩浆，对金成矿提供了壳幔混源成矿流体"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E3",
+"relation_label_zh": "切穿",
+"description": "以超基性侵入岩体为主的蛇绿岩切割下石炭统南明水组这一含矿地层"
+}
+]
+}

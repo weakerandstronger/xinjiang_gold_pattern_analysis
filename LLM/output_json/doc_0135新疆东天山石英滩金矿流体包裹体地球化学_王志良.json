@@ -1,0 +1,169 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0135",
+"title": "新疆东天山石英滩金矿流体包裹体地球化学",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "石英滩金矿床",
+"attributes": {
+"name": "石英滩金矿床",
+"location": "新疆东天山石英滩矿区",
+"tectonic_position": "塔里木板块北缘阿奇山—雅满苏火山弧",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "控矿构造为破火山口环形断裂"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿奇山—雅满苏火山弧",
+"attributes": {
+"name": "阿奇山—雅满苏火山弧",
+"level": "火山弧",
+"tectonic_setting": "塔里木板块北缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "阿其克布拉克组陆相火山岩",
+"attributes": {
+"name": "阿其克布拉克组陆相火山岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下二叠统阿其克布拉克组",
+"attributes": {
+"name": "下二叠统阿其克布拉克组",
+"age": "下二叠统",
+"dominant_lithology": "陆相火山岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Fluid",
+"name_zh": "石英滩金矿成矿流体",
+"attributes": {
+"nature": "低温、低盐度、浅成",
+"source": "中酸性岩浆和火山岩",
+"temperature_C_min": "129 ℃",
+"temperature_C_max": "236 ℃",
+"pressure_MPa_min": "3 MPa",
+"pressure_MPa_max": "32 MPa",
+"salinity_wtNaCl_min": "1.91 wt% NaCl",
+"salinity_wtNaCl_max": "2.74 wt% NaCl"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "破火山口环形断裂",
+"attributes": {
+"name": "破火山口环形断裂",
+"structure_type": "环形断裂",
+"scale": "矿区尺度",
+"ore_control_role": "控矿构造"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "成矿阶段脉石矿物与流体包裹体载体",
+"paragenesis": "与方解石共生，见于不同成矿阶段"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "成矿阶段脉石矿物与流体包裹体载体",
+"paragenesis": "与石英共生，见于不同成矿阶段"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geochem",
+"name_zh": "流体包裹体稀土元素地球化学",
+"attributes": {
+"element": "稀土元素（REE）",
+"anomaly_pattern": "流体包裹体稀土元素研究初步指示成矿流体来自中酸性岩浆和火山岩"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "石英滩金矿床位于塔里木板块北缘阿奇山—雅满苏火山弧"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "主要围岩为",
+"description": "石英滩金矿床容矿围岩为阿其克布拉克组陆相火山岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "阿其克布拉克组陆相火山岩属于下二叠统阿其克布拉克组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "石英滩金矿床受破火山口环形断裂控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "对应成矿流体为",
+"description": "石英滩金矿床对应成矿流体为低温（129℃～236℃）、低盐度（1.91 wt% NaCl～2.74 wt% NaCl）且浅成（3×10^6～32×10^6Pa）的流体，来源为中酸性岩浆和火山岩"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床不同成矿阶段石英中发育原生气液两相流体包裹体"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床不同成矿阶段方解石中发育原生气液两相流体包裹体，且见一定数量假次生与次生包裹体"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床流体包裹体稀土元素地球化学特征指示成矿流体来自中酸性岩浆和火山岩"
+}
+]
+}

@@ -1,0 +1,184 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0223",
+"title": "新疆多拉纳萨依金矿床成矿远景_曾庆栋",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "多拉纳萨依金矿床",
+"attributes": {
+"name": "多拉纳萨依金矿床",
+"location": "新疆北部额尔齐斯成矿带西端",
+"tectonic_position": "西伯利亚板块西南缘额尔齐斯构造域中克兰弧后盆地西北部",
+"deposit_type": "造山型金矿床",
+"ore_grade": "主要矿体矿石平均品位：1号主矿体7.34 g/t，2号主矿体4.60 g/t",
+"ore_control_features": "矿体受层间滑动断层控制明显；控矿、成矿构造规模大，控制长度大于10km；矿化蚀变发育，以硅化、黄铁矿化、绢云母化为主；EH4测量指示矿化向深部延深大于380m"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯成矿带",
+"attributes": {
+"name": "额尔齐斯成矿带",
+"level": "成矿带",
+"tectonic_setting": "西伯利亚板块西南缘额尔齐斯构造域"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "钠长石花岗岩",
+"attributes": {
+"name": "钠长石花岗岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "层间滑动断层带",
+"attributes": {
+"name": "层间滑动断层带",
+"structure_type": "层间滑动断层",
+"orientation": "近南北向展布",
+"scale": "矿田级",
+"ore_control_role": "既为导矿构造也是储矿构造，控制岩脉群与矿体产出"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "白云母、绢云母",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物（浸染状分布）",
+"paragenesis": "蚀变岩型矿石阶段"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "含金矿物（少量）"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geophysics",
+"name_zh": "EH4连续电导率低阻异常",
+"attributes": {
+"anomaly_type": "EH4连续电导率低阻异常",
+"amplitude": "异常宽度约50m",
+"spatial_pattern": "低阻异常与地表矿化蚀变带对应，异常向深部延伸大于380m"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于新疆北部额尔齐斯成矿带西端"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "主要围岩为",
+"description": "钠长石花岗岩是多拉纳萨依金矿床矿体的主要赋矿围岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "多拉纳萨依金矿床矿体受层间滑动断层带控制明显，控矿构造控制长度大于10km"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要蚀变为",
+"description": "多拉纳萨依金矿床矿化蚀变发育，主要蚀变之一为硅化"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "多拉纳萨依金矿床矿化蚀变发育，主要蚀变之一为黄铁矿化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "多拉纳萨依金矿床矿化蚀变发育，主要蚀变之一为绢云母化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "多拉纳萨依金矿床蚀变岩型矿石中金属矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "多拉纳萨依金矿床矿石中可见少量自然金"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "EH4连续电导率剖面测量显示低阻异常与多拉纳萨依金矿床地表矿化蚀变带对应，矿化向深部延深大于380m"
+}
+]
+}

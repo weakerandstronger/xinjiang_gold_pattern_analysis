@@ -1,0 +1,128 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0013",
+"title": "新疆萨瓦亚尔顿金矿流体包裹体成分、矿床成因和成矿预测",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨瓦亚尔顿金矿床",
+"attributes": {
+"name": "萨瓦亚尔顿金矿床",
+"location": "新疆萨瓦亚尔顿金矿区，位于南天山地区",
+"tectonic_position": "南天山造山带内碳质层控造山型金矿化带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "受碳质层控制，赋存于碳质层控的造山型金矿化带中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆萨瓦亚尔顿金矿区",
+"attributes": {
+"name": "新疆萨瓦亚尔顿金矿区",
+"level": "矿区",
+"tectonic_setting": "位于南天山造山带内的碳质层控造山型金矿化区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "南天山穆龙套型金矿带",
+"attributes": {
+"name": "南天山穆龙套型金矿带",
+"level": "金矿带",
+"tectonic_setting": "南天山造山带内由穆龙套式碳质层控造山型金矿床组成的金矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Fluid",
+"name_zh": "萨瓦亚尔顿金矿早阶段成矿流体",
+"attributes": {
+"nature": "Na-Cl 型中高温变质成矿流体，金主要以 Au-Cl 络合物存在",
+"source": "早期中高温变质流体系统，代表成矿早阶段的流体特征"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Fluid",
+"name_zh": "萨瓦亚尔顿金矿中晚阶段成矿流体",
+"attributes": {
+"nature": "K-SO₄ 型中低温大气降水热液，Ca 和 C₂H₆ 含量增高，金主要以 Au-S 络合物存在",
+"source": "晚期中低温大气降水热液与成矿流体混合作用形成的流体系统"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物，是萨瓦亚尔顿金矿床主成矿阶段的重要赋金矿物",
+"paragenesis": "在主成矿阶段由沸腾后浓缩并与大气降水热液混合的成矿流体中沉淀形成，尾随含矿石英沉淀"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "含矿石英",
+"attributes": {
+"name": "含矿石英",
+"role_in_ore": "重要赋金矿物，携带富金流体包裹体",
+"paragenesis": "形成于成矿早阶段流体沸腾过程，包裹体富 S 和多种阳离子"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨瓦亚尔顿金矿床位于新疆萨瓦亚尔顿金矿区内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "萨瓦亚尔顿金矿床与广库姆托尔、吉老、穆龙套等金矿一起，共同构成南天山穆龙套型金矿带的一部分"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨瓦亚尔顿金矿床早阶段成矿物质沉淀由 Na-Cl 型中高温变质成矿流体控制，金以 Au-Cl 络合物形式存在"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "萨瓦亚尔顿金矿床主成矿阶段以 K-SO₄ 型中低温大气降水热液为主，Ca 和 C₂H₆ 含量增高，金以 Au-S 络合物形式存在"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要金矿物为",
+"description": "萨瓦亚尔顿金矿床主成矿阶段形成大量黄铁矿，为主要载金矿物"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿床中含矿石英是重要赋金矿物之一，与黄铁矿等载金矿物共同出现"
+}
+]
+}

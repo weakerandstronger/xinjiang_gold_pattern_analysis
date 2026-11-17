@@ -1,0 +1,242 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0143",
+"title": "新疆青河县顿巴斯套金矿床地质 － 化探找矿模型",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "顿巴斯套金矿床",
+"attributes": {
+"name": "顿巴斯套金矿床",
+"location": "新疆青河县",
+"ore_control_features": "脉岩、矿脉及矿体大都赋存在NWW向的断裂构造中，以L8号矿体为代表的主矿带工程控制程度最高"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "准噶尔成矿区",
+"attributes": {
+"name": "准噶尔成矿区",
+"level": "成矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统姜巴斯套组",
+"attributes": {
+"name": "下石炭统姜巴斯套组",
+"age": "下石炭统"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "NWW向断裂构造",
+"attributes": {
+"name": "NWW向断裂构造",
+"structure_type": "断裂构造",
+"orientation": "NWW向",
+"ore_control_role": "脉岩、矿脉及矿体大都赋存在该断裂构造中"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "中性脉岩",
+"attributes": {
+"name": "中性脉岩",
+"rock_type": "中性脉岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "酸性岩体",
+"attributes": {
+"name": "酸性岩体",
+"rock_type": "酸性岩体"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geochem",
+"name_zh": "金元素组合异常",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "地球化学测量显示对成矿具有较强指示性的元素组合为Au–As–Ag–Sb–Hg"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "土壤金异常",
+"attributes": {
+"element": "Au",
+"value_ppm": "w(Au)极大值>100×10−9",
+"anomaly_pattern": "1:10 000土壤地球化学测量综合异常中Au异常显著，异常区内元素套合较好、浓度分带特征明显"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "土壤银异常",
+"attributes": {
+"element": "Ag",
+"value_ppm": "w(Ag)极大值>500×10−9",
+"anomaly_pattern": "1:10 000土壤地球化学测量综合异常元素组合包含Ag等主要成矿元素"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Geochem",
+"name_zh": "砷异常",
+"attributes": {
+"element": "As",
+"anomaly_pattern": "部分综合异常的主要异常元素为As，且异常区内各元素套合较好"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "锑异常",
+"attributes": {
+"element": "Sb",
+"anomaly_pattern": "部分综合异常包含Sb等伴生元素，异常区内浓度分带特征明显"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Geochem",
+"name_zh": "汞异常",
+"attributes": {
+"element": "Hg",
+"anomaly_pattern": "对成矿具有较强指示性的元素组合之一为Hg"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "顿巴斯套金矿床位于准噶尔成矿区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "脉岩、矿脉及矿体大都赋存在NWW向断裂构造中，表明该断裂构造对矿化具有控制作用"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩发育褐铁矿化等蚀变"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩发育硅化等蚀变"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区围岩发育绢云母化等蚀变"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "地球化学测量显示对成矿具有较强指示性的元素组合为Au–As–Ag–Sb–Hg"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "1:10 000土壤地球化学测量中w(Au)极大值>100×10−9，综合异常与矿体产出具有对应性"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "1:10 000土壤地球化学测量中w(Ag)极大值>500×10−9，综合异常元素组合包含Ag等主要成矿元素"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "显示",
+"description": "综合异常中As为重要异常元素之一，且与其他元素套合较好"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "部分综合异常包含Sb等伴生元素，浓度分带特征明显"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "显示",
+"description": "对成矿具有较强指示性的元素组合中包含Hg"
+}
+]
+}
+

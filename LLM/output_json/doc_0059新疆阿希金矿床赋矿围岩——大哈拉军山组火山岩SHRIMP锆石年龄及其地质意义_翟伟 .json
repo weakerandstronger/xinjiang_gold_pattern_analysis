@@ -1,0 +1,75 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0059",
+"title": "新疆阿希金矿床赋矿围岩 —— 大哈拉军山组火山岩SHRIMP 锆石年龄及其地质意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "新疆西天山地区",
+"tectonic_position": "赋存于西天山古生代陆相火山岩中",
+"deposit_type": "浅成低温热液型金矿床",
+"age_ma": "晚古生代早期，介于 363.2±5.7Ma 到早石炭世维宪期"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "StratUnit",
+"name_zh": "大哈拉军山组第五岩性段陆相火山岩",
+"attributes": {
+"name": "大哈拉军山组第五岩性段陆相火山岩",
+"age": "晚泥盆世",
+"dominant_lithology": "陆相火山岩",
+"lithology_notes": "阿希金矿赋矿围岩，高精度锆石 SHRIMP 年龄为 363.2±5.7Ma"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "大哈拉军山组第五岩性段赋矿围岩单元",
+"attributes": {
+"name": "大哈拉军山组第五岩性段赋矿围岩单元"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "西天山地区",
+"attributes": {
+"name": "西天山地区",
+"level": "造山带",
+"tectonic_setting": "发育古生代陆相火山岩，是阿希金矿床所在的构造区域"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿赋存于大哈拉军山组第五岩性段赋矿围岩单元中"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E2",
+"relation_label_zh": "属于",
+"description": "大哈拉军山组第五岩性段赋矿围岩单元在地层上属于大哈拉军山组第五岩性段陆相火山岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于新疆西天山地区的古生代陆相火山岩中"
+}
+]
+}

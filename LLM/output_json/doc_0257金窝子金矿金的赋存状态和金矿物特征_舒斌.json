@@ -1,0 +1,304 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0257",
+"title": "金窝子金矿金的赋存状态和金矿物特征_舒斌",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金窝子金矿床",
+"attributes": {
+"name": "金窝子金矿床",
+"location": "甘新交界新疆哈密一侧（紧邻312国道）",
+"tectonic_position": "中朝—塔里木板块与哈萨克斯坦板块俯冲碰撞带南缘的北山中带（早古生代属岛弧区靠近弧后盆地一侧），区域构造位于马连井复向斜核部偏北侧",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "金矿化类型包括：①蚀变糜棱岩型，赋存于上泥盆统金窝子组中，受NE向低角度断层控制，以210金矿床为代表；②石英脉型，产于华力西期花岗闪长岩体中，受NNW向陡断层控制，以联合金矿区为代表"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "照壁山-破城山贵金属金成矿带",
+"attributes": {
+"name": "照壁山-破城山贵金属金成矿带",
+"level": "四级成矿带",
+"tectonic_setting": "东天山-北山成矿带的星星峡—明水金多金属成矿亚带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "上泥盆统金窝子组",
+"attributes": {
+"name": "上泥盆统金窝子组",
+"age": "晚泥盆世",
+"dominant_lithology": "轻微变质的火山岩-沉积碎屑岩系",
+"lithology_notes": "主要岩性为沉凝灰岩、含砾沉凝灰岩、凝灰质砾岩、凝灰质砂岩、千枚岩夹泥质页岩和碳质板岩，并含少量薄层灰岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "金窝子组蚀变糜棱岩化带",
+"attributes": {
+"name": "金窝子组蚀变糜棱岩化带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "花岗闪长岩体内断裂破碎带（石英脉赋存带）",
+"attributes": {
+"name": "花岗闪长岩体内断裂破碎带（石英脉赋存带）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "华力西期花岗闪长岩体",
+"attributes": {
+"name": "华力西期花岗闪长岩体",
+"rock_type": "花岗闪长岩",
+"age": "华力西期",
+"relationship_to_ore": "石英脉型金矿化产于花岗闪长岩体中，含金石英脉主要充填于岩体内断裂破碎带"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "NE向低角度断层",
+"attributes": {
+"name": "NE向低角度断层",
+"structure_type": "断层",
+"orientation": "NE向、低角度",
+"scale": "矿田级",
+"ore_control_role": "控制赋存于金窝子组中的蚀变糜棱岩型金矿化（以210金矿床为代表）"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "NNW向陡断层",
+"attributes": {
+"name": "NNW向陡断层",
+"structure_type": "断层",
+"orientation": "NNW向、陡倾",
+"scale": "矿田级",
+"ore_control_role": "控制产于华力西期花岗闪长岩体中的石英脉型金矿化（以联合金矿区为代表）"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化-绢云母化",
+"attributes": {
+"name": "绿泥石化-绢云母化",
+"alteration_minerals": "绿泥石、绢云母",
+"intensity": "常见"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "主要金矿物",
+"paragenesis": "金多以独立金矿物形式出现，银金矿为主；常以粒间金、裂隙金、连生金和包体金等形式嵌布于黄铁矿、石英、方铅矿和闪锌矿等载金矿物中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "次要金矿物",
+"paragenesis": "多以粒间金、裂隙金等形式出现，主要嵌布于黄铁矿与石英等载金矿物中"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "为各种类型矿石的主要金属矿物，金矿物在黄铁矿中占优势，常见粒间金、裂隙金等嵌布形式"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物与载金矿物",
+"paragenesis": "石英脉型矿石中非金属矿物以石英为主；金矿物常嵌布于石英中，且石英为与金矿化关系最密切的矿物之一"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "次要载金矿物",
+"paragenesis": "金矿物可少量嵌布于方铅矿中，与黄铁矿、闪锌矿等共生"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "次要载金矿物",
+"paragenesis": "为常见次要金属矿物，金矿物可嵌布于闪锌矿中，与黄铁矿、方铅矿等共生"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "常见金属矿物",
+"paragenesis": "石英脉型与蚀变糜棱岩型矿石中均可出现，但黄铜矿中未见金矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "金属矿物",
+"paragenesis": "蚀变糜棱岩型矿石中可见，与黄铁矿、闪锌矿、方铅矿、黄铜矿等共生"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "金窝子金矿床的成矿区划归属东天山-北山成矿带星星峡—明水金多金属成矿亚带中的照壁山-破城山贵金属金成矿带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "金窝子金矿床蚀变糜棱岩型金矿化赋存于金窝子组蚀变糜棱岩化带中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "金窝子金矿床石英脉型金矿化主要赋存于花岗闪长岩体内断裂破碎带中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "金窝子组蚀变糜棱岩化带属于上泥盆统金窝子组地层"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "金窝子金矿床蚀变糜棱岩型金矿化受NE向低角度断层控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "金窝子金矿床石英脉型金矿化受NNW向陡断层控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "金窝子金矿床蚀变糜棱岩型矿石中绿泥石化与绢云母化为常见蚀变特征"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要金矿物为",
+"description": "金窝子金矿床金矿物以银金矿为主"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床金矿物次为自然金"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床主要载金矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床金矿物常嵌布于石英中，石英为主要脉石矿物与载金矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床金矿物可少量嵌布于方铅矿中"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床金矿物可嵌布于闪锌矿中"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床矿石中可见黄铜矿，但黄铜矿中未见金矿物"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床蚀变糜棱岩型矿石中可见毒砂等硫化物矿物"
+}
+]
+}

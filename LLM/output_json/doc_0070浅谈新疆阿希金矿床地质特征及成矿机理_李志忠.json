@@ -1,0 +1,106 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0070",
+"title": "浅谈新疆阿希金矿床地质特征及成矿机理",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"ore_control_features": "与金矿化有关的岩石为钙碱性系列的中酸性火山岩，金矿形成于火山口附近，并产于次火山岩岩体的边缘内侧，围岩蚀变主要为硅化、高岭土化、黄铁矿化、绢云母化"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿希金矿床区域",
+"attributes": {
+"name": "阿希金矿床区域",
+"level": "矿区",
+"tectonic_setting": "以阿希金矿床区域成矿条件和控矿因素为特征的矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "HostRockUnit",
+"name_zh": "钙碱性中酸性火山岩围岩单元",
+"attributes": {
+"name": "钙碱性中酸性火山岩围岩单元"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Alteration",
+"name_zh": "阿希金矿床围岩蚀变组合",
+"attributes": {
+"name": "阿希金矿床围岩蚀变组合",
+"alteration_minerals": "硅化、高岭土化、黄铁矿化、绢云母化",
+"intensity": "围岩蚀变主要为硅化、高岭土化、黄铁矿化、绢云母化"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿床成矿流体",
+"attributes": {
+"nature": "成矿温度、盐度、压力较低的成矿流体",
+"source": "成矿物质来自火山岩和基底岩层"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Geochem",
+"name_zh": "阿希金矿成矿元素组合",
+"attributes": {
+"element": "Au、Ag、As、Sb、Bi、Hg、Se",
+"value_ppm": "文中未给出具体含量，仅指出成矿元素为 Au、Ag、As、Sb、Bi、Hg、Se",
+"anomaly_pattern": "成矿元素组合以 Au、Ag、As、Sb、Bi、Hg、Se 为主"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于阿希金矿床区域内，其成矿条件和控矿因素由该区域地质环境所控制"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿床赋存在与金矿化有关的钙碱性系列中酸性火山岩围岩单元中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要蚀变为",
+"description": "阿希金矿床围岩蚀变以硅化、高岭土化、黄铁矿化、绢云母化为主"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希金矿床对应的成矿流体为温度、盐度和压力均较低的成矿流体"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "显示",
+"description": "阿希金矿床成矿元素组合为 Au、Ag、As、Sb、Bi、Hg、Se"
+}
+]
+}

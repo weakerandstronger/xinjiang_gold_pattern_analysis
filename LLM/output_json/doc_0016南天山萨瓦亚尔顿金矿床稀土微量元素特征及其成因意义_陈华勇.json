@@ -1,0 +1,110 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0016",
+"title": "南天山萨瓦亚尔顿金矿床稀土微量元素特征及其成因意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨瓦亚尔顿金矿床",
+"attributes": {
+"name": "萨瓦亚尔顿金矿床",
+"location": "新疆乌恰县南天山构造带",
+"tectonic_position": "南天山构造带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿化与石英脉密切相关，IV号矿脉为最大矿带，含矿石英包体中流体微量元素含量高于其他矿脉石英",
+"age_ma": "印支期"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "南天山构造带",
+"attributes": {
+"name": "南天山构造带",
+"level": "构造带",
+"tectonic_setting": "南天山造山构造带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Fluid",
+"name_zh": "萨瓦亚尔顿金矿成矿流体",
+"attributes": {
+"nature": "成矿流体演化经历早期高温无矿化石英阶段、中期中低温矿化石英阶段和晚期低温碳酸盐脉阶段，具有造山型金矿中温至低温成矿热液特征",
+"source": "深源初始流体与围岩发生交代作用形成的蚀变流体在成矿阶段发生混合，围岩组分为成矿流体主要来源之一"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "萨瓦亚尔顿金矿蚀变围岩",
+"attributes": {
+"name": "萨瓦亚尔顿金矿蚀变围岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Geochem",
+"name_zh": "萨瓦亚尔顿金矿成矿流体稀土微量元素异常",
+"attributes": {
+"element": "稀土元素及铅等微量元素",
+"value_ppm": "矿化石英包体中流体的稀土及微量元素含量普遍高于早期无矿石英及其他矿脉石英，IV号矿脉含矿石英包体中流体微量元素含量最高",
+"anomaly_pattern": "稀土元素配分模式显示轻稀土富集和铕正异常，成矿流体中铅含量较高"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "矿化石英",
+"attributes": {
+"name": "矿化石英",
+"role_in_ore": "主要赋矿石英脉石，为携带成矿流体和稀土微量元素的重要矿物",
+"paragenesis": "形成于中低温矿化石英阶段，其流体包裹体记录轻稀土富集和铕正异常等特征，与萨瓦亚尔顿金矿成矿流体演化密切相关"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨瓦亚尔顿金矿床位于新疆乌恰县的南天山构造带中"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨瓦亚尔顿金矿床对应的成矿流体为中温至低温演化的成矿热液，早期为高温无矿化石英流体，中期为中低温矿化石英流体，晚期为低温碳酸盐脉流体，成矿流体由深源初始流体与围岩交代作用形成的蚀变流体混合而成"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "萨瓦亚尔顿金矿床的主要围岩为蚀变强烈的围岩，该围岩中钙和铅明显流失，表明围岩组分可能为成矿流体的主要来源之一"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "显示",
+"description": "萨瓦亚尔顿金矿床成矿流体稀土微量元素特征显示轻稀土富集和铕正异常，铅含量较高，矿化石英包体中流体微量元素含量高于无矿石英和其他矿脉石英"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "与其密切相关",
+"description": "萨瓦亚尔顿金矿床的矿化与石英脉密切相关，中期中低温阶段形成的矿化石英为主要赋矿石英脉石，IV号矿脉含矿石英最为发育"
+}
+]
+}

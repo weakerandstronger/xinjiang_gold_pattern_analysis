@@ -1,0 +1,392 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0187",
+"title": "新疆萨热阔布金矿床特征及隐伏矿预测新途径的思路_丁汝福",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨热阔布金矿床",
+"attributes": {
+"name": "萨热阔布金矿床",
+"location": "新疆阿勒泰市东约9千米",
+"tectonic_position": "新疆阿尔泰山南缘麦兹－冲乎尔有色金属、贵金属成矿带内的克朗火山沉积盆地铁木尔特铜铅锌金属矿田",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "赋矿围岩为下泥盆统康布铁堡组海相火山－沉积岩；矿体产在火山热水沉积建造中的断裂变形带内，特别是高钾岩体附近的断裂带或层间滑动带中；控矿构造为北西向阿巴宫断裂和克因宫断裂（压剪性断裂）；矿体一般为脉状、细脉状、透镜状，呈右行雁列"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "克朗火山沉积盆地",
+"attributes": {
+"name": "克朗火山沉积盆地",
+"level": "火山沉积盆地",
+"tectonic_setting": "泥盆纪海相火山－沉积盆地"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "铁木尔特铜铅锌金属矿田",
+"attributes": {
+"name": "铁木尔特铜铅锌金属矿田",
+"level": "矿田",
+"tectonic_setting": "克朗火山沉积盆地内多金属矿田"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "阿尔泰山南缘麦兹－冲乎尔有色金属、贵金属成矿带",
+"attributes": {
+"name": "阿尔泰山南缘麦兹－冲乎尔有色金属、贵金属成矿带",
+"level": "成矿带",
+"tectonic_setting": "阿尔泰山南缘麦兹、克朗、冲乎尔三个泥盆纪火山－沉积盆地与可可塔勒铅锌多金属成矿带空间位置吻合"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下泥盆统康布铁堡组",
+"attributes": {
+"name": "下泥盆统康布铁堡组",
+"age": "下泥盆世（下泥盆统）",
+"dominant_lithology": "海相火山－沉积岩",
+"lithology_notes": "赋矿围岩为绿泥石片岩、晶屑凝灰岩、变钙质粉砂岩等；建造中硅质岩、铁锰质大理岩、层状矽卡岩等具有较高金含量"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "绿泥石片岩—晶屑凝灰岩—变钙质粉砂岩围岩组合",
+"attributes": {
+"name": "绿泥石片岩—晶屑凝灰岩—变钙质粉砂岩围岩组合"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "阿巴宫断裂",
+"attributes": {
+"name": "阿巴宫断裂",
+"structure_type": "压剪性断裂",
+"orientation": "北西向",
+"scale": "区域性",
+"ore_control_role": "与克因宫断裂共同为控矿构造，控制矿体定位与展布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "克因宫断裂",
+"attributes": {
+"name": "克因宫断裂",
+"structure_type": "压剪性断裂",
+"orientation": "北西向",
+"scale": "区域性",
+"ore_control_role": "限定矿区北界并控制矿体定位与展布"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "似矽卡岩化",
+"attributes": {
+"name": "似矽卡岩化",
+"alteration_minerals": "似矽卡岩矿物",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "为主要矿物组合之一，可作为物探异常（激电、瞬变电磁）响应的载金矿物之一"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "为主要矿物组合之一，与金矿化伴生并与铜矿化相关"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "共生金属矿物",
+"paragenesis": "为主要矿物组合之一"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "共生金属矿物",
+"paragenesis": "为主要矿物组合之一，与铅锌铜矿共生的金矿体相关"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "共生金属矿物",
+"paragenesis": "为主要矿物组合之一，与铅锌铜矿共生的金矿体相关"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geochem",
+"name_zh": "金（Au）地球化学异常元素组合",
+"attributes": {
+"element": "金(Au)",
+"anomaly_pattern": "沟系次生晕元素组合为Au、Ag、Cu、Pb、Zn、S；原生晕元素组合为Au、Ag、Cu、Pb、Zn、Bi、Mo、W、Cd、As"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Geophysics",
+"name_zh": "激电异常",
+"attributes": {
+"anomaly_type": "激电异常",
+"spatial_pattern": "萨热阔布1号矿体对应激电异常"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Geophysics",
+"name_zh": "瞬变电磁异常",
+"attributes": {
+"anomaly_type": "瞬变电磁异常",
+"spatial_pattern": "萨热阔布1号矿体对应瞬变电磁异常"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "IntrusiveBody",
+"name_zh": "高钾侵入岩体",
+"attributes": {
+"name": "高钾侵入岩体",
+"rock_type": "高钾侵入岩",
+"relationship_to_ore": "可能为金的活化富集提供必要的热流体活动条件，并提供部分成矿物质；矿体可产于其附近断裂带中"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床位于克朗火山沉积盆地中"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "产于",
+"description": "萨热阔布金矿床产于铁木尔特铜铅锌金属矿田内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "萨热阔布金矿床位于阿尔泰山南缘麦兹－冲乎尔有色金属、贵金属成矿带内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "萨热阔布金矿床赋矿围岩为绿泥石片岩、晶屑凝灰岩、变钙质粉砂岩等围岩组合"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "绿泥石片岩—晶屑凝灰岩—变钙质粉砂岩围岩组合属于下泥盆统康布铁堡组海相火山－沉积岩"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床的控矿构造为北西向阿巴宫断裂（压剪性断裂）"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "萨热阔布金矿床的控矿构造为北西向克因宫断裂（压剪性断裂）"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "萨热阔布金矿床围岩蚀变主要为硅化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床围岩蚀变伴随似矽卡岩化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床围岩蚀变伴随绿泥石化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床找矿标志中包括绢云母化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布金矿床找矿标志中包括黄铁矿化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床主要矿物组合包括黄铁矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床主要矿物组合包括黄铜矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床主要矿物组合包括毒砂"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床主要矿物组合包括闪锌矿"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "萨热阔布金矿床主要矿物组合包括方铅矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "显示",
+"description": "萨热阔布金矿床化探标志表现为以金为主并与银、铜、铅、锌等元素组合异常相关"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布1号矿体具有激电异常"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "伴随有",
+"description": "萨热阔布1号矿体具有瞬变电磁异常"
+}
+]
+}

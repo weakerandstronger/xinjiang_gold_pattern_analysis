@@ -1,0 +1,328 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0222",
+"title": "新疆尼勒克县加曼特金矿床地质特征及成因浅析_韩刚",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "加曼特金矿床",
+"attributes": {
+"name": "加曼特金矿床",
+"location": "西天山博罗霍洛山南坡、尼勒克县城北，也列莫顿火山断陷盆地内",
+"tectonic_position": "西天山北段，哈萨克斯坦板块伊犁－中天山陆壳板块北东缘博罗科努早古生代岛弧带与上叠晚古生代火山岩区结合部位",
+"deposit_type": "造山型金矿床",
+"ore_grade": "石英脉型矿石品位多为（1～3）×10^-6，个别可达5.6×10^-6；蚀变岩型矿石平均品位在5×10^-6以上，最高约16×10^-6",
+"ore_control_features": "矿体形态受断裂控制明显，产于北北西向（F5）和北北东向（F6、F7）构造破碎带内，呈脉状、透镜状；赋矿围岩为大哈拉军山组含角砾岩屑晶屑凝灰熔岩及石英钠长斑岩，矿化多产于石英钠长斑岩体内外接触带附近断裂构造中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "也列莫顿火山断陷盆地",
+"attributes": {
+"name": "也列莫顿火山断陷盆地",
+"level": "火山断陷盆地",
+"tectonic_setting": "早元古代褶皱基底基础上形成的上叠式火山断陷盆地，处于古生代岛弧边缘活动带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "博罗霍洛铁、铜、铅锌、钨、锡、钼、金、银成矿远景区南段",
+"attributes": {
+"name": "博罗霍洛铁、铜、铅锌、钨、锡、钼、金、银成矿远景区南段",
+"level": "成矿远景区",
+"tectonic_setting": "西天山博罗霍洛山南坡区域，多金属矿产富集，区域成矿条件有利"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组上亚组",
+"attributes": {
+"name": "下石炭统大哈拉军山组上亚组",
+"age": "下石炭统",
+"dominant_lithology": "中酸性火山岩及火山碎屑岩",
+"lithology_notes": "金矿化主要产于第一韵律灰褐色－褐色含角砾岩屑晶屑凝灰熔岩上部，次火山岩发育部位矿化较普遍"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "含角砾岩屑晶屑凝灰熔岩",
+"attributes": {
+"name": "含角砾岩屑晶屑凝灰熔岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英钠长斑岩体",
+"attributes": {
+"name": "石英钠长斑岩体",
+"rock_type": "石英钠长斑岩",
+"relationship_to_ore": "与金矿化关系密切，为提供矿源的重要母岩；矿化常产于其内外接触带附近断裂构造中"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "花岗斑岩",
+"attributes": {
+"name": "花岗斑岩",
+"rock_type": "花岗斑岩",
+"relationship_to_ore": "矿区侵入岩之一，岩浆侵入活动强烈，与金矿化密切相关"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "F5断裂",
+"attributes": {
+"name": "F5断裂",
+"structure_type": "断裂",
+"orientation": "北北西向",
+"scale": "矿区级",
+"ore_control_role": "控制矿体产出与展布，F5断裂带控制矿体4条"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "F6断裂",
+"attributes": {
+"name": "F6断裂",
+"structure_type": "断裂",
+"orientation": "北北东向",
+"scale": "矿区级",
+"ore_control_role": "控制矿体产出与展布，F6断裂带控制矿体1条"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "F7断裂",
+"attributes": {
+"name": "F7断裂",
+"structure_type": "断裂",
+"orientation": "北北东向",
+"scale": "矿区级",
+"ore_control_role": "控制矿体产出与展布，F7断裂带控制矿体1条"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绢英岩化",
+"attributes": {
+"name": "绢英岩化",
+"alteration_minerals": "石英、绢云母、高岭土、绿泥石"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geochem",
+"name_zh": "大哈拉军山组地层金元素异常",
+"attributes": {
+"element": "Au",
+"value_ppm": "0.12×10^-6（最大值）",
+"anomaly_pattern": "下石炭统大哈拉军山组地层微量元素表现为富Au、Sb、贫Ag、Zn、Pb、Sn；含角砾岩屑晶屑凝灰熔岩岩层顶部Au高含量值较集中"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "加曼特金矿床位于也列莫顿火山断陷盆地内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "加曼特金矿床区域上位于博罗霍洛多金属成矿远景区南段"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "加曼特金矿床主要赋存于含角砾岩屑晶屑凝灰熔岩中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "含角砾岩屑晶屑凝灰熔岩属于下石炭统大哈拉军山组上亚组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "石英钠长斑岩体侵入于下石炭统大哈拉军山组上亚组地层中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E4",
+"relation_label_zh": "侵入于",
+"description": "花岗斑岩侵入于下石炭统大哈拉军山组上亚组地层中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "矿体产于F5构造破碎带内，矿体形态与产出受F5断裂控制明显"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "矿体产于F6构造破碎带内，矿体严格受断裂控制"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "矿体产于F7构造破碎带内，矿体严格受断裂控制"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区热液蚀变范围广、强度大，硅化为主要蚀变类型，是主要含金部位"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "矿区构造带及岩体接触带部位常见黄铁矿化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "矿区构造带附近绢英岩化较发育，与矿化关系密切"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要金矿物为",
+"description": "加曼特金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石金属矿物组合包括黄铁矿等"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "矿化类型主要为石英脉型，脉石矿物以石英为主"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石脉石矿物包括方解石等"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "显示",
+"description": "加曼特金矿床所在的大哈拉军山组地层与特定岩性段顶部具有Au等元素异常与富集特征，为找矿有利信息"
+}
+]
+}

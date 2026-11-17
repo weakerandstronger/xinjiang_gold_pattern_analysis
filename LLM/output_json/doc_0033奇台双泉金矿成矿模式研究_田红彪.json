@@ -1,0 +1,202 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0033",
+"title": "奇台双泉金矿成矿模式研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿床",
+"attributes": {
+"name": "双泉金矿床",
+"location": "东准噶尔卡拉麦里成矿带",
+"tectonic_position": "卡拉麦里晚古生代岛弧带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "赋矿地层为下石炭统南明水组，矿石类型主要为蚀变岩型，受韧性剪切带及其控矿构造控制，围岩蚀变为重要找矿标志",
+"age_ma": "海西中晚期为金成矿重要阶段"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔卡拉麦里成矿带",
+"attributes": {
+"name": "东准噶尔卡拉麦里成矿带",
+"level": "成矿带",
+"tectonic_setting": "构造环境为卡拉麦里晚古生代岛弧带，是东准噶尔地区重要金成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组",
+"attributes": {
+"name": "下石炭统南明水组",
+"age": "下石炭统",
+"dominant_lithology": "以凝灰岩为主的火山沉积岩系",
+"lithology_notes": "为双泉金矿赋矿地层，围岩主要为南明水组凝灰岩，在物探上表现为高阻低极化特征"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "下石炭统南明水组凝灰岩围岩单元",
+"attributes": {
+"name": "下石炭统南明水组凝灰岩围岩单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "双泉韧性剪切带",
+"attributes": {
+"name": "双泉韧性剪切带",
+"structure_type": "韧性剪切带",
+"ore_control_role": "与双泉金矿成矿密切相关，为导矿及容矿构造，对变质热液型金矿的形成起控制作用"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "围岩蚀变带",
+"attributes": {
+"name": "围岩蚀变带",
+"alteration_minerals": "破碎蚀变岩、黄铁矿化蚀变岩及片理化千枚岩等",
+"intensity": "矿区围岩蚀变明显，围岩蚀变对矿床形成有重要作用，是重要找矿标志"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金矿化指示矿物及蚀变标志矿物",
+"paragenesis": "形成黄铁矿化破碎蚀变岩，与矿体赋存的片理化千枚岩共生，对应低阻中高极化异常"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Geophysics",
+"name_zh": "矿体低阻中高极化异常",
+"attributes": {
+"anomaly_type": "矿体低阻中高极化异常",
+"amplitude": "视电阻率一般为254～446 Ω·m，视极化率多为1.2%～3.01%",
+"spatial_pattern": "对应黄铁矿化破碎蚀变岩及矿体赋存的片理化千枚岩部位"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Geophysics",
+"name_zh": "矿化蚀变岩高阻高极化异常",
+"attributes": {
+"anomaly_type": "矿化蚀变岩高阻高极化异常",
+"amplitude": "视电阻率一般为376～1123 Ω·m，视极化率多为3.01%～5.93%",
+"spatial_pattern": "对应矿化蚀变岩分布位置，反映矿化蚀变带的地球物理响应"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Geophysics",
+"name_zh": "南明水组凝灰岩高阻低极化背景",
+"attributes": {
+"anomaly_type": "围岩高阻低极化背景异常",
+"amplitude": "视电阻率一般为1 920～6 238 Ω·m，视极化率多为0.67%～2.24%",
+"spatial_pattern": "对应围岩下石炭统南明水组凝灰岩，为矿区高阻低极化背景"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "Au-As-Ti-Bi 综合地球化学异常",
+"attributes": {
+"element": "Au、As、Ti、Bi",
+"value_ppm": "文中未给出具体含量，仅指出已知矿体与Au异常套合较好，As、Ti为典型头晕元素，Bi为典型尾晕元素",
+"anomaly_pattern": "已知矿体与Au异常套合较好，典型头晕元素As、Ti和典型尾晕元素Bi均在深部出现浓集中心，并出现异常叠加，显示成矿元素前缘与后缘晕的分带性"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "双泉金矿位于东准噶尔卡拉麦里成矿带上，为该成矿带上一个中型的与韧性剪切带有关的变质热液型金矿"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿为与韧性剪切带有关的变质热液型金矿，受双泉韧性剪切带等成矿构造控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "双泉金矿的矿体赋存于下石炭统南明水组凝灰岩围岩单元中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "下石炭统南明水组凝灰岩围岩单元在地层上属于下石炭统南明水组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "双泉金矿矿区围岩蚀变明显，破碎蚀变岩及黄铁矿化蚀变岩等围岩蚀变对矿床形成有重要作用，是重要找矿标志"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "双泉金矿矿区发育黄铁矿化破碎蚀变岩，黄铁矿为与矿体赋存片理化千枚岩共生的金属矿物和蚀变标志矿物"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "显示",
+"description": "双泉金矿矿体在物探上表现为低阻中高极化异常，视电阻率254～446 Ω·m，视极化率1.2%～3.01%"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "显示",
+"description": "与双泉金矿有关的矿化蚀变岩在物探上表现为高阻高极化特征，视电阻率376～1123 Ω·m，视极化率3.01%～5.93%"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "显示",
+"description": "双泉金矿所在矿区围岩南明水组凝灰岩表现为高阻低极化背景异常，视电阻率1 920～6 238 Ω·m，视极化率0.67%～2.24%"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "双泉金矿已知矿体与Au异常套合较好，典型头晕元素As、Ti和典型尾晕元素Bi在深部出现浓集中心并出现异常叠加，形成Au-As-Ti-Bi综合地球化学异常"
+}
+]
+}

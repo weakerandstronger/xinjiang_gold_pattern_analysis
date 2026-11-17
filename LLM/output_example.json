@@ -1,0 +1,598 @@
+{
+"kg_instances": {
+"schema_version": "0.1.0",
+"doc_id": "r0001",
+"title": "新疆西南天山萨瓦亚尔顿金矿床地质特征及成矿作用",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "萨瓦亚尔顿金矿床",
+"attributes": {
+"name": "萨瓦亚尔顿金矿床",
+"location": "位于新疆乌恰县中国与吉尔吉斯斯坦边境东阿赖山北部乌鲁克恰提以NNW向约28 km处",
+"deposit_type": "穆龙套型金矿床",
+"resource_tonnage": "金储量约37 t",
+"ore_control_features": "受萨瓦亚尔顿－吉根大型脆-韧性剪切带控制，主要赋存于上志留统塔尔特库里组和下泥盆统萨瓦亚尔顿组的含碳千枚岩、变质砂岩和变质粉砂岩中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆乌恰县",
+"attributes": {
+"name": "新疆乌恰县",
+"level": "县",
+"tectonic_setting": "位于中国西南天山造山带，与吉尔吉斯斯坦接壤的边境地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "中国西南天山造山带西端",
+"attributes": {
+"name": "中国西南天山造山带西端",
+"level": "造山带",
+"tectonic_setting": "位于伊犁－伊塞克湖微板块与塔里木北缘活动带的交接部位"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "塔里木北缘活动带",
+"attributes": {
+"name": "塔里木北缘活动带",
+"level": "活动带",
+"tectonic_setting": "晚古生代陆缘盆地，位于塔里木板块北缘"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "伊犁－伊塞克湖微板块",
+"attributes": {
+"name": "伊犁－伊塞克湖微板块",
+"level": "微板块",
+"tectonic_setting": "位于中国西南天山造山带内，与塔里木北缘活动带相邻"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "上志留统塔尔特库里组",
+"attributes": {
+"name": "上志留统塔尔特库里组",
+"age": "上志留统",
+"dominant_lithology": "浅变质含碳碎屑岩和含碳浊积岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "StratUnit",
+"name_zh": "下泥盆统萨瓦亚尔顿组",
+"attributes": {
+"name": "下泥盆统萨瓦亚尔顿组",
+"age": "下泥盆统",
+"dominant_lithology": "含碳千枚岩、变质砂岩和变质粉砂岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "StratUnit",
+"name_zh": "矿区出露地层",
+"attributes": {
+"name": "矿区出露地层",
+"age": "上志留统、下泥盆统、中泥盆统和上石炭统",
+"dominant_lithology": "一套浅变质含碳碎屑岩及其上覆的变质碎屑岩系"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "含碳千枚岩-变质砂岩-变质粉砂岩容矿岩系",
+"attributes": {
+"name": "含碳千枚岩-变质砂岩-变质粉砂岩容矿岩系",
+"lithology": "含碳千枚岩、变质砂岩、变质粉砂岩",
+"stratigraphic_position": "主要位于上志留统塔尔特库里组和下泥盆统萨瓦亚尔顿组中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Lithology",
+"name_zh": "含碳浊积岩",
+"attributes": {
+"name": "含碳浊积岩",
+"rock_type": "浊积岩",
+"composition": "含碳碎屑岩",
+"texture": "发育韵律层理、粒序层理、水平层理、包卷层理、沙纹层理和鲍马层序",
+"age": "上志留统"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Lithology",
+"name_zh": "含碳千枚岩",
+"attributes": {
+"name": "含碳千枚岩",
+"rock_type": "千枚岩",
+"composition": "含碳变质碎屑岩"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Lithology",
+"name_zh": "硅化粉砂岩",
+"attributes": {
+"name": "硅化粉砂岩",
+"rock_type": "粉砂岩",
+"composition": "经硅化的粉砂质碎屑物质"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Structure",
+"name_zh": "萨瓦亚尔顿－吉根大型剪切带",
+"attributes": {
+"name": "萨瓦亚尔顿－吉根大型剪切带",
+"structure_type": "脆-韧性剪切带及分界断裂",
+"orientation": "呈NNE向展布，倾向NNW-NW，倾角50～85°，与地层斜交",
+"scale": "区域性大型断裂，延伸数十至数百千米",
+"ore_control_role": "南天山造山带与塔里木板块西北缘的分界断裂，是区域内重要控矿构造"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "IntrusiveBody",
+"name_zh": "二长斑岩脉",
+"attributes": {
+"name": "二长斑岩脉",
+"rock_type": "二长斑岩",
+"age": "锆石U-Pb年龄为133.7～131.0 Ma",
+"relationship_to_ore": "沿断裂带及矿区及外围地层分布，显示岩浆活动较弱，与金矿化关系不明显"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "矿化蚀变带",
+"attributes": {
+"name": "矿化蚀变带",
+"alteration_minerals": "石英、碳酸盐矿物、硫化物以及碳质物、绢云母等",
+"spatial_pattern": "在矿区南北长约5 km、东西宽约4 km范围内呈带状集中分布，共发现24条，主要位于上志留统塔尔特库里组和下泥盆统萨瓦亚尔顿组中"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "金",
+"attributes": {
+"name": "金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与黄铁矿、毒砂、脆硫锑铅矿等金属矿物及石英、菱铁矿等共生"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与金、毒砂、脆硫锑铅矿、黄铜矿、辉锑矿等共生"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "常与金、黄铁矿共生"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "脆硫锑铅矿",
+"attributes": {
+"name": "脆硫锑铅矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与金、黄铁矿、辉锑矿等共生"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "次要金属矿物",
+"paragenesis": "与黄铁矿、金等共生"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "辉锑矿",
+"attributes": {
+"name": "辉锑矿",
+"role_in_ore": "次要金属矿物",
+"paragenesis": "与脆硫锑铅矿、黄铁矿、金共生"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "磁黄铁矿",
+"attributes": {
+"name": "磁黄铁矿",
+"role_in_ore": "次要金属矿物",
+"paragenesis": "与黄铁矿及其他硫化物共生"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "充填于含金石英细脉-网脉中，与金及多种金属硫化物共生"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "菱铁矿",
+"attributes": {
+"name": "菱铁矿",
+"role_in_ore": "重要脉石矿物",
+"paragenesis": "在金-石英-菱铁矿矿石中与金及黄铁矿等共生"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "脉石及蚀变矿物",
+"paragenesis": "与石英、碳质物及金属硫化物共生"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Fluid",
+"name_zh": "萨瓦亚尔顿金矿成矿流体",
+"attributes": {
+"phase": "中低温成矿流体",
+"Th_range": "78～355 ℃",
+"salinity_range": "w(NaCl当量)2.57%～22.10%",
+"inclusion_types": "气液两相包裹体、富液相包裹体、富气相包裹体、含NaCl子晶多相包裹体和含液相CO2三相包裹体"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Isotope",
+"name_zh": "硫化物硫同位素",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "硫化物δ34S",
+"value_range": "－3.0‰～＋2.61‰，平均值约0.07‰",
+"interpretation": "暗示硫主要来自地幔或与地幔相关的岩浆"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Isotope",
+"name_zh": "碳酸盐矿物碳同位素",
+"attributes": {
+"system": "碳同位素",
+"parameter_name": "白云石和菱铁矿δ13CPDB",
+"value_range": "－5.4‰～－0.6‰",
+"interpretation": "表明成矿物质来自地幔及海相碳酸盐岩"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Isotope",
+"name_zh": "成矿流体氢氧同位素",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "成矿流体氢氧同位素组成",
+"value_range": "文中未给出具体数值",
+"interpretation": "显示成矿流体主要来源于大气降水，并混合少量岩浆水"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "萨瓦亚尔顿金矿床位于新疆乌恰县中国与吉尔吉斯斯坦边境一带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "萨瓦亚尔顿金矿床位于中国西南天山造山带西端"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "萨瓦亚尔顿金矿床处于塔里木北缘活动带与伊犁－伊塞克湖微板块的交接部位"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "萨瓦亚尔顿金矿床位于伊犁－伊塞克湖微板块与塔里木北缘活动带交界附近"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Lithology",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "容矿岩系为",
+"description": "萨瓦亚尔顿金矿床早期容矿岩系为上志留统塔尔特库里组的一套含碳浊积岩"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Lithology",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要赋存于",
+"description": "萨瓦亚尔顿金矿床矿体主要赋存于含碳千枚岩中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Lithology",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要赋存于",
+"description": "萨瓦亚尔顿金矿床部分矿石为含金硅化粉砂岩型"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "受…控制",
+"description": "萨瓦亚尔顿金矿床受萨瓦亚尔顿－吉根大型脆-韧性剪切带控制，该剪切带为区域重要控矿构造"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "赋存于",
+"description": "萨瓦亚尔顿金矿床矿体赋存于含碳千枚岩、变质砂岩和变质粉砂岩组成的容矿岩系中"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要分布于",
+"description": "含碳千枚岩-变质砂岩-变质粉砂岩容矿岩系主要分布在上志留统塔尔特库里组中"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要分布于",
+"description": "含碳千枚岩-变质砂岩-变质粉砂岩容矿岩系同时发育于下泥盆统萨瓦亚尔顿组中"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "伴随有",
+"description": "萨瓦亚尔顿金矿床伴随多条矿化蚀变带，这些蚀变带在矿区内呈带状集中分布"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要金矿物为",
+"description": "萨瓦亚尔顿金矿床的主要金矿物为自然金"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿床金属矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿床中常见毒砂与金、黄铁矿共生"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿床原生矿石类型中多见金-脆硫锑铅矿-（辉锑矿）组合"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿床金属矿物中含有一定数量的黄铜矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿床中辉锑矿与金及脆硫锑铅矿等共生"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "萨瓦亚尔顿金矿床中磁黄铁矿为次要金属矿物，与黄铁矿等共生"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "脉石矿物包括",
+"description": "萨瓦亚尔顿金矿床中石英为主要脉石矿物，形成含金石英细脉-网脉型矿石"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "脉石矿物包括",
+"description": "萨瓦亚尔顿金矿床存在金-石英-菱铁矿矿石类型"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "蚀变矿物包括",
+"description": "萨瓦亚尔顿金矿床矿石中常见绢云母，与石英和金属硫化物共同组成蚀变矿物组合"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "对应成矿流体为",
+"description": "萨瓦亚尔顿金矿床成矿流体为中低温、中低盐度的H2O-NaCl-CO2-CH4体系，流体包裹体以气液两相为主"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E27",
+"to_entity_local_id": "E26",
+"relation_label_zh": "约束该流体来源",
+"description": "硫化物δ34S值来源于成矿流体沉淀的硫化物，指示成矿物质中的硫来自地幔或与地幔相关的岩浆"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E28",
+"to_entity_local_id": "E26",
+"relation_label_zh": "约束该流体来源",
+"description": "白云石和菱铁矿的碳同位素特征反映成矿流体携带的成矿物质来自地幔及海相碳酸盐岩"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E29",
+"to_entity_local_id": "E26",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素组成显示成矿流体主要来源于大气降水，并混合少量岩浆水"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E8",
+"relation_label_zh": "侵入于",
+"description": "矿区及外围地层中沿萨瓦亚尔顿－吉根剪切带分布少量二长斑岩脉，为晚期侵入于矿区出露地层的岩体"
+}
+]
+},
+"schema_new": {
+"new_entity_types": [
+{
+"suggested_type_id": "OreType",
+"cn_name": "矿石类型",
+"description": "按矿物组合和产状划分的矿石分类单元，用于描述金矿床中不同类型的原生矿石和氧化矿石。",
+"example_mentions": [
+"根据矿物组合和产状将原生矿石划分为含金石英细脉-网脉型、含金蚀变碳质千枚岩型和含金硅化粉砂岩型",
+"进一步划分为金-毒砂-黄铁矿-石英矿石、金-黄铁矿-脆硫锑铅矿-（辉锑矿）-石英矿石、金-脆硫锑铅矿-（辉锑矿）矿石、金-石英-菱铁矿矿石、金-黄铁矿-磁黄铁矿-石英矿石等多种矿石类型"
+]
+},
+{
+"suggested_type_id": "MineralizationProcess",
+"cn_name": "成矿作用过程",
+"description": "用于表示控制金矿床形成的物理化学条件、流体成分演化、水-岩反应和流体不混溶等综合成矿过程单元。",
+"example_mentions": [
+"物理化学条件和流体成分的改变、水-岩交换作用及流体的不混溶作用在成矿过程中起了重要作用"
+]
+}
+],
+"new_entity_attributes": [
+{
+"entity_type": "Deposit",
+"suggested_attr_id": "associated_elements",
+"cn_name": "共生元素组合",
+"description": "用于描述矿床中金与其他元素（如锑等）在空间和成因上的共生关系。",
+"example_values": [
+"金、锑共生"
+]
+},
+{
+"entity_type": "Fluid",
+"suggested_attr_id": "fluid_system",
+"cn_name": "流体体系",
+"description": "用于表征成矿流体的主要化学体系组成，如H2O-NaCl-CO2-CH4体系等。",
+"example_values": [
+"H2O-NaCl-CO2-CH4体系"
+]
+}
+],
+"new_relation_types": [
+{
+"suggested_id": "Deposit-Deposit",
+"from_entity": "Deposit",
+"to_entity": "Deposit",
+"cn_name": "矿床成因与类型相似关系",
+"description": "描述不同金矿床在成矿类型、成矿条件及成矿物质来源等方面具有明显相似性的成因联系。",
+"relation_label_examples": [
+"类型相似",
+"成矿作用相似",
+"对比矿床"
+],
+"example_mentions": [
+"萨瓦亚尔顿金矿与乌兹别克斯坦穆龙套金矿和吉尔吉斯斯坦库姆托尔金矿具有相似性，但它在浅成中-低温条件下成矿，且金、锑共生"
+]
+}
+],
+"new_relation_attributes": [
+{
+"relation_type": "Deposit-Region",
+"suggested_attr_id": "distance_to_reference_point",
+"cn_name": "距参考地点距离",
+"description": "用于定量描述矿床相对于重要地理或地质参考点（如城镇、河流或构造节点）的直线距离。",
+"example_values": [
+"距乌鲁克恰提约28 km"
+]
+}
+]
+}
+}

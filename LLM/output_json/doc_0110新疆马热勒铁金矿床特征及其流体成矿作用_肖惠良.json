@@ -1,0 +1,548 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0110",
+"title": "新疆马热勒铁金矿床特征及其流体成矿作用",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "马热勒铁金矿床",
+"attributes": {
+"name": "马热勒铁金矿床",
+"location": "新疆青河县城东南约70 km布尔根河北岸",
+"tectonic_position": "额尔齐斯构造—岩浆成矿带东南部，青格里—布尔根背斜轴部附近",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "产于中泥盆统北塔山组安山岩和安山质凝灰岩间的韧性剪切带中，层间断裂为主要含金石英脉的控脉构造，糜棱岩化带与断裂破碎带为成矿有利部位"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯构造—岩浆成矿带",
+"attributes": {
+"name": "额尔齐斯构造—岩浆成矿带",
+"level": "成矿带",
+"tectonic_setting": "构造—岩浆成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿尔泰地区",
+"attributes": {
+"name": "阿尔泰地区",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统北塔山组",
+"attributes": {
+"name": "中泥盆统北塔山组",
+"age": "中泥盆统",
+"dominant_lithology": "火山岩建造（辉石安山岩、杏仁状安山岩、安山质凝灰岩等）",
+"lithology_notes": "为阿尔泰地区重要的含金建造，凝灰岩蚀变强烈，普遍绿泥石化、绿帘石化、碳酸盐化及硅化"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "北塔山组安山岩和安山质凝灰岩",
+"attributes": {
+"name": "北塔山组安山岩和安山质凝灰岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "韧性剪切带",
+"attributes": {
+"name": "韧性剪切带",
+"structure_type": "剪切带",
+"scale": "矿区",
+"ore_control_role": "为矿床的容矿构造，矿体主要产于其内"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "层间断裂",
+"attributes": {
+"name": "层间断裂",
+"structure_type": "断裂",
+"orientation": "走向近东西（约280°），倾角较缓",
+"scale": "矿区",
+"ore_control_role": "为主要含金石英脉的控脉构造"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "玛因鄂博大断裂",
+"attributes": {
+"name": "玛因鄂博大断裂",
+"structure_type": "断裂",
+"scale": "区域",
+"ore_control_role": "区域挤压—剪切应力作用背景，促使含金建造发生韧性剪切并成矿"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "断裂破碎带",
+"attributes": {
+"name": "断裂破碎带",
+"structure_type": "破碎带",
+"scale": "矿区",
+"ore_control_role": "为成矿流体汇聚与沉淀的有利部位"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "糜棱岩化带",
+"attributes": {
+"name": "糜棱岩化带",
+"structure_type": "糜棱岩化带",
+"scale": "矿区",
+"ore_control_role": "为成矿流体聚集及沉淀富集的有利部位"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "青格里—布尔根背斜",
+"attributes": {
+"name": "青格里—布尔根背斜",
+"structure_type": "背斜",
+"scale": "区域",
+"ore_control_role": "矿床位于其轴部附近"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "IntrusiveBody",
+"name_zh": "花岗闪长岩脉",
+"attributes": {
+"name": "花岗闪长岩脉",
+"rock_type": "花岗闪长岩",
+"age": "海西中—晚期",
+"relationship_to_ore": "矿区岩浆岩不发育，仅见少量脉状出露"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉绿岩脉",
+"attributes": {
+"name": "辉绿岩脉",
+"rock_type": "辉绿岩",
+"age": "海西中—晚期",
+"relationship_to_ore": "矿区岩浆岩不发育，仅见少量脉状出露"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "方解石",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "黄铁矿—石英—金阶段"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "金属矿物"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "金属矿物"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "黝铜矿",
+"attributes": {
+"name": "黝铜矿",
+"role_in_ore": "金属矿物"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "金矿物"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "金属矿物"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "辉铋矿",
+"attributes": {
+"name": "辉铋矿",
+"role_in_ore": "金属矿物"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "金属矿物"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Mineral",
+"name_zh": "绿泥石",
+"attributes": {
+"name": "绿泥石",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石矿物"
+}
+},
+{
+"entity_local_id": "E31",
+"entity_type": "Fluid",
+"name_zh": "马热勒铁金矿床成矿流体",
+"attributes": {
+"nature": "中—低温、中—低盐度的Na⁺—Ca²⁺—HCO₃⁻—Cl⁻型与Ca²⁺—Na⁺—HCO₃⁻—SO₄²⁻—Cl⁻型酸性—弱酸性流体",
+"source": "以地层建造水为主，混合古大气降水、变质水、地下水及岩浆水",
+"temperature_C_min": "160",
+"temperature_C_max": "280",
+"pressure_MPa_min": "7.34",
+"pressure_MPa_max": "12.19",
+"salinity_wtNaCl_min": "6.72",
+"salinity_wtNaCl_max": "12.99"
+}
+},
+{
+"entity_local_id": "E32",
+"entity_type": "Geochem",
+"name_zh": "金元素地球化学数据",
+"attributes": {
+"element": "Au",
+"value_ppm": "安山岩平均含金15.23×10⁻⁹，绿泥石化、绿帘石化蚀变安山岩含金85.5×10⁻⁹，片理化蚀变安山岩含金156.7×10⁻⁹，地表石英脉含金201.6×10⁻⁹",
+"anomaly_pattern": "北塔山组火山岩为重要含金建造，其含金为该区其它地质体的2～4倍，矿区Au含量分布极不均匀"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "马热勒铁金矿床位于额尔齐斯构造—岩浆成矿带东南部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "马热勒铁金矿床位于阿尔泰地区"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "马热勒铁金矿床产于北塔山组安山岩和安山质凝灰岩间的韧性剪切带中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "北塔山组安山岩和安山质凝灰岩属于中泥盆统北塔山组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "矿床赋存于韧性剪切带中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "层间断裂为主要含金石英脉的控脉构造"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "在玛因鄂博大断裂挤压—剪切应力作用下，含金建造发生韧性剪切并促成成矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "成矿流体在断裂破碎带等低应力部位汇聚并沉淀富集"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "成矿流体在糜棱岩化带等低应力部位汇聚并沉淀富集"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "位于",
+"description": "马热勒铁金矿床位于青格里—布尔根背斜轴部附近"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿关系密切的蚀变主要包括硅化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿关系密切的蚀变主要包括碳酸盐化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿关系密切的蚀变主要包括黄铁矿化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要蚀变为",
+"description": "与金矿关系密切的蚀变主要包括绢云母化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "主要金矿物为",
+"description": "马热勒铁金矿床的金矿物包括自然金"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "马热勒铁金矿床的金矿物包括银金矿"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中主要矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中矿物包括黄铜矿"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中矿物包括方铅矿"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中矿物包括黝铜矿"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中矿物包括毒砂"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中矿物包括辉铋矿"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中矿物包括磁铁矿"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石脉石矿物主要为石英"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E30",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石脉石矿物包括方解石"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E31",
+"relation_label_zh": "对应成矿流体为",
+"description": "马热勒铁金矿床成矿流体为中—低温（160～280℃）、中—低盐度（6.72%～12.99%wtNaCl）的混合水体系"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E32",
+"relation_label_zh": "显示",
+"description": "马热勒铁金矿床所在北塔山组含金建造及矿区各类岩石显示明显Au富集与不均匀分布特征"
+}
+]
+}

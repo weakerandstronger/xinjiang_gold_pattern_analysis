@@ -1,0 +1,230 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0210",
+"title": "新疆维吾尔自治区托里县齐求3号金矿成矿特征_孙长亮",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床（3号）",
+"attributes": {
+"name": "齐求金矿床（3号）",
+"location": "新疆维吾尔自治区托里县",
+"tectonic_position": "准噶尔成矿域西准噶尔成矿带（扎伊尔金成矿带），处于哈图断裂与安齐断裂两组构造断裂之间",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体及地层形态受安齐-哈图断裂控制，北东向与东西向断裂共同作用形成构造破碎带；矿带内大量石英脉充填，石英脉为主要载金体，金矿化以石英脉为中心向两侧逐渐减弱；次级断裂为金的富集与运移提供通道，石英脉尖灭复现现象明显"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔成矿带（扎伊尔金成矿带）",
+"attributes": {
+"name": "西准噶尔成矿带（扎伊尔金成矿带）",
+"level": "成矿带",
+"tectonic_setting": "准噶尔成矿域的西准噶尔成矿带，成矿有利部位，矿床受达尔布特断裂、安齐断裂、哈图断裂等构造控制"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "包古图组",
+"attributes": {
+"name": "包古图组",
+"age": "早石炭世",
+"dominant_lithology": "凝灰质粉砂岩、粉砂质泥岩、细砂岩，夹硅质岩、粉砂岩、凝灰质砂岩等",
+"lithology_notes": "可见绿泥石化、千枚岩化、大理岩化，出露于矿区西南角"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "太勒古拉组",
+"attributes": {
+"name": "太勒古拉组",
+"age": "早石炭世",
+"dominant_lithology": "细粒凝灰岩、凝灰质粉砂质泥岩",
+"lithology_notes": "为本区含矿岩石，见硅化、绿泥石化；岩石结构与构造包括熔结凝灰结构、假流动构造、晶屑凝灰结构、方解石化和角砾结构"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "太勒古拉组炭质凝灰质砂岩含矿层",
+"attributes": {
+"name": "太勒古拉组炭质凝灰质砂岩含矿层"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "安齐-哈图断裂控制的构造破碎带",
+"attributes": {
+"name": "安齐-哈图断裂控制的构造破碎带",
+"structure_type": "断裂带",
+"orientation": "北东向与东西向断裂组合",
+"scale": "断层带宽度1m～15m（矿区内）",
+"ore_control_role": "控制矿体及地层形态与产出；断裂缝隙发育，矿带内大量石英脉充填；次级断裂为金的富集与运移提供通道"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化-褐铁矿化-硅化-碳酸盐化-绿泥石化-毒砂化蚀变",
+"attributes": {
+"name": "黄铁矿化-褐铁矿化-硅化-碳酸盐化-绿泥石化-毒砂化蚀变",
+"alteration_minerals": "石英、碳酸盐矿物、绿泥石、黄铁矿、褐铁矿、毒砂",
+"intensity": "热液成矿阶段在断裂构造控制下普遍发育，近矿围岩与热液发生反应形成蚀变；偶见毒砂化"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物与金矿主要载体",
+"paragenesis": "含矿石英脉类型多样，主要为脉状、细脉状和网状脉；石英脉充填于构造断裂缝隙和岩石裂隙中，破碎强烈，常见褐铁矿化"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物，与金矿化密切相关",
+"paragenesis": "热液成矿阶段形成浸染状黄铁矿，石英脉两侧可见黄铁矿化；主要矿化阶段可伴少量黄铁矿充填于石英脉内"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "硫化物矿物，与金矿化相关",
+"paragenesis": "主要矿化阶段细粒毒砂与自然金等充填于石英脉中，同时在石英脉两侧可出现浸染状细粒毒砂；部分矿石中毒砂含量约3%～5%"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "主要矿化阶段为石英-自然金-硫化物过程，自然金与细粒毒砂、少许黄铁矿形成细线并充填于石英脉中"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geophysics",
+"name_zh": "CSAMT电性异常",
+"attributes": {
+"anomaly_type": "CSAMT视电阻率异常",
+"amplitude": "两条高阻异常带与一条低阻异常带",
+"spatial_pattern": "异常总体呈北东东向展布，两条高阻异常带之间夹一条北东东向低阻异常带；低阻带内局部见次高阻异常，异常展布方向与控矿构造一致"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Fluid",
+"name_zh": "齐求3号金矿床成矿热液",
+"attributes": {
+"nature": "热液成矿流体"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "齐求3号金矿床位于准噶尔成矿域西准噶尔成矿带（扎伊尔金成矿带）内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "太勒古拉组炭质凝灰质砂岩为齐求3号金矿床的主要含矿层"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "太勒古拉组炭质凝灰质砂岩含矿层属于太勒古拉组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "齐求3号金矿床矿体及含矿石英脉的形态与分布受安齐-哈图断裂控制的构造破碎带控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "齐求3号金矿床在热液成矿阶段形成硅化、碳酸盐化、绿泥石化、黄铁矿化、褐铁矿化等蚀变，偶见毒砂化"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求3号金矿床含矿石英脉发育，石英脉为金矿的主要载体"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求3号金矿床矿石中常见黄铁矿，石英脉两侧可见浸染状黄铁矿化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求3号金矿床主要矿化阶段形成细粒毒砂并充填于石英脉中，石英脉两侧亦可见浸染状细粒毒砂"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "齐求3号金矿床主要金矿化阶段为石英-自然金-硫化物过程，自然金为主要金矿物并充填于石英脉中"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "齐求3号金矿区CSAMT测量显示北东东向高阻与低阻异常带组合，异常展布方向与控矿构造一致"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "对应成矿流体为",
+"description": "齐求3号金矿床成矿过程为热液成矿阶段，产生硅化、黄铁矿化、碳酸盐化、绿泥石化等蚀变并形成含金石英脉与破碎蚀变带型矿体"
+}
+]
+}

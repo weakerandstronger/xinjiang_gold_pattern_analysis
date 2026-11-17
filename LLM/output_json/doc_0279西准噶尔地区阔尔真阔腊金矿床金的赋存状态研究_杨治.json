@@ -1,0 +1,286 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0279",
+"title": "西准噶尔地区阔尔真阔腊金矿床金的赋存状态研究_杨治",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔尔真阔腊金矿床",
+"attributes": {
+"name": "阔尔真阔腊金矿床",
+"location": "新疆准噶尔盆地北西缘萨吾尔成矿带东段",
+"tectonic_position": "新疆准噶尔盆地北西缘萨吾尔山北坡",
+"ore_grade": "金矿石中Au质量分数为0～51.6×10^-6（约0～51.6 ppm），平均6.22×10^-6（约6.22 ppm）",
+"ore_control_features": "区内火山机构环状、放射状断裂与近东西向断裂及其次级断裂叠加，共同控制矿化类型及矿体分布；金矿物主要以裂隙金和粒间金产出，且以裂隙金为主，指示金沉淀可能受裂隙（构造）控制作用较大"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "萨吾尔成矿带",
+"attributes": {
+"name": "萨吾尔成矿带",
+"level": "成矿带",
+"tectonic_setting": "准噶尔盆地北西缘萨吾尔山北坡"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭世黑山头组",
+"attributes": {
+"name": "下石炭世黑山头组",
+"age": "下石炭世",
+"dominant_lithology": "玄武安山岩、角砾安山岩（并有少量安山玢岩等）",
+"lithology_notes": "矿区出露的火山岩主要为黑山头组玄武安山岩、角砾安山岩；其中安山岩为赋矿围岩，玄武安山岩锆石LA-ICP-MS U-Pb谐和年龄为（339.4±4.8）Ma"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "安山岩",
+"attributes": {
+"name": "安山岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "近东西向断裂及其次级断裂",
+"attributes": {
+"name": "近东西向断裂及其次级断裂",
+"structure_type": "断裂",
+"orientation": "近东西向",
+"scale": "矿区级",
+"ore_control_role": "与火山机构环状、放射状断裂叠加，共同控制区内矿化类型及矿体分布"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "火山机构环状、放射状断裂",
+"attributes": {
+"name": "火山机构环状、放射状断裂",
+"structure_type": "断裂",
+"orientation": "环状、放射状",
+"scale": "矿区级",
+"ore_control_role": "与近东西向断裂及其次级断裂叠加，共同控制区内矿化类型及矿体分布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "钾硅酸盐化",
+"attributes": {
+"name": "钾硅酸盐化"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "青磐岩化",
+"attributes": {
+"name": "青磐岩化"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "石英绢云母化",
+"attributes": {
+"name": "石英绢云母化"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "黏土化",
+"attributes": {
+"name": "黏土化"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "主要含金矿物",
+"paragenesis": "与黄铁矿、毒砂等硫化物共生，可见裂隙金与粒间金等产出形式"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "与黄铜矿、方铅矿、闪锌矿等共生，金多以裂隙金与粒间金形式赋存于其裂隙或晶体边界"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "重要载金矿物（次于黄铁矿）",
+"paragenesis": "与黄铁矿共生，金以裂隙金与粒间金形式赋存于毒砂裂隙或晶体边界"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要金属硫化物之一",
+"paragenesis": "与黄铁矿、方铅矿、闪锌矿等共生，少量金可赋存在黄铜矿矿物边界"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Fluid",
+"name_zh": "多来源成矿流体",
+"attributes": {
+"nature": "多来源成矿流体",
+"source": "幔源流体与大气降水混合（多来源特征）"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "金矿石Au元素含量及相关性",
+"attributes": {
+"element": "Au",
+"value_ppm": "0～51.6（ppm），平均6.22（ppm）",
+"anomaly_pattern": "Au与As、Cu、Pb呈正相关关系"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔尔真阔腊金矿床位于萨吾尔成矿带东段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "安山岩为阔尔真阔腊金矿床的赋矿围岩"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "矿区赋矿围岩安山岩为下石炭世黑山头组火山岩组合的重要组成"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "矿区近东西向断裂及其次级断裂与其他断裂叠加，控制区内矿化类型及矿体分布"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "矿区火山机构环状、放射状断裂发育，并与近东西向断裂叠加，共同控制矿化类型及矿体分布"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "阔尔真阔腊金矿床围岩蚀变发育，深部至浅部依次出现钾硅酸盐化等蚀变"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "阔尔真阔腊金矿床围岩蚀变发育，深部至浅部依次出现青磐岩化等蚀变"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "阔尔真阔腊金矿床围岩蚀变发育，深部至浅部依次出现石英绢云母化等蚀变"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "阔尔真阔腊金矿床围岩蚀变发育，深部至浅部依次出现黏土化等蚀变"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "阔尔真阔腊金矿床中主要的含金矿物为银金矿"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "阔尔真阔腊金矿床主要载金矿物为黄铁矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "阔尔真阔腊金矿床中毒砂为重要载金矿物（次于黄铁矿）"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "阔尔真阔腊金矿床的主要金属硫化物之一为黄铜矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "对应成矿流体为",
+"description": "前人研究认为阔尔真阔腊金矿床成矿流体具有多来源特征，幔源流体与大气降水混合是金沉淀的重要因素之一"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "阔尔真阔腊金矿床金矿石中Au含量为0～51.6 ppm（平均6.22 ppm），且Au与As、Cu、Pb呈正相关关系"
+}
+]
+}

@@ -1,0 +1,384 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0048",
+"title": "新疆东准噶尔南明水东金矿区金矿地质特征及成因研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿床",
+"attributes": {
+"name": "南明水金矿床",
+"location": "位于新疆东准噶尔南明水东金矿区，达尔布特—卡拉麦里金成矿带之莫钦乌拉—卡拉麦里成矿带东段",
+"tectonic_position": "处于苏吉泉—清水大断裂与卡拉麦里深断裂所夹持的卡拉麦里强应变构造带内，隶属东准噶尔卡拉麦里金矿带东部",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "产于下石炭统南明水组内，具金高背景值的南明水组火山岩、火山碎屑岩和蛇绿岩块提供丰富成矿物质；矿床、矿脉、矿体的产出受卡拉麦里强应变构造带中韧—脆性剪切变形控制，NWW向、NW向主干断裂为主要控岩控矿构造，与主构造有一定交角的次级破碎带、次级断裂（相交或平行）、背斜轴部虚脱部、层间裂隙及羽状裂隙等为主要容矿构造，矿体沿羽状、雁列式脆性剪裂隙呈细脉、网脉状斜列式排列，赋存于网状强应变带以及夹于其间的菱块状弱应变域中",
+"age_ma": "华力西晚期（晚石炭世）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔造山带",
+"attributes": {
+"name": "东准噶尔造山带",
+"level": "造山带",
+"tectonic_setting": "位于新疆北部造山带东北部，属中亚造山带的一部分，为南明水东金矿床所在的大区域构造单元"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "卡拉麦里金矿带",
+"attributes": {
+"name": "卡拉麦里金矿带",
+"level": "金矿带",
+"tectonic_setting": "位于东准噶尔造山带内的金成矿带，南明水东金矿床位于其东部，为新近发现的一个金矿床"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "达尔布特—卡拉麦里金成矿带",
+"attributes": {
+"name": "达尔布特—卡拉麦里金成矿带",
+"level": "Ⅲ级成矿带",
+"tectonic_setting": "东准噶尔地区的重要金成矿带，莫钦乌拉—卡拉麦里成矿带为其Ⅳ级成矿带分支"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Region",
+"name_zh": "莫钦乌拉—卡拉麦里成矿带",
+"attributes": {
+"name": "莫钦乌拉—卡拉麦里成矿带",
+"level": "Ⅳ级成矿带",
+"tectonic_setting": "达尔布特—卡拉麦里金成矿带中的Ⅳ级成矿带，南明水东金矿床位于其东段"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统南明水组",
+"attributes": {
+"name": "下石炭统南明水组",
+"age": "下石炭统",
+"dominant_lithology": "以火山岩和火山碎屑岩为主，具金元素高背景值",
+"lithology_notes": "为南明水东金矿床的主要赋矿地层，高背景值南明水岩组的火山岩、火山碎屑岩和蛇绿岩块共同构成重要矿源层"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "南明水组破碎蚀变岩夹石英脉围岩单元",
+"attributes": {
+"name": "南明水组破碎蚀变岩夹石英脉围岩单元"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "苏吉泉—清水大断裂",
+"attributes": {
+"name": "苏吉泉—清水大断裂",
+"structure_type": "大断裂",
+"orientation": "总体近东西向展布",
+"scale": "区域性深大断裂构造，为细长构造带的南界之一",
+"ore_control_role": "与卡拉麦里深断裂共同夹持卡拉麦里强应变构造带，控制南明水东金矿区及相关金异常的空间展布"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里深断裂",
+"attributes": {
+"name": "卡拉麦里深断裂",
+"structure_type": "深断裂",
+"orientation": "总体NW—NWW向展布",
+"scale": "区域性深大断裂构造，为细长构造带的北界之一",
+"ore_control_role": "与苏吉泉—清水大断裂共同围限卡拉麦里强应变构造带，控制卡拉麦里金矿带的形成和展布"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "卡拉麦里强应变构造带",
+"attributes": {
+"name": "卡拉麦里强应变构造带",
+"structure_type": "构造带",
+"orientation": "整体受NW—NWW向主构造线控制",
+"scale": "位于苏吉泉—清水大断裂与卡拉麦里深断裂之间的细长构造带，次级构造发育，变形强烈",
+"ore_control_role": "控制金矿带及南明水东金矿床的分布，带内地层相对简单、构造发育、深成侵入岩及蛇绿岩带广泛出露，为成矿提供通道与空间"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "NW—NWW向主干断裂",
+"attributes": {
+"name": "NW—NWW向主干断裂",
+"structure_type": "主干断裂",
+"orientation": "NW向与NWW向",
+"scale": "贯穿卡拉麦里强应变构造带的主干断裂系统",
+"ore_control_role": "为主要控岩和控矿构造，控制矿化蚀变带的形成与展布，是金矿体形成的一级构造背景"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "次级破碎带及次级断裂",
+"attributes": {
+"name": "次级破碎带及次级断裂",
+"structure_type": "次级断裂带",
+"orientation": "与主构造线有一定交角，可相交或大致平行",
+"scale": "发育于卡拉麦里强应变构造带中的多级破碎带与次级断裂",
+"ore_control_role": "为主要容矿构造，矿体多赋存于上述次级破碎带、次级断裂及其交汇部位，是成矿物质富集沉淀的有利空间"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Structure",
+"name_zh": "羽状裂隙及雁列式脆性剪裂隙",
+"attributes": {
+"name": "羽状裂隙及雁列式脆性剪裂隙",
+"structure_type": "脆性剪裂隙系统",
+"orientation": "总体受NW—NWW向主构造线控制，为网状、斜列式展布",
+"scale": "发育于脆—韧性剪切带中的细小裂隙和雁列式剪裂隙",
+"ore_control_role": "矿体在这些裂隙中呈细脉、网脉状斜列式排列，是金矿赋存的直接控制构造"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "破碎蚀变岩及低绿片岩相变质蚀变组合",
+"attributes": {
+"name": "破碎蚀变岩及低绿片岩相变质蚀变组合",
+"alteration_minerals": "白云母、绢云母、更长石、绿泥石、黝帘石、黑云母、绿帘石、阳起石等变质与蚀变矿物",
+"intensity": "区内岩层普遍遭受区域变质作用，变质程度为低绿片岩相；碎裂岩化蚀变带内岩石破碎蚀变强烈，为破碎蚀变岩夹石英脉型矿石的主要围岩蚀变特征"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物及载金矿物之一",
+"paragenesis": "矿石类型为破碎蚀变岩夹石英脉型，成矿阶段表现为石英—黄铁矿、石英—毒砂、石英—黄铁矿—毒砂三个阶段，石英脉中常见赋存黄铁矿、毒砂及金"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要含金硫化物及金的载体矿物",
+"paragenesis": "成矿序列中经历石英—黄铁矿和石英—黄铁矿—毒砂阶段，与石英及毒砂共生，是南明水东金矿床重要的含金硫化物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要含金砷硫化物矿物",
+"paragenesis": "成矿过程中经历石英—毒砂和石英—黄铁矿—毒砂阶段，与黄铁矿、石英共生，是金的主要载体之一"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Fluid",
+"name_zh": "南明水东金矿床变质热液成矿流体",
+"attributes": {
+"nature": "中、低温变质热液成矿流体，多阶段、多旋迴性的热液演化体系",
+"source": "区域构造运动和华力西期构造—岩浆活动过程中，矿物与岩石脱水形成的大量变质热液构成成矿流体主体，并在强应变构造带中运移和富集沉淀",
+"temperature_C_min": "",
+"temperature_C_max": "",
+"pressure_MPa_min": "",
+"pressure_MPa_max": "",
+"salinity_wtNaCl_min": "",
+"salinity_wtNaCl_max": "",
+"delta_fO2_buffer_min": "",
+"delta_fO2_buffer_max": "",
+"fO2_buffer": ""
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geophysics",
+"name_zh": "南明水东金矿床激电与电阻率异常",
+"attributes": {
+"anomaly_type": "破碎蚀变岩及矿体低阻中高极化异常，石英脉中低阻中高极化异常，围岩低极化中高阻异常",
+"amplitude": "破碎蚀变岩及矿体视电阻率约47～134Ω·m，视极化率约0.81%～1.21%；石英脉视电阻率约199～354Ω·m，视极化率约1.35%～2.56%；围岩南明水组凝灰岩视电阻率约440～848Ω·m，视极化率约0.64%～0.99%",
+"spatial_pattern": "矿体赋存在碎裂岩化蚀变带中，在激电联剖曲线上碎裂蚀变带表现为低阻正交点、极化率反交点；石英脉沿构造破碎带呈中低阻中高极化条带状，围岩为中高阻低极化背景"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Geochem",
+"name_zh": "AR-39号Au-Ag-Pb-As-F-Hg组合异常",
+"attributes": {
+"element": "Au、Ag、Pb、As、F、Hg",
+"value_ppm": "金元素异常值较高，Au异常等级高，伴随Ag、Pb、As、F、Hg等多元素组合异常，均处于金高背景值地层之中",
+"anomaly_pattern": "位于苏吉泉—清水大断裂和卡拉麦里深大断裂夹持的细长区域内，红柳沟—南明水金矿点及金异常集中区AR-39号异常呈椭圆状、规模较大，金异常浓集中心明显，Au、As异常套合好，NW向线性构造控矿特征明显，是寻找金盲矿体的有利地球化学异常"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "南明水东金矿床处于新疆北部造山带东北的东准噶尔造山带内，属中亚造山带的一部分"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "南明水东金矿床位于东准噶尔卡拉麦里金矿带的东部，是该金矿带中新近发现的一个金矿床"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "南明水东金矿床隶属于新疆东准噶尔达尔布特—卡拉麦里金成矿带这一Ⅲ级成矿带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "隶属于",
+"description": "南明水东金矿床产于达尔布特—卡拉麦里金成矿带之莫钦乌拉—卡拉麦里成矿带东段"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "南明水东金矿床矿石类型为破碎蚀变岩夹石英脉型，矿体赋存在下石炭统南明水组内的破碎蚀变岩及石英脉围岩单元中"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "南明水组破碎蚀变岩夹石英脉围岩单元在地层上属于下石炭统南明水组"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "南明水东金矿区位于苏吉泉—清水大断裂与卡拉麦里深断裂之间，该大断裂为矿区的南界构造之一，对矿床空间位置具有重要控制作用"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "卡拉麦里深断裂为矿区北界深大断裂，与苏吉泉—清水大断裂共同围限卡拉麦里强应变构造带，控制南明水东金矿床所在的构造位置"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "南明水东金矿床处于卡拉麦里强应变构造带内，该构造带控制了金矿带及矿床的分布，是金矿成矿系统的总体控矿构造"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "NWW向、NW向主干断裂是南明水东金矿床的主要控岩控矿构造，控制矿化蚀变带的形成和展布"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "卡拉麦里强应变构造带上与主构造有一定交角的次级破碎带和次级断裂是南明水东金矿床的主要容矿构造，金矿体多赋存于这些构造带中"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "受…控制",
+"description": "矿体成因与韧—脆性剪切变形密切相关，金矿体受羽状裂隙及雁列式脆性剪裂隙控制，呈细脉、网脉状斜列式排列"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "南明水东金矿床所在区域普遍遭受低绿片岩相区域变质作用，矿区发育破碎蚀变岩及以白云母、绢云母、绿泥石等为特征的变质—蚀变组合，为破碎蚀变岩夹石英脉型矿石的主要围岩蚀变特征"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "脉石矿物包括",
+"description": "南明水东金矿床矿石类型为破碎蚀变岩夹石英脉型，石英为主要脉石矿物，并在石英—黄铁矿、石英—毒砂及石英—黄铁矿—毒砂等成矿阶段中充填裂隙"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铁矿为南明水东金矿床中主要含金硫化物矿物之一，在石英—黄铁矿及石英—黄铁矿—毒砂阶段中与石英、毒砂共生，载存部分金"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "毒砂为南明水东金矿床中重要的含金砷硫化物矿物，在石英—毒砂及石英—黄铁矿—毒砂阶段中与石英、黄铁矿共生，是金的主要载体之一"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "对应成矿流体为",
+"description": "南明水东金矿床的成矿流体为中、低温变质热液，主体来源于区域构造运动和华力西期构造—岩浆活动过程中矿物与岩石脱水形成的大量变质热液"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "显示",
+"description": "破碎蚀变岩及矿体赋存在碎裂岩化蚀变带中，表现为低阻中高极化；石英脉表现为中低阻中高极化；围岩南明水组凝灰岩表现为低极化中高阻，这一激电与电阻率组合异常是南明水东金矿床的重要地球物理响应特征"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "显示",
+"description": "南明水东金矿区位于苏吉泉—清水大断裂和卡拉麦里深大断裂夹持的细长区域内，红柳沟—南明水金矿点及金异常集中区的AR-39号Au-Ag-Pb-As-F-Hg组合异常金浓集中心明显，规模较大，Au、As异常套合好且受NW向线性构造控制，是寻找南明水东一带金盲矿体的有利地球化学异常"
+}
+]
+}

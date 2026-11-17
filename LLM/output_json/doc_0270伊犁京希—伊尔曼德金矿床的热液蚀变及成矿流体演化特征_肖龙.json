@@ -1,0 +1,325 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0270",
+"title": "伊犁京希—伊尔曼德金矿床的热液蚀变及成矿流体演化特征_肖龙",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "京希—伊尔曼德金矿床",
+"attributes": {
+"name": "京希—伊尔曼德金矿床",
+"location": "新疆伊犁县吐拉苏地区",
+"tectonic_position": "西北天山早古生代岛弧带内吐拉苏早石炭纪火山弧间断陷盆地西北缘",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿体主要受近东西向构造控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "吐拉苏地区",
+"attributes": {
+"name": "吐拉苏地区",
+"level": "地区",
+"tectonic_setting": "西北天山早古生代岛弧带内的吐拉苏早石炭纪火山弧间断陷盆地西北缘"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "吐拉苏早石炭纪火山弧间断陷盆地",
+"attributes": {
+"name": "吐拉苏早石炭纪火山弧间断陷盆地",
+"level": "断陷盆地",
+"tectonic_setting": "西北天山早古生代岛弧带内的火山弧间断陷盆地"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "西北天山早古生代岛弧带",
+"attributes": {
+"name": "西北天山早古生代岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "早古生代岛弧构造背景"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "上奥陶统灰岩",
+"attributes": {
+"name": "上奥陶统灰岩",
+"age": "上奥陶统",
+"dominant_lithology": "灰岩",
+"lithology_notes": "矿区出露地层之一，为上奥陶统灰岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组",
+"attributes": {
+"name": "下石炭统大哈拉军山组",
+"age": "下石炭统",
+"dominant_lithology": "砾岩、砂岩、熔结凝灰岩、英安岩、凝灰质砂岩",
+"lithology_notes": "含矿层为大哈拉军山组下部的砾岩和砂岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "大哈拉军山组下部砾岩和砂岩",
+"attributes": {
+"name": "大哈拉军山组下部砾岩和砂岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "近东西向断裂构造",
+"attributes": {
+"name": "近东西向断裂构造",
+"structure_type": "断裂",
+"orientation": "近东西向",
+"scale": "矿区尺度",
+"ore_control_role": "控制矿体展布与产出"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英或玉髓",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "高级泥化",
+"attributes": {
+"name": "高级泥化",
+"alteration_minerals": "地开石—高岭石—石英或玉髓",
+"intensity": "中等至强"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "泥化",
+"attributes": {
+"name": "泥化",
+"alteration_minerals": "蒙脱石—高岭石—伊利石及其他粘土矿物",
+"intensity": "较弱至中等"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金的主要沉淀矿物",
+"paragenesis": "在温度与压力迅速降低条件下与蚀变矿物共同沉淀"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "与硅化及泥化蚀变相关"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石及蚀变矿物（多孔状石英、微晶石英等）",
+"paragenesis": "早期硅化产物并在后期发生重结晶"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Fluid",
+"name_zh": "京希—伊尔曼德成矿流体",
+"attributes": {
+"nature": "酸性—中性低盐度热液（高硫化体系）",
+"source": "岩浆水与大气降水的混合",
+"temperature_C_min": "150",
+"temperature_C_max": "300",
+"salinity_wtNaCl_min": "0.3",
+"salinity_wtNaCl_max": "5.3"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "氢同位素参数",
+"attributes": {
+"system": "氢-氧同位素",
+"parameter_name": "δD（H2O）",
+"value_range": "-92.4‰至-61.3‰"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Isotope",
+"name_zh": "氧同位素参数",
+"attributes": {
+"system": "氢-氧同位素",
+"parameter_name": "δ18O（H2O）",
+"value_range": "1.6‰至3.9‰"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（CDT）",
+"value_range": "-0.08‰至22.94‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "京希—伊尔曼德金矿床位于新疆伊犁县吐拉苏地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "京希—伊尔曼德金矿床位于吐拉苏早石炭纪火山弧间断陷盆地的西北缘"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "京希—伊尔曼德金矿床位于西北天山早古生代岛弧带内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "矿体主要赋存于大哈拉军山组下部的砾岩和砂岩中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "大哈拉军山组下部砾岩和砂岩属于下石炭统大哈拉军山组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "京希—伊尔曼德金矿床矿体主要受近东西向断裂构造控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "京希—伊尔曼德金矿床中心蚀变带以强烈硅化为主"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "京希—伊尔曼德金矿床中间带为高级泥化蚀变带"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "京希—伊尔曼德金矿床外带为以粘土矿物组合为主的泥化蚀变带"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "京希—伊尔曼德金矿床的金主要以自然金形式沉淀"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "京希—伊尔曼德金矿床矿化与黄铁矿等硫化物矿物有关"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "京希—伊尔曼德金矿床硅化作用形成石英（含多孔状石英、微晶石英等）"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "对应成矿流体为",
+"description": "京希—伊尔曼德金矿床对应的成矿流体为酸性—中性低盐度热液（高硫化体系），温度约150—300℃、盐度低且最大约5.3 wt% NaCl当量"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "氢同位素（δD）结果用于约束京希—伊尔曼德成矿流体为岩浆水与大气降水混合"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素（δ18O）结果用于约束京希—伊尔曼德成矿流体为岩浆水与大气降水混合"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E15",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素（δ34S）结果显示黄铁矿与蚀变围岩硫来源相近，用于约束成矿体系中的硫来源"
+}
+]
+}

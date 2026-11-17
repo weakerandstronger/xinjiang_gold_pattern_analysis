@@ -1,0 +1,427 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0093",
+"title": "新疆金龙山金矿床地质特征及其成矿化学特征分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金龙山金矿床",
+"attributes": {
+"name": "金龙山金矿床",
+"location": "新疆金龙山矿区",
+"tectonic_position": "觉罗塔格裂陷槽之雅满苏裂谷",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "韧性剪切带为矿区主要控矿构造；矿区中部两条同向断层附近岩石强烈糜棱岩化并发育硅化、褐铁矿化、黄铁矿化及方铅矿化等"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "雅满苏裂谷",
+"attributes": {
+"name": "雅满苏裂谷",
+"level": "裂谷",
+"tectonic_setting": "觉罗塔格裂陷槽"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统雅满苏组",
+"attributes": {
+"name": "下石炭统雅满苏组",
+"age": "下石炭世",
+"dominant_lithology": "火山碎屑岩、火山熔岩、白云岩、粉砂岩、细砂岩、岩屑砂岩、凝灰岩及条带状灰岩等",
+"lithology_notes": "一、二、三段均有出露；地层倾向335°~350°，倾角50°~73°"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "雅满苏组第一段",
+"attributes": {
+"name": "雅满苏组第一段",
+"age": "下石炭世",
+"dominant_lithology": "中酸性火山碎屑岩夹火山熔岩、白云岩",
+"lithology_notes": "细分岩层包括白云岩、英安岩、英安岩晶屑岩屑凝灰岩、安山岩、凝灰岩、凝灰质砂岩、长石岩屑砂岩、粉砂岩等"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "雅满苏组第二段",
+"attributes": {
+"name": "雅满苏组第二段",
+"age": "下石炭世",
+"dominant_lithology": "灰色粉砂岩、细砂岩",
+"lithology_notes": "夹条带状灰岩、岩屑砂岩、凝灰质砂岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "雅满苏组第三段",
+"attributes": {
+"name": "雅满苏组第三段",
+"age": "下石炭世",
+"dominant_lithology": "岩屑砂岩、长石岩屑砂岩",
+"lithology_notes": "夹中基性火山岩、凝灰岩、凝灰质砂岩、灰岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "浅变质细碎屑岩建造和火山岩建造",
+"attributes": {
+"name": "浅变质细碎屑岩建造和火山岩建造"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "雅满苏组地层围岩",
+"attributes": {
+"name": "雅满苏组地层围岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "韧性剪切带",
+"attributes": {
+"name": "韧性剪切带",
+"structure_type": "韧性剪切带",
+"ore_control_role": "矿区主要控矿构造"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "同向断层（走向约31°）",
+"attributes": {
+"name": "同向断层（走向约31°）",
+"structure_type": "断层",
+"orientation": "走向约31°",
+"scale": "两条同向断层，间距约600m",
+"ore_control_role": "断层附近岩石强烈糜棱岩化并发育多种蚀变矿化"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "褐铁矿化",
+"attributes": {
+"name": "褐铁矿化",
+"alteration_minerals": "褐铁矿"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "褪色化",
+"attributes": {
+"name": "褪色化"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "方铅矿",
+"attributes": {
+"name": "方铅矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "局部石英脉中可见方铅矿化，与硅化、黄铁矿化、褐铁矿化等伴生"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "与黄铁矿化相关，常与硅化、褐铁矿化及方铅矿化共同出现"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "与褐铁矿化相关，常与硅化、黄铁矿化及方铅矿化共同出现"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "非金属矿物",
+"paragenesis": "与硅化及石英脉有关，局部石英脉中可见方铅矿化"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geochem",
+"name_zh": "金（Au）异常",
+"attributes": {
+"element": "Au",
+"value_ppm": "1521.8×10⁻⁹",
+"anomaly_pattern": "异常元素之一；与Pb、As、Ag、W、Mo等原生晕套合较好"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Geochem",
+"name_zh": "砷（As）异常",
+"attributes": {
+"element": "As",
+"value_ppm": "13.7.1×10⁻⁶",
+"anomaly_pattern": "异常元素之一；与Au成矿相关元素原生晕套合较好"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）异常",
+"attributes": {
+"element": "Sb",
+"value_ppm": "大于5396.6×10⁻⁶",
+"anomaly_pattern": "异常元素之一；元素变化系数大于1.5"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Geochem",
+"name_zh": "铜（Cu）异常",
+"attributes": {
+"element": "Cu",
+"value_ppm": "197.2×10⁻⁶",
+"anomaly_pattern": "异常元素之一"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Geochem",
+"name_zh": "钼（Mo）异常",
+"attributes": {
+"element": "Mo",
+"value_ppm": "562.5×10⁻⁶",
+"anomaly_pattern": "异常元素之一；与Au成矿相关元素原生晕套合较好"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Geochem",
+"name_zh": "铅（Pb）异常",
+"attributes": {
+"element": "Pb",
+"value_ppm": "31025×10⁻⁶",
+"anomaly_pattern": "异常元素之一；与Au成矿相关元素原生晕套合较好"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Geochem",
+"name_zh": "锌（Zn）异常",
+"attributes": {
+"element": "Zn",
+"value_ppm": "2042.0×10⁻⁶",
+"anomaly_pattern": "异常元素之一；元素变化系数大于1.5"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金龙山金矿床大地构造处于觉罗塔格裂陷槽之雅满苏裂谷"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "韧性剪切带为金龙山金矿床矿区主要控矿构造"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "矿区中部两条走向约31°的同向断层附近发育糜棱岩化与多期蚀变矿化"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要围岩为",
+"description": "区域沉积建造以浅变质细碎屑岩建造和火山岩建造为主"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "矿区内下石炭统雅满苏组出露较为齐全，可作为矿床围岩地层背景"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "雅满苏组地层围岩属于下石炭统雅满苏组"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "金龙山金矿床东侧断层附近发育硅化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "金龙山金矿床东侧断层附近发育黄铁矿化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "金龙山金矿床东侧断层附近发育褐铁矿化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "伴随有",
+"description": "金龙山金矿床东侧断层附近可见褪色化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "局部石英脉中可见方铅矿化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "地表探槽中矿化反映为黄铁矿化"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "地表探槽中矿化反映为褐铁矿化"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "矿区局部发育石英脉并伴随硅化"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "显示",
+"description": "金龙山金矿床异常元素一般包括Au"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "显示",
+"description": "金龙山金矿床异常元素一般包括As"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "显示",
+"description": "金龙山金矿床异常元素一般包括Sb"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "显示",
+"description": "金龙山金矿床异常元素一般包括Cu"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "显示",
+"description": "金龙山金矿床异常元素一般包括Mo"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "显示",
+"description": "金龙山金矿床异常元素一般包括Pb"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "显示",
+"description": "金龙山金矿床异常元素一般包括Zn"
+}
+]
+}

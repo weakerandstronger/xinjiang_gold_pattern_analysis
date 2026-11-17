@@ -1,0 +1,381 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0299",
+"title": "新疆阿勒泰托库孜巴依-金坝金矿成矿规律与深部找矿预测研究_刘飚",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床（巴依/赛都金矿）",
+"attributes": {
+"name": "托库孜巴依金矿床（巴依/赛都金矿）",
+"location": "新疆阿勒泰地区，阿尔泰造山带南缘西段",
+"tectonic_position": "阿尔泰造山带南缘（额尔齐斯深大断裂附近）",
+"deposit_type": "造山型金矿床",
+"ore_grade": "Ⅰ矿带以1~2 g/t为主",
+"resource_tonnage": "累计探明金储量超过30 t",
+"ore_control_features": "主要受NW315°玛尔卡库里剪切带及其中F9、F10强变形带控制；含金石英脉赋存于断裂带及闪长岩脉/砂岩透镜体裂隙中",
+"age_ma": "约292 Ma（晚二叠世）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "金坝金矿床",
+"attributes": {
+"name": "金坝金矿床",
+"location": "新疆阿勒泰地区，阿尔泰造山带南缘西段",
+"tectonic_position": "阿尔泰造山带南缘（额尔齐斯深大断裂附近）",
+"deposit_type": "造山型金矿床",
+"ore_grade": "平均品位2~10 g/t（石英脉型矿体最高品位80.23 g/t）",
+"resource_tonnage": "圈定靶区钻孔验证增加金资源量12 t以上，预计远景资源量超50 t",
+"ore_control_features": "主要受SN向基底断裂控制；矿体主要发育在走向NW335°的闪长岩脉带中，成矿流体沿SN向构造上升并交代闪长岩脉及两侧花岗岩",
+"age_ma": "晚二叠世金成矿系统（与区域金成矿时间一致）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿尔泰造山带南缘西段",
+"attributes": {
+"name": "阿尔泰造山带南缘西段",
+"level": "造山带南缘",
+"tectonic_setting": "中亚造山带西段，位于西伯利亚板块、准噶尔板块和哈萨克斯坦板块交汇部位；南缘为额尔齐斯深大断裂（NW向），玛尔卡库里构造带为重要分界断裂并发育NW向韧性剪切带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "玛尔卡库里剪切带",
+"attributes": {
+"name": "玛尔卡库里剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "NW向（巴依矿区控矿方向约315°）",
+"scale": "区域级",
+"ore_control_role": "巴依矿区主要控矿构造体系，发育强韧性变形带并控制矿带展布"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "F9断裂",
+"attributes": {
+"name": "F9断裂",
+"structure_type": "断裂/强变形带",
+"orientation": "NW向（与巴依矿带走向一致）",
+"scale": "矿区级",
+"ore_control_role": "控矿断裂，含金石英脉发育并与导矿-容矿作用相关，可向深部稳定延伸"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "F10断裂",
+"attributes": {
+"name": "F10断裂",
+"structure_type": "断裂/强变形带",
+"orientation": "NW向（与巴依矿带走向一致）",
+"scale": "矿区级",
+"ore_control_role": "控矿断裂，含金石英脉与矿脉（如26号脉、12号脉）主要赋存其中并向深部延伸"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "SN向基底断裂",
+"attributes": {
+"name": "SN向基底断裂",
+"structure_type": "基底断裂",
+"orientation": "SN向",
+"scale": "矿区级",
+"ore_control_role": "金坝矿区主要导矿构造，成矿流体沿该构造由深部上升"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长岩脉及其裂隙带（局部与花岗岩接触带）",
+"attributes": {
+"name": "闪长岩脉及其裂隙带（局部与花岗岩接触带）"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "变砂岩透镜体裂隙（石英砂岩/变砂岩）",
+"attributes": {
+"name": "变砂岩透镜体裂隙（石英砂岩/变砂岩）"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统阿勒泰组上亚组",
+"attributes": {
+"name": "中泥盆统阿勒泰组上亚组",
+"age": "中泥盆世",
+"dominant_lithology": "绢云母千枚岩、变砂岩（局部含变长石石英砂岩、绢云石英千枚岩、绿泥石英千枚岩等）",
+"lithology_notes": "巴依矿区与金坝矿区重要含矿地层之一；金坝矿区出露中泥盆统阿勒泰组上亚组第二岩性段（D2a2）等"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强（局部围岩两侧强硅化）"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "普遍发育"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绿帘石化",
+"attributes": {
+"name": "绿帘石化",
+"alteration_minerals": "绿帘石",
+"intensity": "发育（与金矿形成关系密切）"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物/主要载金硫化物之一",
+"paragenesis": "与石英脉（及方解石等）共生，金常赋存于其裂隙或包裹体中"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金的主要赋存形式之一",
+"paragenesis": "多赋存于黄铁矿或石英裂隙中，少量包裹在黄铁矿中"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Fluid",
+"name_zh": "巴依成矿流体",
+"attributes": {
+"nature": "中低温、中低盐度、富CO2流体",
+"source": "前人研究认为似乎与岩浆热液流体无关"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Fluid",
+"name_zh": "金坝成矿流体",
+"attributes": {
+"nature": "热液交代成矿流体（形成蚀变闪长岩/蚀变花岗岩型矿体，深部预测石英脉型矿体）",
+"source": "成矿流体沿SN向基底断裂等深部通道上升"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Geophysics",
+"name_zh": "巴依广域电磁电阻率异常",
+"attributes": {
+"anomaly_type": "广域电磁电阻率异常",
+"amplitude": "F9-F10之间低阻（高极化）异常，整体表现浅部低阻深部高阻",
+"spatial_pattern": "低阻带位于F9与F10断层之间并向深部稳定延伸（指示隐伏含金闪长岩脉及深部找矿空间）"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geophysics",
+"name_zh": "金坝广域电磁电阻率异常",
+"attributes": {
+"anomaly_type": "广域电磁电阻率异常",
+"amplitude": "浅部高阻深部低阻；高阻体中出现多组带状低阻体（走向约335°）",
+"spatial_pattern": "推断多组近平行断裂/低阻带控制矿带；并识别SN向构造破碎带作为深部通道及双层结构特征"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿床位于阿尔泰造山带南缘西段。"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "金坝金矿床位于阿尔泰造山带南缘西段，与托库孜巴依矿区相邻。"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "巴依矿区主要受走向NW315°的玛尔卡库里剪切带控制。"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "巴依Ⅱ矿带33号脉主要赋存在F9断裂中，且F9与F10之间低阻带反映断裂与含金闪长岩脉综合效应并可深延。 "
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "巴依Ⅲ矿带26号脉与Ⅰ矿带12号脉主要赋存在F10断裂中，并与F9、F10控矿体系相关。"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "金坝矿区主要受SN向基底断裂控制，成矿流体从基底断裂上来并形成北、中、南矿带。"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "巴依矿区含金石英脉矿体主要充填在闪长岩脉的NE向与NW向裂隙中。"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "赋存于",
+"description": "巴依Ⅰ矿带石英脉矿体充填在砂岩透镜体裂隙中，砂岩两侧可发生强硅化并伴随黄铁矿化。 "
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "金坝矿体主要发育在闪长岩脉中，尤其在闪长岩脉与花岗岩接触带，并可出现花岗岩中大规模金矿化。"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E10",
+"relation_label_zh": "属于",
+"description": "变砂岩透镜体作为围岩组成发育于泥盆系阿勒泰组上亚组地层中。"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "巴依矿区不同矿带普遍发育硅化，砂岩两侧可见强硅化形成厚大矿体。"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "巴依Ⅲ矿带以黄铁矿化等热液蚀变为主，Ⅰ矿带也可见黄铁矿化与硅化组合。"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "金坝蚀变闪长岩与蚀变花岗岩型金矿体发育黄铁矿化等蚀变，金矿形成与黄铁矿化关系紧密。"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E13",
+"relation_label_zh": "伴随有",
+"description": "金坝矿区发育绿帘石化等蚀变，且金矿形成往往与绿帘石化紧密相关。"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "巴依Ⅲ矿带石英脉中金属矿物主要包含黄铁矿等，黄铁矿为重要金属矿物。"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要金矿物为",
+"description": "巴依矿区金主要以自然金等赋存在黄铁矿或石英裂隙中，少量包裹在黄铁矿中。"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "金坝蚀变岩型金矿体发育黄铁矿化，指示黄铁矿与矿化密切相关。"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "对应成矿流体为",
+"description": "前人研究表明巴依Ⅰ与Ⅲ成矿流体为中低温、中低盐度、富CO2流体特征。"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E17",
+"relation_label_zh": "对应成矿流体为",
+"description": "金坝成矿流体沿SN向构造上升进入NW335°交代闪长岩脉与两侧花岗岩形成蚀变岩型矿体。"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "显示",
+"description": "巴依广域电磁剖面显示F9、F10断层及其间含金闪长岩脉形成低阻带并可稳定发育至约1300 m。"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E19",
+"relation_label_zh": "显示",
+"description": "金坝广域电磁剖面显示浅部高阻深部低阻；高阻异常体中出现走向335°的带状低阻体并识别SN向断层破碎带作为深部通道。 "
+}
+]
+}

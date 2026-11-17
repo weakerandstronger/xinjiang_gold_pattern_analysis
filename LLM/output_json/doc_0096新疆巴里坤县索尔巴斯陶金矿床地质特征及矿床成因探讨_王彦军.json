@@ -1,0 +1,196 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0096",
+"title": "新疆巴里坤县索尔巴斯陶金矿床地质特征及矿床成因探讨",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "索尔巴斯陶金矿床",
+"attributes": {
+"name": "索尔巴斯陶金矿床",
+"location": "新疆巴里坤县，博格达晚古生代裂陷盆地中",
+"tectonic_position": "博格达晚古生代弧后裂陷盆地内，石炭纪火山盆地边缘",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "受海相火山机构、短轴背斜（火山穹窿）及断裂构造控制",
+"age_ma": "268±8.3Ma（中二叠世）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "博格达晚古生代裂陷盆地",
+"attributes": {
+"name": "博格达晚古生代裂陷盆地",
+"level": "裂陷盆地",
+"tectonic_setting": "晚古生代弧后裂陷盆地"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "石炭纪火山盆地",
+"attributes": {
+"name": "石炭纪火山盆地",
+"level": "火山盆地",
+"tectonic_setting": "石炭纪海相火山机构发育的火山盆地"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "海相火山机构",
+"attributes": {
+"name": "海相火山机构",
+"structure_type": "火山机构",
+"ore_control_role": "控制矿床成矿与矿体分布"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "短轴背斜（火山穹窿）",
+"attributes": {
+"name": "短轴背斜（火山穹窿）",
+"structure_type": "短轴背斜",
+"ore_control_role": "控矿构造"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "断裂构造",
+"attributes": {
+"name": "断裂构造",
+"structure_type": "断裂",
+"ore_control_role": "控制矿床成矿与矿体产出，并为大气降水渗入提供通道"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Fluid",
+"name_zh": "索尔巴斯陶成矿流体",
+"attributes": {
+"nature": "成矿温度低、成矿深度浅、含盐度小；冰点温度-0.2～-6.5℃；完全均一温度集中在129～23℃；流体密度0.86～0.98g/cm³；成矿深度小于1200m",
+"source": "以大气水与岩浆水混和为主",
+"salinity_wtNaCl_min": "0.35",
+"salinity_wtNaCl_max": "9.86"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Isotope",
+"name_zh": "氢同位素参数",
+"attributes": {
+"system": "氢同位素",
+"parameter_name": "δD",
+"value_range": "-80‰"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Isotope",
+"name_zh": "氧同位素参数",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O",
+"value_range": "12.8‰"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "含金石英脉与次生石英包裹体的主要载体矿物"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "IntrusiveBody",
+"name_zh": "辉长岩-辉绿岩类岩体",
+"attributes": {
+"name": "辉长岩-辉绿岩类岩体",
+"rock_type": "辉长岩、辉绿岩类",
+"age": "中二叠世",
+"relationship_to_ore": "岩浆活动期与成矿年龄近一致，可能为成矿热液提供热源"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "巴里坤索尔巴斯陶金（银）矿床位于博格达晚古生代裂陷盆地中"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "发育于",
+"description": "巴里坤索尔巴斯陶金（银）矿床发育于石炭纪火山盆地边缘"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "巴里坤索尔巴斯陶金（银）矿床受海相火山机构控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "巴里坤索尔巴斯陶金（银）矿床受短轴背斜（火山穹窿）控矿"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "巴里坤索尔巴斯陶金（银）矿床受断裂构造控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "对应成矿流体为",
+"description": "巴里坤索尔巴斯陶金（银）矿床对应成矿流体为低温、浅成、低盐度流体，来源以大气水与岩浆水混和为主"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "氢同位素参数显示成矿热液以大气水与岩浆水的混和为主"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E7",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素参数显示成矿热液以大气水与岩浆水的混和为主"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "巴里坤索尔巴斯陶金（银）矿床发育含金石英脉与次生石英包裹体，石英为主要载体矿物"
+}
+]
+}

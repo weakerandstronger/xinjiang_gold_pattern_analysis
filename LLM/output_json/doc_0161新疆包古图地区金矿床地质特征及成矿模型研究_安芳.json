@@ -1,0 +1,623 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0161",
+"title": "新疆包古图地区金矿床地质特征及成矿模型研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Region",
+"name_zh": "包古图地区",
+"attributes": {
+"name": "包古图地区",
+"level": "矿集区",
+"tectonic_setting": "新疆西准噶尔重要金矿集区之一"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆西准噶尔",
+"attributes": {
+"name": "新疆西准噶尔",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Deposit",
+"name_zh": "阔个沙也金矿床",
+"attributes": {
+"name": "阔个沙也金矿床",
+"location": "包古图地区",
+"ore_control_features": "产于部分中酸性斑岩体周边地层中，受NE向断裂控制，与矿区密集分布的中酸性脉岩伴生"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Deposit",
+"name_zh": "包古图金矿床",
+"attributes": {
+"name": "包古图金矿床",
+"location": "包古图地区",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "产于中酸性斑岩与下石炭统火山—沉积地层的接触带中"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统包古图组",
+"attributes": {
+"name": "下石炭统包古图组",
+"age": "下石炭统",
+"dominant_lithology": "凝灰质砂岩、凝灰岩",
+"lithology_notes": "石英脉型金矿化的赋矿围岩为包古图组凝灰质砂岩、凝灰岩等"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统火山—沉积地层",
+"attributes": {
+"name": "下石炭统火山—沉积地层",
+"age": "下石炭统",
+"dominant_lithology": "火山—沉积岩",
+"lithology_notes": "与中酸性斑岩形成接触带并发育石英—硫化物脉型金矿化"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "包古图组凝灰质砂岩—凝灰岩围岩",
+"attributes": {
+"name": "包古图组凝灰质砂岩—凝灰岩围岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "中酸性斑岩与下石炭统火山—沉积地层接触带",
+"attributes": {
+"name": "中酸性斑岩与下石炭统火山—沉积地层接触带"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "中酸性斑岩体",
+"attributes": {
+"name": "中酸性斑岩体",
+"rock_type": "中酸性斑岩",
+"relationship_to_ore": "区内金矿化作用主要与中酸性斑岩侵位有关；岩浆热液在岩体与围岩接触带形成高温石英—硫化物脉型矿化，向外围迁移形成石英脉型矿化"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "IntrusiveBody",
+"name_zh": "中酸性脉岩",
+"attributes": {
+"name": "中酸性脉岩",
+"rock_type": "中酸性脉岩",
+"relationship_to_ore": "与石英脉型金矿化伴生，含矿热液随脉岩向外围迁移并在断裂中沉淀成矿"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "NE向断裂",
+"attributes": {
+"name": "NE向断裂",
+"structure_type": "断裂",
+"orientation": "NE向",
+"scale": "区内断裂",
+"ore_control_role": "控制石英脉型金矿化及矿体展布"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "NE—NNE向次级断裂",
+"attributes": {
+"name": "NE—NNE向次级断裂",
+"structure_type": "次级断裂",
+"orientation": "NE—NNE向",
+"scale": "次级",
+"ore_control_role": "与脉岩共同作为含矿热液迁移通道，控制岩体外围石英脉型或石英网脉型矿体的平行展布"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Structure",
+"name_zh": "含矿断裂",
+"attributes": {
+"name": "含矿断裂",
+"structure_type": "断裂",
+"ore_control_role": "与岩体连通，控制接触带石英—硫化物脉型矿体产出"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "为主"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "为主"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "为主"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "毒砂化",
+"attributes": {
+"name": "毒砂化",
+"alteration_minerals": "毒砂",
+"intensity": "为主"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "为主"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "为石英脉型与石英—硫化物脉型矿化的主要矿物组合成员"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "为石英脉型与石英—硫化物脉型矿化的主要矿物组合成员"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "自然砷",
+"attributes": {
+"name": "自然砷",
+"role_in_ore": "石英脉型矿化的主要矿物之一",
+"paragenesis": "为石英脉型矿化主要矿物组合成员，可形成自然砷—石英脉型或石英网脉型矿体"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "辉锑矿",
+"attributes": {
+"name": "辉锑矿",
+"role_in_ore": "石英脉型矿化的主要矿物之一",
+"paragenesis": "为石英脉型矿化主要矿物组合成员，可形成辉锑矿—石英脉型矿体"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要含金矿物",
+"paragenesis": "见于石英脉型与石英—硫化物脉型矿化的主要矿物组合中"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "含金矿物之一",
+"paragenesis": "为石英脉型矿化主要矿物组合成员"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Mineral",
+"name_zh": "自然铋",
+"attributes": {
+"name": "自然铋",
+"role_in_ore": "石英—硫化物脉型矿化的特征矿物之一",
+"paragenesis": "为石英—硫化物脉型矿化主要矿物组合成员"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Mineral",
+"name_zh": "辉铋矿",
+"attributes": {
+"name": "辉铋矿",
+"role_in_ore": "石英—硫化物脉型矿化的特征矿物之一",
+"paragenesis": "为石英—硫化物脉型矿化主要矿物组合成员"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "石英—硫化物脉型矿化的共生矿物之一",
+"paragenesis": "为石英—硫化物脉型矿化主要矿物组合成员"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Fluid",
+"name_zh": "斑岩系统岩浆热液",
+"attributes": {
+"nature": "岩浆热液",
+"source": "斑岩岩浆系统演化分异出的含金岩浆热液，向外围迁移并逐渐与大气水混合"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Geochem",
+"name_zh": "金（Au）元素组合",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "石英脉型矿化元素组合为金、砷、锑；接触带石英—硫化物脉型矿化元素组合为金、砷、铋"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "Geochem",
+"name_zh": "砷（As）异常",
+"attributes": {
+"element": "砷（As）",
+"anomaly_pattern": "石英脉型矿化与砷富集有关，并用于圈定找矿靶区的化探异常指标之一"
+}
+},
+{
+"entity_local_id": "E31",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）异常",
+"attributes": {
+"element": "锑（Sb）",
+"anomaly_pattern": "石英脉型矿化元素组合为金、砷、锑，并用于圈定找矿靶区的化探异常指标之一"
+}
+},
+{
+"entity_local_id": "E32",
+"entity_type": "Geochem",
+"name_zh": "铋（Bi）异常",
+"attributes": {
+"element": "铋（Bi）",
+"anomaly_pattern": "接触带石英—硫化物脉型矿化元素组合为金、砷、铋，并用于圈定找矿靶区的化探异常指标之一"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "阔个沙也金矿床位于包古图地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔个沙也金矿床位于新疆西准噶尔"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "阔个沙也金矿床赋矿围岩为包古图组凝灰质砂岩、凝灰岩等"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E7",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "包古图组凝灰质砂岩—凝灰岩围岩属于下石炭统包古图组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "阔个沙也金矿床受NE向断裂控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "含矿热液随中酸性脉岩沿NE—NNE向次级断裂向外围迁移并在次级断裂中沉淀形成石英脉型矿体"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "阔个沙也金矿床围岩蚀变以硅化为主"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "阔个沙也金矿床围岩蚀变以绢云母化为主"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "阔个沙也金矿床围岩蚀变以黄铁矿化为主"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要蚀变为",
+"description": "阔个沙也金矿床围岩蚀变以毒砂化为主"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要蚀变为",
+"description": "阔个沙也金矿床围岩蚀变以碳酸盐化为主"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E19",
+"relation_label_zh": "主要金矿物为",
+"description": "阔个沙也金矿床主要矿物组合包括黄铁矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "阔个沙也金矿床主要矿物组合包括毒砂"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "阔个沙也金矿床主要矿物组合包括自然砷"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "阔个沙也金矿床主要矿物组合包括辉锑矿"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E23",
+"relation_label_zh": "主要金矿物为",
+"description": "阔个沙也金矿床主要矿物组合包括自然金"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "阔个沙也金矿床主要矿物组合包括银金矿"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E28",
+"relation_label_zh": "对应成矿流体为",
+"description": "阔个沙也金矿床为斑岩岩浆系统热液演化晚期的产物，外围石英脉型矿化与岩浆热液向外迁移并混合大气水有关"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E29",
+"relation_label_zh": "显示",
+"description": "阔个沙也金矿床矿化元素组合以金、砷、锑为主"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E30",
+"relation_label_zh": "显示",
+"description": "阔个沙也金矿床矿化与砷富集有关，并以砷异常作为找矿指示"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E3",
+"to_entity_local_id": "E31",
+"relation_label_zh": "显示",
+"description": "阔个沙也金矿床矿化与锑富集有关，并以锑异常作为找矿指示"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E1",
+"relation_label_zh": "位于",
+"description": "包古图金矿XI号点位于包古图地区"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "包古图金矿XI号点位于新疆西准噶尔"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E8",
+"relation_label_zh": "赋存于",
+"description": "包古图金矿XI号点矿化产于中酸性斑岩与下石炭统火山—沉积地层接触带"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "中酸性斑岩与下石炭统火山—沉积地层接触带包含下石炭统火山—沉积地层"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E13",
+"relation_label_zh": "受…控制",
+"description": "包古图金矿XI号点的含矿断裂与岩体连通并控制接触带石英—硫化物脉型矿体产出"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI号点矿物组合包括黄铁矿"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI号点矿物组合包括毒砂"
+},
+{
+"relation_local_id": "R29",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E25",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI号点矿物组合包括自然铋"
+},
+{
+"relation_local_id": "R30",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E26",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI号点矿物组合包括辉铋矿"
+},
+{
+"relation_local_id": "R31",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E27",
+"relation_label_zh": "共生矿物包括",
+"description": "包古图金矿XI号点矿物组合包括黄铜矿"
+},
+{
+"relation_local_id": "R32",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E23",
+"relation_label_zh": "主要金矿物为",
+"description": "包古图金矿XI号点矿物组合包括自然金"
+},
+{
+"relation_local_id": "R33",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E28",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "包古图金矿XI号点为斑岩系统岩浆热液演化较早期的产物，成矿与斑岩系统岩浆热液有关"
+},
+{
+"relation_local_id": "R34",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E29",
+"relation_label_zh": "显示",
+"description": "包古图金矿XI号点矿化元素组合以金、砷、铋为主"
+},
+{
+"relation_local_id": "R35",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E30",
+"relation_label_zh": "显示",
+"description": "包古图金矿XI号点矿化与砷富集有关，并以砷异常作为找矿指示"
+},
+{
+"relation_local_id": "R36",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E32",
+"relation_label_zh": "显示",
+"description": "包古图金矿XI号点矿化与铋富集有关，并以砷—铋异常叠加作为找矿指示"
+},
+{
+"relation_local_id": "R37",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E6",
+"relation_label_zh": "侵入于",
+"description": "区内中酸性斑岩侵位并与下石炭统火山—沉积地层形成接触带"
+}
+]
+}

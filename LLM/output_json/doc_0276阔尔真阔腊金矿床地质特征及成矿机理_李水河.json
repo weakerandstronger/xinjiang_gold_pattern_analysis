@@ -1,0 +1,346 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0276",
+"title": "阔尔真阔腊金矿床地质特征及成矿机理_李水河",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔尔真阔腊金矿床",
+"attributes": {
+"name": "阔尔真阔腊金矿床",
+"location": "新疆萨吾尔山东段（和丰县境内）",
+"tectonic_position": "萨吾尔成矿带东段，处于晚古生代岛弧活动带",
+"deposit_type": "浅成低温热液型金矿床",
+"resource_tonnage": "内组经济资源储量（331）金金属量约1800千克，其中基础储量（M21）约208千克",
+"ore_control_features": "矿床由5条矿体组成，矿体分布于长约1700米、宽约500米的矿化带内；矿体受近东西向阔尔真阔腊断裂及其破碎带控制，并受北东向与南北向断裂影响；矿体定位于强硅化带中，硅化、泥化、黄铁矿化强烈"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "萨吾尔成矿带",
+"attributes": {
+"name": "萨吾尔成矿带",
+"level": "成矿带",
+"tectonic_setting": "晚古生代岛弧活动带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统萨吾尔山组",
+"attributes": {
+"name": "中泥盆统萨吾尔山组",
+"age": "中泥盆统",
+"dominant_lithology": "中性火山岩（安山岩等）",
+"lithology_notes": "一套岛弧型海相火山岩建造，为含金富钠质建造，为金成矿提供主要成矿物质来源"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "安山岩",
+"attributes": {
+"name": "安山岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "隐爆安山角砾岩",
+"attributes": {
+"name": "隐爆安山角砾岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长岩—钾长闪长岩等中性侵入岩体",
+"attributes": {
+"name": "闪长岩—钾长闪长岩等中性侵入岩体",
+"rock_type": "闪长岩、闪长玢岩、钾长闪长岩等",
+"age": "华力西中期第二次岩浆侵入活动",
+"relationship_to_ore": "与成矿关系密切，为含矿热液提供热源与组分，并有利于形成成矿构造条件"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "阔尔真阔腊断裂",
+"attributes": {
+"name": "阔尔真阔腊断裂",
+"structure_type": "断裂",
+"orientation": "走向近东西，倾向南，倾角约60°—70°",
+"scale": "矿区级",
+"ore_control_role": "主要控矿断裂，控制矿体空间展布；断裂破碎带为容矿构造并作为矿液上升通道"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英（石英脉、交代型硅化体、硅铁脉体等）",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "泥化",
+"attributes": {
+"name": "泥化",
+"alteration_minerals": "伊利石、蒙脱石等粘土矿物",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "含锰方解石、菱锰矿、方解石",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "青盘岩化",
+"attributes": {
+"name": "青盘岩化",
+"alteration_minerals": "绿泥石、绿帘石等",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "钾化",
+"attributes": {
+"name": "钾化",
+"alteration_minerals": "钾长石等",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿（含胶状黄铁矿）",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "以包裹金、裂隙金、间隙金形式产出，主要赋存于黄铁矿及其裂隙、黄铁矿与脉石矿物间隙中"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "次要金矿物",
+"paragenesis": "与自然金共生"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物及载金矿物",
+"paragenesis": "与黄铜矿等硫化物共生，局部可被褐铁矿化交代"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要伴生硫化物之一",
+"paragenesis": "与黄铁矿共生"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Fluid",
+"name_zh": "浅成低温热液流体",
+"attributes": {
+"nature": "浅成低温热液流体（沸腾状态）",
+"temperature_C_min": "112",
+"temperature_C_max": "285"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Geochem",
+"name_zh": "金元素综合化探异常",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "区内发育与成矿有关的Au、Ag、As、Bi、S元素综合化探异常"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔尔真阔腊金矿床位于萨吾尔成矿带东段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "金矿体主要赋存于安山岩的破碎蚀变带中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "部分矿体主要产于隐爆安山角砾岩岩筒内及其与安山岩接触部位"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "矿床围岩安山岩属于中泥盆统萨吾尔山组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "隐爆安山角砾岩与中泥盆统萨吾尔山组中性火山岩建造相关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "阔尔真阔腊断裂为主要控矿断裂，控制矿体空间展布并作为矿液上升通道"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "矿体近矿围岩蚀变以硅化为主，矿体定位于强硅化带中"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "矿体围岩发育泥化蚀变，主要由伊利石、蒙脱石等粘土矿物组成"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "矿体围岩发育碳酸盐化蚀变，细脉状产于矿体中及旁侧"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "矿体围岩发育青盘岩化蚀变，其中一类与成矿有关并呈线性对称分布"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "矿体围岩发育钾化蚀变"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "矿体及近矿蚀变带黄铁矿化强烈"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要金矿物为",
+"description": "矿石中的金以自然金为主"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中的金矿物除自然金外，还包括银金矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "金属矿物以黄铁矿为主，金多以包裹金等形式赋存于黄铁矿中"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石中伴生硫化物包括黄铜矿等"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "对应成矿流体为",
+"description": "流体包体测温表明均一温度为112—285℃，成矿流体处于沸腾状态，属于浅成低温热液"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "伴随有",
+"description": "矿区发育与成矿有关的Au等元素综合化探异常"
+}
+]
+}

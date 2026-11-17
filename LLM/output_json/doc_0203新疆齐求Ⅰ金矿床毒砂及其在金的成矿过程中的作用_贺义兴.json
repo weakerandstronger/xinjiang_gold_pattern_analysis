@@ -1,0 +1,146 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0203",
+"title": "新疆齐求Ⅰ金矿床毒砂及其在金的成矿过程中的作用_贺义兴",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "齐求金矿床（Ⅰ号）",
+"attributes": {
+"name": "齐求金矿床（Ⅰ号）",
+"location": "新疆西准噶尔地区",
+"tectonic_position": "西准噶尔海西地槽褶皱带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "热液作用过程可划分为成矿前石英硫化物阶段、成矿期石英—自然金—硫化物阶段和成矿后碳酸盐化阶段；成矿前阶段毒砂颗粒粗大且挤压破碎裂隙发育，为后期金的迁移与沉淀提供通道与赋存空间"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西准噶尔海西地槽褶皱带",
+"attributes": {
+"name": "西准噶尔海西地槽褶皱带",
+"level": "地槽褶皱带",
+"tectonic_setting": "海西期地槽褶皱带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "金矿床中常见的金载体矿物之一",
+"paragenesis": "成矿前阶段毒砂颗粒粗大、裂隙发育并具明显成分环带；成矿期阶段毒砂颗粒细小、无成分环带，可分为早期自形程度高且砷相对较高的毒砂与晚期他形晶且含砷较低的毒砂，部分毒砂可发生溶蚀交代并与后期矿物形成镶嵌结构"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "主要形成于成矿期阶段，常以充填毒砂裂隙的方式出现，为后期沉淀的产物，并与石英、硫化物等共生"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "共生硫化物矿物",
+"paragenesis": "成矿前阶段与石英、毒砂等共同构成石英—硫化物阶段矿物组合；成矿期阶段与毒砂、石英及自然金等共生，局部可与毒砂溶蚀交代现象对应"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "成矿前阶段形成石英—硫化物阶段矿物组合；成矿期阶段与毒砂、黄铁矿及自然金等共同出现"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "方解石、含镁方解石",
+"intensity": "成矿后阶段发育的碳酸盐化作用"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Fluid",
+"name_zh": "齐求Ⅰ金矿床成矿热液",
+"attributes": {
+"nature": "成矿期热液在还原条件下结晶毒砂、黄铁矿与石英；随成矿演化热液由弱酸性向弱碱性特征变化并可转变为相对氧化的弱酸性环境，随后再向有利于金沉淀的弱碱性、还原条件演化；金主要以配合物形式迁移并在适当物理化学条件下沉淀为自然金，毒砂的溶蚀—结晶作用对成矿热液物理化学环境在一定范围内保持动态平衡具有缓冲作用"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "齐求Ⅰ金矿床位于西准噶尔海西地槽褶皱带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅰ金矿床各成矿阶段均有毒砂产出，毒砂裂隙与成分特征记录金的迁移与沉淀过程"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要金矿物为",
+"description": "齐求Ⅰ金矿床成矿期阶段可形成大量自然金，常充填于毒砂裂隙中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅰ金矿床石英—硫化物阶段及石英—自然金—硫化物阶段均发育黄铁矿等硫化物矿物"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "共生矿物包括",
+"description": "齐求Ⅰ金矿床成矿前与成矿期阶段均形成石英，并与毒砂、黄铁矿及自然金等共生"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "齐求Ⅰ金矿床成矿后阶段表现为碳酸盐化作用"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "对应成矿流体为",
+"description": "齐求Ⅰ金矿床对应的成矿流体为成矿热液，经历还原与局部相对氧化环境变化并控制金的迁移与自然金沉淀"
+}
+]
+}

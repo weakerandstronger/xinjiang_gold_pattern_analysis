@@ -1,0 +1,335 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0128",
+"title": "喜迎金矿床地质特征及成因类型探讨",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "喜迎金矿床",
+"attributes": {
+"name": "喜迎金矿床",
+"location": "新疆东南天山",
+"tectonic_position": "塔里木板块北缘活动带南天山晚古生代陆缘盆地",
+"deposit_type": "造山型金矿床",
+"ore_grade": "2.35×10^-6～20.38×10^-6",
+"ore_control_features": "矿床产于下石炭统甘草胡组碳酸盐岩地层中；矿体赋存于岩屑砂岩与砂屑白云岩接触部位，受层位控制明显；矿化带位于轴面北倾的同斜倒转背斜核部偏北翼，呈NW向展布；矿体走向NW、倾向NE、倾角32°～54°，地表形态呈脉状、似层状"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "新疆东南天山",
+"attributes": {
+"name": "新疆东南天山",
+"level": "地区",
+"tectonic_setting": "大地构造位置属塔里木板块北缘活动带南天山晚古生代陆缘盆地"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "塔里木板块北缘活动带",
+"attributes": {
+"name": "塔里木板块北缘活动带",
+"level": "活动带",
+"tectonic_setting": "塔里木板块北缘的构造活动带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "南天山晚古生代陆缘盆地",
+"attributes": {
+"name": "南天山晚古生代陆缘盆地",
+"level": "陆缘盆地",
+"tectonic_setting": "南天山晚古生代时期的陆缘盆地环境"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统甘草胡组",
+"attributes": {
+"name": "下石炭统甘草胡组",
+"age": "下石炭统",
+"dominant_lithology": "碳酸盐岩",
+"lithology_notes": "碳酸盐岩地层，容矿岩石为含陆屑砂屑白云岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "含陆屑砂屑白云岩",
+"attributes": {
+"name": "含陆屑砂屑白云岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "同斜倒转背斜",
+"attributes": {
+"name": "同斜倒转背斜",
+"structure_type": "背斜",
+"orientation": "轴面北倾，矿化带呈NW向展布",
+"scale": "矿区尺度",
+"ore_control_role": "矿化带位于其核部偏北翼"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "较强"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "黄铜矿化",
+"attributes": {
+"name": "黄铜矿化",
+"alteration_minerals": "黄铜矿",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄绢岩化",
+"attributes": {
+"name": "黄绢岩化",
+"alteration_minerals": "绢云母",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金矿物以自然金为主，多呈微细粒包裹金",
+"paragenesis": "与黄铁矿、石英及碳酸盐脉共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物，呈细脉浸染状分布",
+"paragenesis": "与石英、白云石等脉石矿物共生"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "少量金属矿物，见于含黄铜矿-黄铁矿石英脉型金矿石",
+"paragenesis": "与黄铁矿、石英脉伴生"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物，常成为金的直接载体",
+"paragenesis": "与碳酸盐脉及硫化物共生"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "白云石",
+"attributes": {
+"name": "白云石",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "与石英、硫化物共生"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Fluid",
+"name_zh": "成矿流体（含CO2热卤水热液）",
+"attributes": {
+"nature": "以盐水包裹体为主并含CO2的含矿热液",
+"source": "围岩白云岩被热卤水浸蚀并析出CO2，形成含矿热液",
+"temperature_C_min": "125",
+"temperature_C_max": "365",
+"pressure_MPa_min": "28",
+"pressure_MPa_max": "44",
+"salinity_wtNaCl_min": "9.9",
+"salinity_wtNaCl_max": "13.9"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "喜迎金矿床位于新疆东南天山"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "喜迎金矿床大地构造位置属塔里木板块北缘活动带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "喜迎金矿床大地构造位置属南天山晚古生代陆缘盆地"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "喜迎金矿床容矿岩石为含陆屑砂屑白云岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "含陆屑砂屑白云岩属于下石炭统甘草胡组碳酸盐岩地层"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "沿…展布",
+"description": "喜迎金矿床矿化带位于同斜倒转背斜核部偏北翼，呈NW向展布"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "喜迎金矿床围岩蚀变包括硅化，且与金矿化关系密切"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "伴随有",
+"description": "喜迎金矿床围岩蚀变包括黄铁矿化，且与金矿化关系密切"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "伴随有",
+"description": "喜迎金矿床围岩蚀变包括黄铜矿化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "伴随有",
+"description": "喜迎金矿床围岩蚀变包括碳酸盐化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "喜迎金矿床围岩蚀变包括黄绢岩化"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要金矿物为",
+"description": "喜迎金矿床金矿物以自然金为主"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "喜迎金矿床主要载金矿物为黄铁矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "喜迎金矿床金属矿物中含少量黄铜矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "喜迎金矿床脉石矿物主要包括石英"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "喜迎金矿床脉石矿物主要包括白云石"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "喜迎金矿床主成矿期流体为含CO2的盐水体系含矿热液，温度为125～165℃与265～365℃两个区间，盐度为9.9%～13.9%，压力为28～44MPa"
+}
+]
+}

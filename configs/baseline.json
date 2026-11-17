@@ -1,0 +1,48 @@
+{
+  "input": "../data/processed/1004end_entity_summary.csv",
+  "expected_input_sha256": "090ab0ba13b6ce86eb81fc0b8d9a9228a7cb189c3025c81ba0a90cd9d4ed90c2",
+  "analysis": {
+    "max_order": 3,
+    "min_item_count": 3,
+    "min_pattern_count": 3,
+    "min_observed": 10,
+    "min_support": 0.0,
+    "lift_epsilon": 1e-12,
+    "log_base": "e"
+  },
+  "mode": "single_full_data_descriptive",
+  "disabled": [
+    "baselines",
+    "ablation",
+    "holdout",
+    "permutation",
+    "bootstrap",
+    "subsampling",
+    "mask_perturbation",
+    "entity_deletion",
+    "threshold_sweep",
+    "prediction",
+    "semantic_standardization"
+  ],
+  "display": {
+    "F2_features": 6,
+    "F2_items": 5,
+    "F3_overall": 4,
+    "F3_without_Region": 4,
+    "include_mineral_alteration_case": true
+  },
+  "style": {
+    "width_mm": 180,
+    "font_pt": 8.5,
+    "png_dpi": 360,
+    "main": "#0072B2",
+    "secondary": "#009E73",
+    "highlight": "#D55E00",
+    "purple": "#CC79A7",
+    "missing": "#D9DEE5"
+  },
+  "excluded_features": [
+    "Isotope"
+  ],
+  "version_note": "2026-10-04 corrected dataset; same analytical protocol"
+}

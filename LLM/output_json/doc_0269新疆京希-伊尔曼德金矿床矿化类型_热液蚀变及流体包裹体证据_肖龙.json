@@ -1,0 +1,252 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0269",
+"title": "新疆京希-伊尔曼德金矿床矿化类型_热液蚀变及流体包裹体证据_肖龙",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "京希-伊尔曼德金矿床",
+"attributes": {
+"name": "京希-伊尔曼德金矿床",
+"location": "新疆伊宁县北部吐拉苏地区",
+"tectonic_position": "西北天山古生代岛弧带内，吐拉苏早石炭纪火山弧间盆地西北缘",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "金矿（化）体赋存于下石炭统大哈拉军山组下部粗碎屑岩中，受断裂构造和岩性控制，矿体主要受近南北向断裂控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "吐拉苏地区",
+"attributes": {
+"name": "吐拉苏地区",
+"level": "成矿远景区",
+"tectonic_setting": "吐拉苏早石炭纪火山弧间盆地西北缘，位于西北天山古生代岛弧带内"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统大哈拉军山组",
+"attributes": {
+"name": "下石炭统大哈拉军山组",
+"age": "下石炭统",
+"dominant_lithology": "砾岩、砂岩、熔结凝灰岩、英安岩、凝灰质砂岩等",
+"lithology_notes": "含矿层为大哈拉军山组下部砾岩和砂岩等粗碎屑岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "大哈拉军山组下部粗碎屑岩（砾岩-砂岩）",
+"attributes": {
+"name": "大哈拉军山组下部粗碎屑岩（砾岩-砂岩）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "近南北向断裂构造",
+"attributes": {
+"name": "近南北向断裂构造",
+"structure_type": "断裂",
+"orientation": "近南北向",
+"scale": "矿区尺度",
+"ore_control_role": "控制矿体展布，为主要控矿构造"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英/玉髓，多孔状石英构造（酸性淋滤形成）",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "高级泥化",
+"attributes": {
+"name": "高级泥化",
+"alteration_minerals": "迪开石、高岭石、多孔状-硅化石英",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "泥化",
+"attributes": {
+"name": "泥化",
+"alteration_minerals": "高岭石、伊利石、绢云母、绿泥石等",
+"intensity": "中等"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金的主要沉淀富集形式",
+"paragenesis": "主要沉淀富集于硅化带和高级泥化带"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿石矿物",
+"paragenesis": "与硅化及高级泥化蚀变共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "共生矿石矿物",
+"paragenesis": "与黄铁矿、自然金等共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "成矿热液流体",
+"attributes": {
+"nature": "酸性、低盐度、低温的含金热液流体",
+"source": "火山-热液体系流体沿断裂上升，与围岩发生水-岩反应并伴随大气降水加入后酸度被缓冲",
+"temperature_C_min": "180",
+"temperature_C_max": "270",
+"salinity_wtNaCl_min": "0.3",
+"salinity_wtNaCl_max": "5"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "重晶石",
+"attributes": {
+"name": "重晶石",
+"role_in_ore": "晚期脉石矿物",
+"paragenesis": "晚期重晶石脉阶段出现"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "IntrusiveBody",
+"name_zh": "英安岩侵入体",
+"attributes": {
+"name": "英安岩侵入体",
+"rock_type": "英安岩",
+"relationship_to_ore": "矿区侵入岩不发育，仅在矿床东南约500m处见小的英安岩侵入体，与矿化关系不明确"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "京希-伊尔曼德金矿床位于新疆伊宁县北部吐拉苏地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "金矿（化）体主要赋存于大哈拉军山组下部砾岩-砂岩等粗碎屑岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "大哈拉军山组下部粗碎屑岩（砾岩-砂岩）属于下石炭统大哈拉军山组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "京希-伊尔曼德金矿床矿体主要受近南北向断裂构造控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "京希-伊尔曼德金矿床发育强硅化及多孔状石英构造"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "京希-伊尔曼德金矿床发育高级泥化蚀变，典型矿物为迪开石和高岭石"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "伴随有",
+"description": "京希-伊尔曼德金矿床外围发育泥化蚀变"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "京希-伊尔曼德金矿床中金主要以自然金形式沉淀富集于硅化带和高级泥化带"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "京希-伊尔曼德金矿床的共生矿物包括黄铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "京希-伊尔曼德金矿床的共生矿物包括毒砂"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "京希-伊尔曼德金矿床晚期可见重晶石脉"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "京希-伊尔曼德金矿床成矿流体为酸性（早期pH约2～3、晚期约3～5）、低盐度〔w（NaCl）eq＜5％〕、低温（180～270℃）的含金热液流体"
+}
+]
+}

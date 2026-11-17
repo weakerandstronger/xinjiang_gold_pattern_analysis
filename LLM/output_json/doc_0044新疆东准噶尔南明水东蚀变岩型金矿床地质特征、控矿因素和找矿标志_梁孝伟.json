@@ -1,0 +1,342 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0044",
+"title": "新疆东准噶尔南明水东蚀变岩型金矿床地质特征、控矿因素和找矿标志",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "南明水金矿床",
+"attributes": {
+"name": "南明水金矿床",
+"location": "新疆东准噶尔地区",
+"tectonic_position": "产于新疆东准噶尔地区南明水组内，位于南明水组层间断裂及褶皱交汇部位构成的构造有利部位",
+"deposit_type": "造山型金矿床",
+"ore_grade": "金品位 w(Au)=0.53×10^-6～60.95×10^-6，平均品位2.76×10^-6～3.53×10^-6，品位变化系数52％～132％，属较均匀型矿体",
+"ore_control_features": "受韧-脆性剪切带、地层建造和热液活动多重控制，南明水组的层间断裂及褶皱交汇部位为成矿有利地段，矿区地表蚀变带规模较大且深部尚未完全控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔地区",
+"attributes": {
+"name": "东准噶尔地区",
+"level": "区域",
+"tectonic_setting": "位于新疆维吾尔自治区内的东准噶尔地区，为南明水东蚀变岩型金矿床所在构造-成矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "南明水组",
+"attributes": {
+"name": "南明水组",
+"lithology_notes": "文中指出南明水组的层间断裂及褶皱交汇部位是成矿有利地段，赋矿岩性为蚀变凝灰岩，其顶底板围岩为凝灰岩、凝灰质砂岩、晶屑凝灰岩"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变凝灰岩围岩单元",
+"attributes": {
+"name": "蚀变凝灰岩围岩单元"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "韧-脆性剪切带",
+"attributes": {
+"name": "韧-脆性剪切带",
+"structure_type": "剪切带",
+"ore_control_role": "为南明水东金矿床的重要控矿构造之一，对金矿体的形成与展布起主要控制作用"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "南明水组层间断裂",
+"attributes": {
+"name": "南明水组层间断裂",
+"structure_type": "层间断裂",
+"ore_control_role": "南明水组的层间断裂为成矿有利地段，是控制金矿体赋存位置的重要构造因素之一"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "褶皱交汇部位",
+"attributes": {
+"name": "褶皱交汇部位",
+"structure_type": "褶皱构造交汇部位",
+"ore_control_role": "褶皱交汇部位被认为是成矿有利地段，与层间断裂共同为金矿化提供有利的构造空间"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "绢云母化-绿泥石化-绿帘石化-碳酸盐化-高岭土化蚀变组合",
+"attributes": {
+"name": "绢云母化-绿泥石化-绿帘石化-碳酸盐化-高岭土化蚀变组合",
+"alteration_minerals": "绢云母、绿泥石、绿帘石、碳酸盐矿物、高岭土等",
+"intensity": "围岩蚀变类型多样，广泛发育绢云母化、绿泥石化、绿帘石化、碳酸盐化和高岭土化等蚀变，地表蚀变带规模较大，指示强烈的中低温热液改造作用"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "为金属矿物中最重要的金矿物之一，与赤铁矿、褐铁矿、黄铁矿、毒砂和钛铁矿等金属矿物及石英、长石、云母、方解石等脉石矿物共同组成金矿石"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "赤铁矿",
+"attributes": {
+"name": "赤铁矿",
+"role_in_ore": "金属矿物组成之一",
+"paragenesis": "与自然金、褐铁矿、黄铁矿、毒砂和钛铁矿等共生，是南明水东金矿石中常见的金属矿物之一"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "褐铁矿",
+"attributes": {
+"name": "褐铁矿",
+"role_in_ore": "金属矿物组成之一，部分为黄铁矿等氧化后的产物",
+"paragenesis": "在金矿石中常见，与自然金、赤铁矿、黄铁矿、毒砂和钛铁矿等共生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "重要含金金属硫化物矿物",
+"paragenesis": "为金矿石中常见的金属矿物，与自然金、赤铁矿、褐铁矿、毒砂和钛铁矿等共同组成金属矿物组合"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "含金金属硫化物矿物",
+"paragenesis": "为金属矿物之一，与自然金、黄铁矿等共生，反映金矿石中砷的富集特征"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "钛铁矿",
+"attributes": {
+"name": "钛铁矿",
+"role_in_ore": "金属矿物组成之一",
+"paragenesis": "在矿石中作为金属矿物之一，与自然金、赤铁矿、褐铁矿、黄铁矿、毒砂等共生"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物",
+"paragenesis": "为金矿石中的主要脉石矿物之一，与自然金及多种金属矿物共同出现，构成金矿石的主要非金属矿物组合"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "长石",
+"attributes": {
+"name": "长石",
+"role_in_ore": "脉石矿物组成之一",
+"paragenesis": "为金矿石中的脉石矿物之一，与石英、云母、方解石等共生，构成金矿石的非金属矿物组合"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "云母",
+"attributes": {
+"name": "云母",
+"role_in_ore": "脉石矿物组成之一",
+"paragenesis": "在金矿石中作为脉石矿物之一，与石英、长石、方解石等共生，反映围岩及矿石的变质-热液改造特征"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石矿物组成之一",
+"paragenesis": "为金矿石中的脉石矿物之一，与石英、长石、云母等共同出现，充填于金矿体中"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Fluid",
+"name_zh": "南明水东金矿成矿流体",
+"attributes": {
+"nature": "中低温热液成矿流体，与蚀变岩型金矿床形成有关"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "南明水东金矿床位于新疆东准噶尔地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "南明水东金矿床的赋矿岩性为蚀变凝灰岩，顶底板围岩为凝灰岩、凝灰质砂岩和晶屑凝灰岩，矿体赋存于蚀变凝灰岩围岩单元中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "蚀变凝灰岩围岩单元在地层上属于南明水组的一部分"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "南明水东金矿床受韧-脆性剪切带的控制，是成矿的重要控矿构造因素之一"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "南明水组的层间断裂被认为是成矿的有利地段，是控制南明水东金矿床金矿体赋存的重要构造因素之一"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "褶皱交汇部位被认为是成矿有利地段，与层间断裂共同为南明水东金矿床提供有利的成矿空间"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "南明水东金矿床围岩蚀变以绢云母化、绿泥石化、绿帘石化、碳酸盐化和高岭土化等为主，地表蚀变带规模较大"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "南明水东金矿石中自然金为主要金矿物，与多种金属矿物和脉石矿物共生"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "赤铁矿是南明水东金矿石中的金属矿物之一，与自然金、褐铁矿、黄铁矿、毒砂和钛铁矿等共生"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "褐铁矿为金矿石中常见金属矿物之一，与自然金、赤铁矿、黄铁矿、毒砂和钛铁矿等共生"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "黄铁矿为重要含金金属硫化物矿物，与自然金、赤铁矿、褐铁矿、毒砂和钛铁矿等共同组成金属矿物组合"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "毒砂为南明水东金矿石中的金属硫化物矿物之一，与自然金、黄铁矿等共生"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "钛铁矿为金属矿物之一，与自然金、赤铁矿、褐铁矿、黄铁矿和毒砂等共生"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "脉石矿物包括",
+"description": "石英为南明水东金矿石中的主要脉石矿物之一，与自然金及多种金属矿物共同组成矿石"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "脉石矿物包括",
+"description": "长石为金矿石中的脉石矿物之一，与石英、云母、方解石等共生"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "脉石矿物包括",
+"description": "云母为南明水东金矿石中的脉石矿物之一，与石英、长石、方解石等共生"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "脉石矿物包括",
+"description": "方解石为金矿石中的脉石矿物之一，与石英、长石、云母等共同充填于矿体内"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "对应成矿流体为",
+"description": "南明水东金矿床为中低温热液蚀变岩型金矿床，对应的成矿流体为中低温热液成矿流体"
+}
+]
+}

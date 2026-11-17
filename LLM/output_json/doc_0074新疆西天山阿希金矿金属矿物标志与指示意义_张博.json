@@ -1,0 +1,235 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0074",
+"title": "新疆西天山阿希金矿金属矿物标志与指示意义",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阿希金矿床",
+"attributes": {
+"name": "阿希金矿床",
+"location": "西天山吐拉苏断陷盆地",
+"tectonic_position": "位于西天山吐拉苏断陷盆地内",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿床赋矿于大哈拉军山组第五岩性段及阿恰勒河组第一岩性段，矿体定位明显受火山机构及其相关断裂控制，主要沿 F2 弧形断裂分布"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西天山吐拉苏断陷盆地",
+"attributes": {
+"name": "西天山吐拉苏断陷盆地",
+"level": "断陷盆地",
+"tectonic_setting": "位于西天山地区的断陷盆地，为阿希金矿床所在的成矿有利构造单元"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "大哈拉军山组第五岩性段",
+"attributes": {
+"name": "大哈拉军山组第五岩性段"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "阿恰勒河组第一岩性段",
+"attributes": {
+"name": "阿恰勒河组第一岩性段"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "大哈拉军山组第五岩性段围岩单元",
+"attributes": {
+"name": "大哈拉军山组第五岩性段围岩单元"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "阿恰勒河组第一岩性段围岩单元",
+"attributes": {
+"name": "阿恰勒河组第一岩性段围岩单元"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "科古琴山南坡断裂",
+"attributes": {
+"name": "科古琴山南坡断裂",
+"structure_type": "断裂",
+"scale": "区内主要区域性断裂构造之一",
+"ore_control_role": "与伊犁盆地北缘断裂共同构成吐拉苏断陷盆地的重要边界构造"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "伊犁盆地北缘断裂",
+"attributes": {
+"name": "伊犁盆地北缘断裂",
+"structure_type": "断裂",
+"scale": "区内主要区域性断裂构造之一",
+"ore_control_role": "与科古琴山南坡断裂共同限定吐拉苏断陷盆地的构造边界"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "F2 弧形断裂",
+"attributes": {
+"name": "F2 弧形断裂",
+"structure_type": "断裂",
+"orientation": "弧形展布",
+"scale": "矿区内控矿断裂构造，沿走向分布成矿断裂带",
+"ore_control_role": "矿体定位明显受 F2 弧形断裂控制，金矿体主要沿该断裂分布"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "重要载金硫化物矿物",
+"paragenesis": "阿希金矿不同世代黄铁矿中 Au 与 As 具有明显耦合关系，金以不可见金形式赋存于黄铁矿中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "白铁矿",
+"attributes": {
+"name": "白铁矿",
+"role_in_ore": "重要载金硫化物矿物",
+"paragenesis": "不同世代白铁矿中 Au 与 As 耦合关系更为显著，高 As 环境有利于 Au 的富集"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "典型金属矿物标志",
+"paragenesis": "在阿希金矿中可作为低硫型浅成低温热液型金矿床的典型金属矿物标志"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Fluid",
+"name_zh": "阿希金矿成矿流体",
+"attributes": {
+"nature": "低硫型浅成低温热液成矿流体，成矿过程中发生流体沸腾，以叶片状黄铁矿的发育为标志",
+"source": "流体沸腾和多阶段金属矿物沉淀共同促成金的富集与沉淀"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Geochem",
+"name_zh": "阿希金矿 Au-As 微量元素地球化学特征",
+"attributes": {
+"element": "Au、As 等微量元素",
+"value_ppm": "文中未给出具体含量，仅指出 Au 与 As 具有明显耦合关系",
+"anomaly_pattern": "不同世代黄铁矿和白铁矿中 Au 与 As 具有明显耦合关系，尤以白铁矿中更为显著，高 As 环境有利于 Au 富集；金以不可见金形式存在，其他微量元素多以固溶体及纳米级颗粒形式存在，矿化富集具多阶段性"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阿希金矿床位于西天山吐拉苏断陷盆地，是新疆地区最大的低硫型浅成低温热液金矿床"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿床部分矿体赋存于大哈拉军山组第五岩性段围岩单元中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "阿希金矿床部分矿体赋存于阿恰勒河组第一岩性段围岩单元中，阿恰勒河组以角度不整合方式覆盖于大哈拉军山组之上"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "大哈拉军山组第五岩性段围岩单元在地层上属于大哈拉军山组第五岩性段"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "阿恰勒河组第一岩性段围岩单元在地层上属于阿恰勒河组第一岩性段"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "阿希金矿床矿体定位明显受火山机构及其相关断裂控制，主要沿 F2 弧形断裂分布"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿中发育不同世代黄铁矿，黄铁矿中 Au 与 As 具有明显耦合关系，金多以不可见金形式赋存于黄铁矿中"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "阿希金矿中白铁矿中 Au 与 As 耦合关系更为显著，高 As 环境有利于 Au 富集，白铁矿是重要载金矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "毒砂在阿希金矿中可作为低硫型浅成低温热液型金矿床的典型金属矿物标志"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "对应成矿流体为",
+"description": "阿希金矿床对应的成矿流体为低硫型浅成低温热液成矿流体，成矿过程中发生流体沸腾，以叶片状黄铁矿的发育为标志，是金富集沉淀的重要因素"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "显示",
+"description": "阿希金矿金属矿物研究表明，不同世代黄铁矿和白铁矿中 Au 与 As 具有明显耦合关系，金以不可见金形式存在，其他微量元素多以固溶体及纳米级颗粒形式存在，反映出多阶段矿化富集特征"
+}
+]
+}

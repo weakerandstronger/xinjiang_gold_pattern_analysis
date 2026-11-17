@@ -1,0 +1,489 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0086",
+"title": "西天山卡特巴阿苏金矿床成矿流体性质及成矿物质来源研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "西天山",
+"tectonic_position": "中天山构造带那拉提早古生代岛弧带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿体产于断层破碎带内，整体破碎程度较大"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "西天山",
+"attributes": {
+"name": "西天山",
+"level": "山区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "中天山构造带",
+"attributes": {
+"name": "中天山构造带",
+"level": "构造带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "那拉提早古生代岛弧带",
+"attributes": {
+"name": "那拉提早古生代岛弧带",
+"level": "岛弧带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "二长花岗岩",
+"attributes": {
+"name": "二长花岗岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "花岗闪长岩",
+"attributes": {
+"name": "花岗闪长岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长岩",
+"attributes": {
+"name": "闪长岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "巴音布鲁克组地层",
+"attributes": {
+"name": "巴音布鲁克组地层"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "StratUnit",
+"name_zh": "巴音布鲁克组",
+"attributes": {
+"name": "巴音布鲁克组"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "断层破碎带",
+"attributes": {
+"name": "断层破碎带",
+"structure_type": "断层破碎带",
+"scale": "矿区",
+"ore_control_role": "为矿体产出部位与容矿空间"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "硅化—钾化—碳酸岩化蚀变",
+"attributes": {
+"name": "硅化—钾化—碳酸岩化蚀变",
+"intensity": "主要"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化—黄铜矿化—褐铁矿化—黄钾铁钒化蚀变",
+"attributes": {
+"name": "黄铁矿化—黄铜矿化—褐铁矿化—黄钾铁钒化蚀变",
+"intensity": "与矿化相关"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "矿石中金的主要矿物形式",
+"paragenesis": "中期石英—多金属硫化物—自然金阶段"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "早期石英—黄铁矿阶段"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "矿石中主要矿物之一",
+"paragenesis": "中期石英—多金属硫化物—自然金阶段"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "闪锌矿",
+"attributes": {
+"name": "闪锌矿",
+"role_in_ore": "矿石中少量矿物"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "矿石中少量矿物"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "热液脉体主要矿物",
+"paragenesis": "早期石英—黄铁矿阶段；晚期石英—碳酸盐矿物阶段"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "碳酸盐矿物",
+"attributes": {
+"name": "碳酸盐矿物",
+"role_in_ore": "晚期热液阶段主要矿物",
+"paragenesis": "晚期石英—碳酸盐矿物阶段"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Fluid",
+"name_zh": "卡特巴阿苏成矿流体",
+"attributes": {
+"nature": "含CO₂的中低温、中低盐度、中低密度流体",
+"source": "以变质成因水为主，后期有大气水加入",
+"temperature_C_min": "200",
+"temperature_C_max": "340",
+"salinity_wtNaCl_min": "5.41",
+"salinity_wtNaCl_max": "12.55"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Isotope",
+"name_zh": "δ¹⁸O",
+"attributes": {
+"system": "H-O同位素",
+"parameter_name": "δ¹⁸O",
+"value_range": "10.5‰~10.9‰"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Isotope",
+"name_zh": "δ²D",
+"attributes": {
+"system": "H-O同位素",
+"parameter_name": "δ²D",
+"value_range": "-93.4‰~-98.1‰"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Isotope",
+"name_zh": "δ³⁴S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ³⁴S",
+"value_range": "8.34‰~11.04‰"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Isotope",
+"name_zh": "²⁰⁶Pb/²⁰⁴Pb",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "²⁰⁶Pb/²⁰⁴Pb",
+"value_range": "18.26~19.38"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Isotope",
+"name_zh": "²⁰⁷Pb/²⁰⁴Pb",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "²⁰⁷Pb/²⁰⁴Pb",
+"value_range": "15.60~15.65"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Isotope",
+"name_zh": "²⁰⁸Pb/²⁰⁴Pb",
+"attributes": {
+"system": "铅同位素",
+"parameter_name": "²⁰⁸Pb/²⁰⁴Pb",
+"value_range": "38.17~38.49"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Geochem",
+"name_zh": "ΣREE数据",
+"attributes": {
+"element": "ΣREE",
+"value_ppm": "108.83×10⁻⁶~185.67×10⁻⁶",
+"anomaly_pattern": "轻稀土富集、重稀土亏损"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Geochem",
+"name_zh": "LREE数据",
+"attributes": {
+"element": "LREE",
+"value_ppm": "91.16×10⁻⁶~173.22×10⁻⁶",
+"anomaly_pattern": "轻稀土富集"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Geochem",
+"name_zh": "HREE数据",
+"attributes": {
+"element": "HREE",
+"value_ppm": "9.37×10⁻⁶~17.67×10⁻⁶",
+"anomaly_pattern": "重稀土亏损"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金矿床位于西天山"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金矿床位于中天山构造带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "隶属于",
+"description": "卡特巴阿苏金矿床大地构造上属于中天山构造带那拉提早古生代岛弧带"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "卡特巴阿苏金矿床赋矿围岩主要为二长花岗岩"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "卡特巴阿苏金矿床赋矿围岩主要为花岗闪长岩"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要围岩为",
+"description": "卡特巴阿苏金矿床赋矿围岩主要为闪长岩"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "产于",
+"description": "卡特巴阿苏金矿床矿体产于断层破碎带内"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "围岩蚀变主要为硅化、钾化、碳酸岩化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "伴随有",
+"description": "与矿化相关的蚀变包括黄铁矿化、黄铜矿化、褐铁矿化、黄钾铁钒化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要金矿物为",
+"description": "卡特巴阿苏金矿床矿石矿物主要包括自然金"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "卡特巴阿苏金矿床矿石矿物主要包括黄铁矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "卡特巴阿苏金矿床矿石矿物主要包括黄铜矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "卡特巴阿苏金矿床矿石矿物少量包括闪锌矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "卡特巴阿苏金矿床矿石矿物少量包括磁铁矿"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "卡特巴阿苏金矿床成矿流体为含CO₂的中低温、中低盐度、中低密度流体"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E21",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "δ¹⁸O数据约束卡特巴阿苏成矿流体来源"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E22",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "δ²D数据约束卡特巴阿苏成矿流体来源"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E23",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "δ³⁴S数据约束卡特巴阿苏成矿流体及成矿物质来源"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E24",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "²⁰⁶Pb/²⁰⁴Pb比值约束卡特巴阿苏成矿流体及成矿物质来源"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E25",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "²⁰⁷Pb/²⁰⁴Pb比值约束卡特巴阿苏成矿流体及成矿物质来源"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E26",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "²⁰⁸Pb/²⁰⁴Pb比值约束卡特巴阿苏成矿流体及成矿物质来源"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E9",
+"relation_label_zh": "属于",
+"description": "巴音布鲁克组地层属于巴音布鲁克组"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏金矿床赋矿围岩二长花岗岩稀土元素ΣREE为108.83×10⁻⁶~185.67×10⁻⁶"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E28",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏金矿床赋矿围岩二长花岗岩轻稀土LREE为91.16×10⁻⁶~173.22×10⁻⁶"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E29",
+"relation_label_zh": "显示",
+"description": "卡特巴阿苏金矿床赋矿围岩二长花岗岩重稀土HREE为9.37×10⁻⁶~17.67×10⁻⁶"
+}
+]
+}

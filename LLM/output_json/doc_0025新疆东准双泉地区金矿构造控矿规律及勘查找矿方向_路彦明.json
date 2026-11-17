@@ -1,0 +1,411 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0025",
+"title": "新疆东准双泉地区金矿构造控矿规律及勘查找矿方向",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双泉金矿床",
+"attributes": {
+"name": "双泉金矿床",
+"location": "新疆东准双泉地区",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "双泉金矿床在空间上受 NWW 向构造变形带控制，清水-苏吉泉断裂带为最主要的控（赋）矿断裂构造，控制着双泉金矿床的位置与规模；矿床规模与具后期脆性变形叠加早期韧性变形的区域性韧-脆性断裂构造密切相关",
+"age_ma": "主成矿及控矿构造脆性变形时代为 269±9Ma～260±4Ma，早期韧性构造变形及其导致的金初始富集时间约为 310Ma 前后"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "苏吉泉东金矿床",
+"attributes": {
+"name": "苏吉泉东金矿床",
+"location": "新疆东准双泉地区",
+"ore_control_features": "苏吉泉东金矿床在空间上受 NWW 向构造变形带控制，尤其受清水-苏吉泉断裂带这一区域性韧-脆性断裂构造控制，为双泉地区两个规模最大的金矿床之一"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "东准噶尔地区",
+"attributes": {
+"name": "东准噶尔地区",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "双泉地区",
+"attributes": {
+"name": "双泉地区",
+"level": "矿区"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "清水-苏吉泉断裂带",
+"attributes": {
+"name": "清水-苏吉泉断裂带",
+"structure_type": "区域性韧-脆性断裂构造",
+"orientation": "总体呈 NWW 向构造变形带走向展布",
+"scale": "为东准噶尔地区重要控矿断裂构造，是双泉地区最主要的控（赋）矿断裂带",
+"ore_control_role": "控制双泉、苏吉泉东两个规模最大的金矿床以及相关矿化蚀变类型、地球化学异常和遥感蚀变信息异常的空间分布，是区域性构造成矿流体事件的重要通道"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "NWW 向构造变形带",
+"attributes": {
+"name": "NWW 向构造变形带",
+"structure_type": "构造变形带",
+"orientation": "NWW 向",
+"scale": "在双泉地区形成带状发育的构造变形带，沿带分布多条断裂及破碎带",
+"ore_control_role": "双泉地区金矿床、元素地球化学异常、矿化蚀变类型及遥感蚀变信息异常在空间上受该 NWW 向构造变形带控制，是本区金矿成矿的一级控矿构造带"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化-绢云母化蚀变带",
+"attributes": {
+"name": "硅化-绢云母化蚀变带",
+"alteration_minerals": "以石英和绢云母为主的硅化、绢云母化蚀变组合",
+"intensity": "在蚀变岩型矿石中片理发育、受挤压作用较破碎，与含金蚀变岩型矿石关系密切，为双泉矿区重要成矿蚀变类型"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "作为主要金属矿物产于双泉金矿石中，与毒砂、黄铜矿等共生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "金属矿物",
+"paragenesis": "作为金属矿物存在于双泉金矿石中，与黄铁矿、黄铜矿等共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "金属矿物",
+"paragenesis": "为双泉金矿石中的金属矿物之一，与黄铁矿、毒砂等共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "孔雀石",
+"attributes": {
+"name": "孔雀石",
+"role_in_ore": "金属次生矿物",
+"paragenesis": "为双泉金矿石中的次生铜矿物，与黄铜矿等铜矿物的氧化带富集有关"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "为双泉矿区石英细脉及石英脉型矿石的主要脉石矿物，与含金细脉和蚀变岩型矿石密切共生"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "玉髓",
+"attributes": {
+"name": "玉髓",
+"role_in_ore": "脉石矿物",
+"paragenesis": "作为脉石矿物产于双泉金矿石中，与石英等硅质矿物共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "方解石",
+"attributes": {
+"name": "方解石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "为双泉金矿石中的脉石矿物之一，与石英、绢云母等共同构成脉石组合"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "脉石矿物及蚀变矿物",
+"paragenesis": "作为脉石矿物和蚀变矿物产于双泉金矿蚀变岩型矿石中，与硅化密切共生，是绢云母化蚀变的重要标志矿物"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "绿泥石",
+"attributes": {
+"name": "绿泥石",
+"role_in_ore": "脉石及蚀变矿物",
+"paragenesis": "为双泉金矿石中的脉石及蚀变矿物之一，与绢云母、石英等共同反映成矿过程中绿泥石化-绢云母化蚀变"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "高岭土",
+"attributes": {
+"name": "高岭土",
+"role_in_ore": "脉石及蚀变矿物",
+"paragenesis": "为双泉金矿石中的非金属矿物之一，反映局部黏土化蚀变作用，与绿泥石、绢云母等共生"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Fluid",
+"name_zh": "双泉金矿成矿流体",
+"attributes": {
+"nature": "中低温、低盐度成矿流体",
+"source": "成矿流体为地壳流体和地幔流体两端元混合的壳幔混源流体，水以变质水为主，受地壳与饱和空气水影响，并有一定幔源流体加入",
+"temperature_C_min": "200",
+"temperature_C_max": "220",
+"salinity_wtNaCl_min": "3.55",
+"salinity_wtNaCl_max": "4.5"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Isotope",
+"name_zh": "双泉金矿 He-Ar 同位素",
+"attributes": {
+"system": "He-Ar",
+"parameter_name": "3He/4He 与 40Ar/36Ar",
+"value_range": "3He/4He 值为 0.17～2.18 Ra，明显高于地壳 He 而低于地幔 He(6～9 Ra)；40Ar/36Ar 值为 287～385，略高于空气饱和水且远小于地幔，表明流体为以地壳流体为主并混入幔源氦的壳幔混源流体"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Isotope",
+"name_zh": "双泉金矿 H-O-S 同位素",
+"attributes": {
+"system": "H-O-S",
+"parameter_name": "δD-δ18O-δ34S",
+"value_range": "H-O 同位素表明成矿流体中的水以变质水为主，S 同位素显示硫源为混源，流体同位素组成主要受地壳与饱和空气水影响，反映金矿流体来源复杂"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Geochem",
+"name_zh": "双泉矿区金矿地球化学原生晕",
+"attributes": {
+"element": "Au 及相关成矿元素",
+"value_ppm": "文中未给出具体含量，仅指出形成金矿地球化学原生晕和元素地球化学异常",
+"anomaly_pattern": "双泉矿区深部及沿清水-苏吉泉构造带形成明显金矿地球化学原生晕和元素地球化学异常，在 NWW 向构造变形带和控矿断裂附近圈定找矿靶区与勘查区"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "双泉金矿床位于东准噶尔地区，是该地区重要的金矿床之一"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "双泉金矿床位于新疆东准双泉地区，是本区研究构造控矿规律和找矿方向的典型矿床"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "苏吉泉东金矿床位于东准噶尔地区，为双泉地区规模较大的金矿床之一"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "苏吉泉东金矿床位于双泉地区，由清水-苏吉泉断裂带所控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "双泉金矿床及其元素地球化学异常、矿化蚀变类型和遥感蚀变信息异常在空间上受 NWW 向构造变形带控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "清水-苏吉泉断裂带是双泉地区最主要的控（赋）矿断裂构造，直接控制双泉金矿床的位置和规模"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "苏吉泉东金矿床在空间上受 NWW 向构造变形带控制，与双泉金矿床共同受该构造变形带的控矿作用"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "清水-苏吉泉断裂带控制着苏吉泉东金矿床，是双泉地区两个规模最大的金矿床的共同控矿断裂"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "双泉金矿蚀变岩型矿石片理发育、受挤压作用较破碎，与硅化、绢云母化关系密切，形成硅化-绢云母化蚀变带"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "双泉金矿石中含有黄铁矿等金属矿物，为主要金属矿物之一"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "双泉金矿石中含有毒砂，为金属矿物之一，与黄铁矿、黄铜矿等共生"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "双泉金矿石中含有黄铜矿，为主要金属矿物之一"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "双泉金矿石中含有孔雀石，为金属次生铜矿物"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "脉石矿物包括",
+"description": "双泉金矿石中石英为主要脉石矿物，石英脉宽 0.1～2m 不等，发育碎裂结构和隐晶质变晶结构"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "脉石矿物包括",
+"description": "双泉金矿石中含有玉髓，为硅质脉石矿物之一"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "脉石矿物包括",
+"description": "双泉金矿石中方解石为常见脉石矿物之一"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "脉石矿物包括",
+"description": "双泉金矿蚀变岩型矿石与绢云母化关系密切，绢云母为重要脉石及蚀变矿物"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "脉石矿物包括",
+"description": "双泉金矿石中含有绿泥石，为脉石及蚀变矿物之一"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "脉石矿物包括",
+"description": "双泉金矿石中含有高岭土，为非金属脉石及蚀变矿物之一"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "双泉金矿主成矿阶段成矿温度总体较低，为 200℃～220℃，属中低温；成矿流体盐度为 3.55～4.5wt%NaCl，为低盐度成矿流体"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "显示",
+"description": "双泉地区双泉金矿床周围形成明显的金矿地球化学原生晕和元素地球化学异常，据此在矿区深部圈定找矿靶区并发现盲矿体"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E19",
+"to_entity_local_id": "E18",
+"relation_label_zh": "约束该流体来源",
+"description": "双泉金矿 He-Ar 同位素 3He/4He 和 40Ar/36Ar 数据表明成矿流体中既有地壳 He 也有大量幔源 He，是地壳流体与地幔流体两端元混合的壳幔混源流体"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E20",
+"to_entity_local_id": "E18",
+"relation_label_zh": "约束该流体来源",
+"description": "双泉金矿 H-O-S 同位素结果显示成矿流体中的水以变质水为主，硫为混源，流体同位素组成主要受地壳与饱和空气水影响，进一步限定了双泉金矿成矿流体的复杂来源"
+}
+]
+}

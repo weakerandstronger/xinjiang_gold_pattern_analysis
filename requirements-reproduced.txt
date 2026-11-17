@@ -1,0 +1,5 @@
+# Versions used for the verified Windows/Python 3.13.5 reproduction.
+# This is a direct-dependency snapshot, not a full transitive lock file.
+matplotlib==3.10.0
+numpy==2.1.3
+Pillow==11.1.0

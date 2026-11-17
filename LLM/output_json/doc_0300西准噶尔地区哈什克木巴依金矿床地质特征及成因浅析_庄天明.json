@@ -1,0 +1,258 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0300",
+"title": "西准噶尔地区哈什克木巴依金矿床地质特征及成因浅析_庄天明",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "哈什克木巴依金矿床",
+"attributes": {
+"name": "哈什克木巴依金矿床",
+"location": "新疆西准噶尔地区哈什克木巴依矿区",
+"tectonic_position": "西准噶尔地区哈图断裂带中段",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "典型断裂控矿金矿床，矿体主要赋存于北东东向哈图断裂下盘及其下盘发育的次级平行断裂与裂隙带中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "哈图断裂带（中段）",
+"attributes": {
+"name": "哈图断裂带（中段）",
+"level": "断裂带",
+"tectonic_setting": "北东东向区域性逆冲断裂带，控制矿区地层分布及矿体赋存"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Structure",
+"name_zh": "哈图断裂",
+"attributes": {
+"name": "哈图断裂",
+"structure_type": "逆冲断层",
+"orientation": "走向60°～75°（北东东向）；倾向340°～352°，倾角76°～85°",
+"scale": "区域性（长度大于15km，宽5～30m）",
+"ore_control_role": "矿区最重要的控矿断裂，矿体均产于该断裂下盘"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "F1断裂",
+"attributes": {
+"name": "F1断裂",
+"structure_type": "断裂",
+"orientation": "总体走向近东西向；产状145°～197°∠78°～83°",
+"scale": "矿区级（长度约450m）",
+"ore_control_role": "Au3号矿体主要产于该断裂挤压破碎带中及两侧附近"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "碎裂蚀变沉火山尘凝灰岩与不等粒岩屑砂岩（含碳酸盐化凝灰质细-粉砂岩夹泥硅质岩）",
+"attributes": {
+"name": "碎裂蚀变沉火山尘凝灰岩与不等粒岩屑砂岩（含碳酸盐化凝灰质细-粉砂岩夹泥硅质岩）"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统希贝库拉斯组（C1x）",
+"attributes": {
+"name": "下石炭统希贝库拉斯组（C1x）",
+"age": "下石炭世",
+"dominant_lithology": "碎裂蚀变沉火山尘凝灰岩、不等粒长石岩屑砂岩、碳酸盐化凝灰质细-粉砂岩（夹泥硅质岩）",
+"lithology_notes": "分布于哈图断裂下盘（南侧），为矿区最主要的含矿地层"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "发育（蚀变矿化带以硅化为特点）"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "发育（蚀变矿化带以碳酸盐化为特点）"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "发育（与金矿化关系密切）"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "毒砂化",
+"attributes": {
+"name": "毒砂化",
+"alteration_minerals": "毒砂",
+"intensity": "发育（蚀变矿化带以毒砂化为特点）"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物之一（硫化物）",
+"paragenesis": "常与毒砂、黄铜矿及石英细脉共生，呈浸染状、脉状或网脉状产出"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物之一（硫砷化物）",
+"paragenesis": "与黄铁矿、黄铜矿等硫化物及石英、绢云母等共生，常为矿化指示矿物"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "常见金属矿物（硫化物）",
+"paragenesis": "与黄铁矿、毒砂等共同产出于热液脉体或围岩浸染中"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "中—低温热液成矿流体",
+"attributes": {
+"nature": "中—低温热液",
+"source": "认为成矿热动力主要来自华力西期后火山活动及周边岩浆侵入后期的残余热液"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "哈什克木巴依金矿床位于西准噶尔地区哈图断裂带中段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "受…控制",
+"description": "哈什克木巴依金矿床严格受北东东向哈图断裂控制，矿体产于断裂下盘及其下盘次级断裂裂隙带中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "Au3矿带（矿体）主要赋存于F1断裂挤压破碎带中及两侧附近"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "哈什克木巴依金矿床直接赋矿围岩主要为碎裂蚀变沉火山尘凝灰岩和不等粒岩屑砂岩等（含碳酸盐化凝灰质细-粉砂岩夹泥硅质岩）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E6",
+"relation_label_zh": "属于",
+"description": "矿床容矿围岩主要归属下石炭统希贝库拉斯组（C1x）含矿地层"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "蚀变矿化带呈带状分布，以硅化为主要特征之一"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "蚀变矿化带以碳酸盐化为主要特征之一，围岩碳酸盐化可作为间接找矿标志"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "蚀变矿化带普遍见黄铁矿化，且与金矿化关系密切，可作为直接找矿标志"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "蚀变矿化带以毒砂化为主要特征之一，矿体向下总体显示毒砂化等矿化特征"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物包括黄铁矿等热液矿物"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物包括毒砂等热液矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "矿石矿物包括黄铜矿等热液矿物"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "哈什克木巴依金矿床为中—低温热液成矿系统，成矿热动力来源于华力西期后火山活动及周边岩浆侵入后期的残余热液"
+}
+]
+}

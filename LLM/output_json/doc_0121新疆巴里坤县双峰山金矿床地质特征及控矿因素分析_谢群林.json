@@ -1,0 +1,19 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0121",
+"title": "新疆巴里坤县双峰山金矿床地质特征及控矿因素分析",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "双峰山金矿床",
+"attributes": {
+"name": "双峰山金矿床",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "火山热液活动是最为主要的控矿因素，构造因素对矿体的形成及分布也有较大影响"
+}
+}
+],
+"relations": []
+}

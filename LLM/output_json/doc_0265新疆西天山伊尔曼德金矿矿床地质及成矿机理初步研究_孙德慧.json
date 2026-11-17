@@ -1,0 +1,308 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0265",
+"title": "新疆西天山伊尔曼德金矿矿床地质及成矿机理初步研究_孙德慧",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "伊尔曼德金矿床",
+"attributes": {
+"name": "伊尔曼德金矿床",
+"location": "新疆伊宁县吐拉苏盆地西北缘",
+"tectonic_position": "西天山吐拉苏火山-沉积盆地构造环境，不整合界面附近",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_grade": "平均0.88 g/t，最高15.6 g/t",
+"ore_control_features": "矿体位于奥陶系灰岩与中上泥盆统火山-沉积岩之间不整合面附近，受不整合面与断裂（F2、F8等）共同控制；矿体面状分布，厚度2~145 m（平均约35 m）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "吐拉苏盆地",
+"attributes": {
+"name": "吐拉苏盆地",
+"level": "盆地",
+"tectonic_setting": "西北天山火山-沉积盆地，受NW向及近南北向断裂控制火山-沉积岩分布"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "西天山",
+"attributes": {
+"name": "西天山",
+"level": "构造带",
+"tectonic_setting": "造山带构造单元，吐拉苏盆地位于其内部"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变凝灰岩—岩屑凝灰岩—凝灰质砂岩围岩组合",
+"attributes": {
+"name": "蚀变凝灰岩—岩屑凝灰岩—凝灰质砂岩围岩组合"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中上泥盆统火山-沉积岩",
+"attributes": {
+"name": "中上泥盆统火山-沉积岩",
+"age": "中上泥盆世",
+"dominant_lithology": "火山-沉积岩",
+"lithology_notes": "包含凝灰岩、岩屑凝灰岩、凝灰质砂岩等，与不整合界面共同控矿"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "StratUnit",
+"name_zh": "奥陶系灰岩",
+"attributes": {
+"name": "奥陶系灰岩",
+"age": "奥陶纪",
+"dominant_lithology": "灰岩",
+"lithology_notes": "与中上泥盆统火山-沉积岩之间形成不整合界面，矿体位于该不整合附近"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "F2断裂",
+"attributes": {
+"name": "F2断裂",
+"structure_type": "逆断层",
+"orientation": "NW走向，倾角70°~80°",
+"scale": "矿区级",
+"ore_control_role": "矿区内规模最大断裂，控制矿体展布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "F8断裂",
+"attributes": {
+"name": "F8断裂",
+"structure_type": "逆断层",
+"orientation": "NE走向，倾角约50°",
+"scale": "矿区级",
+"ore_control_role": "错断矿体，影响矿体连续性"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英（伴随迪开石、高岭石等）",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "高级泥化蚀变",
+"attributes": {
+"name": "高级泥化蚀变",
+"alteration_minerals": "迪开石、高岭石、白云母（绢云母）、伊利石、重晶石、石英及硫化物",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "最重要的载金矿物",
+"paragenesis": "阶段I形成浸染状黄铁矿，阶段II出现脉状黄铁矿并与白铁矿共生胶结角砾"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "白铁矿",
+"attributes": {
+"name": "白铁矿",
+"role_in_ore": "重要载金矿物之一，与黄铁矿共同形成含金硫化物胶结物",
+"paragenesis": "阶段II形成黄铁矿-白铁矿脉及白铁矿脉体，常位于石英脉与角砾边缘"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "重晶石",
+"attributes": {
+"name": "重晶石",
+"role_in_ore": "晚期脉体矿物，反映成矿流体演化后期",
+"paragenesis": "阶段III形成重晶石-方解石脉，切穿早期热液角砾岩与硫化物阶段产物"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Fluid",
+"name_zh": "伊尔曼德成矿流体",
+"attributes": {
+"nature": "浅成低温热液流体，经历沸腾并由强酸性向弱碱性演化",
+"source": "以岩浆水为主，混入大气降水",
+"temperature_C_min": "85",
+"temperature_C_max": "300"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "硫化物δ34S为-5‰~10‰；重晶石δ34S为16‰~17‰"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD、δ18O",
+"value_range": "流体δD为-61.3‰~-94‰；石英δ18O为11.81‰~21.6‰；180℃时与石英平衡流体δ18O为-1.16‰~8.63‰"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "IntrusiveBody",
+"name_zh": "狮子山安山玢岩岩株",
+"attributes": {
+"name": "狮子山安山玢岩岩株",
+"rock_type": "安山玢岩",
+"relationship_to_ore": "侵入火山-沉积地层，位于矿区范围内，与矿床赋存的火山-沉积岩共同构成矿区地质背景"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "伊尔曼德金矿位于吐拉苏盆地西北缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "吐拉苏盆地位于西天山构造带内，伊尔曼德金矿处于西天山区域构造背景中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "伊尔曼德金矿赋矿围岩为蚀变凝灰岩、岩屑凝灰岩和凝灰质砂岩等火山碎屑岩组合"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "矿体围岩的蚀变凝灰岩—岩屑凝灰岩—凝灰质砂岩组合属于中上泥盆统火山-沉积岩地层"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "伊尔曼德金矿矿体受F2逆断层控制，矿体水平投影显示沿断裂展布"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "F8逆断层错断矿体，对矿体连续性具有控制作用"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "伊尔曼德金矿蚀变带发育硅化，富矿体主要分布在硅化带及其附近"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "伊尔曼德金矿发育高级泥化蚀变带，富矿体主要分布在高级泥化带与硅化带中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要金矿物为",
+"description": "伊尔曼德金矿最重要的载金矿物为黄铁矿，阶段II为主要成矿阶段并大量结晶黄铁矿"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "伊尔曼德金矿阶段II发育黄铁矿-白铁矿脉及含石英的黄铁矿-白铁矿脉，白铁矿与黄铁矿共生"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "伊尔曼德金矿晚期阶段形成重晶石-方解石脉，重晶石为阶段III的重要矿物"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "对应成矿流体为",
+"description": "伊尔曼德金矿成矿过程对应浅成低温热液流体演化，经历沸腾并由强酸性向弱碱性转变"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素显示硫化物与硫酸盐存在分馏特征，为成矿流体演化与酸性组分参与提供约束"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E16",
+"to_entity_local_id": "E14",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素计算与混合模拟表明成矿流体为岩浆水与大气降水混合，其中岩浆水所占比例较大"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E17",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "狮子山安山玢岩岩株侵入中上泥盆统火山-沉积地层中"
+}
+]
+}

@@ -1,0 +1,316 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0079",
+"title": "卡特巴阿苏金铜矿矿床地质及成矿背景",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "卡特巴阿苏金矿床",
+"attributes": {
+"name": "卡特巴阿苏金矿床",
+"location": "新疆西天山地区",
+"tectonic_position": "“亚洲金腰带”东段新疆西天山地区；侵入岩构造环境为岛弧环境",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "成矿岩体为二长花岗岩和闪长岩，分别对应两期岩浆期后热液成矿；矿区构造以断层破碎带及节理构造为主，那拉提北缘断裂南侧次一级北东东向断层破碎带控制矿带展布，成矿期节理构造系统提供赋矿空间；矿区围岩蚀变强烈，浅部发育钾长石化、硅化-绢云母化、绿泥石化、碳酸盐化、高岭土化等分带，深部接触带发育矽卡岩化；矽卡岩型铜金矿主要位于岩体与大理岩地层接触带矽卡岩中，破碎带蚀变岩型金铜矿主要位于二长花岗岩体破碎带中"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "亚洲金腰带东段",
+"attributes": {
+"name": "亚洲金腰带东段",
+"level": "成矿带",
+"tectonic_setting": "世界级成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "新疆西天山地区",
+"attributes": {
+"name": "新疆西天山地区",
+"level": "区域",
+"tectonic_setting": "岛弧环境"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "IntrusiveBody",
+"name_zh": "二长花岗岩",
+"attributes": {
+"name": "二长花岗岩",
+"rock_type": "二长花岗岩",
+"relationship_to_ore": "与二长花岗岩岩浆期后热液作用有关的以金矿化为主的成矿作用，成矿地质体为二长花岗岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长岩",
+"attributes": {
+"name": "闪长岩",
+"rock_type": "闪长岩",
+"relationship_to_ore": "与闪长质岩浆期后热液作用有关的金、铜矿化作用，成矿地质体为闪长岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "那拉提北缘断裂",
+"attributes": {
+"name": "那拉提北缘断裂",
+"structure_type": "断裂",
+"ore_control_role": "其南侧发育次一级断层破碎带并控制矿带展布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "北东东向断层破碎带",
+"attributes": {
+"name": "北东东向断层破碎带",
+"structure_type": "断层破碎带",
+"orientation": "北东东向",
+"scale": "次一级",
+"ore_control_role": "控制矿带展布"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "成矿期节理构造系统",
+"attributes": {
+"name": "成矿期节理构造系统",
+"structure_type": "节理构造系统",
+"ore_control_role": "破碎带角砾间空隙及两侧共轭剪切节理为早期成矿作用主要赋矿空间"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "蚀变二长花岗岩",
+"attributes": {
+"name": "蚀变二长花岗岩"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "HostRockUnit",
+"name_zh": "二长花岗岩体破碎带",
+"attributes": {
+"name": "二长花岗岩体破碎带"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "HostRockUnit",
+"name_zh": "岩体与大理岩地层接触带矽卡岩",
+"attributes": {
+"name": "岩体与大理岩地层接触带矽卡岩"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "StratUnit",
+"name_zh": "大理岩地层",
+"attributes": {
+"name": "大理岩地层",
+"dominant_lithology": "大理岩"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "钾长石化",
+"attributes": {
+"name": "钾长石化",
+"alteration_minerals": "钾长石",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "硅化-绢云母化",
+"attributes": {
+"name": "硅化-绢云母化",
+"alteration_minerals": "石英、绢云母",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "碳酸盐矿物",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "高岭土化",
+"attributes": {
+"name": "高岭土化",
+"alteration_minerals": "高岭土",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Alteration",
+"name_zh": "矽卡岩化",
+"attributes": {
+"name": "矽卡岩化",
+"alteration_minerals": "石榴石、透辉石、透闪石-阳起石、绿帘石",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Fluid",
+"name_zh": "岩浆期后热液",
+"attributes": {
+"nature": "岩浆期后热液",
+"source": "二长花岗岩与闪长岩岩浆期后热液作用"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于“亚洲金腰带”东段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "卡特巴阿苏金铜矿床位于新疆西天山地区"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "那拉提北缘断裂南侧次一级北东东向断层破碎带控制卡特巴阿苏矿带的展布"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "成矿期节理构造系统中破碎带角砾间空隙及两侧共轭剪切节理为早期成矿作用主要赋矿空间"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "赋存于",
+"description": "矿区浅部矿体及围岩蚀变与蚀变二长花岗岩密切相关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "赋存于",
+"description": "破碎带蚀变岩型金铜矿主要分布于二长花岗岩体破碎带中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "赋存于",
+"description": "矽卡岩型铜金矿主要分布于岩体与大理岩地层接触带的矽卡岩中"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E12",
+"relation_label_zh": "属于",
+"description": "接触带矽卡岩发育于岩体与大理岩地层的接触带部位"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区浅部从矿体中心到两侧发育钾长石化蚀变分带"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区浅部从矿体中心到两侧发育硅化-绢云母化蚀变分带"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区浅部从矿体中心到两侧发育绿泥石化蚀变分带"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区浅部从矿体中心到两侧发育碳酸盐化蚀变分带"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区浅部从矿体中心到两侧发育高岭土化蚀变分带"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区西段深部岩体与大理岩接触带发育矽卡岩化蚀变"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "对应成矿流体为",
+"description": "卡特巴阿苏金铜矿床前两期热液蚀变和矿化与二长花岗岩及闪长岩岩浆期后热液作用有关"
+}
+]
+}

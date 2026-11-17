@@ -1,0 +1,206 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0236",
+"title": "新疆东天山康古尔金矿的两期热液成矿作用：来自年代学、地球化学的证据_李卫",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "康古尔金矿床",
+"attributes": {
+"name": "康古尔金矿床",
+"location": "新疆东天山康古尔塔格金矿带",
+"tectonic_position": "塔里木板块北部康古尔—阿齐克库都克碰撞缝合带北带（秋格明塔什—黄山韧性剪切带）与南带（阿齐山—雅满苏带）接合部位西段",
+"deposit_type": "造山型金矿床",
+"ore_grade": "约8.82～10.96 g/t（主要矿脉平均品位）",
+"ore_control_features": "矿床受脆—韧性剪切带控制，热液成矿作用具有多期多阶段特点；矿体赋存于下石炭统雅满苏组地层中，含矿岩石主要为安山岩、英安岩、安山质凝灰岩等；矿化蚀变分带与磁铁矿化带、硅化带、黄铁矿化带、绿泥石矿化带等对应",
+"age_ma": "290.4Ma～282.3Ma；263.8Ma～241Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "康古尔塔格金矿带",
+"attributes": {
+"name": "康古尔塔格金矿带",
+"level": "金矿带",
+"tectonic_setting": "东天山地区典型金成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统雅满苏组",
+"attributes": {
+"name": "下石炭统雅满苏组",
+"age": "下石炭世",
+"dominant_lithology": "浅海相火山碎屑岩、火山岩建造",
+"lithology_notes": "矿体赋存于该地层中，含矿岩石以安山岩、英安岩、安山质凝灰岩等为主"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "雅满苏组含矿火山岩—火山碎屑岩（安山岩、英安岩、安山质凝灰岩等）",
+"attributes": {
+"name": "雅满苏组含矿火山岩—火山碎屑岩（安山岩、英安岩、安山质凝灰岩等）"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "脆—韧性剪切带",
+"attributes": {
+"name": "脆—韧性剪切带",
+"structure_type": "脆—韧性剪切带",
+"scale": "矿区—区域性",
+"ore_control_role": "控制康古尔金矿床矿体产出与热液成矿作用的期次与阶段"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "秋格明塔什—黄山韧性剪切带",
+"attributes": {
+"name": "秋格明塔什—黄山韧性剪切带",
+"structure_type": "韧性剪切带",
+"scale": "区域性",
+"ore_control_role": "晚期右行走滑剪切作用与康古尔金矿第二期热液成矿作用时间强烈吻合"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "磁铁矿化—硅化—黄铁矿化—绿泥石化（分带明显）",
+"attributes": {
+"name": "磁铁矿化—硅化—黄铁矿化—绿泥石化（分带明显）",
+"alteration_minerals": "磁铁矿、石英、黄铁矿、绿泥石",
+"intensity": "矿化蚀变分带突出"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物，与多阶段金矿化密切相关",
+"paragenesis": "与绢云母、石英共生，并与磁铁矿、绿泥石及多金属硫化物等阶段性伴生"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "磁铁矿",
+"attributes": {
+"name": "磁铁矿",
+"role_in_ore": "重要矿化蚀变矿物，与含金蚀变带对应",
+"paragenesis": "与绿泥石、黄铁矿、石英等共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "中低温中等盐度成矿热液",
+"attributes": {
+"nature": "中低温热液",
+"temperature_C_min": "90.2",
+"temperature_C_max": "411.8",
+"salinity_wtNaCl_min": "0.4",
+"salinity_wtNaCl_max": "21.5"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Geochem",
+"name_zh": "元素垂向分带序列与前缘晕元素反分带",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "垂向分带序列由浅到深为Hg-Pb-Zn-(Bi、Co、Mo)-(Au、Mn)-(As、Sb)-Ag-Cd-W-V-Cu；As、Sb等前缘晕元素出现在序列中间或下部，呈明显反分带，指示成矿叠加"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "康古尔金矿床位于康古尔塔格金矿带内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床受脆—韧性剪切带控制"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "康古尔金矿床第二期热液成矿作用与秋格明塔什—黄山韧性剪切带后期走滑剪切作用时间强烈吻合"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "康古尔金矿床矿体赋存于雅满苏组含矿火山岩—火山碎屑岩中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "雅满苏组含矿火山岩—火山碎屑岩属于下石炭统雅满苏组地层"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "康古尔金矿床矿化蚀变分带与磁铁矿化带、硅化带、黄铁矿化带、绿泥石矿化带等叠加蚀变相对应"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床多阶段成矿过程中普遍发育黄铁矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "康古尔金矿床含金蚀变带与磁铁矿化带对应，磁铁矿为重要矿化蚀变矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "对应成矿流体为",
+"description": "康古尔金矿床成矿热液流体包裹体均一温度总体为90.2℃～411.8℃，盐度为0.4%～21.5%（NaCleqv），表现为中低温、中等盐度特征"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "显示",
+"description": "康古尔金矿床元素垂向分带序列中As、Sb等前缘晕元素出现于中间或下部并呈反分带，指示至少两期热液成矿作用叠加"
+}
+]
+}

@@ -1,0 +1,562 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0175",
+"title": "新疆哈密市野马泉西金矿床地质特征及找矿标志",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "野马泉西金矿床",
+"attributes": {
+"name": "野马泉西金矿床",
+"location": "新疆哈密市双井子乡",
+"tectonic_position": "塔里木板块与准噶尔板块碰撞对接缝合带内，康古尔塔格深大断裂以南、衣格孜塔格—红柳河大断裂以北",
+"deposit_type": "造山型金矿床",
+"ore_grade": "1×10⁻⁶～109×10⁻⁶",
+"resource_tonnage": "探求Au333+334金属量5.86吨，远景资源量大于20吨",
+"ore_control_features": "位于阿齐山—雅满苏铁铜金成矿带东段北部苦水断裂带上；矿体主要产于韧性剪切带内并受北东向断裂F1、F2控制，金矿体群呈网格状断裂交汇区更易破碎充填；目前已发现12条金矿体、23条金矿化体，局部矿体长约160米、厚1～20米；围岩蚀变以硅化、黄铁矿化为主，断裂张裂隙多被石英脉充填"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "阿齐山—雅满苏铁铜金成矿带",
+"attributes": {
+"name": "阿齐山—雅满苏铁铜金成矿带",
+"level": "成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "康古尔韧性剪切金矿带",
+"attributes": {
+"name": "康古尔韧性剪切金矿带",
+"level": "成矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "塔里木—准噶尔碰撞对接缝合带",
+"attributes": {
+"name": "塔里木—准噶尔碰撞对接缝合带",
+"level": "缝合带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统",
+"attributes": {
+"name": "下石炭统",
+"age": "下石炭世",
+"lithology_notes": "矿区华力西中期多期侵入岩侵入于下石炭统"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "韧性剪切带内破碎蚀变岩",
+"attributes": {
+"name": "韧性剪切带内破碎蚀变岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "石英闪长岩",
+"attributes": {
+"name": "石英闪长岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "中粗粒花岗闪长岩（γδ₄²）",
+"attributes": {
+"name": "中粗粒花岗闪长岩（γδ₄²）",
+"rock_type": "花岗闪长岩",
+"age": "华力西中期",
+"relationship_to_ore": "分布于矿区北部，侵入于下石炭统"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长岩（δ₄²）",
+"attributes": {
+"name": "闪长岩（δ₄²）",
+"rock_type": "闪长岩",
+"age": "华力西中期",
+"relationship_to_ore": "分布于矿区中部偏南，侵入于下石炭统，接触带围岩蚀变以硅化、绿帘石化为主"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "IntrusiveBody",
+"name_zh": "钾长花岗岩（εγ₄²）",
+"attributes": {
+"name": "钾长花岗岩（εγ₄²）",
+"rock_type": "钾长花岗岩",
+"age": "华力西中期",
+"relationship_to_ore": "分布于矿区最南部，侵入于闪长岩中"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英闪长岩（δo）",
+"attributes": {
+"name": "石英闪长岩（δo）",
+"rock_type": "石英闪长岩",
+"age": "华力西中期",
+"relationship_to_ore": "为矿区38号主矿体的赋矿岩性之一"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "苦水断裂（F3）",
+"attributes": {
+"name": "苦水断裂（F3）",
+"structure_type": "逆断层",
+"orientation": "NE向，走向60°～70°，倾角70°～85°，北倾",
+"scale": "地表出露超过10千米",
+"ore_control_role": "向东横贯整个矿区，为主断裂与主要控矿构造之一"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Structure",
+"name_zh": "断裂（F1）",
+"attributes": {
+"name": "断裂（F1）",
+"structure_type": "次级断裂",
+"scale": "矿区两侧斜交主断裂的次级断裂之一",
+"ore_control_role": "与F2共同控制北东向韧性剪切带展布，金矿体多分布于与主构造方向近一致的裂隙组中"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Structure",
+"name_zh": "断裂（F2）",
+"attributes": {
+"name": "断裂（F2）",
+"structure_type": "次级断裂",
+"scale": "矿区两侧斜交主断裂的次级断裂之一",
+"ore_control_role": "与F1共同控制北东向韧性剪切带展布，金矿体多分布于与主构造方向近一致的裂隙组中"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Structure",
+"name_zh": "野马泉西韧性剪切带",
+"attributes": {
+"name": "野马泉西韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "北东向，走向60°～70°",
+"ore_control_role": "主要受北东向断裂F1、F2控制，金矿体多产于剪切带内并沿裂隙带集中分布"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "强烈"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Alteration",
+"name_zh": "碳酸盐化",
+"attributes": {
+"name": "碳酸盐化",
+"alteration_minerals": "方解石",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Alteration",
+"name_zh": "绿帘石化",
+"attributes": {
+"name": "绿帘石化",
+"alteration_minerals": "绿帘石",
+"intensity": "接触带常见"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金矿物",
+"paragenesis": "多以粒状分布于石英颗粒间，部分与褐铁矿、黄铁矿、石英连生"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "与硅化体共同引起激电异常，为金富集的重要因素之一"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "断裂张裂隙中多被石英脉充填，明金多见于石英相对富集部位"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "伴生金属矿物",
+"paragenesis": "矿石金属矿物之一，部分自然金少量赋存在黄铜矿中"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Fluid",
+"name_zh": "野马泉西金矿成矿流体",
+"attributes": {
+"nature": "低盐度CO₂—CH₄—N₂—H₂O流体",
+"source": "韧性剪切带晚期成矿阶段流体",
+"temperature_C_min": "220",
+"temperature_C_max": "400",
+"salinity_wtNaCl_max": "5"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Geophysics",
+"name_zh": "北东向正负磁场梯度带",
+"attributes": {
+"anomaly_type": "磁场梯度带",
+"amplitude": "0～100 nT",
+"spatial_pattern": "呈狭长条带状，与主矿体展布及区域航磁梯度带一致"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Geophysics",
+"name_zh": "激电中高阻中极化异常",
+"attributes": {
+"anomaly_type": "激电异常",
+"amplitude": "极化率2%～4%，电阻率600～1000 Ω·m",
+"spatial_pattern": "与韧性剪切带对应的异常以中高阻中极化为主"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Geochem",
+"name_zh": "金（Au）化探异常",
+"attributes": {
+"element": "金（Au）",
+"value_ppm": "32.9×10⁻⁹",
+"anomaly_pattern": "矿区位于AR-2号综合异常带内（W—As—Sb—Au—Mo组合），Au极大值为32.9×10⁻⁹；矿区异常与韧性剪切带出露范围一致，主要元素组合含Au—As—Sb—Ag"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Geochem",
+"name_zh": "砷（As）化探异常",
+"attributes": {
+"element": "砷（As）",
+"value_ppm": "161×10⁻⁶",
+"anomaly_pattern": "矿区位于AR-2号综合异常带内，As极大值为161×10⁻⁶；As等前缘元素晕由浅到深一直发育"
+}
+},
+{
+"entity_local_id": "E30",
+"entity_type": "Geochem",
+"name_zh": "锑（Sb）化探异常",
+"attributes": {
+"element": "锑（Sb）",
+"value_ppm": "17.69×10⁻⁶",
+"anomaly_pattern": "矿区位于AR-2号综合异常带内，Sb极大值为17.69×10⁻⁶；Sb等前缘元素晕由浅到深一直发育"
+}
+},
+{
+"entity_local_id": "E31",
+"entity_type": "Geochem",
+"name_zh": "钼（Mo）化探异常",
+"attributes": {
+"element": "钼（Mo）",
+"value_ppm": "28.97×10⁻⁶",
+"anomaly_pattern": "矿区位于AR-2号综合异常带内，Mo极大值为28.97×10⁻⁶"
+}
+},
+{
+"entity_local_id": "E32",
+"entity_type": "Geochem",
+"name_zh": "钨（W）化探异常",
+"attributes": {
+"element": "钨（W）",
+"value_ppm": "161.1×10⁻⁶",
+"anomaly_pattern": "矿区位于AR-2号综合异常带内，W极大值为161.1×10⁻⁶"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "野马泉西金矿床位于阿齐山—雅满苏铁铜金成矿带东段北部"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "隶属于",
+"description": "野马泉西金矿床为康古尔韧性剪切金矿带的东延新发现矿床"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "野马泉西金矿床位于塔里木—准噶尔碰撞对接缝合带内"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "受…控制",
+"description": "苦水断裂（F3）横贯矿区并作为主断裂，控制矿区构造格局与矿化空间"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "受…控制",
+"description": "野马泉西金矿体群主要产于韧性剪切带内，剪切带走向60°～70°并受F1、F2控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "受…控制",
+"description": "断裂（F1）与韧性剪切带相关，金矿体多分布于与主构造方向近一致的裂隙组中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "受…控制",
+"description": "断裂（F2）与韧性剪切带相关，金矿体多分布于与主构造方向近一致的裂隙组中"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "野马泉西金矿床矿体多产于韧性剪切带内的破碎蚀变岩中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "矿区第三侵入次中的石英闪长岩为38号主矿体的赋矿岩性"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "中粗粒花岗闪长岩（γδ₄²）侵入于下石炭统"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "闪长岩（δ₄²）侵入于下石炭统"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区断裂张裂隙石英脉充填发育，硅化强烈并与金矿化密切相关"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要蚀变为",
+"description": "矿区黄铁矿化强烈，黄铁矿与硅化体共同促进金富集"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "伴随有",
+"description": "矿区围岩蚀变发育，碳酸盐化为常见蚀变类型之一"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "伴随有",
+"description": "矿区围岩蚀变发育，绢云母化在矿化带中常见"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "伴随有",
+"description": "闪长岩侵入接触带围岩蚀变以硅化、绿帘石化为主"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "主要金矿物为",
+"description": "野马泉西金矿床金属矿物包含自然金，明金多以粒状产出并与石英、黄铁矿等共生"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "野马泉西金矿床常见黄铁矿，黄铁矿与硅化体为造成金富集的重要因素"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "野马泉西金矿床脉石矿物以石英为主，断裂裂隙多被石英脉充填"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "共生矿物包括",
+"description": "野马泉西金矿床伴生矿物包含黄铜矿，少量自然金可赋存在黄铜矿中"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "含金石英脉流体包裹体气相富CO₂，并含CH₄、N₂等，为韧性剪切带晚期成矿阶段低盐度流体特征"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "显示",
+"description": "主矿体产于北东向正负磁场梯度带内，磁场强度为0～100 nT并呈狭长条带状"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Geophysics",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "显示",
+"description": "激电测量显示与韧性剪切带对应异常为中高阻中极化，极化率2%～4%、电阻率600～1000 Ω·m"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E28",
+"relation_label_zh": "显示",
+"description": "矿区位于AR-2号综合异常带内并出现Au异常极大值32.9×10⁻⁹，异常与韧性剪切带范围一致"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E29",
+"relation_label_zh": "显示",
+"description": "矿区位于AR-2号综合异常带内并出现As异常极大值161×10⁻⁶，As前缘元素晕由浅到深一直发育"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E30",
+"relation_label_zh": "显示",
+"description": "矿区位于AR-2号综合异常带内并出现Sb异常极大值17.69×10⁻⁶，Sb前缘元素晕由浅到深一直发育"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E31",
+"relation_label_zh": "显示",
+"description": "矿区位于AR-2号综合异常带内并出现Mo异常极大值28.97×10⁻⁶"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E32",
+"relation_label_zh": "显示",
+"description": "矿区位于AR-2号综合异常带内并出现W异常极大值161.1×10⁻⁶"
+}
+]
+}

@@ -1,0 +1,294 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0277",
+"title": "阔尔真阔腊浅成低温热液金矿床成矿作用与成矿模式初探_廖启林",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔尔真阔腊金矿床",
+"attributes": {
+"name": "阔尔真阔腊金矿床",
+"location": "新疆北部阿尔泰地区吉木乃县萨吾尔山北坡",
+"tectonic_position": "中亚期地洼区之准噶尔地洼区西准噶尔地穹系萨吾尔地穹列",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿床空间上主要受隐爆角砾岩筒的次火山机构及钠长斑岩脉的联合控制；矿体以脉状为主，多具分支复合、膨胀收缩和追踪张裂等特征；矿化蚀变分带由硫酸盐带、硫化物带、碳酸盐带组成，已发现的金矿体主要集中在硫酸盐带和硫化物带中",
+"age_ma": "216.4±99Ma（热液矿物Rb-Sr等时线年龄）；8.3±0.6Ma（明矾石K-Ar年龄）；地质现象推断矿床形成晚于隐爆角砾岩筒（281Ma）及钠长斑岩（240Ma），主要热液活动期较接近钠长斑岩"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "萨吾尔地穹列",
+"attributes": {
+"name": "萨吾尔地穹列",
+"level": "地穹列",
+"tectonic_setting": "准噶尔地洼区西准噶尔地穹系组成部分（中亚期地洼区）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统萨吾尔组",
+"attributes": {
+"name": "中泥盆统萨吾尔组",
+"age": "中泥盆统",
+"dominant_lithology": "富钠质安山岩建造",
+"lithology_notes": "主要岩性包括海相火山喷发形成的灰绿色安山岩与安山玢岩、晶屑凝灰岩及热水沉积的暗色硅质岩等"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "富钠质安山岩建造",
+"attributes": {
+"name": "富钠质安山岩建造"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "IntrusiveBody",
+"name_zh": "中性侵入—次火山杂岩体（闪长岩—钠长斑岩等）",
+"attributes": {
+"name": "中性侵入—次火山杂岩体（闪长岩—钠长斑岩等）",
+"rock_type": "闪长岩、次火山岩（以玄武—安山玢岩为主）、钠长斑岩、钾化闪长玢岩等",
+"age": "晚古生代—中生代（隐爆角砾岩筒281Ma，钠长斑岩240Ma）",
+"relationship_to_ore": "侵位于萨吾尔组火山岩建造中并受构造控制；矿床在空间上受隐爆角砾岩筒次火山机构与钠长斑岩脉联合控制"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "隐爆角砾岩筒次火山机构",
+"attributes": {
+"name": "隐爆角砾岩筒次火山机构",
+"structure_type": "隐爆角砾岩筒/次火山机构",
+"scale": "矿区级",
+"ore_control_role": "与钠长斑岩脉共同控制矿床空间展布与矿化带发育"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硫酸盐化",
+"attributes": {
+"name": "硫酸盐化",
+"alteration_minerals": "钠铁矾、黄钾铁矾、明矾及少量石英",
+"intensity": "浅表发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硫化物化",
+"attributes": {
+"name": "硫化物化",
+"alteration_minerals": "黄铜矿、黄铁矿、磁黄铁矿等（并伴随方解石、石英、蒙脱石、伊利石、水白云母等）",
+"intensity": "由浅部向深部发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "硫化物带主要硫化物矿物之一",
+"paragenesis": "与黄铜矿、磁黄铁矿等共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "硫化物带主要硫化物矿物之一",
+"paragenesis": "与黄铁矿、磁黄铁矿等共生"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "钠铁矾—黄钾铁矾—明矾",
+"attributes": {
+"name": "钠铁矾—黄钾铁矾—明矾",
+"role_in_ore": "硫酸盐带主要矿物组合",
+"paragenesis": "与少量石英共生，构成浅表硫酸盐带矿化蚀变组合"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Fluid",
+"name_zh": "低温热液成矿流体",
+"attributes": {
+"nature": "低温热液成矿流体",
+"source": "大气降水与岩浆水的混合热液",
+"temperature_C_min": "85",
+"temperature_C_max": "301"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢-氧同位素",
+"parameter_name": "δD水、δO水",
+"value_range": "δD水（×10^-3）=（－101.8～－67）×10^-3；δO水（×10^-3）=0.97～4.08（×10^-3）"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（CDT）",
+"value_range": "（＋1.56～＋3.50）×10^-3"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "铷锶同位素参数",
+"attributes": {
+"system": "Rb-Sr同位素",
+"parameter_name": "Rb-Sr等时线年龄与初始(87Sr/86Sr)i",
+"value_range": "等时线年龄216.4±99Ma；(87Sr/86Sr)i=0.70706±0.00231"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "Au等亲硫元素富集特征",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "矿田区为极富Au、Ag、As、Sb、Pb、Zn等亲硫元素的区段，Au、Ag、As、Sb等元素平均含量为阿尔泰地区区域丰度值的4～6倍"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔尔真阔腊金矿床位于准噶尔地洼区西准噶尔地穹系萨吾尔地穹列"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "阔尔真阔腊金矿床产于富钠质安山岩建造中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "富钠质安山岩建造属于中泥盆统萨吾尔组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "侵入于",
+"description": "中性侵入—次火山杂岩体侵位于中泥盆统萨吾尔组火山岩建造中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "阔尔真阔腊金矿床在空间上主要受隐爆角砾岩筒次火山机构与钠长斑岩脉联合控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床浅表矿化蚀变分带发育硫酸盐带，以钠铁矾、黄钾铁矾、明矾等为主，金矿体主要集中于硫酸盐带与硫化物带"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床由浅部向深部出现硫化物带，发育黄铜矿、黄铁矿、磁黄铁矿等硫化物，金矿体主要集中于硫酸盐带与硫化物带"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "矿床硫化物带矿物组合包含黄铁矿等"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "矿床硫化物带矿物组合包含黄铜矿等"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "矿床浅表硫酸盐带主要矿物包括钠铁矾、黄钾铁矾、明矾等"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "对应成矿流体为",
+"description": "流体包裹体测温显示石英成矿温度137～301℃、方解石85～233℃，反映矿床为低温热液成矿流体作用"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "阔尔真阔腊金矿田区显示Au、Ag、As、Sb、Pb、Zn等亲硫元素富集特征"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E13",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "氢氧同位素组成表明成矿热液具大气降水与岩浆水混合热液特征"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S（CDT）为（＋1.56～＋3.50）×10^-3，指示硫来源相对较单一，主要与火山—次火山热液有关"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E12",
+"relation_label_zh": "约束该流体来源",
+"description": "Rb-Sr等时线年龄与(87Sr/86Sr)i值表明成矿物源与晚古生代容矿火山岩（萨吾尔组火山岩）存在联系，显示成矿物质来源具有多物质参与特征"
+}
+]
+}

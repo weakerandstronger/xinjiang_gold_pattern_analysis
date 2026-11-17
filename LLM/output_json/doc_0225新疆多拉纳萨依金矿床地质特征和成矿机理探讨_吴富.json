@@ -1,0 +1,297 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0225",
+"title": "新疆多拉纳萨依金矿床地质特征和成矿机理探讨_吴富",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "多拉纳萨依金矿床",
+"attributes": {
+"name": "多拉纳萨依金矿床",
+"location": "新疆哈巴河县",
+"tectonic_position": "西伯利亚古板块克兰岛弧带—额尔齐斯晚古生代弧后盆地西段，构造上位于玛尔卡库里深大断裂西南侧",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床产于阿克萨依向斜东翼多拉纳萨依韧性剪切带；剪切带经历韧性、韧脆性和脆性变形阶段，韧性与韧脆性阶段与金的富集和矿体形成密切相关，控制矿体形态与产状"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯晚古生代弧后盆地西段",
+"attributes": {
+"name": "额尔齐斯晚古生代弧后盆地西段",
+"level": "弧后盆地",
+"tectonic_setting": "西伯利亚古板块克兰岛弧带—额尔齐斯晚古生代弧后盆地体系西段"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托克萨雷组",
+"attributes": {
+"name": "中泥盆统托克萨雷组",
+"age": "中泥盆统",
+"dominant_lithology": "滨海—浅海相陆源碎屑岩—硅质岩—碳酸盐岩建造",
+"lithology_notes": "主要岩性包括粉砂岩、变硅质岩、绢英岩、千枚岩、长石石英砂岩、变粉砂岩、结晶灰岩及砂砾岩等"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "托克萨雷组碎屑岩—硅质岩—碳酸盐岩建造",
+"attributes": {
+"name": "托克萨雷组碎屑岩—硅质岩—碳酸盐岩建造"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "阿克萨依向斜",
+"attributes": {
+"name": "阿克萨依向斜",
+"structure_type": "向斜",
+"orientation": "近南北走向",
+"scale": "矿区级",
+"ore_control_role": "矿床位于其东翼，为矿床发育的构造背景"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "多拉纳萨依韧性剪切带",
+"attributes": {
+"name": "多拉纳萨依韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "近南北向，平面呈反S形，与向斜轴基本平行",
+"scale": "矿区级",
+"ore_control_role": "控矿主构造，控制金矿体形态、产状与富集部位"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "主要蚀变"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "主要蚀变"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "主要蚀变"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "主成矿期矿物组合的重要组成"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "主要金属矿物",
+"paragenesis": "与黄铁矿等共生，为主成矿期主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "早期至主成矿期均可出现，为金的主要载体之一"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Fluid",
+"name_zh": "多拉纳萨依金矿床成矿流体",
+"attributes": {
+"nature": "中低温、低盐度热液（以NaCl为主的水溶液体系），包裹体测温显示两次成矿作用特征",
+"source": "岩浆作用加热并淋滤富集地层中的成矿物质，后期受区域动力变质作用改造形成变质热液",
+"temperature_C_min": "140",
+"temperature_C_max": "260",
+"salinity_wtNaCl_min": "0.4",
+"salinity_wtNaCl_max": "8.3"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数（δ34S）",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S",
+"value_range": "-8.8‰～+1.4‰"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Isotope",
+"name_zh": "氧同位素参数（δ18O）",
+"attributes": {
+"system": "氧同位素",
+"parameter_name": "δ18O",
+"value_range": "10.3‰～23.69‰"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Geochem",
+"name_zh": "矿石典型元素组合",
+"attributes": {
+"element": "Au",
+"anomaly_pattern": "矿石典型元素组合为Au-As-Sb-Hg与Au-Ag-Te-W等，具有垂直分带模式并具找矿指示意义"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于额尔齐斯晚古生代弧后盆地西段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "多拉纳萨依金矿床赋存于中泥盆统托克萨雷组碎屑岩—硅质岩—碳酸盐岩建造中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "托克萨雷组碎屑岩—硅质岩—碳酸盐岩建造属于中泥盆统托克萨雷组"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床产于阿克萨依向斜东翼"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "多拉纳萨依金矿床受多拉纳萨依韧性剪切带控制，韧性与韧脆性变形阶段对金的富集和矿体形成密切相关"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "矿体及围岩蚀变主要为硅化"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "矿体及围岩蚀变主要为黄铁矿化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "矿体及围岩蚀变主要为绢云母化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "共生矿物包括",
+"description": "多拉纳萨依金矿床矿石金属矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "共生矿物包括",
+"description": "多拉纳萨依金矿床矿石金属矿物以毒砂为主"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "多拉纳萨依金矿床金矿物包括自然金"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "对应成矿流体为",
+"description": "包裹体测温显示成矿温度主要集中在140～195℃与230～260℃范围，盐度0.4%～8.3%"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E14",
+"to_entity_local_id": "E13",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素特征主要反映地下水与变质作用的影响，指示成矿流体以变质作用改造的地层流体特征为主"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E15",
+"to_entity_local_id": "E13",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素特征主要反映地下水与变质作用的特点，较少反映岩浆热液特征"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "显示",
+"description": "多拉纳萨依金矿床矿石具有Au等典型元素组合与垂直分带模式，可用于找矿指示"
+}
+]
+}

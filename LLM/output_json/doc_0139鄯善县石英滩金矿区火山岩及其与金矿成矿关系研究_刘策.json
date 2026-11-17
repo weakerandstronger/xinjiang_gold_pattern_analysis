@@ -1,0 +1,484 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0139",
+"title": "鄯善县石英滩金矿区火山岩及其与金矿成矿关系研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "石英滩金矿床",
+"attributes": {
+"name": "石英滩金矿床",
+"location": "新疆维吾尔自治区鄯善县境内",
+"tectonic_position": "哈萨克斯坦板块与塔里木板块碰撞带南侧，塔里木板块北缘活动带觉罗塔格岛弧带阿奇山岛弧，康古尔塔格深大断裂与雅满苏大断裂交汇处",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "严格受区域性深大断裂及旁侧次级断裂、断裂破碎带控制"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "觉罗塔格岛弧带（阿奇山岛弧）",
+"attributes": {
+"name": "觉罗塔格岛弧带（阿奇山岛弧）",
+"level": "岛弧带",
+"tectonic_setting": "塔里木板块北缘活动带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "哈萨克斯坦板块与塔里木板块碰撞带",
+"attributes": {
+"name": "哈萨克斯坦板块与塔里木板块碰撞带",
+"level": "碰撞带",
+"tectonic_setting": "板块碰撞构造环境"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "二叠系下统阿其克布拉克组",
+"attributes": {
+"name": "二叠系下统阿其克布拉克组",
+"age": "下二叠统",
+"dominant_lithology": "陆相中酸性火山岩",
+"lithology_notes": "过铝质，高钾钙碱性—钙碱性系列，具壳幔混容特征"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "阿其克布拉克组火山岩",
+"attributes": {
+"name": "阿其克布拉克组火山岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "康古尔塔格深大断裂",
+"attributes": {
+"name": "康古尔塔格深大断裂",
+"structure_type": "深大断裂",
+"scale": "区域性",
+"ore_control_role": "为成矿热液上升提供通道并控制矿体形成"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "雅满苏大断裂",
+"attributes": {
+"name": "雅满苏大断裂",
+"structure_type": "深大断裂",
+"scale": "区域性",
+"ore_control_role": "与康古尔塔格深大断裂交汇并共同控制矿体形成"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "冰长石化",
+"attributes": {
+"name": "冰长石化",
+"alteration_minerals": "冰长石"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "银金矿",
+"attributes": {
+"name": "银金矿",
+"role_in_ore": "金属矿物主要组成之一"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金属矿物主要组成之一"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金属矿物主要组成之一"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "冰长石",
+"attributes": {
+"name": "冰长石",
+"role_in_ore": "脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "绢云母",
+"attributes": {
+"name": "绢云母",
+"role_in_ore": "脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "玉髓",
+"attributes": {
+"name": "玉髓",
+"role_in_ore": "脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "萤石",
+"attributes": {
+"name": "萤石",
+"role_in_ore": "脉石矿物之一"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Fluid",
+"name_zh": "石英滩成矿热液",
+"attributes": {
+"nature": "浅成低温热液",
+"source": "岩浆水与大气降水混合，以大气降水为主",
+"temperature_C_min": "108.4",
+"temperature_C_max": "190.5",
+"pressure_MPa_min": "10",
+"pressure_MPa_max": "35",
+"salinity_wtNaCl_min": "9.18",
+"salinity_wtNaCl_max": "19.24"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Isotope",
+"name_zh": "锶同位素参数",
+"attributes": {
+"system": "锶同位素",
+"parameter_name": "87Sr/86Sr",
+"value_range": "0.7039～0.7074"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Isotope",
+"name_zh": "氢氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O、δD",
+"value_range": "δ18O为−5.86‰～13.73‰；δD为−81.70‰～−95.00‰"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Geochem",
+"name_zh": "锶元素地球化学",
+"attributes": {
+"element": "Sr",
+"value_ppm": "330 ppm",
+"anomaly_pattern": "明显正异常，相对富集"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Geochem",
+"name_zh": "铷元素地球化学",
+"attributes": {
+"element": "Rb",
+"value_ppm": "59 ppm",
+"anomaly_pattern": "相对富集"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Geochem",
+"name_zh": "钡元素地球化学",
+"attributes": {
+"element": "Ba",
+"value_ppm": "363 ppm",
+"anomaly_pattern": "相对富集"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Geochem",
+"name_zh": "铌元素地球化学",
+"attributes": {
+"element": "Nb",
+"value_ppm": "11 ppm",
+"anomaly_pattern": "明显负异常，相对亏损"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Geochem",
+"name_zh": "锆元素地球化学",
+"attributes": {
+"element": "Zr",
+"value_ppm": "272 ppm",
+"anomaly_pattern": "明显正异常，相对富集"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "石英滩金矿床位于塔里木板块北缘活动带觉罗塔格岛弧带（阿奇山岛弧）"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "石英滩金矿床位于哈萨克斯坦板块与塔里木板块碰撞带南侧"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "石英滩金矿床赋存于阿其克布拉克组火山岩中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "阿其克布拉克组火山岩属于二叠系下统阿其克布拉克组"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "石英滩金矿床受康古尔塔格深大断裂控制并位于其与雅满苏大断裂的汇合部位"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "石英滩金矿床受雅满苏大断裂控制并与区域性深大断裂旁侧次级断裂有关"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "石英滩金矿床围岩蚀变主要包括硅化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "石英滩金矿床围岩蚀变主要包括绢云母化"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "石英滩金矿床围岩蚀变主要包括绿泥石化"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "石英滩金矿床围岩蚀变主要包括冰长石化"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要金矿物为",
+"description": "石英滩金矿床金属矿物主要包括银金矿"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床金属矿物主要包括自然金"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床金属矿物主要包括黄铁矿"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床脉石矿物包括石英"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床脉石矿物包括冰长石"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床脉石矿物包括绢云母"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床脉石矿物包括玉髓"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "石英滩金矿床脉石矿物包括萤石"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "石英滩金矿床主成矿阶段成矿流体为浅成低温热液，来源为岩浆水与大气降水混合且以大气降水为主"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E21",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "87Sr/86Sr同位素数据表明成矿物质与容矿火山岩及相关岩浆作用具有成因联系，从而约束成矿流体来源"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E22",
+"to_entity_local_id": "E20",
+"relation_label_zh": "约束该流体来源",
+"description": "δ18O与δD同位素组成指示成矿流体为岩浆水与大气降水混合并偏向大气降水，从而约束成矿流体来源"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "显示",
+"description": "石英滩金矿区火山岩显示Sr相对富集并出现明显正异常"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "显示",
+"description": "石英滩金矿区火山岩显示Rb相对富集"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E25",
+"relation_label_zh": "显示",
+"description": "石英滩金矿区火山岩显示Ba相对富集"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E26",
+"relation_label_zh": "显示",
+"description": "石英滩金矿区火山岩显示Nb明显负异常，指示地壳物质参与岩浆过程"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E27",
+"relation_label_zh": "显示",
+"description": "石英滩金矿区火山岩显示Zr明显正异常并相对富集"
+}
+]
+}

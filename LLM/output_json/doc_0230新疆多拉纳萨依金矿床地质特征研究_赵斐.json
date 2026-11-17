@@ -1,0 +1,227 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0230",
+"title": "新疆多拉纳萨依金矿床地质特征研究_赵斐",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "多拉纳萨依金矿床",
+"attributes": {
+"name": "多拉纳萨依金矿床",
+"location": "新疆维吾尔自治区阿勒泰市哈巴河县城北西约40千米处",
+"tectonic_position": "阿尔泰褶皱系额尔齐斯挤压带北西段（西伯利亚板块与哈萨克斯坦—准噶尔板块结合部位北西段）",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "构造控矿特征明显；矿石类型以构造蚀变岩型为主，原生矿石以蚀变石英闪长岩型及含金石英脉型为主；矿体主要赋存于托克萨雷组第三岩性段浅变质岩系及其断裂破碎带、韧性剪切带内",
+"age_ma": "269.0～371.2 百万年"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "额尔齐斯挤压带北西段",
+"attributes": {
+"name": "额尔齐斯挤压带北西段",
+"level": "挤压带",
+"tectonic_setting": "阿尔泰褶皱系构造单元，位于西伯利亚板块与哈萨克斯坦—准噶尔板块结合部位北西段"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "克兰晚古生代铜锌金银铅成矿带",
+"attributes": {
+"name": "克兰晚古生代铜锌金银铅成矿带",
+"level": "成矿带",
+"tectonic_setting": "古亚洲成矿域准噶尔成矿省成矿带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统托克萨雷组第三岩性段",
+"attributes": {
+"name": "中泥盆统托克萨雷组第三岩性段",
+"age": "中泥盆世",
+"dominant_lithology": "陆缘碎屑岩夹碳酸盐岩、硅质岩（浅变质岩系）",
+"lithology_notes": "托克萨雷组第三岩性段为主要赋金层位"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "托克萨雷组第三岩性段浅变质岩系",
+"attributes": {
+"name": "托克萨雷组第三岩性段浅变质岩系"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "F3断裂",
+"attributes": {
+"name": "F3断裂",
+"structure_type": "断裂",
+"orientation": "北西向陡倾",
+"scale": "沿走向延出图外",
+"ore_control_role": "断裂破碎带发育，石英闪长岩脉和石英脉密集分布，热液蚀变强烈；多拉纳萨依金矿Ⅰ～Ⅲ号矿床赋存于该断裂破碎带内"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "矿区东部韧性剪切带",
+"attributes": {
+"name": "矿区东部韧性剪切带",
+"structure_type": "韧性剪切带",
+"orientation": "与F3断裂附近构造平行，呈舒缓反“S”型",
+"scale": "向南、北延出区外",
+"ore_control_role": "金矿化带与韧性剪切带相吻合，是本区金矿床矿体的主要控矿构造"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "钠长石化、硅化、绢云母化、绿泥石化、黄铁矿化",
+"attributes": {
+"name": "钠长石化、硅化、绢云母化、绿泥石化、黄铁矿化",
+"alteration_minerals": "钠长石、石英、绢云母、绿泥石、黄铁矿",
+"intensity": "围岩蚀变普遍发育"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "分布最广泛且最主要的矿石矿物",
+"paragenesis": "广泛产于各类岩石与矿石中，与硅化、绢云母化、绿泥石化等蚀变共生"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Fluid",
+"name_zh": "多源中低温热液",
+"attributes": {
+"nature": "中低温热液",
+"source": "多源：岩浆水、变质水、天水、地下水",
+"temperature_C_min": "140",
+"temperature_C_max": "315",
+"pressure_MPa_min": "21",
+"pressure_MPa_max": "64.8"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Isotope",
+"name_zh": "硫同位素δ34S",
+"attributes": {
+"system": "硫同位素",
+"parameter_name": "δ34S（含金黄铁矿）",
+"value_range": "-7.02‰～-2.46‰"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Geochem",
+"name_zh": "黄铁矿中钴含量",
+"attributes": {
+"element": "钴（Co）",
+"value_ppm": "小于500",
+"anomaly_pattern": "黄铁矿中钴含量小于500 ppm"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于额尔齐斯挤压带北西段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床位于克兰晚古生代铜锌金银铅成矿带内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "多拉纳萨依金矿床主要发育于托克萨雷组第三岩性段浅变质岩系中"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E4",
+"relation_label_zh": "属于",
+"description": "托克萨雷组第三岩性段浅变质岩系属于中泥盆统托克萨雷组第三岩性段"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "多拉纳萨依金矿床Ⅰ～Ⅲ号矿床赋存于F3断裂破碎带内，受其控制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "多拉纳萨依金矿床金矿化带与矿区东部韧性剪切带相吻合，受其控制"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "多拉纳萨依金矿床围岩蚀变主要为钠长石化、硅化、绢云母化、绿泥石化和黄铁矿化"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要金矿物为",
+"description": "多拉纳萨依金矿床中黄铁矿为分布最广泛且最主要的矿石矿物"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "多拉纳萨依金矿床主成矿阶段为多源中低温热液，成矿温度140～315℃、压力21～64.8MPa"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E11",
+"to_entity_local_id": "E10",
+"relation_label_zh": "约束该流体来源",
+"description": "含金黄铁矿硫同位素δ34S值范围为-7.02‰～-2.46‰，用于约束多拉纳萨依成矿流体中硫的来源特征"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "显示",
+"description": "多拉纳萨依金矿床黄铁矿中钴（Co）含量小于500 ppm"
+}
+]
+}

@@ -1,0 +1,521 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0005",
+"title": "新疆哈图金矿成矿地质-地球化学特征研究",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "哈图金矿床",
+"attributes": {
+"name": "哈图金矿床",
+"location": "位于准噶尔盆地西缘哈图断裂和安齐断裂之间的狭长地带，处于哈图断裂和达拉布特断裂所挟持的扎依尔构造块体上",
+"tectonic_position": "准噶尔盆地西缘扎依尔构造块体内的断裂挟持带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "矿床受安齐断裂及其周围伴生的次一级断裂控制，主要产出蚀变岩型和石英脉型两种金矿体"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "准噶尔盆地西缘",
+"attributes": {
+"name": "准噶尔盆地西缘",
+"level": "盆地边缘",
+"tectonic_setting": "准噶尔盆地西缘的狭长构造地带，为哈图断裂和安齐断裂之间的地带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "扎依尔构造块体",
+"attributes": {
+"name": "扎依尔构造块体",
+"level": "构造块体",
+"tectonic_setting": "被哈图断裂和达拉布特断裂挟持的构造块体"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "下石炭统希贝库拉斯组",
+"attributes": {
+"name": "下石炭统希贝库拉斯组"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "下石炭统包古图组",
+"attributes": {
+"name": "下石炭统包古图组"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "下石炭统太勒古拉组",
+"attributes": {
+"name": "下石炭统太勒古拉组"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "碳质粉砂岩",
+"attributes": {
+"name": "碳质粉砂岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "HostRockUnit",
+"name_zh": "玄武岩",
+"attributes": {
+"name": "玄武岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "HostRockUnit",
+"name_zh": "凝灰质粉砂岩",
+"attributes": {
+"name": "凝灰质粉砂岩"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "哈图断裂",
+"attributes": {
+"name": "哈图断裂",
+"structure_type": "压扭性断裂",
+"scale": "与安齐断裂等共同构成区域内的基本构造格架",
+"ore_control_role": "与安齐断裂共同挟持扎依尔构造块体，限定哈图金矿的构造位置"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Structure",
+"name_zh": "安齐断裂",
+"attributes": {
+"name": "安齐断裂",
+"structure_type": "张性断裂",
+"scale": "区域内重要断裂构造",
+"ore_control_role": "哈图金矿床受安齐断裂及其周围伴生的次一级断裂控制"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Structure",
+"name_zh": "达拉布特断裂",
+"attributes": {
+"name": "达拉布特断裂",
+"structure_type": "断裂",
+"ore_control_role": "与哈图断裂一起挟持扎依尔构造块体，限定哈图金矿的构造位置"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "绢云母化",
+"attributes": {
+"name": "绢云母化",
+"alteration_minerals": "绢云母",
+"intensity": "研究区围岩蚀变极为发育，凝灰质粉砂岩中绢云母化蚀变明显"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿",
+"intensity": "凝灰质粉砂岩中黄铁矿化蚀变明显，属围岩蚀变极为发育的一部分"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Alteration",
+"name_zh": "绿泥石化",
+"attributes": {
+"name": "绿泥石化",
+"alteration_minerals": "绿泥石",
+"intensity": "玄武岩中主要发育绿泥石化蚀变"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Alteration",
+"name_zh": "透闪石化",
+"attributes": {
+"name": "透闪石化",
+"alteration_minerals": "透闪石",
+"intensity": "玄武岩中主要发育透闪石化蚀变"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "与钠长石、石英、黄铜矿、碳酸盐、黄铁矿、毒砂等组成钠长石-石英-黄铜矿-碳酸盐-黄铁矿-毒砂-自然金矿物组合"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "共生金属矿物",
+"paragenesis": "与钠长石、石英、碳酸盐、黄铁矿、毒砂、自然金共生于石英脉型和蚀变岩型矿体中"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "共生金属矿物",
+"paragenesis": "与自然金等共生，在富含Fe元素的围岩中易大量沉淀"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "共生金属矿物",
+"paragenesis": "与自然金、黄铜矿、黄铁矿等共生于石英脉和蚀变岩中"
+}
+},
+{
+"entity_local_id": "E21",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "主要脉石矿物及载金矿物",
+"paragenesis": "构成石英脉和石英脉型矿体，是早、中、晚各阶段热液活动形成的主要脉石"
+}
+},
+{
+"entity_local_id": "E22",
+"entity_type": "Mineral",
+"name_zh": "钠长石",
+"attributes": {
+"name": "钠长石",
+"role_in_ore": "脉石矿物",
+"paragenesis": "与石英组成早阶段的钠长石-石英组合，并参与钠长石-石英-黄铜矿-碳酸盐-黄铁矿-毒砂-自然金矿物组合"
+}
+},
+{
+"entity_local_id": "E23",
+"entity_type": "Mineral",
+"name_zh": "碳酸盐",
+"attributes": {
+"name": "碳酸盐",
+"role_in_ore": "脉石矿物",
+"paragenesis": "与石英组成晚阶段的碳酸盐-石英组合，并参与主要矿物组合"
+}
+},
+{
+"entity_local_id": "E24",
+"entity_type": "Fluid",
+"name_zh": "哈图金矿成矿流体",
+"attributes": {
+"nature": "NaCl-H2O±CO2±CH4±N2体系的低盐度成矿流体",
+"source": "以变质水和大气降水为主体，受岩浆活动影响",
+"temperature_C_min": "148",
+"temperature_C_max": "379",
+"pressure_MPa_min": "49",
+"pressure_MPa_max": "97",
+"salinity_wtNaCl_min": "0.5",
+"salinity_wtNaCl_max": "5.9"
+}
+},
+{
+"entity_local_id": "E25",
+"entity_type": "Isotope",
+"name_zh": "氧同位素参数",
+"attributes": {
+"system": "O同位素体系",
+"parameter_name": "石英和方解石中的δ18O",
+"value_range": "石英中的δ18OV-SMOW为20.4‰～21‰，计算得到平衡水δ18O为8.6‰～14.7‰，方解石δ18OSMOW为+8.5‰～+17.4‰"
+}
+},
+{
+"entity_local_id": "E26",
+"entity_type": "Isotope",
+"name_zh": "氢同位素参数",
+"attributes": {
+"system": "H同位素体系",
+"parameter_name": "δD",
+"value_range": "石英包裹体水的δDH2O为-77.2‰～-64.5‰"
+}
+},
+{
+"entity_local_id": "E27",
+"entity_type": "Isotope",
+"name_zh": "碳同位素参数",
+"attributes": {
+"system": "C同位素体系",
+"parameter_name": "δ13C",
+"value_range": "方解石中的δ13CPDB值为-11.4‰～-9.2‰"
+}
+},
+{
+"entity_local_id": "E28",
+"entity_type": "Isotope",
+"name_zh": "硫同位素参数",
+"attributes": {
+"system": "S同位素体系",
+"parameter_name": "δ34S",
+"value_range": "硫化物中硫同位素组成为-2.9‰～+0.8‰，集中在0±3‰范围"
+}
+},
+{
+"entity_local_id": "E29",
+"entity_type": "Geochem",
+"name_zh": "Fe-Mg元素地球化学异常",
+"attributes": {
+"element": "Fe、Mg",
+"value_ppm": "Fe、Mg等元素在基性火山岩围岩中富集",
+"anomaly_pattern": "在哈图金矿围岩中的玄武岩等基性火山岩中形成明显地球化学异常特征"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "哈图金矿床位于准噶尔盆地西缘"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "哈图金矿位于哈图断裂和达拉布特断裂所挟持的扎依尔构造块体上"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "受…控制",
+"description": "哈图金矿床受安齐断裂及其周围伴生的次一级断裂控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "位于",
+"description": "哈图金矿床位于哈图断裂和安齐断裂之间的狭长地带，受其构造格局影响"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "位于",
+"description": "哈图金矿位于哈图断裂和达拉布特断裂所挟持的构造块体上，受两条断裂的共同限制"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "哈图金矿床赋存于下石炭统希贝库拉斯组地层中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "赋存于",
+"description": "哈图金矿床赋存于下石炭统包古图组地层中"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "哈图金矿床赋存于下石炭统太勒古拉组地层中"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要围岩为",
+"description": "哈图金矿主要围岩之一为碳质粉砂岩"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要围岩为",
+"description": "哈图金矿主要围岩之一为玄武岩"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "围岩包括",
+"description": "含金石英脉的围岩中包括凝灰质粉砂岩"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "哈图金矿围岩中发育绢云母化蚀变，尤其在凝灰质粉砂岩中明显"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要蚀变为",
+"description": "哈图金矿围岩中发育黄铁矿化蚀变"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "主要蚀变为",
+"description": "哈图金矿围岩中的玄武岩主要发育绿泥石化蚀变"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "主要蚀变为",
+"description": "哈图金矿围岩中的玄武岩主要发育透闪石化蚀变"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "主要金矿物为",
+"description": "哈图金矿的主要金矿物为自然金，参与钠长石-石英-黄铜矿-碳酸盐-黄铁矿-毒砂-自然金矿物组合"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E18",
+"relation_label_zh": "共生矿物包括",
+"description": "哈图金矿中黄铜矿与钠长石、石英、碳酸盐、黄铁矿、毒砂、自然金等共生"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E19",
+"relation_label_zh": "共生矿物包括",
+"description": "哈图金矿中黄铁矿为重要共生金属矿物，在富Fe围岩中大量沉淀"
+},
+{
+"relation_local_id": "R19",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E20",
+"relation_label_zh": "共生矿物包括",
+"description": "哈图金矿中毒砂为共生金属矿物，与自然金、黄铜矿、黄铁矿等共生"
+},
+{
+"relation_local_id": "R20",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E21",
+"relation_label_zh": "共生矿物包括",
+"description": "哈图金矿中石英为主要脉石矿物及载金矿物，构成石英脉型矿体"
+},
+{
+"relation_local_id": "R21",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E22",
+"relation_label_zh": "共生矿物包括",
+"description": "哈图金矿中钠长石与石英组成早阶段钠长石-石英组合，并参与主要矿物组合"
+},
+{
+"relation_local_id": "R22",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E23",
+"relation_label_zh": "共生矿物包括",
+"description": "哈图金矿中碳酸盐与石英组成晚阶段碳酸盐-石英组合，并参与主要矿物组合"
+},
+{
+"relation_local_id": "R23",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E24",
+"relation_label_zh": "对应成矿流体为",
+"description": "哈图金矿成矿流体属NaCl-H2O±CO2±CH4±N2体系中低温低盐度流体，以变质水和大气降水为主体并受岩浆活动影响"
+},
+{
+"relation_local_id": "R24",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E25",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素参数通过石英和方解石δ18O及平衡水δ18O范围约束哈图金矿成矿流体的氧同位素组成与来源"
+},
+{
+"relation_local_id": "R25",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E26",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "氢同位素参数δDH2O范围为-77.2‰～-64.5‰，表明成矿流体以变质水和大气降水为主体"
+},
+{
+"relation_local_id": "R26",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E27",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "碳同位素参数方解石δ13CPDB为-11.4‰～-9.2‰，指示成矿物质与赋矿围岩及岩浆活动有关"
+},
+{
+"relation_local_id": "R27",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E28",
+"to_entity_local_id": "E24",
+"relation_label_zh": "约束该流体来源",
+"description": "硫同位素δ34S集中在0±3‰范围，约束成矿硫可能来源于岩浆或与围岩有关的硫化物体系"
+},
+{
+"relation_local_id": "R28",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E29",
+"relation_label_zh": "显示",
+"description": "哈图金矿围岩性质对成矿过程中形成的地球化学异常特征影响明显，Fe、Mg等元素在玄武岩等基性火山岩中富集"
+}
+]
+}

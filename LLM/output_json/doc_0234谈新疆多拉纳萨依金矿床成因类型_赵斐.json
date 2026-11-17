@@ -1,0 +1,134 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0234",
+"title": "谈新疆多拉纳萨依金矿床成因类型_赵斐",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "多拉纳萨依金矿床",
+"attributes": {
+"name": "多拉纳萨依金矿床",
+"location": "新疆哈巴河县城北西约40千米处",
+"tectonic_position": "西伯利亚板块阿尔泰古陆缘活动带，成矿单元属克兰弧后盆地铅－锌、铜、铁、金成矿带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "金的嵌布类型以裂隙金为主（约60%），其次为晶隙金（约25%）和包体金（约15%）；黄铁矿为金的主要富集矿物"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "克兰弧后盆地铅－锌、铜、铁、金成矿带",
+"attributes": {
+"name": "克兰弧后盆地铅－锌、铜、铁、金成矿带",
+"level": "成矿带",
+"tectonic_setting": "阿尔泰古陆缘活动带内的弧后盆地成矿带"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿尔泰古陆缘活动带",
+"attributes": {
+"name": "阿尔泰古陆缘活动带",
+"level": "活动带",
+"tectonic_setting": "在远古宇陆壳基底上发育的活动带，盖层以古生代巨厚海相复理石建造和碳酸盐建造为主"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Fluid",
+"name_zh": "改造热液型成矿流体",
+"attributes": {
+"nature": "改造热液型低温—中温、低盐度热液",
+"temperature_C_min": "160",
+"temperature_C_max": "315",
+"pressure_MPa_min": "21.00",
+"pressure_MPa_max": "64.85",
+"salinity_wtNaCl_min": "2.72",
+"salinity_wtNaCl_max": "10.86"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "金的主要富集矿物",
+"paragenesis": "广泛出现于多拉纳萨依金矿石中，与细粒硅化石英及黄铜矿、方铅矿、闪锌矿等伴生"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要载金矿物",
+"paragenesis": "以包体金、裂隙金和晶隙金等形式赋存，与黄铁矿及硅化石英等共生"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Geochem",
+"name_zh": "黄铁矿中钴含量",
+"attributes": {
+"element": "钴（Co）",
+"value_ppm": "约500",
+"anomaly_pattern": "黄铁矿Co含量约500×10^-6，Co/Ni比值大于1，指示黄铁矿为热液成因"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "隶属于",
+"description": "多拉纳萨依金矿床成矿单元属克兰弧后盆地铅－锌、铜、铁、金成矿带"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "多拉纳萨依金矿床区域构造上位于西伯利亚板块阿尔泰古陆缘活动带"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "对应成矿流体为",
+"description": "多拉纳萨依金矿床成矿流体表现为改造热液型低温—中温、低盐度热液，流体包裹体均一温度160～315℃、压力21.00～64.85MPa、盐度2.72～10.86wt%NaCl当量"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "共生矿物包括",
+"description": "多拉纳萨依金矿床中黄铁矿广泛出现，是金的主要富集矿物"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要金矿物为",
+"description": "多拉纳萨依金矿床金主要以自然金形式赋存，嵌布类型以裂隙金为主"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "显示",
+"description": "多拉纳萨依金矿床黄铁矿具有Co含量约500×10^-6、Co/Ni比值大于1等特征，指示其为热液成因"
+}
+]
+}

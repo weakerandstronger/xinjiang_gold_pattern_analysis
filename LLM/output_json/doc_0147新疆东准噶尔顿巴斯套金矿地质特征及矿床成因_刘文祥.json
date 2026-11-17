@@ -1,0 +1,351 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0147",
+"title": "新疆东准噶尔顿巴斯套金矿地质特征及矿床成因",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "顿巴斯套金矿床",
+"attributes": {
+"name": "顿巴斯套金矿床",
+"location": "新疆东准噶尔地区阿尔曼太断裂北东侧萨吾尔—二台Cu—Ni—Au成矿带南东部（隶属新疆青河县）",
+"tectonic_position": "中亚造山带西段、阿尔泰造山带南缘，位于西伯利亚板块与哈萨克斯坦—准噶尔板块的结合部位",
+"deposit_type": "造山型金矿床",
+"ore_grade": "1.00～33.47 g/t",
+"ore_control_features": "具有区域性断裂的次级断裂控矿、脆—韧性剪切带控矿、背斜核部控矿“三位一体”控矿特征，其中NW—SE向脆—韧性剪切带为最重要控矿构造",
+"age_ma": "268.3±2.8Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东准噶尔地区",
+"attributes": {
+"name": "东准噶尔地区",
+"level": "地区",
+"tectonic_setting": "中亚造山带西段、阿尔泰造山带南缘的东准噶尔成矿区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "阿尔曼太构造带",
+"attributes": {
+"name": "阿尔曼太构造带",
+"level": "构造带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Region",
+"name_zh": "萨吾尔—二台Cu—Ni—Au成矿带",
+"attributes": {
+"name": "萨吾尔—二台Cu—Ni—Au成矿带",
+"level": "成矿带"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统姜巴斯套组",
+"attributes": {
+"name": "下石炭统姜巴斯套组",
+"age": "下石炭统",
+"dominant_lithology": "浅变质火山—沉积碎屑岩夹碳酸盐岩建造",
+"lithology_notes": "可分为上、下两个岩性段"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "姜巴斯套组下部岩性段粉砂岩—岩屑砂岩—砂砾岩组合",
+"attributes": {
+"name": "姜巴斯套组下部岩性段粉砂岩—岩屑砂岩—砂砾岩组合"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "IntrusiveBody",
+"name_zh": "石英闪长玢岩",
+"attributes": {
+"name": "石英闪长玢岩",
+"rock_type": "石英闪长玢岩",
+"relationship_to_ore": "为矿区赋矿岩浆岩，金矿化显著晚于该岩浆岩"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Structure",
+"name_zh": "阿尔曼太断裂",
+"attributes": {
+"name": "阿尔曼太断裂",
+"structure_type": "断裂",
+"orientation": "走向约115°，向南西陡倾",
+"scale": "区域性",
+"ore_control_role": "其北东侧形成脆—韧性剪切构造蚀变带并控制矿体展布"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Structure",
+"name_zh": "NW—SE向脆—韧性剪切带",
+"attributes": {
+"name": "NW—SE向脆—韧性剪切带",
+"structure_type": "脆—韧性剪切带",
+"orientation": "走向110°～123°，向南西陡倾（倾角70°～85°）",
+"scale": "矿区级",
+"ore_control_role": "最重要控矿构造，金矿体主要赋存于该剪切带中"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Structure",
+"name_zh": "陡立背斜",
+"attributes": {
+"name": "陡立背斜",
+"structure_type": "背斜",
+"orientation": "轴部向东倾伏",
+"scale": "矿区级",
+"ore_control_role": "金矿体产在背斜核部地层中，表现为背斜核部控矿"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "铁白云石化",
+"attributes": {
+"name": "铁白云石化",
+"alteration_minerals": "铁白云石"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化",
+"attributes": {
+"name": "黄铁矿化",
+"alteration_minerals": "黄铁矿"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Alteration",
+"name_zh": "毒砂化",
+"attributes": {
+"name": "毒砂化",
+"alteration_minerals": "毒砂"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "热液期金矿化产出"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要硫化物矿物",
+"paragenesis": "沉积期、成岩期及热液期均有产出"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Mineral",
+"name_zh": "毒砂",
+"attributes": {
+"name": "毒砂",
+"role_in_ore": "共生硫化物矿物",
+"paragenesis": "热液期产出并可与金共生"
+}
+},
+{
+"entity_local_id": "E17",
+"entity_type": "Fluid",
+"name_zh": "顿巴斯套成矿流体",
+"attributes": {
+"nature": "中低温、富CO₂、低盐度",
+"source": "δ¹⁸O与δD显示大气降水混合特征，流体特征与变质热液相符",
+"temperature_C_min": "180",
+"temperature_C_max": "260"
+}
+},
+{
+"entity_local_id": "E18",
+"entity_type": "Isotope",
+"name_zh": "H-O同位素（成矿流体）",
+"attributes": {
+"system": "H-O同位素",
+"parameter_name": "δ¹⁸O_V-SMOW、δD_V-SMOW",
+"value_range": "δ¹⁸O为1.1‰～3.9‰；δD为−116‰～−121‰"
+}
+},
+{
+"entity_local_id": "E19",
+"entity_type": "Isotope",
+"name_zh": "S同位素（黄铁矿与毒砂）",
+"attributes": {
+"system": "S同位素",
+"parameter_name": "δ³⁴S_V-CDT（黄铁矿、毒砂）",
+"value_range": "黄铁矿为3.0‰～5.8‰；毒砂为4.2‰～5.6‰"
+}
+},
+{
+"entity_local_id": "E20",
+"entity_type": "Isotope",
+"name_zh": "Rb-Sr同位素年龄（黄铁矿）",
+"attributes": {
+"system": "Rb-Sr同位素",
+"parameter_name": "黄铁矿Rb-Sr年龄",
+"value_range": "268.3±2.8Ma"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "顿巴斯套金矿位于新疆东准噶尔地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "顿巴斯套金矿为阿尔曼太构造带最重要的金矿床"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "位于",
+"description": "研究区位于阿尔曼太断裂北东侧萨吾尔—二台Cu—Ni—Au成矿带的南东部，顿巴斯套金矿位于该区"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "赋存于",
+"description": "金矿体大致平行于石英闪长玢岩与姜巴斯套组下部岩性段粉砂岩、岩屑砂岩、砂砾岩组合并赋存其中"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "姜巴斯套组下部岩性段粉砂岩—岩屑砂岩—砂砾岩组合属于下石炭统姜巴斯套组"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "受…控制",
+"description": "顿巴斯套金矿受NW—SE向脆—韧性剪切带控制，金矿体主要赋存于该剪切带中"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "受…控制",
+"description": "顿巴斯套金矿体产在背斜核部地层中，表现为背斜核部控矿"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "受…控制",
+"description": "矿区断裂构造以阿尔曼太断裂及其次级断裂为主，控制矿体及脆—韧性剪切构造蚀变带的发育"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "铁白云石化为主成矿阶段标志性蚀变类型，可作为找矿标志"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "主成矿阶段发育微细浸染状黄铁矿化，可作为找矿标志"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要蚀变为",
+"description": "主成矿阶段发育毒砂化蚀变，可作为找矿标志"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要金矿物为",
+"description": "顿巴斯套金矿床矿石矿物中包含自然金，局部地段可见自然金"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "顿巴斯套金矿床矿石矿物中黄铁矿广泛发育并与成矿过程相关"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "共生矿物包括",
+"description": "顿巴斯套金矿床矿石矿物中毒砂发育，部分世代毒砂可与金共生"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E17",
+"relation_label_zh": "对应成矿流体为",
+"description": "顿巴斯套金矿成矿流体表现为中低温、富CO₂、低盐度特征，均一温度集中于180～260℃"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E18",
+"to_entity_local_id": "E17",
+"relation_label_zh": "约束该流体来源",
+"description": "成矿流体H-O同位素（δ¹⁸O与δD）显示大气降水混合特征，用于约束成矿流体来源"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E19",
+"to_entity_local_id": "E17",
+"relation_label_zh": "约束该流体来源",
+"description": "黄铁矿与毒砂的S同位素δ³⁴S值略高于典型岩浆硫源，指示地层硫贡献，用于约束成矿流体来源"
+}
+]
+}

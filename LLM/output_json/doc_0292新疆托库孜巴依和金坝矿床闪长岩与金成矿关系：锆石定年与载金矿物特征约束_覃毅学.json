@@ -1,0 +1,314 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0292",
+"title": "新疆托库孜巴依和金坝矿床闪长岩与金成矿关系：锆石定年与载金矿物特征约束_覃毅学",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "托库孜巴依金矿床",
+"attributes": {
+"name": "托库孜巴依金矿床",
+"location": "新疆哈巴河县东北约15 km处",
+"tectonic_position": "中国阿尔泰造山带南缘西段马尔卡库里韧性剪切变形带中，沿哈巴河杂岩体外缘分布",
+"deposit_type": "造山型金矿床",
+"ore_grade": "2~10 g/t",
+"ore_control_features": "矿脉总体呈NW向展布，受马尔卡库里韧性剪切带及其断裂系统控制；以石英脉型矿化为主，含金石英脉穿切闪长岩脉并在石英脉及两侧热液蚀变带中富集金",
+"age_ma": "300~290 Ma"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Deposit",
+"name_zh": "金坝金矿床",
+"attributes": {
+"name": "金坝金矿床",
+"location": "新疆哈巴河县东北约15 km处",
+"tectonic_position": "中国阿尔泰造山带南缘西段马尔卡库里韧性剪切变形带中，沿哈巴河杂岩体外缘分布",
+"deposit_type": "造山型金矿床",
+"ore_grade": "1.07~6.32 g/t",
+"ore_control_features": "矿脉主要分布在闪长岩中及哈巴河杂岩体外接触带上，走向NW-SE，与矿区断裂一致；以石英细脉型矿化更为常见，含金石英细脉穿切闪长岩并发育明显蚀变分带",
+"age_ma": "300~290 Ma"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "中国阿尔泰造山带南缘西段",
+"attributes": {
+"name": "中国阿尔泰造山带南缘西段",
+"level": "造山带",
+"tectonic_setting": "中亚造山带的重要组成部分，位于西伯利亚板块、准噶尔板块与哈萨克斯坦板块交汇部位"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "Structure",
+"name_zh": "马尔卡库里韧性剪切带",
+"attributes": {
+"name": "马尔卡库里韧性剪切带",
+"structure_type": "韧性剪切带（额尔齐斯断裂带的次级断裂系统）",
+"orientation": "NW向",
+"scale": "额尔齐斯断裂带次级断裂系统西段",
+"ore_control_role": "为含金热液活动提供动力来源、运移通道和沉淀场所，控制托库孜巴依与金坝矿床及矿脉分布"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "StratUnit",
+"name_zh": "中泥盆统阿勒泰组",
+"attributes": {
+"name": "中泥盆统阿勒泰组",
+"age": "中泥盆统",
+"dominant_lithology": "变质火山-沉积岩系（变质砂岩、绢云母千枚岩等）",
+"lithology_notes": "矿区赋矿地层以阿勒泰组为主，岩性主要为变质砂岩和绢云母千枚岩，夹少量结晶石灰岩等"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "HostRockUnit",
+"name_zh": "阿勒泰组变质砂岩—绢云母千枚岩围岩",
+"attributes": {
+"name": "阿勒泰组变质砂岩—绢云母千枚岩围岩"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "HostRockUnit",
+"name_zh": "闪长岩脉围岩",
+"attributes": {
+"name": "闪长岩脉围岩（含金石英脉及两侧热液蚀变带）"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "IntrusiveBody",
+"name_zh": "托库孜巴依闪长岩脉",
+"attributes": {
+"name": "托库孜巴依闪长岩脉",
+"rock_type": "闪长岩",
+"age": "(382.3±0.9) Ma",
+"relationship_to_ore": "含金石英脉穿切闪长岩脉；闪长岩脉经历明显构造变形而含金石英脉未见显示，闪长岩脉常作为含金石英脉的重要赋矿围岩"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "IntrusiveBody",
+"name_zh": "金坝闪长岩脉",
+"attributes": {
+"name": "金坝闪长岩脉",
+"rock_type": "闪长岩",
+"age": "(385.5±2.0) Ma",
+"relationship_to_ore": "含金石英脉（细脉）穿切闪长岩脉并形成蚀变分带；闪长岩脉可作为含金石英脉的重要赋矿围岩"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "IntrusiveBody",
+"name_zh": "哈巴河杂岩体",
+"attributes": {
+"name": "哈巴河杂岩体",
+"rock_type": "斜长花岗岩",
+"age": "431~390 Ma",
+"relationship_to_ore": "托库孜巴依与金坝矿床沿其外缘分布，金坝矿脉可分布在其外接触带上"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "黄铁矿化-硅化-绢云母化-绿泥石化-帘石化-碳酸盐化",
+"attributes": {
+"name": "黄铁矿化-硅化-绢云母化-绿泥石化-帘石化-碳酸盐化",
+"alteration_minerals": "黄铁矿、石英、绢云母、绿泥石、绿帘石（帘石）、方解石",
+"intensity": "近石英脉围岩蚀变强烈，远离石英脉蚀变减弱；黄铁矿化、硅化、帘石化与金矿化紧密伴生"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要载金热液矿物",
+"paragenesis": "主要分布在石英脉及两侧热液蚀变带中；托库孜巴依以粗粒块状黄铁矿为主，金坝以细粒浸染状黄铁矿为主"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "碲金矿",
+"attributes": {
+"name": "碲金矿",
+"role_in_ore": "托库孜巴依矿床主要金矿物",
+"paragenesis": "分布在石英脉裂隙中，或包裹在黄铁矿及其裂隙中，与黄铁矿、石英等热液矿物共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "金坝矿床主要金矿物之一",
+"paragenesis": "可分布在热液矿物裂隙中或晶粒间，也可呈包裹体金赋存于热液矿物中"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "碲金银矿",
+"attributes": {
+"name": "碲金银矿",
+"role_in_ore": "金坝矿床主要金矿物之一",
+"paragenesis": "多分布在石英细脉裂隙中，与热液矿物共生"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "托库孜巴依金矿床位于中国阿尔泰造山带南缘西段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "金坝金矿床位于中国阿尔泰造山带南缘西段"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "托库孜巴依金矿床产于马尔卡库里韧性剪切变形带中，矿脉NW向展布并受其及次级断裂系统控制"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E4",
+"relation_label_zh": "受…控制",
+"description": "金坝金矿床产于马尔卡库里韧性剪切变形带中，矿脉总体NW-SE向展布并受其控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "托库孜巴依金矿床的赋矿地层以阿勒泰组变质砂岩和绢云母千枚岩等为主"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要围岩为",
+"description": "金坝金矿床的赋矿地层以阿勒泰组变质砂岩和绢云母千枚岩等为主"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E6",
+"to_entity_local_id": "E5",
+"relation_label_zh": "属于",
+"description": "阿勒泰组变质砂岩—绢云母千枚岩围岩在地层上属于中泥盆统阿勒泰组"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "托库孜巴依金矿床以闪长岩为赋矿岩石的石英脉型金矿化为主要矿化类型，热液矿物集中分布于穿切闪长岩的石英脉及其伴生蚀变带"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E7",
+"relation_label_zh": "赋存于",
+"description": "金坝金矿床的矿脉主要分布在闪长岩中，含金石英细脉穿切闪长岩并形成蚀变分带"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "托库孜巴依金矿床围岩蚀变主要为黄铁矿化、硅化、绢云母化、绿泥石化、帘石化和碳酸盐化，其中黄铁矿化、硅化、帘石化与金矿化紧密伴生"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "金坝金矿床围岩蚀变主要为黄铁矿化、硅化、绢云母化、绿泥石化、帘石化和碳酸盐化，近石英脉蚀变强烈并与金矿化紧密伴生"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "主要金矿物为",
+"description": "托库孜巴依金矿床金矿物主要为碲金矿"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "托库孜巴依金矿床载金热液矿物以黄铁矿为主，金主要富集在石英脉及两侧热液蚀变带中的热液矿物中"
+},
+{
+"relation_local_id": "R14",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E14",
+"relation_label_zh": "主要金矿物为",
+"description": "金坝金矿床金矿物主要为自然金"
+},
+{
+"relation_local_id": "R15",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "金坝金矿床金矿物还包括碲金银矿，常与石英细脉及热液矿物共生"
+},
+{
+"relation_local_id": "R16",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E2",
+"to_entity_local_id": "E12",
+"relation_label_zh": "共生矿物包括",
+"description": "金坝金矿床载金热液矿物多为细粒浸染状黄铁矿，主要分布在石英细脉及其两侧蚀变带中"
+},
+{
+"relation_local_id": "R17",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E8",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "托库孜巴依矿区闪长岩脉侵入并分布于以阿勒泰组为主的矿区地层中"
+},
+{
+"relation_local_id": "R18",
+"relation_type": "IntrusiveBody-StratUnit",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E5",
+"relation_label_zh": "侵入于",
+"description": "金坝矿区闪长岩脉侵入并分布于以阿勒泰组为主的矿区地层中"
+}
+]
+}

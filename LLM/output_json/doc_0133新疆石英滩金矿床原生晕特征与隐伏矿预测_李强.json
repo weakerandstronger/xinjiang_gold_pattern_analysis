@@ -1,0 +1,53 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0133",
+"title": "新疆石英滩金矿床原生晕特征与隐伏矿预测",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "石英滩金矿床",
+"attributes": {
+"name": "石英滩金矿床",
+"location": "新疆东天山地区"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "东天山",
+"attributes": {
+"name": "东天山",
+"level": "地区"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Geochem",
+"name_zh": "金（Au）原生晕地球化学异常",
+"attributes": {
+"element": "金（Au）",
+"anomaly_pattern": "在各中段水平上，Au元素始终为规模最大的原生晕；随前缘晕叠加出现，典型前缘元素位置较大幅度前移"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "石英滩金矿床位于新疆东天山地区"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Geochem",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "显示",
+"description": "石英滩金矿床原生晕研究表明Au为规模最大的原生晕元素，并呈现分带性与前缘晕叠加特征，可用于隐伏矿体预测"
+}
+]
+}

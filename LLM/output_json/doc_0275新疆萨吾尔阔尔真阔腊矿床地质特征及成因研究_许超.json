@@ -1,0 +1,272 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0275",
+"title": "新疆萨吾尔阔尔真阔腊矿床地质特征及成因研究_许超",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔尔真阔腊金矿床",
+"attributes": {
+"name": "阔尔真阔腊金矿床",
+"location": "新疆西准噶尔萨吾尔地区",
+"tectonic_position": "位于西伯利亚板块和哈萨克斯坦—准噶尔板块结合部位，沟—盆体系的喀拉通克岛弧带中",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿石结构构造以细脉浸染状与脉状为主；从深部到浅部蚀变分带明显，深部钾硅酸盐化与铜矿化关系密切，浅部黄铁绢英岩化与金矿化关系密切，且黄铁绢英岩化一般沿火山机构断裂系及区域断裂系形成的构造破碎带发育",
+"age_ma": "346.6±2.9 百万年"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "萨吾尔成矿带",
+"attributes": {
+"name": "萨吾尔成矿带",
+"level": "成矿带",
+"tectonic_setting": "位于哈萨克斯坦—准噶尔板块北缘的准噶尔弧盆带，以岛弧构造为主"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "Region",
+"name_zh": "喀拉通克岛弧带",
+"attributes": {
+"name": "喀拉通克岛弧带",
+"level": "岛弧带",
+"tectonic_setting": "沟—盆体系背景下形成的岛弧带"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统黑山头组",
+"attributes": {
+"name": "下石炭统黑山头组",
+"age": "下石炭统",
+"dominant_lithology": "安山岩、安山质凝灰岩、火山角砾岩及夹层沉积岩",
+"lithology_notes": "岩相变化较大，西部为暗灰色块状安山岩夹少量紫红色安山岩与劈理化安山质凝灰岩；中部发育火山角砾岩带并含硅质砾岩、灰岩及碳质泥质粉砂岩等透镜体；东部相变为钙质粉砂岩和硅质泥质粉砂岩等"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "安山岩",
+"attributes": {
+"name": "安山岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "IntrusiveBody",
+"name_zh": "闪长岩",
+"attributes": {
+"name": "闪长岩",
+"rock_type": "闪长岩",
+"age": "346.6±2.9 百万年",
+"relationship_to_ore": "为矿床含矿斑岩；矿区深部铜矿化与闪长岩密切相关，闪长岩可发生钾化并发育网脉状石英—硫化物脉"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Structure",
+"name_zh": "火山机构断裂系",
+"attributes": {
+"name": "火山机构断裂系",
+"structure_type": "断裂系",
+"scale": "矿区级",
+"ore_control_role": "黄铁绢英岩化一般沿火山机构断裂系及区域断裂系形成的构造破碎带发育，与浅部金矿化关系密切"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Alteration",
+"name_zh": "钾硅酸盐化",
+"attributes": {
+"name": "钾硅酸盐化",
+"alteration_minerals": "钾长石、黑云母（标型矿物为钾长石和热液黑云母），并可见磁铁矿、石英、绿帘石等"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Alteration",
+"name_zh": "青磐岩化",
+"attributes": {
+"name": "青磐岩化",
+"alteration_minerals": "绿泥石、绿帘石，此外可见少量黄铁矿、石英等"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Alteration",
+"name_zh": "石英—绢云母化",
+"attributes": {
+"name": "石英—绢云母化",
+"alteration_minerals": "石英、绢云母及少量碳酸盐等"
+}
+},
+{
+"entity_local_id": "E11",
+"entity_type": "Alteration",
+"name_zh": "粘土化",
+"attributes": {
+"name": "粘土化",
+"alteration_minerals": "伊利石化等粘土矿物蚀变"
+}
+},
+{
+"entity_local_id": "E12",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化",
+"attributes": {
+"name": "黄铁绢英岩化",
+"alteration_minerals": "绢云母、黄铁矿、石英，及少量绿泥石、碳酸盐"
+}
+},
+{
+"entity_local_id": "E13",
+"entity_type": "Mineral",
+"name_zh": "黄铜矿",
+"attributes": {
+"name": "黄铜矿",
+"role_in_ore": "主要含铜矿物",
+"paragenesis": "与黄铁矿共生"
+}
+},
+{
+"entity_local_id": "E14",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属矿物之一",
+"paragenesis": "与黄铜矿共生"
+}
+},
+{
+"entity_local_id": "E15",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金属矿物之一"
+}
+},
+{
+"entity_local_id": "E16",
+"entity_type": "Fluid",
+"name_zh": "中高温热液流体",
+"attributes": {
+"nature": "中高温热液流体",
+"temperature_C_min": "119",
+"temperature_C_max": "396"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔尔真阔腊矿床位于萨吾尔成矿带的东段"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E3",
+"relation_label_zh": "位于",
+"description": "阔尔真阔腊矿床位于沟—盆体系的喀拉通克岛弧带中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "浅部金矿化的直接赋矿围岩为安山岩（安山岩形成时代为339.4±4.8百万年）"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "受…控制",
+"description": "黄铁绢英岩化一般沿火山机构断裂系及区域断裂系形成的构造破碎带发育，与浅部金矿化关系密切"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床深部发育钾硅酸盐化蚀变"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "主要蚀变为",
+"description": "钾硅酸盐化蚀变外围发育青磐岩化蚀变"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E10",
+"relation_label_zh": "主要蚀变为",
+"description": "矿床发育石英—绢云母化蚀变，叠加在新鲜岩石以及早期蚀变组合上"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E11",
+"relation_label_zh": "主要蚀变为",
+"description": "浅部外围发育强烈粘土化（伊利石化）蚀变"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E12",
+"relation_label_zh": "主要蚀变为",
+"description": "浅部发育黄铁绢英岩化，与浅部金矿化关系密切"
+},
+{
+"relation_local_id": "R10",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E13",
+"relation_label_zh": "共生矿物包括",
+"description": "金属矿物以黄铜矿为主"
+},
+{
+"relation_local_id": "R11",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E14",
+"relation_label_zh": "共生矿物包括",
+"description": "金属矿物以黄铁矿为主"
+},
+{
+"relation_local_id": "R12",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E15",
+"relation_label_zh": "共生矿物包括",
+"description": "金属矿物以自然金为主"
+},
+{
+"relation_local_id": "R13",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E16",
+"relation_label_zh": "对应成矿流体为",
+"description": "流体包裹体均一温度为119—276℃和308—396℃两个区间，显示矿床中存在中高温热液流体"
+}
+]
+}

@@ -1,0 +1,189 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0271",
+"title": "新疆阔尔真阔腊金矿床成矿流体包裹体研究_申萍",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "阔尔真阔腊金矿床",
+"attributes": {
+"name": "阔尔真阔腊金矿床",
+"location": "新疆西北部萨吾尔金矿带（喀拉通克岛弧带）",
+"tectonic_position": "西伯利亚板块与哈萨克斯坦-准噶尔板块结合部位的海西期岛弧环境",
+"deposit_type": "浅成低温热液型金矿床",
+"ore_control_features": "矿体主要赋存于下石炭统黑山头组钙碱性火山岩中，受火山机构环状、放射状断裂及近东西向弧形断裂控制",
+"age_ma": "332.05±2.02 Ma～332.59±0.51 Ma（石英Ar-Ar成矿年龄）；343±22 Ma（安山岩全岩Rb-Sr等时线年龄）"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "萨吾尔金矿带",
+"attributes": {
+"name": "萨吾尔金矿带",
+"level": "成矿带",
+"tectonic_setting": "海西期喀拉通克岛弧带（准噶尔洋壳北向俯冲形成的沟-弧-盆体系活动大陆边缘）"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "下石炭统黑山头组",
+"attributes": {
+"name": "下石炭统黑山头组",
+"age": "下石炭世",
+"dominant_lithology": "钙碱性安山岩及安山质火山碎屑岩",
+"lithology_notes": "矿区火山岩建造包括安山岩、安山质熔角砾岩、角砾凝灰岩等，为矿体主要赋存层位"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "黑山头组安山岩—安山质熔角砾岩",
+"attributes": {
+"name": "黑山头组安山岩—安山质熔角砾岩"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "Structure",
+"name_zh": "近东西向弧形断裂",
+"attributes": {
+"name": "近东西向弧形断裂",
+"structure_type": "断裂",
+"orientation": "近东西向、弧形展布",
+"scale": "矿区尺度",
+"ore_control_role": "控制矿体展布与产出，为主要控矿构造"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Alteration",
+"name_zh": "硅化",
+"attributes": {
+"name": "硅化",
+"alteration_minerals": "石英",
+"intensity": "强"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Mineral",
+"name_zh": "黄铁矿",
+"attributes": {
+"name": "黄铁矿",
+"role_in_ore": "主要金属硫化物矿物",
+"paragenesis": "与石英共生，常伴随硅化、绢云母化等蚀变"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Fluid",
+"name_zh": "成矿流体",
+"attributes": {
+"nature": "Na+—HS−—Cl−—H2O体系，中低温、低盐度",
+"source": "岩浆水与大气降水混合",
+"temperature_C_min": "119",
+"temperature_C_max": "396",
+"salinity_wtNaCl_min": "2.74",
+"salinity_wtNaCl_max": "8.41"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Isotope",
+"name_zh": "氢同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δD(‰)",
+"value_range": "-83.97～-89.07‰"
+}
+},
+{
+"entity_local_id": "E10",
+"entity_type": "Isotope",
+"name_zh": "氧同位素参数",
+"attributes": {
+"system": "氢氧同位素",
+"parameter_name": "δ18O(成矿流体)(‰)",
+"value_range": "1.8～3.2‰"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "阔尔真阔腊金矿床位于新疆西北部萨吾尔金矿带（喀拉通克岛弧带）内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "主要围岩为",
+"description": "阔尔真阔腊金矿床矿体主要赋存于黑山头组安山岩—安山质熔角砾岩中"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E4",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "黑山头组安山岩—安山质熔角砾岩属于下石炭统黑山头组地层单元"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "受…控制",
+"description": "阔尔真阔腊金矿床矿体展布受近东西向弧形断裂控制"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "主要蚀变为",
+"description": "阔尔真阔腊金矿床围岩蚀变以强硅化为主要特征"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "共生矿物包括",
+"description": "阔尔真阔腊金矿床金属硫化物以黄铁矿为主"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Fluid",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主成矿阶段流体为",
+"description": "阔尔真阔腊金矿床主成矿阶段为Na+—HS−—Cl−—H2O体系的中低温、低盐度流体"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E9",
+"to_entity_local_id": "E8",
+"relation_label_zh": "约束该流体来源",
+"description": "氢同位素δD值约束阔尔真阔腊金矿床成矿流体与岩浆水和大气降水有关"
+},
+{
+"relation_local_id": "R9",
+"relation_type": "Isotope-Fluid",
+"from_entity_local_id": "E10",
+"to_entity_local_id": "E8",
+"relation_label_zh": "约束该流体来源",
+"description": "氧同位素δ18O值约束阔尔真阔腊金矿床成矿流体与岩浆水和大气降水混合有关"
+}
+]
+}

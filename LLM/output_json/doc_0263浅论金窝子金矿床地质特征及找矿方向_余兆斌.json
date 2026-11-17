@@ -1,0 +1,165 @@
+{
+"schema_version": "0.1.0",
+"doc_id": "doc_0263",
+"title": "浅论金窝子金矿床地质特征及找矿方向_余兆斌",
+"language": "zh",
+"entities": [
+{
+"entity_local_id": "E1",
+"entity_type": "Deposit",
+"name_zh": "金窝子金矿床",
+"attributes": {
+"name": "金窝子金矿床",
+"location": "新疆哈密市金窝子矿区",
+"tectonic_position": "红柳河断裂凹陷中的马莲井复向斜内，位于红柳河断裂与玉石山断裂交汇的三角地带",
+"deposit_type": "造山型金矿床",
+"ore_control_features": "断裂构造控矿为主要特征，南北向平行分布的断裂构造为主要容矿构造；矿床由金窝子花岗闪长岩体内多条含金石英脉组成，矿脉多近于平行，主要产于倾向225°～275°、倾角60°～80°的一组剪-张性断裂中，已控制最大深度约250m"
+}
+},
+{
+"entity_local_id": "E2",
+"entity_type": "Region",
+"name_zh": "红柳河断裂凹陷—马莲井复向斜",
+"attributes": {
+"name": "红柳河断裂凹陷—马莲井复向斜",
+"level": "复向斜",
+"tectonic_setting": "位于划分天山地槽与北山地槽的红柳河断裂凹陷中，区域主构造方向为北东—东向"
+}
+},
+{
+"entity_local_id": "E3",
+"entity_type": "StratUnit",
+"name_zh": "古生界泥盆系上统金窝子组（D3J）",
+"attributes": {
+"name": "古生界泥盆系上统金窝子组（D3J）",
+"age": "泥盆系上统",
+"dominant_lithology": "砂砾岩—砂岩—页岩夹灰岩透镜体组合",
+"lithology_notes": "分布于岩体四周，近东西走向，由下而上分3个岩性段：第一段下部灰褐色砂砾岩、上部灰绿色页岩夹细砂岩，厚度约750m；第二段底部灰色、灰绿色含砾粗砂岩（砂岩夹页岩、灰岩透镜体），向上为粗砂岩、细砂岩，上部为灰岩含砾砂岩夹碳质页岩，顶部灰色泥岩、黑色泥质页岩，厚度约700m；第三段分布于250矿床以北，底部薄层灰岩，中部黑色砂砾岩、粗砂岩，上部砂岩、细砂岩，厚度约90m"
+}
+},
+{
+"entity_local_id": "E4",
+"entity_type": "HostRockUnit",
+"name_zh": "金窝子花岗闪长岩体",
+"attributes": {
+"name": "金窝子花岗闪长岩体"
+}
+},
+{
+"entity_local_id": "E5",
+"entity_type": "HostRockUnit",
+"name_zh": "金窝子组围岩",
+"attributes": {
+"name": "金窝子组围岩"
+}
+},
+{
+"entity_local_id": "E6",
+"entity_type": "Structure",
+"name_zh": "南北向平行断裂构造",
+"attributes": {
+"name": "南北向平行断裂构造",
+"structure_type": "断裂",
+"orientation": "走向南北向；矿脉主要产于倾向225°～275°、倾角60°～80°的剪-张性断裂中",
+"scale": "矿区级",
+"ore_control_role": "主要容矿构造，控制含金石英脉的充填与展布"
+}
+},
+{
+"entity_local_id": "E7",
+"entity_type": "Alteration",
+"name_zh": "黄铁绢英岩化",
+"attributes": {
+"name": "黄铁绢英岩化",
+"alteration_minerals": "黄铁矿、绢云母、石英",
+"intensity": "发育"
+}
+},
+{
+"entity_local_id": "E8",
+"entity_type": "Mineral",
+"name_zh": "自然金",
+"attributes": {
+"name": "自然金",
+"role_in_ore": "主要金矿物",
+"paragenesis": "主要以裂隙金、晶隙金形式嵌布于含金石英脉中，部分以包裹金赋存于硫化物-石英颗粒中"
+}
+},
+{
+"entity_local_id": "E9",
+"entity_type": "Mineral",
+"name_zh": "石英",
+"attributes": {
+"name": "石英",
+"role_in_ore": "脉石矿物",
+"paragenesis": "构成含金石英脉，与自然金及硫化物等共同产出"
+}
+}
+],
+"relations": [
+{
+"relation_local_id": "R1",
+"relation_type": "Deposit-Region",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E2",
+"relation_label_zh": "位于",
+"description": "金窝子金矿床位于红柳河断裂凹陷中的马莲井复向斜内"
+},
+{
+"relation_local_id": "R2",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E4",
+"relation_label_zh": "赋存于",
+"description": "金窝子金矿床的含金石英脉主要产于金窝子花岗闪长岩体内"
+},
+{
+"relation_local_id": "R3",
+"relation_type": "Deposit-HostRockUnit",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E5",
+"relation_label_zh": "主要围岩为",
+"description": "金窝子岩体四周为泥盆系沉积岩系，围岩可归属为金窝子组围岩"
+},
+{
+"relation_local_id": "R4",
+"relation_type": "HostRockUnit-StratUnit",
+"from_entity_local_id": "E5",
+"to_entity_local_id": "E3",
+"relation_label_zh": "属于",
+"description": "金窝子组围岩属于古生界泥盆系上统金窝子组（D3J）"
+},
+{
+"relation_local_id": "R5",
+"relation_type": "Deposit-Structure",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E6",
+"relation_label_zh": "受…控制",
+"description": "南北向平行断裂构造为金窝子金矿床主要容矿构造并控制矿脉产出"
+},
+{
+"relation_local_id": "R6",
+"relation_type": "Deposit-Alteration",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E7",
+"relation_label_zh": "主要蚀变为",
+"description": "金窝子金矿床邻矿蚀变围岩以黄铁绢英岩化为主，局部与高品位石英脉接触带可达到工业品位"
+},
+{
+"relation_local_id": "R7",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E8",
+"relation_label_zh": "主要金矿物为",
+"description": "金窝子金矿床金矿物以自然金为主"
+},
+{
+"relation_local_id": "R8",
+"relation_type": "Deposit-Mineral",
+"from_entity_local_id": "E1",
+"to_entity_local_id": "E9",
+"relation_label_zh": "共生矿物包括",
+"description": "金窝子金矿床矿脉以含金石英脉为主，石英为主要脉石矿物"
+}
+]
+}
